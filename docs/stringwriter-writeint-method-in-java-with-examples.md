@@ -1,0 +1,97 @@
+# Java 中 StringWriter write(int)方法示例
+
+> 原文:[https://www . geeksforgeeks . org/stringwriter-writeint-method-in-Java-with-examples/](https://www.geeksforgeeks.org/stringwriter-writeint-method-in-java-with-examples/)
+
+Java 中 **[StringWriter](https://www.geeksforgeeks.org/java-io-stringwriter-class-in-java/)** 类的 **write(int)** 方法用于在 Writer 上写入指定的字节值。该字节值是使用作为整数值传递的字节值的 ASCII 值指定的。该整数值被作为参数。
+
+**语法:**
+
+```
+public void write(int ascii)
+```
+
+**参数:**该方法接受一个强制参数 **ascii** ，它是要写入写入器的字节值的 ascii 值。
+
+**返回值:**此方法不返回值。
+
+下面的程序说明了 write(int)方法的工作原理:
+
+**程序 1:**
+
+```
+// Java program to demonstrate
+// StringWriter write(int) method
+
+import java.io.*;
+
+class GFG {
+    public static void main(String[] args)
+    {
+
+        try {
+
+            // Create a StringWriter instance
+            StringWriter writer
+                = new StringWriter();
+
+            // Write the byte value '0' to this writer
+            // using write() method
+            // This will put the string in the writer
+            // till it is printed on the console
+            writer.write(48);
+
+            System.out.println(writer.toString());
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+
+**Output:**
+
+```
+0
+
+```
+
+**程序 2:**
+
+```
+// Java program to demonstrate
+// StringWriter write(int) method
+
+import java.io.*;
+
+class GFG {
+    public static void main(String[] args)
+    {
+
+        try {
+
+            // Create a StringWriter instance
+            StringWriter writer
+                = new StringWriter();
+
+            // Write the byte value 'A' to this writer
+            // using write() method
+            // This will put the string in the writer
+            // till it is printed on the console
+            writer.write(65);
+
+            System.out.println(writer.toString());
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+
+**Output:**
+
+```
+A
+
+```
