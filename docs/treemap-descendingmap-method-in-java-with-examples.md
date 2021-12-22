@@ -6,7 +6,7 @@
 
 **声明语法:**
 
-```
+```java
 public NavigableMap<K,V> descendingMap()
 
 ```
@@ -22,7 +22,7 @@ public NavigableMap<K,V> descendingMap()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate descendingMap() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class Example1 {
 
 **Output**
 
-```
+```java
 Reverse navigable map values: {16=Sixteen, 10=Ten, 8=Eight, 6=Six, 2=Two}
 
 ```
@@ -62,7 +62,7 @@ Reverse navigable map values: {16=Sixteen, 10=Ten, 8=Eight, 6=Six, 2=Two}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate descendingMap() method
 
 import java.util.*;
@@ -100,7 +100,7 @@ public class Example2 {
 
 **Output**
 
-```
+```java
 List of students in reverse order: {11=Abhishek Rout, 10=Onkar Dherange, 9=Akash Salvi, 8=Vaibhav Kamble, 7=Rajwardhan Shinde, 6=Sagar Joshi, 5=Raviraj Bugge, 4=Abhishek Gadge, 3=Pratik Kulkarni, 2=Hemant Koul, 1=Rahul Gavhane}
 
 ```

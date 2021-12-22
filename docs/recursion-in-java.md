@@ -8,7 +8,7 @@
 **递归中的基条件是什么？**
 在递归程序中，提供基本情况的解，较大问题的解用较小的问题表示。
 
-```
+```java
 int fact(int n)
 {
     if (n < = 1) // base case
@@ -27,7 +27,7 @@ int fact(int n)
 **递归中为什么会出现堆栈溢出错误？**
 如果没有达到或者没有定义基本情况，那么可能会出现栈溢出问题。让我们举个例子来理解这一点。
 
-```
+```java
 int fact(int n)
 {
     // wrong base case (it may cause
@@ -48,7 +48,7 @@ int fact(int n)
 
 *   **直接递归:**
 
-    ```
+    ```java
     void directRecFun()
     {
         // Some code....
@@ -62,7 +62,7 @@ int fact(int n)
 
 *   **间接递归:**
 
-    ```
+    ```java
     void indirectRecFun1()
     {
         // Some code...
@@ -91,7 +91,7 @@ int fact(int n)
 
 让我们以一个简单的函数来举例说明递归是如何工作的。
 
-```
+```java
 // A Java program to demonstrate
 // working of recursion
 
@@ -122,7 +122,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 3 2 1 1 2 3
 
 ```

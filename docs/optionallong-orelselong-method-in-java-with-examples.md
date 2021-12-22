@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long orElse(long other)
 
 ```
@@ -18,7 +18,7 @@ public long orElse(long other)
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElse(long) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value: 452146
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElse(long) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value: 13421
 
 ```

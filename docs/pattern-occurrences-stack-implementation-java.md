@@ -10,7 +10,7 @@
 
 **<u>例</u>** :
 
-```
+```java
 Input : 
 Pattern : ABC
 Text : ABABCABCC
@@ -41,7 +41,7 @@ Occurrences and their removal in the order
 
 **<u>根据以上算法</u>** 示例说明:
 
-```
+```java
 TEXT: ABABCABCC
 PATTERN: ABC
 pointer = 0
@@ -83,7 +83,7 @@ clear Stack
 **算法的 Java 代码** :
 先决条件:[Java 中的堆栈类](https://www.geeksforgeeks.org/stack-class-in-java/)
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -283,7 +283,7 @@ class StackImplementation
 
 输出:
 
-```
+```java
 3
 Occurrences found at:
 4 7 8

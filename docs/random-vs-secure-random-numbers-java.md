@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate
 // random number generation
 // using java.util.Random;
@@ -44,7 +44,7 @@ public class generateRandom {
 
 **输出:**
 
-```
+```java
 Random Integers: 956
 Random Integers: 678
 
@@ -54,7 +54,7 @@ Random Integers: 678
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate secure
 // random number generation
 // using java.security.SecureRandom
@@ -80,7 +80,7 @@ public class generateRandom {
 
 **输出:**
 
-```
+```java
 Random Integers: 817
 Random Integers: 500
 

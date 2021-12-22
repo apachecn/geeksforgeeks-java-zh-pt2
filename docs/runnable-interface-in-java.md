@@ -11,7 +11,7 @@
 直接调用`run()`并不会创建和启动一个新的`Thread`，它会在同一个线程中运行。要开始新的执行行，在线程上调用`start()`。
 **例，**
 
-```
+```java
 public class RunnableDemo {
 
     public static void main(String[] args)
@@ -35,7 +35,7 @@ public class RunnableDemo {
 
 输出:
 
-```
+```java
 Main thread is- main
 Thread-0, executing run() method!
 
@@ -47,7 +47,7 @@ Thread-0, executing run() method!
 `Runnable`不能抛出勾选的异常但是`RuntimeException`可以从`run()`抛出。未捕获的异常由线程的异常处理程序处理，如果 JVM 不能处理或捕获异常，它将打印堆栈跟踪并终止流。
 **例，**
 
-```
+```java
 import java.io.FileNotFoundException;
 
 public class RunnableDemo {
@@ -91,7 +91,7 @@ public class RunnableDemo {
 
 输出:
 
-```
+```java
 java.io.FileNotFoundException
     at RunnableDemo$RunnableImpl.run(RunnableDemo.java:25)
     at java.lang.Thread.run(Thread.java:745)

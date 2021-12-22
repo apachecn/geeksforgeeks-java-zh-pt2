@@ -5,7 +5,7 @@
 **时间单位类**的 **toNanos()** 方法用于获取从 1970 年 1 月 1 日午夜协调世界时开始，由时间单位对象表示的时间，以纳秒数表示。
 **语法:**
 
-```
+```java
 public long toNanos(long duration)
 ```
 
@@ -16,7 +16,7 @@ public long toNanos(long duration)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toNanos() method of TimeUnit Class
 
@@ -43,7 +43,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585501608 milliSeconds in NanoSeconds = 1539585501608000000
 ```
 
@@ -51,7 +51,7 @@ Time 1539585501608 milliSeconds in NanoSeconds = 1539585501608000000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toNanos() method of TimeUnit Class
 
@@ -80,6 +80,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585503771 milliSeconds in NanoSeconds = 1539585503771000000
 ```

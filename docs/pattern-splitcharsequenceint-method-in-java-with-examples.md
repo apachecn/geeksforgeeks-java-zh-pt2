@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String[] split?(CharSequence input, int limit)
 
 ```
@@ -19,7 +19,7 @@ public String[] split?(CharSequence input, int limit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.split(CharSequence) method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 array[0]=Welcome to 
 array[1]= for geeks
 
@@ -66,7 +66,7 @@ array[1]= for geeks
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.split(CharSequence) method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 array[0]=aa
 array[1]=bb
 array[2]=cc

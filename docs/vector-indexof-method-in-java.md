@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.indexOf(Object element)
 ```
 
@@ -18,7 +18,7 @@ Vector.indexOf(Object element)
 
 ## 爪哇
 
-```
+```java
 // Java Program to illustrate indexOf() Method
 // of Vector class
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Vector: [Geeks, for, Geeks, 10, 20]
 The first occurrence of Geeks is at index:0
 The first occurrence of 10 is at index: 3
@@ -76,7 +76,7 @@ The first occurrence of 10 is at index: 3
 
 ## Java
 
-```
+```java
 // Java Program to illustrate indexOf() Method
 // of Vector class
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Vector: [1, 2, 3, 1, 5]
 The first occurrence of 1 is at index : 0
 The first occurrence of 3 is at index : -1

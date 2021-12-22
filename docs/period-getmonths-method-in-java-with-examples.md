@@ -6,7 +6,7 @@ Java 中 Period 类的 getMonths()方法用于获取当前期间中使用它的�
 
 **语法:**
 
-```
+```java
 public int *getMonths*()
 ```
 
@@ -20,7 +20,7 @@ public int *getMonths*()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function getMonths()
 // to get number of months from given period
 import java.time.Period;
@@ -50,14 +50,14 @@ public class PeriodDemo {
 
 **Output:**
 
-```
+```java
 10
 
 ```
 
 **程序二**:这不会把 13 个月换算成年。
 
-```
+```java
 // Java code to show the function getMonths()
 // to get number of months from given period
 import java.time.Period;
@@ -87,7 +87,7 @@ public class PeriodDemo {
 
 **Output:**
 
-```
+```java
 13
 
 ```

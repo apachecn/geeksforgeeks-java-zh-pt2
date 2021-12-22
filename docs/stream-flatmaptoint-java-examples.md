@@ -7,7 +7,7 @@
 **注意:**每个映射的流在其内容被放入该流后被关闭。如果映射的流为空，则改为使用空流。
 **语法:**
 
-```
+```java
 IntStream flatMapToInt(Function<**?** super T, **?** extends IntStream> mapper)
 
 Where, IntStream is a sequence of primitive 
@@ -20,7 +20,7 @@ returns the new stream.
 
 **示例 1:**flatmaptoit()函数，具有将字符串解析为整数的操作。
 
-```
+```java
 // Java code for Stream flatMapToInt
 // (Function mapper) to get an IntStream
 // consisting of the results of replacing
@@ -48,7 +48,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1
 2
 3
@@ -59,7 +59,7 @@ class GFG {
 
 **示例 2:**flatmaptoit()函数，操作映射字符串及其长度。
 
-```
+```java
 // Java code for Stream flatMapToInt
 // (Function mapper) to get an IntStream
 // consisting of the results of replacing
@@ -88,7 +88,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 3
 13

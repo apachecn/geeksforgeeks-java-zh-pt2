@@ -11,7 +11,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // use of final with inheritance
 
@@ -124,7 +124,7 @@ public class Test
 
 输出:
 
-```
+```java
 width of s1 : 10.0
 height of s1 : 20.0
 width of s2 : 10.0
@@ -137,7 +137,7 @@ area of s2 : 100.0
 
 当一个类被声明为最终类时，它不能被子类化，也就是说，没有任何其他类可以扩展它。例如，当[创建像预定义的](https://www.geeksforgeeks.org/create-immutable-class-java/)[字符串](https://www.geeksforgeeks.org/string-class-in-java/)类那样的不可变类时，这特别有用。下面的片段用一个类来说明**最终的**关键词:
 
-```
+```java
 final class A
 {
      // methods and fields
@@ -158,7 +158,7 @@ class B extends A
 
 当一个方法被声明为 final 时，它不能被子类覆盖。[对象](https://www.geeksforgeeks.org/object-class-in-java/)类做到了这一点——它的许多方法都是最终的。下面的片段用一个方法来说明**最终的**关键词:
 
-```
+```java
 class A 
 {
     final void m1() 

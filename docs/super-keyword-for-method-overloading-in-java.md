@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the Method 
 // Overloading without super keyword
 
@@ -49,7 +49,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 String Parameter
 
 ```
@@ -67,7 +67,7 @@ String Parameter
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GFG {
 
     // Method m1 with 0 parameter.
@@ -117,7 +117,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Single Int Parameter
 No parameter method
 
@@ -127,7 +127,7 @@ No parameter method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the use
 // of super keyword with Method
 // Overloading
@@ -190,7 +190,7 @@ public class A {
 
 **输出:**
 
-```
+```java
 Dynamic
 Competetive
 Programming

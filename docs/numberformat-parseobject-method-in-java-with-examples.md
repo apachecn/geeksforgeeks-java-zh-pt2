@@ -21,7 +21,7 @@
 
 **程序 1** :
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -48,14 +48,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 456
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

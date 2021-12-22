@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.get(int index)
 ```
 
@@ -18,7 +18,7 @@ Vector.get(int index)
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate get() method
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Geeks, for, Geeks, 10, 20]
 The element is: Geeks
 
@@ -56,7 +56,7 @@ The element is: Geeks
 
 **程序 2** :
 
-```
+```java
 // Java code to illustrate get() method
 import java.util.Vector;
 
@@ -87,7 +87,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [1, 2, 3, 10, 20]
 The element is: 20
 

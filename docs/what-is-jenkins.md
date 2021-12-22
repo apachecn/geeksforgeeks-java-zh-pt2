@@ -57,7 +57,7 @@
 
 现在我们已经完成了程序部分，詹金斯已经安装在机器上了。让我们最后讨论一下下面列出的一些术语的含义:
 
-```
+```java
 Console output- gives details on how/what it runs behind.
 Run any job== build now.
 The symbol of the sun means the success of your job.

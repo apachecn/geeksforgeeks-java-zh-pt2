@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: String = "Geeks Gor Geeks", index = 6, ch = 'F'
 Output: "Geeks For Geeks."
 
@@ -21,7 +21,7 @@ Output: "geeks"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void main(String args[])
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original String = Geeks Gor Geeks
 Modified String = Geeks For Geeks
 ```
@@ -62,7 +62,7 @@ Modified String = Geeks For Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void main(String args[])
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original String = Geeks Gor Geeks
 Modified String = Geeks For Geeks
 ```
@@ -104,7 +104,7 @@ Modified String = Geeks For Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class GFG {
 
     public static void main(String args[])
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original String = Geeks Gor Geeks
 Modified String = Geeks For Geeks
 ```

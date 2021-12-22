@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setDateFormatSymbols(DateFormatSymbols *newFormatSymbols*)
 ```
 
@@ -17,7 +17,7 @@ public void setDateFormatSymbols(DateFormatSymbols *newFormatSymbols*)
 以下程序说明了简单日期格式的 setDateFormatSymbols()方法:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate
 // DateFormatSymbols() method
 
@@ -61,7 +61,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The SimpleDateFormat: 1/30/19 10:27 AM
 Day1 : Sun
 Day2 : Mon
@@ -75,7 +75,7 @@ Day7 : Sat
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // DateFormatSymbols() method
 
@@ -119,7 +119,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The SimpleDateFormat: 1/30/19 10:28 AM
 Day1 : dom
 Day2 : lun

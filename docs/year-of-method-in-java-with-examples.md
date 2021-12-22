@@ -6,7 +6,7 @@ Java 中 Year 类的 of()方法用于返回 Year 实例。它根据[预定义的
 
 **语法** :
 
-```
+```java
 public static Year of(int isoYear)
 
 ```
@@ -21,7 +21,7 @@ public static Year of(int isoYear)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the of() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the of() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1997
 
 ```

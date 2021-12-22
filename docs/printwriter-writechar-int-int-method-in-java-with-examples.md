@@ -20,7 +20,7 @@ Java 中**[【PrintWriter】](https://www.geeksforgeeks.org/java-io-printwriter-
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter write(char[], int, int) method
 
@@ -67,14 +67,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter write(char[], int, int) method
 
@@ -119,7 +119,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 G
 
 ```

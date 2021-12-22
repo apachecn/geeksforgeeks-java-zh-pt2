@@ -22,7 +22,7 @@
 
 **申报:**
 
-```
+```java
 @GwtCompatible(serializable = true)
 public abstract class Optional<T>
 extends Object
@@ -37,7 +37,7 @@ Where, T is the type of instance that can be contained.
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava Optional class
 import java.util.ArrayList;
@@ -104,7 +104,7 @@ class GuavaLibrary {
 
 输出:
 
-```
+```java
 Displaying values using Java Nulls
 String : Geeks
 String : for

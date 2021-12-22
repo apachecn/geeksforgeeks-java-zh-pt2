@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ boolean isEmpty()
 
 下面的程序说明了 java.util.SortedSet.isEmpty()方法:
 
-```
+```java
 // Java code to illustrate isEmpty()
 
 import java.io.*;
@@ -58,7 +58,7 @@ public class SortedSetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, To, Welcome]
 Is the set empty? false
 Is the set empty? true

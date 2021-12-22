@@ -5,7 +5,7 @@
 **简单时区类**的**克隆()**方法返回这个简单时区实例的克隆。
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -20,7 +20,7 @@ public Object clone()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.clone()
 import java.util.SimpleTimeZone;
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone object :  java.util.SimpleTimeZone
 [ 
  id=India,
@@ -69,7 +69,7 @@ Clone object :  java.util.SimpleTimeZone
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.clone()
 import java.util.SimpleTimeZone;
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Clone object :  java.util.SimpleTimeZone
 [ 
  id=India,

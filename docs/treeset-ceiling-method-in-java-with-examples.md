@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E ceiling(E e)
 ```
 
@@ -20,7 +20,7 @@ public E ceiling(E e)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // ceiling() method
 
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 TreeSet: [10, 20, 30, 40]
 Ceiling value for 25: 30
 
@@ -71,7 +71,7 @@ Ceiling value for 25: 30
 
 **示例 2:** 演示*空指针异常*。
 
-```
+```java
 // Java program to demonstrate
 // ceiling() method for NullPointerException
 
@@ -116,7 +116,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 TreeSet: [10, 20, 30, 40]
 Trying to compare with null value 
 Exception: java.lang.NullPointerException

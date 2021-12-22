@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Splitter fixedLength(int length)
 
 ```
@@ -19,7 +19,7 @@ public static Splitter fixedLength(int length)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // fixedLength(int length) method
 // of Guava's Splitter Class
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 When Length is 3 : 
 Del
 hi
@@ -91,7 +91,7 @@ rh
 
 **示例 2:** 显示 IllegalArgumentException
 
-```
+```java
 // Java code to show implementation of
 // fixedLength(int length) method
 // of Guava's Splitter Class
@@ -134,7 +134,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 When Length is 0 : 
 Exception: java.lang.IllegalArgumentException: 
            The length may not be less than 1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -51,7 +51,7 @@ public class OptionalDemo {
 
 **输出:**
 
-```
+```java
 Optional 1: Optional[456]
 Optional 2: Optional[456]
 Comparing Optional 1 and Optional 2: true
@@ -60,7 +60,7 @@ Comparing Optional 1 and Optional 2: true
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -92,7 +92,7 @@ public class OptionalDemo {
 
 **输出:**
 
-```
+```java
 Optional 1: Optional[456]
 Optional 2: Optional.empty
 Comparing Optional 1 and Optional 2: false

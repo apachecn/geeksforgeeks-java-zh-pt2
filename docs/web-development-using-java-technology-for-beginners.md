@@ -23,7 +23,7 @@
 
 ****示例:** [JSP](https://www.geeksforgeeks.org/introduction-to-jsp/) 页面有助于从数据库中检索信息并在网页上展示给用户。**
 
-```
+```java
 **login.jsp
 <!DOCTYPE html>
 <html>
@@ -45,7 +45,7 @@
 
 ****标签:****
 
-```
+```java
 **<form action="userlogin" method="post"> tag -> action** 
 ```
 
@@ -69,7 +69,7 @@
 
 ******示例:**是在如上图 JSP 页面示例的基础上提供的****
 
-```
+```java
 ****// Importing required basic classes
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -124,11 +124,11 @@ import javax.servlet.http.HttpServletResponse;
 
 ****这样，您就必须添加一个 jar 文件****
 
-```
+```java
 ****For MySQL DB->mysql connector jar file and for**** 
 ```
 
-```
+```java
 ****For Oracle->ojdbc jar file****
 ```
 
@@ -138,7 +138,7 @@ import javax.servlet.http.HttpServletResponse;
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 ****// Java Program to Illustrate JDBC Connection In Oracle DB
 
 // Importing database
@@ -199,7 +199,7 @@ public class JDBCconnection {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 ****// Java Program to Illustrate JDBC Connection In SQL DB
 
 // Importing database
@@ -252,7 +252,7 @@ public class JdbcMySql {
 
 ******输出:**在控制台生成****
 
-```
+```java
 ****Connection established**** 
 ```
 

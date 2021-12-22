@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(int index, Collection C)
 ```
 
@@ -23,7 +23,7 @@ boolean addAll(int index, Collection C)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate boolean addAll()
 
 import java.util.*;
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, for, Geeks, 10, 20]
 The new Stack is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 
@@ -72,7 +72,7 @@ The new Stack is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // boolean add(Object element)
 
@@ -114,7 +114,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 20, 30, 40, 50]
 The new Stack is: [10, 20, 1, 2, 3, 30, 40, 50]
 

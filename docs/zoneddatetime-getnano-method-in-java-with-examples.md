@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public int getNano()
 
 ```
@@ -20,7 +20,7 @@ public int getNano()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getNano() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 nano-of-second:123000000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getNano() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 nano-of-second:543000000
 
 ```

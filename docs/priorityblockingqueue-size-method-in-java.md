@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int size()
 ```
 
@@ -16,7 +16,7 @@ public int size()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // size() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue:  [1, 2, 3, 4]
 Queue Size:  4
 
@@ -53,7 +53,7 @@ Queue Size:  4
 
 **程序 2:** 演示动态改变队列的大小()。
 
-```
+```java
 // Java program to demonstrate 
 // size() method 
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue:  [1, 2, 3, 4]
 Queue Size:  4
 

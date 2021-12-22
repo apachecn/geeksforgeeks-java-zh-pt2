@@ -11,7 +11,7 @@ Writer 类用于编写字符流，通过它可以将字节数组作为参数传�
 
 **程序:**
 
-```
+```java
 // Java Program Convert
 // Byte Array to Writer
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Speed of light: 3.0e8
 
 ```

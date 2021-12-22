@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 <**R**> Stream<**R**> map(Function<**?** super **T**, **?** extends **R**> mapper)
 
 where, R is the element type of the new stream.
@@ -21,7 +21,7 @@ returns the new stream.
 
 **示例 1 :** 流映射()函数，对流的每个元素进行数字* 3 的运算。
 
-```
+```java
 // Java code for Stream map(Function mapper)
 // to get a stream by applying the
 // given function to this stream.
@@ -48,7 +48,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The stream after applying the function is : 
 9
 18
@@ -60,7 +60,7 @@ The stream after applying the function is :
 
 **例 2 :** 流映射()函数，具有将小写转换为大写的操作。
 
-```
+```java
 // Java code for Stream map(Function mapper)
 // to get a stream by applying the
 // given function to this stream.
@@ -94,7 +94,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The stream after applying the function is : 
 [GEEKS, GFG, G, E, E, K, S]
 
@@ -102,7 +102,7 @@ The stream after applying the function is :
 
 **例 3 :** 流映射()函数，用映射字符串长度代替字符串的操作。
 
-```
+```java
 // Java code for Stream map(Function mapper)
 // to get a stream by applying the
 // given function to this stream.
@@ -130,7 +130,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The stream after applying the function is : 
 5
 3

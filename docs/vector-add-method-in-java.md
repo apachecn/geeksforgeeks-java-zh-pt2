@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean add(Object element)
     ```
 
@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate boolean add(Object element)
     import java.util.*;
 
@@ -51,7 +51,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The vector is: [Geeks, for, Geeks, 10, 20]
     The new Vector is: [Geeks, for, Geeks, 10, 20, Last, Element]
 
@@ -61,7 +61,7 @@
 
     **语法:**
 
-    ```
+    ```java
     void add(int index, Object element)
     ```
 
@@ -78,7 +78,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate boolean add(Object element)
     import java.util.*;
 
@@ -111,7 +111,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The vector is: [Geeks, for, Geeks, 10, 20]
     The new Vector is: [Geeks, for, Last, Geeks, Element, 10, 20]
 

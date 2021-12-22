@@ -7,7 +7,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for reversing an arraylist
 import java.io.*;
 import java.util.*;
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Elements before reversing:1 2 3 4 
 Elements after reversing:4 3 2 1
 ```
@@ -76,7 +76,7 @@ Elements after reversing:4 3 2 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for reversing an arraylist
 import java.io.*;
 import java.util.*;
@@ -132,7 +132,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Elements before reversing: 12 13 123 54 1 
 Elements after reversing: 1 54 123 13 12
 ```

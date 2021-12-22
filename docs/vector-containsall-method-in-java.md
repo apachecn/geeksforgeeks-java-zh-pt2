@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.containsAll(Collection col)
 ```
 
@@ -20,7 +20,7 @@ Vector.containsAll(Collection col)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate containsAll()
 import java.util.*;
 
@@ -62,7 +62,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 Are all the contents equal? true
 Are all the contents equal? false
@@ -71,7 +71,7 @@ Are all the contents equal? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -116,7 +116,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 Vector: [10, 15, 30, 20, 5]
 Are all the contents equal? false

@@ -5,7 +5,7 @@
 **random()** 是 java 中 StrictMath 类的一个内置方法，用于获取一个双精度值，该值带有一个大于或等于 0.0 且小于 1.0 的正数。random()方法被精确地组织起来，以默许多个线程的适当使用。返回的值采用伪随机方式，并在该范围内保持恒定分布。
 **语法:**
 
-```
+```java
 public static double random()
 ```
 
@@ -16,7 +16,7 @@ public static double random()
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.random() Method
 import java.lang.*;
@@ -37,7 +37,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Generated random number = 0.7276560829796844
 Generated random number = 0.6646167632286143
 ```
@@ -46,7 +46,7 @@ Generated random number = 0.6646167632286143
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.random() Method
 import java.lang.*;
@@ -67,7 +67,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Generated random number = 0.5071995313935024
 Generated random number = 0.6938224427158157
 ```

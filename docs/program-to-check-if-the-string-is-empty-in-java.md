@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "" 
 Output: True
 
@@ -21,7 +21,7 @@ Output: False
 *   我们可以简单地使用字符串类
     **的 [isEmpty()方法检查字符串是否为空【语法:](https://www.geeksforgeeks.org/java-string-isempty-method-example/)**
 
-    ```
+    ```java
     if (str.isEmpty())
 
     ```
@@ -30,7 +30,7 @@ Output: False
 
 下面是上述方法的实现:
 
-```
+```java
 // Java Program to check if
 // the String is empty in Java
 
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Is string "GeeksforGeeks" empty? false
 Is string "" empty? true
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 E poll()
 ```
 
@@ -16,7 +16,7 @@ E poll()
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of Queue
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue's head: 35658786
@@ -60,7 +60,7 @@ Queue's head: 35658786
 
 **程序 2:** 演示队列变空时队列的轮询()方法
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of Queue when the Queue becomes empty
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [423, 3432]
 Queue's head: 423
 Queue's head: 3432
@@ -110,7 +110,7 @@ Queue's head: null
 
 **节目 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of Queue
 
@@ -145,7 +145,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue's head: 35658786
@@ -154,7 +154,7 @@ Queue's head: 35658786
 
 **程序 4:** 在**的配合下**。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of Queue
 
@@ -190,7 +190,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue's head: 35658786
@@ -199,7 +199,7 @@ Queue's head: 35658786
 
 **项目 5:** 在**的帮助下，链接锁定了**。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of Queue
 
@@ -235,7 +235,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue's head: 35658786

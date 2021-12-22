@@ -13,14 +13,14 @@
 
 *   **Strong References:** This is the default type/class of Reference Object. Any object which has an active strong reference are not eligible for garbage collection. The object is garbage collected only when the variable which was strongly referenced points to null.
 
-    ```
+    ```java
     MyClass obj = new MyClass ();          
 
     ```
 
     这里的‘obj’对象是对新创建的 MyClass 实例的强引用，目前 obj 是活动对象，所以不能被垃圾收集。
 
-    ```
+    ```java
     obj = null;
     //'obj' object is no longer referencing to the instance. 
     So the 'MyClass type object is now available for garbage collection.          
@@ -29,7 +29,7 @@
 
     ![Strong References in Java](img/03398cf3327732a1ae6e4d1cef86ab27.png)
 
-    ```
+    ```java
     // Java program to illustrate Strong reference
     class Gfg
     {
@@ -57,7 +57,7 @@
 
     ![weak-references-in-java](img/da14a2e95f2d67da1635bba83649932f.png)
 
-    ```
+    ```java
     //Java Code to illustrate Weak reference
     import java.lang.ref.WeakReference;
     class Gfg
@@ -98,7 +98,7 @@
 
     输出:
 
-    ```
+    ```java
     GeeksforGeeks
     GeeksforGeeks
 
@@ -109,7 +109,7 @@
 *   **Soft References:** In Soft reference, even if the object is free for garbage collection then also its not garbage collected, until JVM is in need of memory badly.The objects gets cleared from the memory when JVM runs out of memory.To create such references [java.lang.ref.SoftReference](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/SoftReference.html) class is used.
     ![soft-references-in-java](img/cbed2046cccd1a2c1d520d6b91b40a0f.png)
 
-    ```
+    ```java
     //Code to illustrate Soft reference
     import java.lang.ref.SoftReference;
     class Gfg
@@ -149,7 +149,7 @@
 
     输出:
 
-    ```
+    ```java
     GeeksforGeeks
     GeeksforGeeks
 
@@ -157,7 +157,7 @@
 
 *   **Phantom References: **The objects which are being referenced by phantom references are eligible for garbage collection. But, before removing them from the memory, JVM puts them in a queue called ‘reference queue’ . They are put in a reference queue after calling finalize() method on them.To create such references [java.lang.ref.PhantomReference](https://docs.oracle.com/javase/7/docs/api/java/lang/ref/PhantomReference.html) class is used.
 
-    ```
+    ```java
     //Code to illustrate Phantom reference
     import java.lang.ref.*;
     class Gfg
@@ -203,14 +203,14 @@
 
     运行时错误:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.NullPointerException
         at Example.main(Example.java:31)
     ```
 
     输出:
 
-    ```
+    ```java
     GeeksforGeeks
     ```
 

@@ -9,7 +9,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 
 allprojects {           
  repositories {           
@@ -22,7 +22,7 @@ allprojects {           
 
 ## 可扩展标记语言
 
-```
+```java
 
 dependencies {           
      implementation 'com.github.chrisbanes:PhotoView:2.0.0'          
@@ -33,7 +33,7 @@ dependencies {           
 
 ## activity_main.xml
 
-```
+```java
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
@@ -56,7 +56,7 @@ dependencies {           
 
 ## MainActivity.java
 
-```
+```java
 
 package org.geeksforgeeks.photoView          
 

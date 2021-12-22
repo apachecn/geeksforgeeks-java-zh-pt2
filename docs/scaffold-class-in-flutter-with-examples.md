@@ -6,7 +6,7 @@
 
 ### **阶级等级:**
 
-```
+```java
 Object
  ↳ Diagnosticable
    ↳ Diagnosticable Tree
@@ -17,7 +17,7 @@ Object
 
 ### **脚手架类的施工人员:**
 
-```
+```java
 const Scaffold({
     Key key,
     this.appBar,
@@ -47,7 +47,7 @@ const Scaffold({
 
 ## 镖
 
-```
+```java
 Widget build(BuildContext context)
 {
   return Scaffold(
@@ -62,7 +62,7 @@ Widget build(BuildContext context)
 
 ## 镖
 
-```
+```java
 Widget build(BuildContext context)
 {
   return Scaffold(
@@ -87,7 +87,7 @@ Widget build(BuildContext context)
 
 ## 镖
 
-```
+```java
 Widget build(BuildContext context)
 {
   return Scaffold(
@@ -118,7 +118,7 @@ Widget build(BuildContext context)
 
 ## 镖
 
-```
+```java
 drawer: Drawer(
           child: ListView(
         children: const <Widget>[
@@ -154,7 +154,7 @@ drawer: Drawer(
 
 ## 镖
 
-```
+```java
 ListTile(
     title
     : Text('Item 1'),
@@ -175,7 +175,7 @@ ListTile(
 
 ## 镖
 
-```
+```java
 bottomNavigationBar
     : BottomNavigationBar(
           currentIndex : 0,

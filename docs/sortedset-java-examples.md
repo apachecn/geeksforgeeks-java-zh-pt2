@@ -14,7 +14,7 @@
 
 **排序集示例:**
 
-```
+```java
 // Java program to demonstrate the
 // Sorted Set
 import java.util.*;
@@ -56,7 +56,7 @@ class SortedSetExample{
 
 **Output:**
 
-```
+```java
 [Australia, India, South Africa]
 Set after removing Australia:[India, South Africa]
 Iterating over set:
@@ -80,7 +80,7 @@ South Africa
 
 **1。添加元素:**为了给 SortedSet 添加一个元素，我们可以使用 [add()方法。](https://www.geeksforgeeks.org/sortedset-add-method-in-java-with-examples/)但是，插入顺序不会保留在树集中。在内部，对于每个元素，值都是按升序进行比较和排序的。我们需要注意，重复的元素是不允许的，所有重复的元素都会被忽略。此外，排序集不接受空值。
 
-```
+```java
 // Java code to demonstrate
 // the working of SortedSet
 import java.util.*;
@@ -105,14 +105,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [A, B, C]
 
 ```
 
 **2。访问元素:**添加元素后，如果想访问元素，可以使用内置的方法，如 [contains()](https://www.geeksforgeeks.org/sortedset-contains-method-in-java-with-examples/) 、 [first()](https://www.geeksforgeeks.org/sortedset-contains-method-in-java-with-examples/) 、 [last()](https://www.geeksforgeeks.org/sortedset-last-method-in-java/) 等。
 
-```
+```java
 // Java code to demonstrate
 // the working of SortedSet
 
@@ -152,7 +152,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Sorted Set is [A, B, C]
 Contains D false
 First Value A
@@ -162,7 +162,7 @@ Last Value C
 
 **3。移除值:**可以使用[移除()方法](https://www.geeksforgeeks.org/sortedset-remove-method-in-java-with-examples/)从排序集中移除值。
 
-```
+```java
 // Java code to demonstrate
 // the working of SortedSet
 
@@ -194,7 +194,7 @@ class GFG{
 
 **Output:**
 
-```
+```java
 Initial TreeSet [A, B, C, D, E]
 After removing element [A, C, D, E]
 
@@ -202,7 +202,7 @@ After removing element [A, C, D, E]
 
 **4。迭代排序集:**有多种方法迭代排序集。最著名的一个是使用[增强为循环。](https://www.geeksforgeeks.org/loops-in-java/)
 
-```
+```java
 // Java code to demonstrate
 // the working of SortedSet
 
@@ -233,7 +233,7 @@ class GFG
 
 **Output:**
 
-```
+```java
 A, B, C, D, E, Z,
 
 ```
@@ -242,7 +242,7 @@ A, B, C, D, E, Z,
 
 **[TreeSet:](https://www.geeksforgeeks.org/treeset-in-java-with-examples/)** TreeSet 类在 collections 框架中实现，是 SortedSet 接口的实现，SortedSet 扩展了 [Set 接口](https://www.geeksforgeeks.org/set-in-java/)。它的行为就像一个简单的集合，只是它以排序的格式存储元素。TreeSet 使用树形数据结构进行存储。对象以排序的升序存储。但是我们可以使用方法[treeset . Degending Terrar()](https://www.geeksforgeeks.org/treeset-descendingiterator-method-in-java-with-examples/)进行降序迭代。让我们看看如何使用这个类创建 sortedset 对象。
 
-```
+```java
 // Java program to demonstrate the
 // creation of SortedSet object using
 // the TreeSet class
@@ -286,7 +286,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [Australia, India, South Africa]
 Set after removing Australia:[India, South Africa]
 Iterating over set:

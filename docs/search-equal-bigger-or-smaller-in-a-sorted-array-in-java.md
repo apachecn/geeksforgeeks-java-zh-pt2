@@ -9,7 +9,7 @@
 
 示例:
 
-```
+```java
 Input : { 0, 2, 4, 6 }, key -1, EQUAL 
 Output : -1
 
@@ -29,7 +29,7 @@ Output : 3
 
 在下面的代码中， **SC 代表搜索标准**。
 
-```
+```java
 public class BinarySearchEqualOrClose {
 
     private static void printResult(int key, int pos,
@@ -140,7 +140,7 @@ public class BinarySearchEqualOrClose {
 
 **Output:**
 
-```
+```java
 -1, EQUAL:-1
 -1, EQUAL_OR_SMALLER:-1
 -1, EQUAL_OR_BIGGER:0

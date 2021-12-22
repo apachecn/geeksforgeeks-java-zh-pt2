@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String toString()
 
 ```
@@ -19,7 +19,7 @@ public static String toString()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.time.*;
@@ -45,7 +45,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +05:00
 ZoneOffset string: +05:00
 
@@ -53,7 +53,7 @@ ZoneOffset string: +05:00
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.time.*;
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z
 ZoneOffset string: Z
 

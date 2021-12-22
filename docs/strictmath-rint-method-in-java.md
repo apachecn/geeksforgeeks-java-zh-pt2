@@ -5,7 +5,7 @@
 **rint()** 是 Java 中 [StrictMath 类的内置方法，用于获取值最接近自变量且等于整数的双精度值。它返回一个整数值，当两个整数的双精度值相等地接近给定参数的值时，该整数值是偶数。当参数值已经等于整数时，它返回与参数相同的值，当参数为 NaN 或无穷大或正零或负零时，它返回与参数相同的值。
 **语法:**](https://www.geeksforgeeks.org/java-lang-strictmath-class-java-set-1/)
 
-```
+```java
 public static double rint(*double num*)
 ```
 
@@ -13,7 +13,7 @@ public static double rint(*double num*)
 **返回值:**该方法返回最接近的等于整数的浮点值。
 **示例:**
 
-```
+```java
 Input: num =72.2
 Output: 72.0
 ```
@@ -23,7 +23,7 @@ Output: 72.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.rint()
 
@@ -58,7 +58,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Integer value closest to 87.1 = 87.0 
 The Integer value closest to 87.1 = 87.0
 ```
@@ -67,7 +67,7 @@ The Integer value closest to 87.1 = 87.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.rint()
 
@@ -103,7 +103,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Integer value closest to -65.5 = -66.0 
 The Integer value closest to -65.5 = -66.0
 ```

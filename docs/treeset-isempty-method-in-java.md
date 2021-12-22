@@ -6,7 +6,7 @@ Java.util.TreeSet.isEmpty()方法用于检查和验证 TreeSet 是否为空。�
 
 **语法:**
 
-```
+```java
 Tree_Set.isEmpty()
 ```
 
@@ -16,7 +16,7 @@ Tree_Set.isEmpty()
 
 下面程序举例说明使用 Java.util.TreeSet.isEmpty()方法:
 
-```
+```java
 // Java code to illustrate isEmpty() method
 import java.util.*;
 import java.util.TreeSet;
@@ -52,7 +52,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 Is the set empty? false
 Is the set empty? true

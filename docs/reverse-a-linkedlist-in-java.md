@@ -13,7 +13,7 @@
 第四步。元素将按以下顺序存储:n，n-1，n-2，……0
 步骤 5。将列表返回给呼叫者并打印出来
 
-```
+```java
 Example:
 Step 1: LL: 1 -> 2 -> 3 -> 4 -> 5 where 'LL' is the linked list with n elements
 Step 2: 'Rev' is an empty linked list
@@ -29,7 +29,7 @@ Step 5: Return Rev: 5 -> 4 -> 3 -> 2 -> 1  to the calling function.
 
 ```
 
-```
+```java
 // Java program for reversing linked list using additional space
 import java.util.*;
 
@@ -69,7 +69,7 @@ T3】空间复杂度: O(n)
 
 **Output:**
 
-```
+```java
 Elements before reversing: [Cherry, Chennai, Bullet]
 Elements after reversing: [Bullet, Chennai, Cherry]
 
@@ -84,7 +84,7 @@ Elements after reversing: [Bullet, Chennai, Cherry]
 3。在第二遍中，交换第二个和第(n-1)个元素，以此类推，直到到达链表的中间。
 4。循环终止后返回链表。
 
-```
+```java
 Example:
 Input: 1 -> 2 -> 3 -> 4 -> 5
 1st pass: (swap first and nth element)
@@ -97,7 +97,7 @@ Output: 5 -> 4 -> 3 -> 2 -> 1
 
 ```
 
-```
+```java
 // Java program for reversing an arraylist without
 // using any additional space
 import java.util.*;
@@ -141,7 +141,7 @@ T3】空间复杂度: O(1)
 
 **Output:**
 
-```
+```java
 Elements before reversing: [1, 2, 3, 4, 5]
 Elements after reversing: [5, 4, 3, 2, 1]
 
@@ -151,7 +151,7 @@ Elements after reversing: [5, 4, 3, 2, 1]
 
 **注意:Collections.reverse()方法使用的算法与“通过编写我们自己的函数(不使用额外的空间)”**相同
 
-```
+```java
 // Java program for reversing a linked list using
 // In-built collections class
 import java.util.*;
@@ -184,7 +184,7 @@ T3】空间复杂度: O(1)
 
 **Output:**
 
-```
+```java
 Elements before reversing: [1, 2, 3, 4, 5]
 Elements after reversing: [5, 4, 3, 2, 1]
 
@@ -194,7 +194,7 @@ Elements after reversing: [5, 4, 3, 2, 1]
 
 printElements()方法用于遍历链表中所有用户定义的对象，并打印每个对象的员工 ID、姓名和部门名称。
 
-```
+```java
 // Java program for reversing a inkedlist of user defined objects
 import java.util.*;
 
@@ -254,7 +254,7 @@ T3】空间复杂度: O(1)
 
 **Output:**
 
-```
+```java
 Elements before reversing: 
  EmpID:123, EmpName:Cherry, Department:Fashionist
  EmpID:124, EmpName:muppala, Department:Development

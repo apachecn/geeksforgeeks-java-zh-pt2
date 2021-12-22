@@ -8,7 +8,7 @@ Java 中 **ZoneId** 类的 **normalized()** 方法用于对时区 Id 进行规�
 
 **语法:**
 
-```
+```java
 public ZoneId normalized()
 
 ```
@@ -20,7 +20,7 @@ public ZoneId normalized()
 下面的程序说明了归一化()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.normalized() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Normalised zoneId: Europe/Paris
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.normalized() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Normalised zoneId: Asia/Calcutta
 
 ```

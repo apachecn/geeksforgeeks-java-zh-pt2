@@ -10,7 +10,7 @@
 换句话说，我们可以说，当我们序列化任何对象时，如果它包含任何其他对象引用，那么 JVM 会序列化该对象及其对象引用。
 让我们借助一个简单的例子来更清楚地说明这一点。
 
-```
+```java
 // Java program to demonstrate how serializing 
 // an object serializes other reference objects.
 import java.io.FileInputStream;
@@ -80,7 +80,7 @@ class DemoSerialize {
 
 输出:
 
-```
+```java
 Value of i after Serialization is 10
 Value of j after Serialization is 20
 

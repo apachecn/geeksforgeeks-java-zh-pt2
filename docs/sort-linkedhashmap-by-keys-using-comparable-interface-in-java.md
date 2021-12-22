@@ -6,7 +6,7 @@
 
 为了首先使用 Java 中的[可比](https://www.geeksforgeeks.org/comparable-vs-comparator-in-java/)接口按键对 LinkedHashMap 进行排序，我们创建了一个实现可比接口的类。在这个类中，我们覆盖了 [compareTo()](https://www.geeksforgeeks.org/boolean-compareto-method-in-java-with-examples/) 方法。
 
-```
+```java
 // Student class implements comparable interface
 
 class Student implements Comparable<Student> {
@@ -30,7 +30,7 @@ class Student implements Comparable<Student> {
 
 然后我们将 LinkedHashMap 传递给 TreeMap 构造函数进行排序。
 
-```
+```java
 TreeMap<Student, Integer> tree_map = new TreeMap<>(map);
 ```
 
@@ -40,7 +40,7 @@ TreeMap<Student, Integer> tree_map = new TreeMap<>(map);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to Sort LinkedHashMap by
 // keys using Comparable interface
 import java.util.*;
@@ -93,7 +93,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort keys in ascending order : {Bina=200, Akshay=400, Chintu=500}
 After sort keys in ascending order : {Akshay=400, Bina=200, Chintu=500}
 ```
@@ -102,7 +102,7 @@ After sort keys in ascending order : {Akshay=400, Bina=200, Chintu=500}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program demonstrate how to Sort LinkedHashMap by
 // keys using Comparable interface
 import java.util.*;
@@ -155,7 +155,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sort keys in descending order : {Bina=200, Akshay=400, Chintu=500}
 After sort keys in descending order : {Chintu=500, Bina=200, Akshay=400}
 ```

@@ -17,7 +17,7 @@ JAR 代表 Java 存档文件。它是一种平台**–**独立文件格式，允
 
 **1。通过像 Netbeans 或 Eclipse 这样的 T2 集成开发环境创建一个 JAR 文件是非常简单的。在文件中，我们有一个导出选项，可以帮助我们将 java 应用程序导出为 JAR 文件。这之后去**
 
-```
+```java
 File -> Export->Java-> JAR file
 ```
 
@@ -35,7 +35,7 @@ File -> Export->Java-> JAR file
 
 使用 jar 工具，我们可以创建如下所示的 jar 文件
 
-```
+```java
 cmd>> jar cvf jarfile inputfileDir1 inputfileDir2
 ```
 
@@ -48,7 +48,7 @@ cmd>> jar cvf jarfile inputfileDir1 inputfileDir2
 
 现在我们将展示这个文件，因为这是一个捆绑在你的 JAR 文件中的特殊文件。它有特殊的元数据，如主类名、版本控制、作者的数字签名、用于捆绑 jar 文件的 java 版本。文件名是“MANIFEST。它是 META-INF 子目录的一部分。如果在绑定 JAR 文件的过程中没有提供这个文件，它会被自动创建。当我们提取并打开 jar 文件时，我们可以查看这个文件。它有以下细节
 
-```
+```java
 Manifest-Version: 1.0
 ```
 
@@ -56,7 +56,7 @@ Manifest-Version: 1.0
 
 **说明:**考虑用名为 ***helloworld 的清单文件创建一个 JAR 文件。**MF*
 
-```
+```java
 Manifest-Version : 1.0
 Main-class : com.sample.test.HelloWorld
 ```
@@ -65,7 +65,7 @@ Main-class : com.sample.test.HelloWorld
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing the package 
 package com.sample.test;
 

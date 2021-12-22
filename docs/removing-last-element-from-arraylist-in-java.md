@@ -6,7 +6,7 @@
 
 **例**:
 
-```
+```java
 Input: ArrayList[] = [10, 20, 30, 1, 2]
 Output: [10, 20, 30, 1]
 After removing the last element 2, the ArrayList is:
@@ -32,12 +32,12 @@ ArrayList 提供了两个重载的 remove()方法:
 
 *   **程序 1** :使用移除(int index)。使用[大小()方法计算最后一个元素的指数](https://www.geeksforgeeks.org/arraylist-size-method-in-java-with-examples/)为:
 
-    ```
+    ```java
     index = ArrayList.size() - 1;
 
     ```
 
-    ```
+    ```java
     // Java program to delete last element of ArrayList
     import java.util.List;
     import java.util.ArrayList;
@@ -65,14 +65,14 @@ ArrayList 提供了两个重载的 remove()方法:
 
     **输出:**
 
-    ```
+    ```java
     Modified ArrayList : [10, 20, 30, 1]
 
     ```
 
 *   **程序 2** :使用移除(对象对象)。
 
-    ```
+    ```java
     // Java program to delete last element of ArrayList
     import java.util.List;
     import java.util.ArrayList;
@@ -99,7 +99,7 @@ ArrayList 提供了两个重载的 remove()方法:
 
     **输出:**
 
-    ```
+    ```java
     Modified ArrayList : [10, 20, 30, 1]
 
     ```

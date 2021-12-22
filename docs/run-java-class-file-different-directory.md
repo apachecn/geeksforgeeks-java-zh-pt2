@@ -17,7 +17,7 @@
 
 import 关键字在 Java 中用于从当前项目的类路径中导入类。您可以从不同的包但从相同的类路径导入类。要记住，类的打包是从类路径开始的。假设您有如下目录结构:
 
-```
+```java
 a > b > c > d > class A
 
 ```
@@ -37,7 +37,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 
 *   **Step 1 (Create utility class):** Create A.java in src directory containing following code.
 
-    ```
+    ```java
     //java utility class
     public class A
     {
@@ -52,7 +52,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 
 *   **Step 2 (Compile utility class):** Open terminal at proj1 location and execute following commands.
 
-    ```
+    ```java
     cp_tutorial/proj1>cd src
     cp_tutorial/proj1/src>javac -d ../classes A.java
 
@@ -64,7 +64,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 *   **步骤 3(检查 A.java 是否编译成功):**检查项目 1 的类目录是否创建了类文件。如果你的程序编译成功，肯定会是“是”。
 *   **Step 4 (Write main class and compile it):** Move to your proj2 directory. Here are also 2 directories for the same reasons. Create MainClass.java in src directory having the following content and try to compile it.
 
-    ```
+    ```java
     //java class to execute program
     public class MainClass{
         public static void main(String[] args){
@@ -75,7 +75,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
     }
     ```
 
-    ```
+    ```java
     cp_tutorial/proj2>cd src
     cp_tutorial/proj2/src>javac -d ../classes MainClass.java
     MainClass.java:4: error: cannot find symbol
@@ -96,7 +96,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 
 *   **Step 5 (Compile with -cp option):**
 
-    ```
+    ```java
     cp_tutorial/proj2>cd src
     cp_tutorial/proj2/src>javac -d ../classes -cp 
     ../../proj1/classes MainClass.java
@@ -109,7 +109,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 
     执行以下命令运行您的程序。
 
-    ```
+    ```java
     cp_tutorial/proj2/src>cd ../classes
     cp_tutorial/proj2/classes>java MainClass
     Exception in thread "main" java.lang.NoClassDefFoundError: A
@@ -130,7 +130,7 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 
 *   **Step 7 (Execute with -cp option):** We have to again provide the path of class A.
 
-    ```
+    ```java
     cp_tutorial/proj2/classes>java -cp ../../proj1/classes; MainClass
     In main class
     Test() method of class A
@@ -144,14 +144,14 @@ import 关键字可以从当前类路径导入类，类路径外的导入不能�
 您也可以使用 jar 文件来代替来自不同类路径的类文件。过程是一样的，你只需要用 jar 文件夹替换 class 文件夹，用 jar 名称替换 class 名称。
 假设你在 lib 目录中有 jar 文件，那么要编译你可以使用
 
-```
+```java
 cp_tutorial/proj2/src>javac -d ../classes -cp ../../proj1/lib MainClass.java
 
 ```
 
 并执行
 
-```
+```java
 cp_tutorial/proj2/classes>java -cp ../../proj1/lib; MainClass
 ```
 

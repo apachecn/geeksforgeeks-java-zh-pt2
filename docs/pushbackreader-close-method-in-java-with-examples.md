@@ -10,7 +10,7 @@ Java 中 **[推回阅读器](https://www.geeksforgeeks.org/java-io-pushbackreade
 
 **语法:**
 
-```
+```java
 public void close()
 ```
 
@@ -24,7 +24,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader close() method
 
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is stream ready: true
 Stream Closed.
 
@@ -68,7 +68,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader close() method
 
@@ -104,7 +104,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is stream ready: true
 Stream Closed.
 

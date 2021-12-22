@@ -8,7 +8,7 @@
 
 **程序 1:**
 
-```
+```java
 class Gfg
 {
     // constructor
@@ -29,7 +29,7 @@ class Gfg
 
 输出:
 
-```
+```java
 Geeksforgeeks
 Geeksforgeeks
 
@@ -41,7 +41,7 @@ Geeksforgeeks
 
 **程序 2:**
 
-```
+```java
 class Gfg
 {
     static int num;
@@ -81,7 +81,7 @@ class Gfg
 
 输出:
 
-```
+```java
 Static Block 1
 Static Block 2
 Value of num = 100
@@ -94,7 +94,7 @@ Value of mystr = Constructor
 
 **程序 3:**
 
-```
+```java
 class superClass
 {
     final public int calc(int a, int b)
@@ -121,7 +121,7 @@ public class Gfg
 
 输出:
 
-```
+```java
 Compilation fails. 
 ```
 
@@ -130,7 +130,7 @@ Compilation fails.
 
 **程序 4:**
 
-```
+```java
 public class Gfg
 {
     public static void main(String[] args)
@@ -146,7 +146,7 @@ public class Gfg
 
 输出:
 
-```
+```java
 false
 true
 ```

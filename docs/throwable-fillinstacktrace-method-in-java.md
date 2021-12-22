@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Throwable fillInStackTrace()
 ```
 
@@ -18,7 +18,7 @@ public Throwable fillInStackTrace()
 
 *说明:*使用 fillInStackTrace()只返回当前线程的帧活动状态信息。因此，当调用 filinstacktrace()时，该方法将返回调用 filinstacktrace()方法的主方法的详细信息。
 
-```
+```java
 // Java program to demonstrate
 // fillInStackTrace() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception details without fillInStackTrace()
 
 Caught Inside Main:
@@ -91,7 +91,7 @@ java.lang.ArithmeticException: / by zero
 
 *说明:*使用 fillInStackTrace()只返回当前线程的帧活动状态信息。因此，当调用 filinstacktrace()时，该方法将返回异常详细信息，直到调用 filinstacktrace()方法的 showResults 方法。但是 main()方法显示了整个异常细节，因为在 main 方法中没有调用 fillInStackTrace()。
 
-```
+```java
 // Java program to demonstrate
 // fillInStackTrace() method
 
@@ -136,7 +136,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.Exception: this is thrown from function1()
     at GFG.exceptionThrownMethod(GFG.java:35)
     at GFG.showResults(GFG.java:27)

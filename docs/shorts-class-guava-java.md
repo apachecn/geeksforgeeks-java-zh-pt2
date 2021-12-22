@@ -6,7 +6,7 @@
 
 ****申报:****
 
-```
+```java
 @GwtCompatible(emulated=true)
 public final class Shorts
 extends Object 
@@ -31,7 +31,7 @@ extends Object
 下面给出了一些示例，显示了番石榴短裤类方法的实现:
 **示例 1 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.asList() method
 
@@ -56,13 +56,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 4, 5, 6, 7] 
 ```
 
 ****例 2 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.indexOf() method
 
@@ -84,13 +84,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2 
 ```
 
 ****例 3 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.concat() method
 
@@ -117,13 +117,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [3, 4, 5, 6, 7] 
 ```
 
 ****例 4 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.contains() method
 
@@ -146,14 +146,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 true 
 ```
 
 ****例 5 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.min() method
 
@@ -173,13 +173,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3 
 ```
 
 ****例 6 :****
 
-```
+```java
 // Java code to show implementation
 // of Guava Shorts.max() method
 
@@ -199,6 +199,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 7 
 ```

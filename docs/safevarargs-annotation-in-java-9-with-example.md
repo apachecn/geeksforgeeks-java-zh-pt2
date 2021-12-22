@@ -12,7 +12,7 @@ Java 5 引入了 [Varargs](https://www.geeksforgeeks.org/variable-arguments-vara
 
 **我们用一些例子来理解这个概念:**
 
-```
+```java
 // Program to illustrate the unsafe operation warnings
 // message with respect to varargs parameter
 
@@ -42,7 +42,7 @@ public class Geeksforgeeks {
 
 **编译时控制台:**
 
-```
+```java
 Note: Geeksforgeeks.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
@@ -50,14 +50,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 **输出:**
 
-```
+```java
 [OOPS, COLLECTION]
 
 ```
 
 这里我们有一个方法，它的 varargs 类型为 List。但是这里我们没有提到 List 将存储的数据类型。这里编译器会警告你，我不会检查你的代码。我不会检查您将添加到数组列表中的值是否属于任何特定类型。这就是为什么它会在编译时抛出不安全的操作警告。这里编译器想知道类型
 
-```
+```java
 List<String> geeks = new ArrayList<String>();
 ```
 
@@ -65,7 +65,7 @@ List<String> geeks = new ArrayList<String>();
 
 让我们在使用@SafeVarargs 注释后再次运行相同的代码。
 
-```
+```java
 // Program to illustrate the
 // @SafeVarargs with respect to varargs
 
@@ -99,14 +99,14 @@ public class Geeksforgeeks {
 
 **输出:**
 
-```
+```java
 [OOPS, COLLECTION]
 
 ```
 
 **注意:**假设如果你想在 JDK 7 或 JDK 8 中运行上述代码，那么你会得到一个编译错误，因为这些增强是在 java 9 之前的 Java 9 中完成的——私有方法不允许用这个注释来标记。
 
-```
+```java
 // Program to illustrate the unsafe
 // operation warnings message
 // with respect to Generics
@@ -143,7 +143,7 @@ public class Geeks<T> {
 
 **编译时控制台:**
 
-```
+```java
 Note: Geeks.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
@@ -151,14 +151,14 @@ Note: Recompile with -Xlint:unchecked for details.
 
 **输出:**
 
-```
+```java
 [OOPS, COLLECTIONS, EXCEPTION-HANDLING]
 
 ```
 
 让我们在使用@SafeVarargs 注释后再次运行相同的代码。
 
-```
+```java
 // Program to illustrate the
 // @SafeVarargs with respect to Generics
 
@@ -195,7 +195,7 @@ public class Geeks<T> {
 
 **输出:**
 
-```
+```java
 [OOPS, COLLECTIONS, EXCEPTION-HANDLING]
 
 ```

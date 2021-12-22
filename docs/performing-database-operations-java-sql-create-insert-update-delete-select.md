@@ -15,20 +15,20 @@
 *   使用 cmd 打开 oracle。在 cmd 中键入 sqlplus，然后按回车键。
 *   创建受密码保护的用户 id。该用户 id 称为子用户。
 
-```
+```java
 create user  identified by ;
 ```
 
 *   向子用户授予所需的权限。为了简单起见，我们将数据库管理员权限授予子用户。
 
-```
+```java
 conn / as sysdba;
 grant dba to ;
 ```
 
 **创建带有空白字段的示例表:**
 
-```
+```java
 CREATE TABLE userid(
     id varchar2(30) NOT NULL PRIMARY KEY,
     pwd varchar2(30) NOT NULL,
@@ -43,14 +43,14 @@ CREATE TABLE userid(
 
 *   **Class.forName() :** 这里我们在运行时将驱动程序的类文件加载到内存中。不需要使用新的或创建的对象。
 
-```
+```java
 Class.forName("oracle.jdbc.driver.OracleDriver");
 ```
 
 *   **DriverManager:** 这个类用于注册特定数据库类型的驱动程序(例如本教程中的 Oracle Database)，并通过其 [**getConnection()**](https://practice.geeksforgeeks.org/problems/how-to-connect-to-a-database-in-java/) 方法与服务器建立数据库连接。
 *   **连接:**这个接口代表一个已经建立的数据库连接(session)，我们可以从这个接口创建语句来执行查询和检索结果，获取关于数据库的元数据，关闭连接等。
 
-```
+```java
 Connection con = DriverManager.getConnection
 ("jdbc:oracle:thin:@localhost:1521:orcl", "login1", "pwd1");
 ```
@@ -59,7 +59,7 @@ Connection con = DriverManager.getConnection
     1.  **布尔执行(字符串 sql):** 执行一般的 sql 语句。如果查询返回*结果集*，则返回*真*，如果查询返回更新计数或不返回任何内容，则返回假。该方法只能与*语句*一起使用。
     2.  **int execute Update(String SQL):**执行 INSERT、UPDATE 或 DELETE 语句，并返回一个更新帐户，指示受影响的行数(例如，插入 1 行，或更新 2 行，或受影响 0 行)。
 
-```
+```java
 Statement stmt = con.createStatement();
       String q1 = "insert into userid values
       ('" +id+ "', '" +pwd+ "', '" +fullname+ "', '" +email+ "')";
@@ -68,7 +68,7 @@ Statement stmt = con.createStatement();
 
 *   **结果集执行查询(字符串 sql):** 执行选择语句并返回一个*结果集*对象，该对象包含查询返回的结果。
 
-```
+```java
 Statement stmt = con.createStatement();
       String q1 = "select * from userid WHERE id = '" + id + "' 
       AND pwd = '" + pwd + "'";
@@ -84,7 +84,7 @@ Oracle 数据库服务器监听位于*本地主机*的默认端口 *1521* 。以
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Connecting to the Database
 import java.sql.*;
@@ -116,7 +116,7 @@ public class connect
 }
 ```
 
-```
+```java
 Output :
 Connected
 ```
@@ -127,7 +127,7 @@ Connected
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // inserting to the Database
 import java.sql.*;
@@ -167,7 +167,7 @@ public class insert1
 }
 ```
 
-```
+```java
 Output :
 Successfully Registered
 ```
@@ -176,7 +176,7 @@ Successfully Registered
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // updating the Database
 import java.sql.*;
@@ -215,7 +215,7 @@ public class update1
 }
 ```
 
-```
+```java
 Output :
 Password Successfully Updated
 ```
@@ -224,7 +224,7 @@ Password Successfully Updated
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // deleting from Database
 import java.sql.*;
@@ -263,7 +263,7 @@ public class delete
 }
 ```
 
-```
+```java
 Output :
 One User Successfully Deleted
 ```
@@ -272,7 +272,7 @@ One User Successfully Deleted
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // selecting from Database
 import java.sql.*;
@@ -314,7 +314,7 @@ public class select
 }
 ```
 
-```
+```java
 Output :
 User-Id : id1
 Full Name : geeks for geeks

@@ -10,7 +10,7 @@
 
 *   **第一步:**在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```java
     implementation 'com.qifan.typingIndicator:typingIndicator:0.1.0'      
     ```
 
@@ -18,7 +18,7 @@
 
     ## 指示器 _ 背景。xml
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <shape 
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -34,7 +34,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -77,7 +77,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.messageIndicator;          
 
     import android.os.Bundle;

@@ -18,7 +18,7 @@
 
 ****语法:****
 
-```
+```java
 T get()
 ```
 
@@ -28,7 +28,7 @@ T get()
 
 ****程序:****
 
-```
+```java
 import java.util.function.Supplier;
 
 public class Main {
@@ -46,7 +46,7 @@ public class Main {
 
 ****输出:**
 
-```
+```java
 0.5685808855697841
 
 ```**

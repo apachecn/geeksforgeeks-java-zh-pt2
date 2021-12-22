@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster firstDayOfYear()
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster firstDayOfYear()
 下面的程序说明了临时调整的第一天()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfYear()
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of the year for localdate 2012-05-31: 2012-01-01
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfYear() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of the year for localdate 2000-12-21: 2000-01-01
 
 ```

@@ -6,7 +6,7 @@ Java 中 **[StringWriter](https://www.geeksforgeeks.org/java-io-stringwriter-cla
 
 **语法:**
 
-```
+```java
 public StringBuffer getBuffer()
 ```
 
@@ -18,7 +18,7 @@ public StringBuffer getBuffer()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter getBuffer() method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 StringBuffer representation: GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter getBuffer() method
 
@@ -103,7 +103,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 StringBuffer representation: GFG
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double tan*(*double ang*)*
 ```
 
@@ -19,7 +19,7 @@ public static double tan*(*double ang*)*
 
 **例:**
 
-```
+```java
 Input : ang = 0.5235987755982988(30 degree)
 Output : 0.5773502691896257
 
@@ -32,7 +32,7 @@ Output : 0.9999999999999999
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate 
 // StrictMath.tan() function
 
@@ -55,14 +55,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 tangent value of 60 degrees : 1.7320508075688767
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate 
 // StrictMath.tan() function
 
@@ -87,7 +87,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 tangent value of 77.128 degrees : 4.376055350774854
 
 ```

@@ -14,7 +14,7 @@ NotSerializableException 类扩展了 ObjectStreamException 类，该类被定�
 
 插图:
 
-```
+```java
 java.io
 Class NotSerializableException
     java.lang.Object
@@ -29,7 +29,7 @@ Class NotSerializableException
 
 **语法:**
 
-```
+```java
 public class NotSerializableException 
 extends ObjectStreamException
 ```
@@ -43,7 +43,7 @@ extends ObjectStreamException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate NotSerializableException
 // Where Exception Is Thrown
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Errors in Code
 Exception in thread "main" java.security.AccessControlException: access denied ("java.io.FilePermission" "employee.dat" "write")
 at java.base/java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
@@ -133,7 +133,7 @@ at NotSerializableExceptionExample.main(NotSerializableExceptionExample.java:21)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate NotSerializableException
 // where No Exception is Thrown Using Serializable interface
 
@@ -206,6 +206,6 @@ class Persist {
 
 **输出:**
 
-```
+```java
 Object stored successfully
 ```

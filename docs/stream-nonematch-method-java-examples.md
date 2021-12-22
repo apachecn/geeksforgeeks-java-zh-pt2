@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 boolean noneMatch(Predicate<? super T> predicate)
 ```
 
@@ -26,7 +26,7 @@ boolean noneMatch(Predicate<? super T> predicate)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate noneMatch() method
 // of Stream class to check whether
 // no elements of this stream match the
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 ```
 
@@ -68,7 +68,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate noneMatch() method
 // of Stream class to check whether no elements
 // of this stream match the provided predicate
@@ -99,7 +99,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 ```
 
@@ -107,7 +107,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate noneMatch() method
 // of Stream class to check whether no elements of
 // this stream match the provided predicate
@@ -143,6 +143,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 false
 ```

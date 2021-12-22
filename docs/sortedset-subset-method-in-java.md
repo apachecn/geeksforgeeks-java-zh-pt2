@@ -10,7 +10,7 @@ Java 中 [SortedSet 接口的 subSet()方法用于返回该集合中元素范围
 
 **语法** :
 
-```
+```java
 SortedSet subSet(E fromElement,
                     E toElement)
 
@@ -32,7 +32,7 @@ SortedSet subSet(E fromElement,
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -61,14 +61,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Elements range between 2 and 9 in set are : [2, 3, 5]
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -97,7 +97,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Elements between C and G in set is : [Code, For]
 
 ```

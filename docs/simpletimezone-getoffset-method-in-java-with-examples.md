@@ -9,7 +9,7 @@
 **SimpleTimeZone 类**的 **getOffset()** 方法用于返回本地时间和 UTC 之间的差异，同时考虑原始偏移和夏令时的影响。这个计算是在毫秒内完成的。
 **语法:**
 
-```
+```java
 public int getOffset(int era,
                      int year,
                      int month,
@@ -36,7 +36,7 @@ public int getOffset(int era,
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getOffset()
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Offset = 520
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getOffset()
 import java.util.*;
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Offset = 780
 
 ```
@@ -121,7 +121,7 @@ Offset = 780
 
 **语法:**
 
-```
+```java
 public int getOffset(long date)
 
 ```
@@ -136,7 +136,7 @@ public int getOffset(long date)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getOffset()
 import java.util.*;
@@ -164,14 +164,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Offset = 520
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getOffset()
 import java.util.*;
@@ -199,7 +199,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Offset = 600
 
 ```

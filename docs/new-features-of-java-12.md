@@ -13,7 +13,7 @@
 
 现在，交换机的新箭头语法介绍如下
 
-```
+```java
 case X -> {} 
 
 ```
@@ -28,7 +28,7 @@ Java 11 和 Java 12 的 Switch 表达式可以比较如下:
 
 T7
 
-```
+```java
 // Java program to demonstrate the
 // classic switch statement
 
@@ -88,7 +88,7 @@ T8T10**输出**T1
 
 ## Java
 
-```
+```java
 // Java program to demonstrate the
 // new switch expression
 
@@ -132,7 +132,7 @@ class Java11switchStatement {
 
 **输出**
 
-```
+```java
 The mealNumber is : 2
 
 ```
@@ -155,7 +155,7 @@ The mealNumber is : 2
 
 *方法签名*
 
-```
+```java
 public static long mismatch(Path path1, Path path2) throws IOException
 
 ```
@@ -171,7 +171,7 @@ public static long mismatch(Path path1, Path path2) throws IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -219,7 +219,7 @@ public class FilesCompareExample {
 
 **输出**
 
-```
+```java
 Mismatch position in file1 and file2 is : -1 
 Mismatch position in file3 and file4 is : 10 
 
@@ -229,7 +229,7 @@ Mismatch position in file3 and file4 is : 10
 
 ## 爪哇
 
-```
+```java
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -257,7 +257,7 @@ public class CompactFormatExample {
 
 **输出**
 
-```
+```java
 100
 1 thousand
 10 thousand
@@ -271,7 +271,7 @@ public class CompactFormatExample {
 
 *方法签名*
 
-```
+```java
 public static Collector teeing​ (Collector downstream1, Collector downstream2, BiFunction merger);
 
 ```
@@ -282,7 +282,7 @@ public static Collector teeing​ (Collector downstream1, Collector downstream2,
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -302,7 +302,7 @@ class TeeingCollectorsExample {
 
 **输出**
 
-```
+```java
 4.0
 
 ```
@@ -319,7 +319,7 @@ class TeeingCollectorsExample {
 
 **输出**
 
-```
+```java
 **********
   Welcome
   Good Morning
@@ -337,7 +337,7 @@ Good Morning
 
 **二)变换(功能<？超级字符串，？扩展 R > f)** :用于调用一个需要字符串参数的函数，产生结果 R
 
-```
+```java
 String s = "Java,Python,Angular";
 List result = s.transform(s1 -> {return Arrays.asList(s1.split(","));});
 System.out.println(result);
@@ -346,14 +346,14 @@ System.out.println(result);
 
 **输出**
 
-```
+```java
 [Java, Python, Angular]
 
 ```
 
 **iii)可选的<字符串> describeConstable()** :该方法将返回一个可选的对象，该对象包含字符串实例的描述符。
 
-```
+```java
 String message = "Welcome!";
 Optional<String> opOfMessage = message.describeConstable();
 System.out.println(opOfMessage);
@@ -362,14 +362,14 @@ System.out.println(opOfMessage);
 
 **输出**
 
-```
+```java
 Optional[Welcome!]
 
 ```
 
 **iv)字符串解析标准描述(方法句柄。查找查找)**:这个方法将返回一个[字符串](https://www.geeksforgeeks.org/string-class-in-java/)对象，它是调用字符串实例的描述符。
 
-```
+```java
 String message = "Welcome!";
 String constantDesc = message.resolveConstantDesc(MethodHandles.lookup());
 System.out.println(constantDesc);
@@ -378,7 +378,7 @@ System.out.println(constantDesc);
 
 **输出**
 
-```
+```java
 Welcome!
 
 ```

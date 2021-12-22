@@ -5,7 +5,7 @@
 [**Java . util . treemap**](https://www.geeksforgeeks.org/treemap-in-java/)类的 **higherEntry()** 方法用于返回与严格大于给定键的最小键相关联的键值映射，如果没有这样的键，则返回 null。
 **语法:**
 
-```
+```java
 public Map.Entry higherEntry(K key)
 ```
 
@@ -17,7 +17,7 @@ T20】例 1:T22】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // higherEntry() method
 // for <Integer, String> value
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeMap: {1=One, 2=Two, 3=Three, 4=Four, 5=Five}
 The higherEntry value  for 3: 4=Four
 ```
@@ -71,7 +71,7 @@ The higherEntry value  for 3: 4=Four
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // higherEntry() method
 // for NullPointerException
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeMap: {1=One, 2=Two, 3=Three, 4=Four, 5=Five}
 Trying to get the higher entry value for null
 Exception thrown : java.lang.NullPointerException

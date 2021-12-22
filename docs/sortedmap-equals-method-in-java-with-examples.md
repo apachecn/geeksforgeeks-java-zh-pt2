@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean equals(object obj)
 ```
 
@@ -20,7 +20,7 @@ boolean equals(object obj)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // the equals() method
 
@@ -68,7 +68,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 First Map:
  {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Second Map:
@@ -79,7 +79,7 @@ Equality: true
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate
 // the equals() method
 
@@ -128,7 +128,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 First Map: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Second Map: {10=Geeks, 15=4, 20=Geek, 25=Welcomes, 30=You}
 Equality: false

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusNanos(long nanoseconds)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime minusNanos(long nanoseconds)
 以下程序说明了亚纳米()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusNanos() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusNanos() method
 

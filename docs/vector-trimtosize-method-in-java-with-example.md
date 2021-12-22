@@ -6,7 +6,7 @@ Java 中[](https://www.geeksforgeeks.org/arrayVector-in-java/)**的 **trimToSize
 
 ****语法:****
 
-```
+```java
 trimToSize()
 ```
 
@@ -18,7 +18,7 @@ trimToSize()
 
 ****例 1:****
 
-```
+```java
 // Java code to demonstrate the working of
 // trimTosize() method in Vector
 
@@ -57,7 +57,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 Initial Vector is: [2, 4, 5, 6, 11]
 Initial size is: 5
 Size after using trimToSize(): 5
@@ -66,7 +66,7 @@ Size after using trimToSize(): 5
 
 ****例 2:****
 
-```
+```java
 // Java code to demonstrate the working of
 // trimTosize() method in Vector
 
@@ -104,7 +104,7 @@ public class GFG {
 
 ****Output:**
 
-```
+```java
 Initial Vector is: [Geeks, 4, Geeks, Welcomes, You]
 Initial size is: 5
 Size after using trimToSize(): 5

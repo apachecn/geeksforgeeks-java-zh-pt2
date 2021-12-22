@@ -6,7 +6,7 @@ Java 中**PubackInputStream**类的**可用()**方法用于查找可以从输入
 
 **语法:**
 
-```
+```java
 public int available()
               throws IOException
 
@@ -24,7 +24,7 @@ public int available()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream available() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Total Bytes : 5
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream available() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Total Bytes : 13
 
 ```

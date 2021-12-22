@@ -6,7 +6,7 @@ Java TreeSet 中的 Java.util.TreeSet.add()方法用于将特定元素添加到 
 
 **语法:**
 
-```
+```java
 Tree_Set.add(Object element)
 ```
 
@@ -16,7 +16,7 @@ Tree_Set.add(Object element)
 
 下面程序说明了使用 Java.util.TreeSet.add()方法:
 
-```
+```java
 // Java code to illustrate add()
 import java.io.*;
 import java.util.TreeSet;
@@ -43,7 +43,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 
 ```

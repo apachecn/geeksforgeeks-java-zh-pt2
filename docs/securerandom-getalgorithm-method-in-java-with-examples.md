@@ -5,7 +5,7 @@
 **Java . security . SecureRandom**类的 **getAlgorithm()** 方法用于返回这个 secureandom 对象实现的算法的名称。
 **语法:**
 
-```
+```java
 public String getAlgorithm()
 ```
 
@@ -15,7 +15,7 @@ public String getAlgorithm()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -48,7 +48,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Algorithm: SHA1PRNG
 ```
 
@@ -56,7 +56,7 @@ Algorithm: SHA1PRNG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getAlgorithm() method
 
@@ -89,6 +89,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL SecureRandom not available
 ```

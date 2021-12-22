@@ -6,7 +6,7 @@ Java.util.Vector 。方法用于检查和查找向量中特定元素的出现。
 
 **语法:**
 
-```
+```java
 Vector.lastIndexOf(Object element)
 ```
 
@@ -18,7 +18,7 @@ Vector.lastIndexOf(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate lastIndexOf()
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Geeks, for, Geeks, 10, 20]
 Last occurrence of Geeks is at index: 2
 Last occurrence of 10 is at index: 3
@@ -59,7 +59,7 @@ Last occurrence of 10 is at index: 3
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate lastIndexOf()
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 22, 3, 10, 20]
 Last occurrence of 10 is at index: 3
 Last occurrence of 20 is at index: 4

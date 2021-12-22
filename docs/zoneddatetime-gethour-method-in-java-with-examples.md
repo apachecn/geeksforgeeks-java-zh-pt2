@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getHour()
 
 ```
@@ -19,7 +19,7 @@ public int getHour()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getHour() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hour: 19
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getHour() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hour: 23
 
 ```

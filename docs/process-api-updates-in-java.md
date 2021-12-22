@@ -16,19 +16,19 @@
 
 *   要获取当前正在运行的进程的 ProcessHandle 对象:
 
-```
+```java
 ProcessHandle ph = ProcessHandle.current();
 ```
 
 *   要获取给定进程对象的进程句柄:
 
-```
+```java
 ProcessHandle ph = p.toHandle(); //p is a process object
 ```
 
 *   要从给定的进程标识获取进程句柄对象:
 
-```
+```java
 Optional obj = ProcessHandle.of(PID);
 ProcessHandle ph = obj.get();
 ```
@@ -39,7 +39,7 @@ ProcessHandle ph = obj.get();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Demo {
 
     public static void main(String[] args)
@@ -51,7 +51,7 @@ public class Demo {
 }
 ```
 
-```
+```java
 Id of the current process is : 5420
 ```
 
@@ -61,7 +61,7 @@ Id of the current process is : 5420
 创建进程句柄。信息对象:–
 为此，首先我们需要创建 ProcessHandle 对象，然后我们将创建 ProcessHandle。信息对象。
 
-```
+```java
 ProcessHandle ph = ProcessHandle.current();
 ProcessHandle.Indo pinfo = ph.info();
 ```
@@ -71,7 +71,7 @@ ProcessHandle 中的方法。信息(一):-
 *   user():–
     返回当前流程的用户。
 
-```
+```java
 Optional o = info.user();
 System.out.println("User is : "+o.get());
 ```
@@ -79,7 +79,7 @@ System.out.println("User is : "+o.get());
 *   command():–
     返回启动进程的命令。
 
-```
+```java
 Optional o = info.command();
 System.out.println("Command is : "+o.get());
 ```
@@ -87,7 +87,7 @@ System.out.println("Command is : "+o.get());
 *   startInstant():–
     返回当前进程开始的时间。
 
-```
+```java
 Optional o = info.startInstant();
 System.out.println("Time of process start is : "+o.get());
 ```
@@ -95,7 +95,7 @@ System.out.println("Time of process start is : "+o.get());
 *   totalcpudduration():–
     返回当前进程的总 CPU 持续时间。
 
-```
+```java
 Optional o = info.totalCpuDuration();
 System.out.println("Total CPU duration is : "+o.get());
 ```
@@ -104,7 +104,7 @@ System.out.println("Total CPU duration is : "+o.get());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Demo {
 
     public static void main(String[] args)

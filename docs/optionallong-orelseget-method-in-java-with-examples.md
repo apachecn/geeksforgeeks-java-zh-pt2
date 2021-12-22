@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long orElseGet(LongSupplier supplier)
 
 ```
@@ -21,7 +21,7 @@ public long orElseGet(LongSupplier supplier)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseGet(LongSupplier) method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 2134
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseGet(LongSupplier) method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 758628
 
 ```

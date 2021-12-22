@@ -23,7 +23,7 @@
 3.  **消耗者:**消耗队列条目的线程对象
 4.  **PC :** 创建单个 Q、生产者和消费者的驱动程序类。
 
-```
+```java
 // Java implementation of a producer and consumer
 // that use semaphores to control synchronization.
 
@@ -134,7 +134,7 @@ class PC {
 
 输出:
 
-```
+```java
 Producer produced item : 0
 Consumer consumed item : 0
 Producer produced item : 1

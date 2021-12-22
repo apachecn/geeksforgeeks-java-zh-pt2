@@ -27,7 +27,7 @@ Spring Boot 项目没有具体的布局或代码结构。然而，开发人员�
 
 **例**
 
-```
+```java
 com
  +- gfg
      +- demo
@@ -59,7 +59,7 @@ com
 
 **例**
 
-```
+```java
 com
  +- gfg
      +- demo
@@ -93,7 +93,7 @@ com
 
 **例**
 
-```
+```java
 @SpringBootApplication
 public class MyApplication {
 

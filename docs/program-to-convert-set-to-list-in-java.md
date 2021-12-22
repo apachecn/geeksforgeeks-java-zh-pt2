@@ -19,7 +19,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Set to List in Java 8
 
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set: [Set, Example, Geeks, For]
     List: [Set, Example, Geeks, For]
 
@@ -85,7 +85,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Set to List in Java 8
 
@@ -131,7 +131,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set: [Set, Example, Geeks, For]
     List: [Set, Example, Geeks, For]
 
@@ -148,7 +148,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // HashMap to TreeMap in Java 8
 
@@ -197,7 +197,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set: [Set, Example, Geeks, For]
     List: [Set, Example, Geeks, For]
 
@@ -213,7 +213,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // HashMap to TreeMap in Java 8
 
@@ -256,7 +256,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Set: [Set, Example, Geeks, For]
     List: [Set, Example, Geeks, For]
 

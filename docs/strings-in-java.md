@@ -6,13 +6,13 @@ Java 中的字符串是由字符数组在内部支持的对象。因为数组是
 
 **语法:**
 
-```
+```java
 <String_Type> <string_variable> = "<sequence_of_string>"; 
 ```
 
 **示例:**
 
-```
+```java
 String str = "Geeks";
 ```
 
@@ -24,7 +24,7 @@ String str = "Geeks";
 
 **例如:**
 
-```
+```java
 String str = "Geeks";
 ```
 
@@ -32,7 +32,7 @@ String str = "Geeks";
 
 **例如:**
 
-```
+```java
 String str = new String("Geeks");
 ```
 
@@ -40,7 +40,7 @@ String str = new String("Geeks");
 
 **例如:**
 
-```
+```java
 String internedString = str.intern(); 
 // this will add the string to string constant pool.
 ```
@@ -51,7 +51,7 @@ String internedString = str.intern();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate String
 import java.io.*;
 import java.lang.*;
@@ -76,7 +76,7 @@ class Test {
 
 **Output:** 
 
-```
+```java
 String s = GeeksforGeeks
 String s1 = GeeksforGeeks
 ```
@@ -91,13 +91,13 @@ String s1 = GeeksforGeeks
 *   用 Java 创建字符串有两种方法:
     *   ***字符串文字***
 
-```
+```java
 String s = “GeeksforGeeks”;
 ```
 
 *   **使用** ***新增*** **关键词**
 
-```
+```java
 String s = new String (“GeeksforGeeks”);
 ```
 
@@ -105,7 +105,7 @@ String s = new String (“GeeksforGeeks”);
     **StringBuffer**是 **String** 的对等类，提供了字符串的大部分功能。该字符串表示固定长度、不可变的字符序列，而 StringBuffer 表示可增长和可写的字符序列。
     **语法:**
 
-```
+```java
 StringBuffer s = new StringBuffer("GeeksforGeeks");
 ```
 
@@ -113,7 +113,7 @@ StringBuffer s = new StringBuffer("GeeksforGeeks");
     Java 中的**字符串构建器**代表一个可变的字符序列。因为 Java 中的字符串类创建了一个不可变的字符序列，所以 StringBuilder 类提供了字符串类的替代，因为它创建了一个可变的字符序列。
     **语法:**
 
-```
+```java
 StringBuilder str = new StringBuilder();
 str.append("GFG");
 ```
@@ -152,7 +152,7 @@ PermGen 空间有限，默认大小仅为 64 MB。在 PermGen 空间中创建和
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class StringStorage {
     public static void main(String args[])
     {
@@ -170,7 +170,7 @@ class StringStorage {
 
 **Output**
 
-```
+```java
 TAT
 TAT
 TAT

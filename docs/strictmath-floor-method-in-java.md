@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static double floor(*double num*)
 ```
 
@@ -17,7 +17,7 @@ public static double floor(*double num*)
 **返回值:**该方法返回最大值，该值最接近于正无穷大，小于或等于自变量且等于整数。
 **示例:**
 
-```
+```java
 Input: num = 9.6
 Output: 9.0
 
@@ -30,7 +30,7 @@ Output: -8.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 //java.lang.StrictMath.floor()
 
@@ -55,7 +55,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 The floor value of 7.8 = 7.0
 The floor value of 1.4 = 1.0
 ```
@@ -64,7 +64,7 @@ The floor value of 1.4 = 1.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 //java.lang.StrictMath.floor()
 
@@ -94,7 +94,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 The floor value of -7.8 = -8.0
 The floor value of -1.4 = -2.0
 The floor value of 0.1 = 0.0

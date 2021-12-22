@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public void ensureCapacity(int minimumCapacity)
 ```
 
@@ -24,7 +24,7 @@ public void ensureCapacity(int minimumCapacity)
 
 在本程序中，等于 18 的最小容量参数小于旧容量的两倍，加上等于 34 的 2，则新容量等于 34。
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -52,7 +52,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Before ensureCapacity method capacity = 16
 After ensureCapacity method capacity = 34
 
@@ -62,7 +62,7 @@ After ensureCapacity method capacity = 34
 
 在本程序中，等于 44 的最小容量参数大于旧容量的两倍，加上等于 34 的 2，则新容量等于 34。
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -91,7 +91,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Before ensureCapacity method capacity = 16
 After ensureCapacity method capacity = 44
 

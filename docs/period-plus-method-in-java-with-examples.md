@@ -8,7 +8,7 @@ Java 中 Period 类的 plus()方法用于将给定数量的周期添加到指定
 
 **语法:**
 
-```
+```java
 public Period plus(TemporalAmount amountToAdd)
 ```
 
@@ -25,7 +25,7 @@ public Period plus(TemporalAmount amountToAdd)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function plus()
 // to subtract the two given periods
 
@@ -63,14 +63,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 P6Y18M18D
 
 ```
 
 **程序二**:期间可以为负数。
 
-```
+```java
 // Java code to show the function plus()
 // to subtract the two given periods
 
@@ -108,7 +108,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 P6Y18M18D
 
 ```

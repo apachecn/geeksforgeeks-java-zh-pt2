@@ -20,7 +20,7 @@
 
     **C++语法:**
 
-    ```
+    ```java
     #include& lt; iostream & gt;
     using namespace std;
 
@@ -37,7 +37,7 @@
 
     **Java 语法:**
 
-    ```
+    ```java
     public class first {
         public static void main(String[] args)
         {
@@ -53,7 +53,7 @@
 
     **C++:**
 
-    ```
+    ```java
     #include <iostream>
     using namespace std;
 
@@ -72,7 +72,7 @@
 
     **Java:**
 
-    ```
+    ```java
     public class GFG {
 
         public static void main(String[] args)
@@ -93,7 +93,7 @@
 
     **C++:**
 
-    ```
+    ```java
     #include <iostream>
     using namespace std;
 
@@ -109,13 +109,13 @@
     }
     ```
 
-    ```
+    ```java
     Output: 10
     ```
 
     **Java:**
 
-    ```
+    ```java
     public class firstjava {
 
         public static void main(String[] args)
@@ -132,13 +132,13 @@
     }
     ```
 
-    ```
+    ```java
     Output: 10
     ```
 
 5.  **Both have same arithmetic and relational operators.**
 
-    ```
+    ```java
     Arithmetic operators such as +, -, *, /
     Relational operators such as >, <, =, != (not equal to)
 
@@ -149,7 +149,7 @@
 
     **C++:**
 
-    ```
+    ```java
     #include& lt; iostream & gt;
     using namespace std;
 
@@ -166,7 +166,7 @@
 
     **Java:**
 
-    ```
+    ```java
     public class GFG {
         public static void main(String[] args)
         {
@@ -182,7 +182,7 @@
 8.  **Many of their keywords are same**:
     Example:
 
-    ```
+    ```java
     break, continue, char, double, new, public, private, return, static etc. 
     ```
 

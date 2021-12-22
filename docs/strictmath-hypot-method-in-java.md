@@ -10,7 +10,7 @@ The**Java . lang . StrictMath . hypot()**是 strict math 类的一种内置方�
 
 **语法:**
 
-```
+```java
 public static double hypot(*double num1, double num2*)
 ```
 
@@ -22,7 +22,7 @@ public static double hypot(*double num1, double num2*)
 **返回值:**该方法返回![$\sqrt{num1^2+num2^2}$  ](img/9c8d454cb7b322e601f23aab6e238077.png "Rendered by QuickLaTeX.com")，即斜边长度。
 **示例:**
 
-```
+```java
 Input: num1 = 3
        num2 = 4
 
@@ -34,7 +34,7 @@ Output: 5.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.hypot() Method
 import java.lang.*;
@@ -56,7 +56,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Length of hypotenuse  of side 11.0 & 13.8 = 17.647662734764623
 ```
 
@@ -64,7 +64,7 @@ Length of hypotenuse  of side 11.0 & 13.8 = 17.647662734764623
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.hypot() Method
 import java.lang.*;
@@ -86,7 +86,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Length of hypotenuse  of side -54.0 & -24.8 = 59.422554640473
 ```
 
@@ -94,7 +94,7 @@ Length of hypotenuse  of side -54.0 & -24.8 = 59.422554640473
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.hypot() Method
 import java.lang.*;
@@ -123,7 +123,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Hypotenuse length = NaN
 Hypotenuse length = Infinity
 ```

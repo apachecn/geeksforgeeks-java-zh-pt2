@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double scalb(*double num, int scale*)
     ```
 
@@ -25,7 +25,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 7
            scalb = 2
     Output: 28
@@ -34,7 +34,7 @@
 
     下面的程序说明了 java.lang.StrictMath.scalb()方法。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.scalb() 
     import java.lang.*;
@@ -60,7 +60,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Output = 48.0
     Output = -28.8
     Output = 0.0
@@ -77,7 +77,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static float scalb(*float num, int scale*)
     ```
 
@@ -90,7 +90,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 2.5f
            scalb = 4
     Output: 40.0
@@ -99,7 +99,7 @@
 
     下面的程序说明了 java.lang.StrictMath.scalb()方法。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.scalb() 
     import java.lang.*;
@@ -125,7 +125,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Output = 66.4
     Output = -33.6
     Output = 0.0

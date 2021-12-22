@@ -9,7 +9,7 @@ starts with()方法有两种类型。](https://www.geeksforgeeks.org/tag/java-pa
 
     **语法:**
 
-    ```
+    ```java
     default boolean startsWith(String other)
 
     ```
@@ -23,7 +23,7 @@ starts with()方法有两种类型。](https://www.geeksforgeeks.org/tag/java-pa
     下面的程序举例说明了 startwith(String other)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.startsWith(String other) method
 
@@ -60,7 +60,7 @@ starts with()方法有两种类型。](https://www.geeksforgeeks.org/tag/java-pa
 
     **语法:**
 
-    ```
+    ```java
     boolean startsWith(Path other)
 
     ```
@@ -72,7 +72,7 @@ starts with()方法有两种类型。](https://www.geeksforgeeks.org/tag/java-pa
     下面的程序举例说明了 startsWith(路径其他)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // java.nio.file.Path.(Path other) method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int orElseGet(IntSupplier supplier)
 
 ```
@@ -21,7 +21,7 @@ public int orElseGet(IntSupplier supplier)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseGet(IntSupplier) method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 2134
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseGet(IntSupplier) method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 758628
 
 ```

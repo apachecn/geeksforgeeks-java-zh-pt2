@@ -6,7 +6,7 @@ Java 中 Year 类的 getValue()方法用于获取当前 Year 对象的整数值�
 
 **语法** :
 
-```
+```java
 public int getValue()
 
 ```
@@ -19,7 +19,7 @@ public int getValue()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getvalue() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1997
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the getvalue() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```

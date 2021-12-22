@@ -13,7 +13,7 @@ Java . lang . system . identity HashCode()是用于为任何给定对象返回�
 
     **语法:**
 
-    ```
+    ```java
     public static int identityHashCode(Object x)
     ```
 
@@ -25,7 +25,7 @@ Java . lang . system . identity HashCode()是用于为任何给定对象返回�
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.System.identityHashCode() method.
     import java.lang.*;
@@ -62,7 +62,7 @@ Java . lang . system . identity HashCode()是用于为任何给定对象返回�
 
     **Output:**
 
-    ```
+    ```java
     589431969
     1252169911
     2101973421
@@ -80,7 +80,7 @@ Java . lang . system . identity HashCode()是用于为任何给定对象返回�
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate working
     // of java.lang.System.identityHashCode() method.
     import java.lang.*;
@@ -117,7 +117,7 @@ Java . lang . system . identity HashCode()是用于为任何给定对象返回�
 
     **Output:**
 
-    ```
+    ```java
     589431969
     1252169911
     2101973421

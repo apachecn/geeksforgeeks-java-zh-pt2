@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getMinimum()
 
 ```
@@ -18,7 +18,7 @@ public long getMinimum()
 下面的程序说明了 ValueRange.getMinimum()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getMinimum() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minimum for DAY_OF_WEEK: 1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getMinimum() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minimum : 1111
 
 ```

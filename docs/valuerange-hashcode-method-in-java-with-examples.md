@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -20,7 +20,7 @@ public int hashCode()
 下面的程序说明了 ValueRange.hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.hashCode() method
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode: 1900573
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.hashCode() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashCode: 3932210
 
 ```

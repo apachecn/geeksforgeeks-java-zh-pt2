@@ -17,7 +17,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // Upcasting Vs Downcasting
 
@@ -78,7 +78,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 GeeksforGeeks
 Method from Child
 GeeksforGeeks
@@ -94,13 +94,13 @@ Method from Child
 
 1.  ****上播语法:**** 
 
-```
+```java
 Parent p = new Child();
 ```
 
 1.  **向上转换将在内部完成，由于向上转换，对象只允许访问父类成员和子类指定的成员(被覆盖的方法等)。)但不是所有成员。** 
 
-```
+```java
 // This variable is not 
 // accessible
 p.id = 1; 
@@ -108,13 +108,13 @@ p.id = 1;
 
 1.  ****向下转换的语法:**** 
 
-```
+```java
 Child c = (Child)p;
 ```
 
 1.  **向下转换必须在外部完成，由于向下转换，子对象可以获得父对象的属性。** 
 
-```
+```java
 c.name = p.name;
 i.e., c.name = "GeeksforGeeks"
 ```

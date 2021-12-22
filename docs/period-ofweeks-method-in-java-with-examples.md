@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Period ofWeeks(int numberOfWeeks)
 ```
 
@@ -18,7 +18,7 @@ public static Period ofWeeks(int numberOfWeeks)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate ofWeeks() method
 
 import java.time.Period;
@@ -43,7 +43,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 0 Years
 0 Months
 35 Days
@@ -52,7 +52,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate ofWeeks() method
 
 import java.time.Period;
@@ -77,7 +77,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 0 Years
 0 Months
 -35 Days

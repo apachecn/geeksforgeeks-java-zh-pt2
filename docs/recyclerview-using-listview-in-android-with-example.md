@@ -41,7 +41,7 @@ RecyclerView 的 LayoutManager 类提供三种内置的 layout manager
 
 ## XML
 
-```
+```java
 <resources> 
     <color name="colorPrimary">#0F9D58</color> 
     <color name="colorPrimaryDark">#16E37F</color> 

@@ -6,7 +6,7 @@ Java 中 **ObjectInputStream** 类的 **close()** 方法关闭输入流。
 
 **语法**:
 
-```
+```java
 public void close()
 ```
 
@@ -18,7 +18,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate 
 // the above method
 

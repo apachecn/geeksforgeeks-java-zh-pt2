@@ -6,7 +6,7 @@ Java 中 [SortedMap 接口](https://www.geeksforgeeks.org/sortedmap-java-example
 
 **语法:**
 
-```
+```java
 thisMap.get(*Object key_element*)
 ```
 
@@ -20,7 +20,7 @@ thisMap.get(*Object key_element*)
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate
 // the get() method
 
@@ -61,7 +61,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are:
  {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The Value is: Welcomes
@@ -71,7 +71,7 @@ The Value is: Geeks
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate
 // the get() method
 
@@ -112,7 +112,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The Value is: 20
 The Value is: 30

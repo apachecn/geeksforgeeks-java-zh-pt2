@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public K ceilingKey(K key)
 ```
 
@@ -24,7 +24,7 @@ public K ceilingKey(K key)
 
 **程序 1:** 演示使用 ceilingKey()方法创建带有比较器的树形图
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -60,14 +60,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Ceiling key entry for 5: 6
 
 ```
 
 **程序 2:** 演示在没有任何比较器的情况下，对树图使用 ceilingKey()方法
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -96,14 +96,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Ceiling key entry for 5: 6
 
 ```
 
 **程序 3:** 演示当 ceilingKey()方法将返回 null 时的用法
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -132,14 +132,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Ceiling key entry for 10: null
 
 ```
 
 **程序 4:** 显示空指针异常
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -173,14 +173,14 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```
 
 **程序 5:** 演示 ClassCastException
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -213,7 +213,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.ClassCastException: 
            java.lang.Integer cannot be cast to java.lang.String
 

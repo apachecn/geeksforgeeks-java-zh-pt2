@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate dateYearDay(
   Era era, int yearOfEra, int dayOfYear)
 
@@ -28,7 +28,7 @@ public ThaiBuddhistDate dateYearDay(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2018-01-24
 
 ```
@@ -87,7 +87,7 @@ ThaiBuddhistDate is: ThaiBuddhist BE 2018-01-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -137,7 +137,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BEFORE_BE 2018-01-24
 
 ```

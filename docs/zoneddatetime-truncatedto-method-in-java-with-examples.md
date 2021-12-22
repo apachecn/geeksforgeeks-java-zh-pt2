@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime truncatedTo(TemporalUnit unit)
 
 ```
@@ -24,7 +24,7 @@ public ZonedDateTime truncatedTo(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.truncatedTo() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime before truncate: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after  truncate: 2018-12-06T19:00+05:30[Asia/Calcutta]
 
@@ -70,7 +70,7 @@ ZonedDateTime after  truncate: 2018-12-06T19:00+05:30[Asia/Calcutta]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.truncatedTo() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime before truncate: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after  truncate: 2018-12-06T00:00+05:30[Asia/Calcutta]
 

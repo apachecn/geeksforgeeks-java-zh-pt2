@@ -9,7 +9,7 @@ StringJoiner 提供 *add(String str)* 方法来基于构造函数中提供的分
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate use of
 // StringJoiner class over StringBuilder class
 
@@ -71,7 +71,7 @@ public class Test
 
 输出:
 
-```
+```java
 [George:Sally:Fred]
 [George:Sally:Fred]
 ```

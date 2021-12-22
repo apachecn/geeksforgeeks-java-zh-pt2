@@ -18,7 +18,7 @@ Java 对象压缩是使用[gzipoutstream](https://docs.oracle.com/javase/7/docs/
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // Object Compression
 
@@ -159,7 +159,7 @@ class Bill implements Serializable {
 
 **输出:**
 
-```
+```java
 Process done..
 Objects are compressed.
 

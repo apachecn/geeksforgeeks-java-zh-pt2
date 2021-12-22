@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigDecimal nextBigDecimal()
 ```
 
@@ -24,7 +24,7 @@ public BigDecimal nextBigDecimal()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // nextBigDecimal() method of Scanner class in Java
 // without parameter
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Not found BigDecimal() value :Gfg
 Found BigDecimal value :9
 Not found BigDecimal() value :+
@@ -77,7 +77,7 @@ Found BigDecimal value :12.0
 
 **程序 2:** 演示输入 ismatcheexception
 
-```
+```java
 // Java program to illustrate the
 // nextBigDecimal() method of Scanner class in Java
 // InputMismatchException
@@ -118,14 +118,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown: java.util.InputMismatchException
 
 ```
 
 **程序 3:** 演示 nosucheelementexception
 
-```
+```java
 // Java program to illustrate the
 // nextBigDecimal() method of Scanner class in Java
 // NoSuchElementException
@@ -175,7 +175,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Not found BigDecimal value :Gfg
 Exception thrown: java.util.NoSuchElementException
 
@@ -183,7 +183,7 @@ Exception thrown: java.util.NoSuchElementException
 
 **程序 4:** 演示非法状态异常
 
-```
+```java
 // Java program to illustrate the
 // nextBigDecimal() method of Scanner class in Java
 // IllegalStateException
@@ -236,7 +236,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner Closed
 Trying to get next BigDecimal value
 Exception thrown: java.lang.IllegalStateException: Scanner closed

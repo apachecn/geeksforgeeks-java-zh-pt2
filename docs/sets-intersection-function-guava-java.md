@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <E> 
     Sets.SetView<E> 
         intersection(Set<E> set1, Set<?> set2)
@@ -19,7 +19,7 @@ public static <E>
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation
 // of Guava's Sets.intersection() method
 
@@ -56,7 +56,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Set 1: [40, 10, 50, 20, 30]
 Set 2: [50, 90, 30, 70]
 Set 1 intersection Set 2: [50, 30]
@@ -65,7 +65,7 @@ Set 1 intersection Set 2: [50, 30]
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation
 // of Guava's Sets.intersection() method
 
@@ -102,7 +102,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Set 1: [k, s, e, G]
 Set 2: [e, f, g, G]
 Set 1 intersection Set 2: [e, G]

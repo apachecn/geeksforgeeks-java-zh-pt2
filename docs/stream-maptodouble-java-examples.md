@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 DoubleStream mapToDouble(ToDoubleFunction<**?** super **T**> mapper)
 
 Where, A sequence of primitive double-valued
@@ -20,7 +20,7 @@ to each element and the function returns the new stream.
 
 **示例 1 :** mapToDouble()具有选择满足给定函数的元素的操作。
 
-```
+```java
 // Java code for Stream mapToDouble
 // (ToDoubleFunction mapper) to get a
 // DoubleStream by applying the given function
@@ -48,14 +48,14 @@ class GFG {
 
 输出:
 
-```
+```java
 15.0
 
 ```
 
 **示例 2 :** mapToDouble()具有返回字符串长度平方的流的操作。
 
-```
+```java
 // Java code for Stream mapToDouble
 // (ToDoubleFunction mapper) to get a
 // DoubleStream by applying the given function
@@ -83,7 +83,7 @@ class GFG {
 
 输出:
 
-```
+```java
 9.0
 16.0
 9.0

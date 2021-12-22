@@ -6,7 +6,7 @@ Java 中 Period 类的 minusMonths()方法用于从给定的周期中减去指�
 
 **语法:**
 
-```
+```java
 public Period minusMonths(long monthsToSubtract)
 ```
 
@@ -20,7 +20,7 @@ public Period minusMonths(long monthsToSubtract)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function minusMonths()
 // to subtract the number of months from given periods
 
@@ -53,14 +53,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y3M10D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function minusMonths()
 // to subtract the number of months from given periods
 
@@ -93,7 +93,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-3M-10D
 
 ```

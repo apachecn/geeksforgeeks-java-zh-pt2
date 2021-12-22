@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DayOfWeek getDayOfWeek()
 ```
 
@@ -18,7 +18,7 @@ public DayOfWeek getDayOfWeek()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDayOfWeek() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day Of Week : SUNDAY
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDayOfWeek() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day Of Week : MONDAY
 
 ```

@@ -12,7 +12,7 @@
 
  **## 爪哇
 
-```
+```java
 // Java program to demonstrate TimeUnit Class
 
 import java.util.concurrent.TimeUnit;
@@ -49,7 +49,7 @@ public class GFG {
 }
 ```** ****输出**
 
-```
+```java
 96 Hours = 4 Days = 5760 Minutes
 5760 Minutes = 345600000000 Microseconds
 345600000000 Microseconds = 345600 Seconds

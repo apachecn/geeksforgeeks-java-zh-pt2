@@ -8,7 +8,7 @@ Java 中的 Period 的 getYears()方法用于获取使用它的这个期间的�
 
 **语法:**
 
-```
+```java
 public List getYears()
 ```
 
@@ -20,7 +20,7 @@ public List getYears()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function getYears()
 // to get the number of years in the period
 import java.time.Period;
@@ -50,14 +50,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 12
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function getYears()
 // to get the number of years in the period
 import java.time.Period;
@@ -87,7 +87,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 -12
 
 ```

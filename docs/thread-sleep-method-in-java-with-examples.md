@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for sleeping the main thread.
 
 import java.io.*;
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 0
 1
 2
@@ -78,7 +78,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for sleeping the custom thread.
 
 import java.io.*;
@@ -122,7 +122,7 @@ class GFG extends Thread {
 
 **Output**
 
-```
+```java
 0
 1
 2
@@ -134,7 +134,7 @@ class GFG extends Thread {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for showing how exception can occur if we
 // pass the negative timeout value.
 
@@ -169,6 +169,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 java.lang.IllegalArgumentException: timeout value is negative
 ```

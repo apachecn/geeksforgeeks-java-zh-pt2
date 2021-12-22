@@ -14,7 +14,7 @@
 
     ## 学生模型
 
-    ```
+    ```java
     // Java program to implement a
     // student class
 
@@ -58,7 +58,7 @@
 
     ## 配置扣
 
-    ```
+    ```java
     @EnableKafka
     @Configuration
     public class Config {
@@ -116,7 +116,7 @@
 
     ## 卡夫卡式服务
 
-    ```
+    ```java
     @Service
     public class KafkaService {
 

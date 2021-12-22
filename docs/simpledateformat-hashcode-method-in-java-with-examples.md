@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java to illustrate hashCode() method
 
 import java.text.*;
@@ -48,7 +48,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Original: 30/01/2019
 The hash code: -650712384
 
@@ -56,7 +56,7 @@ The hash code: -650712384
 
 **例 2:**
 
-```
+```java
 // Java to illustrate hashCode() method
 
 import java.text.*;
@@ -86,7 +86,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Original: 01/30/2019
 The hash code: 2087096576
 

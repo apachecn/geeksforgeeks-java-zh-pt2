@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public CollationElementIterator
        getCollationElementIterator(String source)
 
@@ -20,7 +20,7 @@ public CollationElementIterator
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getCollationElementIterator() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CollationElementIterator is : java.text.CollationElementIterator@7d4991ad
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getCollationElementIterator() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 CollationElementIterator is : java.text.CollationElementIterator@7d4991ad
 
 ```

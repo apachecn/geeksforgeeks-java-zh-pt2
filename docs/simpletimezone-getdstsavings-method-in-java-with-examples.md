@@ -5,7 +5,7 @@
 **SimpleTimeZone 类**的**getdstsings()**方法返回时钟在夏令时前进的时间量(以毫秒为单位)。
 **语法:**
 
-```
+```java
 public int getDSTSavings()
 
 ```
@@ -20,7 +20,7 @@ public int getDSTSavings()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.date.getDSTSavings()
 import java.util.SimpleTimeZone;
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DST saving = 0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.date.getDSTSavings()
 import java.util.SimpleTimeZone;
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DST saving = 0
 
 ```

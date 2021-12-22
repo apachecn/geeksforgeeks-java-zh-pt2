@@ -6,7 +6,7 @@ java 中的 java.util.TreeMap.entrySet()方法用于创建一组包含在 TreeMa
 
 **语法:**
 
-```
+```java
 tree_map.entrySet()
 ```
 
@@ -17,7 +17,7 @@ tree_map.entrySet()
 下面的程序用来说明 java.util.TreeMap.entrySet()方法:
 **程序 1:** 将字符串值映射为整数键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The set is: [10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You]
 
@@ -54,7 +54,7 @@ The set is: [10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The set is: [4=15, Geeks=20, Welcomes=25, You=30]
 

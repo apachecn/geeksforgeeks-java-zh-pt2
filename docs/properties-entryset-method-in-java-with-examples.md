@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Set<Map.Entry> entrySet()
 ```
 
@@ -18,7 +18,7 @@ public Set<Map.Entry> entrySet()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // entrySet() method.
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 The set is: [Book=500, Mobile=5000, Pen=10, Clothes=400]
 
@@ -58,7 +58,7 @@ The set is: [Book=500, Mobile=5000, Pen=10, Clothes=400]
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // entrySet() method.
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 The set is: [3=1000RS, 2=500RS, 1=100RS]
 

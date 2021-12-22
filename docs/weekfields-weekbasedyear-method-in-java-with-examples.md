@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TemporalField weekBasedYear()
 
 ```
@@ -18,7 +18,7 @@ public TemporalField weekBasedYear()
 下面的程序说明了 WeekFields.weekBasedYear()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekBasedYear() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 WeekBasedYear[WeekFields[MONDAY, 1]]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekBasedYear() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 WeekBasedYear[WeekFields[SUNDAY, 1]]
 
 ```

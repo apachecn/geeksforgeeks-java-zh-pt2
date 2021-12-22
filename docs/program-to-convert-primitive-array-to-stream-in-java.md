@@ -29,7 +29,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to Stream
 
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [3, 2, 5, 4, 1]
     Stream: [3, 2, 5, 4, 1]
 
@@ -85,7 +85,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to Stream
 
@@ -125,7 +125,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [3, 2, 5, 4, 1]
     Stream: [3, 2, 5, 4, 1]
 

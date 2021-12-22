@@ -6,7 +6,7 @@ Java 中时区类的 getDisplayName( *布尔日光，int style* )方法用于获
 
 **语法:**
 
-```
+```java
 public final String 
     getDisplayName(*boolean daylight, 
                    int style*)
@@ -22,7 +22,7 @@ public final String
 下面的程序说明了时区的 getDisplayName()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate getDisplayName()
 
 import java.util.*;
@@ -49,14 +49,14 @@ public class TimeZone_Demo {
 
 **Output:**
 
-```
+```java
 The Display name for the locale is: UTC
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getDisplayName()
 
 import java.util.*;
@@ -86,7 +86,7 @@ public class TimeZone_Demo {
 
 **Output:**
 
-```
+```java
 The Display name for the locale is: Greenwich Mean Time
 
 ```

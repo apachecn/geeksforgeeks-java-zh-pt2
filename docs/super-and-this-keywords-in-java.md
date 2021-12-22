@@ -19,7 +19,7 @@ super 关键字用于访问**父类**的方法，而这用于访问**当前类**
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate this keyword
 // is used to refer current class
 class RR {
@@ -55,7 +55,7 @@ class RR {
 }
 ```
 
-```
+```java
 100
 600
 
@@ -69,7 +69,7 @@ class RR {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate super keyword
 // refers super-class instance
 
@@ -104,7 +104,7 @@ class Base extends Parent {
 }
 ```
 
-```
+```java
 10
 20
 
@@ -117,7 +117,7 @@ class Base extends Parent {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate using this
 // many number of times
 
@@ -156,7 +156,7 @@ class RRR {
 }
 ```
 
-```
+```java
 100
 600
 9000
@@ -167,7 +167,7 @@ class RRR {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate using super
 // many number of times
 
@@ -200,7 +200,7 @@ class Base extends Parent {
 }
 ```
 
-```
+```java
 1
 60.3
 
@@ -212,7 +212,7 @@ class Base extends Parent {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the usage of this keyword
 
@@ -248,7 +248,7 @@ class RR {
 }
 ```
 
-```
+```java
 //it is of S.O.P(first) of garcia method
 22
 //it is of S.O.P(second) of garcia method
@@ -270,7 +270,7 @@ class RR {
 
 **程序流程:**首先从 main 开始，然后我们有**新 RR()。加西亚(100，200)** 然后流程转到 RR 类的加西亚方法，然后我们有
 
-```
+```java
 a = this.first
 b = this.second 
 
@@ -278,7 +278,7 @@ b = this.second
 
 这里，正在发生的是实例变量(即第一个)的值和静态变量(即第二个)的值分别分配给 garcia 方法的局部变量 a 和 b。因此 a 和 b 的值分别是 22 和 33。接下来我们有**新 RR()。路易斯(1，2)** 因此这里的流程转到 RR 类的路易斯方法，因为我们有
 
-```
+```java
 this.first = m
 this.second = n
 
@@ -293,7 +293,7 @@ this.second = n
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Vehicle {
     Vehicle() { System.out.println("Vehicle is created."); }
 }
@@ -322,7 +322,7 @@ public class GFG {
 
 **编译错误:**
 
-```
+```java
 prog.java:12: error: call to this must be first statement in constructor
         this();
             ^

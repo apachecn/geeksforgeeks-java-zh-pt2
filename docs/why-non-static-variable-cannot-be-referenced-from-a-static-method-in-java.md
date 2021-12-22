@@ -13,7 +13,7 @@ Java 是最流行、应用最广泛的编程语言和平台之一。Java 是[面
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to demonstrate
 // why a non-static variable cannot
 // be accessed from a static context
@@ -61,7 +61,7 @@ public class Demo {
 
 如果这段代码真的可以运行，您会期望输出是:
 
-```
+```java
 4
 5
 6
@@ -70,7 +70,7 @@ public class Demo {
 
 **但是却抛出了一个编译时错误**T2】
 
-```
+```java
 Compile Errors:
 
 prog.java:16: error: non-static variable N cannot be referenced from a static context
@@ -88,7 +88,7 @@ prog.java:16: error: non-static variable N cannot be referenced from a static co
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access a
 // non static variable from
 // a static block
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 1
 
 ```

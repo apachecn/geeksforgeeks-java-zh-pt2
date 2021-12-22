@@ -13,7 +13,7 @@
 
 **根据计划，类型擦除是如何工作的？**
 
-```
+```java
 // Here, T is bounded by Object i.e. java.lang.Object
 class GFG<T> {
 // Here, T will be replaced by default i.e. Object
@@ -32,7 +32,7 @@ class GFG<T> {
 
 **编译后，代码被默认对象替换，如下所示:**
 
-```
+```java
 class GFG
 {
 // Here, T will be replaced by default i.e. Object
@@ -49,7 +49,7 @@ class GFG
 
 ```
 
-```
+```java
 // Here, T is bounded by Object i.e. java.lang.Object
 class Geeks<T extends String> {
 
@@ -68,7 +68,7 @@ class Geeks<T extends String> {
 
 **编译后，代码替换为如下字符串:**
 
-```
+```java
 class Geeks
 {
 
@@ -91,7 +91,7 @@ class Geeks
 
 **类型擦除实施**
 
-```
+```java
 // Java program to illustrate
 // concept of TypeErasure
 
@@ -114,7 +114,7 @@ public class GenericsErasure {
 
 **解释:**这里我们在编译代码的时候，它不会向控制台屏幕抛出任何警告消息，因为这里我们使用的是 Type Erasure。
 
-```
+```java
 // Java program to illustrate
 // concept of TypeErasure
 import java.io.PrintStream;

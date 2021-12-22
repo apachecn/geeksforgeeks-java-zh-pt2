@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public RoundingMode getRoundingMode()
 ```
 
@@ -18,7 +18,7 @@ public RoundingMode getRoundingMode()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -46,14 +46,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The rounding mode value is: HALF_EVEN
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -81,7 +81,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The rounding mode value is: HALF_EVEN
 
 ```

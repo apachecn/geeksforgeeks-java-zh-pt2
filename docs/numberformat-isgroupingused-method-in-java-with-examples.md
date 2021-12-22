@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public boolean isGroupingUsed()
 ```
 
@@ -18,7 +18,7 @@ public boolean isGroupingUsed()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -50,14 +50,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Yes! grouping is used
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -89,7 +89,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Yes! grouping is used
 
 ```

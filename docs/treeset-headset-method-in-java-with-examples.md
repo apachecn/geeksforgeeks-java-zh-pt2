@@ -8,7 +8,7 @@ TreeSet 是 Java 中 [SortedSet 接口](https://www.geeksforgeeks.org/sortedset-
 
 **语法:**
 
-```
+```java
 head_set = (TreeSet)tree_set.headSet(Object element)
 ```
 
@@ -26,7 +26,7 @@ head_set = (TreeSet)tree_set.headSet(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate headSet() method
 // of TreeSet class In a sorted TreeSet
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The resultant values till head set: 
 1 
 2 
@@ -101,7 +101,7 @@ The resultant values till head set:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate headSet() method
 // of TreeSet class In an unsorted TreeSet
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The resultant values till head set: 
 2 
 9 
@@ -172,7 +172,7 @@ The resultant values till head set:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate headSet() method of TreeSet class
 // In an unsorted treeset but with String type elements
 
@@ -225,7 +225,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The resultant values till head set: 
 4 
 Geek 

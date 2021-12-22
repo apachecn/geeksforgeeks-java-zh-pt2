@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getDayOfWeek()** 方法获取月中的某一天
 
 **语法:**
 
-```
+```java
 public int getDayOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfMonth()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getDayOfWeek() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 day: MONDAY
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getDayOfWeek() method
 
 import java.time.OffsetDateTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day: MONDAY
 
 ```

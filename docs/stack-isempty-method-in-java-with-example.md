@@ -8,7 +8,7 @@ Java.util.Stack 。Java 中的 isEmpty()方法用于检查和验证堆栈是否�
 
 **语法:**
 
-```
+```java
 Stack.isEmpty()
 ```
 
@@ -20,7 +20,7 @@ Stack.isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -60,7 +60,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack:  [Welcome, To, Geeks, 4, Geeks]
 Is the Stack empty? false
 Stack after clear(): []
@@ -70,7 +70,7 @@ Is the Stack empty? true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -92,7 +92,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack:  []
 Is the Stack empty? true
 

@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```java
 default Stream<T> dropWhile(Predicate<T> predicate)
 
 ```
@@ -26,7 +26,7 @@ default Stream<T> dropWhile(Predicate<T> predicate)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.dropWhile method
 import java.util.List;
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.dropWhile method
 

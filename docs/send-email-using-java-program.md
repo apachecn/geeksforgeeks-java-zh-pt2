@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to send email
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class SendEmail
 
 输出:
 
-```
+```java
 Mail successfully sent
 ```
 
@@ -91,7 +91,7 @@ Mail successfully sent
 
 向多个收件人发送电子邮件与向单个收件人发送电子邮件相同。不同的是，要向多个收件人发送邮件，您应该添加多个收件人。要添加多个收件人，我们必须调用以下方法，并将收件人类型和电子邮件地址列表作为参数传递:
 
-```
+```java
 void addRecipients(Message.RecipientType type, Address[] addresses) 
    throws MessagingException
    {
@@ -105,7 +105,7 @@ void addRecipients(Message.RecipientType type, Address[] addresses)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // create a new String array
 String[] recipients = new String[4];
 
@@ -129,7 +129,7 @@ message.addRecipient(Message.RecipientType.TO, new InternetAddress(recipients));
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to send email
 // with HTML templates
 
@@ -194,7 +194,7 @@ public class SendEmail
 
 输出:
 
-```
+```java
 Mail successfully sent
 ```
 
@@ -213,7 +213,7 @@ JavaMail 应用编程接口允许您发送包含附件的电子邮件。要发�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```java
 // Java program to send email
 // with attachments
 
@@ -294,7 +294,7 @@ public class SendEmail
 
 输出:
 
-```
+```java
 Mail successfully sent
 ```
 

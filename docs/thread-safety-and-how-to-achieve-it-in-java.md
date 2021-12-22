@@ -20,7 +20,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class A {
     synchronized void sum(int n)
     {
@@ -78,7 +78,7 @@ class Test {
 
 **Output:** 
 
-```
+```java
 Thread A : 11
 Thread A : 12
 Thread A : 13
@@ -97,7 +97,7 @@ volatile 关键字是一个字段修饰符，它确保对象可以被多个线�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class VolatileExample {
 
     // Initializing volatile variables
@@ -150,7 +150,7 @@ public class VolatileExample {
 
 **Output:** 
 
-```
+```java
 a=5 b=5
 a=5 b=5
 a=5 b=5
@@ -164,7 +164,7 @@ a=5 b=5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Counter {
@@ -231,7 +231,7 @@ public class TestCounter {
 
 **Output:** 
 
-```
+```java
 4000
 ```
 
@@ -241,7 +241,7 @@ Final Variables 在 java 中也是线程安全的，因为一旦分配了某个�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class FinalTest {
 
     // Initializing a string
@@ -262,7 +262,7 @@ public class FinalTest {
 
 **输出:**
 
-```
+```java
 Compilation Error in java code :- 
 prog.java:14: error: cannot assign a value to final variable str
         str = "world";

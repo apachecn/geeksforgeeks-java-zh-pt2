@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public String toString() {
       return getClass().getName()+"@"+Integer.toHexString(hashCode());
 }
@@ -24,7 +24,7 @@ public String toString() {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to Illustrate
 // working of toString() method
 
@@ -74,7 +74,7 @@ class Best_Friend {
 
 **Output**
 
-```
+```java
 Best_Friend@3d075dc0
 Best_Friend@3d075dc0
 ```
@@ -85,7 +85,7 @@ Best_Friend@3d075dc0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // working of toString() method
 
@@ -141,7 +141,7 @@ class Best_Friend {
 
 **Output**
 
-```
+```java
 Gulpreet Kaur 21 BIT MESRA M.TECH Kiriburu
 Gulpreet Kaur 21 BIT MESRA M.TECH Kiriburu
 ```
@@ -152,7 +152,7 @@ Gulpreet Kaur 21 BIT MESRA M.TECH Kiriburu
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // working of toString() method
 
@@ -212,7 +212,7 @@ class Best_Friend {
 
 ![](img/b270b4400c233231d9b0f7d5b303a4e2.png)
 
-```
+```java
 Best_Friend@232204a1
 Gulpreet Kaur
 21

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Object[] toArray()
 
 ```
@@ -15,7 +15,7 @@ Object[] toArray()
 
 **例 1 :**
 
-```
+```java
 // Java code for Stream toArray()
 import java.util.*;
 import java.util.stream.Stream;
@@ -39,14 +39,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [5, 6, 7, 8, 9, 10]
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for Stream toArray()
 import java.util.*;
 import java.util.stream.Stream;
@@ -71,14 +71,14 @@ class GFG {
 
 输出:
 
-```
+```java
 [Geeks, for, Geeks, GeeksQuiz]
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Java code for Stream toArray()
 import java.util.*;
 import java.util.stream.Stream;
@@ -106,7 +106,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [Geeks, GeeksQuiz]
 
 ```

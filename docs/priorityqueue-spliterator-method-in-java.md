@@ -6,7 +6,7 @@ PriorityQueue 的**拆分器()**方法返回一个与 PriorityQueue 元素相同
 
 **语法:**
 
-```
+```java
 public Spliterator<E> spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator<E> spliterator()
 
 **示例 1:** 演示 PriorityQueue 上的 spliterator()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of PriorityQueue
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Strings:
 Delhi
 Jammu
@@ -60,7 +60,7 @@ Patna
 
 **示例 2:** 演示包含一组学生姓名的优先级队列上的拆分器()方法。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of PriorityQueue
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of String Object:
 Student Name: Aman
 Student Name: Amar

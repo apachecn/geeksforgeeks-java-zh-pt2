@@ -16,7 +16,7 @@ Java 中 **TimeZone 类**的**getavailable IDs(int*val _ offset*)**方法用于�
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getAvailableIDs() method
 
@@ -44,7 +44,7 @@ public class TimeZone_Demo {
 
 **输出:**
 
-```
+```java
 All the available Ids are: 
 ART
 Africa/Blantyre
@@ -97,7 +97,7 @@ Libya
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getAvailableIDs() method
 
@@ -125,7 +125,7 @@ public class TimeZone_Demo {
 
 **输出:**
 
-```
+```java
 All the available Ids are: 
 AET
 Antarctica/DumontDUrville

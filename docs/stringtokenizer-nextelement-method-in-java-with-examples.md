@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object nextElement()
 ```
 
@@ -18,7 +18,7 @@ public Object nextElement()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate nextElement() method
 
 import java.util.*;
@@ -42,7 +42,7 @@ public class StringTokenizer_Demo {
 
 **Output:**
 
-```
+```java
 The Next token: Lets
 The Next token: practice
 The Next token: at
@@ -52,7 +52,7 @@ The Next token: GeeksforGeeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate nextElement() method
 
 import java.util.*;
@@ -76,7 +76,7 @@ public class StringTokenizer_Demo {
 
 **Output:**
 
-```
+```java
 The Next token: Welcome
 The Next token: to
 The Next token: GeeksforGeeks

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusWeeks(long weeks)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime plusWeeks(long weeks)
 以下程序说明了 plusWeeks()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusWeeks() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusWeeks() method
 

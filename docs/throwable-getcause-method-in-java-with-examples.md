@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Throwable getCause()
 ```
 
@@ -16,7 +16,7 @@ public Throwable getCause()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -68,14 +68,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Cause of Exception: java.lang.ArithmeticException: / by zero
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -114,7 +114,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Cause of Exception : null
 
 ```

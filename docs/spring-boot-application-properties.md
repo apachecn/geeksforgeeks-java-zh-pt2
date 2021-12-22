@@ -20,7 +20,7 @@
 
 因此，如上面的截图所示，您可以通过下面的行来更改端口号
 
-```
+```java
 server.port=8989
 ```
 
@@ -28,7 +28,7 @@ server.port=8989
 
 要定义我们应用程序的名称，您可以这样编写属性
 
-```
+```java
 spring.application.name = userservice
 ```
 
@@ -38,7 +38,7 @@ spring.application.name = userservice
 
 要连接到 MySQL 数据库，你必须写一堆行。您可以这样编写属性
 
-```
+```java
 spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
 spring.datasource.username=springuser
@@ -50,7 +50,7 @@ spring.datasource.driver-class-name =com.mysql.jdbc.Driver
 
 H2 是一个嵌入式、开源和内存数据库。这是一个用 Java 编写的关系数据库管理系统。它是一个客户端/服务器应用程序。它通常用于单元测试。它将数据存储在内存中，而不是将数据保存在磁盘上。要连接到 H2 数据库，你必须写一堆行。您可以这样编写属性
 
-```
+```java
 spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:dcbapp
 spring.datasource.driverClassName=org.h2.Driver
@@ -63,7 +63,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 要连接蒙古数据库，你必须写一堆行。您可以这样编写属性
 
-```
+```java
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
 spring.data.mongodb.database=BookStore
@@ -73,7 +73,7 @@ spring.data.mongodb.database=BookStore
 
 尤里卡服务器是一个保存所有客户服务应用程序信息的应用程序。每个微服务都将注册到尤里卡服务器，尤里卡服务器知道每个端口和 IP 地址上运行的所有客户端应用程序。尤里卡服务器也被称为发现服务器。您可以这样编写属性
 
-```
+```java
 eureka.client.register-with-eureka=true
 eureka.client.fetch-registry=true
 eureka.client.service-url.defaultZone=http://localhost:9096/eureka/
@@ -88,7 +88,7 @@ application.properties 文件不是那么可读。所以大多数时候开发人
 
 **案例 1:** 让我们选择上例 3 中我们连接到 MySQL 数据库的地方**，**对应的属性如下:
 
-```
+```java
 spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
@@ -102,7 +102,7 @@ spring:
 
 **案例 2:** 让我们选择上面的例子 6，在那里我们连接到尤里卡服务器，相应的属性如下:
 
-```
+```java
 eureka:
   client:
     register-with-eureka: true

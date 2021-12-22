@@ -58,7 +58,7 @@ Pcap 代表数据包捕获。它用于捕获网络流量。这些 pcap 文件可
 
     T8
 
-    ```
+    ```java
     Total number of packets inside 3.pcap = 2330 
     ```
 
@@ -67,7 +67,7 @@ Pcap 代表数据包捕获。它用于捕获网络流量。这些 pcap 文件可
 
     2 . pcap
 
-    ```
+    ```java
     Total number of packets inside 2.pcap = 3361 
     ```
 
@@ -76,7 +76,7 @@ Pcap 代表数据包捕获。它用于捕获网络流量。这些 pcap 文件可
 
     1.pcap
 
-    ```
+    ```java
     Total number of packets inside 1.pcap = 502 
     ```
 
@@ -88,7 +88,7 @@ Pcap 代表数据包捕获。它用于捕获网络流量。这些 pcap 文件可
 
 **源代码**
 
-```
+```java
 // Counting the number of packets in pcap files.
 
 // User defined package

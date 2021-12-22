@@ -20,7 +20,7 @@
 **自动装箱:**将原语类型自动转换为其对应包装类的对象，称为自动装箱。例如–整数到整数、长到长、双到双等的转换。
 例:
 
-```
+```java
 // Java program to demonstrate Autoboxing
 
 import java.util.ArrayList;
@@ -46,13 +46,13 @@ class Autoboxing
 
 输出:
 
-```
+```java
 25
 ```
 
 **拆箱:**只是自动装箱的反过程。将包装类的对象自动转换为其对应的基元类型称为取消装箱。例如–整数到整数、长到长、双到双等的转换。
 
-```
+```java
 // Java program to demonstrate Unboxing
 import java.util.ArrayList;
 
@@ -79,13 +79,13 @@ class Unboxing
 
 输出:
 
-```
+```java
 24
 ```
 
 **实施**
 
-```
+```java
 // Java program to demonstrate Wrapping and UnWrapping
 // in Java Classes
 class WrappingUnwrapping
@@ -151,7 +151,7 @@ class WrappingUnwrapping
 
 **输出:**
 
-```
+```java
 Values of Wrapper objects (printing as objects)
 Byte object byteobj:  1
 Integer object intobj:  10

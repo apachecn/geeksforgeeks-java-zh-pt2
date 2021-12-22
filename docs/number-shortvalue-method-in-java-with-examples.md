@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract short shortValue()
 
 ```
@@ -19,7 +19,7 @@ public abstract short shortValue()
 
 **程序 1:**
 
-```
+```java
 // java program that demonstrates
 // Number.shortValue() method
 public class gfg {
@@ -42,7 +42,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 -1
 12104
 
@@ -50,7 +50,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // java program that demonstrates
 // Number.shortValue() method
 
@@ -74,7 +74,7 @@ public class gfg {
 
 **输出:**
 
-```
+```java
 78
 56
 

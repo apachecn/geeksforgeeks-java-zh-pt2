@@ -11,7 +11,7 @@ java.lang.StrictMath 类的所有方法:[集合 1](https://www.geeksforgeeks.org
 
 **语法:**
 
-```
+```java
 public static double ceil(*double num*)
 ```
 
@@ -19,7 +19,7 @@ public static double ceil(*double num*)
 **返回值:**该方法返回最小的浮点值，该值最接近负无穷大，大于或等于给定参数，也等于整数。
 **示例:**
 
-```
+```java
 Input: num = 2.7
 Output: 3.0
 
@@ -32,7 +32,7 @@ Output: -8.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.ceil()
 import java.lang.*;
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Ceil value of 8.7 = 9.0
 The Ceil value of 7.1 = 8.0
 The Ceil value of 3.5 = 4.0
@@ -72,7 +72,7 @@ The Ceil value of 3.5 = 4.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.ceil()
 import java.lang.*;
@@ -102,7 +102,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Ceil value of -8.7 = -8.0
 The Ceil value of -7.1 = -7.0
 The Ceil value of -3.5 = -3.0

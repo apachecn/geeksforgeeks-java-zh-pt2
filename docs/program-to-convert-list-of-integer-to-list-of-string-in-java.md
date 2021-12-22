@@ -18,7 +18,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // List<Integer> to List<String> in Java 8
 
@@ -61,7 +61,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List of String: [1, 2, 3, 4, 5]
     List of Integer: [1, 2, 3, 4, 5]
 
@@ -77,7 +77,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // List<Integer> to List<String> in Java 8
 
@@ -119,7 +119,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List of String: [1, 2, 3, 4, 5]
     List of Integer: [1, 2, 3, 4, 5]
 

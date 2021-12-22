@@ -15,7 +15,7 @@
 
 *   创建数组列表
 
-```
+```java
 ArrayList<Integer> list = new ArrayList<Integer>();
 
 list.add(9);
@@ -28,7 +28,7 @@ list.add(15):
 
 *   假设我们需要将列表的第一个元素 **9** 替换为 **10。**首先，我们将使用 ListIterator，用 next()方法返回 List 中的下一个元素。
 
-```
+```java
 ListIterator<Integer> iterator = list.listIterator();
 
 iterator.next();
@@ -36,13 +36,13 @@ iterator.next();
 
 *   现在，使用 set()方法替换列表中的元素。这里我们将替换迭代器的第一个元素，它可以用任何指定的值替换(在我们的例子中，我们需要用 **10** 替换它)。
 
-```
+```java
 iterator.set(10);
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to replace an element
 // from ArrayList using Java ListIterator
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before Replacing...
 9
 11
@@ -113,7 +113,7 @@ After replacing...
 *   使用上面相同的方法，数组列表中任何位置的任何元素都可以用任何值替换。
 *   创建一个名称数组列表，并向其中添加一些名称–
 
-```
+```java
 ArrayList<String> name = new ArrayList<>();
 
 name.add("Yash");
@@ -126,7 +126,7 @@ name.add("Rajnikanth");
 *   假设我们需要将“**拉吉尼坎塔**”替换为“**莫希特**”。
 *   现在，使用列表迭代器，我们将迭代到列表的最后一个元素，然后替换它
 
-```
+```java
 ListIterator<String> iterator = name.listIterator();
 while(iterator.hasNext())
 {
@@ -138,7 +138,7 @@ iterator.set("Mohit");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to replace an element
 // from ArrayList using Java ListIterator
 
@@ -181,7 +181,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before Replacing...
 Yash Akash Amar Abhishek Rajnikanth 
 After Replacing...

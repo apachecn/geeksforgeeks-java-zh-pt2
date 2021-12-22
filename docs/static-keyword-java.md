@@ -17,7 +17,7 @@ Java 中的**静态关键字**主要用于内存管理。Java 中的 static 关�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate that a static member
 // can be accessed before instantiating a class
 
@@ -40,7 +40,7 @@ class Test
 
 ****Output**
 
-```
+```java
 from m1
 ```** 
 
@@ -52,7 +52,7 @@ from m1
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate use of static blocks
 
 class Test
@@ -78,7 +78,7 @@ class Test
 
 ****Output**
 
-```
+```java
 Static block initialized.
 from main
 Value of a : 10
@@ -100,7 +100,7 @@ Value of b : 40
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate execution
 // of static blocks and variables
 
@@ -131,7 +131,7 @@ class Test
 
 ****Output**
 
-```
+```java
 from m1
 Inside static block
 Value of a : 20
@@ -150,7 +150,7 @@ from main
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate restriction on static methods
 
 class Test
@@ -193,7 +193,7 @@ class Test
 
 ****输出:****
 
-```
+```java
 prog.java:18: error: non-static variable b cannot be referenced from a static context
          b = 10; // compilation error
          ^
@@ -218,7 +218,7 @@ prog.java:25: error: cannot find symbol
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A java program to demonstrate use of
 // static keyword with methods and variables
 
@@ -281,7 +281,7 @@ public class StaticDemo {
 
 ****Output**
 
-```
+```java
 name : Alice
 rollNo : 1
 cllgName : XYZ
@@ -302,7 +302,7 @@ cllgName : XYZ
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A java program to demonstrate use
 // of static keyword with Classes
 
@@ -332,7 +332,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 GeeksforGeeks
 ```** 
 

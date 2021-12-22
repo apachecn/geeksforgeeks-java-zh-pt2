@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void clear()
 ```
 
@@ -18,7 +18,7 @@ void clear()
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate clear()
 
 import java.io.*;
@@ -53,7 +53,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Initial Set: [4, Geeks, To, Welcome]
 The final set: []
 

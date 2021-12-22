@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void applyLocalizedPattern(String *pattern*)
 ```
 
@@ -19,7 +19,7 @@ public void applyLocalizedPattern(String *pattern*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // applyLocalizedPattern() method
 
@@ -51,7 +51,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 Applying the format: MM / dd / yy HH:mm Z
 ```
 
@@ -59,7 +59,7 @@ Applying the format: MM / dd / yy HH:mm Z
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // applyLocalizedPattern() method
 
@@ -94,7 +94,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 Today is: 30
 Month is: Jan
 ```

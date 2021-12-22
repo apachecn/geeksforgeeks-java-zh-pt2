@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ZoneOffset
   from(TemporalAccessor temporalAccessor)
 
@@ -22,7 +22,7 @@ public static ZoneOffset
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate from() method
 
 import java.time.*;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z
 
 ```
 
 **示例 2:** 演示日期时间异常
 
-```
+```java
 // Java code to illustrate from() method
 
 import java.time.*;
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException:
  Unable to obtain ZoneOffset from TemporalAccessor:
  2018-12-11 of type java.time.LocalDate

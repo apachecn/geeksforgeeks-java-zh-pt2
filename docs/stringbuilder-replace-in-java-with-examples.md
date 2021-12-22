@@ -5,7 +5,7 @@
 StringBuilder 类的 **replace(int start，int end，String str)** 方法用于将该序列的子串中的字符替换为指定 String 中的字符。子字符串从指定的索引开始处开始，并扩展到索引结束处的字符–1，如果不存在这样的字符，则扩展到序列的结尾。首先，删除子字符串的字符，并插入作为参数传递的字符串来代替这些字符。
 **语法:**
 
-```
+```java
 public StringBuilder replace?(int start, int end, String str)
 ```
 
@@ -24,7 +24,7 @@ public StringBuilder replace?(int start, int end, String str)
 下面的程序说明了 Java . lang . stringbuilder . replace()方法:
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the replace() Method.
 
@@ -53,7 +53,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = WelcomeGeeks
 After Replace() String = We are Geeks
 
@@ -61,7 +61,7 @@ After Replace() String = We are Geeks
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the replace() Method.
 
@@ -90,7 +90,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = Tony Stark will die
 After Replace() String = Tony Stark will not die
 
@@ -98,7 +98,7 @@ After Replace() String = Tony Stark will not die
 
 **例 3:** 通过负指数时:
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the replace() Method.
 
@@ -125,7 +125,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: String index out of range: -15
     at java.lang.AbstractStringBuilder.replace(AbstractStringBuilder.java:851)
     at java.lang.StringBuilder.replace(StringBuilder.java:262)
@@ -135,7 +135,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -15
 
 **示例 4:** 当传递的开始索引大于结束索引时:
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the replace() Method.
 
@@ -162,7 +162,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: start > end
     at java.lang.AbstractStringBuilder.replace(AbstractStringBuilder.java:855)
     at java.lang.StringBuilder.replace(StringBuilder.java:262)

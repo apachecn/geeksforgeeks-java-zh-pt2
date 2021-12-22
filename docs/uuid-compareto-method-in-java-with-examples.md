@@ -6,7 +6,7 @@ Java 中 **UUID 类**的 **compareTo()** 方法用于将一个 UUID 值与另一
 
 **语法:**
 
-```
+```java
 UUID_1.compareTo(UUID_2)
 ```
 
@@ -18,7 +18,7 @@ UUID_1.compareTo(UUID_2)
 
 **程序 1:** 检查两个 UUIDs 是否相等。
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID_1: 14534
 UUID_2: 14534
 Comparison Value: 0
@@ -62,7 +62,7 @@ Comparison Value: 0
 
 **程序 2:** 当 UUID_1 小于 UUID_2 时，方法返回-1。
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.util.*;
@@ -97,7 +97,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID_1: 5737
 UUID_2: 14534
 Comparison Value: -1
@@ -106,7 +106,7 @@ Comparison Value: -1
 
 **程序 3:** 当 UUID_1 大于 UUID_2 时，方法返回 1。
 
-```
+```java
 // Java code to illustrate compareTo() method
 
 import java.util.*;
@@ -141,7 +141,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID_1: 14534
 UUID_2: 5737
 Comparison Value: 1

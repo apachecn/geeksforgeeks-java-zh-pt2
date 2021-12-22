@@ -92,7 +92,7 @@ OOPs 概念如下:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate Polymorphism
 
 // This class will contain
@@ -135,7 +135,7 @@ public class Sum {
 
 **Output:** 
 
-```
+```java
 30
 60
 31.0

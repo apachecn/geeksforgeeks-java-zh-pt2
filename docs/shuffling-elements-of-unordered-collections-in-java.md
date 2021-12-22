@@ -14,7 +14,7 @@ java 中的无序集合不提供任何顺序，即元素不能使用特定的索
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the shuffling
 // of a set
 
@@ -66,7 +66,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 The Set before shuffling: 0 55 9 10 91 
 The List (containing elements of the Set) after shuffling: 55 0 91 10 9 
 ```**** 
@@ -75,7 +75,7 @@ The List (containing elements of the Set) after shuffling: 55 0 91 10 9
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java program to demonstrate the shuffling 
 // of a map
 
@@ -127,7 +127,7 @@ public class GFG {
 
 ******Output**
 
-```
+```java
 The Map before shuffling: 
 1 Geeks
 2 for

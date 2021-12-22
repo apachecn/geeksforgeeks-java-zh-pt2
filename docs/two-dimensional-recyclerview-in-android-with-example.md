@@ -20,7 +20,7 @@
 
 下面是凌空的依赖，我们将使用它从应用编程接口获取数据。要添加此依赖项，请导航至**应用程序>渐变脚本> build.gradle(应用程序)**，并在依赖项部分添加以下依赖项。我们已经使用了毕加索从网址图像加载依赖。
 
-```
+```java
 // below line is used for volley library
 implementation ‘com.android.volley:volley:1.1.1’
 
@@ -30,7 +30,7 @@ implementation ‘com.squareup.picasso:picasso:2.71828’
 
 另外，在清单文件中添加 internet 权限
 
-```
+```java
 <uses-permission android:name="android.permission.INTERNET" /> 
 ```
 
@@ -40,7 +40,7 @@ implementation ‘com.squareup.picasso:picasso:2.71828’
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,7 +64,7 @@ implementation ‘com.squareup.picasso:picasso:2.71828’
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class NewsModal {
 
     // string for news title,image and description.
@@ -113,7 +113,7 @@ public class NewsModal {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 
 public class CategoriesModal {
@@ -153,7 +153,7 @@ public class CategoriesModal {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -217,7 +217,7 @@ public class CategoriesModal {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -267,7 +267,7 @@ public class CategoriesModal {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -339,7 +339,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -411,7 +411,7 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;

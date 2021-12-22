@@ -4,7 +4,7 @@
 
 **TreeMap firstEntry()** 指的是用于检索与 TreeMap 中存在的最低键值元素映射的键值对的方法，如果 Map 中没有键值对，则简单返回 null。方法名**‘first entry()’**解释了它将返回具有最少键值的条目。
 
-```
+```java
 Syntax: public Map.Entry<K,V> firstEntry(), 
 
 Here K and V refer key-value respectively.
@@ -22,7 +22,7 @@ Exception: NA - As it doesnot throw any exception at entry return.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate 
 // the working of TreeMap firstKey() 
 import java.io.*; 
@@ -51,7 +51,7 @@ public static void main(String[] args) 
 
 **Output**
 
-```
+```java
 Lowest Entry is: 1=Python
 
 ```
@@ -62,7 +62,7 @@ Lowest Entry is: 1=Python
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the working
 // of TreeMap firstKey() method
 import java.io.*; 
@@ -91,7 +91,7 @@ public static void main(String[] args) 
 
 **Output**
 
-```
+```java
 Lowest Entry is: 65.5=Gulshan
 
 ```

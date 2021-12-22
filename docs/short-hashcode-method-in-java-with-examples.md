@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```java
 ShortObject.hashCode()
 ```
 
@@ -18,7 +18,7 @@ ShortObject.hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short hashCode() method
 
@@ -44,14 +44,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode of 74 : 74
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short hashCode() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode of -17 : -17
 
 ```

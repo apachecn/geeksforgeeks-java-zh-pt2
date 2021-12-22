@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 // Java program to Print Hello World Without Semicolon
 // Using if statement
 
@@ -35,6 +35,6 @@ class GFG {
 
 **输出**
 
-```
+```java
 Hello World
 ```

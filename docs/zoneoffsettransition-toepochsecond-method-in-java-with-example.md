@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toEpochSecond()
 ```
 
@@ -18,7 +18,7 @@ public long toEpochSecond()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // toEpochSecond() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 epoch second : 925010677
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // toEpochSecond() method
 
@@ -128,7 +128,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 epoch second : 925010673
 
 ```

@@ -21,7 +21,7 @@
     3\. In the fun() method, moreFun() method is called. Therefore at last moreFun() will be stored in stack.
     4\. Finally, moreFun() is not calling any method and it will print **Hello Geeks!**
 
-    ```
+    ```java
     // Java program to illustrate run time
     // Run-time stack mechanism in
     // normal flow of Exception handling
@@ -43,7 +43,7 @@
 
     输出:
 
-    ```
+    ```java
     Hello Geeks!
 
     ```
@@ -61,7 +61,7 @@
     2\. JVM again go to the caller method to check if it is having any exception handling code are not. If not JVM terminates the method abnormally and deleted the corresponding entry from the stack.
     3\. The above process continues until main thread. If the main thread(main method) does’t have any exception handling code the JVM also terminates the main method abnormally and default exception handler is responsible to print the exception message to the output screen which is the part of JVM.
 
-    ```
+    ```java
     // Java program to illustrate run time
     // Run-time stack mechanism in
     // normal flow of Exception handling
@@ -85,7 +85,7 @@
 
     运行时错误:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ArithmeticException: / by zero
         at ExceptionHandling.moreFun(ExceptionHandling.java:16)
         at ExceptionHandling.fun(ExceptionHandling.java:11)

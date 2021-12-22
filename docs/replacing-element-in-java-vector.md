@@ -8,13 +8,13 @@
 
 **返回值:**
 
-```
+```java
 The element which is at the specified index
 ```
 
 **异常抛出:**
 
-```
+```java
 IndexOutOfBoundsException 
 when the index is out of range 
 i.e, index < 0 or index >= size()
@@ -24,7 +24,7 @@ i.e, index < 0 or index >= size()
 
 ## Java
 
-```
+```java
 // Replacing Element in Java Vector
 import java.util.Vector;
 public class Sias {
@@ -69,7 +69,7 @@ public class Sias {
 
 **输出**
 
-```
+```java
 original vector : [1, 2, 3, 4, 5]
 after replace the value : [1, 2, 10, 4, 5]
 java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 9

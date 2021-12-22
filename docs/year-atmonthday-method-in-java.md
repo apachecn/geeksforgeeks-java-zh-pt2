@@ -6,7 +6,7 @@ Java 中 year 类的 atMonthDay(MonthDay)方法将当前的 Year 对象与作为
 
 **语法**:
 
-```
+```java
 public LocalDate atMonthDay(MonthDay monthDay)
 
 ```
@@ -20,7 +20,7 @@ public LocalDate atMonthDay(MonthDay monthDay)
 下面的程序用 Java 说明了一年中的第几天(月日)方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the atMonthDay(MonthDay) method
 
 import java.util.*;
@@ -46,14 +46,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2017-09-15
 
 ```
 
 **程序二**:由于 2018 年不是闰年，下面的程序将 29 日四舍五入为 28 日。
 
-```
+```java
 // Program to illustrate the atMonthDay(MonthDay) method
 
 import java.util.*;
@@ -79,7 +79,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2018-02-28
 
 ```

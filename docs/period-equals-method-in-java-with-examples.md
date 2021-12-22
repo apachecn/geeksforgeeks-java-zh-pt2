@@ -8,7 +8,7 @@ Java 中 Period 类的 equals()方法用于检查两个给定的周期是否相�
 
 **语法:**
 
-```
+```java
 public boolean equals(Period secondPeriod)
 ```
 
@@ -20,7 +20,7 @@ public boolean equals(Period secondPeriod)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the period
 // equals for two given periods
 import java.time.LocalDate;
@@ -52,14 +52,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to show the period
 // equals for two given periods
 import java.time.LocalDate;
@@ -91,7 +91,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 true
 
 ```

@@ -18,7 +18,7 @@ Null 是 Java 中使用的特殊值。主要用于表示没有给引用变量赋
 
 最多创建一个类实例的一个示例方法是将它的所有构造函数声明为私有，然后创建一个返回该类唯一实例的公共方法:
 
-```
+```java
 // To use randomUUID function.
 import java.util.UUID;
 import java.io.*;
@@ -65,7 +65,7 @@ public class TestSingleton
 
 输出:
 
-```
+```java
 10099197-8c2d-4638-9371-e88c820a9af2
 
 ```
@@ -81,7 +81,7 @@ public class TestSingleton
 
 一个非常常见的案例问题涉及字符串变量和文字之间的比较。文字可以是字符串或枚举的元素。与其从 null 对象调用方法，不如考虑从文本调用它。
 
-```
+```java
 // A Java program to demonstrate that invoking a method
 // on null causes NullPointerException
 import java.io.*;
@@ -113,14 +113,14 @@ class GFG
 
 输出:
 
-```
+```java
 NullPointerException Caught
 
 ```
 
 我们可以通过对文字而不是对象调用 equals 来避免 NullPointerException。
 
-```
+```java
 // A Java program to demonstrate that we can avoid
 // NullPointerException
 import java.io.*;
@@ -150,7 +150,7 @@ class GFG
 
 输出:
 
-```
+```java
 Not Same
 ```
 
@@ -158,7 +158,7 @@ Not Same
 
 在执行新方法的主体之前，我们应该首先检查它的参数是否为空值，只有在正确检查了参数之后，才继续执行该方法。否则，它将抛出一个 **IllegalArgumentException** ，并通知调用方法传递的参数有问题。
 
-```
+```java
 // A Java program to demonstrate that we should
 // check if parameters are null or not before
 // using them.
@@ -215,7 +215,7 @@ class GFG
 
 输出:
 
-```
+```java
 0
 13
 IllegalArgumentException caught
@@ -226,7 +226,7 @@ IllegalArgumentException caught
 
 三元运算符可用于避免 NullPointerException。首先，评估布尔表达式。如果表达式为**真**，则返回值 1，否则返回值 2。我们可以使用三元运算符来处理空指针:
 
-```
+```java
 // A Java program to demonstrate that we can use
 // ternary operator to avoid NullPointerException.
 import java.io.*;
@@ -251,7 +251,7 @@ class GFG
 
 输出:
 
-```
+```java
 Geeks
 
 ```

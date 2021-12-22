@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Instant getInstant()
 ```
 
@@ -18,7 +18,7 @@ public Instant getInstant()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getInstant() method
 
@@ -67,14 +67,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant : 1999-04-25T03:24:37Z
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInstant() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Instant : 1999-04-25T03:24:33Z
 
 ```

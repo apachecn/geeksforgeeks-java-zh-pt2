@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Separators in Java
 
 // Main class

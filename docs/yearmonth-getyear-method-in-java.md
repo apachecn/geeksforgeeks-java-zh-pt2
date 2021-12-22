@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 getYear()方法用于从使用它的 YearMonth 实例�
 
 **语法**:
 
-```
+```java
 public int getYear()
 
 ```
@@ -18,7 +18,7 @@ public int getYear()
 下面的程序说明了 Java 中 YearMonth 的 getYear()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getYear() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2017
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the getYear() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2018
 
 ```

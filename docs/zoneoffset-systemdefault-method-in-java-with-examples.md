@@ -6,7 +6,7 @@ Java 中 **ZoneOffset** 类的 **systemDefault()** 方法用于返回系统默�
 
 **语法:**
 
-```
+```java
 public String systemDefault()
 
 ```
@@ -24,7 +24,7 @@ public String systemDefault()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneOffset.systemDefault() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 System Default time-zone: Etc/UTC
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneOffset.systemDefault() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 This zone is Etc/UTC
 
 ```

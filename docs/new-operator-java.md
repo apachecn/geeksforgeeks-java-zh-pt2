@@ -6,7 +6,7 @@
 
 1.  **Declaration :** First, you must declare a variable of the class type. This variable does not define an object. Instead, it is simply a variable that can *refer* to an object. Below is general syntax of declaration with an example :
 
-    ```
+    ```java
     Syntax :
     class-name var-name;
 
@@ -24,7 +24,7 @@
 
     ***新的*** 操作符后面还有一个对类构造函数的调用，它初始化了新的对象。一个[构造器](https://www.geeksforgeeks.org/constructors-in-java/)定义了当一个类的对象被创建时会发生什么。构造函数是所有类的重要组成部分，并且有许多重要的属性。在下面的例子中，我们将使用[默认构造函数](https://www.geeksforgeeks.org/g-fact-50/)。下面是实例化和初始化的一般语法，并附有一个示例:
 
-    ```
+    ```java
     Syntax :
     var-name = new class-name();
 
@@ -37,7 +37,7 @@
 
     了解之前，如何 ***新增*** 动态分配内存，让我们看看类*盒子*原型。
 
-    ```
+    ```java
     class Box
     {
         double width;
@@ -59,21 +59,21 @@
 
 1.  以上两个语句可以重写为一个语句。
 
-    ```
+    ```java
     Box mybox = new Box();
 
     ```
 
 2.  由 ***新的*** 运算符返回的引用不必分配给类变量。它也可以直接用在表达式中。例如:
 
-    ```
+    ```java
     double height = new Box().height;
 
     ```
 
 3.  由于[数组在 java 中是对象](https://www.geeksforgeeks.org/arrays-in-java/)，因此在实例化数组时，我们使用 ***新的*** 运算符。例如:
 
-    ```
+    ```java
     int arr[] = new int[5];
 
     ```
@@ -85,7 +85,7 @@
 
 当您将一个对象引用变量分配给另一个对象引用变量时，您不是在创建对象的副本，您只是在创建引用的副本。让我们用一个例子来理解这一点。
 
-```
+```java
 // Java program to demonstrate assigning 
 // of object reference variables
 
@@ -127,7 +127,7 @@ public class Test
 
 输出:
 
-```
+```java
 0.0
 0.0
 20.0
@@ -139,7 +139,7 @@ public class Test
 
 首先让我们了解以下片段在上述程序中的作用。
 
-```
+```java
 Box b1 = new Box();
 Box b2 = b1;
 
@@ -153,7 +153,7 @@ Box b2 = b1;
 
 **注:**虽然 **b1** 和 **b2** 都是指同一个物体，但没有任何其他的联系。例如，对 **b1** 的后续赋值将简单地*从原始对象中解开* **b1** ，而不会影响对象或影响 **b2** 。例如:
 
-```
+```java
 Box b1 = new Box();
 Box b2 = b1;
 // ...

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default File toFile()
 
 ```
@@ -20,7 +20,7 @@ default File toFile()
 以下程序说明了 toFile()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.toFile() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.toFile() method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isIntValue()
 
 ```
@@ -18,7 +18,7 @@ public boolean isIntValue()
 下面的程序说明了 ValueRange.isIntValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isIntValue() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isIntValue: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isIntValue() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isIntValue: true
 
 ```

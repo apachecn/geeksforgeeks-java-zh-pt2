@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : Java is great. Grails is also great
 Output : Java
          Grails
@@ -21,7 +21,7 @@ Output : Java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print unique words
 // from a string
 
@@ -82,7 +82,7 @@ public class Test
 
 ## 计算机编程语言
 
-```
+```java
 # Python program to print unique word
 # in a string.
 # Using re (Regular Expression module)
@@ -134,7 +134,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```java
 Java
 Grails
 also
@@ -153,7 +153,7 @@ also
 
 ## 蟒蛇 3
 
-```
+```java
 # python program to print all
 # the unique words in a string
 # in python using set() method
@@ -177,7 +177,7 @@ printWords(s)
 
 **Output**
 
-```
+```java
 geeks
 for
 ```

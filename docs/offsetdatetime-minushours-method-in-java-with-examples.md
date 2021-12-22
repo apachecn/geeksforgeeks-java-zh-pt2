@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**minush()**方法返回这个 OffsetDateTime 的�
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusHours(long hours)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime minusHours(long hours)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusHours() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting hours: 2018-12-17T13:30:30+05:00
 
@@ -56,7 +56,7 @@ Date1 after subtracting hours: 2018-12-17T13:30:30+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the isEqual() method
 
 import java.time.OffsetDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting hours: 2018-12-06T17:30:30+05:00
 

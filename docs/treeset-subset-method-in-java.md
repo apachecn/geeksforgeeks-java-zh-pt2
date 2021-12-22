@@ -6,7 +6,7 @@ java.util.TreeSet.subSet()用于返回参数中提到的范围内现有 TreeSet 
 
 **语法:**
 
-```
+```java
 *TreeSet* tree_set.subSet(Object low_element, Object up_element)
 ```
 
@@ -21,7 +21,7 @@ java.util.TreeSet.subSet()用于返回参数中提到的范围内现有 TreeSet 
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate subSet() method
 import java.io.*;
 import java.util.Iterator;
@@ -69,7 +69,7 @@ public class Tree_Set_Demo {
 
 **Output:**
 
-```
+```java
 The resultant values within the sub set: 
 6 
 9 
@@ -81,7 +81,7 @@ The resultant values within the sub set:
 
 **程序 2** :
 
-```
+```java
 // Java code to illustrate subSet() method when TreeSet
 // contains elements of String type
 import java.io.*;
@@ -126,7 +126,7 @@ public class Tree_Set_Demo {
 
 **Output:**
 
-```
+```java
 The resultant values within the sub set: 
 4 
 Geek 

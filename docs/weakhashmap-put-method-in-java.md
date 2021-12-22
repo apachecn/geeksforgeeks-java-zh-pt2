@@ -6,7 +6,7 @@ WeakHashMap 的 Java . util . Weakashmap . put()方法用于将映射插入到�
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.put(*key, value*)
 ```
 
@@ -20,7 +20,7 @@ Weak_Hash_Map.put(*key, value*)
 下面的程序是用来说明 java.util.WeakHashMap.put()方法:
 **程序 1:** 在传递一个已有密钥时的工作方式。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -59,7 +59,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Returned value is: Geeks
 New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=All}
@@ -68,7 +68,7 @@ New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=All}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the put() method
 import java.util.*;
 
@@ -107,7 +107,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Returned value is: null
 New map is: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks, 50=All}

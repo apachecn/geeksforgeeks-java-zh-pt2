@@ -28,7 +28,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <color name="colorPrimary">#0F9D58</color>
     <color name="colorPrimaryDark">#16E37F</color>
@@ -75,7 +75,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -104,7 +104,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;

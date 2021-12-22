@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int get(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public int get(TemporalField field)
 下面的程序说明了 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.get() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 Year Field: 2019
 
@@ -63,7 +63,7 @@ Year Field: 2019
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.get() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 ERA Field: 1
 

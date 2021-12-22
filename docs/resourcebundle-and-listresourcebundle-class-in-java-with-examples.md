@@ -8,7 +8,7 @@
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
 ↳java.util.ResourceBundle
 ```
@@ -17,7 +17,7 @@ java.lang.Object
 
 **1。ResourceBundle()** :默认构造函数，主要设计用于子类和工厂方法。
 
-```
+```java
 public ResourceBundle()
 ```
 
@@ -25,68 +25,68 @@ public ResourceBundle()
 
 **1。clearCache()** :这个方法从缓存中删除默认类加载器加载的所有资源包。
 
-```
+```java
 static final void clearCache()
 ```
 
 **2。containsKey()** :如果传递的字符串参数是调用资源包中的键，则该方法返回 true。
 
-```
+```java
 boolean containsKey(String k)
 ```
 
 **3。getBundle()** :这个方法用给定的名称和指定的区域设置加载资源包。
 
-```
+```java
 static final ResourceBundle getBundle(String familyName)
 static final ResourceBundle getBundle(String familyName, Locale loc)
 ```
 
 **4。setParent()** :此方法将传递的包设置为调用包的父包。在查找的情况下，如果在调用对象中找不到该键，则在父包中查找它。
 
-```
+```java
 protected void setParent(ResourceBundle parent)
 ```
 
 **5。getObject()** :此方法从当前资源包或父包中检索并返回与作为参数传递的键相关联的对象。
 
-```
+```java
 public final Object getObject(String key)
 ```
 
 **6。getHandleObject()** :这个方法从资源包中返回与给定键关联的对象。如果没有可用的对象，则返回 null。
 
-```
+```java
 protected abstract Object handleGetObject(String key)
 ```
 
 **7。getString()** :此方法从当前资源包或父包中检索并返回与作为参数传递的键相关联的字符串。
 
-```
+```java
 public final String getString(String key)
 ```
 
 **8。getstringgarray()**:此方法从当前资源包或父包中检索并返回与作为参数传递的键相关联的字符串数组。
 
-```
+```java
 public final String[] getStringArray(String key)
 ```
 
 **9。getLocale()** :这个方法返回与当前包关联的 Locale。
 
-```
+```java
 public Locale getLocale()
 ```
 
 **10。containsKey()** :这个方法检查一个给定的键是否存在于一个资源包或者它的父包中。
 
-```
+```java
 public boolean containsKey(String key)
 ```
 
 **11 时。keySet()** :此方法返回当前束或其父束中所有键的集合。
 
-```
+```java
 public Set keySet()
 ```
 
@@ -96,7 +96,7 @@ public Set keySet()
 
 **1。listsourcebundle()**:创建对象的默认构造函数。
 
-```
+```java
 public ListResourceBundle()
 ```
 
@@ -104,25 +104,25 @@ public ListResourceBundle()
 
 **1。getContents()** :这个方法返回一个包含代表资源的键/值对的二维数组。
 
-```
+```java
 protected abstract Object[][] getContents()
 ```
 
 **2。handleGetObject()** :这个方法返回与当前包中的键相关联的对象(如果存在的话)。
 
-```
+```java
 public final Object handleGetObject(String key)
 ```
 
 **3。getKeys()** :这个方法返回资源包中键的枚举。
 
-```
+```java
 public Enumeration getKeys()
 ```
 
 **4。handleKeySet()** :这个方法返回当前资源包中所有键的集合。
 
-```
+```java
 protected Set handleKeySet()
 ```
 
@@ -130,7 +130,7 @@ protected Set handleKeySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.ListResourceBundle;
@@ -200,7 +200,7 @@ public class LRBDemo {
 
 **输出:**
 
-```
+```java
 English Version:
 String for Title key: My Program
 String for StopText key: Stop

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Optional<T> or(Supplier<T> supplier)
 
 ```
@@ -23,7 +23,7 @@ public Optional<T> or(Supplier<T> supplier)
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.or() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional[9455]
 Optional by or(() -> Optional.of(100)) method: Optional[9455]
 
@@ -61,7 +61,7 @@ Optional by or(() -> Optional.of(100)) method: Optional[9455]
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.or() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional.empty
 Optional by or(() -> Optional.of(100)) method: Optional[100]
 

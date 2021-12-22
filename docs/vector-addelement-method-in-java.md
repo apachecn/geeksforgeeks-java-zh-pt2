@@ -5,7 +5,7 @@
 [](https://www.geeksforgeeks.org/java-util-vector-class-java/)****。addElement()** 方法用于通过将向量的大小增加 1 来将指定的元素追加到该向量的末尾。该方法的功能类似于 Vector 类的 **add()** 方法。
 **语法:**** 
 
-```
+```java
 boolean addElement(Object element)
 ```
 
@@ -16,7 +16,7 @@ boolean addElement(Object element)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to illustrate boolean addElement()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 The vector is: [Geeks, for, Geeks, 10, 20]
 The new Vector is: [Geeks, for, Geeks, 10, 20, Last, Element]
 ```** 
@@ -58,7 +58,7 @@ The new Vector is: [Geeks, for, Geeks, 10, 20, Last, Element]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to illustrate boolean addElement()
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class VectorDemo {
 
 ****Output:** 
 
-```
+```java
 The vector is: [1, 2, 3, 10, 20]
 The new Vector is: [1, 2, 3, 10, 20, 50, 100]
 ```**

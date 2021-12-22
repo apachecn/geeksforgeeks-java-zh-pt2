@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster firstDayOfNextYear()
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster firstDayOfNextYear()
 下面的程序说明了临时调整时间。第一天第一年()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfNextYear()
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of next year for localdate 2020-05-11: 2021-01-01
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfNextYear() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of next year for localdate :2010-12-29: 2011-01-01
 
 ```

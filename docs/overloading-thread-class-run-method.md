@@ -4,7 +4,7 @@
 
 run()方法可能会重载。但是 Thread 类 start()方法可以调用无参数方法。我们必须像普通方法调用一样显式调用另一个重载方法。
 
-```
+```java
 // Java Program to illustrate the behavior of
 // run() method overloading
 class Geeks extends Thread {
@@ -29,7 +29,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -41,7 +41,7 @@ GeeksforGeeks
 
 示例:
 
-```
+```java
 // Java Program to illustrate the execution of
 // program using main thread
 class Geeks extends Thread {
@@ -66,7 +66,7 @@ class Test extends Geeks {
 
 **输出:**
 
-```
+```java
 Bishal
 
 ```

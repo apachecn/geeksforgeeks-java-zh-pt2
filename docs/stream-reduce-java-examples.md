@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 T reduce(T identity, BinaryOperator<T> accumulator);
 
 Where, identity is initial value 
@@ -22,7 +22,7 @@ sum()、min()、max()、count()等。是一些简化操作的例子。reduce()�
 让我们看一些例子来更好地理解 reduce()函数:
 **例 1 :**
 
-```
+```java
 // Implementation of reduce method
 // to get the longest String
 import java.util.*;
@@ -55,14 +55,14 @@ class GFG {
 
 输出:
 
-```
+```java
 GeeksforGeeks
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Implementation of reduce method
 // to get the combined String
 import java.util.*;
@@ -93,14 +93,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks-for-Geeks
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Implementation of reduce method
 // to get the sum of all elements
 import java.util.*;
@@ -126,14 +126,14 @@ class GFG {
 
 输出:
 
-```
+```java
 The sum of all elements is 16
 
 ```
 
 **例 4 :**
 
-```
+```java
 // Implementation of reduce method
 // to get the product of all numbers
 // in given range.
@@ -161,7 +161,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The product is : 5040
 
 ```

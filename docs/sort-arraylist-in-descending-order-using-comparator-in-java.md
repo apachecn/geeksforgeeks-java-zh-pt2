@@ -6,7 +6,7 @@
 
 覆盖 ***compare()方法*** ，使其按照降序而不是升序对数组列表重新排序。仅在比较部分按降序更改。查看两个 compare()函数的区别。
 
-```
+```java
 Ascending Order
 public int compare(Item i1, Item i2)
     {
@@ -32,7 +32,7 @@ public int compare(Item i1, Item i2)
 
 如果需要根据字符串类型的变量(如名称等)对数组列表重新排序。重写下面的 compare()函数 Like。
 
-```
+```java
 Ascending Order
 public int compare(Shop s1, Shop s2)
     {
@@ -50,7 +50,7 @@ public int compare(Shop s1, Shop s2)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to sort the ArrayList 
 // in descending order using comparator
 import java.util.*;
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 before sorting
 Ram Name ModalNo
 2 Dell 322

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: linkedHashMap = {{5,4}, {3,44}, {4,15}, {1,20}, {2,11}}
 Output:
 key -> 1 : value -> 20
@@ -27,7 +27,7 @@ key -> 5: value -> 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Sort LinkedHashMap by keys in Java
 import java.util.*;
 import java.io.*;
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 After Sorting :
 
 Key -> 1:  Value -> 20

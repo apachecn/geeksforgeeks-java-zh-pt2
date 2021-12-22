@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double sin(*double ang*)
 ```
 
@@ -19,7 +19,7 @@ public static double sin(*double ang*)
 
 **例:**
 
-```
+```java
 Input : ang = 0.5235987755982988(30 degree)
 Output : 0.49999999999999994
 
@@ -32,7 +32,7 @@ Output : 0.7071067811865475
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate sin()
 import java.io.*;
 import java.math.*;
@@ -53,14 +53,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Sine value of 60 degrees : 0.8660254037844386
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate sin()
 import java.io.*;
 import java.math.*;
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1.3461375454781863
 Sine value of 77.128 degrees : 0.9748701783788553
 

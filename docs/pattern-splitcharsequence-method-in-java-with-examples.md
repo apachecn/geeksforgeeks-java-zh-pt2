@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String[] split(CharSequence input)
 
 ```
@@ -18,7 +18,7 @@ public String[] split(CharSequence input)
 以下程序说明了拆分(CharSequence)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.split(CharSequence) method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 array[0]=g
 array[1]=ksforg
 array[2]=ks
@@ -61,7 +61,7 @@ array[2]=ks
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.split(CharSequence) method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 array[0]=Bharat 
 array[1]= Veer Portal
 

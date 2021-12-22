@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistEra getEra()
 ```
 
@@ -18,7 +18,7 @@ public ThaiBuddhistEra getEra()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getEra() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistEra: BE
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getEra() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistEra: BE
 
 ```

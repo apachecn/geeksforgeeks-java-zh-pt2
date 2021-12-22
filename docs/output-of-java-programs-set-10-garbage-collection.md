@@ -10,7 +10,7 @@
 
 *   **Program 1 :**
 
-    ```
+    ```java
     public class Test
     {
         public static void main(String[] args) throws InterruptedException
@@ -39,7 +39,7 @@
 
     输出:
 
-    ```
+    ```java
     end of main
 
     ```
@@ -48,7 +48,7 @@
 
 *   **程序 2 :**
 
-```
+```java
 public class Test
 {
     public static void main(String[] args) throws InterruptedException
@@ -79,7 +79,7 @@ public class Test
 
 输出:
 
-```
+```java
 finalize method called
 end main
 
@@ -90,7 +90,7 @@ end main
 
 *   **Program 3 :**
 
-    ```
+    ```java
     public class Test
     {
         static Test t ;
@@ -137,7 +137,7 @@ end main
 
     **输出:**
 
-    ```
+    ```java
     finalize method called 1 times
 
     ```
@@ -149,7 +149,7 @@ end main
 
     *   **Program 4 :**
 
-    ```
+    ```java
     public class Test
     {
         public static void main(String[] args)
@@ -171,7 +171,7 @@ end main
     5 号线执行后有多少对象符合垃圾回收条件？
     T4【回答:
 
-    ```
+    ```java
     2
 
     ```
@@ -181,7 +181,7 @@ end main
 
     *   **Program 5 :**
 
-    ```
+    ```java
     public class Test
     {
         public static void main(String [] args) 
@@ -205,7 +205,7 @@ end main
     8 号线执行后有多少对象符合垃圾回收条件？
     T4【回答:
 
-    ```
+    ```java
     1
 
     ```

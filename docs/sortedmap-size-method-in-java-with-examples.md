@@ -6,7 +6,7 @@ Java 中 **[SortedMap 接口](https://www.geeksforgeeks.org/sortedmap-java-examp
 
 **语法:**
 
-```
+```java
 int size()
 ```
 
@@ -20,7 +20,7 @@ int size()
 
 **程序 1** :将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the size() method
 
 import java.util.*;
@@ -55,7 +55,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Initial Mappings are:
  {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The size of the map is 5
@@ -64,7 +64,7 @@ The size of the map is 5
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the size() method
 
 import java.util.*;
@@ -99,7 +99,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Initial Mappings are:
  {4=15, Geeks=20, Welcomes=25, You=30}
 The size of the map is 4

@@ -6,7 +6,7 @@ Java 中**时区类**的 **hasSameRules()** 方法用于检查两个时区之间
 
 **语法:**
 
-```
+```java
 public boolean hasSameRules(TimeZone TimeZone_2)
 ```
 
@@ -16,7 +16,7 @@ public boolean hasSameRules(TimeZone TimeZone_2)
 
 下面的程序说明了 hasSameRules()方法的工作时区:
 
-```
+```java
 // Java code to illustrate hasSameRules() method
 
 import java.util.*;
@@ -43,7 +43,7 @@ public class TimeZone_Demo {
 
 **输出:**
 
-```
+```java
 The equality holds: true
 
 ```

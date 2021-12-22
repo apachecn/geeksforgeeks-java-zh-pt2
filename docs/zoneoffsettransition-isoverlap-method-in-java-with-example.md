@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isOverlap()
 ```
 
@@ -18,7 +18,7 @@ public boolean isOverlap()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isOverlap() method
 
@@ -72,14 +72,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 there is an overlapping
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isOverlap() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 no overlapping found
 
 ```

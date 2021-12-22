@@ -6,7 +6,7 @@ shortValue()是 Java 中 Short 类的一个内置方法，用于返回*这个*�
 
 **语法:**
 
-```
+```java
 public short shortValue()
 
 ```
@@ -19,7 +19,7 @@ public short shortValue()
 
 **程序 1:**
 
-```
+```java
 // Java program that demonstrates
 // Short.shortValue() method
 
@@ -45,14 +45,14 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The short value of the given Short is = 21
 
 ```
 
 **程序 2:**
 
-```
+```java
 // java program that demonstrates
 // Short.shortValue() method
 
@@ -78,7 +78,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The short value of the given Short is = -19
 
 ```
@@ -86,7 +86,7 @@ The short value of the given Short is = -19
 **程序 3:**
 **注意:**当一个十进制值和字符串作为参数传递时，它会返回一条错误消息。
 
-```
+```java
 // Java program that demonstrates
 // Short.shortValue() method
 
@@ -121,7 +121,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 
 prog.java:10: error: incompatible types: possible lossy conversion from double to short
     short svalue = 9.6;

@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to illustrate preferring char[] arrays
 //over strings for passwords in Java
 public class PasswordPreference
@@ -32,7 +32,7 @@ public class PasswordPreference
 
 **输出:**
 
-```
+```java
 String password: password
 Character password: [C@15db9742
 ```

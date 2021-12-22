@@ -8,7 +8,7 @@ java 中的字符串可以包含 0 个或更多字符。
 
 **示例:**
 
-```
+```java
 (a) "" is a String in java with 0 character
 (b) "d" is a String in java with 1 character
 (c) "This is a sentence." is a string with 19 characters.
@@ -19,7 +19,7 @@ java 中的字符串可以包含 0 个或更多字符。
 
 **例 1:** 我们来考虑一下弦**蝙蝠**。可能的子字符串有:
 
-```
+```java
 (1) "b"
 (2) "ba"
 (3) "bat", every string is a substring of itself
@@ -32,7 +32,7 @@ java 中的字符串可以包含 0 个或更多字符。
 
 **例 2:** 我们来考虑一下弦**猫**。可能的子字符串有:
 
-```
+```java
 (1) "T"
 (2) "Th"
 (3) "The"
@@ -69,7 +69,7 @@ java 中的字符串可以包含 0 个或更多字符。
 
 **进场:**
 
-```
+```java
 Let us consider a string which has n characters:
 1\. For each character at index i (0 to n-1):
         find substrings of length 1, 2, ..., n-i
@@ -100,7 +100,7 @@ When i = 2:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to split a string into all possible
 // substrings excluding the string with 0 characters i.e. ""
 
@@ -175,7 +175,7 @@ class SubstringsOfAString {
 
 **Output**
 
-```
+```java
 Substring list printed as an ArrayList : 
 [T, Th, The, The , The C, The Ca, The Cat, h, he, he , he C, he Ca, he Cat, e, e , e C, e Ca, e Cat,  ,  C,  Ca,  Cat, C, Ca, Cat, a, at, t]
 
@@ -215,7 +215,7 @@ All substrings printed 1 per line :
 
 **输出 1:** 当字符串输入= **蝙蝠**
 
-```
+```java
 Substring list printed as an ArrayList : 
 [b, ba, bat, a, at, t]
 
@@ -231,7 +231,7 @@ All substrings printed 1 per line :
 
 **输出 2:** 当字符串输入= **猫**
 
-```
+```java
 Substring list printed as an ArrayList : 
 [T, Th, The, The , The C, The Ca, The Cat, h, he, he , he C, he Ca, he Cat, e, e , e C, e Ca, e Cat,  ,  C,  Ca,  Cat, C, Ca, Cat, a, at, t]
 

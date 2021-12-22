@@ -10,7 +10,7 @@ Java 中 **YearMonth 类**的**islapyear()**方法是用来检查这个 YearMont
 
 **语法** :
 
-```
+```java
 public boolean isLeapYear()
 
 ```
@@ -23,7 +23,7 @@ public boolean isLeapYear()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isLeap() method
 
 import java.util.*;
@@ -44,14 +44,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isLeap() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

@@ -6,7 +6,7 @@ rint()是 Java 中的一个内置方法，用于将浮点参数舍入为整数�
 
 **语法:**
 
-```
+```java
 Math.rint(double n)
 ```
 
@@ -18,7 +18,7 @@ rint()函数取一个强制的单参数值进行舍入。
 
 **代码#1:** 演示 rint()函数使用的程序
 
-```
+```java
 // Java program for implementation of
 // rint() method
 import java.util.*;
@@ -44,7 +44,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 13.0
 12.0
 
@@ -55,7 +55,7 @@ class GFG {
 
 **代码#2:** 解释异常的程序
 
-```
+```java
 // Java program for implementation of
 // rint() method exception
 import java.util.*;
@@ -80,7 +80,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 2.0
 2.0
 

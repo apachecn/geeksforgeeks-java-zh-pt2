@@ -48,7 +48,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <!--below line is use to add camera feature in our app-->
 <uses-feature android:name="android.hardware.camera" android:required="true"/>
 

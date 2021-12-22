@@ -6,7 +6,7 @@ Java 中 **ObjectInputStream** 类的 **read()** 方法读取一个字节的数�
 
 **语法**:
 
-```
+```java
 public int read()
 ```
 
@@ -20,7 +20,7 @@ public int read()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // the above method
 

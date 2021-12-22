@@ -8,7 +8,7 @@
 
 **1。默认构造函数:**创建具有指定名称的 Zip 条目，并将字符串名称作为参数。
 
-```
+```java
 ZipEntry() {}
 ```
 
@@ -16,19 +16,19 @@ ZipEntry() {}
 
 **2.1** ZipEntry e
 
-```
+```java
 ZipEntry(e) {}
 ```
 
 **2.2** 文件文件:用于打开和读取指定文件对象的 ZIP 文件
 
-```
+```java
 ZipFile(File) {}
 ```
 
 **2.3** 用于打开和读取指定文件对象的 ZIP 文件
 
-```
+```java
 ZipFile(File file, Charset charset) {{}
 ```
 
@@ -38,7 +38,7 @@ ZipFile(File file, Charset charset) {{}
 
 **语法:**
 
-```
+```java
  getEntry()
 ```
 
@@ -50,7 +50,7 @@ ZipFile(File file, Charset charset) {{}
 
 **语法:**
 
-```
+```java
 getNextEntry()
 ```
 
@@ -62,7 +62,7 @@ getNextEntry()
 
 **语法:**
 
-```
+```java
 putNextentry() {}
 ```
 
@@ -76,7 +76,7 @@ putNextentry() {}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate ZIP API
 // To Zip a File
 
@@ -161,7 +161,7 @@ public class GFG {
 
 **输出:**在输入路径后生成的控制台上，您将获得以下输出
 
-```
+```java
 Successfully compiled and executed.
 ```
 
@@ -173,7 +173,7 @@ Successfully compiled and executed.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate ZIP API
 // Where we are Unzipping a File
 
@@ -288,7 +288,7 @@ public class GFG {
 
 **输出:**在输入路径后生成的控制台上，您将获得以下输出
 
-```
+```java
 Successfully compiled and executed.
 ```
 

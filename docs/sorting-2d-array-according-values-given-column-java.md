@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : If our 2D array is given as (Order 4X4) 
         39 27 11 42 
         10 93 91 90 
@@ -22,7 +22,7 @@ Output : 39 27 11 42
 
 **想法是在 Java 中使用**[**array . sort**](https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/)。
 
-```
+```java
 // Java Code to sort 2D Matrix
 // according to any Column
 import java.util.*;
@@ -72,7 +72,7 @@ class sort2DMatrixbycolumn {
 
 输出:
 
-```
+```java
  39 27 11 42 
 24 64 20 65 
 54 78 56 89 

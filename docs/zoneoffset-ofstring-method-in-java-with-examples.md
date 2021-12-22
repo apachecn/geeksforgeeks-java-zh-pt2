@@ -21,7 +21,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static ZoneOffset of(String offsetId)
 
     ```
@@ -36,7 +36,7 @@
 
     **例 1:**
 
-    ```
+    ```java
     // Java code to illustrate of() method
 
     import java.time.*;
@@ -59,14 +59,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Z
 
     ```
 
     **示例 2:** 演示日期时间异常
 
-    ```
+    ```java
     // Java code to illustrate of() method
 
     import java.time.*;
@@ -93,7 +93,7 @@
 
     **Output:**
 
-    ```
+    ```java
     java.time.DateTimeException: Invalid ID for ZoneOffset, non numeric characters found: 10:10
 
     ```

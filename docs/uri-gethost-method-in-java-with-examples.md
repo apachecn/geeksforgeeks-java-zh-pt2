@@ -7,7 +7,7 @@ URL 的主机部分是 URI 的主机名。
 
 **功能签名**:
 
-```
+```java
 public String getHost()
 ```
 
@@ -15,7 +15,7 @@ public String getHost()
 
 **语法**
 
-```
+```java
 url.getHost()
 ```
 
@@ -25,7 +25,7 @@ url.getHost()
 
 **例 1:**
 
-```
+```java
 // Java program to show the 
 // use of the function getHost()
 
@@ -60,7 +60,7 @@ public static void main(String args[])
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org
 Host = www.geeksforgeeks.org
 
@@ -68,7 +68,7 @@ Host = www.geeksforgeeks.org
 
 **示例 2:**getAuthority()和 getHost()函数的区别在于 getAuthority()返回主机和端口，而 getHost()只返回主机名。
 
-```
+```java
 // Java program to show the 
 // use of the function getHost()
 
@@ -110,7 +110,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org:80
 Authority = www.geeksforgeeks.org:80
 Host = www.geeksforgeeks.org

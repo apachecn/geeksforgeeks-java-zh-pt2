@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public URI toURI()
 
 ```
 
 **语法**
 
-```
+```java
 url.toURI()
 
 ```
@@ -28,7 +28,7 @@ url.toURI()
 
 **例 1:**
 
-```
+```java
 // Java program to convert URL to URI
 
 import java.net.*;
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL: https://www.geeksforgeeks.org
 URI: https://www.geeksforgeeks.org
 
@@ -75,7 +75,7 @@ URI: https://www.geeksforgeeks.org
 
 **例 2:**
 
-```
+```java
 // Java program to convert URL to URI
 
 import java.net.*;
@@ -114,7 +114,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL: https:// www.geeksfor>geeks.com
 java.net.URISyntaxException:
  Illegal character in authority at index 8:

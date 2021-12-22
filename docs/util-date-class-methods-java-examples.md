@@ -8,7 +8,7 @@
 1.  **.toString() :** **java.util.Date.tostring()** method is a java.util.Date class method.It displays the Current date and time.
     Here Date object is converted to a string and represented as:
 
-    ```
+    ```java
      day mon dd hh:mm:ss zz yyyy 
     ```
 
@@ -21,7 +21,7 @@
     zz:时区
     yyyy:年最多 4 位小数
 
-    ```
+    ```java
     Syntax:
     public String toString()
     Return:
@@ -31,7 +31,7 @@
 
 2.  **。setTime():****java.util.Date . setTime()**方法是一个 Java . util . date 类方法。将此日期对象设置为表示 1970 年 1 月 1 日 00:00:00 格林尼治标准时间之后的时间毫秒。
 
-    ```
+    ```java
     Syntax:
     public void setTime(long time)
     Parameters:
@@ -41,7 +41,7 @@
 
 3.  **.hashCode() :** **java.util.Date.hashCode()** method is a java.util.Date class method. Returns a hash code value for the Date object. The result is exclusive OR of the two halves of the primitive long value returned by the getTime() method.
 
-    ```
+    ```java
     Syntax:
     public int hashCode()
     Return:
@@ -51,7 +51,7 @@
 
     **Java 代码的使用举例说明。toString()，setTime()，hashCode()方法。**
 
-    ```
+    ```java
     // Java Program explaining util.date class methods//
     // use of .toString(), setTime(), hashCode() methods
     import java.util.*;  // class having access to Date class methods
@@ -80,7 +80,7 @@
 
     **Java 代码输出:**
 
-    ```
+    ```java
     System date : Tue Nov 01 02:37:18 IST 2016
     Time after setting:  Thu Jan 01 05:30:15 IST 1970
     Amount (in milliseconds)  by which time is shifted :  15680
@@ -89,7 +89,7 @@
 
 4.  **。after():****Java . util . date . after()**方法测试当前日期是否在给定日期之后。
 
-    ```
+    ```java
     Syntax:
     public boolean after(Date d)
     Parameters:
@@ -104,7 +104,7 @@
 
 5.  **。clone():****Java . util . Date . clone()**方法返回传递的 Date 对象的副本。
 
-    ```
+    ```java
     Syntax:
     public Object clone()
     Return:
@@ -114,7 +114,7 @@
 
 6.  **.before() :** **java.util.Date.after()** method tests if current date is before the given date.
 
-    ```
+    ```java
     Syntax:
     public boolean before(Date d)
     Parameters:
@@ -129,7 +129,7 @@
 
     **Java 代码来说明 after()，clone()，before()方法的使用。**
 
-    ```
+    ```java
     // JAVA program explaining Date class methods
     // after(), clone(), before()
     import java.util.Date;
@@ -164,7 +164,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Is date2 is after date1 : false
     Is date1 is after date2 : true
 
@@ -176,7 +176,7 @@
 
 7.  **。compare to():****Java . util . date . compare to()**方法比较两个日期，并根据比较结果得出-1、0 或 1。
 
-    ```
+    ```java
     Syntax:
     public int compareTo(Date argDate)
     Parameters:
@@ -190,7 +190,7 @@
 
 8.  **。equals():****Java . util . date . equals()**方法根据毫秒差检查两个日期是否相等。
 
-    ```
+    ```java
     Syntax:
     public boolean equals(Object argDate)
     Parameters:
@@ -202,7 +202,7 @@
 
 9.  **.getTime() :** **java.util.Date.getTime()** method results in count of milliseconds of the argumented date, referencing January 1, 1970, 00:00:00 GMT.
 
-    ```
+    ```java
     Syntax:
     public long getTime()
     Result:
@@ -212,7 +212,7 @@
 
     **Java 代码来说明 compareTo()，getTime()，equals()方法的使用。**
 
-    ```
+    ```java
     // Java program explaining Date class methods
     // compareTo(), getTime(), equals()
     import java.util.*;
@@ -252,7 +252,7 @@
 
     **输出:**
 
-    ```
+    ```java
     d1 > d2 : 1
     d1 < d2 : -1
     d1 = d1 : 0

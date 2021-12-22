@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField temporalField)
 
 ```
@@ -26,7 +26,7 @@ public long getLong(TemporalField temporalField)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getLong() method
 
 import java.time.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:30
 Second value: 19800
 
@@ -59,7 +59,7 @@ Second value: 19800
 
 **示例 2:** 显示日期时间异常
 
-```
+```java
 // Java code to illustrate getLong() method
 
 import java.time.*;
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException: Zone offset hours not in valid range: value 25 is not in the range -18 to 18
 
 ```

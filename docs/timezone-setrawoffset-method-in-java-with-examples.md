@@ -6,7 +6,7 @@ Java 中 **[时区类](https://www.geeksforgeeks.org/java-util-timezone-class-se
 
 **语法:**
 
-```
+```java
 public abstract void 
     setRawOffset(int *offsetMillis*)
 ```
@@ -18,7 +18,7 @@ public abstract void
 下面的程序说明了上述功能:
 **程序 1:**
 
-```
+```java
 // Program to demonstrate the
 // setRawOffset()
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initially RawOffset is = -39600000
 RawOffset set to 6000000
 Current RawOffset is = 6000000
@@ -60,7 +60,7 @@ Current RawOffset is = 6000000
 
 **程序 2:**
 
-```
+```java
 // Program to demonstrate the
 // setRawOffset()
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inittally RawOffset is = 3600000
 RawOffset set to 8000000
 Current RawOffset is = 8000000

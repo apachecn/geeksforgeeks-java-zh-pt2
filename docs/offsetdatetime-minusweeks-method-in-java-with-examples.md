@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **minusWeeks()** 方法返回这个 OffsetDateTim
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusWeeks(long weeks)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime minusWeeks(long weeks)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusWeeks() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting weeks: 2021-03-31T13:30:30+05:00
 
@@ -56,7 +56,7 @@ Date1 after subtracting weeks: 2021-03-31T13:30:30+05:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the minusWeeks() method
 
 import java.time.OffsetDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting weeks: 2016-04-06T13:30:30+05:00
 

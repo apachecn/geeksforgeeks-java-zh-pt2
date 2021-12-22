@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E floor(E e)
 ```
 
@@ -20,7 +20,7 @@ public E floor(E e)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // floor() method
 // for Integer value
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 TreeSet: [10, 20, 30, 40]
 Floor value for 25: 20
 
@@ -70,7 +70,7 @@ Floor value for 25: 20
 
 **例 2:*的***为空指针异常
 
-```
+```java
 // Java program to demonstrate
 // floor() method
 // for NullPointerException
@@ -117,7 +117,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 TreeSet: [10, 20, 30, 40]
 Trying to get the floor value for null
 Exception thrown : java.lang.NullPointerException

@@ -32,7 +32,7 @@
 
 默认情况下，视图页面 2 的方向为水平。我们可以通过调用 **setOrientation()** 方法并将 ORIENTATION_VERTICAL 传递给它，将 viewpager2 的方向设置为垂直。用于水平方向
 
-```
+```java
 YourViewPager2Object.orientation = ViewPager2.ORIENTATION_VERTICAL 
 ```
 
@@ -44,7 +44,7 @@ YourViewPager2Object.orientation = ViewPager2.ORIENTATION_VERTICAL
 
 ![](img/3fc562282184dc868e47c8bc6a3c83f7.png)
 
-```
+```java
 dependencies {
       implementation 'androidx.viewpager2:viewpager2:1.0.0'
 }
@@ -68,7 +68,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -92,7 +92,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,7 +113,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -175,7 +175,7 @@ class ViewPager2Adapter extends RecyclerView.Adapter<ViewPager2Adapter.ViewHolde
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;

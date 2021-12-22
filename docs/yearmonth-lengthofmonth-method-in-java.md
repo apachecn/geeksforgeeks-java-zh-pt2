@@ -6,7 +6,7 @@ Java 中 **YearMonth 类的 **lengthOfMonth()** 方法，用于以天数的形�
 
 **语法** :
 
-```
+```java
 public int lengthOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int lengthOfMonth()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the lengthOfMonth() method
 
 import java.util.*;
@@ -41,14 +41,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 29
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the lengthOfMonth() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 28
 
 ```

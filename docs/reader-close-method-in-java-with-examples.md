@@ -10,7 +10,7 @@ Java 中 **[Reader](https://www.geeksforgeeks.org/java-io-reader-class-java/)** 
 
 **语法:**
 
-```
+```java
 public abstract void close()
 ```
 
@@ -24,7 +24,7 @@ public abstract void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Reader close() method
 
@@ -74,7 +74,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value of character read: 71
 Actual character read: G
 
@@ -95,7 +95,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Reader close() method
 
@@ -132,7 +132,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Stream Closed.
 java.io.IOException: Stream closed
 

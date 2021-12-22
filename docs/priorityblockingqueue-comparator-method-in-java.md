@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Comparator<? super E> comparator()
 ```
 
@@ -16,7 +16,7 @@ public Comparator<? super E> comparator()
 
 **示例 1:** 演示包含整数列表的 PriorityBlockingQueue 上的比较器()方法。
 
-```
+```java
 // Java Program Demonstrate comparator()
 // method of PriorityBlockingQueue
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Comparator value: null
 PriorityBlockingQueuefollows natural ordering
 
@@ -67,7 +67,7 @@ PriorityBlockingQueuefollows natural ordering
 
 **示例 2:** 演示包含字符串列表的 PriorityBlockingQueue 上的 toString()方法。
 
-```
+```java
 // Java Program Demonstrate comparator()
 // method of PriorityBlockingQueue
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Comparator value is: COMPARING@28d93b30
 PriorityBlockingQueue follows: COMPARING@28d93b30
 

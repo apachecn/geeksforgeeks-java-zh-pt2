@@ -21,19 +21,19 @@
 
 **1。StringBuffer()** :它保留了 16 个字符的空间，无需重新分配
 
-```
+```java
 StringBuffer s = new StringBuffer();
 ```
 
 **2。****StringBuffer(int size)**:它接受显式设置缓冲区大小的整数参数。
 
-```
+```java
 StringBuffer s = new StringBuffer(20);
 ```
 
 **3。****StringBuffer(String str):**它接受一个字符串参数，该参数设置 StringBuffer 对象的初始内容，并在不重新分配的情况下为 16 个字符保留空间。
 
-```
+```java
 StringBuffer s = new StringBuffer("GeeksforGeeks");
 ```
 
@@ -63,7 +63,7 @@ StringBuffer s = new StringBuffer("GeeksforGeeks");
 
 **语法:**
 
-```
+```java
 void ensureCapacity(int capacity)
 ```
 
@@ -71,7 +71,7 @@ void ensureCapacity(int capacity)
 
 **语法:**
 
-```
+```java
 public StringBuffer appendCodePoint(int codePoint)
 ```
 
@@ -81,7 +81,7 @@ public StringBuffer appendCodePoint(int codePoint)
 
 **语法:**
 
-```
+```java
 public char charAt(int index)
 ```
 
@@ -89,7 +89,7 @@ public char charAt(int index)
 
 **语法:**
 
-```
+```java
 public IntStream chars()
 ```
 
@@ -97,7 +97,7 @@ public IntStream chars()
 
 **语法:**
 
-```
+```java
 public int codePointAt(int index)
 ```
 
@@ -105,7 +105,7 @@ public int codePointAt(int index)
 
 **语法:**
 
-```
+```java
 public int codePointBefore(int index)
 ```
 
@@ -113,7 +113,7 @@ public int codePointBefore(int index)
 
 **语法:**
 
-```
+```java
 public int codePointCount(int beginIndex, int endIndex)
 ```
 
@@ -121,7 +121,7 @@ public int codePointCount(int beginIndex, int endIndex)
 
 **语法:**
 
-```
+```java
 public IntStream codePoints()
 ```
 
@@ -129,7 +129,7 @@ public IntStream codePoints()
 
 **语法:**
 
-```
+```java
 public void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 ```
 
@@ -137,7 +137,7 @@ public void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
 
 **语法:**
 
-```
+```java
 public int indexOf(String str)
 public int indexOf(String str, int fromIndex)
 ```
@@ -146,7 +146,7 @@ public int indexOf(String str, int fromIndex)
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(String str)
 public int lastIndexOf(String str, int fromIndex)
 ```
@@ -155,7 +155,7 @@ public int lastIndexOf(String str, int fromIndex)
 
 **语法:**
 
-```
+```java
 public int offsetByCodePoints(int index, int codePointOffset) 
 ```
 
@@ -163,7 +163,7 @@ public int offsetByCodePoints(int index, int codePointOffset)
 
 **语法:**
 
-```
+```java
 public void setCharAt(int index, char ch)
 ```
 
@@ -171,7 +171,7 @@ public void setCharAt(int index, char ch)
 
 **语法:**
 
-```
+```java
 public void setLength(int newLength)
 ```
 
@@ -179,7 +179,7 @@ public void setLength(int newLength)
 
 **语法:**
 
-```
+```java
 public CharSequence subSequence(int start, int end)
 ```
 
@@ -187,7 +187,7 @@ public CharSequence subSequence(int start, int end)
 
 **语法:**
 
-```
+```java
 public String substring(int start)
 public String substring(int start,int end)
 ```
@@ -196,7 +196,7 @@ public String substring(int start,int end)
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -204,7 +204,7 @@ public String toString()
 
 **语法:**
 
-```
+```java
 public void trimToSize()
 ```
 
@@ -216,7 +216,7 @@ public void trimToSize()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via length() and capacity() methods
 
@@ -252,7 +252,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Length of string GeeksforGeeks=13
 Capacity of string GeeksforGeeks=29
 ```
@@ -263,14 +263,14 @@ Capacity of string GeeksforGeeks=29
 
 以下是它的几种形式:
 
-```
+```java
 StringBuffer append(String str)
 StringBuffer append(int num)
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via append() method
 
@@ -302,7 +302,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 GeeksforGeeks1
 ```
@@ -313,7 +313,7 @@ GeeksforGeeks1
 
 **语法:**以下是它的几个例子:
 
-```
+```java
 StringBuffer insert(int index, String str)
 StringBuffer insert(int index, char ch)
 ```
@@ -322,7 +322,7 @@ StringBuffer insert(int index, char ch)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via insert() method
 
@@ -372,7 +372,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 GeeksforGeeks
 5GeeksforGeeks
 5GetrueeksforGeeks
@@ -387,7 +387,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via reverse() method
 
@@ -415,7 +415,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 skeeGskeeG
 ```
 
@@ -425,14 +425,14 @@ skeeGskeeG
 
 **语法:**
 
-```
+```java
 StringBuffer delete(int startIndex, int endIndex)
 StringBuffer deleteCharAt(int loc)
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via delete() and deleteCharAt() Methods
 
@@ -460,7 +460,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 forGeeks
 forGeek
 ```
@@ -471,7 +471,7 @@ forGeek
 
 **语法:**
 
-```
+```java
 StringBuffer replace(int startIndex, int endIndex, String str)
 ```
 
@@ -479,7 +479,7 @@ StringBuffer replace(int startIndex, int endIndex, String str)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringBuffer class
 // via replace() method
 
@@ -503,7 +503,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksareGeeks
 ```
 

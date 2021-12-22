@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object other)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object other)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -79,14 +79,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zonetrans1 is equal to zonetrans2
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zonetrans1 is not equal to zonetrans2
 
 ```

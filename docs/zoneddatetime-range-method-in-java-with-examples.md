@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public ValueRange range(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.range() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime of Calcutta: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 Range of MILLI_OF_SECOND: 0 - 999
 
@@ -68,7 +68,7 @@ Range of MILLI_OF_SECOND: 0 - 999
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.range() method
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime of Calcutta: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 Range of NANO_OF_SECOND: 0 - 999999999
 

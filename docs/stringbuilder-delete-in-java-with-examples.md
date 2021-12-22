@@ -6,7 +6,7 @@ StringBuilder 类的 **delete(int start，int end)** 方法从 StringBuilder 包
 
 **语法:**
 
-```
+```java
 public StringBuilder delete(int start, int end)
 ```
 
@@ -25,7 +25,7 @@ public StringBuilder delete(int start, int end)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the delete() Method.
 
@@ -55,7 +55,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before removal String = WelcomeGeeks
 After removal String = Weeeks
 ```
@@ -64,7 +64,7 @@ After removal String = Weeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the delete() Method.
 
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Before removal String = GeeksforGeeks
 After removal of SubString start=8 to end=8 String becomes => GeeksforGeeks
 After removal of SubString start=1 to end=8 String becomes => GGeeks
@@ -116,7 +116,7 @@ After removal of SubString start=1 to end=8 String becomes => GGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by the delete() Method.
 
@@ -145,7 +145,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException
 ```
 

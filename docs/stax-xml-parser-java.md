@@ -9,13 +9,13 @@
 
 *   **SAX**:SAX 是一个推模型 API，也就是说调用你的处理程序的是 API，而不是调用 API 的你的处理程序。因此，SAX 解析器将事件“推入”您的处理程序。有了这个应用编程接口的推送模型，您无法控制解析器如何以及何时迭代文件。一旦您启动了解析器，它会一直迭代直到结束，为输入 XML 文档中的每个 XML 事件调用您的处理程序。
 
-```
+```java
 SAX Parser --> Handler
 ```
 
 *   **StAX**:StAX 拉模型意味着调用解析器 API 的是你的“处理程序”类，而不是相反。因此，您的处理程序类控制解析器何时进入输入中的下一个事件。换句话说，您的处理程序将 XML 事件从解析器中“拉出”。此外，您可以随时停止解析。当输入或数据库以离线或在线 xml 文件的形式给出时，通常使用 StAX 解析器来代替文件读取器。的拉动模式总结如下:
 
-```
+```java
 Handler --> StAX Parser
 ```
 
@@ -31,7 +31,7 @@ Handler --> StAX Parser
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to implement StAX parser
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -191,7 +191,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 name = geeksforgeeks.org
 Kunal Sharma
 Student

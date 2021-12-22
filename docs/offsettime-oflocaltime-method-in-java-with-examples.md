@@ -6,7 +6,7 @@ Java 中 **OffsetTime** 类的**(LocalTime，ZoneOffset Offset)** 方法用于�
 
 **语法:**
 
-```
+```java
 public static OffsetTime of(LocalTime time,
                             ZoneOffset offset)
 
@@ -25,7 +25,7 @@ public static OffsetTime of(LocalTime time,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime of(
 // LocalTime, ZoneOffset) method
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TIME: 03:14:11.212Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime of(
 // LocalTime, ZoneOffset) method
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TIME: 08:45:40.000000050+05:30
 
 ```

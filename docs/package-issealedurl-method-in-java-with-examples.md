@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **isSealed(URL)** 方法用于针对指定的 URL 检查该包裹是否密封。方法以布尔值的形式返回结果。
 **语法:**
 
-```
+```java
 public boolean isSealed(URL url)
 ```
 
@@ -16,7 +16,7 @@ public boolean isSealed(URL url)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isSealed(URL) method
 
@@ -50,7 +50,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Is this package sealed or not: false
 ```
@@ -59,7 +59,7 @@ Is this package sealed or not: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isSealed(URL) method
 
@@ -93,7 +93,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Is this package sealed or not: false
 ```

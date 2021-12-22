@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getQuery()
 ```
 
 **语法**:
 
-```
+```java
 url.getQuery()
 ```
 
@@ -24,7 +24,7 @@ url.getQuery()
 
 **示例 1** :给定一个 URL，我们将使用 getQuery()函数获取查询。
 
-```
+```java
 // Java program to show the use
 // of the function getQuery()
 
@@ -63,7 +63,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples?title=protocol
  Query=title=protocol
 
@@ -71,7 +71,7 @@ URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-example
 
 **例 2** :现在我们不提供任何查询，使用函数获取查询并查看结果。
 
-```
+```java
 // Java program to show the use
 // of the function getQuery()
 
@@ -111,7 +111,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples
  Query=null
 

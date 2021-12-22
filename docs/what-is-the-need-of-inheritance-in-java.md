@@ -14,7 +14,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program without inheritance
 import java.io.*;
 import java.math.BigDecimal;
@@ -147,7 +147,7 @@ public class PersonRunner {
 
 **输出**
 
-```
+```java
 Person :- name : Saurabh , age : 20
 Student :- name : Prateek , age : 21 , roll : 101 , school : New Era HS
 Employee :- name : Sushant , age : 25 , organisation : GeeksforGeeks , salary : 50000.000000
@@ -159,7 +159,7 @@ Employee :- name : Sushant , age : 25 , organisation : GeeksforGeeks , salary : 
 
 ## 爪哇
 
-```
+```java
 // Java program with inheritance
 import java.io.*;
 
@@ -277,7 +277,7 @@ public class PersonRunner {
 
 **输出**
 
-```
+```java
 Person :- name : Saurabh , age : 20
 Student :- name : Prateek , age : 21 , roll : 101 , school : New Era HS
 Employee :- name : Sushant , age : 25 , organisation : GeeksforGeeks , salary : 50000.000000

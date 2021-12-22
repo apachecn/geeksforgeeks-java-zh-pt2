@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double orElse(double other)
 
 ```
@@ -18,7 +18,7 @@ public double orElse(double other)
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElse(double) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value: 452146.0
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElse(double) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 value: 13421.0
 
 ```

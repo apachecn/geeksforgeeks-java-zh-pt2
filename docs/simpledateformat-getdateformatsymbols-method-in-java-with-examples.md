@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DateFormatSymbols getDateFormatSymbols()
 ```
 
@@ -18,7 +18,7 @@ public DateFormatSymbols getDateFormatSymbols()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // getDateFormatSymbols() method
 
@@ -49,7 +49,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The Months are: 
 Jan 
 Feb 
@@ -68,7 +68,7 @@ Dec
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // getDateFormatSymbols() method
 
@@ -99,7 +99,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 The days of the week are: 
 
 Sunday 

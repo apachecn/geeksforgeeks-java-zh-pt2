@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ThaiBuddhistDate of(int Year,
             int month, int dayOfMonth)
 
@@ -28,7 +28,7 @@ public static ThaiBuddhistDate of(int Year,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;
@@ -74,7 +74,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate of() method
 
 import java.util.*;

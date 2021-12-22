@@ -6,7 +6,7 @@ Java 中 Period 类的 plusMonths()方法用于将指定的月份添加到当前
 
 **语法:**
 
-```
+```java
 public Period plusMonths(long monthsToAdd)
 ```
 
@@ -20,7 +20,7 @@ public Period plusMonths(long monthsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function plusMonths()
 // to add the number of months to given periods
 import java.time.Period;
@@ -54,14 +54,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-19M
 
 ```
 
 **程序二**:待加月份可以为负数。
 
-```
+```java
 // Java code to show the function plusMonths()
 // to add the number of months from given periods
 import java.time.Period;
@@ -95,7 +95,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y19M10D
 
 ```

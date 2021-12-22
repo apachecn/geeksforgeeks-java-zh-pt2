@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void ensureCapacity(int minCapacity)
 ```
 
@@ -16,7 +16,7 @@ public void ensureCapacity(int minCapacity)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // ensureCapacity() method for Integer value
 
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40]
 Stack can now surely store upto 5000 elements.
 
@@ -71,7 +71,7 @@ Stack can now surely store upto 5000 elements.
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // ensureCapacity() method for String value
 
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [A, B, C, D]
 Stack can now surely store upto 400 elements.
 

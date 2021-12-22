@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -18,7 +18,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java code illustrating clear() method
 
 import java.util.*;
@@ -60,7 +60,7 @@ class PropertiesDemo {
 
 **例 2:**
 
-```
+```java
 // Java code illustrating clear() method
 
 import java.util.*;

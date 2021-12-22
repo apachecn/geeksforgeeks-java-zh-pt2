@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **getHour()** 方法用于从这个 OffsetTime 实例
 
 **语法:**
 
-```
+```java
 public int getHour()
 
 ```
@@ -19,7 +19,7 @@ public int getHour()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getHour() method
 
 import java.time.OffsetTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour: 15
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getHour() method
 
 import java.time.OffsetTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour: 11
 
 ```

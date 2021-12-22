@@ -8,7 +8,7 @@
 静态绑定在性能方面更好(不需要额外开销)。编译器知道所有这样的方法**不能被**覆盖，并且总是被本地类的对象访问。因此，编译器确定类的对象(当然是局部类)没有任何困难。这就是这种方法的绑定是静态的原因。
 举个例子看看
 
-```
+```java
 public class NewClass {
     public static class superclass {
         static void print()
@@ -37,7 +37,7 @@ public class NewClass {
 
 **输出**:
 
-```
+```java
 print in superclass.
 print in superclass.
 
@@ -52,7 +52,7 @@ print in superclass.
 
 **动态绑定:**在动态绑定中编译器不决定要调用的方法。重写是动态绑定的一个完美例子。在重写时，父类和子类都有相同的方法。让我们通过一个例子来看看
 
-```
+```java
 public class NewClass {
     public static class superclass {
         void print()
@@ -81,7 +81,7 @@ public class NewClass {
 
 **输出:**
 
-```
+```java
 print in superclass.
 print in subclass.
 

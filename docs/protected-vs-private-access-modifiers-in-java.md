@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 protected void method_name(){
 
 ......code goes here..........
@@ -24,7 +24,7 @@ protected void method_name(){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Protected Access Modifier 
 
 // Importing input output classes
@@ -52,7 +52,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Geeks for Geeks
 ```
 
@@ -62,7 +62,7 @@ Geeks for Geeks
 
 **语法:**
 
-```
+```java
 private void method_name(){
 
 ......code goes here..........
@@ -74,7 +74,7 @@ private void method_name(){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Private Access Modifier
 
 // Importing input output classes
@@ -102,7 +102,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Geeks for Geeks
 ```
 

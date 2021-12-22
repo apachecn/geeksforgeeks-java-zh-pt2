@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public TemporalField weekOfMonth()
 
 ```
@@ -26,7 +26,7 @@ public TemporalField weekOfMonth()
 下面的程序说明了 WeekFields.weekOfMonth()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekOfMonth() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 week of month for 2021-12-21 :4
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekOfMonth() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 week of month for 2020-01-10 :2
 
 ```

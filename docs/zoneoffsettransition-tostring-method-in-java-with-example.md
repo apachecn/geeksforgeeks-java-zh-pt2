@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **示例 2:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 

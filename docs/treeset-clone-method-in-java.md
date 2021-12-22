@@ -6,7 +6,7 @@ Java.util.TreeSet.clone()方法用于返回上述树集的浅拷贝。它只是�
 
 **语法:**
 
-```
+```java
 Tree_Set.clone()
 ```
 
@@ -16,7 +16,7 @@ Tree_Set.clone()
 
 下面程序举例说明了使用 Java.util.TreeSet.clone()方法:
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.TreeSet;
@@ -52,7 +52,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 The cloned TreeSet: [4, Geeks, To, TreeSet, Welcome]
 

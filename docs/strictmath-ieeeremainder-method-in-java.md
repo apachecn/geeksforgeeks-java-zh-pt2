@@ -10,7 +10,7 @@ Java . lang . StrictMath . ieeereminder()是 strict math 类的内置方法，�
 
 **语法:**
 
-```
+```java
 public static double IEEEremainder(double num1, double num2)
 ```
 
@@ -22,7 +22,7 @@ public static double IEEEremainder(double num1, double num2)
 **返回值:**当 num1 除以 num2 时，该方法返回余数。
 **例:**
 
-```
+```java
 Input: 
 num1 = 100.61d
 num2 = 5.32d
@@ -35,7 +35,7 @@ Output: -0.47000000000000597
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.IEEEremainder()
 import java.lang.*;
@@ -57,7 +57,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Remainder value of 5651.51 & 61.79 = 28.620000000000296
 ```
 
@@ -65,7 +65,7 @@ Remainder value of 5651.51 & 61.79 = 28.620000000000296
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.IEEEremainder()
 import java.lang.*;
@@ -87,6 +87,6 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Remainder value is = 70.55
 ```

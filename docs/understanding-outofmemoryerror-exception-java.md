@@ -4,7 +4,7 @@
 
 在 Java 中，所有对象都存储在堆中。它们是使用[新的](https://www.geeksforgeeks.org/new-operator-vs-newinstance-method-java/)运算符分配的。Java 中的 OutOfMemoryError 异常如下所示:
 
-```
+```java
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 ```
@@ -24,7 +24,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
     *   如果终结器线程跟不上终结队列，那么 Java 堆可能会填满，并且会引发这种类型的 OutOfMemoryError 异常。
     *   这个问题也可以像配置问题一样简单，指定的堆大小(或者默认大小，如果没有指定的话)对于应用程序来说是不够的。
 
-    ```
+    ```java
     // Java program to illustrate
     // Heap error
     import java.util.*;
@@ -46,7 +46,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 2.  **Error 2 – GC Overhead limit exceeded :** This error indicates that the [garbage collector](https://www.geeksforgeeks.org/garbage-collection-java/) is running all the time and Java program is making very slow progress. After a garbage collection, if the Java process is spending more than approximately 98% of its time doing garbage collection and if it is recovering less than 2% of the heap and has been doing so far the last 5 (compile time constant) consecutive garbage collections, then a **java.lang.OutOfMemoryError** is thrown.
     This exception is typically thrown because the **amount of live data barely fits into the Java heap** having little free space for new allocations.
 
-    ```
+    ```java
     // Java program to illustrate
     // GC Overhead limit exceeded
     import java.util.*;
@@ -66,7 +66,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
     如果您将使用**Java-xmx10m-XX:+UseParallelGC Wrapper**运行该程序，那么输出将如下所示:
 
-    ```
+    ```java
     Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
         at java.lang.Integer.valueOf(Integer.java:832)
         at Wrapper.main(error.java:9)
@@ -78,7 +78,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 3.  **Error 3 – Permgen space is thrown :** Java memory is separated into different regions. The size of all those regions, including the permgen area, is set during the JVM launch. If you do not set the sizes yourself, platform-specific defaults will be used.
     The **java.lang.OutOfMemoryError**: PermGen space error indicates that the Permanent Generation’s area in memory is exhausted.
 
-    ```
+    ```java
     // Java program to illustrate
     // Permgen Space error
     import javassist.ClassPool;
@@ -100,7 +100,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
     运行上面的代码将继续生成新的类并且**将它们的定义加载到 Permgen 空间中，直到空间被完全利用**并且抛出 Java . lang . out of memory error:Permgen 空间。
     **预防:**当应用程序启动过程中出现 PermGen 耗尽导致的 OutOfMemoryError 时，解决方案很简单。应用程序只需要更多的空间来将所有的类加载到 PermGen 区域，所以我们只需要增加它的大小。为此，请更改您的应用程序启动配置，并添加(或增加，如果有的话)类似于以下示例的 **-XX:MaxPermSize** 参数:
 
-    ```
+    ```java
     java -XX:MaxPermSize=512m com.saket.demo.Permgen
 
     ```
@@ -108,7 +108,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 4.  **Error 4 – Metaspace :** Java class metadata is allocated in native memory. If metaspace for class metadata is exhausted, a **java.lang.OutOfMemoryError** exception with a detail MetaSpace is thrown.
     The amount of metaspace that can be used for class metadata is limited by the parameter MaxMetaSpaceSize, which is specified on the command line. When the amount of native memory needed for a class metadata exceeds MaxMetaSpaceSize, a java.lang.OutOfMemoryError exception with a detail MetaSpace is thrown.
 
-    ```
+    ```java
     // Java program to illustrate
     // Metaspace error
     import java.util.*;
@@ -131,7 +131,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 5.  **Error 5 – Requested array size exceeds VM limit :** This error indicates that the application attempted to allocate an array that is larger than the heap size. For example, if an application attempts to allocate an array of 1024 MB but the maximum heap size is 512 MB then **OutOfMemoryError** will be thrown with “Requested array size exceeds VM limit”.
 
-    ```
+    ```java
     // Java program to illustrate
     // Requested array size
     // exceeds VM limit error
@@ -160,7 +160,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 7.  **Error 7 : reason stack_trace_with_native_method :** Whenever this error message(reason stack_trace_with_native_method) is thrown then a stack trace is printed in which the top frame is a native method, then this is an indication that a native method has encountered an allocation failure. The difference between this and the previous message is that the allocation failure was detected in a Java Native Interface (JNI) or native method rather than in the JVM code.
 
-    ```
+    ```java
     // Java program to illustrate
     // new native thread error
     import java.util.*;

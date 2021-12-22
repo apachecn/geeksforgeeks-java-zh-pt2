@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char charAt(int index)
 ```
 
@@ -20,7 +20,7 @@ public char charAt(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the charAt() Method.
 
@@ -48,7 +48,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 StringBuilder Object contains = Geek
 Character at Position 1 in StringBuilder = e
 
@@ -56,7 +56,7 @@ Character at Position 1 in StringBuilder = e
 
 **例 2:**
 
-```
+```java
 // Java program demonstrate
 // the charAt() Method.
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String is WelcomeGeeks
 Char at position 0 is W
 Char at position 1 is e
@@ -108,7 +108,7 @@ Char at position 11 is s
 
 **示例 3:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java program to demonstrate
 // IndexOutOfBound exception thrown by the charAt() Method.
 
@@ -142,7 +142,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException:
  String index out of range: 12
 

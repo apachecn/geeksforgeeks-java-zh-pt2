@@ -9,7 +9,7 @@
 
 [对于每个](https://www.geeksforgeeks.org/g-fact-40-foreach-in-c-and-java/)循环意味着遍历集合中的项目。
 
-```
+```java
 // Iterating over collection 'c' using **for-each** 
    for (Element e: c)
        System.out.println(e);
@@ -19,7 +19,7 @@
 
 **注意:**在使用 lambda 表达式的 Java 8 中，我们可以简单地用
 
-```
+```java
 elements.forEach (e -> System.out.println(e) );
 ```
 
@@ -29,7 +29,7 @@ elements.forEach (e -> System.out.println(e) );
 
 **迭代器接口** : [迭代器](http://geeksquiz.com/how-to-use-iterator-in-java/)是集合框架提供的一个接口，用于遍历集合以及对集合中的项目进行顺序访问。
 
-```
+```java
 
    // Iterating over collection 'c' using iterator
    for (Iterator i = c.iterator(); i.hasNext(); ) 

@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public static double ulp(double num)
 ```
 
@@ -22,7 +22,7 @@ public static double ulp(double num)
 **返回值:**ulp 方法返回参数的 ulp 的**大小。
 **示例:****
 
-```
+```java
 Input: num = 5.7
 Output: 8.881784197001252E-16
 
@@ -35,7 +35,7 @@ Output: 4.9E-324
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.ulp()
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
  The Size of ulp of 9.7 = 1.7763568394002505E-15
  The Size of ulp of 4.9 = 8.881784197001252E-16
 ```
@@ -87,7 +87,7 @@ public class GFG {
 
 **语法:**
 
-```
+```java
 public static float ulp(float num)
 ```
 
@@ -95,7 +95,7 @@ public static float ulp(float num)
 **返回值:**ulp 方法返回参数的 ulp 的**大小。
 **示例:****
 
-```
+```java
 Input: num = 5.7
 Output: 8.881784197001252E-16
 
@@ -108,7 +108,7 @@ Output: 4.9E-324
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.ulp()
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
  The Size of ulp of 2.7 = 2.3841858E-7
  The Size of ulp of -4.5 = 4.7683716E-7
 ```

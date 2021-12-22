@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(Short otherShort)
 ```
 
@@ -21,7 +21,7 @@ public int compareTo(Short otherShort)
 下面是 compareTo()方法在 Java 中的实现:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short compareTo() method
 
@@ -48,14 +48,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4 and 4 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short compareTo() method
 
@@ -82,14 +82,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4 and 2 : 2
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to demonstrate
 // Short compareTo() method
 
@@ -116,7 +116,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 2 and 4 : -2
 
 ```

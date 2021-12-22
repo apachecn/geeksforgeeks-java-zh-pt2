@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getUserInfo()
 ```
 
 **语法**:
 
-```
+```java
 url.getUserInfo()
 ```
 
@@ -24,7 +24,7 @@ url.getUserInfo()
 
 **示例 1** :给定一个 URL，我们将使用 getUserInfo()函数获取 UserInfo。
 
-```
+```java
 // Java program to show the use
 // of the function getUserInfo()
 
@@ -63,7 +63,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// Arnab_Kundu@www.geeksforgeeks.org
  UserInfo=  Arnab_Kundu
 
@@ -71,7 +71,7 @@ URL = https:// Arnab_Kundu@www.geeksforgeeks.org
 
 **示例 2** :现在我们不提供任何用户信息，使用函数获取用户信息并查看结果。
 
-```
+```java
 // Java program to show the use
 // of the function getUserInfo()
 
@@ -109,7 +109,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
  UserInfo= null
 

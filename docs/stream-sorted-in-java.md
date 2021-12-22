@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stream<T> sorted()
 
 Where, Stream is an interface and T
@@ -20,7 +20,7 @@ is the type of stream elements.
 
 **例 1 :**
 
-```
+```java
 // Implementation of Stream.sorted()
 // to get a stream of elements
 // sorted in their natural order
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The sorted stream is : 
 -18
 -9
@@ -58,7 +58,7 @@ The sorted stream is :
 
 **例 2 :**
 
-```
+```java
 // Implementation of Stream.sorted()
 // to get a stream of elements
 // sorted in their natural order
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The sorted stream is : 
 GFG
 Geeks
@@ -97,7 +97,7 @@ for
 
 **例 3 :**
 
-```
+```java
 // Using stream sorted to sort a stream
 // of user defined class objects
 import java.util.*;
@@ -137,7 +137,7 @@ class GFG
 
 **Output:**
 
-```
+```java
 1, 100
 5, 10
 10, 20

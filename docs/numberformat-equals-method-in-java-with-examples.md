@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public boolean equals(Object arg)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object arg)
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.text.NumberFormat;
@@ -49,14 +49,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Yes both are equal
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.text.NumberFormat;
@@ -87,7 +87,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 both are not equal
 
 ```

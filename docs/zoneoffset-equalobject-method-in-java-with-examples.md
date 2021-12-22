@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object object)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object object)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.time.*;
@@ -50,7 +50,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset 1: +05:00
 ZoneOffset 2: +05:00
 ZoneOffset 1 is equal to ZoneOffset 2: true
@@ -59,7 +59,7 @@ ZoneOffset 1 is equal to ZoneOffset 2: true
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.time.*;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset 1: +05:00
 ZoneOffset 3: +03:00
 ZoneOffset 1 is equal to ZoneOffset 3: false

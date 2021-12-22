@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**adjustitinto()**方法将指定的时态对象�
 
 **语法:**
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 
 ```
@@ -24,7 +24,7 @@ public Temporal adjustInto(Temporal temporal)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the adjustInto() method
 
 import java.time.OffsetTime;
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current date:2018-12-11T10:01:37.877Z[Etc/UTC]
 Adjusted date:2018-12-11T14:30:30Z[Etc/UTC]
 
@@ -60,7 +60,7 @@ Adjusted date:2018-12-11T14:30:30Z[Etc/UTC]
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the adjustInto()
 // method exceptions
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current date:2018-12-11T10:01:42.520Z[Etc/UTC]
 java.time.format.DateTimeParseException: Text '25:30:30+05:00' could not be parsed: Invalid value for HourOfDay (valid values 0 - 23): 25
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 1, 2, 3, 4, 5
 Output :5, 4, 3, 2, 1
 
@@ -37,7 +37,7 @@ Output : 40, 30, 20, 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Basic Java program that reverses an array
 
 public class reverseArray {
@@ -70,7 +70,7 @@ public class reverseArray {
 
 **Output**
 
-```
+```java
 Reversed array is: 
 
 50
@@ -87,7 +87,7 @@ Reversed array is:
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program that reverses array
 // in less number of swaps
 
@@ -122,7 +122,7 @@ public class arrayReverse {
 
 ****Output**
 
-```
+```java
 Reversed array is: 
 
 50
@@ -138,7 +138,7 @@ Reversed array is:
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Reversing an array using Java collections
 import java.util.*;
 
@@ -161,7 +161,7 @@ public class reversingArray {
 
 ****Output**
 
-```
+```java
 [50, 40, 30, 20, 10]
 ```** 
 
@@ -171,7 +171,7 @@ public class reversingArray {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program for Reversing an array using StringBuilder
 
 import java.util.Arrays;
@@ -194,6 +194,6 @@ class GFG {
 
 ******Output**
 
-```
+```java
 [World, Hello]
 ```****

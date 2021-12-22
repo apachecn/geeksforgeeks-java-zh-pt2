@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public YearMonth minus(long amountToSubtract, TemporalUnit unit)
 
 ```
@@ -28,7 +28,7 @@ public YearMonth minus(long amountToSubtract, TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minus(long, unit) method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2017-08
 After subtraction YearMonth: 1997-08
 
@@ -67,7 +67,7 @@ After subtraction YearMonth: 1997-08
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minus(long, unit) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2019-12
 After subtraction YearMonth: 2017-06
 

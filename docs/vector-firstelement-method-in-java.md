@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.firstElement()
 ```
 
@@ -18,7 +18,7 @@ Vector.firstElement()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate firstElement()
 import java.util.*;
 
@@ -47,7 +47,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 
@@ -55,7 +55,7 @@ The first element is: Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate firstElement()
 import java.util.*;
 
@@ -84,7 +84,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The first element is: 10
 

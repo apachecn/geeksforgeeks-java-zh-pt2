@@ -5,7 +5,7 @@
 Java.lang.StringBuffer.reverse()是一个内置方法，用于反转 StringBuffer 中的字符。方法使该字符序列被序列的反码替换。
 **语法:**
 
-```
+```java
 public StringBuffer reverse()
 ```
 
@@ -13,7 +13,7 @@ public StringBuffer reverse()
 **返回值:**该方法在反转字符后返回 StringBuffer。
 **示例:**
 
-```
+```java
 Input: StringBuffer = GeeksforGeeks
 Output = !skeegrofskeeG
 
@@ -26,7 +26,7 @@ Output = !dlroW olleH
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.reverse()
 import java.lang.*;
@@ -47,7 +47,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 String buffer = Geeksforgeeks!
 String buffer after reversing = !skeegrofskeeG
 ```
@@ -56,7 +56,7 @@ String buffer after reversing = !skeegrofskeeG
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.reverse()
 import java.lang.*;
@@ -77,7 +77,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 String buffer  = 1 2 3 4 5 6 7 8 9 10
 String buffer after reversing = 01 9 8 7 6 5 4 3 2 1
 ```

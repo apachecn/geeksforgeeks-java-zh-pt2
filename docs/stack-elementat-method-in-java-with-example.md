@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stack.elementAt(int pos)
 ```
 
@@ -18,7 +18,7 @@ Stack.elementAt(int pos)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate elementAt() method
 import java.util.Stack;
 
@@ -49,7 +49,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 The element is: 10
 
@@ -57,7 +57,7 @@ The element is: 10
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate elementAt() method
 import java.util.Stack;
 
@@ -87,7 +87,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 4, 5]
 The element is: 2
 

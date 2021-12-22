@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object value)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object value)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals(value) method.
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Properties 1: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Properties 2: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Are both properties equal: true
@@ -70,7 +70,7 @@ Are both properties equal: true
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // equals(value) method.
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 Properties 2: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Are both properties equal: false

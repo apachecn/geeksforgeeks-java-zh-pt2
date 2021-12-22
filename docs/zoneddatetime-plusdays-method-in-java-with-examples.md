@@ -6,7 +6,7 @@ Java 中 **ZonedDateTime** 类的 **plusDays()** 方法用于在这个 ZonedDate
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusDays(long days)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime plusDays(long days)
 下面的程序说明了 plusDays()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusDays() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime before adding days: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after  adding days: 2018-12-09T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -59,7 +59,7 @@ ZonedDateTime after  adding days: 2018-12-09T19:21:12.123+05:30[Asia/Calcutta]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusDays() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime before adding days: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 ZonedDateTime after  adding days: 2018-11-14T23:12:31.123+01:00[Europe/Paris]
 

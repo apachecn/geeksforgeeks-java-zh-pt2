@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stack.removeAll(Collection col)
 ```
 
@@ -20,7 +20,7 @@ Stack.removeAll(Collection col)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate removeAll()
 import java.util.*;
 
@@ -66,7 +66,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 Collection removed
 Final Stack: [10, 20]
@@ -75,7 +75,7 @@ Final Stack: [10, 20]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate removeAll()
 import java.util.*;
 
@@ -121,7 +121,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 Collection not removed
 Final Stack: [1, 2, 3, 10, 20]

@@ -4,7 +4,7 @@
 
 一般来说，new 运算符用于创建对象，但是如果我们想在运行时决定要创建的对象类型，就没有办法使用 new 运算符。在这种情况下，我们必须使用 newInstance()方法。考虑一个例子:
 
-```
+```java
 // Java program to demonstrate working of newInstance()
 
 // Sample classes
@@ -37,7 +37,7 @@ public class Test
 
 输出:
 
-```
+```java
 Object created for class:A
 
 ```

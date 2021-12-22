@@ -15,7 +15,7 @@
 2.  **构造函数**getConstructors()方法用于获取对象所属类的公共构造函数。
 3.  **方法**getMethods()方法用于获取一个对象所属类的公共方法。
 
-```
+```java
 // A simple Java program to demonstrate the use of reflection
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
@@ -121,7 +121,7 @@ class Demo
 
 输出:
 
-```
+```java
 The name of class is Test
 The name of constructor is Test
 The public methods of class are : 
@@ -146,7 +146,7 @@ Private method invoked
 1.  We can invoke an method through reflection if we know its name and parameter types. We use below two methods for this purpose
     **getDeclaredMethod() :** To create an object of method to be invoked. The syntax for this method is
 
-    ```
+    ```java
     Class.getDeclaredMethod(name, parametertype)
     name- the name of method whose object is to be created
     parametertype - parameter is an array of Class objects
@@ -154,7 +154,7 @@ Private method invoked
 
     **invoke() :** 要在运行时调用类的方法，我们使用以下方法–
 
-    ```
+    ```java
     Method.invoke(Object, parameter)
     If the method of the class doesn’t accepts any 
     parameter then null is passed as argument.

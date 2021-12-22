@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Set.size()
 
 ```
@@ -17,7 +17,7 @@ Tree_Set.size()
 
 下面程序举例说明了使用 Java.util.TreeSet.size()方法:
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 import java.util.TreeSet;
@@ -47,7 +47,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 The size of the set is: 5
 

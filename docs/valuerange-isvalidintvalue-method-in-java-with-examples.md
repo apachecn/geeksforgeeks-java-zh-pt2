@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isValidIntValue(long value)
 
 ```
@@ -18,7 +18,7 @@ public boolean isValidIntValue(long value)
 下面的程序说明了 ValueRange.isValidIntValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isValidIntValue() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isValidIntValue: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isValidIntValue() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isValidIntValue: false
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ResolverStyle[] values()
 
 ```
@@ -18,7 +18,7 @@ public static ResolverStyle[] values()
 以下程序说明了 ResolverStyle.values()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ResolverStyle.values() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 STRICT
 SMART
 LENIENT
@@ -54,7 +54,7 @@ LENIENT
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ResolverStyle.values() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ResolverStyle length: 3
 
 ```

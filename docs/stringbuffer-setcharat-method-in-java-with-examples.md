@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setCharAt(int index, char ch)
 ```
 
@@ -23,7 +23,7 @@ public void setCharAt(int index, char ch)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the setCharAt() Method.
 
@@ -52,7 +52,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = Geeks For Geeks
 After setCharAt() String = Geeks F0r Geeks
 
@@ -60,7 +60,7 @@ After setCharAt() String = Geeks F0r Geeks
 
 **示例 2:** 演示 IndexOutOfBoundsException。
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the setCharAt() Method.
 
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception:java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 
 ```

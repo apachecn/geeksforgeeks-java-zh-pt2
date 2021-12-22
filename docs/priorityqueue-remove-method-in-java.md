@@ -11,13 +11,13 @@
 
 **语法:**
 
-```
+```java
 PriorityQueue<String> = new PriorityQueue<String>(ComparatorHere);
 ```
 
 **语法:**移除方法
 
-```
+```java
 Priority_Queue.remove(Object O)
 ```
 
@@ -29,7 +29,7 @@ Priority_Queue.remove(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate remove() Method
 // in PriorityQueue
 // Where Elements are of String Type
@@ -78,7 +78,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial PriorityQueue: [For, Geeks, To, Welcome, Geeks]
 PriorityQueue after removing elements: [Geeks, To]
 ```
@@ -87,7 +87,7 @@ PriorityQueue after removing elements: [Geeks, To]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate remove() Method
 // of PriorityQueue class
 // Where Elements are of Integer type
@@ -135,7 +135,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial PriorityQueue: [5, 10, 30, 20, 15]
 PriorityQueue after removing elements: [10, 20, 15]
 ```
@@ -148,7 +148,7 @@ Geek，你有没有想过如果 remove()方法的调用超过了队列中存在�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate remove() Method
 // in PriorityQueue
 // Where Exception is encountered

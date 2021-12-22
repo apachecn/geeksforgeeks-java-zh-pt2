@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneOffsetTransition createTransition(int year)
 ```
 
@@ -19,7 +19,7 @@ public ZoneOffsetTransition createTransition(int year)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // createTransition() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // createTransition() method
 

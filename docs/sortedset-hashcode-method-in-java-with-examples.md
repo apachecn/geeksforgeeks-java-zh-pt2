@@ -6,7 +6,7 @@ Java 中 **[SortedSet](https://www.geeksforgeeks.org/sortedset-java-examples/)**
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -20,7 +20,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in SortedSet
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Set: [1, 2, 3, 4]
 HashCode value: 10
 
@@ -61,7 +61,7 @@ HashCode value: 10
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in Set
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Set: [For, ForGeeks, Geeks, GeeksForGeeks]
 HashCode value: -482506029
 

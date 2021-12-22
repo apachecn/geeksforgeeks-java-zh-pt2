@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate difference between
 // String, StringBuilder and StringBuffer
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String: Geeks
 StringBuilder: Geeksforgeeks
 StringBuffer: Geeksforgeeks
@@ -108,7 +108,7 @@ StringBuffer: Geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion from
 // String to StringBuffer and StringBuilder
 
@@ -146,7 +146,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 skeeG
 GeeksForGeeks
 ```
@@ -160,7 +160,7 @@ GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Conversion from
 // String to StringBuffer and StringBuilder
 
@@ -204,7 +204,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 StringBuffer object to String : 
 Geeks
 StringBuilder object to String : 
@@ -221,7 +221,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate conversion from
 // String to StringBuffer and StringBuilder
 
@@ -249,7 +249,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 ```
 

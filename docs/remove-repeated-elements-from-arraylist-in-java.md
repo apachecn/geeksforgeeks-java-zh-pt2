@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```java
 Input: ArrayList = [1, 2, 2, 3, 4, 4, 4] 
 Output: [1, 2, 3, 4] 
 
@@ -29,7 +29,7 @@ Output: [12, 23, 34, 45, 57, 67, 89]
 
     下面是上面方法的实现:
 
-    ```
+    ```java
     // Java code to illustrate remove duolicate
     // of ArrayList using hashSet<> method
 
@@ -83,7 +83,7 @@ Output: [12, 23, 34, 45, 57, 67, 89]
 
     **输出:**
 
-    ```
+    ```java
     Original ArrayList : [Geeks, for, Geeks]
 
     Using LinkedHashSet:
@@ -109,7 +109,7 @@ Output: [12, 23, 34, 45, 57, 67, 89]
 
     **示例:**
 
-    ```
+    ```java
     // Java code to illustrate remove duolicate
     // of ArrayList using hashSet<> method
 
@@ -145,7 +145,7 @@ Output: [12, 23, 34, 45, 57, 67, 89]
 
     **输出:**
 
-    ```
+    ```java
     Original ArrayList : [Geeks, for, Geeks]
     Modified List : [Geeks, for]
 

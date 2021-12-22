@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : Hello World GFG Welcomes You
 Output :You semocleW GFG dlroW Hello
 ```
@@ -20,7 +20,7 @@ Output :You semocleW GFG dlroW Hello
 
 ## c++
 
-```
+```java
 // C++ Program to illustrate the solution
 // of above problem
 #include <iostream>
@@ -86,7 +86,7 @@ int main() {
 
 ## Java
 
-```
+```java
 // Java Program to illustrate the solution of above problem
 public class ExchangeFirstLastReverseMiddle {
     static void print(String s)
@@ -145,7 +145,7 @@ public class ExchangeFirstLastReverseMiddle {
 
 ## python 3
 
-```
+```java
 # Python3 Program to illustrate the solution
 # of above problem
 def Print(s) :
@@ -199,7 +199,7 @@ Print(s)
 
 ## c#
 
-```
+```java
 // C# Program to illustrate the
 //solution of above problem
 using System;
@@ -268,6 +268,6 @@ T33】
 
 **输出:**
 
-```
+```java
 You semocleW GFG dlroW Hello
 ```

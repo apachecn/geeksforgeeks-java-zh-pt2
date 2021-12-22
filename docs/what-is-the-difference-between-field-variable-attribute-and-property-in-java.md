@@ -9,7 +9,7 @@
 
 **字段**一个类的数据成员。除非另有说明，否则字段可以是公共的、静态的，而不是静态的和最终的。
 
-```
+```java
 public class Customer {
 
     // Fields of customer
@@ -28,7 +28,7 @@ public class Customer {
 **属性**它也用于字段，它通常有 getter 和 setter 组合。
 例:
 
-```
+```java
 public class Test {
     private int number;
 
@@ -46,7 +46,7 @@ public class Test {
 
 ### 例子
 
-```
+```java
 public class Variables {
 
     // Constant

@@ -24,7 +24,7 @@
 1.  拿到句子。
 2.  形成[正则表达式](https://www.geeksforgeeks.org/write-regular-expressions/)去除句子中的重复词。
 
-```
+```java
 regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
 ```
 
@@ -46,7 +46,7 @@ regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
 
 ## C++
 
-```
+```java
 // C++ program to remove duplicate words
 // using Regular Expression or ReGex.
 #include <iostream>
@@ -101,7 +101,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove duplicate words
 // using Regular Expression or ReGex.
 
@@ -167,7 +167,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python program to remove duplicate words
 # using Regular Expression or ReGex.
 import re
@@ -200,7 +200,7 @@ print(removeDuplicateWords(str3))
 
 **Output:** 
 
-```
+```java
 Good bye world
 Ram went to his home
 Hello world

@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double signum(*double num*)
     ```
 
@@ -21,7 +21,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 72.88d
     Output: 1.0
 
@@ -35,7 +35,7 @@
 
     下面的程序说明了 Java . lang . strict math . signum(double)方法的工作原理。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.signum(double)
     import java.lang.*;
@@ -65,7 +65,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Signum Value = 1.0
     Signum Value = 0.0
     Signum Value = -0.0
@@ -80,7 +80,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static float signum(*float num*)
     ```
 
@@ -93,7 +93,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 11.8f
     Output: 1.0
 
@@ -107,7 +107,7 @@
 
     下面的程序说明了 Java . lang . strict math . signum(float)方法的工作原理:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.signum(float)
     import java.lang.*;
@@ -137,7 +137,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Signum Value = 1.0
     Signum Value = 0.0
     Signum Value = -0.0

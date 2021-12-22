@@ -15,7 +15,7 @@ T3】
 
 *   **第一步:**在根 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库(不在模块 build.gradle 文件中)。
 
-    ```
+    ```java
     allprojects {           
      repositories {           
            maven { url 'https://dl.bintray.com/wangyuwei/maven' }           
@@ -25,7 +25,7 @@ T3】
 
 *   **第二步:**在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```java
     implementation 'me.wangyuwei:ParticleView:1.0.4'      
     ```
 
@@ -33,7 +33,7 @@ T3】
 
     ## activity _ main . XML
 
-    ```
+    ```java
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout
@@ -66,7 +66,7 @@ T3】
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.particleView          
 
     import android.os.Bundle;

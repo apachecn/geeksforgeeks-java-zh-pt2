@@ -6,7 +6,7 @@ Java 中 **ZoneId** 类的 **systemDefault()** 方法用于返回系统默认时
 
 **语法:**
 
-```
+```java
 public String systemDefault()
 
 ```
@@ -23,7 +23,7 @@ public String systemDefault()
 以下程序说明了 systemDefault()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.systemDefault() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId: Etc/UTC
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.systemDefault() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 This zone is Etc/UTC
 
 ```

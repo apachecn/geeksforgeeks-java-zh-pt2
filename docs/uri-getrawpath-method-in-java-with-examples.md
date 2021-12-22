@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getRawPath()
 ```
 
 **语法**:
 
-```
+```java
 url.getRawPath()
 ```
 
@@ -23,7 +23,7 @@ url.getRawPath()
 
 **示例 1:** 给定一个 URI，我们将使用 getRawPath()函数获得路径。
 
-```
+```java
 // Java program to show the 
 // use of the function getRawPath()
 
@@ -59,7 +59,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples/
  Raw Path=/url-getprotocol-method-in-java-with-examples/
 
@@ -67,7 +67,7 @@ URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples
 
 **示例 2:**getPath()和 getRawPath()返回的值是相同的，只是转义八位字节的所有序列都被解码。getRawPath()返回用户提供的字符串的确切值，但是 getPath()函数解码转义八位字节序列(如果有)。
 
-```
+```java
 // Java program to show the 
 // use of the function getRawPath()
 
@@ -109,7 +109,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples%E2%82%AC/
  Path=/url-getprotocol-method-in-java-with-examples?/
  Raw Path=/url-getprotocol-method-in-java-with-examples%E2%82%AC/

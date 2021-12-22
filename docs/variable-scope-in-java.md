@@ -9,7 +9,7 @@ Java 程序是以类的形式组织的。每个类都是某个包的一部分。
 
 这些变量必须在类内部(任何函数外部)声明。它们可以在课堂上的任何地方直接访问。让我们看一个例子:
 
-```
+```java
 public class Test
 {
     // All variables defined directly inside a class 
@@ -26,7 +26,7 @@ public class Test
 *   成员变量的指定访问不影响它们在类中的作用域。
 *   可以使用以下规则在类外部访问成员变量
 
-```
+```java
 Modifier      Package  Subclass  World
 
 public          Yes      Yes     Yes
@@ -43,7 +43,7 @@ private         No        No     No
 
 方法内部声明的变量具有方法级别的作用域，不能在方法外部访问。
 
-```
+```java
 public class Test
 {
     void method1() 
@@ -58,7 +58,7 @@ public class Test
 
 这是方法作用域的另一个例子，只是这次变量作为参数传入了方法:
 
-```
+```java
 class Test
 {
     private int x;
@@ -75,7 +75,7 @@ class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Test
 {
     static int x = 11;
@@ -102,7 +102,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 Test.x: 22
 t.x: 22
 t.y: 33
@@ -114,7 +114,7 @@ y: 44
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class Test
 {
     public static void main(String args[])
@@ -136,7 +136,7 @@ public class Test
 
 **输出:**
 
-```
+```java
 10
 ```
 
@@ -144,7 +144,7 @@ public class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String args[])
@@ -162,7 +162,7 @@ class Test
 
 **输出:**
 
-```
+```java
 11: error: cannot find symbol
         System.out.println(x);      
 ```
@@ -171,7 +171,7 @@ class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Above program after correcting the error
 class Test
 {
@@ -190,7 +190,7 @@ class Test
 
 **输出:**
 
-```
+```java
 0
 1
 2
@@ -202,7 +202,7 @@ class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String args[])
@@ -218,7 +218,7 @@ class Test
 
 **输出:**
 
-```
+```java
 6: error: variable a is already defined in method go(int)
        for (int a = 0; a < 5; a++)       
                 ^
@@ -232,7 +232,7 @@ c++中一个类似的程序工作。参见[本](https://ide.geeksforgeeks.org/hW
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String args[])
@@ -252,7 +252,7 @@ class Test
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test {
     public static void main(String args[])
     {
@@ -267,7 +267,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 1
 2
 3

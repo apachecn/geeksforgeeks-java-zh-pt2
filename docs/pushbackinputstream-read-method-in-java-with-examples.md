@@ -8,7 +8,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public int read()
               throws IOException
 
@@ -26,7 +26,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackInputStream read() method
 
@@ -62,7 +62,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **Output:**
 
-    ```
+    ```java
     Char : G
     Char : E
     Char : E
@@ -73,7 +73,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackInputStream read() method
 
@@ -110,7 +110,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **Output:**
 
-    ```
+    ```java
     Char : G
     Char : E
     Char : E
@@ -131,7 +131,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **语法:**
 
-    ```
+    ```java
     public int read(byte[] b,
                     int offset,
                     int length)
@@ -159,7 +159,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackInputStream
     // read(byte[], int, int) method
@@ -199,14 +199,14 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEK
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackInputStream
     // read(byte[], int, int) method
@@ -247,7 +247,7 @@ Java 中**推回输入流**类的 **read()** 方法有两种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
 
     ```

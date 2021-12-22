@@ -5,7 +5,7 @@
 Java 中 OffsetDateTime 类的 **compareTo()** 方法将这个日期时间与另一个日期时间进行比较。
 **语法:**
 
-```
+```java
 public int compareTo(OffsetDateTime other)
 ```
 
@@ -16,7 +16,7 @@ public int compareTo(OffsetDateTime other)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 
 import java.time.OffsetDateTime;
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2018-12-12T13:30:30+05:00
 On comparing we get 0
@@ -54,7 +54,7 @@ On comparing we get 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2015-12-12T13:30:30+05:00
 On comparing we get 3
@@ -91,7 +91,7 @@ On comparing we get 3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
@@ -118,7 +118,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Date1: 2013-12-12T13:30:30+05:00
 Date2: 2015-12-12T13:30:30+05:00
 On comparing we get -2

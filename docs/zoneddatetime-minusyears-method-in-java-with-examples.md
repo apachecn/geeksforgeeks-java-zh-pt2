@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusYears(long years)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime minusYears(long years)
 以下程序说明了负年()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusYears() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusYears() method
 

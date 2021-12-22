@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.geeksforgeeks.org;
 
 import com.geeksforgeeks.org.IGeek;
@@ -37,7 +37,7 @@ public class GFG {
 
 ## 可扩展标记语言
 
-```
+```java
 <beans
 xmlns="http://www.springframework.org/schema/beans"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -64,7 +64,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.geeksforgeeks.org;
 
 import com.geeksforgeeks.org.IGeek;
@@ -86,7 +86,7 @@ public class GFG {
 
 ## 可扩展标记语言
 
-```
+```java
 <beans
 xmlns="http://www.springframework.org/schema/beans"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -139,7 +139,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-0">POM . XML</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="XML"></gfg-panel>
 
-```
+```java
  <dependencies>
 
     <!-- https:// mvnrepository.com/artifact
@@ -160,7 +160,7 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 </dependencies> 
 ```
 
-<gfg-tab role="tab" slot="tab" id="gfg-tab-1">【enigne . Java</gfg-tab><gfg-tab role="tab" slot="tab" id="gfg-tab-2">【Toyota engine . Java</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-2" data-code-lang="Java">```
+<gfg-tab role="tab" slot="tab" id="gfg-tab-1">【enigne . Java</gfg-tab><gfg-tab role="tab" slot="tab" id="gfg-tab-2">【Toyota engine . Java</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-2" data-code-lang="Java">```java
  public class ToyotaEngine implements IEngine {
     String company;
     double cost;

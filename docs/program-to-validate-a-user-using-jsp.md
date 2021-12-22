@@ -4,9 +4,9 @@
 
 **JSP 简介:** JSP(Java Server Page)是一种服务器端技术，用于开发支持动态内容的网页。它实现了动态和静态内容的分离，从而降低了开发复杂性。因此，开发人员有能力通过使用特殊的 JSP 标签在 HTML 页面中插入 java 代码，其中大多数标签以 **< %** 开头，以 **% >** 结尾。这里还需要注意的是，JSP 是建立在 Java Servlet API 之上的，并且还允许以
 
- **```
+ ```java
 <jsp:name_of_tag>
-```** 开头，以 **```
+```** 开头，以 ```java
 </jsp:name_of_tag>
 ```** 
 结尾的标签，从而决定了其中的代码将如何表现。
@@ -29,7 +29,7 @@
 
 **接受用户名和密码的表单:login.jsp**
 
-```
+```java
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -54,7 +54,7 @@
 
 **JSP 接受表单数据并验证用户:acceptuser.jsp**
 
-```
+```java
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -95,7 +95,7 @@
 
 **ValidateUser.java 级**
 
-```
+```java
 package saagnik;
 import java.io.Serializable;
 

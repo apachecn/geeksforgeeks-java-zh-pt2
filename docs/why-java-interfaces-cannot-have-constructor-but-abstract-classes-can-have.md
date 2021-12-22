@@ -16,7 +16,7 @@
 
 ## 爪哇
 
-```
+```java
 // Java program that demonstrates why
 // interface can not have a constructor
 
@@ -53,6 +53,6 @@ class GFG implements Subtraction {
 
 **输出**
 
-```
+```java
 15
 ```

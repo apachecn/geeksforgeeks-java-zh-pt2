@@ -27,7 +27,7 @@ Setter 注入是一种依赖注入，其中 spring 框架使用 setter 方法注
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.spring;
 
 public class Student {
@@ -68,7 +68,7 @@ public class Student {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <beans 
  xmlns="http://www.springframework.org/schema/beans"
@@ -98,7 +98,7 @@ public class Student {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.spring;
 
 import java.io.*;
@@ -117,6 +117,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Student{ studentName= John  , studentCourse= Spring Framework }
 ```

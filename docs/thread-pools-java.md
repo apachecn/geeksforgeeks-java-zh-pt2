@@ -21,7 +21,7 @@
 
     **执行器线程池方法**
 
-    ```
+    ```java
     Method                         Description
     newFixedThreadPool(int)           Creates a fixed size thread pool.
     newCachedThreadPool()             Creates a thread pool that creates new 
@@ -39,7 +39,7 @@
 
     **应遵循的步骤**
 
-    ```
+    ```java
     1\. Create a task(Runnable Object) to execute
     2\. Create Executor Pool using Executors
     3\. Pass tasks to Executor Pool
@@ -47,7 +47,7 @@
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate 
     // ThreadPool
     import java.text.SimpleDateFormat; 
@@ -133,7 +133,7 @@
 
     **样品执行**
 
-    ```
+    ```java
     Output:
     Initialization Time for task name - task 2 = 02:32:56
     Initialization Time for task name - task 1 = 02:32:56
@@ -183,7 +183,7 @@
 
     执行任务 4 和 5 的线程池
 
-    ```
+    ```java
     One of the main advantages of using this approach is when you want to process 100 requests at a time, but do not want to create 100 Threads for the same, so as to reduce JVM overload. You can use this approach to create a ThreadPool of 10 Threads and you can submit 100 requests to this ThreadPool. 
     ThreadPool will create maximum of 10 threads to process 10 requests at a time.  After process completion of any single Thread, 
     ThreadPool will internally allocate the 11th request to this Thread 

@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code for using 'this' keyword to
 //refer current class instance variables
 class Test
@@ -40,7 +40,7 @@ class Test
 
 输出:
 
-```
+```java
 a = 10  b = 20
 ```
 
@@ -48,7 +48,7 @@ a = 10  b = 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for using this() to
 // invoke current class constructor
 class Test
@@ -80,7 +80,7 @@ class Test
 
 输出:
 
-```
+```java
 Inside parameterized constructor
 Inside  default constructor
 ```
@@ -89,7 +89,7 @@ Inside  default constructor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code for using 'this' keyword
 //to return the current class instance
 class Test
@@ -126,7 +126,7 @@ class Test
 
 输出:
 
-```
+```java
 a = 10  b = 20
 ```
 
@@ -134,7 +134,7 @@ a = 10  b = 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for using 'this'
 // keyword as method parameter
 class Test
@@ -171,7 +171,7 @@ class Test
 
 输出:
 
-```
+```java
 a = 10  b = 20
 ```
 
@@ -179,7 +179,7 @@ a = 10  b = 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for using this to invoke current
 // class method
 class Test {
@@ -205,7 +205,7 @@ class Test {
 
 输出:
 
-```
+```java
 Inside show function
 Inside display function
 ```
@@ -214,7 +214,7 @@ Inside display function
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for using this as an argument in constructor
 // call
 // Class with object of Class B as its data member
@@ -260,7 +260,7 @@ class B
 
 输出:
 
-```
+```java
 Value of x in Class B : 5
 ```
 

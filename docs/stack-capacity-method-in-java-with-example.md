@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int capacity()
 ```
 
@@ -18,7 +18,7 @@ public int capacity()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate boolean capacity()
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, for, Geeks, 10, 20]
 Capacity: 10
 
@@ -57,7 +57,7 @@ Capacity: 10
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // boolean add(Object element)
 
@@ -91,7 +91,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 20, 30, 40, 50]
 Capacity: 10
 

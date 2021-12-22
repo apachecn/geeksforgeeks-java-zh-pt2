@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final void wait() throws InterruptedException
 ```
 
@@ -25,7 +25,7 @@ public final void wait() throws InterruptedException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the use of wait() method
 class GunFight {
     private int bullets = 40;
@@ -95,7 +95,7 @@ public class WaitDemo extends Thread {
 
 **Output**
 
-```
+```java
 40 bullets fired and 0 remains
 Invoking the wait() method
 Reloading the magazine and resuming the thread using notify()

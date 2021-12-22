@@ -11,7 +11,7 @@
 
 下面是 java 程序，演示了静态块和静态变量是按照它们在程序中出现的顺序执行的。
 
-```
+```java
 // Java program to demonstrate execution
 // of static blocks and variables
 
@@ -44,7 +44,7 @@ class Test {
 
 **输出:**
 
-```
+```java
 from m1
 Inside static block
 Value of a : 20

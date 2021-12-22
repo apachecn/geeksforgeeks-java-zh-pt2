@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // withKeyValueSeparator(char separator) method
 // of Guava's Splitter Class
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Data Structures -> Coding
 Sports -> Football
 Capital -> Delhi
@@ -69,7 +69,7 @@ Capital -> Delhi
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // withKeyValueSeparator(char separator) method
 // of Guava's Splitter Class
@@ -111,7 +111,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 First -> I
 Second -> II
 Third -> III

@@ -18,7 +18,7 @@ break 关键字在 switch 语句中有特殊用法。switch 语句中的每个�
 
 用分号分隔关键字
 
-```
+```java
 break;
 ```
 
@@ -43,7 +43,7 @@ break 关键字的使用主要出现在循环概念中:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show use of break statement
 // inside the For loop
 public class GFG {
@@ -68,7 +68,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 3 6 9 12 15 18 21 24 27 30 33 36 
 ```
 
@@ -78,7 +78,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of break statement
 // inside the While loop
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 
 ```
 
@@ -129,7 +129,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of break statement
 // Inside the do-While loop
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 0  5  10  15  20  25  30  35  40  45  50  55  60  65  70  75
 ```
 
@@ -186,7 +186,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of break statement
 // inside the Switch Statement
 
@@ -230,6 +230,6 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TWENTY
 ```

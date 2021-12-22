@@ -16,7 +16,7 @@
 
     **示例:**
 
-    ```
+    ```java
     // Java program to traverse through
     // a hashmap using iterator
 
@@ -56,7 +56,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Created hashmap is{GeeksforGeeks=54, A computer portal=80, For geeks=82}
     HashMap after adding bonus marks:
     GeeksforGeeks : 64
@@ -67,7 +67,7 @@
 
 2.  **使用[进行每个循环](https://www.geeksforgeeks.org/for-each-loop-in-java/) :**
 
-    ```
+    ```java
     // Java program for traversing
     // through a hashmap using for-each loop
 
@@ -109,7 +109,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Created hashmap is{GeeksforGeeks=54, A computer portal=80, For geeks=82}
     HashMap after adding bonus marks:
     GeeksforGeeks : 64
@@ -120,7 +120,7 @@
 
 3.  **使用 [forEach()](https://www.geeksforgeeks.org/stream-foreach-method-java-examples/) 方法:** forEach()是在 java 8 中引入的 hashmap 方法。它用于遍历 hashmap，也减少了代码行数。
 
-    ```
+    ```java
     // Java program for traversing
     // through a hashmap using for-each loop
 
@@ -155,7 +155,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Created hashmap is{GeeksforGeeks=54, A computer portal=80, For geeks=82}
     HashMap after adding bonus marks:
     GeeksforGeeks : 64

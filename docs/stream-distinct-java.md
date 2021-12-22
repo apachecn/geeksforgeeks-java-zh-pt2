@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stream<T> distinct()
 
 Where, Stream is an interface and the function
@@ -18,7 +18,7 @@ elements.
 下面给出了一些例子，以便更好地理解函数的实现。
 **例 1 :**
 
-```
+```java
 // Implementation of Stream.distinct()
 // to get the distinct elements in the List
 import java.util.*;
@@ -43,7 +43,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The distinct elements are :
 1
 2
@@ -55,7 +55,7 @@ The distinct elements are :
 
 **例 2 :**
 
-```
+```java
 // Implementation of Stream.distinct()
 // to get the distinct elements in the List
 import java.util.*;
@@ -81,7 +81,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The distinct elements are :
 Geeks
 for
@@ -92,7 +92,7 @@ GeeksforGeeks
 
 **例 3 :**
 
-```
+```java
 // Implementation of Stream.distinct()
 // to get the count of distinct elements
 // in the List
@@ -120,7 +120,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The count of distinct elements is : 4
 
 ```

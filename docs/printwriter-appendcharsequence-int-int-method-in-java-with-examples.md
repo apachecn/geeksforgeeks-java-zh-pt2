@@ -20,7 +20,7 @@ Java 中类的**追加(charSequence，int，int)** 方法用于在流中追加�
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter append(CharSequence, int, int) method
 
@@ -65,14 +65,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter append(CharSequence, int, int) method
 
@@ -117,7 +117,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 G
 
 ```

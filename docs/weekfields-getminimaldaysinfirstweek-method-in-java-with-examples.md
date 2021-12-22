@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getMinimalDaysInFirstWeek()
 
 ```
@@ -18,7 +18,7 @@ public int getMinimalDaysInFirstWeek()
 下面的程序说明了 weekfields . getminimaldaysinfirst week()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.getMinimalDaysInFirstWeek() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minimal number of days in the first week: 2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.getMinimalDaysInFirstWeek() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minimal number of days in the first week: 1
 
 ```

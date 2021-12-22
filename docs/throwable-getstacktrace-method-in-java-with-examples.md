@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public StackTraceElement[] getStackTrace()
 ```
 
@@ -17,7 +17,7 @@ public StackTraceElement[] getStackTrace()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getStackTrace() Method.
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Index 0 of stack trace array conatins = GFG.addPositiveNumbers(File.java:48)
 Index 1 of stack trace array conatins = GFG.main(File.java:18)
 
@@ -85,7 +85,7 @@ Index 1 of stack trace array conatins = GFG.main(File.java:18)
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the getStackTrace() Method.
 
@@ -159,7 +159,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Index 0 of stack trace array conatins = GFG.testException3(File.java:68)
 Index 1 of stack trace array conatins = GFG.testException2(File.java:58)
 Index 2 of stack trace array conatins = GFG.testException1(File.java:46)

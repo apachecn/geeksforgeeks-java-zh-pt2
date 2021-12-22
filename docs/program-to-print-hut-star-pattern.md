@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: N = 5
 Output:
         * 
@@ -41,7 +41,7 @@ Output:
 
 ## C++
 
-```
+```java
 // C++ program to print
 // the Hut Star Pattern
 
@@ -102,7 +102,7 @@ return 0;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print
 // the Hut Star Pattern
 
@@ -158,7 +158,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python program to print
 # the Hut Star Pattern
 
@@ -205,7 +205,7 @@ printHutStar(n)
 
 ## C#
 
-```
+```java
 // C# program to print
 // the Hut Star Pattern
 using System;
@@ -264,7 +264,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to print
 // the Hut Star Pattern
@@ -320,7 +320,7 @@ printHutStar($n);
 
 ## java 描述语言
 
-```
+```java
 <script>
 
       // JavaScript program to print
@@ -372,7 +372,7 @@ printHutStar($n);
 
 **Output:** 
 
-```
+```java
       *
      ***
     *****
@@ -389,7 +389,7 @@ printHutStar($n);
 
 ## C++
 
-```
+```java
 // C++ program to print
 // the Hut Star Pattern
 
@@ -438,7 +438,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print the Hut Star Pattern
 class GFG
 {
@@ -493,7 +493,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to print the
 # Hut Star Pattern
 import math as mt
@@ -535,7 +535,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# program to print the Hut Star Pattern
 using System;
 
@@ -592,7 +592,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to print the
 // Hut Star Pattern
@@ -645,7 +645,7 @@ for ($k = 0; $k < 3; $k++)
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // Javascript program to print the Hut Star Pattern    
@@ -699,7 +699,7 @@ for(k = 0; k < 3; k++)
 
 **Output:** 
 
-```
+```java
       *
      ***
     *****

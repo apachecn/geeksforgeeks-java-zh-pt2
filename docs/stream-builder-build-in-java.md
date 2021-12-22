@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stream<**T**> build()
 
 ```
@@ -21,7 +21,7 @@ Stream<**T**> build()
 
 **例 1 :**
 
-```
+```java
 // Java code to show the implementation
 // of Stream.Builder build()
 import java.util.stream.Stream;
@@ -51,7 +51,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 for
 GeeksforGeeks
@@ -62,7 +62,7 @@ Geeks Classes
 
 **例 1 :**
 
-```
+```java
 // Java code to show the implementation
 // of Stream.Builder build()
 import java.util.stream.Stream;
@@ -92,7 +92,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 for
 GeeksforGeeks

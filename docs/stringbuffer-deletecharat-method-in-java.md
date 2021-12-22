@@ -6,7 +6,7 @@ Java . lang . stringbuffer . delete charat()是一个内置的 Java 方法，它
 
 **语法:**
 
-```
+```java
 public StringBuffer deleteCharAt(*int indexpoint*)
 ```
 
@@ -16,7 +16,7 @@ public StringBuffer deleteCharAt(*int indexpoint*)
 
 **示例:**
 
-```
+```java
 Input : StringBuffer = worldofgeeks
         int indexpoint = 4
 Output : worlofgeeks
@@ -26,7 +26,7 @@ Output : worlofgeeks
 以下程序说明了 StringBuffer.deleteCharAt()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate working
 // of StringBuffer.deleteCharAt() method
 
@@ -49,14 +49,14 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 String buffer before deletion = raghav
 After deletion new StringBuffer = ragha
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of StringBuffer.deleteCharAt() method
 
@@ -79,7 +79,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 String buffer before deletion = GeeksforGeeks
 After deletion new StringBuffer = GeeksorGeeks
 
@@ -87,7 +87,7 @@ After deletion new StringBuffer = GeeksorGeeks
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate working
 // of StringBuffer.deleteCharAt() method
 
@@ -110,7 +110,7 @@ public class Geeks {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: 
                                              String index out of range: -5
     at java.lang.AbstractStringBuilder.deleteCharAt

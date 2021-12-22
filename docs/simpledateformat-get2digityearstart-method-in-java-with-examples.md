@@ -5,7 +5,7 @@
 **SimpleDateFormat 类**的**get2 digitiyarstart()**方法用于返回解析或 set2DigitYearStart()方法中设置的 100 年期间的开始。它返回 100 年期间的开始日期，2 位数的年份被解释为在日期内设置。
 **语法:**
 
-```
+```java
 public Date get2DigitYearStart()
 ```
 
@@ -16,7 +16,7 @@ public Date get2DigitYearStart()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // get2DigitYearStart() method
 
@@ -61,7 +61,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Starting Time: Mon Jan 28 00:00:00 UTC 2019
 The New Time: Sat May 12 00:00:00 UTC 1917
 The start Year: 1900
@@ -71,7 +71,7 @@ The start Year: 1900
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // get2DigitYearStart() method
 
@@ -116,7 +116,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Starting Time: Mon Jan 28 00:00:00 UTC 2019
 The New Time: Fri May 12 00:00:00 UTC 2017
 The start Year: 2000

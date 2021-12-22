@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getLargestMinimum()
 
 ```
@@ -18,7 +18,7 @@ public long getLargestMinimum()
 下面的程序说明了 ValueRange.getLargestMinimum()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getLargestMinimum() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Largest Minimum for DAY_OF_WEEK: 1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getLargestMinimum() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Largest Minimum : 1111
 
 ```

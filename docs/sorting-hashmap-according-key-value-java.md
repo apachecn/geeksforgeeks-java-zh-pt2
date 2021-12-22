@@ -5,7 +5,7 @@
 我们以 [HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java/) 的形式给出了学生得分的详细情况，其中学生的名字为 Key，得分为 Value。我们的任务是根据关键值对地图进行排序，即按照字母顺序(词典顺序)排列学生的姓名。
 **例:**
 
-```
+```java
 Input : Key = Jayant, Value = 80
         Key = Anushka, Value = 80
         Key = Amit, Value = 75
@@ -25,7 +25,7 @@ Output : Sorted Map according to Names:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Code to sort Map by key value
 import java.util.*;
 class sortmapKey {
@@ -66,7 +66,7 @@ class sortmapKey {
 
 **Output**
 
-```
+```java
 Key = Abhishek, Value = 90
 Key = Amit, Value = 75
 Key = Anushka, Value = 80

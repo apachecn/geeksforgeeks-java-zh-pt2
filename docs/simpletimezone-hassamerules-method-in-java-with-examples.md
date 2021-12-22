@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hasSameRules(TimeZone other)
 
 ```
@@ -21,7 +21,7 @@ public boolean hasSameRules(TimeZone other)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.hasSameRules()
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash same rule = false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.hasSameRules()
 import java.util.*;
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash same rule = true
 
 ```

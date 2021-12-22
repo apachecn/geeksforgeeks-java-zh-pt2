@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : arr[] = {10, 20, 30, 40}
 Output : arr[] = {10, 20, 40, 30}
 
@@ -21,7 +21,7 @@ Output : arr[] = {2, 4, 5, 6, 9, 8, 7, 3, 1 }
 
 ## C++
 
-```
+```java
 // C++ program to sort first half in increasing
 // order and second half in decreasing
 #include<bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort first half in increasing
 // order and second half in decreasing
 import java.util.*;
@@ -77,7 +77,7 @@ public class SortExample {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to sort first half in increasing
 # order and second half in decreasing
 
@@ -103,7 +103,7 @@ if __name__=='__main__':
 
 ## C#
 
-```
+```java
 // C# program to sort first half in increasing
 // order and second half in decreasing
 using System;
@@ -138,7 +138,7 @@ public class SortExample
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to sort first half in increasing
 // order and second half in decreasing
@@ -168,7 +168,7 @@ for($i = 0; $i < $n; $i++)
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // Javascript program to sort
@@ -203,7 +203,7 @@ for($i = 0; $i < $n; $i++)
 
 **Output:** 
 
-```
+```java
 Modified array :
 2 4 5 6 9 8 7 3 1 
 ```
@@ -214,7 +214,7 @@ Modified array :
 
 ## C++
 
-```
+```java
 // C++ program to sort first half in increasing
 // order and second half in decreasing
 #include<bits/stdc++.h>
@@ -243,7 +243,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort first half in increasing
 // order and second half in decreasing
 import java.util.*;
@@ -281,7 +281,7 @@ public class SortExample {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to sort first half in increasing
 # order and second half in decreasing
 def mySort(arr):
@@ -319,7 +319,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# program to sort first half in increasing
 // order and second half in decreasing
 using System;
@@ -361,7 +361,7 @@ public class SortExample
 
 ## java 描述语言
 
-```
+```java
 <script>
 // Javascript program to sort first half in increasing
 // order and second half in decreasing
@@ -397,7 +397,7 @@ public class SortExample
 
 **Output:** 
 
-```
+```java
 Modified arr[] : [2, 4, 5, 6, 9, 8, 7, 3, 1]
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getMaximum()
 
 ```
@@ -18,7 +18,7 @@ public long getMaximum()
 下面的程序说明了 ValueRange.getMaximum()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getMaximum() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Maximum for DAY_OF_WEEK: 7
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getMaximum() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Maximum : 99999
 
 ```

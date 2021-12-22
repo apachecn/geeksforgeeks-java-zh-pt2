@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhisteDate dateYearDay(
   int prolepticYear, int dayOfYear)
 
@@ -27,7 +27,7 @@ public ThaiBuddhisteDate dateYearDay(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2018-01-24
 
 ```
@@ -83,7 +83,7 @@ ThaiBuddhistDate is: ThaiBuddhist BE 2018-01-24
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateYearDay() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 passed parameter can not form a date
 Exception thrown: java.time.DateTimeException: Invalid value for DayOfYear (valid values 1 - 365/366): -24
 

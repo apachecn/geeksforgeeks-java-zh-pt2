@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> 
   Optional<T> empty()
 
@@ -19,7 +19,7 @@ public static <T>
 以下程序举例说明空()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.empty() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.empty() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 
 ```

@@ -8,7 +8,7 @@ Java 中的 throw 关键字用于从方法或任何代码块中显式抛出异�
 
 **语法:**
 
-```
+```java
 throw ***Instance***
 Example:
 throw new ArithmeticException("/ by zero");
@@ -20,7 +20,7 @@ throw new ArithmeticException("/ by zero");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates the use of throw
 class ThrowExcep
 {
@@ -53,7 +53,7 @@ class ThrowExcep
 
 **输出:**
 
-```
+```java
 Caught inside fun().
 Caught in main.
 ```
@@ -62,7 +62,7 @@ Caught in main.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program that demonstrates the use of throw
 class Test
 {
@@ -75,7 +75,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 ```
 
@@ -85,7 +85,7 @@ throws 是 Java 中的一个关键字，用在方法的签名中，表示这个�
 
 **语法:**
 
-```
+```java
 type method_name(parameters) throws exception_list
 exception_list is a comma separated list of all the 
 exceptions which a method might throw.
@@ -100,7 +100,7 @@ exceptions which a method might throw.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate error in case
 // of unhandled exception
 class tst
@@ -115,7 +115,7 @@ class tst
 
 **输出:**
 
-```
+```java
 error: unreported exception InterruptedException; must be caught or declared to be thrown
 ```
 
@@ -123,7 +123,7 @@ error: unreported exception InterruptedException; must be caught or declared to 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate throws
 class tst
 {
@@ -137,7 +137,7 @@ class tst
 
 **输出:**
 
-```
+```java
 Hello Geeks
 ```
 
@@ -147,7 +147,7 @@ Hello Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of throws
 class ThrowsExecp
 {
@@ -172,7 +172,7 @@ class ThrowsExecp
 
 **输出:**
 
-```
+```java
 Inside fun().
 caught in main.
 ```

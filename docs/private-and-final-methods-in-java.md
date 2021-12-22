@@ -5,7 +5,7 @@
 当我们在方法中使用*最终*说明符时，该方法不能在任何继承类中被重写。由于设计原因，方法是最终的。
 因为私有方法是不可访问的，所以它们在 Java 中是隐式最终的。因此将*最终*说明符添加到私有方法中不会增加任何价值。事实上，这可能会造成不必要的混乱。
 
-```
+```java
 class Base {
 
    private final void foo() {}
@@ -21,7 +21,7 @@ class Base {
 
 **程序 1**
 
-```
+```java
 // file name: Main.java
 class Base {
     private final void foo() {}
@@ -41,7 +41,7 @@ public class Main {
 
 **程序 2**
 
-```
+```java
 // file name: Main.java
 class Base {
     private void foo() {}

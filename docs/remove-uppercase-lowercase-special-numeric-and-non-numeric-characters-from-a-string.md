@@ -64,7 +64,7 @@ T5**辅助空间:** O(1)
 
 ## C++
 
-```
+```java
 // C++ program to remove uppercase, lowercase
 // special, numeric, and non-numeric characters
 #include <iostream>
@@ -152,7 +152,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove uppercase, lowercase
 // special, numeric, and non-numeric characters
 import java.util.regex.Matcher;
@@ -289,7 +289,7 @@ public class GFG
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to remove
 # uppercase, lowercase special,
 # numeric, and non-numeric characters
@@ -366,7 +366,7 @@ print("After removing non-numeric characters:",
 
 **Output**
 
-```
+```java
 After removing uppercase characters: gfg123$%
 After removing lowercase characters: GFG123$%
 After removing special characters: GFGgfg123

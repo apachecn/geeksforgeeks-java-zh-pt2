@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 E element()
 ```
 
@@ -20,7 +20,7 @@ E element()
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Queue
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -60,7 +60,7 @@ Queue's head: 7855642
 
 **节目 2:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Queue
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -100,7 +100,7 @@ Queue's head: 7855642
 
 **程序 3:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Queue
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -141,7 +141,7 @@ Queue's head: 7855642
 
 **程序 4:** 在**的配合下**。
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Queue
 
@@ -174,7 +174,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -184,7 +184,7 @@ Queue's head: 7855642
 
 **节目 5:** 展示**nosucheelementexception**。
 
-```
+```java
 // Java Program Demonstrate element()
 // method of Queue
 
@@ -229,7 +229,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue: []

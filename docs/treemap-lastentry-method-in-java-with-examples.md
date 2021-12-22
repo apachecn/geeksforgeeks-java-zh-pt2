@@ -6,7 +6,7 @@ Java . util . treemap . LastEntry(**)**方法用于返回与此映射中最大�
 
 **语法:**
 
-```
+```java
 tree_map.lastEntry()
 ```
 
@@ -20,7 +20,7 @@ tree_map.lastEntry()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // TreeMap lastEntry() method
 import java.util.*;
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The last entry is : 103=Geeks
 
 ```
@@ -56,7 +56,7 @@ The last entry is : 103=Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // TreeMap lastEntry() method
 import java.util.*;
@@ -78,7 +78,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 The last entry is : null
 
 ```

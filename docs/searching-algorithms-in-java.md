@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement Linear Search
 
 class GFG {
@@ -63,6 +63,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Element is present at index 3
 ```

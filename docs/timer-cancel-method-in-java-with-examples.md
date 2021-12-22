@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void cancel()
 
 ```
@@ -21,7 +21,7 @@ public void cancel()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Timer.cancel()
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 working on the task
 working on the task
 working on the task
@@ -68,7 +68,7 @@ stop the task
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Timer.cancel()
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 working on the task
 working on the task
 working on the task

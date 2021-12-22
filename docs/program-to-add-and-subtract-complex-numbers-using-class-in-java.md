@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```java
 Input: a1 = 4, b1 = 8
         a2 = 5, b2 = 7
 Output: 
@@ -32,7 +32,7 @@ Difference = 3 + 2i
 
 ```
 
-```
+```java
 // Java program to add and subtract two
 // complex numbers using Class
 
@@ -141,7 +141,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Complex number: 3 + 2i
 Complex number: 9 + 5i
 Sum of Complex number: 12 + 7i

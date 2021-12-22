@@ -8,7 +8,7 @@ OpenCV 的 Imgproc 模块的 [*Imgproc.resize 方法*](https://www.geeksforgeeks
 
 **语法:**
 
-```
+```java
 resize(
                 src: &Mat, 
                 dst: &mut Mat, 
@@ -51,13 +51,13 @@ resize(
 
 假设用户想要调整 src 的大小，使其适合预先创建的目标文件，那么调用函数的语法如下
 
-```
+```java
 resize(src, dst, dst.size(), 0, 0, interpolation);
 ```
 
 假设用户想要在每个方向上将图像缩小 2 倍，那么调用函数的语法如下
 
-```
+```java
 resize(src, dst, Size(), 0.5, 0.5, interpolation);
 ```
 
@@ -69,7 +69,7 @@ resize(src, dst, Size(), 0.5, 0.5, interpolation);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing openCV modules
 import org.opencv.core.Core;
 import org.opencv.core.Mat;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public long getLong(TemporalField field)
 下面的程序说明了 getLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.getLong() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 YEAR_OF_ERA Field: 2019
 
@@ -62,7 +62,7 @@ YEAR_OF_ERA Field: 2019
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.getLong() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 YEAR Field: 2019
 

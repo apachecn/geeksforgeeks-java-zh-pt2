@@ -8,7 +8,7 @@ PriorityBlockingQueue 的**到 Array** 方法用于创建一个数组，该数�
 
 **语法:**
 
-```
+```java
 public Object[] toArray()
 ```
 
@@ -20,7 +20,7 @@ public Object[] toArray()
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray()
 // method of PriorityBlockingQueue
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Array Contains:
 5278367 35658786 74381793 87625142
 ```
@@ -65,7 +65,7 @@ Array Contains:
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray()
 // method of PriorityBlockingQueue
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue is [Bristi, Joyita, Riya]
 The array created by toArray() is:
 Bristi 
@@ -120,7 +120,7 @@ Riya
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -139,7 +139,7 @@ public <T> T[] toArray(T[] a)
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray(T[] a)
 // method of PriorityBlockingQueue
 
@@ -191,7 +191,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Queue is [Joyi, Rani, Riya]
 
 The array passed to toArray() is:
@@ -209,7 +209,7 @@ Riya
 
 ## Java
 
-```
+```java
 // Java Program Demonstrate toArray(T[] a)
 // method of PriorityBlockingQueue
 
@@ -249,7 +249,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception thrown:java.lang.NullPointerException
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void forEachOrdered(Consumer<**?** super T> action)
 
 Where, Consumer is a functional interface which 
@@ -19,7 +19,7 @@ is the type of stream elements.
 
 **例 1 :** 按原顺序打印整数数组的元素。
 
-```
+```java
 // Java code for forEachOrdered
 // (Consumer action) in Java 8
 import java.util.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 10
 19
 20
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2 :** 按原顺序打印字符串数组的元素。
 
-```
+```java
 // Java code for forEachOrdered
 // (Consumer action) in Java 8
 import java.util.*;
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 Geeks
 for
@@ -87,7 +87,7 @@ GeeksforGeeks
 
 **示例 3 :** 按原始顺序打印字符串数组索引 2 处的字符。
 
-```
+```java
 // Java code for forEachOrdered
 // (Consumer action) in Java 8
 import java.util.*;
@@ -112,7 +112,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 G
 e
 r

@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 atDay()方法将当前的年-月和作为参数传递�
 
 **语法**:
 
-```
+```java
 public LocalDate atDay(int dayOfMonth)
 ```
 
@@ -22,7 +22,7 @@ public LocalDate atDay(int dayOfMonth)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the atDay() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 2017-08-31
 ```
 
@@ -54,7 +54,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the atDay() method
 
 import java.util.*;
@@ -83,7 +83,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 java.time.DateTimeException: Invalid date 'SEPTEMBER 31'
 ```
 

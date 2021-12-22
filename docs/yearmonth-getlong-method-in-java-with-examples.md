@@ -6,7 +6,7 @@ Java 中 **YearMonth** 类的 **getLong()** 方法用于从这个 year-month 中
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField field)
 ```
 
@@ -24,7 +24,7 @@ public long getLong(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.getLong() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 YEAR: 2019
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.getLong() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MONTH: 4
 
 ```

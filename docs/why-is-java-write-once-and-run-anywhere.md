@@ -16,7 +16,7 @@ Java 应用程序被称为 **WORA(写一次运行在任何地方)**。这意味�
 
 **示例:**WORA 的实际实现使用一个简单的 JAVA 程序来检查一个数字是偶数还是奇数。
 
-```
+```java
 import java.util.Scanner;
 
 class GFG {
@@ -36,14 +36,14 @@ class GFG {
 
 *   **用于编译(在 Windows 10 上完成):**
 
-    ```
+    ```java
     javac GFG.java
 
     ```
 
 *   编译后，相应的文件夹中会有一个类文件，名为:
 
-    ```
+    ```java
     GFG.class
 
     ```

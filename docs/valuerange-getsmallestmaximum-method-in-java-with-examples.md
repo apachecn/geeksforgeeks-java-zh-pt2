@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getSmallestMaximum()
 
 ```
@@ -18,7 +18,7 @@ public long getSmallestMaximum()
 下面的程序说明了 ValueRange.getSmallestMaximum()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getSmallestMaximum() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Smallest Maximum for DAY_OF_MONTH: 28
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.getSmallestMaximum() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 smallest maximum : 99999
 
 ```

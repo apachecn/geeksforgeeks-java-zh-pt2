@@ -6,7 +6,7 @@ Java 中 [SortedSet](https://www.geeksforgeeks.org/sortedset-java-examples/) 的
 
 **语法:**
 
-```
+```java
 boolean add(E element)
 
 Where E is the type of element maintained
@@ -24,7 +24,7 @@ by this Set collection.
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate add() method
 
 import java.io.*;
@@ -54,14 +54,14 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Set, To, Welcome]
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to illustrate add() method
 
 import java.io.*;
@@ -91,7 +91,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 Set: [10, 20, 30, 40, 50, 60]
 
 ```

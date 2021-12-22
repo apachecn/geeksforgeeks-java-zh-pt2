@@ -16,7 +16,7 @@
     2.  将集合转换为流。这是使用 Set.stream()完成的。
     3.  返回/打印流。
 
-    ```
+    ```java
     // Java Program to convert
     // Set to Stream in Java 8
 
@@ -56,7 +56,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set of Integer: [2, 4, 6, 8, 10]
     Stream of Integer: [2, 4, 6, 8, 10]
 
@@ -72,7 +72,7 @@
     4.  使用定义的谓词条件过滤获得的流
     5.  已获得所需的流。返回/打印流。
 
-    ```
+    ```java
     // Java Program to convert
     // Set to Stream in Java 8
 
@@ -130,7 +130,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Set of String: [for, Geeks, GeeksForGeeks, A computer portal]
     Stream from List with items starting with G: 
     [Geeks, GeeksForGeeks]

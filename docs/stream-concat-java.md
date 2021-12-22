@@ -6,7 +6,7 @@ Stream.concat()方法创建一个串联流，其中的元素是第一个流的�
 
 **语法:**
 
-```
+```java
 static <T> Stream<T> concat(Stream<? extends T> stream1, 
                             Stream<? extends T> stream2)
 
@@ -30,7 +30,7 @@ the two input streams
 
 **注意:**stream . concat()方法返回的元素是有序的。例如，以下两行返回相同的结果:
 
-```
+```java
 Stream.concat(Stream.concat(stream1, stream2), stream3);
 Stream.concat(stream1, Stream.concat(stream2, stream3));
 
@@ -38,7 +38,7 @@ Stream.concat(stream1, Stream.concat(stream2, stream3));
 
 但是下面两个的结果是不同的。
 
-```
+```java
 Stream.concat(Stream.concat(stream1, stream2), stream3); 
 Stream.concat(Stream.concat(stream2, stream1), stream3);
 
@@ -47,7 +47,7 @@ Stream.concat(Stream.concat(stream2, stream1), stream3);
 下面是一些例子，可以更好地理解函数的实现。
 **例 1 :**
 
-```
+```java
 // Implementation of Stream.concat()
 // method in Java 8 with 2 Streams
 import java.util.*;
@@ -74,7 +74,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 for
 GeeksQuiz
@@ -84,7 +84,7 @@ GeeksforGeeks
 
 **例 2 :**
 
-```
+```java
 // Implementation of Stream.concat()
 // method in Java 8 with more than
 // two Streams
@@ -116,7 +116,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 GeeksQuiz
 GeeksforGeeks
@@ -126,7 +126,7 @@ GFG
 
 **例 3 :**
 
-```
+```java
 // Implementation of Stream.concat()
 // method in Java 8 with DoubleStream
 import java.util.*;
@@ -153,7 +153,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1520.0
 1620.0
 1720.0
@@ -163,7 +163,7 @@ class GFG {
 
 **例 4 :**
 
-```
+```java
 // Implementation of Stream.concat()
 // method in Java 8 and removing
 // the duplicates
@@ -192,7 +192,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 for
 GeeksforGeeks
@@ -202,7 +202,7 @@ GeeksQuiz
 
 **例 5 :**
 
-```
+```java
 // Implementation of Stream.concat()
 // method in Java 8 with LongStream
 import java.util.*;
@@ -229,7 +229,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1520
 1620
 1720

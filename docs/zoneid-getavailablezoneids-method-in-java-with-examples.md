@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Set getAvailableZoneIds()
 
 ```
@@ -18,7 +18,7 @@ public static Set getAvailableZoneIds()
 下面的程序说明了 getAvailableZoneIds()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getAvailableZoneIds() method
 
@@ -40,14 +40,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First ZoneId in list:Asia/Aden
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getAvailableZoneIds() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId = Africa/Abidjan offset = Z
 ZoneId = Africa/Accra offset = Z
 ZoneId = Africa/Addis_Ababa offset = +03:00

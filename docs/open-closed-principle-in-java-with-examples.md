@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Open Closed Principle
 
 // Class 1
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The total volume is 1338.0
 ```
 
@@ -125,7 +125,7 @@ The total volume is 1338.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Open Closed Principle
 
 // class 1
@@ -259,7 +259,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The total volume is 1840.6548245743668
 ```
 
@@ -278,7 +278,7 @@ The total volume is 1840.6548245743668
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Open Closed Principle
 
 // Importing all classes from java.math package
@@ -427,7 +427,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The total volume is 1840.6548245743668
 ```
 

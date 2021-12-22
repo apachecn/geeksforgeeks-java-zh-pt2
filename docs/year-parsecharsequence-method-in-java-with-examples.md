@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Year parse(CharSequence text)
 
 ```
@@ -23,7 +23,7 @@ public static Year parse(CharSequence text)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.parse(CharSequence text) method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year Parsed:2019
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.parse(CharSequence text) method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year Parsed:2018
 
 ```

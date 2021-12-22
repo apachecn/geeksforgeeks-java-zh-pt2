@@ -34,7 +34,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -83,7 +83,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -134,7 +134,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--We are going to use linearlayout for this application-->
 <LinearLayout 
@@ -170,7 +170,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG | SlidingToggleButton</string>
 </resources>
@@ -182,7 +182,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="green">#0F9D58</color>

@@ -92,7 +92,7 @@ Spring Initializr 受到各种 ide 的支持，如 Spring 工具套件(STS)、In
 
 很多开发人员喜欢从命令行做事情。对于他们来说，有一个选项可以使用命令行实用程序(如 cURL 或 HTTPie)来创建 Spring 项目。要使用 cURL 或 HTTPie，必须在使用前安装它们。
 
-```
+```java
 curl https://start.spring.io
 ```
 
@@ -102,14 +102,14 @@ curl https://start.spring.io
 
 让我们假设您想要使用 web 和开发人员工具依赖项生成一个基于 Spring Boot 1.5.2.RELEASE 的 **demo.zip** 项目(记住，这两个 id 显示在服务的功能中):
 
-```
+```java
 $ curl https://start.spring.io/starter.zip -d dependencies=web,devtools \
            -d bootVersion=1.5.2.RELEASE -o demo.zip.zip
 ```
 
 也可以使用 HTTP 命令生成完全相同的项目:
 
-```
+```java
 $ http https://start.spring.io/starter.zip -d dependencies==web,devtools \
            -d bootVersion==1.5.1.RELEASE -o demo.zip
 ```

@@ -15,13 +15,13 @@
 
 ### 类别声明
 
-```
+```java
 public final class Unit<A> extends Tuple implements IValue0<A> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Unit<A>
@@ -32,7 +32,7 @@ Object
 *   **从构造器**:
     T3】语法 :
 
-```
+```java
 Unit<A> unit = new Unit<A>(value);
 ```
 
@@ -40,7 +40,7 @@ Unit<A> unit = new Unit<A>(value);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from Constructor
 
@@ -60,14 +60,14 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [GeeksforGeeks]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **语法** :
 
-```
+```java
 Unit<type 1> unit = Unit.with(value);
 ```
 
@@ -75,7 +75,7 @@ Unit<type 1> unit = Unit.with(value);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Unit tuple from with() method
 

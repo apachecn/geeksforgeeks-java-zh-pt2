@@ -8,7 +8,7 @@
 
 **类语法:**
 
-```
+```java
 public class TextView
   extends View 
   implements ViewTreeObserver.OnPreDrawListener
@@ -17,7 +17,7 @@ public class TextView
 
 **等级等级:**
 
-```
+```java
 java.lang.Object
   ↳ android.view.View
      ↳ android.widget.TextView
@@ -26,7 +26,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 <SomeLayout>
     .
     .
@@ -47,7 +47,7 @@ java.lang.Object
 
 **示例:**
 
-```
+```java
  <LinearLayout
       xmlns:android="http://schemas.android.com/apk/res/android"
       android:layout_width="match_parent"
@@ -71,7 +71,7 @@ java.lang.Object
 2.  打开“活动”文件，并在该文件中包含一个文本视图。文本视图的代码将是:
 3.  Now in the Java file, link this layout file with the below code:
 
-    ```
+    ```java
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -90,7 +90,7 @@ java.lang.Object
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout
@@ -120,7 +120,7 @@ java.lang.Object
 
 ## MainActivity.java
 
-```
+```java
 package com.project.textview;
 
 import androidx.appcompat.app.AppCompatActivity;

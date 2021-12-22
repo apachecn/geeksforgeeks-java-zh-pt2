@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.clone()
 ```
 
@@ -22,7 +22,7 @@ Stack.clone()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clone()
 
 import java.util.*;
@@ -55,7 +55,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The cloned Stack is: [Welcome, To, Geeks, 4, Geeks]
 
@@ -63,7 +63,7 @@ The cloned Stack is: [Welcome, To, Geeks, 4, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clone()
 
 import java.util.*;
@@ -96,7 +96,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 The cloned Stack is: [10, 15, 30, 20, 5]
 

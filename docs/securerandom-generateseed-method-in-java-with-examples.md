@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte[] generateSeed(int numBytes)
 ```
 
@@ -25,7 +25,7 @@ public byte[] generateSeed(int numBytes)
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // generateSeed() method
 
@@ -58,7 +58,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 [24, -16, -12, 25, -3, 66, -90, 103]
 ```
 
@@ -66,7 +66,7 @@ public class GFG1 {
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate
 // generateSeed() method
 
@@ -100,7 +100,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Trying to get the instance from an unknown source
 Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL SecureRandom not available
 ```

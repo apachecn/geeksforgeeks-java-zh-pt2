@@ -6,7 +6,7 @@ Java 中 **[StringWriter](https://www.geeksforgeeks.org/java-io-stringwriter-cla
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter hashCode() method
 
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value: 589431969
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter hashCode() method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value: 589431969
 
 ```

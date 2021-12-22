@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object o)
 ```
 
@@ -22,7 +22,7 @@ public boolean equals(Object o)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate equals()
 // method of SortedSet
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 First Set: [A, B, C, D, E]
 Second Set: [A, B, C, D, E]
 Are both set equal? true
@@ -86,7 +86,7 @@ Are both set equal? true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // equals() method of Sorted Set
 
@@ -138,7 +138,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 First Set: [10, 20, 30, 40, 50]
 Second Set: [10, 20, 30]
 Are both set equal? false

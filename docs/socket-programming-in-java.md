@@ -10,7 +10,7 @@
 
 要连接到另一台机器，我们需要一个插座连接。套接字连接意味着两台机器拥有关于彼此网络位置(IP 地址)和 TCP 端口的信息。java.net.Socket 类表示一个 Socket。要打开插座:
 
-```
+```java
 Socket socket = new Socket(“127.0.0.1”, 5000)
 ```
 
@@ -30,7 +30,7 @@ Socket socket = new Socket(“127.0.0.1”, 5000)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program for a Client
 import java.net.*;
 import java.io.*;
@@ -120,7 +120,7 @@ getOutputStream()方法用于通过套接字发送输出。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program for a Server
 import java.net.*;
 import java.io.*;
@@ -190,7 +190,7 @@ public class Server
 *   服务器应用程序在一个 5000 的特定端口上建立一个服务器套接字。这将启动我们的服务器，监听来自端口 5000 的客户端请求。
 *   然后服务器创建一个新的套接字与客户端通信。
 
-```
+```java
 socket = server.accept()
 ```
 
@@ -205,7 +205,7 @@ socket = server.accept()
 
 1.首先运行服务器应用程序，
 
-```
+```java
 $ java Server
 ```
 
@@ -214,7 +214,7 @@ $ java Server
 
 2.然后在另一个终端上运行客户端应用程序，
 
-```
+```java
 $ java Client
 ```
 
@@ -223,7 +223,7 @@ $ java Client
 
 3.然后，您可以开始在客户端窗口中键入消息。以下是对客户端的示例输入
 
-```
+```java
 Hello
 I made my first socket connection
 Over
@@ -231,7 +231,7 @@ Over
 
 服务器同时接收和显示，
 
-```
+```java
 Hello
 I made my first socket connection
 Over

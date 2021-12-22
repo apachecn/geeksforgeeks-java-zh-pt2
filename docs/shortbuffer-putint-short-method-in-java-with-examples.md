@@ -6,7 +6,7 @@ Java . nio . short buffer 类的 **put()** 方法用于在给定的索引处将�
 
 **语法**:
 
-```
+```java
 public abstract ShortBuffer put(int index, short s)
 ```
 
@@ -26,7 +26,7 @@ public abstract ShortBuffer put(int index, short s)
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate put() method
 
 import java.nio.*;
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ShortBuffer: [400, 30, 1000]
 
 ```
@@ -91,7 +91,7 @@ Original ShortBuffer: [400, 30, 1000]
 **程序 2** :
 演示 IndexOutOfBoundsException。
 
-```
+```java
 // Java program to demonstrate put() method
 
 import java.nio.*;
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put the value at the negative index
 Exception throws: java.lang.IndexOutOfBoundsException
 
@@ -151,7 +151,7 @@ Exception throws: java.lang.IndexOutOfBoundsException
 
 **程序 3** :演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate put() method
 
 import java.nio.*;
@@ -200,7 +200,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Trying to put the float value in read only buffer
 Exception throws: java.nio.ReadOnlyBufferException
 

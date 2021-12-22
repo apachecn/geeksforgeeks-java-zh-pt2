@@ -8,7 +8,7 @@ java.util.Set.size()方法用于获取集合的大小或集合中存在的元素
 
 **语法:**
 
-```
+```java
 int size()
 
 ```
@@ -19,7 +19,7 @@ int size()
 
 下面的程序说明了 java.util.Set.size()方法:
 
-```
+```java
 // Java code to illustrate Set.size() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Welcome, To]
 The size of the set is: 4
 

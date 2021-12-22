@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**getdayofyeear()**方法获取年月日字段。
 
 **语法:**
 
-```
+```java
 public int getDayOfYear()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfYear()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getDayOfYear() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day in year: 337
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getDayOfYear() method
 import java.time.OffsetDateTime;
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day in year: 366
 
 ```

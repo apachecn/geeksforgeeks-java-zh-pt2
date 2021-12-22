@@ -4,7 +4,7 @@
 
 开放封闭设计原则是软件开发领域最重要的设计原则之一。这是一组 5 个设计原则的一部分，通常被称为首字母缩略词“固体”
 
-```
+```java
 S - Single Responsibility Principle
 O - Open Closed Principle
 L - Liskov Substitution Principle
@@ -29,7 +29,7 @@ D - Dependency Inversion
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Open Closed Design Principle
 // Using Inheritance
 
@@ -210,7 +210,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Baking cake with base as vanilla
 Size is 7 inches and weight is 3.0 kg.
 Adding white cream
@@ -233,7 +233,7 @@ Chocolate cake - 5 inches is ready
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Open Closed Design Principle
 // Using Inheritance
 // Alonside adding Parameter - Flavor to cakes
@@ -432,7 +432,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Baking cake with base as vanilla
 Size is 7 inches and weight is 3.0 kg.
 Adding white cream

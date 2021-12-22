@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeElement(Object obj)
 
 ```
@@ -22,7 +22,7 @@ public boolean removeElement(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Java program to understand
 // about vector.removeElement() function
 
@@ -70,7 +70,7 @@ public class vector_demo {
 
 **Output:**
 
-```
+```java
 Before deleting
 Vector: [1, 2, 3, 4, 5, 6]
 Size: 6
@@ -84,7 +84,7 @@ Size: 5
 
 **例 2:**
 
-```
+```java
 // Java program to understand
 // about vector.removeElement() function
 
@@ -132,7 +132,7 @@ public class vector_demo {
 
 **Output:**
 
-```
+```java
 Before deleting
 Vector: [1, 2, 3, 4, 5, 6]
 Size: 6

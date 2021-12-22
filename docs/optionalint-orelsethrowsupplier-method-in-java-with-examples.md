@@ -6,7 +6,7 @@ optionallint 类的 **orElseThrow(供应商)**方法，用于获取 optionallint
 
 **语法:**
 
-```
+```java
 public <X extends Throwable> int 
     orElseThrow(Supplier<?X> exceptionSupplier)
         throws X extends Throwable
@@ -26,7 +26,7 @@ public <X extends Throwable> int
 下面的程序说明了 orElseThrow(供应商)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseThrow(Supplier) method
 import java.util.OptionalInt;
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseThrow(Supplier) method
 import java.io.IOException;

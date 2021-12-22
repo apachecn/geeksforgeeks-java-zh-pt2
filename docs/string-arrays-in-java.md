@@ -14,7 +14,7 @@
 
 字符串数组可以在程序中声明为无大小或有大小。下面是相同的代码–
 
-```
+```java
 String[] myString0; // without size
 String[] myString1=new String[4]; //with size
 ```
@@ -23,7 +23,7 @@ String[] myString1=new String[4]; //with size
 
 #### 初始化:
 
-```
+```java
 //first method
 String[] arr0=new String[]{"Apple","Banana","Orange"};
 
@@ -45,7 +45,7 @@ arr2[2]="Orange";
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate the various
 // methods to iterate over a string array 
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Apple Banana Orange 
 Apple Banana Orange 
 Apple Banana Orange 
@@ -93,7 +93,7 @@ Apple Banana Orange
 
 ## Java
 
-```
+```java
 // Java program to perform the searching
 // operation on a string array
 
@@ -120,6 +120,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Available at index 1
 ```

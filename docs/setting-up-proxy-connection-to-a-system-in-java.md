@@ -104,7 +104,7 @@ Java 展示了一组可用于设置 JVM 范围行为的系统属性。如果这�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Create a Simple Proxy Server
 
 // Importing input output classes

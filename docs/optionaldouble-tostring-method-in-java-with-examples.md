@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -18,7 +18,7 @@ public String toString()
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.toString() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: OptionalDouble[0.3203]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.toString() method
 import java.util.OptionalDouble;
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: OptionalDouble.empty
 
 ```

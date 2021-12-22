@@ -8,7 +8,7 @@
 
 **申报:**
 
-```
+```java
 public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable
 ```
 
@@ -23,7 +23,7 @@ public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of default PriorityQueue
 import java.util.*;
@@ -58,7 +58,7 @@ class PriorityQueueDemo {
 
 **Output**
 
-```
+```java
 5
 5
 10
@@ -78,7 +78,7 @@ class PriorityQueueDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of PriorityQueue in reverse order
 import java.util.*;
@@ -114,7 +114,7 @@ class PriorityQueueDemo {
 
 **Output**
 
-```
+```java
 20
 20
 15

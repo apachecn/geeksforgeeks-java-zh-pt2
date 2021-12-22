@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.insertElementAt()
 ```
 
@@ -25,7 +25,7 @@ Stack.insertElementAt()
 
 **程序 1:** 将字符串元素添加到堆栈中。
 
-```
+```java
 // Java code to illustrate insertElementAt()
 import java.util.*;
 
@@ -60,7 +60,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The final Stack is [Welcome, To, Hello, Geeks, 4, Geeks, World]
 
@@ -68,7 +68,7 @@ The final Stack is [Welcome, To, Hello, Geeks, 4, Geeks, World]
 
 **程序 2:** 向堆栈中添加整数元素。
 
-```
+```java
 // Java code to illustrate insertElementAt()
 import java.util.*;
 
@@ -103,7 +103,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 The final Stack is [100, 10, 20, 30, 200, 40, 50]
 

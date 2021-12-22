@@ -27,7 +27,7 @@
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to split all
 // non-alphabetical characters
 import java.util.Scanner;
@@ -63,7 +63,7 @@ public class Main {
 
 **Output:**
 
-```
+```java
 Hello 
 how 
 are 

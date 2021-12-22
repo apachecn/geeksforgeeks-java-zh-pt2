@@ -6,7 +6,7 @@ java.util.TreeSet.tailSet()方法用于为一个树集设置一个起始点，�
 
 **语法:**
 
-```
+```java
 *TreeSet* tail_set.tailSet(Object element)
 ```
 
@@ -18,7 +18,7 @@ java.util.TreeSet.tailSet()方法用于为一个树集设置一个起始点，�
 
 **程序 1:** 在排序的树集中。
 
-```
+```java
 // Java code to illustrate TreeSet.tailSet() method
 import java.io.*;
 import java.util.Iterator;
@@ -66,7 +66,7 @@ public class Tree_Set_Demo {
 
 **Output:**
 
-```
+```java
 The resultant values from the tail: 
 10 
 20 
@@ -78,7 +78,7 @@ The resultant values from the tail:
 
 **程序 2:** 在未排序的树集中。
 
-```
+```java
 // Java code to illustrate tailSet()
 import java.io.*;
 import java.util.Iterator;
@@ -126,7 +126,7 @@ public class Tree_Set_Demo {
 
 **Output:**
 
-```
+```java
 The resultant values from the tail: 
 30 
 40 
@@ -137,7 +137,7 @@ The resultant values from the tail:
 
 **程序 3:** 在一个未排序但带有字符串类型元素的树集中。
 
-```
+```java
 // Java code to illustrate tailSet()
 import java.io.*;
 import java.util.Iterator;
@@ -181,7 +181,7 @@ public class Tree_Set_Demo {
 
 **Output:**
 
-```
+```java
 The resultant values from the tail: 
 To 
 TreeSet 

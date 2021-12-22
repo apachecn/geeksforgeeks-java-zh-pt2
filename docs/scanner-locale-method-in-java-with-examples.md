@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Locale locale()
 ```
 
@@ -18,7 +18,7 @@ public Locale locale()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // locale() method of Scanner class in Java
 // without parameter
@@ -46,14 +46,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 en_US
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // locale() method of Scanner class in Java
 // without parameter
@@ -81,7 +81,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 en_US
 
 ```

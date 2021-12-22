@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // hashCode method
 
@@ -49,7 +49,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 HashCode: 548388082
 
@@ -57,7 +57,7 @@ HashCode: 548388082
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method.
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 HashCode: 1545792714
 

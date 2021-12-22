@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean offer(E e)
 ```
 
@@ -24,7 +24,7 @@ boolean offer(E e)
 
 **程序 1:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of Queue
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Queue is not full and 10 is inserted
 The Queue is not full and 15 is inserted
 The Queue is not full and 25 is inserted
@@ -83,7 +83,7 @@ Queue: [10, 15, 25]
 
 **方案二:**在**的配合下**。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of Queue
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Queue is not full and 10 is inserted
 The Queue is not full and 15 is inserted
 The Queue is not full and 25 is inserted
@@ -142,7 +142,7 @@ Queue: [10, 15, 25, 20]
 
 **节目 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of Queue
 
@@ -189,7 +189,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 The Queue is not full and 10 is inserted
 The Queue is not full and 15 is inserted
 The Queue is not full and 25 is inserted

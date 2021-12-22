@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public Number parse?(String str)
     ```
 
@@ -20,7 +20,7 @@
 
     **程序 1** :
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -46,7 +46,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Number parsed: 567
 
     ```
@@ -69,7 +69,7 @@
 
     **程序 1** :
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -96,7 +96,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Number parsed: 67
 
     ```

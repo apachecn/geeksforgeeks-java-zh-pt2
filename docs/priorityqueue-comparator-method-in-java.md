@@ -5,7 +5,7 @@
 Java . util . PriorityQueue . comparator()方法共享一个重要的功能，即设置并返回比较器，该比较器可用于对 [PriorityQueue](https://www.geeksforgeeks.org/priority-queue-class-in-java-2/) 中的元素进行排序。如果队列遵循元素的自然排序模式，则方法返回空值。
 **语法:**
 
-```
+```java
 comp_set = (PriorityQueue)Priority_Queue.comparator()
 ```
 
@@ -16,7 +16,7 @@ comp_set = (PriorityQueue)Priority_Queue.comparator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate comparator()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Priority_Queue_Demo {
 
 **Output:** 
 
-```
+```java
 Priority queue values are: [20, 24, 30, 35, 45, 50]
 Since the Comparator value is: null
 it follows natural ordering
@@ -59,7 +59,7 @@ it follows natural ordering
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the use of comparator()
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -99,7 +99,7 @@ public class Priority_Queue_Demo {
 
 **Output**
 
-```
+```java
 The elements with the highest priority element at front of queueorder:
  S K G E E 4
 ```

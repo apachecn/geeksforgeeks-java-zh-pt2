@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isEmpty()
 ```
 
@@ -18,7 +18,7 @@ public boolean isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // isEmpty method
 
@@ -49,7 +49,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Is Properties empty: false
 
@@ -57,7 +57,7 @@ Is Properties empty: false
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // isEmpty() method.
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {}
 Is Properties empty: true
 

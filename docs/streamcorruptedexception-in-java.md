@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public StreamCorruptedException(String reason)
 ```
 
@@ -16,7 +16,7 @@ public StreamCorruptedException(String reason)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate StreamCorruptedException
 
 // Importing required classes
@@ -78,7 +78,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.StreamCorruptedException: File format not recognised
 ```
 
@@ -88,7 +88,7 @@ java.io.StreamCorruptedException: File format not recognised
 
 > C098.txt
 > 
-> ```
+> ```java
 > ¬í sr Product        L desct Ljava / lang / String;
 > 
 > L priceq ~ L
@@ -104,7 +104,7 @@ java.io.StreamCorruptedException: File format not recognised
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate StreamCorruptedException
 
 // Importing required classes
@@ -158,6 +158,6 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Stream Corrupted Exception Occured
 ```

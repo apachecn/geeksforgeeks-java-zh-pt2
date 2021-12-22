@@ -23,7 +23,7 @@ Java . util . concurrent . executors 提供了用于创建工作线程的[线程
 
 **语法:**
 
-```
+```java
 ExecutorService executor = Executors.newSingleThreadExecutor();
 ```
 
@@ -33,7 +33,7 @@ ExecutorService executor = Executors.newSingleThreadExecutor();
 
 **语法:**
 
-```
+```java
 ExecutorService fixedPool = Executors.newFixedThreadPool(2);
 ```
 
@@ -41,7 +41,7 @@ ExecutorService fixedPool = Executors.newFixedThreadPool(2);
 
 创建一个线程池，该线程池根据需要创建新的线程，但是当以前构建的线程可用时，将重用它们。如果可用，对执行的调用将重用以前构造的线程。如果现有线程不可用，将创建一个新线程并将其添加到池中。它使用一个[同步队列](https://www.geeksforgeeks.org/java-program-to-implement-synchronousqueue-api/)队列。
 
-```
+```java
 ExecutorService executorService = Executors.newCachedThreadPool();
 ```
 
@@ -49,7 +49,7 @@ ExecutorService executorService = Executors.newCachedThreadPool();
 
 预定的执行器基于扩展了[执行器服务接口](https://www.geeksforgeeks.org/java-util-concurrent-executorservice-interface-with-examples/)的接口[调度执行器服务](https://www.geeksforgeeks.org/scheduledexecutorservice-interface-in-java/)。当我们有一个任务需要定期运行，或者我们希望延迟某个任务时，使用这个执行器。
 
-```
+```java
 ScheduledExecutorService scheduledExecService = Executors.newScheduledThreadPool(1);
 ```
 
@@ -59,11 +59,11 @@ ScheduledExecutorService scheduledExecService = Executors.newScheduledThreadPool
 
 **语法:**
 
-```
+```java
 scheduledExecService.scheduleAtFixedRate(Runnable command, long initialDelay, long period, TimeUnit unit)
 ```
 
-```
+```java
 scheduledExecService.scheduleWithFixedDelay(Runnable command, long initialDelay, long period, TimeUnit unit)
 ```
 
@@ -73,7 +73,7 @@ scheduledExecService.scheduleWithFixedDelay(Runnable command, long initialDelay,
 
 **语法:**
 
-```
+```java
 Future<String> result = executorService.submit(callableTask);
 ```
 
@@ -87,7 +87,7 @@ Future<String> result = executorService.submit(callableTask);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrating Introduction to Java Executor
 // Framework
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hiiii GeeksForGeeks
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.hashCode()
 ```
 
@@ -18,7 +18,7 @@ Vector.hashCode()
 
 **程序 1:** 带字符串元素的向量。
 
-```
+```java
 // Java code to illustrate hashCode()
 import java.util.*;
 
@@ -47,7 +47,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The hashCode value is: -878886256
 
@@ -55,7 +55,7 @@ The hashCode value is: -878886256
 
 **程序 2:** 带有整数元素的向量。
 
-```
+```java
 // Java code to illustrate hashCode()
 import java.util.*;
 
@@ -84,7 +84,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 20, 30, 40, 50]
 The hashCode value is: 38490301
 

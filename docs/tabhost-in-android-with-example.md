@@ -55,7 +55,7 @@ TabHost 是一个包含一组选项卡的容器。每个选项卡由活动或[�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Linear layout as the root layout-->
 <LinearLayout
@@ -156,7 +156,7 @@ TabHost 是一个包含一组选项卡的容器。每个选项卡由活动或[�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.widget.TabHost;
 import androidx.appcompat.app.AppCompatActivity;

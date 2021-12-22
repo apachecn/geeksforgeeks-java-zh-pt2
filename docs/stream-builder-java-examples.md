@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Stream.Builder<T> builder()
 
 where, T is the type of elements.
@@ -17,7 +17,7 @@ where, T is the type of elements.
 
 **例 1 :**
 
-```
+```java
 // Java code for Stream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -41,14 +41,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Java code for Stream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -76,7 +76,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 for
 Geeks
@@ -86,7 +86,7 @@ GeeksQuiz
 
 **例 3 :**
 
-```
+```java
 // Java code for Stream builder()
 import java.util.*;
 import java.util.stream.Stream;
@@ -120,7 +120,7 @@ class GFG {
 
 输出:
 
-```
+```java
 [geeks, for, geeks, geeksquiz]
 
 ```

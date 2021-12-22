@@ -43,7 +43,7 @@
 
 *   **index.html**T3
 
-    ```
+    ```java
     <html>
     <head>
     <body>
@@ -58,7 +58,7 @@
     T4】
 *   **First.java**T3
 
-    ```
+    ```java
     // The first servlet
     import java.io.*;
     import javax.servlet.*;
@@ -101,7 +101,7 @@
     T4】
 *   **Second.java**T3
 
-    ```
+    ```java
     // The second servlet
     import java.io.*;
     import javax.servlet.*;
@@ -139,7 +139,7 @@
     T4】
 *   **web.xml**
 
-    ```
+    ```java
     <web-app>  
 
     <servlet>  

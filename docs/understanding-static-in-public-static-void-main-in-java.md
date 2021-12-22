@@ -11,7 +11,7 @@
 *   [Static 是一个关键词](https://www.geeksforgeeks.org/static-keyword-java/)。在任何实体之前添加静态的作用是使该实体成为类实体。这意味着在方法和变量之前添加静态使它们分别成为类方法和类变量，而不是实例方法和实例变量。
     因此，静态方法和变量可以在类的帮助下直接访问，这意味着不需要创建对象来访问静态方法或变量。
 
-```
+```java
 // Making a function as static
 static void func()
 {}
@@ -23,7 +23,7 @@ static int var;
 
 *   [**静态方法:**](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/) 用 Static 关键字声明一个方法时，称为静态方法。如上所述，任何静态成员都可以在创建其类的任何对象之前被访问，并且不引用任何对象。
 
-```
+```java
 // Making a static function
 class GfG
 {
@@ -38,7 +38,7 @@ GfG.func();
 
 *   **Static main()方法:**在 main()方法的函数定义中加入 Static 关键字时，则称为 Static main()方法。
 
-```
+```java
 class GfG
 {
     // Making a static main function
@@ -54,7 +54,7 @@ class GfG
 *   该方法是静态的，因为否则会有**模糊不清**应该调用哪个构造函数。
     举例，如果班级长这样:
 
-```
+```java
 public class GfG{
   protected GfG(int g){}
   public void main(String[] args){
@@ -71,7 +71,7 @@ public class GfG{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;

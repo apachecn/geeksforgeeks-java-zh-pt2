@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ZoneOffset
   ofTotalSeconds(int totalSeconds)
 
@@ -22,7 +22,7 @@ public static ZoneOffset
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ofTotalSeconds() method
 
 import java.time.*;
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +01:23:20
 
 ```
 
 **示例 2:** 演示日期时间异常
 
-```
+```java
 // Java code to illustrate ofTotalSeconds() method
 
 import java.time.*;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException:
  Zone offset not in valid range:
  -18:00 to +18:00

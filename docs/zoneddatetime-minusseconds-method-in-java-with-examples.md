@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusSeconds(long seconds)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime minusSeconds(long seconds)
 下面的程序说明了负秒()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusSeconds() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusSeconds() method
 

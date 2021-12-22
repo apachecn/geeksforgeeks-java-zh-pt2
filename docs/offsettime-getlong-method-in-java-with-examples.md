@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **getLong()** 方法从此时开始将参数中指定
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField field)
 ```
 
@@ -23,7 +23,7 @@ public long getLong(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the getLong() method
 
 import java.time.OffsetTime;
@@ -42,7 +42,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Gets the long time: 11
 ```
 
@@ -50,7 +50,7 @@ Gets the long time: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the getLong() method
 // Exceptions
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Gets the long time: 11
 ```
 

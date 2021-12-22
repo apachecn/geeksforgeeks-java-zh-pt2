@@ -18,7 +18,7 @@
 
 ****语法:****
 
-```
+```java
 double applyAsDouble(T value)
 ```
 
@@ -30,7 +30,7 @@ double applyAsDouble(T value)
 
 ****程序****
 
-```
+```java
 import java.util.function.ToDoubleFunction;
 
 public class Main {
@@ -46,7 +46,7 @@ public class Main {
 
 ****输出:**
 
-```
+```java
 1.0
 
 ```**

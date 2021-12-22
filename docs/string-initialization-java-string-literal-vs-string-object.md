@@ -20,7 +20,7 @@
 
 下面是比较它们性能的 Java 程序。
 
-```
+```java
 // Java program to compare performance 
 // of string literal and string object
 
@@ -65,7 +65,7 @@ class ComparePerformance {
 
 **输出:**
 
-```
+```java
 Time taken to execute string literal = 0
 Time taken to execute string object = 2
 

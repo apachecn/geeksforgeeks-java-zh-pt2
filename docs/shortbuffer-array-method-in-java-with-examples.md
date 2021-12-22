@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```java
 public final short[] array()
 ```
 
@@ -26,7 +26,7 @@ public final short[] array()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -75,14 +75,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer: [856, 0, 9, 0, 0, 0, 0, 0, 0, 0]
 
 ```
 
 **程序 2** :显示 ReadOnlyBufferException
 
-```
+```java
 // Java program to demonstrate
 // array() method
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb: [96, 0, 7, 41, 0, 0, 0, 0, 0, 0]
 
 ShortBuffer sb1: [0, 445, 64, 0, 0]

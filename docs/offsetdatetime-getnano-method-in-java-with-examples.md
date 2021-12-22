@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getNano()** 方法得到了 nano-of-second 字�
 
 **语法:**
 
-```
+```java
 public int getNano()
 
 ```
@@ -19,7 +19,7 @@ public int getNano()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getNano() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 nano-second: 0
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getMonthValue() method
 
 import java.time.OffsetDateTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 nano-second: 0
 
 ```

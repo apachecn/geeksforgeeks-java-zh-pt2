@@ -43,7 +43,7 @@ Servlets 是一种用于服务器端编程的 Java 技术，通常用于创建 w
 
 ## 超文本标记语言
 
-```
+```java
 <!DOCTYPE html>
 <html>
 
@@ -81,7 +81,7 @@ Enter no. of people: <input type="text" name="people">
 
 创建一个新的类并扩展 HttpServlet 类，使您的 java 类成为一个 Servlet。在 servlet 文件的情况下，响应和请求对象包含在 Servlet 类中。 *req* 对象用于从客户端获取数据，而 *res* 对象用于向客户端发送响应。这两个函数[解析](https://www.geeksforgeeks.org/string-to-integer-in-java-parseint/)和[获取参数](https://www.geeksforgeeks.org/getparameter-passing-data-from-client-to-jsp/)将帮助从 HTML 表单中获取输入，并从中获取整数值，然后执行计算，您将看到 [PrintWriter](https://www.geeksforgeeks.org/printwriter-printlnstring-method-in-java-with-examples/) 对象打印输出值。
 
-```
+```java
 ***parseInt*** is used to convert string to integer.
 ***getParameter*** is used to get the user input in string form.
 ***PrintWriter*** is used to fetch output to the output window and not the console.
@@ -89,7 +89,7 @@ Enter no. of people: <input type="text" name="people">
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package servlet;
 
 import java.io.IOException;
@@ -120,7 +120,7 @@ public void service(HttpServletRequest req, HttpServletResponse res) throws IOEx
 
 每当您创建一个新的动态 web 项目时，您都会在项目文件夹中获得一个名为 *web.xml* 的文件，这是将 servlet 和 HTML 文件映射在一起的最重要的文件。web.xml 文件使用两个标签*<servlet>&<Servlet-映射>* 将 Servlet 和 HTML 文件映射在一起。
 
-```
+```java
 ***<servlet-name>***is used to assign a universal name to the servlet.
 ***<servlet-class>*** is used to assign the java class to be executed when servlet is called.
 ***<url-pattern>*** is used to define the url pattern which when found will call the java class 
@@ -129,7 +129,7 @@ defined in ***<servlet-class>***
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://xmlns.jcp.org/xml/ns/javaee"

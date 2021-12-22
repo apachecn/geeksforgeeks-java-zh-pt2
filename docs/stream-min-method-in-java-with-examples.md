@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Optional<T> min(Comparator<? super T> comparator)
 
 Where, Optional is a container object which
@@ -20,7 +20,7 @@ that may be compared by this comparator
 
 **示例 1 :** 整数列表中的最小值。
 
-```
+```java
 // Java code for Stream.min() method to get
 // the minimum element of the Stream
 // according to the provided Comparator.
@@ -46,14 +46,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -18
 
 ```
 
 **例 2 :** 使用 min()函数反向比较器获取最大值。
 
-```
+```java
 // Java code for Stream.min() method
 // to get the minimum element of the 
 // Stream according to provided comparator.
@@ -88,14 +88,14 @@ class GFG {
 
 输出:
 
-```
+```java
 25
 
 ```
 
 **示例 3 :** 基于最后一个字符比较字符串。
 
-```
+```java
 // Java code for Stream.min() method
 // to get the minimum element of the 
 // Stream according to provided comparator.
@@ -130,7 +130,7 @@ class GFG {
 
 输出:
 
-```
+```java
 for
 
 ```

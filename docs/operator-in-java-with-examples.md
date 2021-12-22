@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 Condition1 && Condition2
 
 // returns true if both the conditions are true.
@@ -21,7 +21,7 @@ Condition1 && Condition2
 
 **示例:**
 
-```
+```java
 // Java program to illustrate
 // logical AND operator
 
@@ -55,7 +55,7 @@ public class operators {
 
 **Output:**
 
-```
+```java
 30 is the largest number.
 
 ```

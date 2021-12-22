@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public static double acos(*double num*)
 ```
 
@@ -17,7 +17,7 @@ public static double acos(*double num*)
 
 **示例:**
 
-```
+```java
 Input: num = 0.45 
 Output: 1.1040309877476002
 
@@ -29,7 +29,7 @@ Output: NAN
 下面的程序说明了 java.lang.StrictMath.acos()方法:
 **程序 1:** 为正数
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.acos()
 import java.lang.*;
@@ -55,7 +55,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The arc cosine value of 0.65 = 0.863211890069541
 arc cosine value of 6.3 = NaN
 
@@ -63,7 +63,7 @@ arc cosine value of 6.3 = NaN
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.acos()
 import java.lang.*;
@@ -89,7 +89,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The arc cosine value of -0.65 = 2.278380763520252
 arc cosine value of -6.3 = NaN
 

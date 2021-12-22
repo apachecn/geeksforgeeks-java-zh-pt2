@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getBeginIndex()
 
 ```
@@ -19,7 +19,7 @@ public int getBeginIndex()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -44,7 +44,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current BeginIndex: 0
 
 ```

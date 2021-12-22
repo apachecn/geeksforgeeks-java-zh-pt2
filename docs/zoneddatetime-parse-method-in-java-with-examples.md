@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime parse(CharSequence text)
 
 ```
@@ -25,7 +25,7 @@ public static ZonedDateTime parse(CharSequence text)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.parse() method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2018-12-26T20:28:33.213+05:30[Asia/Calcutta]
 
 ```
@@ -61,7 +61,7 @@ ZonedDateTime : 2018-12-26T20:28:33.213+05:30[Asia/Calcutta]
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime parse(CharSequence text,
                                   DateTimeFormatter formatter)
 
@@ -77,7 +77,7 @@ public static ZonedDateTime parse(CharSequence text,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.parse() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2018-12-16T20:28:33.213+05:30[Asia/Calcutta]
 
 ```

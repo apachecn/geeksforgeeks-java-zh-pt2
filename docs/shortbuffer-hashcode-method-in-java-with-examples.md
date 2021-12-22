@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```java
 public int hashCode()
 ```
 
@@ -20,7 +20,7 @@ public int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 import java.nio.*;
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hashcode for this Short ShortObj1 = 150
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 import java.nio.*;
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hashcode for this Short ShortObj1 = 6010
 
 ```

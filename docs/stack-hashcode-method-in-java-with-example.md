@@ -8,7 +8,7 @@ Java 中的**Java . util . Stack . hashCode()**方法用来获取这个 Stack �
 
 **语法:**
 
-```
+```java
 Stack.hashCode()
 ```
 
@@ -20,7 +20,7 @@ Stack.hashCode()
 
 **程序 1:** 用字符串元素堆叠。
 
-```
+```java
 // Java code to illustrate hashCode()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The hashCode value is: -878886256
 
@@ -57,7 +57,7 @@ The hashCode value is: -878886256
 
 **程序 2:** 用整数元素堆叠。
 
-```
+```java
 // Java code to illustrate hashCode()
 import java.util.*;
 
@@ -86,7 +86,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 The hashCode value is: 38490301
 

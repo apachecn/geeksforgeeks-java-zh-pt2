@@ -11,14 +11,14 @@
 为了使一个 Java 对象可序列化，我们实现了 **java.io.Serializable** 接口。
 ObjectOutputStream 类包含用于序列化对象的 **writeObject()** 方法。
 
-```
+```java
 public final void writeObject(Object obj)
                        throws IOException
 ```
 
 ObjectInputStream 类包含用于反序列化对象的 **readObject()** 方法。
 
-```
+```java
 public final Object readObject()
                   throws IOException,
                ClassNotFoundException
@@ -42,7 +42,7 @@ Serializable 是一个**标记接口**(没有数据成员和方法)。它用于�
 5。关联的对象必须实现可序列化接口。
 示例:
 
-```
+```java
 class A implements Serializable{
 
 // B also implements Serializable
@@ -71,7 +71,7 @@ serial alvar[-class path][-show][class name ...]
 
 **例 1:**
 
-```
+```java
 // Java code for serialization and deserialization 
 // of a Java object
 import java.io.*;
@@ -155,7 +155,7 @@ class Test
 
 输出:
 
-```
+```java
 Object has been serialized
 Object has been deserialized 
 a = 1
@@ -164,7 +164,7 @@ b = geeksforgeeks
 
 **例 2:**
 
-```
+```java
 // Java code for serialization and deserialization 
 // of a Java object
 import java.io.*;
@@ -267,7 +267,7 @@ public static void main(String[] args)
 
 输出:
 
-```
+```java
 Object has been serialized
 Data before Deserialization.
 name = ab

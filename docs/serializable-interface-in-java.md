@@ -6,7 +6,7 @@
 
 **申报**
 
-```
+```java
 public interface Serializable
 
 ```
@@ -17,7 +17,7 @@ public interface Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate a class
 // implementing Serializable interface
 
@@ -36,7 +36,7 @@ public static class Student implements Serializable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Serializable interface
 import java.io.*;
 
@@ -85,7 +85,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 20 GeeksForGeeks
 
 ```

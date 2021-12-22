@@ -14,7 +14,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 ## 可扩展标记语言
 
-```
+```java
 <bean id="state" class="sample.State">
  <property name="name" value="UP" />
 </bean>
@@ -27,7 +27,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 ## XML
 
-```
+```java
 <bean id="state" class="sample.State">
  <property name="name" value="UP" />
 </bean>
@@ -40,7 +40,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 ## XML
 
-```
+```java
 <bean id="state" class="sample.State">
  <property name="name" value="UP" />
 </bean>
@@ -53,7 +53,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 ## XML
 
-```
+```java
 <bean id="state" class="sample.State">
  <property name="name" value="UP" />
 </bean>
@@ -66,7 +66,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 ## XML
 
-```
+```java
 <bean id="state" class="sample.State">
  <property name="name" value="UP" />
 </bean>
@@ -79,7 +79,7 @@ Spring 是 Java 的开源应用程序开发框架，允许您使用普通的旧 
 
 T7】爪哇 T9
 
-```
+```java
 public class State {
     private String name;
     public String getName() { return name; }
@@ -93,7 +93,7 @@ T10T12】
 
 T7】爪哇 T9
 
-```
+```java
 class City {
     private int id;
     private String name;
@@ -122,7 +122,7 @@ T10T12】
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -142,7 +142,7 @@ T10T12】
 
 ## 爪哇
 
-```
+```java
 @SpringBootApplication
 public class DemoApplication {
     public static void main(String[] args)
@@ -162,7 +162,7 @@ public class DemoApplication {
 
 **输出:**
 
-```
+```java
 City ID : 01
 City Name : Varanasi
 State : UP

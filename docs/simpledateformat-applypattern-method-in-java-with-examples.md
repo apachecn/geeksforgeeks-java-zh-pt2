@@ -5,7 +5,7 @@
 **简单日期格式类**的**应用模式()**方法用于将给定的已定义模式设置为日期格式。它只是将特定的日期和时间转换为用户定义的特定格式，例如，dd/ MM/ yyyy HH:mm Z 或 MM/ dd/ yyyy HH:mm Z.
 **语法:**
 
-```
+```java
 public void applyPattern(String *pattern*)
 ```
 
@@ -16,7 +16,7 @@ public void applyPattern(String *pattern*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // applyPattern() method
 
@@ -56,7 +56,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Date: 29/ 01/ 2019 07:22 +0000
 Applied Pattern: dd/ MM/ yyyy HH:mm Z
 ```
@@ -65,7 +65,7 @@ Applied Pattern: dd/ MM/ yyyy HH:mm Z
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // applyPattern() method
 
@@ -104,7 +104,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Current Date: 01/ 29/ 2019 07:22 +0000
 Applied Pattern: MM/ dd/ yyyy HH:mm Z
 ```

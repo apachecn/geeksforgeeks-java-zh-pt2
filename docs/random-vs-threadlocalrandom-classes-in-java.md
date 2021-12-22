@@ -8,7 +8,7 @@ java.util 包的 Random Class 用于生成伪随机数流。它使用 48 位种�
 
 **语法:**
 
-```
+```java
 public class Random extends Object implements Serializable
 ```
 
@@ -16,7 +16,7 @@ public class Random extends Object implements Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Random class
 
 // Importing Random class from java.util utility package
@@ -65,7 +65,7 @@ public class RandomNumbers extends Random {
 
 **Output**
 
-```
+```java
 -1148559096
 -1148559096
 -1167027043
@@ -77,7 +77,7 @@ java.util 包中的线程本地随机类也用于生成伪随机数流。它是�
 
 **语法:**
 
-```
+```java
 public class ThreadLocalRandom extends Random 
 ```
 
@@ -87,7 +87,7 @@ public class ThreadLocalRandom extends Random
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate ThreadLocalRandom class
 
 // Importing ThreadLocalRandom class from utility package
@@ -154,7 +154,7 @@ class ThreadLocalRandomNumbers extends Thread {
 
 **输出**
 
-```
+```java
 Thread 12 generated 7
 Thread 11 generated 0
 ```

@@ -20,7 +20,7 @@ Java 在 *java.util.concurrent* 包中提供**信号量**类来实现这个机�
 
 **Semaphore 类中的构造函数:**Semaphore 类中有两个构造函数。
 
-```
+```java
 Semaphore(int num)
 Semaphore(int num, boolean how)
 
@@ -32,7 +32,7 @@ Semaphore(int num, boolean how)
 
 我们可以使用信号量来锁定对资源的访问，每个想要使用该资源的线程在访问资源之前必须首先调用 *acquire( )* 来获取锁。当线程使用完资源后，它必须调用 *release( )* 来释放锁。这里有一个例子可以证明这一点:
 
-```
+```java
 // java program to demonstrate 
 // use of semaphores Locks
 import java.util.concurrent.*;
@@ -160,7 +160,7 @@ public class SemaphoreDemo 
 
 输出:
 
-```
+```java
 Starting A
 Starting B
 A is waiting for a permit.

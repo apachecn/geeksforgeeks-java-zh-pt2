@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -37,7 +37,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 20
 21
@@ -53,7 +53,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 public static  boolean replaceAll(List list, T oldVal, T newVal)
 ```
 
@@ -69,7 +69,7 @@ public static  boolean replaceAll(List list, T oldVal, T newVal)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Replacing All Occurrences of Specified
 // Element of ArrayList
 
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 20
 200
@@ -119,7 +119,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // replaceAll() method for Integer value
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial values are :[?, For, ?]
 Value after replace :[Geeks, For, Geeks]
 ```

@@ -10,7 +10,7 @@ Java [收集框架](https://www.geeksforgeeks.org/collections-in-java-2/)提供�
 
 **申报:**
 
-```
+```java
 public class Stack<E> extends Vector<E>
 ```
 
@@ -35,7 +35,7 @@ public class Stack<E> extends Vector<E>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code for stack implementation
 
 import java.io.*;
@@ -98,7 +98,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Pop Operation:
 4
 3
@@ -116,7 +116,7 @@ Element not found
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add the
 // elements in the stack
 import java.io.*;
@@ -153,7 +153,7 @@ class StackDemo {
 
 **输出:**
 
-```
+```java
 [4, All, Geeks]
 [Geeks, For, Geeks]
 ```
@@ -162,7 +162,7 @@ class StackDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the accessing
 // of the elements from the stack
 import java.util.*;
@@ -198,7 +198,7 @@ public class StackDemo {
 
 **输出:**
 
-```
+```java
 Initial Stack: [Welcome, To, Geeks, For, Geeks]
 The element at the top of the stack is: Geeks
 Final Stack: [Welcome, To, Geeks, For, Geeks]
@@ -208,7 +208,7 @@ Final Stack: [Welcome, To, Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the removing
 // of the elements from the stack
 import java.util.*;
@@ -245,7 +245,7 @@ public class StackDemo {
 
 **输出:**
 
-```
+```java
 Initial Stack: [10, 15, 30, 20, 5]
 Popped element: 5
 Popped element: 20
@@ -344,7 +344,7 @@ Stack after pop operation [10, 15, 30]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // A Java Program to show implementation
 // of Stack using ArrayDeque
 
@@ -363,7 +363,7 @@ class GFG {
 
 ****输出:****
 
-```
+```java
 B
 B
 ```

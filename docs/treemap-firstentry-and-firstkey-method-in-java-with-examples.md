@@ -10,7 +10,7 @@ Java.util.TreeMap 中有两个 first()的**和**变体，本文将讨论这两�
 
 **语法:**
 
-```
+```java
 public Map.Entry firstEntry()
 ```
 
@@ -20,7 +20,7 @@ public Map.Entry firstEntry()
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate Working of firstKey() Method
 // of TreeMap class
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Lowest entry is: 1=one
 ```
 
@@ -69,7 +69,7 @@ Lowest entry is: 1=one
 
 **语法:**
 
-```
+```java
 public K firstKey()
 ```
 
@@ -81,7 +81,7 @@ public K firstKey()
 
 ## 爪哇
 
-```
+```java
 // Java Program to Demonstrate firstKey() Method
 // of TreeMap class
 
@@ -120,7 +120,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Lowest key is: 1
 ```
 
@@ -130,7 +130,7 @@ Lowest key is: 1
 
 T4】爪哇 T6
 
-```
+```java
 // Java Program to Demonstrate Application Usage
 // of firstKey() and firstEntry() Methods
 // of TreeMap class
@@ -172,7 +172,7 @@ T7
 
 **输出:**
 
-```
+```java
 Winner with lowest time is : 1.3=Shambhavi
 ```
 

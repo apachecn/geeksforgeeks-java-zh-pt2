@@ -40,7 +40,7 @@ int even = number.stream().filter(x->x%2==0).reduce(0,(ans,i)-> ans+i);`
 
 **演示流使用的程序**
 
-```
+```java
 //a simple program to demonstrate the use of stream in java
 import java.util.*;
 import java.util.stream.*;
@@ -94,7 +94,7 @@ class Demo
 
 输出:
 
-```
+```java
 [4, 9, 16, 25]
 [Stream]
 [Collection, Reflection, Stream]

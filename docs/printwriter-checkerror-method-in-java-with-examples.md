@@ -6,7 +6,7 @@ Java 中类的 **checkError()** 方法用于检查这个 PrintWriter 实例的�
 
 **语法:**
 
-```
+```java
 public boolean checkError()
 ```
 
@@ -18,7 +18,7 @@ public boolean checkError()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter checkError() method
 
@@ -56,7 +56,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 Has any error occurred: false
 
@@ -64,7 +64,7 @@ Has any error occurred: false
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter checkError() method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A
 Has any error occurred: false
 

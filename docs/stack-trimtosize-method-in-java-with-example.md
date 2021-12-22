@@ -8,7 +8,7 @@ Java 中**栈**的 **trimToSize()** 方法将栈实例的容量修剪为列表�
 
 **语法:**
 
-```
+```java
 public void trimToSize()
 ```
 
@@ -18,7 +18,7 @@ public void trimToSize()
 
 下面的程序说明了 trimToSize()方法:
 
-```
+```java
 // Java code to demonstrate the working of
 // trimToSize() method in Stack
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40]
 Current capacity of Stack: 10
 New capacity of Stack: 20
@@ -76,7 +76,7 @@ Current capacity of Stack after use of trimToSize() method: 4
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // Stack toString() method
 
@@ -124,7 +124,7 @@ public class collection {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, For, Geeks]
 Current capacity of Stack: 10
 New capacity of Stack: 20

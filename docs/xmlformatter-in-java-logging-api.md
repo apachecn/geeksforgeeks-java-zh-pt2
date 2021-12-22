@@ -4,7 +4,7 @@
 
 在软件开发周期中，记录正在完成的一组动作总是好的。记录动作被称为记录。使用***Java . util . logging***包登录 Java(默认)记录数据。此外，我们还有第三方框架，如 Log4j、Logback 和 tinylog 等。，根据要求，选择日志框架的首选项有所不同。在 Java 中， ***java.util*** 包具有日志记录实用程序，日志记录非常需要以下导入:
 
-```
+```java
 import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 
 **getLevel()–**可以是信息/警告等。，(消息的日志级别)
 
-```
+```java
 All     - 1
 FINEST  - 2
 FINER   - 3
@@ -35,7 +35,7 @@ OFF     - 9
 
 **getMessage()–**在这里，它将显示 XMLFormatterTest，我们给出的示例如下
 
-```
+```java
 LogRecord logRecordInformation = new LogRecord(Level.INFO, "XMLFormatterTest");
 ```
 
@@ -62,7 +62,7 @@ get sequence number()–0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrating XML Formatter Logging API
 
 // Importing required libraries
@@ -172,7 +172,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrating XML Formatter Logging API
 
 // Importing required libraries

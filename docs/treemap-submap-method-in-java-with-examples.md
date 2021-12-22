@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Map.subMap(*K startKey, K endKey*)
 ```
 
@@ -29,7 +29,7 @@ Tree_Map.subMap(*K startKey, K endKey*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the subMap() method
 // of TreeMap class
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The original map is: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The subMap is {15=4, 20=Geeks, 25=Welcomes}
 ```
@@ -79,7 +79,7 @@ The subMap is {15=4, 20=Geeks, 25=Welcomes}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the subMap() method
 
 // Importing required classes
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 The original map is: {4=15, Geeks=20, Welcomes=25, You=30}
 The subMap is {}
 ```

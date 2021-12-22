@@ -4,7 +4,7 @@
 
 在 Java 中，[树地图类](https://www.geeksforgeeks.org/treemap-in-java/)的*值()方法*存在于 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/)中，该包用于从地图的值中创建集合。它基本上返回树图中值的集合视图。
 
-```
+```java
 --> java.util package
     --> TreeMap class
         --> values() Method  
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Map.values()
 ```
 
@@ -27,7 +27,7 @@ Tree_Map.values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate values() Method
 // of TreeMap class
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The collection is: [Geeks, 4, Geeks, Welcomes, You]
 ```
@@ -76,7 +76,7 @@ The collection is: [Geeks, 4, Geeks, Welcomes, You]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate values() method
 // of TreeMap class
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The collection is: [15, 20, 25, 30]
 ```

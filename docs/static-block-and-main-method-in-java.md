@@ -6,7 +6,7 @@
 
 下面的例子很好地说明了这一点:
 
-```
+```java
 // Java program to demonstrate that static 
 // block is executed before main()
 
@@ -32,7 +32,7 @@ class staticExample {
 **回答:**没有，因为 JDK 1.7 没有 main()方法是不可能执行任何 java 类的。但这是 JDK 1.6 之前的方法之一。
 示例:
 
-```
+```java
 // The below code would not work in JDK 1.7
 class staticExample {
 
@@ -47,7 +47,7 @@ class staticExample {
 
 产出:(JDK 1.6)
 
-```
+```java
 Inside Static Block.
 
 ```
@@ -56,7 +56,7 @@ Inside Static Block.
 
 输出:
 
-```
+```java
 Error: Main method not found in class staticExample, please define the main method as:
        public static void main(String args[])
        or a JavaFX application class must extend javafx.application.Application

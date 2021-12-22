@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal adjustInto(Temporal temporal)
 
 ```
@@ -23,7 +23,7 @@ public Temporal adjustInto(Temporal temporal)
 以下程序说明了 adjustInto()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.adjustInto() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate :2007-12-03
 LocalDate after applying adjustInto method: 2019-12-03
 
@@ -65,7 +65,7 @@ LocalDate after applying adjustInto method: 2019-12-03
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.adjustInto() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate :2017-01-13
 LocalDate after applying adjustInto method: 2032-01-13
 

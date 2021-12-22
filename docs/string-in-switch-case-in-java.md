@@ -8,7 +8,7 @@
 
 **插图:**
 
-```
+```java
 String geeks = "GeeksforGeeks" ; // Valid from JDK7 and onwards 
 Object geeks = "GeeksforGeeks" ; // Invalid from JDK7 and onwards 
 ```
@@ -27,7 +27,7 @@ Object geeks = "GeeksforGeeks" ; // Invalid from JDK7 and onwards
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate use of String to
 // Control a Switch Statement
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 two
 ```
 
@@ -89,7 +89,7 @@ two
 
 ## Java
 
-```
+```java
 // Java Program to Demonstrate use of String to
 // Control a Switch Statement
 
@@ -144,7 +144,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 no match
 ```
 

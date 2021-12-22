@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean contains(Object element)
 ```
 
@@ -16,7 +16,7 @@ boolean contains(Object element)
 
 下面程序举例说明了
 
-```
+```java
 // Java code to illustrate Set.contains() method
 import java.io.*;
 import java.util.*;
@@ -54,7 +54,7 @@ public class HashSetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Welcome, To]
 Does the Set contains 'Geeks'? true
 Does the Set contains '4'? true

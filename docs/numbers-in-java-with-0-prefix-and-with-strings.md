@@ -4,7 +4,7 @@
 
 考虑下面的 Java 程序。
 
-```
+```java
 import java.io.*;
 class GFG
 {
@@ -18,7 +18,7 @@ class GFG
 
 输出:
 
-```
+```java
 10
 ```
 
@@ -26,7 +26,7 @@ class GFG
 
 还有，
 
-```
+```java
 import java.io.*;
 class GFG
 {
@@ -40,7 +40,7 @@ class GFG
 
 输出:
 
-```
+```java
 5hello64
 ```
 

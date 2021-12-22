@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusHours(long hours)
 
 ```
@@ -28,7 +28,7 @@ public ZonedDateTime minusHours(long hours)
 下面的程序说明了 minusHours()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusHours() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusHours() method
 

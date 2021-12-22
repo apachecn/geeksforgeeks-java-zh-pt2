@@ -6,13 +6,13 @@ getQuery()函数是 URI 类的一部分。函数 getQuery()返回指定 URI 的�
 
 **功能签名**
 
-```
+```java
 public String getQuery()
 ```
 
 **语法**
 
-```
+```java
 uri.getQuery()
 ```
 
@@ -24,7 +24,7 @@ uri.getQuery()
 
 **示例 1:** 给定一个 URI，我们将使用 getQuery()函数获得查询。
 
-```
+```java
 // Java program to show the use of the function getQuery()
 
 import java.net.*;
@@ -59,7 +59,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples?title=protocol
  Query= title=protocol
 
@@ -67,7 +67,7 @@ URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples
 
 **例 2:** 现在我们不提供任何查询，使用函数获取查询并查看结果。
 
-```
+```java
 // Java program to show the use of the function getQuery()
 import java.net.*;
 class Solution {
@@ -100,7 +100,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples
  Query=null
 
@@ -109,7 +109,7 @@ URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples
 **示例 3:**getQuery()和 getRawQuery()返回的值是相同的，只是转义八位字节的所有序列都被解码。
 getRawPath()返回用户提供的字符串的精确值，但是 getQuery()函数解码转义八位字节序列(如果有)。
 
-```
+```java
 // Java program to show the use of the function getQuery()
 import java.net.*;
 class Solution {
@@ -148,7 +148,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples?title=protocol%E2%82%AC
  Query=title=protocol?
  Raw Query=title=protocol%E2%82%AC

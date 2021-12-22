@@ -16,7 +16,7 @@ Java 中 **[Writer](https://www.geeksforgeeks.org/java-io-writer-class-java/)** 
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Writer toString() method
 
@@ -52,14 +52,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String representation: java.io.PrintWriter@232204a1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Writer toString() method
 
@@ -95,7 +95,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String representation: java.io.PrintWriter@232204a1
 
 ```

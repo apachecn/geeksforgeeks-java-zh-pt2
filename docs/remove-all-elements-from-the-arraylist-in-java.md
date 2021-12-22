@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```java
 Input: ArrayList = [1, 2, 3, 4] 
 Output: ArrayList = [] 
 
@@ -21,13 +21,13 @@ Output: ArrayList = []
 
     **语法:**
 
-    ```
+    ```java
     collection_name.clear();
     ```
 
     **清除()方法代码:**
 
-    ```
+    ```java
     public void clear() {
         for (int i = 0; i < size; i++)
             list[i] = null;
@@ -39,7 +39,7 @@ Output: ArrayList = []
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program for remove all elements ArrayList
     // Using clear() method
 
@@ -83,7 +83,7 @@ Output: ArrayList = []
 
     **Output:**
 
-    ```
+    ```java
     ArrayList: [Geeks, for, Geeks, Gaurav]
     Size of ArrayList = 4
 
@@ -100,13 +100,13 @@ Output: ArrayList = []
 
     **语法:**
 
-    ```
+    ```java
     collection_name.removeAll(collection_name);
     ```
 
     **remove all()方法代码:**
 
-    ```
+    ```java
     public boolean removeAll(Collection list) {
         boolean isModi = false;
         Iterator ite= iterator();
@@ -123,7 +123,7 @@ Output: ArrayList = []
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java Program for remove all elements ArrayList
     // Using removeAll() method
 
@@ -167,7 +167,7 @@ Output: ArrayList = []
 
     **Output:**
 
-    ```
+    ```java
     ArrayList: [Geeks, for, Geeks, Gaurav]
     Size of ArrayList = 4
 

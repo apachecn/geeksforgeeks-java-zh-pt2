@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```java
 public void setSize(int newSize)
 ```
 
@@ -24,7 +24,7 @@ public void setSize(int newSize)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate setSize() method
 // of Vector class
 
@@ -70,7 +70,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Initially
 Vector: [Geeks, for, Geeks, Computer, Science, Portal]
 Size: 6
@@ -84,7 +84,7 @@ Size: 8
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Illustrate setSize() method
 // of Vector class
 // Where size is positive
@@ -129,7 +129,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Initially
 Vector: [Geeks, for, Geeks, Computer, Science, Portal]
 Size: 6
@@ -143,7 +143,7 @@ Size: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Illustrate setSize() method
 // of vector class
 // Where size is negative

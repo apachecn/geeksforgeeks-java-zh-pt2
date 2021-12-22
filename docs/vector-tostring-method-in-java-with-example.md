@@ -5,7 +5,7 @@
 [Java . util . Vector .](https://www.geeksforgeeks.org/java-util-vector-class-java/)toString()是 Vector 的一种内置方法，用于以字符串形式获取 Vector 对象的字符串表示，以“，”分隔条目。所以基本上 toString()方法是用来把 Vector 的所有元素转换成 String。
 **语法:**
 
-```
+```java
 Vector.toString()
 ```
 
@@ -16,7 +16,7 @@ Vector.toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the toString() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [Geeks, 4, Geeks, Welcomes, You]
 The String representation is: [Geeks, 4, Geeks, Welcomes, You]
 ```
@@ -56,7 +56,7 @@ The String representation is: [Geeks, 4, Geeks, Welcomes, You]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the toString() method
 import java.util.*;
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Vector is: [10, 15, 20, 25, 30]
 The String representation is: [10, 15, 20, 25, 30]
 ```

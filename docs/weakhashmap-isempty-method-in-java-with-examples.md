@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.isEmpty()
 ```
 
@@ -17,7 +17,7 @@ Weak_Hash_Map.isEmpty()
 下面的程序说明了 java.util.WeakHashMap.isEmpty()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 Is the map empty? false
 
@@ -57,7 +57,7 @@ Is the map empty? false
 
 **程序 2:** 为空的天气图
 
-```
+```java
 // Java code to illustrate the isEmpty() method
 import java.util.*;
 
@@ -82,7 +82,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {}
 Is the map empty? true
 

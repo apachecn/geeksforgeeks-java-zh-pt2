@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster next(DayOfWeek dayOfWeek)
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster next(DayOfWeek dayOfWeek)
 下面的程序说明了临时调整下一个()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.next()
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 next day of the week having WEDNESDAY for localdate 1998-10-31 is: 1998-11-04
 
 ```
@@ -62,7 +62,7 @@ next day of the week having WEDNESDAY for localdate 1998-10-31 is: 1998-11-04
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.next() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 next day of the week having THURSDAY for localdate 2029-12-11 is: 2029-12-13
 
 ```

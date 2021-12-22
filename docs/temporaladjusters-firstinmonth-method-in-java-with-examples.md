@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster
        firstInMonth(DayOfWeek dayOfWeek)
 
@@ -19,7 +19,7 @@ public static TemporalAdjuster
 下面的程序说明了临时调整.第一个月()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstInMonth()
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First date in month having sunday for localdate 2023-10-11 is: 2023-10-01
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstInMonth() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First date in a month having TUESDAY for localdate 2023-10-11 is: 2023-10-03
 
 ```

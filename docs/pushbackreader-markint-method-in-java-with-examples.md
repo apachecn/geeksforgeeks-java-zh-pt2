@@ -6,7 +6,7 @@ Java 中 **[推读器类](https://www.geeksforgeeks.org/java-io-pushbackreader-c
 
 **语法:**
 
-```
+```java
 public void mark(int readAheadLimit)
 ```
 
@@ -20,7 +20,7 @@ public void mark(int readAheadLimit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader mark(int) method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.IOException: mark/reset not supported
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader mark(int) method
 
@@ -101,7 +101,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.IOException: mark/reset not supported
 
 ```

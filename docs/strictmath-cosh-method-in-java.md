@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static double cosh(*double num*)
 ```
 
@@ -18,7 +18,7 @@ public static double cosh(*double num*)
 **返回值:**该方法返回*数*的双曲余弦值。
 **示例:**
 
-```
+```java
 Input: num = 60.0
 Output: 5.710036949078421E25
 
@@ -31,7 +31,7 @@ Output: 1.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cosh()
 import java.lang.*;
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The cosh of 78.8 = 8.344016962852523E33
 The cosh of 0.0 = 1.0
 The cosh of 1.0 = 1.543080634815244
@@ -72,7 +72,7 @@ The cosh of 1.0 = 1.543080634815244
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cosh()
 import java.lang.*;
@@ -104,7 +104,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The cosh of 0.5235987755982988 = 1.1402383210764286
 The cosh of 11.0 = 29937.070865949758
 The cosh of 45.0 = 1.7467135528742547E19

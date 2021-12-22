@@ -12,7 +12,7 @@ Java 中 Year 类的 isLeap()方法是用来检查这个 Year 对象是否是闰
 
 **语法**:
 
-```
+```java
 public boolean isLeap()
 
 ```
@@ -25,7 +25,7 @@ public boolean isLeap()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isLeap() method
 
 import java.util.*;
@@ -46,14 +46,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isLeap() method
 
 import java.util.*;
@@ -74,7 +74,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```

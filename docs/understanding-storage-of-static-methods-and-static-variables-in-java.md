@@ -15,7 +15,7 @@ JVM 内存管理器在程序运行期间创建**内存池**。
 
 让我们试着实现这个代码:
 
-```
+```java
 // Java program to demonstrate the above example
 
 public class Bird {
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1
 
 ```
@@ -70,7 +70,7 @@ class GFG {
 
 让我们通过将数字更改为静态变量来实现这一点。
 
-```
+```java
 // Java program to demonstrate the above example
 
 public class Bird {
@@ -113,7 +113,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3
 
 ```

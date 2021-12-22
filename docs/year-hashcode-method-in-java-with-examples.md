@@ -6,7 +6,7 @@ Java 中 Year 类的 hashCode()方法用于为当前 Year 对象获取合适的�
 
 **语法**:
 
-```
+```java
 public int hashCode()
 
 ```
@@ -18,7 +18,7 @@ public int hashCode()
 下面的程序说明了 Java 中的 hashCode()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 1997
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -67,7 +67,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2018
 
 ```

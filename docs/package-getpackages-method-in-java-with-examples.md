@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean getPackages(String desiredVersion)
 
 ```
@@ -19,7 +19,7 @@ public boolean getPackages(String desiredVersion)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getPackages() method
 
@@ -40,7 +40,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 package sun.reflect, Java Platform API Specification, version 1.8
 package java.util, Java Platform API Specification, version 1.8
 package sun.reflect.annotation, Java Platform API Specification, version 1.8

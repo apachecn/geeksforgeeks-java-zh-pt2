@@ -5,7 +5,7 @@
 [StringJoiner](https://www.geeksforgeeks.org/java-util-stringjoiner-java8/) 的**合并(StringJoiner other)** 将没有前缀和后缀的给定 StringJoiner 的内容添加为下一个元素(如果它是非空的)。如果给定的 StringJoiner 为空，则调用无效。
 **语法:**
 
-```
+```java
 public StringJoiner merge(StringJoiner other)
 ```
 
@@ -17,7 +17,7 @@ public StringJoiner merge(StringJoiner other)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // merge() method of StringJoiner
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 StringJoiner 1: Geeks for Geeks
 StringJoiner 2: A Computer Portal
 Merged StringJoiner : Geeks for Geeks A Computer Portal
@@ -73,7 +73,7 @@ Merged StringJoiner : Geeks for Geeks A Computer Portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // merge() method of StringJoiner
 
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 StringJoiner 1: Geeks, for, Geeks
 StringJoiner 2: A, Computer, Portal
 Merged StringJoiner : Geeks, for, Geeks, A, Computer, Portal
@@ -128,7 +128,7 @@ Merged StringJoiner : Geeks, for, Geeks, A, Computer, Portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // merge() method of StringJoiner
 
@@ -173,7 +173,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 StringJoiner 1: Geeks, for, Geeks
 StringJoiner 2: null
 Exception during merge: java.lang.NullPointerException

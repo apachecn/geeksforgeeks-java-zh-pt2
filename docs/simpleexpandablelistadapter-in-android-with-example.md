@@ -68,7 +68,7 @@ Android ExpandableListView 是一个视图，用于将项目显示为垂直滚�
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
@@ -82,7 +82,7 @@ Android ExpandableListView 是一个视图，用于将项目显示为垂直滚�
 
 ## 可扩展标记语言
 
-```
+```java
 <!-- RelativeLayout places the components vertically one by one.
      Necessary parameters also specified so that elegant output can be seen -->
 <RelativeLayout 
@@ -115,7 +115,7 @@ Android ExpandableListView 是一个视图，用于将项目显示为垂直滚�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -139,7 +139,7 @@ Android ExpandableListView 是一个视图，用于将项目显示为垂直滚�
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -166,7 +166,7 @@ Android ExpandableListView 是一个视图，用于将项目显示为垂直滚�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -215,7 +215,7 @@ public class ExpandableListDataItems {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -326,7 +326,7 @@ public class CustomizedExpandableListAdapter extends BaseExpandableListAdapter {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListAdapter;

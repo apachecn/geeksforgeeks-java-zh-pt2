@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Program Withoput usage of Records 
 
 // A sample Employee class
@@ -159,7 +159,7 @@ class Employee {
 
 尽管使用记录作为数据载体对象很有诱惑力，但记录仍然是 Java 中的一个预览功能。此外，由于它们仅用作数据载体，因此定义我们自己的访问方法和其他实例方法会违背目的。记录可以用来减少开发人员所做的工作，但是在内部，记录和类之间的性能差异并没有那么大
 
-```
+```java
 public record Employee(int id, String firstName, String lastName) {}
 ```
 
@@ -207,7 +207,7 @@ public record Employee(int id, String firstName, String lastName) {}
 
 编码记录是通过编写记录而不是类声明中的**类**来声明的。定义记录时，所有实例字段都作为参数写入。构造函数、getter 方法、toString()、equals()和 hashCode()是由 Java 编译器在编译时生成的。这里需要注意的一点是，记录不提供 setter 方法，因为应该在创建对象时提供实例变量的值。
 
-```
+```java
 // A simple Employee class to be used as a DTO
 
 public record Employee(int id, String firstName,
@@ -217,7 +217,7 @@ public record Employee(int id, String firstName,
 
 **例 1**
 
-```
+```java
 // Creating Employee object and showcasing its use cases
 
 // Main class
@@ -241,7 +241,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1001 Derok Dranf
 Employee[id=1001, firstName=Derok, lastName=Dranf]
 ```
@@ -256,7 +256,7 @@ Employee[id=1001, firstName=Derok, lastName=Dranf]
 
 **例 1**
 
-```
+```java
 // Java Program Illustrating a Record class
 // defining constructors, instance methods
 // and static fields
@@ -314,7 +314,7 @@ public record Employee(int id, String firstName,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Record's functionalities
 
 // Main class
@@ -353,7 +353,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1001 Derok Dranf
 Employee[id=1001, firstName=Derok, lastName=Dranf]
 Seren
@@ -365,7 +365,7 @@ Is e1 equal to e2: false
 
 如上所述，记录只是一个类的特殊声明，编译器在内部将其转换为带有一些限制的普通类，这使得它不同于典型的类。当 Java 文件被 Java 编译器编译成字节码时。生成的类文件包含记录类的扩展声明。通过查看那个文件，我们可以了解更多关于记录的信息。为我们上面创建的员工记录生成的字节码如下:
 
-```
+```java
 public final class Employee extends java.lang.Record {
    private final int id;
    private final java.lang.String firstName;

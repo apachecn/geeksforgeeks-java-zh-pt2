@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public int codePointAt(int index)
 ```
 
@@ -21,7 +21,7 @@ public int codePointAt(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the codePointAt() method
 
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Unicode of Character at Position 10 in StringBuffer = 101
 
 ```
 
 **示例 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program demonstrate
 // IndexOutOfBoundsException thrown by
 // the codePointAt() Method.
@@ -86,7 +86,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: String index out of range: 25
 
 ```

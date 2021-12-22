@@ -26,7 +26,7 @@
 
 让我们看看下面给出的**应用程序。yml** 如下。
 
-```
+```java
 Security:
  oauth2:
     client:
@@ -51,7 +51,7 @@ Security:
 
 ## Java
 
-```
+```java
 @SpringBootApplication
 @EnableOAuth2Sso
 @RestController

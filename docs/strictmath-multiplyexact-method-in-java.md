@@ -5,7 +5,7 @@
 1.  The **multiplyExact(*int num1, int num2*)** is an inbuilt function of StrictMath class in java which is used to get the product of the given arguments. When the result overflows an int i.e. Integer.MAX_VALUE then it throws an exception. Since this function is static so there is no need to create objects.
     **Syntax :**
 
-    ```
+    ```java
     public static int multiplyExact(*int num1, int num2*)
     ```
 
@@ -18,7 +18,7 @@
     **异常:**当结果溢出 int 时抛出*算术异常*。
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 8
     nm2 = 7
@@ -29,7 +29,7 @@
 
     下面的程序说明了 Java . lang . strict math . multiplyxact()方法。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.multiplyExact()
     import java.lang.*;
@@ -53,7 +53,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Product of 10 and 5 is 50
     Product of -17 and -2 is 34
     Product of 5 and -2 is -10
@@ -63,7 +63,7 @@
 2.  The **multiplyExact(*long num1, int num2*)** is an inbuilt function of StrictMath class in java which is used to get the product of the given arguments. When the result overflows a long then it throws an exception. Since this function is static so there is no need to create objects.
     **Syntax :**
 
-    ```
+    ```java
     public static long multiplyExact(*long num1, int num2*)
     ```
 
@@ -76,7 +76,7 @@
     **异常:**当结果溢出一个 int 时抛出*算术异常*。
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 8727
     nm2 = 2
@@ -87,7 +87,7 @@
 
     下面的程序说明了 Java . lang . strict math . multiplyxact()方法。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.multiplyExact()
     import java.lang.*;
@@ -112,7 +112,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Product of 2727810 and 9892829 is 26985757874490
     Product of 817 and 3 is 2451
     Product of 9892829 and 3 is 29678487
@@ -122,7 +122,7 @@
 3.  The **multiplyExact(*long num1, long num2*)** is an inbuilt function of StrictMath class in java which is used to get the product of the given arguments. When the result overflows a long then it throws an exception. Since this function is static so there is no need to create objects .
     **Syntax :**
 
-    ```
+    ```java
     public static long multiplyExact(*long num1, long num2*)
     ```
 
@@ -135,7 +135,7 @@
     **异常:**当结果溢出一长段时抛出*算术异常*。
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 64954
     nm2 = 6643
@@ -146,7 +146,7 @@
 
     下面的程序说明了 Java . lang . strict math . multiplyxact()方法。
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.multiplyExact()
     import java.lang.*;
@@ -171,7 +171,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Product of 772810 and 22929 is 17719760490
     Product of -81827 and -823783 is 67407691541
     Product of 22929 and -823783 is -18888520407

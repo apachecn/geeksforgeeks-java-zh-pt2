@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -18,7 +18,7 @@ public String toString()
 下面的程序说明了 toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.toString() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: OptionalLong[21342536475643]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.toString() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value: OptionalLong.empty
 
 ```

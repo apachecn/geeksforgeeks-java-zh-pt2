@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration<Object> elements()
 ```
 
@@ -16,7 +16,7 @@ public Enumeration<Object> elements()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // elements() method
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider of the SHA1PRNG: SUN version 1.8
 Enumeration of the values: 
 
@@ -170,7 +170,7 @@ Value is: sun.security.provider.MD2
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // elements() method
 
@@ -215,7 +215,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider of the DSA, SUN: SUN version 1.8
 enumeration of the values: 
 

@@ -12,7 +12,7 @@ Java 提供了两个使用类的数据成员对对象进行排序的接口，它
 
 **语法**
 
-```
+```java
 public interface Comparable<T> 
 {
     public int compareTo(T o);
@@ -29,7 +29,7 @@ public interface Comparable<T>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort student
 // data according to their marks
 
@@ -80,7 +80,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Shyam 84
 Lokesh 90
 Ram 98
@@ -90,7 +90,7 @@ Ram 98
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort student
 // data according to their names
 
@@ -146,7 +146,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 3 Lokesh 90
 1 Ram 98
 2 Shyam 84

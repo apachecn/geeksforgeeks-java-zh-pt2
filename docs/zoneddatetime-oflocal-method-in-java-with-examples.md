@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime ofLocal(LocalDateTime localDateTime,
                                     ZoneId zone,
                                     ZoneOffset preferredOffset)
@@ -20,7 +20,7 @@ public static ZonedDateTime ofLocal(LocalDateTime localDateTime,
 以下程序说明了本地()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.ofLocal() method
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime is 2019-01-29T23:55:59+01:00[Europe/Paris]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.ofLocal() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime is 2019-01-29T23:55:59+09:30[Australia/Darwin]
 
 ```

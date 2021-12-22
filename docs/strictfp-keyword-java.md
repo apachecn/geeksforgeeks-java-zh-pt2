@@ -9,7 +9,7 @@
 
 **说明 1:** 类的关键字用法
 
-```
+```java
 strictfp class Test {
 
     // All concrete methods here are implicitly strictfp.    
@@ -18,7 +18,7 @@ strictfp class Test {
 
 **说明 2:** 接口的关键字用法
 
-```
+```java
 strictfp interface Test {
 
     // All  methods here becomes implicitly 
@@ -34,7 +34,7 @@ class Car {
 
 **图解 3:** 带变量的关键词用法
 
-```
+```java
 strictfp interface Test {
     double sum();
 
@@ -53,7 +53,7 @@ strictfp interface Test {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate strictfp modifier
 // Usage in Classes
 

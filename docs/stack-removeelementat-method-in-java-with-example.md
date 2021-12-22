@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.removeElementAt(int index)
 ```
 
@@ -20,7 +20,7 @@ Stack.removeElementAt(int index)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate removeElementAt()
 
 import java.util.*;
@@ -61,7 +61,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 The initial size is: 5
 Final Stack: [Geeks, for, 10, 20]
@@ -71,7 +71,7 @@ The final size is: 4
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate removeElement() when position of
 // element is passed as parameter
 
@@ -113,7 +113,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 The initial size is: 5
 Final Stack: [20, 30, 40, 50]

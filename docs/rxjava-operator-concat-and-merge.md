@@ -16,7 +16,7 @@ RxJava 是最有意义的库，被安卓开发者广泛使用。它简化了我�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 final String[] gfgList = { "DSA", "Py", "Android", "Java" };
 final String[] gfgListTwo = { "Intern", "FullTime", "PartTime" };
 

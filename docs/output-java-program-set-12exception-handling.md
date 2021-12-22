@@ -5,7 +5,7 @@
 **先决条件:** [异常处理](https://www.geeksforgeeks.org/java/#Exception Handling)、[试捕中的控制流-最后](https://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/)
 **1)以下程序的输出是什么？**
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -41,7 +41,7 @@ d)135
 **解释:**一旦 try block 出现异常，执行传递到对应的**catch 语句，不返回 try block。一次只执行一个 catch 块。无论异常是否发生，总是执行 finally block。
  **2)以下程序的输出是什么？****
 
-```
+```java
 public class Test
 {
     private void m1()
@@ -86,7 +86,7 @@ T4【Ans。 (a)
 
 ****3)以下程序的输出是什么？****
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -119,7 +119,7 @@ d)123**
 **解释:**最终块内部的代码不执行的唯一情况是在程序中显式调用 System.exit(0)时。然后调用 exit 语句，程序终止，不再执行。
  **4)以下程序的输出是什么？****
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -160,7 +160,7 @@ d) 134**
 
 ****5)以下程序的输出是什么？****
 
-```
+```java
 import java.io.EOFException;
 import java.io.IOException;
 

@@ -6,7 +6,7 @@ Java 中 **[SimpleTimeZone 类的**setStartRule(int*startof month*、int *starto
 
 **语法:**
 
-```
+```java
 public void setStartRule(int *startofMonth*, 
                               int *startofDay*, 
                               int *startofTime*)
@@ -23,7 +23,7 @@ public void setStartRule(int *startofMonth*,
 以下程序说明了 setStartRule()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // setStartRule() method
 
@@ -54,7 +54,7 @@ public class SimpleTimeZone_Demo {
 
 **Output:**
 
-```
+```java
 Initial value: java.util.SimpleTimeZone[id=GMT, offset=100, dstSavings=3600000,
 useDaylight=false, startYear=0, startMode=0, startMonth=0, startDay=0, startDayOfWeek=0,
 startTime=0, startTimeMode=0, endMode=0, endMonth=0, endDay=0, endDayOfWeek=0, endTime=0,
@@ -69,7 +69,7 @@ endTime=0, endTimeMode=0]
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // setStartRule() method
 
@@ -100,7 +100,7 @@ public class SimpleTimeZone_Demo {
 
 **Output:**
 
-```
+```java
 Initial value: java.util.SimpleTimeZone[id=GMT, offset=120, dstSavings=3600000,
 useDaylight=false, startYear=0, startMode=0, startMonth=0, startDay=0, startDayOfWeek=0,
 startTime=0, startTimeMode=0, endMode=0, endMonth=0, endDay=0, endDayOfWeek=0, endTime=0,

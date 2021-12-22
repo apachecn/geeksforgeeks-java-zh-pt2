@@ -6,7 +6,7 @@ WeakHashMap 类的 java.util.WeakHashMap.size()方法用于获取映射的大小
 
 **语法:**
 
-```
+```java
 WeaK_Hash_Map.size()
 ```
 
@@ -18,7 +18,7 @@ WeaK_Hash_Map.size()
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The size of the map is 5
 
@@ -58,7 +58,7 @@ The size of the map is 5
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate the size() method
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The size of the map is 4
 

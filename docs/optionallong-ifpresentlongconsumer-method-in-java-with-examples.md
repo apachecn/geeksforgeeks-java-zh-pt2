@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void ifPresentOrElse(LongConsumer action)
 
 ```
@@ -20,7 +20,7 @@ public void ifPresentOrElse(LongConsumer action)
 以下程序说明了 ifPresent(LongConsumer)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.ifPresent(LongConsumer) method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.ifPresent(LongConsumer) method
 

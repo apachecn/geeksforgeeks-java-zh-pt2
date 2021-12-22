@@ -6,7 +6,7 @@ Java 中 Period 类的 invalid()方法用于在否定了 period YEAR、MONTH、D
 
 **语法:**
 
-```
+```java
 public Period negated()
 ```
 
@@ -20,7 +20,7 @@ public Period negated()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function to negate all
 // elements of the period
 import java.time.Period;
@@ -51,14 +51,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-11M-10D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function to negate all
 // elements of the period
 import java.time.Period;
@@ -89,7 +89,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y11M10D
 
 ```

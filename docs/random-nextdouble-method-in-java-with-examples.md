@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double nextDouble()  
 
 ```
@@ -21,7 +21,7 @@ public double nextDouble()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextDouble()
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next double value is = 0.10210556893379474
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextDouble()
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next double value is = 0.26964189606000966
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isFixed()
 
 ```
@@ -18,7 +18,7 @@ public boolean isFixed()
 下面的程序说明了 ValueRange.isFixed()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isFixed() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isFixed: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.isFixed() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 isFixed: true
 
 ```

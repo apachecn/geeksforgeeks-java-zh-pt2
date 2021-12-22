@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public String substring(int start)
 ```
 
@@ -24,7 +24,7 @@ public String substring(int start)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the substring() Method.
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 SubSequence = ForGeeks
 
@@ -59,7 +59,7 @@ SubSequence = ForGeeks
 
 **示例 2:** 演示 StringIndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the substring() Method.
 
@@ -87,7 +87,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 
 ```
@@ -98,7 +98,7 @@ Exception: java.lang.StringIndexOutOfBoundsException: String index out of range:
 
 **语法:**
 
-```
+```java
 public String substring(int start)
 ```
 
@@ -112,7 +112,7 @@ public String substring(int start)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the substring() Method.
 
@@ -138,7 +138,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 SubSequence = For
 
@@ -146,7 +146,7 @@ SubSequence = For
 
 **示例 2:** 演示 StringIndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the substring() Method.
 
@@ -176,7 +176,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: String index out of range: -6
 
 ```

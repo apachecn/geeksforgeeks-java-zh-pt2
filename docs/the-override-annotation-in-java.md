@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 public @interface Override
 ```
 
@@ -27,7 +27,7 @@ public @interface Override
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Override Annotation
 
 // Importing input output classes
@@ -92,7 +92,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Override Annotation
 // Using Abstract class
 
@@ -158,7 +158,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is Car
 This is Bike
 ```

@@ -22,7 +22,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Iterator> 
         iterator = map.entrySet().iterator();
 
@@ -36,7 +36,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove an entry using value
     // from a HashMap while iterating over it
 
@@ -91,7 +91,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Original HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}
     Modified HashMap: {1=Geeks, 3=GeeksForGeeks}
 
@@ -105,7 +105,7 @@
 
     **语法:**
 
-    ```
+    ```java
     map.entrySet()
        .removeIf(
            entry -> (valueToBeRemoved
@@ -115,7 +115,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove an entry using value
     // from a HashMap while iterating over it
 
@@ -155,7 +155,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Original HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}
     Modified HashMap: {1=Geeks, 3=GeeksForGeeks}
 

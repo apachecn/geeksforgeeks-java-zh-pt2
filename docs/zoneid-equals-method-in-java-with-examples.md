@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -21,7 +21,7 @@ public boolean equals(Object obj)
 下面的程序说明了 equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.equals() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Both ZoneIdsare equal: false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.equals() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Both ZoneIdsare equal: true
 
 ```

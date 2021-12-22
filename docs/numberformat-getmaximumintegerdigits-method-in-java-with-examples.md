@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int getMaximumIntegerDigits()
 ```
 
@@ -18,7 +18,7 @@ public int getMaximumIntegerDigits()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -49,14 +49,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The maximum Integer digits: 2147483647
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The maximum integer digits: 2147483647
 
 ```

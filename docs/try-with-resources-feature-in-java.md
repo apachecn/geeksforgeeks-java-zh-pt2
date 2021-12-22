@@ -10,7 +10,7 @@
 
 **语法:**试用资源
 
-```
+```java
 try(declare resources here) {
     // use resources
 }
@@ -34,7 +34,7 @@ catch(FileNotFoundException e) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program for try-with-resources
 // having single resource
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Resource are closed and message has been written into the gfgtextfile.txt
 ```
 
@@ -95,7 +95,7 @@ Resource are closed and message has been written into the gfgtextfile.txt
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for try-with-resources
 // having multiple resources
 
@@ -165,7 +165,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 File content copied to another one.
 Resource are closed and message has been written into the gfgtextfile.txt
 ```

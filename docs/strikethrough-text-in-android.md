@@ -10,7 +10,7 @@
 
 创建一个带有删除线名称的可绘制文件，并将此可绘制文件添加到文本文件中
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
@@ -25,7 +25,7 @@
 
 **创建一个这样的字符串，并将这个字符串作为文本添加到文本视图**中
 
-```
+```java
 <string name="strike"> Geeks <strike>For Geeks </strike> </string>
 ```
 
@@ -33,7 +33,7 @@
 
 在**MainActivity.java**文件中输入以下一行。
 
-```
+```java
 strike.setPaintFlags(strike.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 ```
 
@@ -49,7 +49,7 @@ strike.setPaintFlags(strike.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,7 +103,7 @@ strike.setPaintFlags(strike.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;

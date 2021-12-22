@@ -6,7 +6,7 @@ Java 中 Period 类的 getUnits()方法用来获取这个 Period 支持的单位
 
 **语法:**
 
-```
+```java
 public List getUnits()
 ```
 
@@ -18,7 +18,7 @@ public List getUnits()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function getUnits()
 // to get the set of units supported by period
 
@@ -48,14 +48,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 [Years, Months, Days]
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function getUnits()
 // to get the set of units supported by period
 
@@ -85,7 +85,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 [Years, Months, Days]
 
 ```

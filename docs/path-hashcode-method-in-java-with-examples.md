@@ -6,7 +6,7 @@ Java 7 中的 [Java NIO](https://www.geeksforgeeks.org/tag/java-nio-package/) �
 
 **语法:**
 
-```
+```java
 int hashCode()
 
 ```
@@ -18,7 +18,7 @@ int hashCode()
 下面的程序说明了 hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.hashCode() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash Code: 1600751599
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.hashCode() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash Code: -996777206
 
 ```

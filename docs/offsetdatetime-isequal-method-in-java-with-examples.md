@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **isEqual()** 方法检查这个日期是否等�
 
 **语法:**
 
-```
+```java
 public boolean isEqual(OffsetDateTime other)
 
 ```
@@ -19,7 +19,7 @@ public boolean isEqual(OffsetDateTime other)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the isEqual() method
 
 import java.time.OffsetDateTime;
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2018-12-12T13:30:30+05:00
 Date1 equals Date2? true
@@ -61,7 +61,7 @@ Date1 equals Date2? true
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the isEqual() method
 
 import java.time.OffsetDateTime;
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2015-12-12T13:30:30+05:00
 Date1 equals Date2? false

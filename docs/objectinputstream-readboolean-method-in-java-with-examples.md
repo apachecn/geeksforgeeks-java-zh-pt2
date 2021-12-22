@@ -6,7 +6,7 @@ Java 中 **ObjectInputStream** 类的 **readBoolean()** 方法从流中读取一
 
 **语法**:
 
-```
+```java
 public boolean readBoolean()
 ```
 
@@ -23,7 +23,7 @@ public boolean readBoolean()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // the above method
 

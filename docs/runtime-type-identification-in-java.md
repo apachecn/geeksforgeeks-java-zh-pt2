@@ -14,7 +14,7 @@ Java 中的运行时类型标识可以定义为在运行时确定对象的类型
 
 **语法:**
 
-```
+```java
 public final Class getClass()
 ```
 
@@ -24,7 +24,7 @@ public final Class getClass()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to determine Runtime type
 
 import java.io.*;
@@ -46,7 +46,7 @@ public class Example1 {
 
 **Output**
 
-```
+```java
 Class of Object obj is : java.lang.String
 
 ```
@@ -55,7 +55,7 @@ Class of Object obj is : java.lang.String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to determine object class at run time 
 
 import java.io.*;
@@ -78,7 +78,7 @@ public class Example2 {  
 
 **输出:**
 
-```
+```java
 100
 class java.lang.Integer
 ```

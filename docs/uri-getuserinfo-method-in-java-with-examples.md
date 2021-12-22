@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getUserInfo()
 ```
 
 **语法**:
 
-```
+```java
 uri.getUserInfo()
 ```
 
@@ -23,7 +23,7 @@ uri.getUserInfo()
 
 **示例 1:** 给定一个 URI，我们将使用 getUserInfo()函数获取 UserInfo。
 
-```
+```java
 // Java program to show the 
 // use of the function getUserInfo()
 
@@ -58,7 +58,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://Arnab_Kundu@www.geeksforgeeks.org
  UserInfo=Arnab_Kundu
 
@@ -66,7 +66,7 @@ URI = https://Arnab_Kundu@www.geeksforgeeks.org
 
 **示例 2:**getuserninfo()和 getRawUserInfo()返回的值是相同的，只是转义八位字节的所有序列都被解码。getRawUserInfo()返回用户提供的字符串的确切值，但 getUserInfo()函数解码转义八位字节序列(如果有)。
 
-```
+```java
 // Java program to show the 
 // use of the function getUserInfo()
 
@@ -107,7 +107,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URI = https://Arnab_Kundu%E2%82%AC@www.geeksforgeeks.org
  UserInfo=Arnab_Kundu?
  Raw UserInfo=Arnab_Kundu%E2%82%AC

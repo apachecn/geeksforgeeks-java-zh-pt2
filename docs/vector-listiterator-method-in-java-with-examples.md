@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator()
 
 ```
@@ -19,7 +19,7 @@ public ListIterator listIterator()
 
 **示例 1:** 使用 listIterator()演示向前和向后遍历。
 
-```
+```java
 // Java code to illustrate listIterator()
 
 import java.util.Vector;
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Forward Traversal:
 Geeks
 for
@@ -80,7 +80,7 @@ Geeks
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator(int index)
 
 ```
@@ -93,7 +93,7 @@ public ListIterator listIterator(int index)
 
 **示例 2:** 演示 listIterator(int index)。
 
-```
+```java
 // Java code to illustrate listIterator(int index)
 
 import java.util.Vector;
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 for
 Geeks
 
@@ -129,7 +129,7 @@ Geeks
 
 **示例 3:** 演示 listIterator(int index)抛出的*indexout of boundsexception*。
 
-```
+```java
 // Java code to illustrate IndexOutOfBoundsException
 // thrown by listIterator(int index)
 
@@ -163,14 +163,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.IndexOutOfBoundsException: Index: 5
 
 ```
 
 **示例 4:** 演示当向量对象在创建列表迭代器后被修改时，列表迭代器对象抛出的*ConcurrentModificationException*。
 
-```
+```java
 // Java code to illustrate ConcurrentModificationException
 // thrown by ListIterator object
 
@@ -207,7 +207,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.util.ConcurrentModificationException
 
 ```

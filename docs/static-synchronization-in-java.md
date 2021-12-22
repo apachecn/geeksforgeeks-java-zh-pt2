@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 synchronized static return type class name{}
 ```
 
@@ -33,7 +33,7 @@ synchronized static return type class name{}
 
 这里 t1、t2… t6 是线程名
 
-```
+```java
 The complete declarations of  methods are:
 method1: public static synchronized void method1()
 method2: public static synchronized void method2()
@@ -53,7 +53,7 @@ method5: public String method5()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program of multithreading 
 // with static synchronized
 
@@ -106,7 +106,7 @@ class Main{
 
 **输出**
 
-```
+```java
 First time of execution:
 Good Morning: Dhoni
 Good Morning: Dhoni

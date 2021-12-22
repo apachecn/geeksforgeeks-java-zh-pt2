@@ -6,7 +6,7 @@ java.util.Set.iterator()方法用于返回与集合具有相同元素的迭代�
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Set.iterator();
 
 ```
@@ -17,7 +17,7 @@ Iterator *iterate_value* = Set.iterator();
 
 下面程序举例说明了 java.util.Set.iterator()方法:
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Welcome, To]
 The iterator values are: 
 4

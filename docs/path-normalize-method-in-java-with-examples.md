@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 Path normalize()
 
 ```
@@ -19,7 +19,7 @@ Path normalize()
 以下程序说明 normalize()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.normalize() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.normalize() method
 

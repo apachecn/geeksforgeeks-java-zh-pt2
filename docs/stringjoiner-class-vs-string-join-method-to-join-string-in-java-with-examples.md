@@ -16,7 +16,7 @@
 
 ## Java
 
-```
+```java
 // Java program for joining the strings before Java8
 // by simple method using '+' to concatenate 
 
@@ -69,7 +69,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 DSA gfg FAANG gfg ALGO
 --------------------
 DSA gfg FAANG gfg ALGO

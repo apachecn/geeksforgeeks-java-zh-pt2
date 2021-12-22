@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 Stream<T> peek(Consumer<? super T> action)
 ```
 
@@ -22,7 +22,7 @@ Stream<T> peek(Consumer<? super T> action)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate peek() Method
 // of Stream class Without Terminal Operation Count
 
@@ -57,7 +57,7 @@ class GFG {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Illustrate peek() Method
 // of Stream class With Terminal Operation Count
 
@@ -84,7 +84,7 @@ class GFG {
 
 ****输出:****
 
-```
+```java
 0
 2
 4

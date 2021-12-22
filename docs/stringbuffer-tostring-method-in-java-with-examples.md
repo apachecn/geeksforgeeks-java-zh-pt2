@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract String toString()
 ```
 
@@ -16,7 +16,7 @@ public abstract String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() Method.
 
@@ -38,14 +38,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() Method.
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 
 ```

@@ -25,7 +25,7 @@
 
 **说明 1:** 不能兑换
 
-```
+```java
 // Type hierarchy Person :> Joe :> JoeJr
 
 List<Person> p = new ArrayList<>();
@@ -40,7 +40,7 @@ p.add(new JoeJr());
 
 **插图 2:** 从它们中读取对象
 
-```
+```java
 // Type hierarchy : Person :>Joe :> JoeJr
 
 List <Joe> joes = new ArrayList<>();
@@ -62,7 +62,7 @@ use-site 必须是类型参数的开放下限。如果 B 是 A 的 **a** 亚型�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GFG {
 
     public static void main(String args[])
@@ -87,7 +87,7 @@ class GFG {
 
 **说明 1:** 可以将超类型替换为子类型:
 
-```
+```java
 // Type hierarchy : Person :> Joe :> JoeJr
 List<? extends Joe> = new ArrayList<Joe>();  //ok
 List<? extends Joe> = new ArrayList<JoeJr>();  //ok
@@ -96,7 +96,7 @@ List<? extends Joe> = new ArrayList<Person>();  // Compile error
 
 **插图 2:** 从它们中阅读是直观的:
 
-```
+```java
 //Type hierarchy : Person :> Joe :> JoeJr
 List<? extends Joe> joes = new ArrayList<>();
 Joe j = joes.get(0);  //ok
@@ -106,7 +106,7 @@ JoeJr jr = joes.get(0);  // compile error
 
 禁止向它们写入(违反直觉)，以防止上述数组的陷阱。例如，在下面的示例代码中，如果其他人的带有协变 arg 的方法**列出了<，那么**列表< Joe >** 的调用者/所有者会很惊讶？>延长人**增加了一个**吉尔。**
 
-```
+```java
 // Type hierarchy : Person > Joe > JoeJr
 List<? extends Joe> joes = new ArrayList<>();
 joes.add(new Joe());  // compile error (you don't  what subtype of Joe is in the list)
@@ -121,7 +121,7 @@ joes.add(new Object());  // compile error
 
 **说明 1:** 您可以将子类型替换为超类型:
 
-```
+```java
 List<> super Joe> joes = new ArrayList<Joe>();  // ok
 List<? super Joe> joes = new ArrayList<Person>();  // ok
 List<? super Joe> joes = new ArrayList<JoeJr>();  //Compile Error
@@ -129,7 +129,7 @@ List<? super Joe> joes = new ArrayList<JoeJr>();  //Compile Error
 
 **插图 2:** 从它们中读取时无法捕获特定类型:
 
-```
+```java
 List<? super Joe> joes = new ArrayList<>();
 Joe j = joes.get(0);  // compile error
 Person p = joes.get(0);  // compile error
@@ -138,14 +138,14 @@ Object o = joes.get(0);   // because everything is a object in java
 
 **说明 3:** 可以添加“下限”的子类型:
 
-```
+```java
 List<? super Joe> Joes = new ArrayList<>();
 joes.add(new JoeJr());  allowed
 ```
 
 **说明 4:** 但是不能添加超类型:
 
-```
+```java
 List<? super Joe> joes = new ArrayList<>();
 joes.add(new Person());  // compile error
 joes.add(new Object());  // compile error
@@ -157,7 +157,7 @@ joes.add(new Object());  // compile error
 
 带有无界通配符的泛型类型是同一泛型类型的所有有界变体的超类型。例子是**泛型<？>** 是**通用型<弦>** 的超型。由于无界类型是类型层次结构的根，因此在其参数类型中，它只能访问从 **java.lang.Object.** 继承的方法
 
-```
+```java
 Think of GenericType<?> as GenericType<Object>.
 ```
 
@@ -165,7 +165,7 @@ Think of GenericType<?> as GenericType<Object>.
 
 插图:
 
-```
+```java
 Function<Person, Joe> personToJoe = null;
 Function<Joe, JoeJr> joeToJoeJr = null;
 personToJoe = joeToJoeJr; // compile error
@@ -186,7 +186,7 @@ joeToJoeJr = personToJoe; // ok
 
 **说明 1:** Java 允许覆盖具有协变返回类型和异常类型的方法:
 
-```
+```java
 interface person {
     Person get();
     void fail() throws Exception;
@@ -203,7 +203,7 @@ class JoeImpl implements Joe {
 
 **说明 2:** 试图用协变参数重写方法只会导致重载:
 
-```
+```java
 interface Person {
     void add(Person p);
 }

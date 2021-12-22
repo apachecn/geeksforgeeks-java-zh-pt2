@@ -6,7 +6,7 @@ Java 中 Year 类的 isValidMonthDay()方法用于检查 Year 对象和作为该
 
 **语法**:
 
-```
+```java
 public boolean isValidMonthDay(MonthDay monthDay)
 
 ```
@@ -18,7 +18,7 @@ public boolean isValidMonthDay(MonthDay monthDay)
 以下程序说明了 Java 中的 isValidMonthDay()年方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isValidMonthDay() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **程序 2** :在下面的程序中，Year 是指 1990 年，它不是闰年，而是月日代表闰年。因此，它们不能一起形成有效的日期，因此该方法将返回 false。
 
-```
+```java
 // Program to illustrate the isValidMonthDay() method
 
 import java.util.*;
@@ -73,7 +73,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

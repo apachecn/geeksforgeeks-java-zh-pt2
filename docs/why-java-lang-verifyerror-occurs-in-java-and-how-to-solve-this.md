@@ -16,7 +16,7 @@ Java 虚拟机(JVM)不信任所有加载的字节码，这是 Java 安全模型�
 
 此构造函数创建 VerifyError 类的实例，将 null 设置为其消息。
 
-```
+```java
 VerifyError(String s)
 ```
 
@@ -30,7 +30,7 @@ VerifyError(String s)
 
 ## 爪哇
 
-```
+```java
 // Java program to show the occurence 
 // of  java.lang.VerifyError
 

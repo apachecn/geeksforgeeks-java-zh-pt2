@@ -17,7 +17,7 @@
 
 T5】JavaT7
 
-```
+```java
 // Java Program to sort an elements
 // by bringing Arrays into play
 
@@ -65,7 +65,7 @@ T8T10**输出**T1
 
 ## JAVA
 
-```
+```java
 // Java program to demonstrate working of
 // sort() method of Arrays class
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Modified arr[] : [6, 7, 9, 13, 21, 45, 101, 102]
 ```
 
@@ -102,7 +102,7 @@ Modified arr[] : [6, 7, 9, 13, 21, 45, 101, 102]
 
 ## JAVA
 
-```
+```java
 // A sample Java program to sort an array
 // in descending order using Arrays.sort().
 import java.util.Arrays;
@@ -127,6 +127,6 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Modified arr[] : [100, 45, 21, 13, 9, 7, 6, 2]
 ```

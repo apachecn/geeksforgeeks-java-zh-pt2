@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static YearMonth parse(CharSequence text,
                          DateTimeFormatter formatter)
 
@@ -25,7 +25,7 @@ public static YearMonth parse(CharSequence text,
 下面的程序说明了解析(CharSequence，DateTimeFormatter)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.parse(CharSequence, DateTimeFormatter) method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth Parsed:2018-02
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.parse(CharSequence, DateTimeFormatter) method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth Parsed:2100-09
 
 ```

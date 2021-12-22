@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.lang.*;
 import java.util.*;
 
@@ -68,7 +68,7 @@ class GeeksForGeeks {
 
 **Output**
 
-```
+```java
 PRIMITIVE DATA TYPES
 
 Initially: x = 10, y = 10

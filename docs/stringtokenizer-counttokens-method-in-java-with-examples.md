@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public int countTokens()
 ```
 
@@ -18,7 +18,7 @@ public int countTokens()
 下面的程序说明了 StringTokenizer 的 countTokens()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate countTokens() method
 
 import java.util.*;
@@ -47,7 +47,7 @@ public class StringTokenizer_Demo1 {
 
 **Output:**
 
-```
+```java
 Total number of Tokens: 4
 token at [0] : Lets
 token at [1] : practice
@@ -58,7 +58,7 @@ token at [3] : GeeksforGeeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate countTokens() method
 
 import java.util.*;
@@ -87,7 +87,7 @@ public class StringTokenizer_Demo2 {
 
 **Output:**
 
-```
+```java
 Total number of Tokens: 3
 token at [0] : Welcome
 token at [1] : to

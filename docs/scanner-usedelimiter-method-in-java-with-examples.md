@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Scanner useDelimiter(Pattern pattern)
 
 ```
@@ -23,7 +23,7 @@ public Scanner useDelimiter(Pattern pattern)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the useDelimiter(Pattern Pattern)
 // method of Scanner class in Java
 
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Scanner String: 
 Geeksforgeeks has Scanner Class Methods
 Old delimiter: \p{javaWhitespace}+
@@ -78,7 +78,7 @@ New delimiter: .ll.
 
 **语法:**
 
-```
+```java
 public Scanner useDelimiter(String pattern)
 
 ```
@@ -93,7 +93,7 @@ public Scanner useDelimiter(String pattern)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the useDelimter(String Pattern)
 // method of Scanner class in Java
 
@@ -133,7 +133,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Scanner String: 
 Geeksforgeeks has Scanner Class Methods
 Old Delimiter: \p{javaWhitespace}+

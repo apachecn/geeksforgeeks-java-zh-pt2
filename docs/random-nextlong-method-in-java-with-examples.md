@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long nextLong()
 
 ```
@@ -19,7 +19,7 @@ public long nextLong()
 
 下面的程序演示了上述功能:
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextLong()
 
@@ -40,12 +40,12 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Long value is = -9027907281942573746
 
 ```
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextLong()
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Long value is = -2817123387200223163
 
 ```

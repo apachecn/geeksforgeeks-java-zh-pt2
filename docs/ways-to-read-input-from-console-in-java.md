@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate BufferedReader
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -39,13 +39,13 @@ public class Test {
 
 **输入:**
 
-```
+```java
 Geek
 ```
 
 **输出:**
 
-```
+```java
 Geek
 ```
 
@@ -65,7 +65,7 @@ Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Scanner in Java
 import java.util.Scanner;
 
@@ -92,7 +92,7 @@ class GetInputFromUser {
 
 **输入:**
 
-```
+```java
 GeeksforGeeks
 12
 3.4
@@ -100,7 +100,7 @@ GeeksforGeeks
 
 **输出:**
 
-```
+```java
 You entered string GeeksforGeeks
 You entered integer 12
 You entered float 3.4
@@ -119,7 +119,7 @@ You entered float 3.4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of System.console()
 // Note that this program does not work on IDEs as
 // System.console() may require console
@@ -136,13 +136,13 @@ public class Sample {
 
 **输入:**
 
-```
+```java
 GeeksforGeeks
 ```
 
 **输出:**
 
-```
+```java
 You entered string GeeksforGeeks
 ```
 
@@ -154,7 +154,7 @@ You entered string GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to check for command line arguments
 class Hello {
     public static void main(String[] args)
@@ -179,14 +179,14 @@ class Hello {
 
 **命令行参数:**
 
-```
+```java
 javac GFG1.java
 java Main Hello World
 ```
 
 **输出:**
 
-```
+```java
 The command line arguments are:
 Hello
 World

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.insertElementAt()
 ```
 
@@ -23,7 +23,7 @@ Vector.insertElementAt()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate insertElementAt() 
 // Method of Vector class by 
 // Adding String elements into the Vector
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The final vector is [Welcome, To, Hello, Geeks, 4, Geeks, World]
 ```
@@ -76,7 +76,7 @@ The final vector is [Welcome, To, Hello, Geeks, 4, Geeks, World]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate insertElementAt()
 // Method of Vector class by
 // Adding Integer Elements into the Vector 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [10, 20, 30, 40, 50]
 The final vector is [100, 10, 20, 30, 200, 40, 50]
 ```

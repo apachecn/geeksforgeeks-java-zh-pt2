@@ -5,7 +5,7 @@
 **Java . util . treeset . addall(Collection C)**方法用于将上述集合中的所有元素追加到现有集合中。元素是随机添加的，没有任何特定的顺序。
 **语法:**
 
-```
+```java
 boolean addAll(Collection C)
 ```
 
@@ -16,7 +16,7 @@ boolean addAll(Collection C)
 下面的程序说明了 Java.util.TreeSet.addAll()方法:
 **程序 1 :** 追加一个树集。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.TreeSet;
@@ -56,7 +56,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 TreeSet: [4, Geeks, Hello, To, TreeSet, Welcome, World]
 
@@ -64,7 +64,7 @@ TreeSet: [4, Geeks, Hello, To, TreeSet, Welcome, World]
 
 **程序 2 :** 追加数组列表。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.TreeSet;
@@ -104,7 +104,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 Final TreeSet: [4, A, Computer, Geeks, Portal, To, TreeSet, Welcome]
 

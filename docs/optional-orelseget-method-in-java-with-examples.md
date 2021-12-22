@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T orElseGet(Supplier<T> supplier)
 
 ```
@@ -20,7 +20,7 @@ public T orElseGet(Supplier<T> supplier)
 以下程序举例说明 orElseGet()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElseGet() method
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9455]
 Value by orElseGet(Supplier) method: 9455
 
@@ -59,7 +59,7 @@ Value by orElseGet(Supplier) method: 9455
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElseGet() method
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 Value by orElseGet(Supplier) method: 1
 

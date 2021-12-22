@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String getType()
 ```
 
@@ -16,7 +16,7 @@ public final String getType()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getType() method
 
@@ -66,14 +66,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Name of the type : Signature
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getType() method
 
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Name of the type : MessageDigest
 
 ```

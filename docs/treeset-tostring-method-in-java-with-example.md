@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -20,7 +20,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // TreeSet toString() method
 
@@ -49,14 +49,14 @@ public class collection {
 
 **Output:**
 
-```
+```java
 [For, Geeks, To, Welcome]
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // TreeSet toString() method
 
@@ -84,7 +84,7 @@ public class collection {
 
 **Output:**
 
-```
+```java
 [10, 20, 30, 40]
 
 ```

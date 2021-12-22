@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Usage of return Keyword
 
 // Main method
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 6.0
 ```
 
@@ -66,7 +66,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate no return
 // keyword needed inside void method
 
@@ -105,7 +105,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 No return keyword is used and program executed successfully
 ```

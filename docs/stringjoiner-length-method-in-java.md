@@ -5,7 +5,7 @@
 [字符串连接符](https://www.geeksforgeeks.org/java-util-stringjoiner-java8/)的**长度()**用于找出字符中字符串连接符的长度。它返回该字符串连接器的字符串表示形式的长度。请注意，如果没有调用任何 add 方法，那么将返回字符串表示的长度(前缀+后缀或空值)。该值应等效于 toString()。长度()。
 **语法:**
 
-```
+```java
 public int length()
 ```
 
@@ -15,7 +15,7 @@ public int length()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // length() method of StringJoiner
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 StringJoiner: Geeks for Geeks
 15
 ```
@@ -55,7 +55,7 @@ StringJoiner: Geeks for Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // length() method of StringJoiner
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 StringJoiner: Geeks, for, Geeks, A, Computer, Portal
 38
 ```

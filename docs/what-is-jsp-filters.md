@@ -50,7 +50,7 @@ JSP 过滤器是 java 类，主要用于拦截来自任何客户端的请求或�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class tagHandler implements Filter {
     @Override
     public void init(FilterConfig filters)

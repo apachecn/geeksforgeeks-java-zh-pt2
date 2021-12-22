@@ -42,7 +42,7 @@ Public void test()引发了 MyThrowable{
 
 ## Java
 
-```
+```java
 public class Throwable
     extends Object
     implements Serializable
@@ -189,7 +189,7 @@ public 字符串 getlocalizedmessage()
 
 **T5】JavaT7
 
-```
+```java
 // Java program to demonstrate
 // the toString() Method.
 

@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to create user defined
 // exceptions
 
@@ -153,7 +153,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 Enter the number of rows
 Enter the number of columns
 

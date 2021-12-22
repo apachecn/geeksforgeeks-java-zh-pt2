@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Object[] toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -57,7 +57,7 @@ public class SortedSetDemo {
 
 **输出:**
 
-```
+```java
 The SortedSet: [For, Geeks, To, Welcome]
 The array is:
 For
@@ -69,7 +69,7 @@ Welcome
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 The SortedSet: [5, 10, 15, 20, 25, 30]
 The array is:
 5

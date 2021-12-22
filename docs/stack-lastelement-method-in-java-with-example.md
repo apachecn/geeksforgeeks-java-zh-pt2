@@ -8,7 +8,7 @@ Java 中的**Java . util . Stack . LastElement()**方法用于检索或获取堆
 
 **语法:**
 
-```
+```java
 Stack.lastElement()
 ```
 
@@ -20,7 +20,7 @@ Stack.lastElement()
 
 ****程序 1:****
 
-```
+```java
 // Java code to illustrate lastElement()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class StackDemo {
 
 ****Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The last element is: Geeks
 
@@ -57,7 +57,7 @@ The last element is: Geeks
 
 ****程序 2:****
 
-```
+```java
 // Java code to illustrate lastElement()
 import java.util.*;
 
@@ -86,7 +86,7 @@ public class StackDemo {
 
 ****Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 The last element is: 5
 

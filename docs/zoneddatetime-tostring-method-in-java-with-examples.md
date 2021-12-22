@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.toString() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.toString() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 
 ```

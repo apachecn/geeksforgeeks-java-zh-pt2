@@ -5,7 +5,7 @@
 **StringBuilder 类**的**容量()**方法用于返回 StringBuilder 对象的当前容量。容量是**插入新字符可用的存储量。**
 **语法:**
 
-```
+```java
 public int capacity()
 ```
 
@@ -15,7 +15,7 @@ public int capacity()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the capacity() Method.
 
@@ -49,7 +49,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Default Capacity of StringBuilder = 16
 StringBuilder = Geek
 Current Capacity of StringBuilder = 16
@@ -60,7 +60,7 @@ Current Capacity of StringBuilder = 16
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the capacity() Method.
 
@@ -86,7 +86,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 StringBuilder = WelcomeGeeks
 Capacity of StringBuilder = 28
 ```

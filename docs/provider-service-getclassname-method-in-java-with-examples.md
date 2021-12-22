@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String getClassName()
 ```
 
@@ -16,7 +16,7 @@ public final String getClassName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getClassName() method
 
@@ -66,14 +66,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Name of the class : sun.security.provider.DSA$SHA1withDSA
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getClassName() method
 
@@ -119,7 +119,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Name of the class : sun.security.provider.MD5
 
 ```

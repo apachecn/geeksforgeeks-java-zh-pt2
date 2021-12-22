@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistChronology getChronology()
 ```
 
@@ -18,7 +18,7 @@ public ThaiBuddhistChronology getChronology()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getChronology() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistChronology: ThaiBuddhist
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getChronology() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistChronology: ThaiBuddhist
 
 ```

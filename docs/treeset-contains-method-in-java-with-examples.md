@@ -8,7 +8,7 @@ TreeSet 是 Java 中 [SortedSet 接口](https://www.geeksforgeeks.org/sortedset-
 
 **语法:**
 
-```
+```java
 Tree_Set.contains(Object element)
 ```
 
@@ -27,7 +27,7 @@ Tree_Set.contains(Object element)
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate contains() method
 // of TreeSet class
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 Does the Set contains 'TreeSet'? true
 Does the Set contains '4'? true

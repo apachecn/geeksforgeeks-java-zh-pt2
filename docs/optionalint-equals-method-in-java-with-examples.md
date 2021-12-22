@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -25,7 +25,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.equals(Object obj) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt 1: OptionalInt[7258]
 OptionalInt 2: OptionalInt[7258]
 Are both objects equal: true
@@ -69,7 +69,7 @@ Are both objects equal: true
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.equals(Object obj) method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt 1: OptionalInt[5422]
 OptionalInt 2: OptionalInt[2737]
 Are both objects equal: false

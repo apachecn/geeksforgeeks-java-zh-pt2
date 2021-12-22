@@ -6,7 +6,7 @@ java 中的 java.util.WeakHashMap.clear()方法用于清除和移除指定映射
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.clear()
 ```
 
@@ -18,7 +18,7 @@ Weak_Hash_Map.clear()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Final Map: {}
 
@@ -60,7 +60,7 @@ Final Map: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 import java.util.*;
 
@@ -93,7 +93,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 Final Map: {}
 

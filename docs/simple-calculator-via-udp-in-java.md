@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Client Side implementation
 // of Simple Calculator using UDP
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Enter the equation in the form: 'operand operator operand'
 5 * 6
 Answer=30
@@ -134,7 +134,7 @@ Answer=3
 
 **语法:**
 
-```
+```java
 public int getPort()
 Returns the port number to which the specified datagram packet is being sent to or
 from which the packet is received.
@@ -146,7 +146,7 @@ from which the packet is received.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Server Side Implementation
 // of Simple Calculator using UDP
 
@@ -246,7 +246,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Equation received:-5 * 6
 Sending the result...
 Equation received:-5 + 6

@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort String objects using TreeSet
 import java.util.Set;
 import java.util.TreeSet;
@@ -38,14 +38,14 @@ public class Test {
 
 **输出:**
 
-```
+```java
 [Harish, Raja, Ram, Sohan]
 
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that simple sorting
 // StringBuffer objects does work.
 import java.util.Set;
@@ -67,7 +67,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 [Harish, Raja, Ram, Sohan]
 
 ```
@@ -76,7 +76,7 @@ public class Test {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public final class String
     extends Object
         implements Serializable,
@@ -85,7 +85,7 @@ public final class String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public final class StringBuffer
     extends Object
         implements Serializable,
@@ -94,7 +94,7 @@ public final class StringBuffer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public final class StringBuilder
     extends Object
         implements Serializable,
@@ -108,7 +108,7 @@ public final class StringBuilder
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate sorting
 // of StringBuffer objects using Comparator
 // interface.
@@ -136,7 +136,7 @@ public class Test implements Comparator<StringBuffer> {
 
 **输出:**
 
-```
+```java
 [Harish, Raja, Ram, Sohan]
 
 ```

@@ -5,7 +5,7 @@
 StringBuilder 类的 **setCharAt(int index，char ch)** 方法用于在作为 ch 传递的位置索引处设置字符。该方法将旧序列改变为代表与旧序列相同的新序列，唯一不同的是新字符 ch 出现在位置索引处。索引参数必须大于或等于 0，并且小于 StringBUilder 对象包含的字符串的长度。
 **语法:**
 
-```
+```java
 public void setCharAt(int index, char ch)
 ```
 
@@ -23,7 +23,7 @@ public void setCharAt(int index, char ch)
 下面的程序说明了 Java . lang . stringbuilder . setcharat()方法:
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the setCharAt() Method.
 
@@ -52,7 +52,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = WelcomeGeeks
 After setCharAt() String = WeLcomeGeeks
 
@@ -60,7 +60,7 @@ After setCharAt() String = WeLcomeGeeks
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the setCharAt() Method.
 
@@ -89,7 +89,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = Tony Stark will die
 After setCharAt() String = Tony Star1 will die
 
@@ -97,7 +97,7 @@ After setCharAt() String = Tony Star1 will die
 
 **例 3:** 通过负指数时:
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the setCharAt() Method.
 
@@ -124,7 +124,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: String index out of range: -15
     at java.lang.AbstractStringBuilder.setCharAt(AbstractStringBuilder.java:407)
     at java.lang.StringBuilder.setCharAt(StringBuilder.java:76)

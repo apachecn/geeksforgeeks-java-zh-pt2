@@ -6,7 +6,7 @@ Java 中类的 **setError()** 方法用来设置这个 PrintWriter 实例的错�
 
 **语法:**
 
-```
+```java
 protected void setError()
 ```
 
@@ -18,7 +18,7 @@ protected void setError()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter setError() method
 
@@ -65,14 +65,14 @@ class GFG extends PrintWriter {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter setError() method
 
@@ -116,7 +116,7 @@ class GFG extends PrintWriter {
 
 **Output:**
 
-```
+```java
 A
 
 ```

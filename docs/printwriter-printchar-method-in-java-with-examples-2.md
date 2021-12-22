@@ -6,7 +6,7 @@ Java 中 **[PrintWriter](https://www.geeksforgeeks.org/java-io-printwriter-class
 
 **语法:**
 
-```
+```java
 public void print(char[] charArray)
 ```
 
@@ -20,7 +20,7 @@ public void print(char[] charArray)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter print(char[]) method
 
@@ -59,14 +59,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter print(char[]) method
 
@@ -103,7 +103,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 
 ```

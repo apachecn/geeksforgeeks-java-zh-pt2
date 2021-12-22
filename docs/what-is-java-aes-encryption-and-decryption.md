@@ -31,7 +31,7 @@ Java 作为一种编程语言，在技术领域引入了一种新的方法。Jav
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the creation
 // of Encryption and Decryption with Java AES
 import java.nio.charset.StandardCharsets;
@@ -160,7 +160,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 LuBu3DTLx7SLfjfhbjl7lw==
 GeeksforGeeks

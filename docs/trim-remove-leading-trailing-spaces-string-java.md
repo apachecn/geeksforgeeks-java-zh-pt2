@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input :  str = "   Hello World   "
 Output : str = "Hello World"
 
@@ -24,7 +24,7 @@ Output : str = "Hey  there    Joey!!!"
 **它是如何工作的？**
 对于空格字符，unicode 值为“\u0020”。此方法检查字符串前后的 unicode 值，如果存在，则消除空格(前导和尾随)并返回字符串(不带前导和尾随空格)。
 
-```
+```java
 public class remove_spaces
 {
     public static void main(String args[])
@@ -42,7 +42,7 @@ public class remove_spaces
 
 输出:
 
-```
+```java
   Hello World  
 Hello World
       Hey  there    Joey!!!  

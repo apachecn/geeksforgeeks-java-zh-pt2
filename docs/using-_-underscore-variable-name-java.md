@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Usage of Underscore
 // As a Variable Name
 
@@ -34,7 +34,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 10
 ```
 
@@ -46,7 +46,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Usage of Underscore
 // As Variable Name in Java9
 

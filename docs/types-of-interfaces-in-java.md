@@ -17,7 +17,7 @@ interface 关键字用于声明接口。这里我们有一个声明接口的简�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public interface NameOfTheinterface
 {
 
@@ -42,7 +42,7 @@ public interface NameOfTheinterface
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is Program To implement the Interface
 interface car
 {
@@ -69,7 +69,7 @@ class model implements car
 
 **Output**
 
-```
+```java
 im a Car
 ```
 
@@ -97,7 +97,7 @@ im a Car
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is Program To implement the Functional Interface
 
 interface Writable
@@ -122,7 +122,7 @@ interface Writable
 
 **Output**
 
-```
+```java
  GFG - GEEKS FOR GEEKS 
 ```
 
@@ -136,7 +136,7 @@ interface Writable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Simple Example to understand marker interface
 
 public interface interface_name  
@@ -172,7 +172,7 @@ Java 中有三种类型的内置标记接口。这些是
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is Program To implement the Clonable Interface
  import java.lang.Cloneable;
 
@@ -214,7 +214,7 @@ Java 中有三种类型的内置标记接口。这些是
 
 **Output**
 
-```
+```java
 10
 We Are Reading GFG Now
 ```

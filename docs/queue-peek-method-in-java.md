@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 E peek()
 ```
 
@@ -16,7 +16,7 @@ E peek()
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of Queue
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 Queue: [7855642, 35658786, 5278367, 74381793]
@@ -60,7 +60,7 @@ Queue: [7855642, 35658786, 5278367, 74381793]
 
 **程序 2:** 演示队列为空时队列的 peek()方法
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of Queue when Queue is empty
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: []
 Queue's head: null
 
@@ -94,7 +94,7 @@ Queue's head: null
 
 **程序 3:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of Queue
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -134,7 +134,7 @@ Queue's head: 7855642
 
 **程序 4:** 在**的帮助下链接锁定程序**。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of Queue
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 
@@ -175,7 +175,7 @@ Queue's head: 7855642
 
 **程序 5:** 在**的帮助下**并发链接请求。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of Queue
 
@@ -208,7 +208,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 Queue's head: 7855642
 

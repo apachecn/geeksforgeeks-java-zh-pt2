@@ -6,7 +6,7 @@
 参数被附加到这个字符串构建器内容中，对象的长度增加了字符字符计数(代码点)。效果就像参数中的 int 值被转换为 char 数组，然后该数组中的字符被追加到该字符序列中一样。
 **语法:**
 
-```
+```java
 public StringBuilder appendCodePoint(int codePoint)
 ```
 
@@ -17,7 +17,7 @@ public StringBuilder appendCodePoint(int codePoint)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // appendCodePoint(int codePoint)
 
@@ -46,7 +46,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 StringBuilder = GeeksforGeeks
 Modified StringBuilder = GeeksforGeeksC
 ```
@@ -55,7 +55,7 @@ Modified StringBuilder = GeeksforGeeksC
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // appendCodePoint(int codePoint)
 
@@ -84,7 +84,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 StringBuilder = GeeksforGeeks
 Modified StringBuilder = GeeksforGeeks,
 ```

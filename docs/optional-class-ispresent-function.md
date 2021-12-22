@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 value.isPresent()
 Returns:
 It returns true if value is assigned otherwise false 
@@ -15,7 +15,7 @@ It returns true if value is assigned otherwise false
 
 示例:
 
-```
+```java
 Input : Optional value1 = Optional.ofNullable(10);
         value1.isPresent()
 Output : True
@@ -26,7 +26,7 @@ Output : False
 
 ```
 
-```
+```java
 // Write Java code here
 import java.util.Optional;
 public class present {
@@ -47,7 +47,7 @@ public static void main(String args[]) {
 }
 ```
 
-```
+```java
 Output : true
 Output : false
 

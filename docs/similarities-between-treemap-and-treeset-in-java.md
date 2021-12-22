@@ -15,7 +15,7 @@
 
 ## **Java**
 
-```
+```java
 // Java program to demonstrate some basic functions
 // of TreeMap and TreeSet
 
@@ -47,7 +47,7 @@ class GFG {
 
 ****输出**
 
-```
+```java
 [4, 5, 6, 8]
 {2=3, 3=6, 4=6}
 ```**

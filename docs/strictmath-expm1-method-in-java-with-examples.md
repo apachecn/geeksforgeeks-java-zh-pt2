@@ -11,7 +11,7 @@ java.lang.StrictMath.expm1()是 java 中的一个内置方法，用于返回给�
 
 **语法:**
 
-```
+```java
 public static double expm1(*double num*)
 ```
 
@@ -19,7 +19,7 @@ public static double expm1(*double num*)
 **返回值:**该方法将返回*e<sup>num</sup>–1*运算的结果。
 **示例:**
 
-```
+```java
 Input: num = (1.0/0.0)
 Output: Infinity
 
@@ -32,7 +32,7 @@ Output: 9.644557735961714E13
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.expm1()
 import java.lang.*;
@@ -67,7 +67,7 @@ public static void main(String[] args) {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.expm1()
 import java.lang.*;

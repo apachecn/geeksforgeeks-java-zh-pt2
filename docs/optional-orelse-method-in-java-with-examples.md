@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T orElse(T value)
 
 ```
@@ -18,7 +18,7 @@ public T orElse(T value)
 以下程序说明 orElse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElse() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9455]
 Value by orElse(100) method: 9455
 
@@ -55,7 +55,7 @@ Value by orElse(100) method: 9455
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElse() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 Value by orElse(100) method: 100
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(Object element, 
                         int last_index)
 ```
@@ -26,7 +26,7 @@ public int lastIndexOf(Object element,
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate lastIndexOf()
 
 import java.util.*;
@@ -67,7 +67,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, Geeks]
 The first occurrence of Geeks is at last index:0
 The last occurrence of Geeks is at last index: 4
@@ -76,7 +76,7 @@ The last occurrence of Geeks is at last index: 4
 
 **程序 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java code to illustrate lastIndexOf()
 import java.util.*;
 
@@ -114,7 +114,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 The 10th occurrence of Geeks is at index: 
 java.lang.IndexOutOfBoundsException: 10 >= 5

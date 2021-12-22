@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stack.contains(Object element)
 ```
 
@@ -18,7 +18,7 @@ Stack.contains(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 Does the Stack contains 'Geeks'? true
 Does the Stack contains '4'? true
@@ -65,7 +65,7 @@ Does the Stack contains 'No'? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 Does the Stack contains 'Geeks'? false
 Does the Stack contains '4'? false

@@ -6,7 +6,7 @@ Java 中 **SortedMap 接口**的 **keySet()方法**用于创建一组包含在�
 
 **语法:**
 
-```
+```java
 SortedMap.keySet()
 ```
 
@@ -18,7 +18,7 @@ SortedMap.keySet()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class SortedMap_Demo {
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 
 import java.util.*;

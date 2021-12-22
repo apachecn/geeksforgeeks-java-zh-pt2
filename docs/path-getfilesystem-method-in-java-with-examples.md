@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 FileSystem getFileSystem()
 
 ```
@@ -20,7 +20,7 @@ FileSystem getFileSystem()
 下面的程序说明了 getFileSystem()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getFileSystem() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Separator used for FileSystem: /
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getFileSystem() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FileSystem is ReadOnly: false
 
 ```

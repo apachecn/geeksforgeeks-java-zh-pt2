@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static OffsetTime 
        ofInstant(Instant instant, ZoneId zone)
 
@@ -21,7 +21,7 @@ public static OffsetTime
 
 下面的程序举例说明了 Instant()方法:
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.ofInstant() method
 
@@ -43,7 +43,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset time: 03:17:43.019Z
 
 ```

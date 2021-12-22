@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setText(String text)
 
 ```
@@ -19,7 +19,7 @@ public void setText(String text)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -51,7 +51,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current Text: GeeksForGeeks
 New text: Geeks for Geeks
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -43,7 +43,7 @@ public class OptionalDemo {
 
 **输出:**
 
-```
+```java
 Optional: Optional[456]
 Optional hashCode value: 456
 
@@ -51,7 +51,7 @@ Optional hashCode value: 456
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -75,7 +75,7 @@ public class OptionalDemo {
 
 **输出:**
 
-```
+```java
 Optional: Optional.empty
 Optional hashCode value: 0
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T> 
   Optional<T> of(T value)
 
@@ -21,7 +21,7 @@ public static <T>
 以下程序说明()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.of() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9455]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.of() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```

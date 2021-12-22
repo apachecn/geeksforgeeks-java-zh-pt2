@@ -5,7 +5,7 @@
 Java 中 OffsetDateTime 类的 **from()** 方法从时态对象中获取 OffsetDateTime 的一个实例。
 **语法:**
 
-```
+```java
 public static OffsetDateTime from(TemporalAccessor temporal)
 ```
 
@@ -17,7 +17,7 @@ public static OffsetDateTime from(TemporalAccessor temporal)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the from() method
 
 import java.time.OffsetDateTime;
@@ -38,7 +38,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 2018-12-12T08:24:12.442Z
 ```
 
@@ -46,7 +46,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the from() method
 
 import java.time.OffsetDateTime;
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 2018-12-12T08:24:15.077Z
 ```
 

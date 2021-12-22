@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input: (1, 2), (3, 5), (1, 1), (4, 2)
 Output: 15
 
@@ -22,7 +22,7 @@ Output: 90
 3.  现在，遍历数组，每次找到该区域。此外，记录最大面积。
 4.  返回矩形的最大面积。
 
-```
+```java
 // Java code to find maximum Area
 import java.io.*;
 import java.util.*;
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 200
 
 ```

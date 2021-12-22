@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hasNextLine()
 ```
 
@@ -20,7 +20,7 @@ public boolean hasNextLine()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // hasNextLine() method of Scanner class in Java
 // without parameter
@@ -56,14 +56,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 gfg 2 geeks!
 
 ```
 
 **程序二:**程序演示异常
 
-```
+```java
 // Java program to illustrate the
 // hasNextLine() method of Scanner class in Java
 // without parameter
@@ -106,7 +106,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception is: java.lang.IllegalStateException: Scanner closed
 
 ```

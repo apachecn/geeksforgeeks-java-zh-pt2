@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void putAll(Map<String, Object> toMerge)
 ```
 
@@ -22,7 +22,7 @@ public void putAll(Map<String, Object> toMerge)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java programs to Illustrate
 // the working of putAll() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Key1:value1
 Key2:value2
 Key3:value3
@@ -73,7 +73,7 @@ Key3:value3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java programs to Illustrate
 // the working of putAll() method
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Team1: India
 Team2: Sri Lanka
 Team3: Pakistan

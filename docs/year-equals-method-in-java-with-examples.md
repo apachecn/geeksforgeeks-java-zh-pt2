@@ -6,7 +6,7 @@ Java 中 Year 类的 equals()方法用于检查这个 Year 对象是否等于作
 
 **语法**:
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 下面的程序用 Java 说明了 Year 的 equals()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -73,7 +73,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 true
 
 ```

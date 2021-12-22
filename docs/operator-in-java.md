@@ -9,7 +9,7 @@
 需要记住的一点是，如果第一个条件为真，则不评估第二个条件，即它具有短路效应。广泛用于测试做决定的几个条件。
 **语法:**
 
-```
+```java
 Condition1 || Condition2
 
 // returns true if one of the conditions is true.
@@ -21,7 +21,7 @@ Condition1 || Condition2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // logical OR operator
 
@@ -54,7 +54,7 @@ public class operators {
 
 **Output:** 
 
-```
+```java
 a is an alphabet.
 
 ```

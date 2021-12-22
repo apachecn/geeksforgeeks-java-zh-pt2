@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.toString() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Pattern:geeks
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.toString() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Pattern:[* & # $ !]+\S
 
 ```

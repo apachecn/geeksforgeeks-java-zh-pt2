@@ -6,7 +6,7 @@ Java 中 year 类的 atMonth(int)方法将当前的 Year 对象与作为参数�
 
 **语法**:
 
-```
+```java
 public YearMonth atMonth(int month)
 
 ```
@@ -20,7 +20,7 @@ public YearMonth atMonth(int month)
 下面的程序用 Java 说明了一年中的第几个月(int)方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the atMonth(int) method
 
 import java.util.*;
@@ -43,14 +43,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2017-04
 
 ```
 
 **程序 2** :说明异常。
 
-```
+```java
 // Program to illustrate the atMonth(int) method
 
 import java.util.*;
@@ -78,7 +78,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 java.time.DateTimeException: Invalid value for MonthOfYear (valid values 1 - 12): 16
 
 ```

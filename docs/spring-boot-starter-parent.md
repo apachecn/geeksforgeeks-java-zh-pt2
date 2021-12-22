@@ -12,7 +12,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 **的父代**看起来如下
 
-```
+```java
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-dependencies</artifactId>
@@ -23,7 +23,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 必须在 pom.xml 中添加以下代码，以使用**spring-boot-starter-parent**作为父项目。
 
-```
+```java
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -36,7 +36,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 任何弹簧靴启动器都可以包含在**依赖项**部分中。如果我们省略了特定初学者的版本，Maven 将根据在**父级**部分定义的版本号下载 jar 文件。例如，如果我们需要一个数据访问层，那么我们应该在 pom.xml 文件中添加 **spring-data-jpa** 依赖启动器。
 
-```
+```java
 <dependencies>
   <dependency>
     <groupId>org.springframework.data</groupId>
@@ -49,7 +49,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 如果您需要由**spring-boot-starter-parent**提供的不同版本的依赖项，我们可以在 **<版本></版本>** 标签中添加特定版本，并将依赖项及其版本包含在 **dependencyManagement** 部分中。
 
-```
+```java
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -65,7 +65,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 我们知道**spring-boot-starter-parent**使用其中定义的属性来配置 java 编译器版本、Maven 插件版本和 Dependencies 版本。我们可以在**属性**部分覆盖 pom.xml 文件中的那些属性值。假设我们的项目需要不同版本的 **sl4j** 库和不同的 java 版本。
 
-```
+```java
 <properties>
     <java.version>1.8</java.version>
     <slf4j.version>1.7.30</slf4j.version>
@@ -76,7 +76,7 @@ Spring Boot Starter Parent 是一个为基于 Spring 的应用程序提供默认
 
 如果我们想从自定义父 POM 继承或者手动定义所有 Maven 配置，我们不会从**spring-boot-starter-parent**POM 继承。但是，我们仍然可以从**春季启动依赖项**提供的依赖项管理功能(不是插件管理)中受益，通过将依赖项包含在**依赖项**部分中作为导入范围。
 
-```
+```java
 <dependencyManagement>
     <dependencies>
         <dependency>

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int getMinimumIntegerDigits()
 ```
 
@@ -18,7 +18,7 @@ public int getMinimumIntegerDigits()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -49,14 +49,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The minimum Integer digits: 1
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The minimum integer digits: 1
 
 ```

@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation of the approach
 #include <iostream>
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 class GFG {
 
@@ -131,7 +131,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python 3 implementation of the approach
 
 # Function to return the count
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 
@@ -235,7 +235,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP implementation of the approach
 
@@ -290,7 +290,7 @@ echo minOperations($n, $a, $b, $c);
 
 ## java 描述语言
 
-```
+```java
 <script>
     // Javascript implementation of the approach
 
@@ -340,6 +340,6 @@ echo minOperations($n, $a, $b, $c);
 
 **Output:** 
 
-```
+```java
 6
 ```

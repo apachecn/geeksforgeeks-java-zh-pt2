@@ -6,7 +6,7 @@ Java 中 **ZoneId** 类的 **toString()** 方法用于使用 Id 将该区域作�
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.toString() method
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId: Europe/Paris
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.toString() method
 
@@ -72,7 +72,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId: Asia/Calcutta
 
 ```

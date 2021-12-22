@@ -6,7 +6,7 @@ java.util.TreeMap.containsKey()方法用于检查特定的键是否在 TreeMap �
 
 **语法:**
 
-```
+```java
 Tree_Map.containsKey(*key_element*)
 ```
 
@@ -17,7 +17,7 @@ Tree_Map.containsKey(*key_element*)
 下面的程序用来说明 java.util.TreeMap.containsKey()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Is the key '20' present? true
 Is the key '5' present? false
@@ -61,7 +61,7 @@ Is the key '5' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -96,7 +96,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 Is the key 'Welcomes' present? true
 Is the key 'World' present? false

@@ -35,7 +35,7 @@
 > 
 > **语法**:
 > 
-> ```
+> ```java
 > *Imgproc.warpAffine(Mat src, Mat dst, Mat M, Size dsize, int flags)*
 > ```
 > 
@@ -53,7 +53,7 @@
 > 
 > **语法:**
 > 
-> ```
+> ```java
 > *Imgproc.getRotationMatrix2D(Point center, double angle, double scale)*
 > ```
 > 
@@ -67,7 +67,7 @@
 > 
 > **语法:**
 > 
-> ```
+> ```java
 > *Core.rotate(Mat src, Mat dst, int rotateCode)*
 > ```
 > 
@@ -84,7 +84,7 @@
 > 
 > **语法:**
 > 
-> ```
+> ```java
 > *Core.flip(Mat src, Mat dst, int flipCode)*
 > ```
 > 
@@ -101,7 +101,7 @@
 > 
 > **语法:**
 > 
-> ```
+> ```java
 > *Core.transpose(Mat src, Mat dst)*
 > ```
 > 
@@ -118,7 +118,7 @@
 > 
 > 输入图像
 > 
-> ```
+> ```java
 > Pseudo Code:
 > double angle=45
 > Point rotPoint=new Point(src.cols()/2.0, src.rows()/2.0)
@@ -162,7 +162,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import org.opencv.core.Core;
 import org.opencv.core.Mat;

@@ -6,7 +6,7 @@ Java 中 **YearMonth 类的 **lengthOfYear()** 方法**用来返回这个 year-m
 
 **语法**:
 
-```
+```java
 public int lengthOfYear()
 
 ```
@@ -18,7 +18,7 @@ public int lengthOfYear()
 以下程序说明了 Java 中 YearMonth 的 lengthOfYear()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the lengthOfYear() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 366
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the lengthOfYear() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 365
 
 ```

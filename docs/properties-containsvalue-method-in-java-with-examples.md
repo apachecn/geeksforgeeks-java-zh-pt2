@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object contains(Object value)
 ```
 
@@ -18,7 +18,7 @@ public Object contains(Object value)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // contains(value) method.
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Is 10 present: true
 
@@ -59,7 +59,7 @@ Is 10 present: true
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // contains(value) method.
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 Is 200RS present: false
 

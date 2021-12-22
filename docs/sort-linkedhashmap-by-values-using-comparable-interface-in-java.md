@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```java
 int compare(T obj) ;
 ```
 
 插图:
 
-> ```
+> ```java
 > Input  : { GEEKS=1, geeks=3, for=2 }
 > Output : { GEEKS=1, for=2, geeks=3 }
 > 
@@ -28,7 +28,7 @@ int compare(T obj) ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort the values of LinkedHashMap
 
 // Importing required classes from
@@ -109,7 +109,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 LinkedHashMap without sorting : {Computer=1, Science=3, Portal=2}
 LinkedHashMap after sorting   : {Computer=1, Portal=2, Science=3}
 

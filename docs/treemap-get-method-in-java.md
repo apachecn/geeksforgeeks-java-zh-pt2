@@ -6,7 +6,7 @@ TreeMap 类的 java.util.TreeMap.get()方法用于检索或获取参数中提到
 
 **语法:**
 
-```
+```java
 Tree_Map.get(*Object key_element*)
 ```
 
@@ -17,7 +17,7 @@ Tree_Map.get(*Object key_element*)
 下面的程序说明了 java.util.TreeMap.get()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The Value is: Welcomes
 The Value is: Geeks
@@ -58,7 +58,7 @@ The Value is: Geeks
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The Value is: 20
 The Value is: 30

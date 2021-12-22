@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
 
 ```
@@ -29,7 +29,7 @@ public boolean isSupported(TemporalUnit unit)
 以下程序说明了发布支持(临时)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.isSupported(TemporalUnit) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2017-08
 MONTHS unit is supported by YearMonth class: true
 
@@ -68,7 +68,7 @@ MONTHS unit is supported by YearMonth class: true
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.isSupported(TemporalUnit) method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2022-12
 MILLENNIA unit is supported: true
 

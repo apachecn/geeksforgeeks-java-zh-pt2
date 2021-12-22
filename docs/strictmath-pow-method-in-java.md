@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static double pow(*double num1, double num2*)
 ```
 
@@ -22,7 +22,7 @@ public static double pow(*double num1, double num2*)
 **返回值:**该方法返回 num1^num2.运算的值
 **例:**
 
-```
+```java
 Input: num1 = 6
        num2 = 4
 Output: 1296.0
@@ -37,7 +37,7 @@ Output: 25.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.pow()
 import java.lang.*;
@@ -67,7 +67,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 12.0 to the power of 6.0 = 2985984.0
 12.0 raised to the power 0 = 1.0
 6.0 raised to the power 0 = 1.0
@@ -77,7 +77,7 @@ public class Geeks {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.pow()
 import java.lang.*;
@@ -100,6 +100,6 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 4.7 to the power of 2.5 = 47.88997880559147
 ```

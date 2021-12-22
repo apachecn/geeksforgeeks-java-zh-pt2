@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public int getPort()
 
 ```
 
 **语法**
 
-```
+```java
 url.getPort()
 
 ```
@@ -27,7 +27,7 @@ url.getPort()
 **示例 1**
 显示指定网址的端口
 
-```
+```java
 // Java program to show the use of the function getPort()
 import java.net.*;
 class Solution {
@@ -62,7 +62,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org:80
  Port=80
 
@@ -70,7 +70,7 @@ URL = https:// www.geeksforgeeks.org:80
 
 **示例 2:** 创建一个没有定义端口的 URL，然后尝试使用 getPort()函数获取端口。
 
-```
+```java
 // Java program to show the
 // use of the function getPort()
 
@@ -108,7 +108,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
  Port=-1
 

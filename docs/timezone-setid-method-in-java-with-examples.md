@@ -6,7 +6,7 @@ Java 中 **[时区类](https://www.geeksforgeeks.org/java-util-timezone-class-se
 
 **语法:**
 
-```
+```java
 public void setID(String *ID*)
 ```
 
@@ -17,7 +17,7 @@ public void setID(String *ID*)
 下面的程序说明了时区类的 setID()方法的使用:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate setID() method
 
 import java.util.*;
@@ -43,14 +43,14 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The ID is: GMT+05:00
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate setID() method
 
 import java.util.*;
@@ -75,7 +75,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The ID is: GMT+05:30
 
 ```

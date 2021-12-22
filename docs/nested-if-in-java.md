@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 if( condition ){
 
        statements ;
@@ -20,7 +20,7 @@ if( condition ){
 
 **语法:**
 
-```
+```java
 if( condition ){
 
       if( condition ){
@@ -39,7 +39,7 @@ if( condition ){
 
 ## Java
 
-```
+```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -62,7 +62,7 @@ class GFG
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -79,7 +79,7 @@ GeeksforGeeks
 
 ## Java
 
-```
+```java
 import java.util.*;
 import java.lang.*;
 
@@ -106,7 +106,7 @@ class GFG
 
 **输出**
 
-```
+```java
 GFG
 ```
 

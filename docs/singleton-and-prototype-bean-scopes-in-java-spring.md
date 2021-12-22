@@ -22,7 +22,7 @@ T3【春天的豆子范围】T5[春天的框架](https://www.geeksforgeeks.org/i
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate a bean
 // created in the spring framework
 package bean;

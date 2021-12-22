@@ -6,7 +6,7 @@ Java 中 offsetTime 类的 **getSecond()** 方法用于从这个 OffsetTime 实�
 
 **语法:**
 
-```
+```java
 public int getSecond()
 
 ```
@@ -19,7 +19,7 @@ public int getSecond()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getSecond() method
 
 import java.time.OffsetTime;
@@ -39,21 +39,21 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 second: 30
 
 ```
 
 **输出:**
 
-```
+```java
 second: 30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getSecond() method
 
 import java.time.OffsetTime;
@@ -73,7 +73,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 second: 50
 
 ```

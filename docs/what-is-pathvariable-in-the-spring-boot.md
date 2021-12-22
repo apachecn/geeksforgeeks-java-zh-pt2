@@ -16,7 +16,7 @@ spring boot 中的 Path 变量借助@pathvariable 标注表示传入请求中不
 
 **第二步:**按要求填写详细内容。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -37,7 +37,7 @@ Dependencies: Spring Web
 
 **例 1:**Controller.java
 
-```
+```java
 @RestController
 
 // Class
@@ -67,7 +67,7 @@ public class Controller {
 
 **输出:**
 
-```
+```java
 Aayush
 23
 ```

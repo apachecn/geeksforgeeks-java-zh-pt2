@@ -6,7 +6,7 @@ java.util.Set.isEmpty()方法用于检查集合是否为空。如果集合为空
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -16,7 +16,7 @@ boolean isEmpty()
 
 下面的程序说明了 java.util.Set.isEmpty()方法:
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.io.*;
 import java.util.*;
@@ -51,7 +51,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Welcome, To]
 Is the set empty? false
 Is the set empty? true

@@ -19,7 +19,7 @@
 
     **例如:**
 
-    ```
+    ```java
     SET PATH=C:\Program Files\Java\jdk1.7.0_79\bin
     ```
 
@@ -65,6 +65,6 @@
 
         ![](img/567f09755ca5e8058a0c0d79a0e17d18.png)
 
-        ```
+        ```java
         In this way Temporary and Permanent Path for Java can be set in Windows.
         ```

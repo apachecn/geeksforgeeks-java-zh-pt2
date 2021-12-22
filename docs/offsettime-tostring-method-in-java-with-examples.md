@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **toString()** 方法将该日期输出为字符串�
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -17,7 +17,7 @@ public String toString()
 
 下面的程序说明了 toString()方法:
 
-```
+```java
 // Java program to demonstrate the toString() method
 
 import java.time.OffsetTime;
@@ -37,7 +37,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Local-time in string format: 04:04:24.595Z
 
 ```

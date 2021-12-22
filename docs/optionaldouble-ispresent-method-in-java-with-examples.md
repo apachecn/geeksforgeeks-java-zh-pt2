@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isPresent()
 
 ```
@@ -19,7 +19,7 @@ public boolean isPresent()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.isPresent() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalDouble has a value= true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.isPresent() method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value absent
 
 ```

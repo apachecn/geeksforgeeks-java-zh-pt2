@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```java
 public abstract ShortBuffer duplicate()
 ```
 
@@ -18,7 +18,7 @@ public abstract ShortBuffer duplicate()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ShortBuffer:  [100, 400, 210, 0, 0, 0, 0, 0, 0, 0]
 Duplicate ShortBuffer: [100, 400, 210, 0, 0, 0, 0, 0, 0, 0]
 are sb1 and sb2 equal: true
@@ -73,7 +73,7 @@ are sb1 and sb2 equal: true
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -126,7 +126,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ShortBuffer:  [100, 400, 210, 0, 0, 0, 0, 0, 0, 0]
 Duplicate ShortBuffer: [100, 400, 210, 0, 0, 0, 0, 0, 0, 0]
 are sb1 and sb2 equal: true

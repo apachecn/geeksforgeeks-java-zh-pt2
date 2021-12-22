@@ -8,7 +8,7 @@
 
 **在爪哇演示打滑情况的程序**
 
-```
+```java
 // Java program to demonstrate
 // slipped conditions
 
@@ -100,7 +100,7 @@ class ReadingThread extends Thread {
 
 **输出:**
 
-```
+```java
 Characters left! I can process the string
 Thread2 trying to process the string
 Thread2 H

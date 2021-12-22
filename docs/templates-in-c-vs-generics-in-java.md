@@ -13,7 +13,7 @@
 3.  C++ requires template sources to be added to their titles.
 4.  Template specialization can be realized, that is, the specific types and methods of templates can be realized.
 
-```
+```java
 // CPP program to illustrate Templates
 #include <iostream>
 #include <string.h>
@@ -52,7 +52,7 @@ int main()
 
 **输出:**
 
-```
+```java
 Output Values: Generics vs Templates
 Output Values: 9
 

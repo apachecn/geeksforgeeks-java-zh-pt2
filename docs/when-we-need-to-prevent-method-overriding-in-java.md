@@ -45,7 +45,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustatte Prevention method overriding
 
 // Importing input output classes
@@ -124,7 +124,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Maximum speed allowed
 Car condition good
 Maintenance not required

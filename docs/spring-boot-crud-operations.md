@@ -39,7 +39,7 @@ H2 是一个用 Java 编写的关系数据库管理系统。它可以嵌入到 J
 
 插图:
 
-```
+```java
 public interface DepartmentRepository extends CrudRepository<Department, Long> { }
 ```
 
@@ -63,7 +63,7 @@ public interface DepartmentRepository extends CrudRepository<Department, Long> {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -162,7 +162,7 @@ public interface DepartmentRepository extends CrudRepository<Department, Long> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Department.java File
 
 // Importing required package modules
@@ -204,7 +204,7 @@ public class Department {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.amiya.springbootdemoproject.repository;
 
 import com.amiya.springbootdemoproject.entity.Department;
@@ -225,7 +225,7 @@ public interface DepartmentRepository extends CrudRepository<Department, Long> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DepartmentService.java File
 
 // Importing packages
@@ -258,7 +258,7 @@ public interface DepartmentService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DepartmentServiceImpl.java
 // File
 

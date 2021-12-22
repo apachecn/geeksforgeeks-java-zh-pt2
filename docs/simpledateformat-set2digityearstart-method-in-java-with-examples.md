@@ -5,7 +5,7 @@
 **简单日期格式类**的**设置 2 位数开始()**方法用于设置 100 年期间 2 位数的年份，并将其解释为从用户特定的日期开始。该方法解析日期并将日期设置在从*起始 _ 日期*到*(起始 _ 日期+ 100)* 年的范围内。
 **语法:**
 
-```
+```java
 public void set2DigitYearStart(Date *starting_Date*)
 ```
 
@@ -16,7 +16,7 @@ public void set2DigitYearStart(Date *starting_Date*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate set2DigitYearStart() method
 
 import java.text.*;
@@ -54,7 +54,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Starting Time: Thu Oct 27 00:00:00 UTC 2016
 The New Time: Mon Jun 12 00:00:00 UTC 1916
 ```
@@ -63,7 +63,7 @@ The New Time: Mon Jun 12 00:00:00 UTC 1916
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate set2DigitYearStart() method
 
 import java.text.*;
@@ -101,7 +101,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The Starting Time: Mon Jan 28 00:00:00 UTC 2019
 The New Time: Sat May 12 00:00:00 UTC 1917
 ```

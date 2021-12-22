@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Year minus(long amountToSubtract, TemporalUnit unit)
 
 ```
@@ -28,7 +28,7 @@ public Year minus(long amountToSubtract, TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minus(long, unit) method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After subtraction year: 1999
 
@@ -67,7 +67,7 @@ After subtraction year: 1999
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minus(long, unit) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2022
 After subtraction year: 1992
 

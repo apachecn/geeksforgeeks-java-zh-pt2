@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // We can initialize ViewSwitcher in the below way , where
 // simpleViewSwitcher1
 // is the id of ViewSwitcher in xml file. Usually xml file
@@ -112,7 +112,7 @@ ViewSwitcher simpleViewSwitcher1 = (ViewSwitcher)findViewById(R.id.simpleViewSwi
 
 ## 可扩展标记语言
 
-```
+```java
 <ViewSwitcher
 android:id="@+id/simpleViewSwitcher1"
 android:layout_width="match_parent"
@@ -131,7 +131,7 @@ android:background="#0F9D58">
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // set any color that you want
 simpleViewSwitcher1.setBackgroundColor(Color.<Your favorite color>);
 ```
@@ -154,7 +154,7 @@ simpleViewSwitcher1.setBackgroundColor(Color.<Your favorite color>);
 
 ## 可扩展标记语言
 
-```
+```java
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -237,7 +237,7 @@ simpleViewSwitcher1.setBackgroundColor(Color.<Your favorite color>);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;

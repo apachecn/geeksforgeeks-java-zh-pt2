@@ -6,7 +6,7 @@ Java 中 Period 类的 plusDays()方法用于将天数添加到此期间。此�
 
 **语法:**
 
-```
+```java
 public Period plusDays(long daysToAdd)
 ```
 
@@ -20,7 +20,7 @@ public Period plusDays(long daysToAdd)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function plusDays()
 // to subtract the number of days from given periods
 import java.time.Period;
@@ -53,14 +53,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y11M18D
 
 ```
 
 **程序二**:期间可以为负数。
 
-```
+```java
 // Java code to show the function plusDays()
 // to subtract the number of days from given periods
 import java.time.Period;
@@ -94,7 +94,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y-11M8D
 
 ```

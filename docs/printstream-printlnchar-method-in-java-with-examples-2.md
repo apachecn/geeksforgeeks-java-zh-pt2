@@ -6,7 +6,7 @@ Java 中 **[【打印流】](https://www.geeksforgeeks.org/java-io-printstream-c
 
 **语法:**
 
-```
+```java
 public void println(char charValue)
 ```
 
@@ -18,7 +18,7 @@ public void println(char charValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream println(char) method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream println(char) method
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 G
 
 ```

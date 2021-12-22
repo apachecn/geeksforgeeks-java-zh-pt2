@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <X> T
   orElseThrow(Supplier<X> exceptionSupplier)
   throws X extends Throwable
@@ -22,7 +22,7 @@ public <X> T
 下面的程序举例说明了 orElseThrow()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElseThrow() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9455]
 Value by orElseThrow(ArithmeticException::new) method: 9455
 
@@ -62,7 +62,7 @@ Value by orElseThrow(ArithmeticException::new) method: 9455
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.orElseThrow() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 java.lang.ArithmeticException
 

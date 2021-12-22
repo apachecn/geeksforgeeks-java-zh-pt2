@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 format()方法用于根据作为参数传递给此方�
 
 **语法**:
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 ```
 
@@ -17,7 +17,7 @@ public String format(DateTimeFormatter formatter)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -42,6 +42,6 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 17/08
 ```

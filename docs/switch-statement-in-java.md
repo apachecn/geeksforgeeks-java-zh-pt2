@@ -5,7 +5,7 @@
 switch 语句是一个多路分支语句。它提供了一种简单的方法，可以根据表达式的值将执行分派到代码的不同部分。基本上，表达式可以是字节、短、字符和 int 原语数据类型。从 JDK7 开始，它还可以处理枚举类型(java 中的 [Enums](https://www.geeksforgeeks.org/enum-in-java/) )、 [String](https://www.geeksforgeeks.org/string-class-in-java/) 类和 [Wrapper](https://www.geeksforgeeks.org/primitive-wrapper-classes-are-immutable-in-java/) 类。
 **开关格语法:**
 
-```
+```java
 // switch statement 
 switch(expression)
 {
@@ -46,7 +46,7 @@ switch(expression)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate switch case
 // with primitive(int) data type
 public class Test {
@@ -88,7 +88,7 @@ public class Test {
 
 输出:
 
-```
+```java
 Friday
 
 ```
@@ -99,7 +99,7 @@ As break 语句是可选的。如果我们忽略中断，执行将继续到下�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate switch case
 // with multiple cases without break statements
 public class Test {
@@ -161,7 +161,7 @@ public class Test {
 
 输出:
 
-```
+```java
 Tuesday is a Weekday
 
 ```
@@ -172,7 +172,7 @@ Tuesday is a Weekday
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // nested switch case statement
 public class Test {
@@ -207,7 +207,7 @@ public class Test {
 
 输出:
 
-```
+```java
 elective courses : Machine Learning, Big Data
 
 ```

@@ -8,7 +8,7 @@ Java 中**堆栈类**的 **toArray()** 方法用于形成一个与堆栈相同�
 
 **语法:**
 
-```
+```java
 Object[] arr = Stack.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = Stack.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [Welcome, To, Geeks, For, Geeks]
 The array is:
 Welcome
@@ -66,7 +66,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -100,7 +100,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [10, 15, 30, 20, 5, 25]
 The array is:
 10

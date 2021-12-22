@@ -7,7 +7,7 @@
 **注意:**每个映射的流在其内容被放入该流后被关闭。如果映射的流为空，则改为使用空流。
 **语法:**
 
-```
+```java
 LongStream flatMapToLong(Function<**?** super T, **?** extends LongStream> mapper)
 
 Where, LongStream is a sequence of primitive
@@ -20,7 +20,7 @@ returns the new stream.
 
 **例 1 :** flatMapToLong()的解析字符串操作为 Long。
 
-```
+```java
 // Java code for Stream flatMapToLong
 // (Function mapper) to get an LongStream
 // consisting of the results of replacing
@@ -49,7 +49,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1
 2
 3
@@ -60,7 +60,7 @@ class GFG {
 
 **例 2 :** flatMapToLong()带有字符串长度映射字符串的操作。
 
-```
+```java
 // Java code for Stream flatMapToLong
 // (Function mapper) to get an LongStream
 // consisting of the results of replacing
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 3
 13
@@ -100,7 +100,7 @@ class GFG {
 
 **例 3 :** flatMapToLong()函数，具有返回流的操作。
 
-```
+```java
 // Java code for Stream mapToLong
 // (ToLongFunction mapper) to get a
 // LongStream by applying the given function
@@ -128,7 +128,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Exception in thread "main" java.lang.NumberFormatException: For input string: "5.36"
 
 ```

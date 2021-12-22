@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration elements()
 ```
 
@@ -17,7 +17,7 @@ public Enumeration elements()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // elements() method.
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Current Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 The enumeration of values are:
 500

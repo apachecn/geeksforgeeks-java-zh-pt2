@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object obj)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -68,14 +68,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Both dates are equal
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Both dates are not equal
 
 ```

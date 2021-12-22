@@ -5,7 +5,7 @@
 Java 中 [SortedSet 接口的 last()方法](https://www.geeksforgeeks.org/sortedset-java-examples/)用于返回最后一个，即当前在这个集合中最高的元素。
 **语法** :
 
-```
+```java
 E last()
 ```
 
@@ -18,7 +18,7 @@ E last()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -46,7 +46,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Greatest element in set is : 9
 ```
 
@@ -54,7 +54,7 @@ Greatest element in set is : 9
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the last()
 // method of SortedSet interface
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.util.NoSuchElementException
 ```
 

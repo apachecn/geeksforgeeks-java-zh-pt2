@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 atEndOfMonth()方法用于根据使用它的 YearMonth
 
 **语法**:
 
-```
+```java
 public LocalDate atEndOfMonth()
 
 ```
@@ -18,7 +18,7 @@ public LocalDate atEndOfMonth()
 下面的程序说明了 Java 中的一年一月的方法:
 **程序 1** :
 
-```
+```java
 // Programt to illustrate the atEndOfMonth() method
 
 import java.util.*;
@@ -43,14 +43,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2017-08-31
 
 ```
 
 **程序二**:这个方法也照顾闰年。
 
-```
+```java
 // Programt to illustrate the atEndOfMonth() method
 
 import java.util.*;
@@ -76,7 +76,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2016-02-29
 
 ```

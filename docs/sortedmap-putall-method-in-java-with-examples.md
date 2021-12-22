@@ -6,7 +6,7 @@ Java 中 [SortedMap 接口](https://www.geeksforgeeks.org/sortedmap-java-example
 
 **语法:**
 
-```
+```java
 void putAll(Map m)
 ```
 
@@ -22,7 +22,7 @@ void putAll(Map m)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the implementation of
 // putAll method in SortedMap interface
 
@@ -61,7 +61,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine}
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine, 10=Ten, 30=Thirty, 50=Fifty}
 ```
@@ -70,7 +70,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the implementation of
 // putAll method in SortedMap interface
 
@@ -108,7 +108,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Nine}
 {1=One, 10=Ten, 3=Three, 30=Thirty, 5=Five, 50=Fifty, 7=Seven, 9=Nine}
 ```

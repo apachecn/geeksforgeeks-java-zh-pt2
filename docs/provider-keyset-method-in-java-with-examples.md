@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Set keySet()
 ```
 
@@ -16,7 +16,7 @@ public Set keySet()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // keySet() method
 
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 unmodifiable Set view : 
 
 Value is : Alg.Alias.Signature.SHA1/DSA
@@ -82,7 +82,7 @@ Value is : Signature.SHA256withDSA
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // keySet() method
 
@@ -130,7 +130,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 unmodifiable Set view : 
 
 Value is : Alg.Alias.Signature.SHA1/DSA

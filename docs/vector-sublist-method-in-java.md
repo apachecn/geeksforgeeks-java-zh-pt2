@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.subList(int low_index, int up_index)
 ```
 
@@ -21,7 +21,7 @@ Vector.subList(int low_index, int up_index)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate subList() method
 // of Vector class
 
@@ -71,7 +71,7 @@ public class GFG {
 
 ****Output:** 
 
-```
+```java
 The Vector is: [5, 1, 50, 10, 20, 6, 20, 18, 9, 30]
 The resultant values within the sub list: [50, 10, 20]
 ```** 
@@ -80,7 +80,7 @@ The resultant values within the sub list: [50, 10, 20]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to illustrate subList() method
 // of Vector class
 
@@ -125,7 +125,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 The Vector is: [Welcome, To, Geek, For, Geeks]
 The resultant values within the sub list: [To, Geek, For, Geeks]
 ```**

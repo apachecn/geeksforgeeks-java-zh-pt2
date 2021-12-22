@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public StringBuilder deleteCharAt(int index)
 ```
 
@@ -20,7 +20,7 @@ public StringBuilder deleteCharAt(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the deleteCharAt() Method.
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Before removal String = WelcomeGeeks
 After removal of character at index 8 = WelcomeGeks
 
@@ -59,7 +59,7 @@ After removal of character at index 8 = WelcomeGeks
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the deleteCharAt() Method.
 
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Before removal String = GeeksforGeeks
 After removal of Character from index=3 String becomes => GeesforGeeks
 After removal of Character from index=5 String becomes => GeesfrGeeks
@@ -109,7 +109,7 @@ After removal of Character from index=5 String becomes => GeesfrGeeks
 
 **示例 3:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by the deleteCharAt() Method.
 
@@ -140,7 +140,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: String index out of range: 14
 
 ```

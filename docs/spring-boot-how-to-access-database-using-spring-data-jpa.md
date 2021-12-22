@@ -17,7 +17,7 @@
 2.  下载入门项目并将其导入到 IDE 中。
 3.  项目同步后，我们将创建一个模型类 *Company* ，注释 *@Entity* ，这意味着这个类被映射到数据库中的表。添加数据类型与数据库中的列相同的数据成员，并生成构造函数和 getters。将注释 *@Id* 添加到数据成员中，该数据成员将作为表中的主键属性，并将*@ generated value(strategy = generationtype . auto)*添加到数据成员中，以便自动增加主键属性。下面是这个类的实现:
 
-    ```
+    ```java
     @Entity
     public class Company {
 
@@ -96,7 +96,7 @@
 
 4.  Now, create an [interface](https://www.geeksforgeeks.org/interfaces-in-java/) *CompanyRepository* with the annotation *@Repository* which will implement the *CrudRepository*. The functions to perform the CRUD operations will be defined in the interface as shown below:
 
-    ```
+    ```java
     @Repository
     public interface CompanyRepository
         extends CrudRepository<Company,
@@ -112,7 +112,7 @@
 
 5.  现在，我们将创建 REST API(GET、POST、PUT、DELETE)，如下所示:
 
-    ```
+    ```java
     @RestController
     public class CompanyController {
         @Autowired

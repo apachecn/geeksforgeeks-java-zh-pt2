@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void clear()
 ```
 
@@ -23,7 +23,7 @@ public void clear()
 
 **例 1:**
 
-```
+```java
 // Java Program to Demonstrate clear() method
 // of PriorityBlockingQueue.
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 After Adding  Numbers:
 PriorityBlockingQueue:[56434788, 78758575, 63447688]
 
@@ -74,7 +74,7 @@ PriorityBlockingQueue:[]
 
 **示例 2:** 说明包含名称列表的优先级阻塞队列的清除方法。
 
-```
+```java
 // Java Program to Demonstrate clear() method
 // of PriorityBlockingQueue.
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 List of Names:
 PriorityBlockingQueue: [Argha, Tandrima, Arka]
 

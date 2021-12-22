@@ -6,7 +6,7 @@
 
     **语法**:
 
-    ```
+    ```java
     public static final NumberFormat getCurrencyInstance()
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -54,14 +54,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Canadian Dollar
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -92,7 +92,7 @@
 
     **Output:**
 
-    ```
+    ```java
     US Dollar
 
     ```
@@ -103,7 +103,7 @@
 
     **语法**:
 
-    ```
+    ```java
     public static NumberFormat getCurrencyInstance?(Locale inLocale)
     ```
 
@@ -115,7 +115,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
     import java.text.NumberFormat;
@@ -145,7 +145,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Canadian Dollar
 
     ```

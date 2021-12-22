@@ -6,7 +6,7 @@ java.util.TreeMap.putAll()是 TreeMap 类的一个内置方法，用于复制操
 
 **语法:**
 
-```
+```java
 new_tree_map.putAll(*exist_tree_map*)
 ```
 
@@ -22,7 +22,7 @@ new_tree_map.putAll(*exist_tree_map*)
 下面的程序说明了 java.util.TreeMap.putAll()方法的工作原理:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -58,7 +58,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The new map looks like this: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
@@ -66,7 +66,7 @@ The new map looks like this: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the putAll() method
 import java.util.*;
 
@@ -103,7 +103,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The new map looks like this: {4=15, Geeks=20, Welcomes=25, You=30}
 

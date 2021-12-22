@@ -7,7 +7,7 @@
 
 ****语法:****
 
-```
+```java
 **public Splitter trimResults()** 
 ```
 
@@ -15,7 +15,7 @@
 
 ****例 1:****
 
-```
+```java
 **// Java code to show implementation of
 // trimResults() method
 // of Guava's Splitter Class
@@ -48,7 +48,7 @@ class GFG {
 
 ****Output:**
 
-```
+```java
 Hello
 geeks
 for
@@ -59,7 +59,7 @@ noida
 
 ****例 2:****
 
-```
+```java
 **// Java code to show implementation of
 // trimResults() method
 // of Guava's Splitter Class
@@ -90,7 +90,7 @@ class GFG {
 
 ****Output:**
 
-```
+```java
 Everyone
 
 should

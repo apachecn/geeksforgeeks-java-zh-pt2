@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static double nextDown(*double num*)
 ```
 
@@ -18,7 +18,7 @@ public static double nextDown(*double num*)
 
 **示例:**
 
-```
+```java
 Input: num = 7.16
 Output: 7.159999999999999
 ```
@@ -29,7 +29,7 @@ Output: 7.159999999999999
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.nextDown() Method
 
@@ -74,7 +74,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Next down value of 62.9 = 62.89999999999999
 The Next down value of 16.6226 = 16.622599999999995
 The Next down value of 0.0 = -4.9E-324
@@ -86,7 +86,7 @@ The Next down value of 0.0 = -4.9E-324
 
 **语法:**
 
-```
+```java
 public static float nextDown(*float num*)
 ```
 
@@ -96,7 +96,7 @@ public static float nextDown(*float num*)
 
 **示例:**
 
-```
+```java
 Input: num = 1.2f
 Output: 1.1999999
 ```
@@ -107,7 +107,7 @@ Output: 1.1999999
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.nextDown() Method
 
@@ -152,7 +152,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The Next down value of 16.622 = 16.621998
 The Next down value of 91.11 = 91.10999
 The Next down value of 0.0 = -1.4E-45

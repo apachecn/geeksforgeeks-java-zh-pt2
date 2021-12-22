@@ -7,7 +7,7 @@
 **瞬态**关键字对于满足安全约束起着重要作用。有各种现实生活中的例子，我们不想把私人数据保存在文件中。 **transient** 关键字的另一个用途是不序列化变量，该变量的值可以使用其他序列化对象或系统(如人的年龄、当前日期等)来计算/导出。
 实际上，我们只序列化那些表示实例状态的字段，毕竟序列化就是将对象的状态保存到文件中。序列化时将**瞬态**关键字与类的私有机密字段一起使用是一个好习惯。
 
-```
+```java
 // A sample class that uses transient keyword to
 // skip their serialization.
 class Test implements Serializable
@@ -31,7 +31,7 @@ class Test implements Serializable
 
 **瞬态和最终:**最终变量直接按其值序列化，因此将最终变量声明为**瞬态**没有任何用处/影响。但是没有编译时错误。
 
-```
+```java
 // Java program to demonstrate transient keyword
 // Filename Test.java
 import java.io.*;
@@ -71,7 +71,7 @@ class Test implements Serializable
 
 输出:
 
-```
+```java
 i = 10
 j = 20
 k = 0

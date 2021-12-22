@@ -8,7 +8,7 @@
 输出的第一行显示了由 toString()方法为该对象返回的相同字符串，这意味着异常类名，后面的几行表示之前由 fillInStackTrace()方法记录的数据。
 **语法:**
 
-```
+```java
 public void printStackTrace()
 ```
 
@@ -18,7 +18,7 @@ public void printStackTrace()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace () Method.
 
@@ -65,7 +65,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.Exception
     at GFG.testException1(File.java:36)
     at GFG.main(File.java:15)
@@ -78,7 +78,7 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace () Method.
 
@@ -125,7 +125,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.Exception
     at GFG.testException1(File.java:36)
     at GFG.main(File.java:15)
@@ -139,7 +139,7 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException
 **Java.lang.Throwable 类**的**print stack trace(print stream s)**方法用于打印该 Throwable 以及其他详细信息，如指定打印流发生异常的类名和行号。此方法的工作方式与 printStackTrace()相同，但区别仅在于它打印到作为参数传递的指定打印流。
 **语法:**
 
-```
+```java
 public void printStackTrace(PrintStream s)
 ```
 
@@ -150,7 +150,7 @@ public void printStackTrace(PrintStream s)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace(PrintStream s) Method.
 
@@ -181,7 +181,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.ArrayIndexOutOfBoundsException: 2
     at GFG.main(File.java:18)
 ```
@@ -190,7 +190,7 @@ java.lang.ArrayIndexOutOfBoundsException: 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace(PrintStream s) Method.
 
@@ -232,7 +232,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 java.lang.Exception: System is Down
     at GFG.testException1(File.java:35)
     at GFG.main(File.java:15)
@@ -243,7 +243,7 @@ java.lang.Exception: System is Down
 **Java.lang.Throwable 类**的**print stack trace(print Writer s)**方法用于打印该 Throwable 以及其他详细信息，如类名称和行号，其中指定的打印编写器发生了异常。此方法的工作方式与 printStackTrace()相同，但不同之处仅在于它打印到作为参数传递的指定打印编写器。
 **语法:**
 
-```
+```java
 public void printStackTrace(PrintWriter s)
 ```
 
@@ -254,7 +254,7 @@ public void printStackTrace(PrintWriter s)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace(PrintWriter s) Method.
 
@@ -293,7 +293,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Error:
 java.lang.ArithmeticException: / by zero
     at GFG.main(File.java:17)
@@ -303,7 +303,7 @@ java.lang.ArithmeticException: / by zero
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the printStackTrace(PrintWriter s) Method.
 
@@ -349,7 +349,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Error:
 java.lang.Exception: Waiting for input but no response
     at GFG.testException1(File.java:38)

@@ -8,7 +8,7 @@ Java 中 TreeSet 类的 **higher(E ele)** 方法用于返回该集合中最少�
 
 **语法**:
 
-```
+```java
 public E higher(E ele)
 ```
 
@@ -24,7 +24,7 @@ public E higher(E ele)
 以下程序说明了上述方法:
 **程序 1** :
 
-```
+```java
 // Java program to illustrate the
 // TreeSet higher() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 11
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // TreeSet higher() method
 
@@ -78,14 +78,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 null
 
 ```
 
 **程序 3** :演示空指针异常的程序。
 
-```
+```java
 // Java program to illustrate the
 // TreeSet higher() method
 
@@ -117,14 +117,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.NullPointerException
 
 ```
 
 **程序 4** :演示 ClassCastException。
 
-```
+```java
 // Java program to illustrate the
 // TreeSet higher() method
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.lang.ClassCastException: java.util.LinkedList cannot be cast to java.lang.Comparable
 
 ```

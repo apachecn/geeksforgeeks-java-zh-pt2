@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **equals()** 方法检查这个时间是否等于另�
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object obj)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the equals() method
 
 import java.time.OffsetTime;
@@ -53,7 +53,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 15:30:30+07:00
 time1 when compared to time2 returns: true
@@ -62,7 +62,7 @@ time1 when compared to time2 returns: true
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the equals() method
 
 import java.time.OffsetTime;
@@ -96,7 +96,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 12:10:30+07:00
 time1 when compared to time2 returns: false

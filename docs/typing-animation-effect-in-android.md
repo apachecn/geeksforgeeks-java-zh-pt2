@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@
 
 转到**MainActivity.java**文件，参考以下代码。
 
-```
+```java
 // Here we are adding the first letter
 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -79,7 +79,7 @@ new Handler().postDelayed(new Runnable() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;

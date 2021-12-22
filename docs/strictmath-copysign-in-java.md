@@ -5,7 +5,7 @@
 1.  The **copySign(*float mvalue, float sign*)** is an inbuilt method of StrictMath class in Java which is used to get the first floating-point argument with the sign of the second floating-point argument. A NaN sign argument in this function is considered as a positive.
     **Syntax :**
 
-    ```
+    ```java
     public static float copySign(*float mvalue, float sign*)
     ```
 
@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     mvalue = 5
     sign = -1
@@ -29,7 +29,7 @@
 
     下面的程序说明了 Java . lang . strict math . copy sign(*float mv value，float sign* )方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.copySign(float mvalue, float sign)
     import java.lang.*;
@@ -57,7 +57,7 @@
 2.  The **copySign(*double magnitude, double sign*)** is an inbuilt method of StrictMath class in Java which is used to get the first double argument with the sign of the second double argument. A NaN sign argument in this function is considered as a positive.
     **Syntax :**
 
-    ```
+    ```java
     public static double copySign(*double mvalue, double sign*)
     ```
 
@@ -69,7 +69,7 @@
     **返回值:**该方法返回一个带大小和符号的值。
     **例:**
 
-    ```
+    ```java
     Input: 
     mvalue = 6.9
     sign = -1
@@ -80,7 +80,7 @@
 
     下面程序举例说明了 Java . lang . strict math . copy sign(*双量级，双符号*)方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.copySign(double magnitude, double sign)
     import java.lang.*;

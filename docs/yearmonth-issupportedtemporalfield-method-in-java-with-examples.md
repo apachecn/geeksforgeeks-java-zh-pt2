@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 
 ```
@@ -29,7 +29,7 @@ public boolean isSupported(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.isSupported(TemporalField) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2017-08
 PROLEPTIC_MONTH Field is supported by YearMonth class: true
 
@@ -68,7 +68,7 @@ PROLEPTIC_MONTH Field is supported by YearMonth class: true
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.isSupported(TemporalField) method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth :2017-08
 HOUR_OF_DAY Field is supported by YearMonth class: false
 

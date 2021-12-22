@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : 7254
 Output : Yes
 39 * 186 = 7254\. We can notice that
@@ -22,7 +22,7 @@ Output : Yes
 
 ## c++
 
-```
+```java
 // C++ code to check the number
 // is Pandigital Product or not
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 ## Java
 
-```
+```java
 // Java code to check the number
 // is Pandigital Product or not
 import java.io.*;
@@ -121,7 +121,7 @@ class GFG {
 
 T2T18】c#T20
 
-```
+```java
 // C# code to check the number
 // is Pandigital Product or not.
 using System;
@@ -177,7 +177,7 @@ T4T26】
 
 **输出:**
 
-```
+```java
 yes
 
 ```

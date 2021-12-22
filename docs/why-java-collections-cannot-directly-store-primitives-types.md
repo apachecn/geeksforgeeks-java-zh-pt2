@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 Invalid : vector.addElement(3) ;
 Valid   : vector.addElelment("3") ;
 ```
@@ -50,7 +50,7 @@ Valid   : vector.addElelment("3") ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing input output classes
 import java.io.*;
 
@@ -72,7 +72,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 i=21
 j=5
 ```
@@ -81,7 +81,7 @@ j=5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Import input output classes
 import java.io.*;
 

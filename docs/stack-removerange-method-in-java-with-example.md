@@ -5,7 +5,7 @@
 Java 中**栈**的 **removeRange()** 方法用于从栈对象中移除指定范围内的所有元素。它将任何后续元素向左移动。此调用通过(toIndex-fromIndex)元素来缩短堆栈，其中 toIndex 是结束索引，fromIndex 是开始索引，所有元素都将从该索引中移除。(如果 toIndex==fromIndex，此操作无效)
 **语法:**
 
-```
+```java
 removeRange(int fromIndex, int toIndex)
 ```
 
@@ -21,7 +21,7 @@ removeRange(int fromIndex, int toIndex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of removeRange() method
 
@@ -60,7 +60,7 @@ public class GFG extends Stack<Integer> {
 
 **Output:** 
 
-```
+```java
 The stack before using removeRange:[1, 2, 3, 12, 9, 13]
 The stack after using removeRange:[3, 12, 9, 13]
 ```
@@ -69,7 +69,7 @@ The stack after using removeRange:[3, 12, 9, 13]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the error in
 // working of removeRange() method
 
@@ -107,6 +107,6 @@ public class GFG extends Stack<Integer> {
 
 **Output:** 
 
-```
+```java
 java.lang.ArrayIndexOutOfBoundsException
 ```

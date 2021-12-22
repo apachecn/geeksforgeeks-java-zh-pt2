@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = {2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12}
 Output: 3 3 3 3 2 2 2 12 12 4 5
 Explanation :
@@ -43,7 +43,7 @@ Output: 2 2 2 2 1 1 3 3 4 4 5 6 7
 
 **程序:**
 
-```
+```java
 import java.util.*;
 
 public class GFG {
@@ -111,7 +111,7 @@ class SortComparator implements Comparator<Integer> {
 
 **Output:**
 
-```
+```java
 2 2 2 2 1 1 3 3 4 4 5 6 7
 
 ```

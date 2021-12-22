@@ -12,7 +12,7 @@
 
 **申报:**
 
-```
+```java
 public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable
 
 where E is the type of elements held in this queue
@@ -68,7 +68,7 @@ where E is the type of elements held in this queue
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // working of PriorityQueue
 import java.util.*;
@@ -101,7 +101,7 @@ class PriorityQueueDemo {
 
 **输出:**
 
-```
+```java
 10
 10
 15
@@ -116,7 +116,7 @@ class PriorityQueueDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements
 // to a PriorityQueue
 import java.util.*;
@@ -139,7 +139,7 @@ public class PriorityQueueDemo {
 
 **输出:**
 
-```
+```java
 [For, Geeks, Geeks]
 
 ```
@@ -148,7 +148,7 @@ public class PriorityQueueDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove elements
 // from a PriorityQueue
 
@@ -181,7 +181,7 @@ public class PriorityQueueDemo {
 
 **输出:**
 
-```
+```java
 Initial PriorityQueue [For, Geeks, Geeks]
 After Remove - [For, Geeks]
 Poll Method - For
@@ -193,7 +193,7 @@ Final PriorityQueue - [Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to access elements
 // from a PriorityQueue
 import java.util.*;
@@ -220,7 +220,7 @@ class PriorityQueueDemo {
 
 **输出:**
 
-```
+```java
 PriorityQueue: [For, Geeks, Geeks]
 Accessed Element: For
 
@@ -230,7 +230,7 @@ Accessed Element: For
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate elements
 // to a PriorityQueue
 
@@ -258,7 +258,7 @@ public class PriorityQueueDemo {
 
 **输出:**
 
-```
+```java
 For Geeks Geeks 
 
 ```

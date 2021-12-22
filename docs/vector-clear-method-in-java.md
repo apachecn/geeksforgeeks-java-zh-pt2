@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.clear()
 ```
 
@@ -18,7 +18,7 @@ Vector.clear()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The final Vector: []
 
@@ -57,7 +57,7 @@ The final Vector: []
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The final Vector: []
 

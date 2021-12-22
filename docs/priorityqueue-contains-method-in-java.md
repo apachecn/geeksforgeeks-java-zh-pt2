@@ -6,7 +6,7 @@ Java . util . PriorityQueue . contains()方法用于检查 PriorityQueue 中是�
 
 **语法:**
 
-```
+```java
 Priority_Queue.contains(Object element)
 ```
 
@@ -17,7 +17,7 @@ Priority_Queue.contains(Object element)
 下面的程序说明了 Java . util . priorityqueue . contains()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.PriorityQueue;
 
@@ -54,7 +54,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [4, Geeks, To, Welcome, Geeks]
 Does the Queue contains 'Geeks'? true
 Does the Queue contains '4'? true
@@ -64,7 +64,7 @@ Does the Queue contains 'No'? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [5, 10, 30, 20, 15]
 Does the Queue contains '15'? true
 Does the Queue contains '2'? false

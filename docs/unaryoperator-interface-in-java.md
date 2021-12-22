@@ -26,7 +26,7 @@
 
 ****语法:****
 
-```
+```java
 static  UnaryOperator identity()
 ```
 
@@ -38,7 +38,7 @@ static  UnaryOperator identity()
 
 ****程序 1:****
 
-```
+```java
 import java.util.function.UnaryOperator;
 
 public class GFG {
@@ -57,7 +57,7 @@ public class GFG {
 
 ****输出:**
 
-```
+```java
 true
 
 ```**

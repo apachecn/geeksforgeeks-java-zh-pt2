@@ -8,7 +8,7 @@
 
 在下面给出的示例中，您将看到如何以 JSON 格式存储值。考虑学生信息，其中 Stu_id、Stu_Name、课程是您需要存储的实体，然后以 JSON 格式，您可以以键值对的形式存储这些值。让我们看看。
 
-```
+```java
 {
    "Student": [
 
@@ -37,7 +37,7 @@
 
 **步骤 2:** 还有一个方法可以添加 Maven 依赖项，为此，我们必须将下面给出的代码添加到我们的 *pom.xml* 文件中。
 
-```
+```java
  <dependency>
     <groupId>com.googlecode.json-simple</groupId>  
     <artifactId>json-simple</artifactId>  
@@ -48,7 +48,7 @@
 
 以上下载的**。jar** 文件中包含这些 Java 源文件:
 
-```
+```java
 // .jar file 
 META-INF/MANIFEST.MF
 org.json.simple.ItemList.class
@@ -72,7 +72,7 @@ org.json.simple.parser.Yytoken.class
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import org.json.simple.JSONObject;
 
 // Program for print data in JSON format.
@@ -97,7 +97,7 @@ public class JavaJsonEncoding 
 
 **输出:**
 
-```
+```java
 {"Full Name":"Ritu Sharma", "Roll No.":1704310046, "Tution Fees":65400}
 
 ```
@@ -106,7 +106,7 @@ public class JavaJsonEncoding 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 
@@ -134,7 +134,7 @@ public class JavaJsonDecoding {
 
 **输出:**
 
-```
+```java
 Ritu Sharma 65400.0 1704310046
 
 ```

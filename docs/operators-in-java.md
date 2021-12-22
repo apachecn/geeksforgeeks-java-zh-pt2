@@ -34,7 +34,7 @@ Java 提供了多种类型的运算符，可以根据需要使用。它们根据
 *   **赋值运算符:“=”**赋值运算符用于给任何变量赋值。它具有从右到左的关联性，即运算符右侧给出的值被赋给左侧的变量，因此右侧的值必须在使用之前声明，或者应该是常数。
     赋值运算符的一般格式是，
 
-```
+```java
 variable = value;
 ```
 
@@ -46,7 +46,7 @@ variable = value;
     *   **%=** ，用于将左操作数的模赋给右操作数，然后赋给左边的变量。
 *   **关系运算符:**这些运算符用于检查等式、大于、小于等关系。它们在比较后返回布尔结果，广泛用于循环语句和条件 if else 语句。一般格式是，
 
-```
+```java
 variable relation_operator value
 ```
 
@@ -63,7 +63,7 @@ variable relation_operator value
     *   **||，逻辑或:**如果至少有一个条件为真，则返回真。
 *   **三元运算符:**三元运算符是 if-else 语句的简写版本。它有三个操作数，因此得名三元。一般格式是-
 
-```
+```java
 condition ? if true : if false
 ```
 
@@ -71,7 +71,7 @@ condition ? if true : if false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // max of three numbers using
 // ternary operator.
@@ -97,7 +97,7 @@ public class operators {
 
 **Output:** 
 
-```
+```java
 Max of three numbers = 30
 ```
 
@@ -108,19 +108,19 @@ Max of three numbers = 30
     *   **~，按位补码运算符:**这是一个一元运算符，它返回输入值的补码表示，即所有位反转。
 *   **移位运算符:**这些运算符用于向左或向右移位一个数的位，从而分别将该数乘以或除以 2。当我们必须将一个数乘以或除以 2 时，它们可以被使用。通用格式-
 
-```
+```java
  number shift_op number_of_places_to_shift;
 ```
 
 *   [**运算符实例**](https://www.geeksforgeeks.org/java-instanceof-and-its-applications/) **:** 运算符实例用于类型检查。它可以用来测试对象是类、子类还是接口的实例。通用格式-
 
-```
+```java
 object instance of class/subclass/interface
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // instance of operator
 class operators {
@@ -164,7 +164,7 @@ interface MyInterface {
 
 **Output:** 
 
-```
+```java
 obj1 instanceof Person: true
 obj1 instanceof Boy: false
 obj1 instanceof MyInterface: false
@@ -185,7 +185,7 @@ obj2 instanceof MyInterface: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class operators {
     public static void main(String[] args)
     {
@@ -207,7 +207,7 @@ public class operators {
 
 **Output:** 
 
-```
+```java
 a+b/d = 20
 a+b*d-e/f = 219
 ```
@@ -216,7 +216,7 @@ a+b*d-e/f = 219
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class operators {
     public static void main(String[] args)
     {
@@ -242,7 +242,7 @@ public class operators {
 
 **Output:** 
 
-```
+```java
 Value of a(b+c), b(b+1), c = 10, 11, 0
 ```
 
@@ -250,7 +250,7 @@ Value of a(b+c), b(b+1), c = 10, 11, 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class operators {
     public static void main(String[] args)
     {
@@ -273,7 +273,7 @@ public class operators {
 
 **Output:** 
 
-```
+```java
 Concatenation (x+y)= 58
 Addition (x+y) = 13
 ```

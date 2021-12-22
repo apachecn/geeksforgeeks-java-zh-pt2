@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withDayOfYear(int dayOfYear)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime withDayOfYear(int dayOfYear)
 以下程序举例说明了 withDayOfYear()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withDayOfYear() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withDayOfYear() method
 

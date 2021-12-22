@@ -16,7 +16,7 @@ Java 中的变量参数(Varargs)是一种接受可变数量参数的方法。Jav
 
 ***例如***
 
-```
+```java
 public static void fun(int ... a) 
 {
    // method body
@@ -29,7 +29,7 @@ public static void fun(int ... a)
 
 ## Java
 
-```
+```java
 // Java program to demonstrate varargs
 
 class Test1 {
@@ -66,7 +66,7 @@ class Test1 {
 
 **Output**
 
-```
+```java
 Number of arguments: 1
 100 
 Number of arguments: 4
@@ -81,7 +81,7 @@ Number of arguments: 0
 
 ****注意:**一个方法也可以有可变长度的参数和其他参数，但是应该确保只有一个 varargs 参数应该写在方法声明的参数列表的最后。例如:**
 
-```
+```java
 int nums(int a, float b, double … c)
 ```
 
@@ -89,7 +89,7 @@ int nums(int a, float b, double … c)
 
 ## **Java**
 
-```
+```java
 // Java program to demonstrate
 //  varargs with normal arguments
 
@@ -121,7 +121,7 @@ class Test2 {
 
 ****Output**
 
-```
+```java
 String: GeeksforGeeks
 Number of arguments is: 2
 100 200 
@@ -136,7 +136,7 @@ Number of arguments is: 0
 
 ****案例 1:** 在一个方法中指定两个变量:**
 
-```
+```java
 void method(String... gfg, int... q)
 {
     // Compile time error as there 
@@ -146,7 +146,7 @@ void method(String... gfg, int... q)
 
 ****情况 2:** 指定 Varargs 作为方法的第一个参数，而不是最后一个参数:**
 
-```
+```java
 void method(int... gfg, String q)
 {
     // Compile time error as vararg 

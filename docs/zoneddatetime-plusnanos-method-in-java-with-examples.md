@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusNanos(long nanoseconds)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime plusNanos(long nanoseconds)
 下面的程序说明了 plusNanos()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusNanos() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusNanos() method
 

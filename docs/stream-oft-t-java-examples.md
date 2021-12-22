@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <**T**> Stream<**T**> of(**T** t)
 
 Where, Stream is an interface and T
@@ -19,7 +19,7 @@ sequential stream.
 
 **示例 1 :** 单例字符串流。
 
-```
+```java
 // Java code for Stream.of()
 // to get sequential Stream
 // containing a single element.
@@ -42,14 +42,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 
 ```
 
 **示例 2 :** 单例整数流。
 
-```
+```java
 // Java code for Stream.of()
 // to get sequential Stream
 // containing a single element.
@@ -72,14 +72,14 @@ class GFG {
 
 输出:
 
-```
+```java
 5
 
 ```
 
 **例 3 :** 单例长流。
 
-```
+```java
 // Java code for Stream.of()
 // to get sequential Stream
 // containing a single element.
@@ -102,7 +102,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 
 ```

@@ -16,7 +16,7 @@
 
 让我们理解下面的代码来找出区别:
 
-```
+```java
 // Java program to demonstrate
 // the concept of upcasting
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Object a
 Name: GoldFish
 Aquatic Animal
@@ -120,7 +120,7 @@ Aquatic Animal
 
 *   从上面的例子可以清楚地理解，我们不能使用父类引用来访问子类成员，即使它是子类型的。即:
 
-    ```
+    ```java
     // This statement throws
     // a compile-time error
     a.color = "Orange";
@@ -129,7 +129,7 @@ Aquatic Animal
 
 *   从上面的例子中，我们还可以观察到，我们能够使用同一个父类引用对象来访问父类成员和子类的重写方法。即:
 
-    ```
+    ```java
     // Access to child class
     // overridden method 
     a.nature();

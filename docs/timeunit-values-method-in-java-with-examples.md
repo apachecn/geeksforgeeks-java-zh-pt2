@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TimeUnit[] values()
 ```
 
@@ -14,7 +14,7 @@ public static TimeUnit[] values()
 
 下面程序举例说明了 TimeUnit values()方法:
 
-```
+```java
 // Java program to demonstrate
 // values() method of TimeUnit Class
 
@@ -41,7 +41,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 The Enum constants of TimeUnit Class using TimeUnit.values() are:
 NANOSECONDS
 MICROSECONDS

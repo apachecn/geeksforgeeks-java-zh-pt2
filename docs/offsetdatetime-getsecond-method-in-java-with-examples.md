@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getSecond()** 方法用于获取分钟秒字段
 
 **语法:**
 
-```
+```java
 public int getSecond()
 
 ```
@@ -19,7 +19,7 @@ public int getSecond()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getSecond() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 second: 30
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getSecond() method
 
 import java.time.OffsetDateTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 second: 30
 
 ```

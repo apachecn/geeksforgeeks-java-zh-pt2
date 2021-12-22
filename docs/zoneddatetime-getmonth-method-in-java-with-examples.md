@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Month getMonth()
 
 ```
@@ -19,7 +19,7 @@ public Month getMonth()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getMonth() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 month:DECEMBER
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getMonth() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 month:OCTOBER
 
 ```

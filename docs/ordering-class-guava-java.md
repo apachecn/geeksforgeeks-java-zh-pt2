@@ -10,7 +10,7 @@
 
 ****申报:**申报为**com . Google . common . collect . ording<**T**T7**类为:**
 
-```
+```java
 @GwtCompatible
 public abstract class Ordering<**T**>
    extends Object
@@ -43,7 +43,7 @@ public abstract class Ordering<**T**>
 ![](img/0a28132fa90ee260929388c1b2e54e62.png)
 **例 1 :****
 
-```
+```java
 // Java code to show implementation of
 // Ordering class
 import java.util.*;
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Input List : [12, 3, 78, 50, 6, 70, 18, 9, 10]
 Sorted List : [3, 6, 9, 10, 12, 18, 50, 70, 78] 
 ```
@@ -91,7 +91,7 @@ Sorted List : [3, 6, 9, 10, 12, 18, 50, 70, 78]
 ![](img/2b0172664e3cce714bca739c86b5c9f0.png)
 **例 2 :****
 
-```
+```java
 // Java code to show implementation of
 // Ordering class
 import java.util.*;
@@ -126,13 +126,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Minimum element is : 3 
 ```
 
 ****例 3 :****
 
-```
+```java
 // Java code to show implementation of
 // Ordering class
 import java.util.*;
@@ -167,13 +167,13 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Maximum element is : 78 
 ```
 
 ****例 4 :****
 
-```
+```java
 // Java code to show implementation of
 // Ordering class
 import java.util.*;
@@ -213,7 +213,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [78, 70, 50, 18, 12, 10, 9, 6, 3] 
 ```
 

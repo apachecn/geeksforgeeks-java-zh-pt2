@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Object[] arr = Priority_Queue.toArray()
     ```
 
@@ -17,7 +17,7 @@
     下面的程序说明了 Java . util . priorityqueue . toarray()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java code to illustrate toArray()
     import java.util.*;
 
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The PriorityQueue: [For, Geeks, To, Welcome, Geeks]
     The array is:
     For
@@ -62,7 +62,7 @@
 
     **程序 2:**
 
-    ```
+    ```java
     // Java code to illustrate toArray()
     import java.util.*;
 
@@ -95,7 +95,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The PriorityQueue: [5, 10, 25, 20, 15, 30]
     The array is:
     5
@@ -110,7 +110,7 @@
 2.  The **java.util.PriorityQueue.toArray(arr[])** method in Java is used to form an array of the same elements as that of the Priority Queue. Basically, it copies all the element from a priority queue to a new array. It creates multiple arrays, unlike the previous method without parameters. This method copies all of the elements into the arr[].
     **Syntax:**
 
-    ```
+    ```java
     Object[] arr1 = Priority_Queue.toArray(arr[])
     ```
 
@@ -125,7 +125,7 @@
 
     下面的程序说明了 Java . util . priorityqueue . to array(arr[])方法的工作原理。
 
-    ```
+    ```java
     // Java code to illustrate toArray(arr[])
     import java.util.*;
 
@@ -165,7 +165,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The PriorityQueue: [For, Geeks, To, Welcome, Geeks]
     The arr[] is:
     For

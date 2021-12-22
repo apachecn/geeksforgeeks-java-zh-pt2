@@ -6,7 +6,7 @@ java 中的 java.util.Stack.empty()方法用于检查堆栈是否为空。该方
 
 **语法:**
 
-```
+```java
 STACK.empty()
 ```
 
@@ -17,7 +17,7 @@ STACK.empty()
 下面的程序说明了 java.util.Stack.empty()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate empty() method
 import java.util.*;
 
@@ -58,7 +58,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The stack is: [Geeks, 4, Geeks, Welcomes, You]
 Is the stack empty? false
 Is the stack empty? true
@@ -67,7 +67,7 @@ Is the stack empty? true
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate empty() method
 import java.util.*;
 
@@ -97,7 +97,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The stack is: [8, 5, 9, 2, 4]
 Is the stack empty? false
 

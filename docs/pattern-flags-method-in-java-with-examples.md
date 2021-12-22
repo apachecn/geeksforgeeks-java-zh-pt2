@@ -6,7 +6,7 @@ Java 中**模式**类的 **flags()** 方法用于返回模式的匹配标志。�
 
 **语法:**
 
-```
+```java
 public int flags()
 
 ```
@@ -19,7 +19,7 @@ public int flags()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.flags() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Pattern's match flag = 2
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.compile method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Pattern's match flag = 8
 
 ```

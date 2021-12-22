@@ -6,7 +6,7 @@ Java 中**时区类**的**克隆()**方法用于创建现有时区的相同副�
 
 **语法:**
 
-```
+```java
 time_zone.clone()
 ```
 
@@ -18,7 +18,7 @@ time_zone.clone()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate clone() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class TimeZoneDemo {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate clone() method
 
 import java.util.*;

@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **atDate()** 方法将这个时间和一个日期结�
 
 **语法:**
 
-```
+```java
 public OffsetDateTime atDate(LocalDate date)
 
 ```
@@ -19,7 +19,7 @@ public OffsetDateTime atDate(LocalDate date)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the atDate() method
 
 import java.time.LocalDate;
@@ -43,7 +43,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current date: 2018-12-31
 Current date and time: 2018-12-31T11:10:10+06:03
 
@@ -51,7 +51,7 @@ Current date and time: 2018-12-31T11:10:10+06:03
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the atDate() method
 
 import java.time.LocalDate;
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current date: 2018-12-31
 Current date and time: 2018-12-31T12:15:14+16:03
 

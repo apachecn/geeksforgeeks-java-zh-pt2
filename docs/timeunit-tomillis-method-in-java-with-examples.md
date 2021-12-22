@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toMillis(long duration)
 ```
 
@@ -18,7 +18,7 @@ public long toMillis(long duration)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // toMillis() method of TimeUnit Class
 
@@ -45,14 +45,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585757 Seconds in MilliSeconds = 1539585757000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // toMillis() method of TimeUnit Class
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585759 Seconds in MilliSeconds = 1539585759000
 
 ```

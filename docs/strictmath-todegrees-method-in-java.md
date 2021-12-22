@@ -6,7 +6,7 @@ java 中 StrictMath 类的**Java . lang . strict math . todegrees()**方法用�
 
 **语法:**
 
-```
+```java
 public static double toDegrees(*double rad*)
 ```
 
@@ -16,7 +16,7 @@ public static double toDegrees(*double rad*)
 
 **例:**
 
-```
+```java
 Input : 2.0
 Output : 114.59155902616465
 
@@ -29,7 +29,7 @@ Output : 0.4023309637408641
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate StrictMath.toDegrees()
 // function 
 
@@ -50,14 +50,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Value in degrees of 3.0009871008 radians is 171.943895249041
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java Program to illustrate StrictMath.toDegrees()
 //  function 
 
@@ -78,7 +78,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Value in degrees of 1.0 radians is 57.29577951308232
 
 ```

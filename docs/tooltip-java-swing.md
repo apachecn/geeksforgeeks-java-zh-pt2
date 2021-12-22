@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a textarea and
 // single line tool tip text to it
 import javax.swing.event.*;
@@ -69,7 +69,7 @@ class solve extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to create a text area and add
 // multiple line tooltip text to it.
 import javax.swing.event.*;
@@ -126,7 +126,7 @@ class solve extends JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to submit name using JTextField and the tooltip
 // text shows the previous entries.(using
 // getToolTipText function)

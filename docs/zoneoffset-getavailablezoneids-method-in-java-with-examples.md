@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Set getAvailableZoneIds()
 
 ```
@@ -19,7 +19,7 @@ public static Set getAvailableZoneIds()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getAvailableZoneIds() method
 
 import java.time.*;
@@ -47,14 +47,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First ZoneId in list:Asia/Aden
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getAvailableZoneIds() method
 
 import java.time.*;
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First ZoneId in list:Asia/Aden
 
 ```

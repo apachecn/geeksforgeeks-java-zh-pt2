@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.copyInto(Object array[])
 ```
 
@@ -20,7 +20,7 @@ Vector.copyInto(Object array[])
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate copyInto()
 import java.util.*;
 
@@ -64,7 +64,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The initial array is: 
 Hello
@@ -85,7 +85,7 @@ null
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate copyInto()
 import java.util.*;
 
@@ -132,7 +132,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 20, 30, 40, 50]
 The initial array is: 
 50

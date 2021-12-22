@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 default Stream.Builder<T> add(T t)
 ```
 
@@ -18,7 +18,7 @@ default Stream.Builder<T> add(T t)
 
 **例 1:**
 
-```
+```java
 // Java code to show the implementation
 // of Stream.Builder add(T t)
 
@@ -54,7 +54,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 Geeks
 for
@@ -66,7 +66,7 @@ Geeks Classes
 
 **示例 2:** 说明 IllegalStateException
 
-```
+```java
 // Java code to show the implementation
 // of Stream.Builder add(T t)
 
@@ -115,7 +115,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Stream successfully built
 5
 6

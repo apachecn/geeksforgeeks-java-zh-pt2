@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneOffset getOffsetBefore()
 
 ```
@@ -19,7 +19,7 @@ public ZoneOffset getOffsetBefore()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getOffsetBefore() method
 
@@ -71,14 +71,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Zoneoffset before transition : +00:00:08
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getOffsetBefore() method
 
@@ -130,7 +130,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Zoneoffset before transition : +00:00:12
 
 ```

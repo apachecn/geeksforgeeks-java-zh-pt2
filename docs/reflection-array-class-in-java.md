@@ -8,20 +8,20 @@
 
 #### **等级体系**
 
-```
+```java
 java.lang.Object
  ↳ java.lang.reflect.Array
 ```
 
 #### **班级申报**
 
-```
+```java
 public final class Array extends Object
 ```
 
 #### **使用数组的语法**
 
-```
+```java
 Array.<function name>;
 ```
 
@@ -64,7 +64,7 @@ Array.<function name>;
 
 **语法:**
 
-```
+```java
 X[] arrayOfXType = (X[]) Array.newInstance(X.class, size);
 ```
 
@@ -79,7 +79,7 @@ X[] arrayOfXType = (X[]) Array.newInstance(X.class, size);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to create an integer array of size 5,
 // using the Array class:
 
@@ -108,7 +108,7 @@ public class GfG {
 
 **Output**
 
-```
+```java
 [0, 0, 0, 0, 0]
 ```
 
@@ -122,7 +122,7 @@ public class GfG {
 
 **语法:**
 
-```
+```java
 Array.setX(X[], indexOfInsertion, elementToBeInserted);
 ```
 
@@ -137,7 +137,7 @@ Array.setX(X[], indexOfInsertion, elementToBeInserted);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to add an element into an integer array,
 // using the Array class:
 
@@ -171,7 +171,7 @@ public class GfG {
 
 **Output**
 
-```
+```java
 [10, 20, 30]
 ```
 
@@ -184,7 +184,7 @@ public class GfG {
 
 **语法:**
 
-```
+```java
 Array.getX(X[], indexOfRetrieval);
 ```
 
@@ -199,7 +199,7 @@ Array.getX(X[], indexOfRetrieval);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to retrieve an element from an integer array,
 // using the Array class:
 
@@ -242,7 +242,7 @@ public class GfG {
 
 **Output**
 
-```
+```java
 [10, 20, 30]
 Element at index 0: 10
 Element at index 1: 20

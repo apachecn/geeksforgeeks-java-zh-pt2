@@ -12,7 +12,7 @@ Vector 的 **forEach()** 方法用于对 Vector 的 Iterable 的每个元素执�
 
 **语法:**
 
-```
+```java
 public void forEach(Consumer<? super E> action)
 ```
 
@@ -26,7 +26,7 @@ public void forEach(Consumer<? super E> action)
 
 **示例 1:** 在包含字符串集合的 Vector 上演示 forEach()方法的程序。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of Vector
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 List of Strings data
 Saltlake
 LakeTown
@@ -64,7 +64,7 @@ Kestopur
 
 **示例 2:** 在包含对象集合的向量上演示 forEach()方法的程序。
 
-```
+```java
 // Java Program Demonstrate forEach()
 // method of Vector
 
@@ -116,7 +116,7 @@ class DataClass {
 
 **输出:**
 
-```
+```java
 list of Objects:
 ****************
 Object Details

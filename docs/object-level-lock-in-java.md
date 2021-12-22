@@ -12,7 +12,7 @@ java 中的每个对象都有一个唯一的锁。每当我们使用同步关键
 
 **方法 1:**
 
-```
+```java
 public class GeekClass
 {
     public synchronized void GeekMethod(){}
@@ -21,7 +21,7 @@ public class GeekClass
 
 **方法二:**
 
-```
+```java
 public class GeekClass
 {
     public void GeekMethod(){
@@ -35,7 +35,7 @@ public class GeekClass
 
 **方法 3:**
 
-```
+```java
 public class DemoClass
 {
     private final Object lock = new Object();
@@ -52,7 +52,7 @@ public class DemoClass
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Object lock concept
 
@@ -125,7 +125,7 @@ class Geek implements Runnable {
 
 **Output**
 
-```
+```java
 t1
 t3
 t2

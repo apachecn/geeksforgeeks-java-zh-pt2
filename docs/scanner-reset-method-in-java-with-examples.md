@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Scanner reset()
 ```
 
@@ -16,7 +16,7 @@ public Scanner reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // reset() method of Scanner class in Java
 
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String:
 Geeksforgeeks has Scanner Class Methods
 
@@ -83,7 +83,7 @@ Locale: en_US
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // reset() method of Scanner class in Java
 
@@ -132,7 +132,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String:
 Geeksforgeeks
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Year minus(TemporalAmount amountToSubtract)
 
 ```
@@ -24,7 +24,7 @@ public Year minus(TemporalAmount amountToSubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minus(TemporalAmount amountToSubtract) method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 Value after Subtraction: 1979
 
@@ -65,7 +65,7 @@ Value after Subtraction: 1979
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minus(TemporalAmount amountToSubtract) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 Value after Subtraction: 1999
 

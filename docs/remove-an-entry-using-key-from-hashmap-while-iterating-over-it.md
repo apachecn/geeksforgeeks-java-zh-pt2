@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}, key = 2
 Output: {1=Geeks, 3=GeeksForGeeks}
 
@@ -25,7 +25,7 @@ Output: {1=G, 2=e, 4=k, 5=s}
 
     **程序:**
 
-    ```
+    ```java
     // Java program to remove an entry using key
     // from a HashMap while iterating over it
 
@@ -80,7 +80,7 @@ Output: {1=G, 2=e, 4=k, 5=s}
 
     **Output:**
 
-    ```
+    ```java
     Original HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}
     Modified HashMap: {1=Geeks, 3=GeeksForGeeks}
 
@@ -94,7 +94,7 @@ Output: {1=G, 2=e, 4=k, 5=s}
 
     **程序:**
 
-    ```
+    ```java
     // Java program to remove an entry using key
     // from a HashMap while iterating over it
 
@@ -134,7 +134,7 @@ Output: {1=G, 2=e, 4=k, 5=s}
 
     **Output:**
 
-    ```
+    ```java
     Original HashMap: {1=Geeks, 2=ForGeeks, 3=GeeksForGeeks}
     Modified HashMap: {1=Geeks, 3=GeeksForGeeks}
 

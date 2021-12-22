@@ -6,7 +6,7 @@ Java 中 **[StringReader](https://www.geeksforgeeks.org/java-io-stringreader-cla
 
 **语法:**
 
-```
+```java
 public boolean markSupported()
 ```
 
@@ -18,7 +18,7 @@ public boolean markSupported()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader markSupported() method
 
@@ -52,14 +52,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is StringReader markSupported: true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader markSupported() method
 
@@ -93,7 +93,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is StringReader markSupported: true
 
 ```

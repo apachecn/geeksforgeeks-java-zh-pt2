@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **plusWeeks()** 方法返回这个 OffsetDateTime
 
 **语法:**
 
-```
+```java
 public OffsetDateTime plusWeeks(long weeks)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime plusWeeks(long weeks)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the plusWeeks() method
 
 import java.time.OffsetDateTime;
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after adding weeks: 2016-08-24T13:30:30+05:00
 
@@ -57,7 +57,7 @@ Date1 after adding weeks: 2016-08-24T13:30:30+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the plusWeeks() method
 
 import java.time.OffsetDateTime;
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after adding weeks: 2021-08-18T13:30:30+05:00
 

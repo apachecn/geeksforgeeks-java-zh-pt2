@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static short reverseBytes(*short a*)
 ```
 
@@ -16,7 +16,7 @@ public static short reverseBytes(*short a*)
 
 **示例:**
 
-```
+```java
 Input: 75
 Output: 1258291200
 Explanation:
@@ -34,7 +34,7 @@ Output: -704643073
 
 **程序 1:** 为正数。
 
-```
+```java
 // Java program to illustrate the
 // Short.reverseBytes() method
 
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Original value = 61
 After reversing the bytes :  
 New value : 15616
@@ -71,7 +71,7 @@ New value : 15616
 
 **程序 2:** 为负数。
 
-```
+```java
 // Java program to illustrate the
 // Short.reverseBytes() method
 
@@ -99,7 +99,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Original value = -45
 After reversing the bytes :  
 New value : -11265

@@ -6,7 +6,7 @@ Java 中 **UUID 类**的 **clockSequence()** 方法一般用来知道与这个 U
 
 **语法:**
 
-```
+```java
 public int clockSequence()
 ```
 
@@ -20,7 +20,7 @@ public int clockSequence()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clockSequence() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The clock sequence value is: 5737
 
@@ -56,7 +56,7 @@ The clock sequence value is: 5737
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clockSequence() method
 
 import java.util.*;
@@ -84,7 +84,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 The clock sequence value is: 14534
 

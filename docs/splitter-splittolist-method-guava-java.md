@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public List<String> 
     splitToList(CharSequence sequence)
 
@@ -20,7 +20,7 @@ public List<String>
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // splitToList method
 // of Guava's Splitter Class
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hello
  geeks
  for
@@ -62,7 +62,7 @@ Hello
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // splitToList method 
 // of Guava's Splitter Class
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Everyone
  should
  Learn, Data

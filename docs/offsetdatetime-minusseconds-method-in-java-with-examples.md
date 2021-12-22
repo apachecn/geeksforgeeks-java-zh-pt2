@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**minusters()**方法返回这个 OffsetDateTime �
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusSeconds(long seconds)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime minusSeconds(long seconds)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusSeconds() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting seconds: 2018-12-12T13:32:30+05:00
 
@@ -56,7 +56,7 @@ Date1 after subtracting seconds: 2018-12-12T13:32:30+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusSeconds() method
 
 import java.time.OffsetDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting seconds: 2018-12-12T13:28:10+05:00
 

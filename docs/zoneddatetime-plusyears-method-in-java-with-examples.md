@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusYears(long years)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime plusYears(long years)
 以下程序说明了 plusYears()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusYears() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusYears() method
 

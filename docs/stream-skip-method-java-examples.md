@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stream<T> skip(long N)
 
 Where N is the number of elements to be skipped
@@ -20,7 +20,7 @@ and this function returns new stream as output.
 
 **例 1 :** 跳跃功能的实现。
 
-```
+```java
 // Java code for skip() function
 import java.util.*;
 
@@ -76,14 +76,14 @@ class GFG {
 
 输出:
 
-```
+```java
 New stream is : 6 8 10 12 14 16 
 
 ```
 
 **应用:**
 
-```
+```java
 // Java code for skip() function
 import java.util.stream.Stream;
 import java.util.ArrayList;
@@ -118,7 +118,7 @@ import java.util.List;
 
 输出:
 
-```
+```java
 computer
 science
 

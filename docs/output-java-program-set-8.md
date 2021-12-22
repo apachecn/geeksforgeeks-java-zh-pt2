@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
     public static void main(String args[])
@@ -25,7 +25,7 @@ class GfG
 
 输出:
 
-```
+```java
 Not equal
 ```
 
@@ -35,7 +35,7 @@ Not equal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Person
 {
     private void who()
@@ -86,7 +86,7 @@ public class Gfg
 
 输出:
 
-```
+```java
 Inside static method, Person(whoAmI)
 Kid(who)
 Kid(whoAreYou)
@@ -99,7 +99,7 @@ Kid(whoAreYou)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class GfG
 {
     public static void main(String args[])
@@ -125,7 +125,7 @@ class GfG
 
 输出:
 
-```
+```java
 First statement of try block
 15
 finally block
@@ -139,7 +139,7 @@ Main method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class One implements Runnable
 {
     public void run()
@@ -167,7 +167,7 @@ class Three
 
 输出:
 
-```
+```java
 gfg1gfg1gfg3
 ```
 

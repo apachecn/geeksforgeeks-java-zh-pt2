@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static double asin(*double val*)
 ```
 
@@ -18,7 +18,7 @@ public static double asin(*double val*)
 **返回值:**该方法返回自变量的反正弦值。
 **例:**
 
-```
+```java
 Input: val = 0.72
 Output: 0.80380231893303
 
@@ -33,7 +33,7 @@ Output: 0.0
 下面的程序说明了 java.lang.StrictMath.asin()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.asin()
 import java.lang.*;
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The arc sine value is = 0.7075844367253556
 The arc sine value is = NaN
 The arc sine value is = 0.0
@@ -71,7 +71,7 @@ The arc sine value is = 0.0
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.asin()
 import java.lang.*;
@@ -100,7 +100,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The arc sine value is = -1.015985293814825
 The arc sine value is = NaN
 The arc sine value is= 0.0

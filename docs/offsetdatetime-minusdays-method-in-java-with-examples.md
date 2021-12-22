@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **minusDays()** 方法返回这个 OffsetDateTime
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusDays(long days)
 ```
 
@@ -22,7 +22,7 @@ public OffsetDateTime minusDays(long days)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the minusDays() method
 
 import java.time.OffsetDateTime;
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting days: 2018-07-25T13:30:30+05:00
 ```
@@ -58,7 +58,7 @@ Date1 after subtracting days: 2018-07-25T13:30:30+05:00
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the minusDays() method
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting days: 2019-04-11T13:30:30+05:00
 ```

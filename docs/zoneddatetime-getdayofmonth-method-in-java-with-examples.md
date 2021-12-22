@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getDayOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfMonth()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getDayOfMonth() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 day-of-month:6
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getDayOfMonth() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 day-of-month:25
 
 ```

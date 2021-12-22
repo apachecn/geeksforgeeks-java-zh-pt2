@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```java
     default boolean endsWith(String other)
 
     ```
@@ -23,7 +23,7 @@
     下面的程序说明了 endwith(String other)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.endsWith(String other) method
 
@@ -59,7 +59,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean endsWith(Path other)
 
     ```
@@ -71,7 +71,7 @@
     以下程序说明了结束切换(路径其他)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // java.nio.file.Path.(Path other) method
 

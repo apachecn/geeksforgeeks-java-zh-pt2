@@ -6,7 +6,7 @@
 
 **申报:**以下为**com . Google . common . base . splitter**类申报:
 
-```
+```java
 @GwtCompatible(emulated = true)
 public final class Splitter
    extends Object
@@ -19,7 +19,7 @@ public final class Splitter
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Splitter class's method
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [GeeksforGeeks, is, the, best, website, to, prepare, for, interviews]
 
 ```
@@ -58,7 +58,7 @@ class GFG {
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Splitter class's method
 
@@ -87,7 +87,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hello
  GFG
  What's up ?

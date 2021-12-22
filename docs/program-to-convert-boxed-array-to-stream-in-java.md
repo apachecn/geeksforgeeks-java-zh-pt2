@@ -27,7 +27,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to Stream
 
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [Geeks, forGeeks, A computer Portal]
     Stream: [Geeks, forGeeks, A computer Portal]
 
@@ -85,7 +85,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to Stream
 
@@ -127,7 +127,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [Geeks, forGeeks, A computer Portal]
     Stream: [Geeks, forGeeks, A computer Portal]
 
@@ -144,7 +144,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to Stream
 
@@ -188,7 +188,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [Geeks, forGeeks, A computer Portal]
     Stream: [Geeks, forGeeks, A computer Portal]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setLength(int newLength)
 ```
 
@@ -20,7 +20,7 @@ public void setLength(int newLength)
 下面的程序说明了 Java . lang . stringbuilder . setlength()方法:
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the setLength() Method.
 
@@ -50,7 +50,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String length = 12 and contains = WelcomeGeeks
 After setLength() String = WelcomeGee
 
@@ -58,7 +58,7 @@ After setLength() String = WelcomeGee
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the setLength() Method.
 
@@ -88,7 +88,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String length = 19 and contains = "Tony Stark will die"
 After setLength() String = "Tony Stark will die      "
 
@@ -96,7 +96,7 @@ After setLength() String = "Tony Stark will die      "
 
 **示例 3:** 当传递负的新长度时:
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the setLength() Method.
 
@@ -123,7 +123,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: String index out of range: -15
     at java.lang.AbstractStringBuilder.setLength(AbstractStringBuilder.java:207)
     at java.lang.StringBuilder.setLength(StringBuilder.java:76)

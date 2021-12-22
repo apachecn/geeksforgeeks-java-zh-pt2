@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public boolean sameFile(URL u)
 
 ```
 
 **语法**
 
-```
+```java
 url1.sameFile(url2);
 
 ```
@@ -26,7 +26,7 @@ url1.sameFile(url2);
 
 **例 1:**
 
-```
+```java
 // Java program to illustrate
 // URL.sameFile() method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 URL 1 is compared to URL 2: same
 
 ```
 
 **示例 2:**same file()函数有一个特殊的用法，使其不同于 equals()函数。函数的作用是:比较除片段部分之外的网址。下面的例子将说明它不同于 equals 函数的用法。
 
-```
+```java
 // Java program to check the use of sameFile
 
 import java.net.*;
@@ -93,7 +93,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 URL 1 is compared to URL 2: same
 
 ```

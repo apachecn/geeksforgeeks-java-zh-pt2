@@ -14,7 +14,7 @@
 
 考虑一个解释这两种方法的例子。
 
-```
+```java
 // Java program to illustrate 
 // referring to a subclass
 // base class
@@ -122,7 +122,7 @@ public class Test 
 
 输出:
 
-```
+```java
 seat height of first bicycle is 25
 No of gears are 3
 speed of bicycle is 100
@@ -137,7 +137,7 @@ seat height is 20
 
 *   The object of MountainBike class is created which is referred by using subclass reference ‘mb1’. Using this reference we will have access both parts(methods and variables) of the object defined by the superclass or subclass. See below image for clear understanding.
 
-    ```
+    ```java
     MountainBike mb1 = new MountainBike(3, 100, 25);
 
     ```
@@ -146,7 +146,7 @@ seat height is 20
 
 *   Now we again create object of MountainBike class but this time it is referred by using superclass Bicycle reference ‘mb2’. Using this reference we will have access **only** to those parts(methods and variables) of the object defined by the superclass.
 
-    ```
+    ```java
     Bicycle mb2 = new MountainBike(4, 200, 20);
 
     ```
@@ -155,14 +155,14 @@ seat height is 20
 
 *   由于引用“mb1”可以访问字段“seatHeight”，因此我们在控制台上打印该字段。
 
-    ```
+    ```java
     System.out.println("seat height of first bicycle  is " + mb1.seatHeight);
 
     ```
 
 *   如果在超类中存在方法，但是[被子类](https://www.geeksforgeeks.org/overriding-in-java/)覆盖，并且如果创建了子类的对象，那么无论我们使用什么引用(子类或者超类)，它都将**总是**是将被执行的子类中被覆盖的方法。所以下面两个语句将调用 MountainBike 类的 toString()方法。
 
-    ```
+    ```java
     System.out.println(mb1.toString());
     System.out.println(mb2.toString());
 
@@ -170,14 +170,14 @@ seat height is 20
 
 *   由于‘mb2’引用的类型是 Bicycle，所以我们会在下面的语句中得到编译时错误。
 
-    ```
+    ```java
     System.out.println("seat height of second bicycle  is " + mb2.seatHeight);
 
     ```
 
 *   Again the reference made by ‘mb2’ is of type Bicycle , so we will get compile time error in below statement.
 
-    ```
+    ```java
     mb2.setHeight(21);
 
     ```
@@ -186,7 +186,7 @@ seat height is 20
 
     在上面的例子中，我们已经看到，通过使用自行车类型的引用“mb2”，我们无法调用子类特定的方法或访问子类字段。在 java 中使用类型转换可以解决这个问题。例如，我们可以声明另一个引用，比如山地车类型的“mb3”，并使用类型转换将其分配给“mb2”。
 
-    ```
+    ```java
     // declaring MountainBike reference
     MountainBike mb3;
 
@@ -197,7 +197,7 @@ seat height is 20
 
     所以，下面的陈述是有效的。
 
-    ```
+    ```java
     System.out.println("seat height of second bicycle  is " + mb3.seatHeight);
     mb3.setHeight(21);
 
@@ -207,7 +207,7 @@ seat height is 20
 
 如果我们不知道对象的确切运行时类型，那么我们应该使用这种方法。例如，考虑一个包含不同索引的不同对象的[数组列表](https://www.geeksforgeeks.org/arraylist-in-java/)。现在，当我们试图使用 *arraylist.get(int index)* 方法获取 ArrayList 的元素时，我们必须使用 [Object](https://www.geeksforgeeks.org/object-class-in-java/) 引用，因为在这种情况下，我们不知道对象的确切运行时类型。例如:
 
-```
+```java
 /* Java program to illustrate referring to a subclass
 using superclass reference variable */
 import java.util.ArrayList;
@@ -235,7 +235,7 @@ public class Test 
 
 输出:
 
-```
+```java
 GeeksForGeeks
 5
 
@@ -249,7 +249,7 @@ GeeksForGeeks
 
 **如果我们知道对象的确切运行时类型，那么这种方法更好。使用这种方法，我们还可以调用特定对象的特定方法。例如:**
 
-```
+```java
 /* Java program to illustrate referring to a subclass
 using subclass reference variable */
 import java.util.ArrayList;
@@ -280,7 +280,7 @@ public class Test 
 
 **输出:**
 
-```
+```java
 GeeksForGeeks
 for java archives
 13

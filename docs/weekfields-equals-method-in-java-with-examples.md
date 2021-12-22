@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object object)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object object)
 下面的程序说明了 WeekFields.equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.equals() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Equals: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.equals() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Equals: false
 
 ```

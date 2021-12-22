@@ -17,7 +17,7 @@
 1.  **它应该只有一个实例:**这是通过从类内提供类的实例来实现的。应该防止外部类或子类创建实例。这是通过在 java 中使构造函数私有来实现的，这样没有类可以访问构造函数，因此不能实例化它。
 2.  **实例应该是全局可访问的:**单例类的实例应该是全局可访问的，这样每个类都可以使用它。在 Java 中，这是通过公开实例的访问说明符来实现的。
 
-```
+```java
 //A singleton class should have public visibility
 //so that complete application can use
 public class GFG {

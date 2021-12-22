@@ -8,7 +8,7 @@
 
 **程序 1**
 
-```
+```java
 // filename Main.java
 class Test {
     protected int x, y;
@@ -24,7 +24,7 @@ class Main {
 
 输出
 
-```
+```java
 0 0
 ```
 
@@ -32,7 +32,7 @@ class Main {
 
 **节目 2**
 
-```
+```java
 // filename Test.java
 class Test {
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ class Test {
 输出:编译器错误
 for 循环的条件检查表达式有错误。Java 在这里不同于 C++(或 C)。C++认为所有非零值为真，0 为假。与 C++不同，在 Java 中，整数值表达式不能放在需要布尔值的地方。以下是修正后的程序。
 
-```
+```java
 // filename Test.java
 class Test {
     public static void main(String[] args) {
@@ -62,7 +62,7 @@ class Test {
 
 **节目 3**
 
-```
+```java
 // filename Main.java
 class Main {
     public static void main(String args[]) {   
@@ -77,7 +77,7 @@ class Main {
 输出:编译器错误
 和 C++一样，在 Java 中，非静态方法不能在静态方法中调用。如果我们取笑()静态，那么程序编译良好，没有任何编译器错误。以下是修正后的程序。
 
-```
+```java
 // filename Main.java
 class Main {
     public static void main(String args[]) {
@@ -92,7 +92,7 @@ class Main {
 
 **节目 4**
 
-```
+```java
 // filename Test.java
 class Test {
    public static void main(String args[]) {
@@ -108,7 +108,7 @@ class Test {
 输出:编译器错误
 与 C++不同，Java 中不允许静态局部变量。详见[本](https://www.geeksforgeeks.org/g-fact-47/) GFact。我们可以让类静态成员来计算函数调用的数量，以及 C++局部静态变量服务的其他目的。以下是修正后的程序。
 
-```
+```java
 class Test {
    private static int x;
    public static void main(String args[]) {

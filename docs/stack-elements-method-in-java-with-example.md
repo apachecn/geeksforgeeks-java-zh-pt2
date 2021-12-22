@@ -8,7 +8,7 @@ Java 中 Stack 类的**Java . util . Stack . elements()**方法用于获取 Stac
 
 **语法:**
 
-```
+```java
 Enumeration enu = Stack.elements()
 ```
 
@@ -20,7 +20,7 @@ Enumeration enu = Stack.elements()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, 4, Geeks, Welcomes, You]
 The enumeration of values are:
 Geeks
@@ -69,7 +69,7 @@ You
 
 **程序 2 :**
 
-```
+```java
 import java.util.*;
 
 public class Stack_Demo {
@@ -104,7 +104,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 15, 20, 25, 30]
 The enumeration of values are:
 10

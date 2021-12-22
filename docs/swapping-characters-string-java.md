@@ -13,7 +13,7 @@
 **方法 1(使用 toCharArray)**
 在这个方法中，我们将字符串转换成字符数组并执行所需的交换。
 
-```
+```java
 // Java program to demonstrate character swap
 // using toCharArray().
 public class GFG {
@@ -40,7 +40,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksfkrgeeos
 seeksforgeekg
 geeksforgeeks
@@ -50,7 +50,7 @@ geeksforgeeks
 **方法 2(使用 subString())**
 我们使用给定字符串的子字符串构建修改后的字符串。
 
-```
+```java
 // Java program to demonstrate character swap
 // using subString()
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksfkrgeeos
 seeksforgeekg
 geeksforgeeks
@@ -91,7 +91,7 @@ geeksforgeeks
 **方法 3(使用 StringBuilder 或 StringBuffer)**
 在这个方法中，你可以根据情况使用 StringBuilder 或 StringBuffer。参见 Java 中的[String vs StringBuilder vs StringBuffer 来决定何时使用哪一个。](https://www.geeksforgeeks.org/g-fact-27-string-vs-stringbuilder-vs-stringbuffer/)
 
-```
+```java
 // Java program to demonstrate character swap
 // using StringBuilder
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 geeksfkrgeeos
 seeksforgeekg
 geeksforgeeks
@@ -128,7 +128,7 @@ geeksforgeeks
 
 输出:
 
-```
+```java
 geeksfkrgeeos
 seeksforgeekg
 geeksforgeeks

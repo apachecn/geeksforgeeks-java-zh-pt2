@@ -25,7 +25,7 @@
 
 ## C++
 
-```
+```java
 // C++ implementation to fine Sum of
 // prime factorials in a Linked list
 
@@ -128,7 +128,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation to find Sum of
 // prime factorials in a Linked list
 
@@ -238,7 +238,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python implementation of the approach
 class Node: 
 
@@ -324,7 +324,7 @@ print(ans)
 
 ## C#
 
-```
+```java
 // C# implementation to find Sum of
 // prime factorials in a Linked list
 using System;
@@ -444,7 +444,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```java
 <script>
       // JavaScript implementation to find Sum of
       // prime factorials in a Linked list
@@ -545,6 +545,6 @@ public static void Main(String []args)
 
 **Output:** 
 
-```
+```java
 8
 ```

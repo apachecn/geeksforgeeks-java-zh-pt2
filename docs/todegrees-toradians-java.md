@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
  Math.toDegrees(double d)
 ```
 
@@ -18,7 +18,7 @@
 
 **代码#1** :解释 toDegrees()实现的程序
 
-```
+```java
 // Java program for implementation of
 // toDegrees() method
 import java.util.*;
@@ -44,7 +44,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 687.5493541569879
 1088.619810748564
 
@@ -52,7 +52,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 687.5493541569879
 1088.619810748564
 
@@ -62,7 +62,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
  Math.toRadians(double d)
 ```
 
@@ -74,7 +74,7 @@ class GFG {
 
 **代码#2:** 解释 toRadians()实现的程序
 
-```
+```java
 // Java program for implementation of
 // toRadians() method
 import java.util.*;
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 0.20943951023931953
 0.33161255787892263
 

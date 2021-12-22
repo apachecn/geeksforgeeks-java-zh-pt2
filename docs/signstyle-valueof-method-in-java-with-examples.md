@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static SignStyle valueOf(String name)
 
 ```
@@ -23,7 +23,7 @@ public static SignStyle valueOf(String name)
 下面的程序说明了 SignStyle.valueOf()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SignStyle.valueOf() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SignStyle: NOT_NEGATIVE
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SignStyle.valueOf() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SignStyle: NEVER
 
 ```

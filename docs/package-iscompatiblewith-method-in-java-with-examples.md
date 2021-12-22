@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **isCompatibleWith()** 方法用于检查该包的规范版本是否与指定版本兼容。方法以布尔值的形式返回结果。
 **语法:**
 
-```
+```java
 public boolean isCompatibleWith(String desiredVersion)
 ```
 
@@ -16,7 +16,7 @@ public boolean isCompatibleWith(String desiredVersion)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isCompatibleWith() method
 
@@ -46,7 +46,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Is this package compatible with or not: true
 ```
@@ -55,7 +55,7 @@ Is this package compatible with or not: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isCompatibleWith() method
 
@@ -85,7 +85,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Is this package compatible with or not: true
 ```

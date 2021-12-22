@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **compareTo()** 方法将这个时间与另一个时�
 
 **语法:**
 
-```
+```java
 public int compareTo(OffsetTime other)
 
 ```
@@ -21,7 +21,7 @@ public int compareTo(OffsetTime other)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 
 import java.time.OffsetTime;
@@ -55,7 +55,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 15:30:30+07:00
 time1 when compared to time2 returns: 0
@@ -64,7 +64,7 @@ time1 when compared to time2 returns: 0
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 
 import java.time.OffsetTime;
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 12:10:30+07:00
 time1 when compared to time2 returns: 1
@@ -107,7 +107,7 @@ time1 when compared to time2 returns: 1
 
 **程序 3:** :
 
-```
+```java
 // Java program to demonstrate the compareTo() method
 
 import java.time.OffsetTime;
@@ -141,7 +141,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 17:10:30+07:00
 time1 when compared to time2 returns: -1

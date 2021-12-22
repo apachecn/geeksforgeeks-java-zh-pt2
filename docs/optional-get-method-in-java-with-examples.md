@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T get()
 
 ```
@@ -20,7 +20,7 @@ public T get()
 下面的程序说明 get()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.get() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9455]
 Value of this Optional: 9455
 
@@ -56,7 +56,7 @@ Value of this Optional: 9455
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.get() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 java.util.NoSuchElementException: No value present
 

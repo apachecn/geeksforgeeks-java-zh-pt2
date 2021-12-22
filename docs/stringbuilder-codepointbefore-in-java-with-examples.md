@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public int codePointBefore(int index)
 ```
 
@@ -22,7 +22,7 @@ public int codePointBefore(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the codePointBefore() Method.
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String is WelcomeGeeks
 Unicode of character at position 1 = 101
 Unicode of character at position 10 = 107
@@ -70,7 +70,7 @@ Unicode of character at position 10 = 107
 
 **示例 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by codePointBefore() Method.
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException:
  String index out of range: 14
 

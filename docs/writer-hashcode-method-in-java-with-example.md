@@ -16,7 +16,7 @@ Java 中类的 **hashCode()** 方法用来获取这个 Writer 实例的 hashCode
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Writer hashCode() method
 
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value: 589431969
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Writer hashCode() method
 
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 HashCode value: 589431969
 
 ```

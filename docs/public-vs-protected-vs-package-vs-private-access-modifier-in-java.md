@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to showcase the example
 // of public access modifier
 
@@ -39,7 +39,7 @@ public class A {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // creating a package
 package pack2;
 
@@ -83,7 +83,7 @@ class B {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to showcase the example
 // of protected access modifier
 // import required packages
@@ -129,7 +129,7 @@ class B extends A {
 
 **Output**
 
-```
+```java
 GFG
 GFG
 GFG
@@ -149,7 +149,7 @@ GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to showcase the example
 // of private access modifier
 
@@ -190,7 +190,7 @@ class B {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Package Level Access Modifier
 
 // Importing utility classes
@@ -233,7 +233,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 ```
 

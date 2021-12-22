@@ -7,7 +7,7 @@ Java 中 **TreeSet 类**的 **toArray(T[])** 方法方法用于形成与 TreeSet
 
 **语法:**
 
-```
+```java
 public <T> T[] toArray(T[] a)
 ```
 
@@ -24,7 +24,7 @@ public <T> T[] toArray(T[] a)
 
 **程序 1:** 当数组有树集大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -62,7 +62,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -75,7 +75,7 @@ null
 
 **程序 2:** 当数组小于树集的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -113,7 +113,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -125,7 +125,7 @@ Welcome
 
 **程序 3:** 当数组大于树集的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -163,7 +163,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [For, Geeks, To, Welcome]
 The arr[] is:
 For
@@ -181,7 +181,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -227,7 +227,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [For, Geeks, To, Welcome]
 Exception: java.lang.NullPointerException
 

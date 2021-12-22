@@ -6,7 +6,7 @@ Stream.max()根据提供的比较器返回流的最大元素。比较器是一�
 
 **语法:**
 
-```
+```java
 Optional<T> max(Comparator<? super T> comparator)
 
 Where, Optional is a container object which
@@ -20,7 +20,7 @@ that may be compared by this comparator
 
 **例 1 :**
 
-```
+```java
 // Implementation of Stream.max()
 // to get the maximum element
 // of the Stream according to the
@@ -52,14 +52,14 @@ class GFG {
 
 输出:
 
-```
+```java
 The maximum value is : 25
 
 ```
 
 **例 2 :**
 
-```
+```java
 // Implementation of Stream.max()
 // to get the maximum element
 // of the Stream according to the
@@ -98,14 +98,14 @@ class GFG {
 
 输出:
 
-```
+```java
 -18
 
 ```
 
 **例 3 :**
 
-```
+```java
 // Implementation of Stream.max()
 // to get the maximum element
 // of the Stream according to the
@@ -140,14 +140,14 @@ class GFG {
 
 输出:
 
-```
+```java
 Maximum element in the stream is : k
 
 ```
 
 **例 4 :**
 
-```
+```java
 // Implementation of Stream.max()
 // to get the maximum element
 // of the Stream according to the
@@ -186,7 +186,7 @@ class GFG {
 
 输出:
 
-```
+```java
 GeeksQuiz
 
 ```

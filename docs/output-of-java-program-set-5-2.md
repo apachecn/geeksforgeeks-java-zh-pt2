@@ -7,7 +7,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Main.java
 public class Main
 {
@@ -29,7 +29,7 @@ public class Main
 
 **输出**:
 
-```
+```java
 String
 ```
 
@@ -38,7 +38,7 @@ String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Main.java
 public class Main
 {
@@ -64,7 +64,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 Compile Error at line 19.
 ```
 
@@ -75,7 +75,7 @@ Compile Error at line 19.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Main.java
 public class Main
 {
@@ -96,7 +96,7 @@ public class Main
 
 输出:
 
-```
+```java
 abcd abc false
 abcd abcd true
 ```
@@ -107,7 +107,7 @@ abcd abcd true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Main.java
 public class Main
 {
@@ -126,7 +126,7 @@ public class Main
 
 **输出:**
 
-```
+```java
 Compile Error at line 8
 ```
 

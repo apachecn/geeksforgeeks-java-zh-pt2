@@ -19,7 +19,7 @@ Java 中的 StringTokenizer 类用于将字符串分解成标记。StringTokeniz
 
 **示例:**
 
-```
+```java
 Input : if string --> "hello geeks" and Delimiter is " ", then 
 Output:  tokens are "hello" and "geeks".
 ```
@@ -28,7 +28,7 @@ Output:  tokens are "hello" and "geeks".
 
 **示例:**
 
-```
+```java
 Input : String --> is "hello geeks"and Delimiter is " ", then 
 Output: Tokens --> "hello", " " and "geeks".
 ```
@@ -51,7 +51,7 @@ Output: Tokens --> "hello", " " and "geeks".
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate StringTokenizer Class
 
 // Importing requieed classes
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Using Constructor 1 - 
 Hello
 Geeks

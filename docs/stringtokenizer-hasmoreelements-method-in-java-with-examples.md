@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hasMoreElements()
 ```
 
@@ -17,7 +17,7 @@ public boolean hasMoreElements()
 下面的程序说明了 StringTokenizer 的 hasMoreElements()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate hasMoreElements() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class StringTokenizer_Demo {
 
 **Output:**
 
-```
+```java
 The number of Tokens are: 4
 true
 The Next token: Lets
@@ -60,7 +60,7 @@ The Next token: GeeksforGeeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hasMoreElements() method
 
 import java.util.*;
@@ -84,7 +84,7 @@ public class StringTokenizer_Demo {
 
 **Output:**
 
-```
+```java
 The number of Tokens are: 0
 false
 

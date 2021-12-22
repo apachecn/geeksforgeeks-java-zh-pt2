@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setGroupingUsed(boolean val)
 ```
 
@@ -18,7 +18,7 @@ public void setGroupingUsed(boolean val)
 
 **程序 1** :
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -49,7 +49,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Grouping set initially as: true
 Grouping set finally as: false
 
@@ -57,7 +57,7 @@ Grouping set finally as: false
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Grouping set initially as: true
 Grouping set finally as: true
 

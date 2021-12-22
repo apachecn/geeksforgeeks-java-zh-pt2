@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package main;
 
 class Base {
@@ -44,7 +44,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Base
 Derived
 Derived
@@ -60,7 +60,7 @@ DoPrint(z)导致第三行输出，我们传递一个派生类的引用，再次�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package main;
 
 // filename Main.java
@@ -85,7 +85,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Compiler Error
 ```
 

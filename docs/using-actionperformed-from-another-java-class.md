@@ -15,13 +15,13 @@ java 中的事件处理使用 actionlistener 可能很容易实现，但是当�
 
 **第一步:**
 
-```
+```java
 public class ActionListenerClass implements ActionListener { 
 ```
 
 **第二步:**
 
-```
+```java
 someComponent.addActionListener(instanceOfactionlsitenerclass);
 button.addActionListener(instanceOfactionlistenerclass)
 // It could be a button or any other component
@@ -29,7 +29,7 @@ button.addActionListener(instanceOfactionlistenerclass)
 
 **第三步:**
 
-```
+```java
 For example:
 
 public void actionPerformed(ActionEvent e) { 
@@ -44,7 +44,7 @@ public void actionPerformed(ActionEvent e) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program demonstrating the use of
 // action listener from another java file
 
@@ -106,7 +106,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that creates the file with the method
 // actionPerformed(ActionEvent o) of ActionListener
 

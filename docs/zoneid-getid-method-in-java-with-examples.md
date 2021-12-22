@@ -6,7 +6,7 @@ Java 中 **ZoneId** 类的 **getId()** 方法用于获取唯一定义该对象�
 
 **语法:**
 
-```
+```java
 public String getId(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public String getId(Object obj)
 下面的程序说明了 getId()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getId() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Id: Europe/Paris
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getId() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Id: Asia/Calcutta
 
 ```

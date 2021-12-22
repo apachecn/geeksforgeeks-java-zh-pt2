@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int lengthOfMonth()
 ```
 
@@ -18,7 +18,7 @@ public int lengthOfMonth()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // lengthOfMonth() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Number of day present: 31
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // lengthOfMonth() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Number of day present: 30
 
 ```

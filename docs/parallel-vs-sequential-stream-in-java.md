@@ -18,7 +18,7 @@ Java 中的流是对数据源(如数组或集合)进行操作并支持各种方�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to understand execution
 // of sequential streams
 
@@ -45,7 +45,7 @@ class SequentialStreamDemo {
 
 **Output**
 
-```
+```java
 Hello GEEKS!
 ```
 
@@ -66,7 +66,7 @@ Java 流库提供了两种实现方法。容易，并且以可靠的方式。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate
 // ParallelStreams
 
@@ -90,7 +90,7 @@ class ParallelStreamExample {
 
 **Output**
 
-```
+```java
 ES!KGEHello
 ```
 
@@ -102,7 +102,7 @@ ES!KGEHello
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate Iterating in 
 // the same order via parallelStream
 
@@ -126,7 +126,7 @@ class ParallelStreamWithOrderedIteration {
 
 **Output**
 
-```
+```java
 Hello GEEKS!
 ```
 

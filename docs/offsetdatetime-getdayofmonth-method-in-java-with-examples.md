@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getDayOfMonth()** 方法获取月中的某一�
 
 **语法:**
 
-```
+```java
 public int getDayOfMonth()
 
 ```
@@ -19,7 +19,7 @@ public int getDayOfMonth()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getDayOfMonth() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day: 3
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getDayOfMonth() method
 import java.time.OffsetDateTime;
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day: 31
 
 ```

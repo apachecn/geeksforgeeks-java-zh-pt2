@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Period parse(CharSequence text)
 ```
 
@@ -18,7 +18,7 @@ public static Period parse(CharSequence text)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate parse() method
 // to obtain period from given string
 
@@ -44,7 +44,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1 Years
 2 Months
 21 Days
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate parse() method
 // to obtain period from given string
 
@@ -79,7 +79,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 -1 Years
 -2 Months
 -21 Days

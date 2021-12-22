@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <E> 
   Set<Set<E>> 
     powerSet(Set<E> set)
@@ -26,7 +26,7 @@ public static <E>
 
 **例 1:**
 
-```
+```java
 // Java code to return the set of
 // all possible subsets of a set
 
@@ -56,7 +56,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 []
 [1]
 [2]
@@ -70,7 +70,7 @@ class GFG {
 
 **例 2:**
 
-```
+```java
 // Java code to return the set of
 // all possible subsets of a set
 
@@ -99,7 +99,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 []
 [F]
 [G]

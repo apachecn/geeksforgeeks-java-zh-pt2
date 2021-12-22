@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 // Java Program to illustrate the TreeSet
 import java.util.*;
 
@@ -36,7 +36,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Anand
 Kartik
 Manish
@@ -49,7 +49,7 @@ Sahil
 
 ## Java
 
-```
+```java
 // Adding NULL value to Java TreeSet
 import java.util.TreeSet;
 
@@ -69,7 +69,7 @@ public class Example2 {
 
 **输出**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
     at java.base/java.util.TreeMap.put(TreeMap.java:561)
     at java.base/java.util.TreeSet.add(TreeSet.java:255)

@@ -30,7 +30,7 @@ Java 提供了各种数据类型，就像任何其他动态语言一样，如布
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Automatic Type Conversion
 
 // Main class
@@ -59,7 +59,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Int value 100
 Long value 100
 Float value 100.0
@@ -78,7 +78,7 @@ Float value 100.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Incompatible data Type
 // for Explicit Type Conversion
 
@@ -109,7 +109,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Explicit Type Conversion
 
 // Main class
@@ -145,7 +145,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Double value 100.04
 Long value 100
 Int value 100
@@ -157,7 +157,7 @@ Int value 100
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Conversion of
 // Integer and Double to Byte
 
@@ -196,7 +196,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Conversion of int to byte.
 i = 257 b = 1
 
@@ -215,7 +215,7 @@ d = 323.142 b= 67
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Type promotion in Expressions
 
 // Main class
@@ -245,7 +245,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 result = 626.7784146484375
 ```
 
@@ -257,7 +257,7 @@ result = 626.7784146484375
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Type Casting
 // in Integer to Byte
 
@@ -282,7 +282,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 100
 ```
 

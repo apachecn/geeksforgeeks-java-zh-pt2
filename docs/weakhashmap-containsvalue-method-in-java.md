@@ -6,7 +6,7 @@ Java . util . WeakHashMap . contains VaLue()方法用于检查 Weakhashmap 中�
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.containsValue(*Object Value*)
 ```
 
@@ -18,7 +18,7 @@ Weak_Hash_Map.containsValue(*Object Value*)
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the containsValue() method
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false
@@ -61,7 +61,7 @@ Is the value 'World' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the containsValue() method
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 Is the value '10' present? false
 Is the value '30' present? true

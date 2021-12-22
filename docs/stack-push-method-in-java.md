@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 STACK.push(*E element*)
 ```
 
@@ -18,7 +18,7 @@ STACK.push(*E element*)
 
 **程序 1:** 将字符串元素添加到堆栈中。
 
-```
+```java
 // Java code to illustrate push() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Initial Stack: [Welcome, To, Geeks, For, Geeks]
 Final Stack: [Welcome, To, Geeks, For, Geeks, Hello, World]
 
@@ -59,7 +59,7 @@ Final Stack: [Welcome, To, Geeks, For, Geeks, Hello, World]
 
 **程序 2:** 向堆栈中添加整数元素。
 
-```
+```java
 // Java code to illustrate push() method
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Initial Stack: [10, 15, 30, 20, 5]
 Final Stack: [10, 15, 30, 20, 5, 1254, 4521]
 

@@ -6,7 +6,7 @@
 
 **1。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo1 {
     public static void main(String[] args)
@@ -20,7 +20,7 @@ class demo1 {
 
 **输出:**
 
-```
+```java
 20
 0
 
@@ -32,7 +32,7 @@ class demo1 {
 
 **2。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo2 {
     public static void main(String[] args)
@@ -47,7 +47,7 @@ class demo2 {
 
 **输出:**
 
-```
+```java
 It gives no output because of ArrayindexOutOfBound Exception
 
 ```
@@ -57,7 +57,7 @@ It gives no output because of ArrayindexOutOfBound Exception
 
 **3。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo3 {
     public static void main(String[] args)
@@ -72,7 +72,7 @@ class demo3 {
 
 **输出:**
 
-```
+```java
 Java
 
 ```
@@ -86,7 +86,7 @@ void insertElementAt(Object E，int index)–在索引指定的位置将元素 E
 
 **4。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo4 {
     public static void main(String[] args)
@@ -100,7 +100,7 @@ class demo4 {
 
 **输出:**
 
-```
+```java
 No output because of ArrayIndexOutOfBound Exception
 
 ```
@@ -112,7 +112,7 @@ No output because of ArrayIndexOutOfBound Exception
 
 **5。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo5 {
     public static void main(String[] args)
@@ -129,7 +129,7 @@ class demo5 {
 
 **输出:**
 
-```
+```java
 Geeksforgeeks
 Java
 
@@ -141,7 +141,7 @@ Java
 
 **6。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo6 {
     public static void main(String[] args)
@@ -156,7 +156,7 @@ class demo6 {
 
 **输出:**
 
-```
+```java
 1
 
 ```
@@ -166,7 +166,7 @@ class demo6 {
 
 **7。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo7 {
     public static void main(String[] args)
@@ -184,7 +184,7 @@ class demo7 {
 
 **输出:**
 
-```
+```java
 4
 
 ```
@@ -194,7 +194,7 @@ class demo7 {
 
 **8。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo8 {
     public static void main(String[] args)
@@ -211,7 +211,7 @@ class demo8 {
 
 **输出:**
 
-```
+```java
 Geeksforgeeks
 
 ```
@@ -222,7 +222,7 @@ v1 是 v 的复制品，第一个元素是“极客”
 
 **9。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo9 {
     public static void main(String[] args)
@@ -241,7 +241,7 @@ class demo9 {
 
 **输出:**
 
-```
+```java
 Geeksforgeeks
 Geeksforgeeks
 
@@ -254,7 +254,7 @@ Geeksforgeeks
 
 **10。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo10 {
     public static void main(String[] args)
@@ -271,7 +271,7 @@ class demo10 {
 
 **输出:**
 
-```
+```java
 false
 
 ```
@@ -281,7 +281,7 @@ false
 
 **11 时。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo11 {
     public static void main(String[] args)
@@ -300,7 +300,7 @@ class demo11 {
 
 **输出:**
 
-```
+```java
 Java
 Geeksforgeeks
 null
@@ -318,7 +318,7 @@ null
 
 **12 时。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo12 {
     public static void main(String[] args)
@@ -339,7 +339,7 @@ class demo12 {
 
 **输出:**
 
-```
+```java
 0
 1
 
@@ -351,7 +351,7 @@ class demo12 {
 
 **13。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo13 {
     public static void main(String[] args)
@@ -368,7 +368,7 @@ class demo13 {
 
 **输出:**
 
-```
+```java
 2
 2
 
@@ -379,7 +379,7 @@ class demo13 {
 
 **14。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo14 {
     public static void main(String[] args)
@@ -398,7 +398,7 @@ class demo14 {
 
 **输出:**
 
-```
+```java
 3
 4
 
@@ -410,7 +410,7 @@ v.trimToSize()使大小和容量等于 2。
 
 **15。以下程序的输出是什么**
 
-```
+```java
 import java.util.*;
 class demo15 {
     public static void main(String[] args)
@@ -429,7 +429,7 @@ class demo15 {
 
 **输出:**
 
-```
+```java
 [Geeksforgeeks, Java, C++, C]
 []
 

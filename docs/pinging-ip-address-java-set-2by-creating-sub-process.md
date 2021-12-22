@@ -9,7 +9,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for ping using sub-process
 
 import java.io.BufferedReader;
@@ -62,7 +62,7 @@ public class PingWebsite
 
 输出:
 
-```
+```java
 Standard output: 
 PING www.google.com (216.58.220.164): 56 data bytes
 64 bytes from 216.58.220.164: icmp_seq=0 ttl=53 time=98.803 ms
@@ -81,7 +81,7 @@ error (if any):
 **无互联网连接时的输出:**以上程序的输出在我们的系统没有连接互联网时变得非常有趣
 输出:
 
-```
+```java
 Standard output: 
 error (if any): 
 ping: cannot resolve www.google.com: Unknown host

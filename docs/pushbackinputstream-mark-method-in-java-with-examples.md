@@ -6,7 +6,7 @@ Java 中**推回输入流**类的**标记()**方法用于标记输入流中的�
 
 **语法:**
 
-```
+```java
 public void mark(int readlimit)
 
 ```
@@ -23,7 +23,7 @@ public void mark(int readlimit)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream mark() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream mark() method
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 HELLO
 
 ```

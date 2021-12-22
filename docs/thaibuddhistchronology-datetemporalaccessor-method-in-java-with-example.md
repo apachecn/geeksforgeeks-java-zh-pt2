@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalDate date(TemporalAccessor temporal)
 ```
 
@@ -18,7 +18,7 @@ public LocalDate date(TemporalAccessor temporal)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -67,14 +67,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2561-10-25
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -122,7 +122,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2561-12-30
 
 ```

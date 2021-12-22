@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```java
 public static double atan(*double num*)
 ```
 
@@ -17,7 +17,7 @@ public static double atan(*double num*)
 **返回值:**该方法返回参数的反正切值。
 **示例:**
 
-```
+```java
 Input: num = 0.61
 Output: 0.5477400137159024
 
@@ -33,7 +33,7 @@ Output: -1.5567127509720364
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan()
 import java.lang.*;
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The arc tangent of 0.7 = 0.6107259643892086
 The arc tangent of 55.0 = 1.5526165117219184
 The arc tangent of 0.0 = 0.0
@@ -72,7 +72,7 @@ The arc tangent of 0.0 = 0.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan()
 import java.lang.*;
@@ -101,7 +101,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The arc tangent of -0.52 = -0.4795192919925962
 The arc tangent of -71.0 = -1.5567127509720364
 The arc tangent of 0.0 = 0.0

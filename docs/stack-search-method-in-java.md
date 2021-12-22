@@ -6,7 +6,7 @@ java 中的 Java . util . stack . search(*Object element*)方法是用来在堆�
 
 **语法:**
 
-```
+```java
 STACK.search(*element*)
 ```
 
@@ -17,7 +17,7 @@ STACK.search(*element*)
 以下程序说明了 java.util.Stack.search()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to demonstrate search() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The stack is: [Geeks, 4, Geeks, Welcomes, You]
 Does the stack contains '4'? 4
 Does the stack contains 'Hello'? -1
@@ -64,7 +64,7 @@ Does the stack contains 'Geeks'? 3
 
 **程序 2:**
 
-```
+```java
 // Java code to demonstrate search() method
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The stack is: [8, 5, 9, 2, 4]
 Does the stack contains '9'? 3
 Does the stack contains '10'? -1

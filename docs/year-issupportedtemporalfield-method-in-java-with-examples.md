@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 ```
 
@@ -27,7 +27,7 @@ public boolean isSupported(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Year.isSupported(TemporalField) method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Year :2019
 YEAR_OF_ERA Field is supported by Year class: true
 ```
@@ -67,7 +67,7 @@ YEAR_OF_ERA Field is supported by Year class: true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Year.isSupported(TemporalField) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Year :2022
 MilliSecond Field is supported: false
 ```

@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getHour()** 方法获取一天中的小时字�
 
 **语法:**
 
-```
+```java
 public int getHour() 
 
 ```
@@ -19,7 +19,7 @@ public int getHour()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getHour() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour: 12
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getDayOfYear() method
 import java.time.OffsetDateTime;
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Hour: 12
 
 ```

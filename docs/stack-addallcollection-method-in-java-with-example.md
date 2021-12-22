@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ boolean addAll(Collection C)
 
 下面的程序说明了 Java.util.Stack.addAll()方法:
 
-```
+```java
 // Java code to illustrate boolean addAll()
 import java.util.*;
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, for, Geeks, 10, 20]
 The new Stack is: [Geeks, for, Geeks, 10, 20, A, Computer, Portal, for, Geeks]
 
@@ -67,7 +67,7 @@ The new Stack is: [Geeks, for, Geeks, 10, 20, A, Computer, Portal, for, Geeks]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // boolean add(Object element)
 
@@ -109,7 +109,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 20, 30, 40, 50]
 The new Stack is: [10, 20, 30, 40, 50, 1, 2, 3]
 

@@ -10,7 +10,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to explain effect of Reflection
     // on Singleton property
 
@@ -61,7 +61,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:-
     instance1.hashCode():- 366712642
     instance2.hashCode():- 1829164700
@@ -74,7 +74,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     //Java program for Enum type singleton
     public enum Singleton 
     {
@@ -87,7 +87,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to explain effect of 
     // Serialization on singleton classes
     import java.io.FileInputStream;
@@ -143,7 +143,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:- 
     instance1 hashCode:- 1550089733
     instance2 hashCode:- 865113938
@@ -156,7 +156,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to remove the effect of 
     // Serialization on singleton classes
     import java.io.FileInputStream;
@@ -217,7 +217,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:- 
     instance1 hashCode:- 1550089733
     instance2 hashCode:- 1550089733
@@ -230,7 +230,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to explain cloning 
     // issue with singleton
     class SuperClass implements Cloneable
@@ -270,7 +270,7 @@
     }
     ```
 
-    ```
+    ```java
     Output :- 
     instance1 hashCode:- 366712642
     instance2 hashCode:- 1829164700
@@ -283,7 +283,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to explain overcome 
     // cloning issue with singleton
     class SuperClass implements Cloneable
@@ -329,7 +329,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:-
     Exception in thread "main" java.lang.CloneNotSupportedException
         at GFG.Singleton.clone(GFG.java:29)
@@ -341,7 +341,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```java
     // Java code to explain overcome 
     // cloning issue with singleton
     class SuperClass implements Cloneable
@@ -387,7 +387,7 @@
     }
     ```
 
-    ```
+    ```java
     Output:-
     instance1 hashCode:- 366712642
     instance2 hashCode:- 366712642

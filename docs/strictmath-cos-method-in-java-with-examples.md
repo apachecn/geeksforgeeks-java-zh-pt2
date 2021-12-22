@@ -6,7 +6,7 @@ java.lang.StrictMath 类的所有方法:[集 1](https://www.geeksforgeeks.org/ja
 **java . lang . strict math . cos()**是 Java 中的一个内置方法，用于返回给定角度的余弦值。当给定的参数是 NaN 或无穷大时，该方法返回 NaN。
 **语法:**
 
-```
+```java
 public static double cos(*double num*)
 ```
 
@@ -14,7 +14,7 @@ public static double cos(*double num*)
 **返回值:**该方法返回参数的余弦值。
 **示例:**
 
-```
+```java
 Input: num = 62.0
 Output: 0.6735071623235862
 
@@ -27,7 +27,7 @@ Output: -0.19607204956188945
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cos()
 import java.lang.*;
@@ -56,7 +56,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 The cosine of 0.0 = 1.0
 The cosine of 1.0 = 0.5403023058681398
 The cosine of 64.6 = -0.19607204956188945
@@ -66,7 +66,7 @@ The cosine of 64.6 = -0.19607204956188945
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cos()
 import java.lang.*;
@@ -94,7 +94,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 The cosine of -62.0 = 0.6735071623235862
 The cosine of 1.0 = 0.5403023058681398
 The cosine of 0.7853981633974483 = 0.7071067811865476

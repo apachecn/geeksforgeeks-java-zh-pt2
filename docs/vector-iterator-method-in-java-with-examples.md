@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Vector.iterator();
 ```
 
@@ -18,7 +18,7 @@ Iterator *iterate_value* = Vector.iterator();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate iterator() Method
 // of Vector class
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Welcome
@@ -80,7 +80,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate iterator() method usage
 // with usage of hashCode() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Vector: [10, 20, 30, 40, 50]
 The iterator values are: 
 10

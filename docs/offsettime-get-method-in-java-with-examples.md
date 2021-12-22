@@ -5,7 +5,7 @@
 Java 中 OffsetTime 类的 **get()** 方法从此时起将指定字段的值作为 int 获取。
 **语法:**
 
-```
+```java
 public int get(TemporalField field)
 ```
 
@@ -22,7 +22,7 @@ T3】程序 1:T5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the get() method
 
 import java.time.OffsetTime;
@@ -43,6 +43,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 15
 ```

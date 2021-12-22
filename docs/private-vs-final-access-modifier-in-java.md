@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Private Access Modifier
 
 // import required packages
@@ -48,7 +48,7 @@ class B {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Final keyword
 
 // import required packages

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 Stream<T> limit(long N)
 
 Where N is the number of elements the stream should be 
@@ -20,7 +20,7 @@ limited to and this function returns new stream as output.
 下面是一些例子，可以更好地理解函数的实现。
 **例 1 :**
 
-```
+```java
 // Java code to show implementation
 // of limit() function
 import java.util.*;
@@ -79,14 +79,14 @@ class GFG {
 
 输出:
 
-```
+```java
 New stream of length N after truncation is : -2 0 2 4 
 
 ```
 
 **应用:**
 
-```
+```java
 // Java code to show the use of limit() function
 import java.util.stream.Stream;
 import java.util.ArrayList;
@@ -121,7 +121,7 @@ import java.util.List;
 
 输出:
 
-```
+```java
 geeks
 for
 geeks

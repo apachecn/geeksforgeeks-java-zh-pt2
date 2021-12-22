@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DayOfWeek getFirstDayOfWeek()
 
 ```
@@ -18,7 +18,7 @@ public DayOfWeek getFirstDayOfWeek()
 下面的程序说明了 WeekFields.getFirstDayOfWeek()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.getFirstDayOfWeek() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First Day:MONDAY
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.getFirstDayOfWeek() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First Day:SUNDAY
 
 ```

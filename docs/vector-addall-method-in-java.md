@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean addAll(Collection C)
     ```
 
@@ -16,7 +16,7 @@
 
     下面的程序说明了 Java.util.Vector.addAll()方法:
 
-    ```
+    ```java
     // Java code to illustrate boolean addAll()
     import java.util.*;
     import java.util.ArrayList;
@@ -57,7 +57,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Vector is: [Geeks, for, Geeks, 10, 20]
     The new vector is: [Geeks, for, Geeks, 10, 20, A, Computer, Portal, for, Geeks]
 
@@ -67,7 +67,7 @@
 
     **语法:**
 
-    ```
+    ```java
     boolean addAll(int index, Collection C)
     ```
 
@@ -80,7 +80,7 @@
 
     下面的程序说明了 Java.util.Vector.addAll()方法:
 
-    ```
+    ```java
     // Java code to illustrate boolean addAll()
     import java.util.*;
     import java.util.ArrayList;
@@ -120,7 +120,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Vector is: [Geeks, for, Geeks, 10, 20]
     The new vector is: [Geeks, A, Computer, Portal, for, Geeks, for, Geeks, 10, 20]
 

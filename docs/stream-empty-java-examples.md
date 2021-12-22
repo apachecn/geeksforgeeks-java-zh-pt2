@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Stream<T> empty()
 
 ```
@@ -22,7 +22,7 @@ static <T> Stream<T> empty()
 
 **例:**
 
-```
+```java
 // Java code for Stream empty()
 import java.util.*;
 import java.util.stream.Stream;
@@ -43,7 +43,7 @@ class GFG {
 
 输出:
 
-```
+```java
 No Output
 
 ```

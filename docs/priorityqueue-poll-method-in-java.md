@@ -6,7 +6,7 @@ java 中的 java.util.PriorityQueue.poll()方法用于检索或获取并移除 Q
 
 **语法:**
 
-```
+```java
 Priority_Queue.poll()
 ```
 
@@ -17,7 +17,7 @@ Priority_Queue.poll()
 下面的程序说明了 java.util.PriorityQueue.poll()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate poll()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [For, Geeks, To, Welcome, Geeks]
 The element at the head of the queue is: For
 Final PriorityQueue: [Geeks, Geeks, To, Welcome]
@@ -58,7 +58,7 @@ Final PriorityQueue: [Geeks, Geeks, To, Welcome]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate poll()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [5, 10, 30, 20, 15]
 The element at the head of the queue is: 5
 Final PriorityQueue: [10, 15, 30, 20]

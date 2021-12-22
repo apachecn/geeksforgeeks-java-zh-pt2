@@ -6,7 +6,7 @@ SimpleScriptContext 类的 **getAttribute()** 方法用于返回给定名称的�
 
 **语法:**
 
-```
+```java
 public Object getAttribute(String name)
 
 ```
@@ -23,7 +23,7 @@ public Object getAttribute(String name)
 下面的程序说明了 simplescriptcontext . getattribute()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getAttribute() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getAttribute() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 India
 Japan
 Nepal

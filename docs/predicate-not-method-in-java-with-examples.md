@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 negate = Predicate.not( positivePredicate );
 ```
 
@@ -25,7 +25,7 @@ negate = Predicate.not( positivePredicate );
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of Predicate.not() method in Java
 import java.util.Arrays;
 import java.util.List;
@@ -63,7 +63,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 [2, 4, 6, 8, 10]
 [1, 3, 5, 7, 9]
 ```

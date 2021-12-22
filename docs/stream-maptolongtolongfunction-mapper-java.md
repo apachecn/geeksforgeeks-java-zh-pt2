@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 LongStream mapToLong(ToLongFunction<**?** super **T**> mapper)
 
 Where, LongStream is a sequence of primitive 
@@ -21,7 +21,7 @@ returns the new stream.
 
 **例 1 :** mapToLong()函数，返回满足给定函数的流的操作。
 
-```
+```java
 // Java code for Stream mapToLong
 // (ToLongFunction mapper) to get a
 // LongStream by applying the given function
@@ -52,7 +52,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The stream after applying the function is : 
 225
 
@@ -60,7 +60,7 @@ The stream after applying the function is :
 
 **示例 2 :** 返回字符串长度中设定位数的 mapToLong()函数。
 
-```
+```java
 // Java code for Stream mapToLong
 // (ToLongFunction mapper) to get a
 // LongStream by applying the given function
@@ -88,7 +88,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 1
 1

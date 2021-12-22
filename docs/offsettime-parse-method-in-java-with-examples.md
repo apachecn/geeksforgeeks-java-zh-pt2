@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static OffsetTime parse(CharSequence text)
 
 ```
@@ -24,7 +24,7 @@ public static OffsetTime parse(CharSequence text)
 下面的程序说明了 parse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.parse() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OffsetTime : 15:25:10+01:00
 
 ```
@@ -58,7 +58,7 @@ OffsetTime : 15:25:10+01:00
 
 **语法:**
 
-```
+```java
 public static OffsetTime parse(CharSequence text,
                               DateTimeFormatter formatter)
 
@@ -73,7 +73,7 @@ public static OffsetTime parse(CharSequence text,
 下面的程序说明了 parse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.parse() method
 
@@ -101,7 +101,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OffsetTime : 11:35:34+01:00
 
 ```

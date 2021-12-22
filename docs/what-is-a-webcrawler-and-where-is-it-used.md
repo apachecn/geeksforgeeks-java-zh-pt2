@@ -19,7 +19,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the WebCrawler
 
 import java.io.BufferedReader;
@@ -183,7 +183,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Website found: https://www.google.com
 Website found: https://www.facebook.com
 Website found: https://www.amazon.com

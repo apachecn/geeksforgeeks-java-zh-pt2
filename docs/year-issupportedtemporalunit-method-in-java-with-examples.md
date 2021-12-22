@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
 
 ```
@@ -29,7 +29,7 @@ public boolean isSupported(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.isSupported(TemporalUnit) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 YEARS unit is supported by Year class: true
 
@@ -68,7 +68,7 @@ YEARS unit is supported by Year class: true
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.isSupported(TemporalUnit) method
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2022
 MILLENNIA unit is supported: true
 

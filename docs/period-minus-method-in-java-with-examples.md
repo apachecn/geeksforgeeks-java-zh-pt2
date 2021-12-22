@@ -8,7 +8,7 @@ Java 中 Period 类的减()方法用于从指定的周期中减去给定的周�
 
 **语法:**
 
-```
+```java
 public Period minus(TemporalAmount amountToSubtract)
 ```
 
@@ -25,7 +25,7 @@ public Period minus(TemporalAmount amountToSubtract)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function minus()
 // to subtract the two given periods
 import java.time.Period;
@@ -63,14 +63,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 P2Y4M2D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function minus()
 // to subtract the two given periods
 import java.time.Period;
@@ -107,7 +107,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 P-2Y-4M-2D
 
 ```

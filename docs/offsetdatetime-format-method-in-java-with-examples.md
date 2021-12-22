@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **format()** 方法使用指定的格式化程序
 
 **语法:**
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 ```
 
@@ -18,7 +18,7 @@ public String format(DateTimeFormatter formatter)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the format() method
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
@@ -41,7 +41,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 13:30:30+05:00
 ```

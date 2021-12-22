@@ -26,7 +26,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 
 class GFG {
@@ -74,7 +74,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 seeksForGeekG
 
 ```
@@ -95,7 +95,7 @@ T5**辅助空间:** O(N)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 
 class GFG {
@@ -150,7 +150,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 seeksForGeekG
 
 ```
@@ -171,7 +171,7 @@ T5**辅助空间:** O(1)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 
 class GFG {
@@ -211,7 +211,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 seeksForGeekG
 
 ```

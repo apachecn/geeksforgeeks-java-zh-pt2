@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.size()
 ```
 
@@ -18,7 +18,7 @@ Vector.size()
 
 **程序 1:** 带字符串元素的向量。
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The size is: 5
 
@@ -54,7 +54,7 @@ The size is: 5
 
 **程序 2:** 带有整数元素的向量。
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -82,7 +82,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The size is: 5
 

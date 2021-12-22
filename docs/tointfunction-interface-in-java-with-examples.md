@@ -18,7 +18,7 @@
 
 ****语法:****
 
-```
+```java
 int applyAsInt(T value)
 ```
 
@@ -30,7 +30,7 @@ int applyAsInt(T value)
 
 ****程序****
 
-```
+```java
 import java.util.function.ToIntFunction;
 
 public class Main {
@@ -49,7 +49,7 @@ public class Main {
 
 ****输出:**
 
-```
+```java
 32
 
 ```**

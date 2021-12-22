@@ -8,7 +8,7 @@ Base 64 是一种编码方案，它将二进制数据转换成文本格式，这
 
 **网址编码**
 
-```
+```java
 String encodedURL = Base64.getUrlEncoder()
                        .encodeToString(actualURL_String.getBytes());
 
@@ -18,7 +18,7 @@ String encodedURL = Base64.getUrlEncoder()
 
 **网址解码**
 
-```
+```java
 byte[] decodedURLBytes = Base64.getUrlDecoder().decode(encodedURLString);
 
 String actualURL= new String(decodedURLBytes);
@@ -31,7 +31,7 @@ String actualURL= new String(decodedURLBytes);
 
 **程序 1:** 使用 Base64 类的 URL 编码。
 
-```
+```java
 // Java program to demonstrate
 // URL encoding using Base64 class
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Sample URL:
 https://www.geeksforgeeks.org/
 encoded URL:
@@ -69,7 +69,7 @@ aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcv
 
 **程序 2:** 使用 Base64 类进行 URL 解码。
 
-```
+```java
 // Java program to demonstrate
 // Decoding Basic Base 64 format to String
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 encoded URL:
 aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcv
 actual String:

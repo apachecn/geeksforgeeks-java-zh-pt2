@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField field)
 ```
 
@@ -18,7 +18,7 @@ public long getLong(TemporalField field)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Specified temporal fieldin long format: 18385
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLong() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Specified temporal fieldin long format: 7
 
 ```

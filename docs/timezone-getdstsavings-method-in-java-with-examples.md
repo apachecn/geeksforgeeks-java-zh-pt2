@@ -6,7 +6,7 @@ Java 中 **TimeZone 类**的**getdstssaving()**方法是用来知道需要加到
 
 **语法:**
 
-```
+```java
 public int getDSTSavings()
 ```
 
@@ -17,7 +17,7 @@ public int getDSTSavings()
 下面的程序说明了时区的 getDSTSavings()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate getDSTSavings() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The DST is: 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getDSTSavings() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The DST is: 3600000
 
 ```

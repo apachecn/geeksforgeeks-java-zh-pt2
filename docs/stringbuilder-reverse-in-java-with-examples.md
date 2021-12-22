@@ -6,7 +6,7 @@ StringBuilder 的**反转()**方法用于**反转 StringBuilder** 中的字符�
 
 **语法:**
 
-```
+```java
 public java.lang.AbstractStringBuilder reverse()
 ```
 
@@ -16,7 +16,7 @@ public java.lang.AbstractStringBuilder reverse()
 下面的程序说明了 Java . lang . stringbuilder . replace()方法:
 **示例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the reverse() Method.
 
@@ -45,7 +45,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = WelcomeGeeks
 Reverse String = skeeGemocleW
 
@@ -53,7 +53,7 @@ Reverse String = skeeGemocleW
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the reverse() Method.
 
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String = AAAABBBCCCC
 Reverse String = CCCCBBBAAAA
 

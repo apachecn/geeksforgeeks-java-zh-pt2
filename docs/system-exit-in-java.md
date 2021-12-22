@@ -6,7 +6,7 @@
 
 以下是 **java.lang.System.exit()** 方法的声明:
 
-```
+```java
 public static void exit(int status)
 ```
 
@@ -17,7 +17,7 @@ public static void exit(int status)
 
 下面的例子展示了 **java.lang.System.exit()** 方法的用法。
 
-```
+```java
 // A Java program to demonstrate working of exit()
 import java.util.*;
 import java.lang.*;
@@ -48,7 +48,7 @@ class GfG
 
 输出:
 
-```
+```java
 arr[0] = 1
 arr[1] = 2
 arr[2] = 3

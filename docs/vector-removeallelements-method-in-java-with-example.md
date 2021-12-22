@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.removeAllElements()
 ```
 
@@ -18,7 +18,7 @@ Vector.removeAllElements()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate removeAllElements()
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The final Vector: []
 
@@ -58,7 +58,7 @@ The final Vector: []
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate removeAllElements()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The final Vector: []
 

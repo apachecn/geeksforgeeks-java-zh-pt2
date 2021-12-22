@@ -10,7 +10,7 @@
 
 **排序语法:**
 
-```
+```java
 Arrays.sort(array_name);
 
 ```
@@ -28,7 +28,7 @@ Arrays.sort(array_name);
 
 **二进制搜索语法:**
 
-```
+```java
 Arrays.binarySearch(array_name, key);
 
 ```
@@ -39,7 +39,7 @@ Arrays.binarySearch(array_name, key);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find an 
 // element in an sorted array
 
@@ -70,7 +70,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Element 2 found at index: 1
 
 ```
@@ -79,7 +79,7 @@ Element 2 found at index: 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Sorting an array and
 // searching for an element in the 
 // sorted array
@@ -121,7 +121,7 @@ public class Gfg {
 
 **输出:**
 
-```
+```java
 Sorted Array:
 1 2 3 4 5 6 7 8 9 10 
 Element 2 found at index: 1

@@ -8,7 +8,7 @@
 
 以下是同步块的一般形式:
 
-```
+```java
 // Only one thread can execute at a time. 
 // sync_object is a reference to an object
 // whose lock associates with the monitor. 
@@ -27,7 +27,7 @@ synchronized(sync_object)
 
 ## 爪哇
 
-```
+```java
 // A Java program to demonstrate working of
 // synchronized.
 
@@ -109,7 +109,7 @@ class SyncDemo
 
 **输出**
 
-```
+```java
 Sending     Hi 
 
  Hi Sent
@@ -122,7 +122,7 @@ Sending     Bye
 
 在上面的例子中，我们选择在 ThreadedSend 类的 run()方法中同步 Sender 对象。或者，我们可以将**整个发送()块定义为同步的**、，产生相同的结果。那么我们就不需要在 ThreadedSend 类的 run()方法中同步 Message 对象。
 
-```
+```java
 // An alternate implementation to demonstrate
 // that we can use synchronized with method also.
 
@@ -143,7 +143,7 @@ class Sender {
 
 我们不必总是同步整个方法。有时最好只同步方法的一部分。方法内部的 Java 同步块使这成为可能。
 
-```
+```java
 // One more alternate implementation to demonstrate
 // that synchronized can be used with only a part of  
 // method

@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate the
 // short circuiting using &&
 
@@ -62,7 +62,7 @@ class ShortCirAND {
 
 **Output**
 
-```
+```java
 This output got printed actually,  due to short circuit
 This output gets print as there will be no Short circuit
 ```
@@ -75,7 +75,7 @@ This output gets print as there will be no Short circuit
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // short circuiting using OR
 
@@ -120,7 +120,7 @@ class ShortCirOR {
 
 **Output**
 
-```
+```java
 This output got printed actually,  due to short circuit
 This output gets print as there will be no Short circuit
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean addAll(Collection C)
 ```
 
@@ -18,7 +18,7 @@ boolean addAll(Collection C)
 
 **程序 1 :** 追加一个树集合。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.*;
@@ -58,7 +58,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, To, TreeSet, Welcome]
 Set: [4, Geeks, Hello, To, TreeSet, Welcome, World]
 
@@ -66,7 +66,7 @@ Set: [4, Geeks, Hello, To, TreeSet, Welcome, World]
 
 **程序 2 :** 追加数组列表。
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.*;
@@ -105,7 +105,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Initial Set: [4, Geeks, Set, To, Welcome]
 Final Set: [4, A, Computer, Geeks, Portal, Set, To, Welcome]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int radix()
 ```
 
@@ -16,7 +16,7 @@ public int radix()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // radix() method of Scanner class in Java
 
@@ -49,7 +49,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String:
 Geeksforgeeks has Scanner methods
 Default Radix value: 10
@@ -58,7 +58,7 @@ Default Radix value: 10
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // radix() method of Scanner class in Java
 
@@ -100,7 +100,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: Geeksforgeeks
 Default Radix value: 10
 Radix changed to 30

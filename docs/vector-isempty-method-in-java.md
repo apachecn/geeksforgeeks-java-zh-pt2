@@ -6,7 +6,7 @@ Java.util.Vector 。Java 中的 isEmpty()方法用于检查和验证 Vector 是�
 
 **语法:**
 
-```
+```java
 Vector.isEmpty()
 ```
 
@@ -18,7 +18,7 @@ Vector.isEmpty()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -58,7 +58,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector:  [Welcome, To, Geeks, 4, Geeks]
 Is the Vector empty? false
 Vector after clear(): []
@@ -68,7 +68,7 @@ Is the Vector empty? true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate isEmpty()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector:  []
 Is the Vector empty? true
 

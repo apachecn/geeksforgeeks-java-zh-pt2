@@ -14,7 +14,7 @@
 
 ****用程序了解堆污染:****
 
-```
+```java
 // Program to illustrate Heap pollution situation
 
 import java.util.*;
@@ -50,7 +50,7 @@ class Geeks {
 
 ****编译时控制台:****
 
-```
+```java
 prog.java:12: warning: [unchecked] unchecked cast
         List listOfInteger = (List)(Object)listOfString;
                                                      ^
@@ -65,7 +65,7 @@ prog.java:12: warning: [unchecked] unchecked cast
 
 **<u>**如何应对堆污？**T3】</u>**
 
-```
+```java
 // Program to illustrate Heap pollution with respect to varargs
 
 import java.util.*;
@@ -107,7 +107,7 @@ class Geeks {
 
 ****编译时控制台:****
 
-```
+```java
 prog.java:4: warning:
  [unchecked] Possible heap pollution from
              parameterized vararg type List
@@ -123,7 +123,7 @@ prog.java:23: warning:
 
 ****输出:****
 
-```
+```java
 Exception in thread "main" java.lang.ClassCastException:
  java.lang.Integer cannot be cast to java.lang.String
     at Geeks.merge(File.java:10)

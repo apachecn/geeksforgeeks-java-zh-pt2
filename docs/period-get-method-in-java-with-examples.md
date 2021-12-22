@@ -6,7 +6,7 @@ Java 中 Period 类的 get()方法用于从这个 Period 获取参数中给出�
 
 **语法:**
 
-```
+```java
 public long get(TemporalUnit unit)
 ```
 
@@ -23,7 +23,7 @@ public long get(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function get()
 // which gives the requested unit
 import java.time.Period;
@@ -53,14 +53,14 @@ public class PeriodDemo {
 
 **Output:**
 
-```
+```java
 25
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java code to show the function get()
 // which gives the requested unit
 import java.time.Period;
@@ -90,7 +90,7 @@ public class PeriodDemo {
 
 **Output:**
 
-```
+```java
 11
 
 ```

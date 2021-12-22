@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Stream<T> iterate(T seed,
                              Predicate<T> hasNext,
                              UnaryOperator<T> next)
@@ -27,7 +27,7 @@ static <T> Stream<T> iterate(T seed,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.iterate method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.iterate method
 

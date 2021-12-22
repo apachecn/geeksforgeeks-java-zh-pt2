@@ -8,13 +8,13 @@
 
 **申报**
 
-```
+```java
 public int indexOf(Object o)
 ```
 
 **语法:**
 
-```
+```java
 Vector.indexOf(Object element)
 ```
 
@@ -24,7 +24,7 @@ Vector.indexOf(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Searching Elements in Vector Using Index in Java
 import java.util.Vector;
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The index of element Geeks For Geeks in Vector is: 0
 The index of element 2100 in Vector is: -1
 ```
@@ -65,13 +65,13 @@ The index of element 2100 in Vector is: -1
 
 **申报**
 
-```
+```java
 public int lastIndexOf(Object o)
 ```
 
 **语法:**
 
-```
+```java
 Vector.lastIndexOf(Object element)
 ```
 
@@ -81,7 +81,7 @@ Vector.lastIndexOf(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Searching Elements in Vector
 // Using Index in Java
 import java.util.Vector;
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The index of element Geeks For Geeks in Vector is: 4
 ```
 
@@ -119,13 +119,13 @@ The index of element Geeks For Geeks in Vector is: 4
 
 **申报**
 
-```
+```java
 public int indexOf(Object o, int Starting_Index)
 ```
 
 **语法**
 
-```
+```java
 Vector.indexOf(Object, int)
 ```
 
@@ -138,7 +138,7 @@ Vector.indexOf(Object, int)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Searching Elements in Vector Using Index in Java
 import java.util.Vector;
 
@@ -167,7 +167,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The index of element Bob in Vector is: 4
 ```
 
@@ -175,13 +175,13 @@ The index of element Bob in Vector is: 4
 
 **申报**
 
-```
+```java
 public int lastIndexOf(Object o, int Starting_Index)
 ```
 
 **语法**
 
-```
+```java
 Vector.lastIndexOf(Object, int)
 ```
 
@@ -194,7 +194,7 @@ Vector.lastIndexOf(Object, int)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Searching Elements in Vector Using Index in Java
 import java.util.Vector;
 
@@ -223,6 +223,6 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The index of element Bob in Vector is: 4
 ```

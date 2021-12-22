@@ -5,7 +5,7 @@
 Java 中 [TreeSet 的 pollFirst()方法用于检索并移除第一个(最低的)元素，如果该 TreeSet 为空，则返回 null。
 **语法:**](https://www.geeksforgeeks.org/treeset-in-java-with-examples/)
 
-```
+```java
 E pollFirst()
 
 ```
@@ -17,7 +17,7 @@ E pollFirst()
 
 **例 1**
 
-```
+```java
 // A Java program to demonstrate
 // pollFirst() method of TreeSet
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Before removing element from TreeSet: [0, 1, 2, 3, 4, 5, 6]
 First lowest element removed is : 0
 After removing element from TreeSet: [1, 2, 3, 4, 5, 6]

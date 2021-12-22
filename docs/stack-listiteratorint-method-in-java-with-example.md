@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator(int index)
 ```
 
@@ -20,7 +20,7 @@ public ListIterator listIterator(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // listIterator() method
 // for String value
@@ -68,7 +68,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [A, B, C, D]
 
 Using ListIterator from Index 2:
@@ -80,7 +80,7 @@ Value is : D
 
 **示例 2:** 适用于*指数出界异常*
 
-```
+```java
 // Java program to demonstrate
 // listIterator() method
 // for IndexOutOfBoundsException
@@ -126,7 +126,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [A, B, C, D]
 Size of Stack: 4
 Trying to getListIterator from index 7

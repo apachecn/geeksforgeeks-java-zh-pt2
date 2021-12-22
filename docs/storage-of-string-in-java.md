@@ -34,7 +34,7 @@ PermGen 空间是有限的空间，默认大小仅为 64 MB。这是一个在 Pe
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -59,7 +59,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 TAT
 TAT
 TAT

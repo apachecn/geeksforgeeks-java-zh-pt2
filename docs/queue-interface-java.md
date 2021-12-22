@@ -22,7 +22,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate a Queue
 
 import java.util.LinkedList;
@@ -69,7 +69,7 @@ public class QueueExample {
 
 **Output:** 
 
-```
+```java
 Elements of queue [0, 1, 2, 3, 4]
 removed element-0
 [1, 2, 3, 4]
@@ -84,7 +84,7 @@ T3】1。添加元素:为了在队列中添加一个元素，我们可以使用 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to add elements
 // to a Queue
 
@@ -107,6 +107,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 [For, Geeks, Geeks]
 ```

@@ -5,7 +5,7 @@
 [**优先级阻塞队列**](https://www.geeksforgeeks.org/priorityblockingqueue-class-in-java/) 的**剩余容量**方法用于检查**该队列还能插入多少元素。**但是由于 PriorityBlockingQueue 是无界的，这个方法总是返回**整数。最大值**因为优先级阻塞队列不受容量限制。
 **语法:**
 
-```
+```java
 public int remainingCapacity()
 ```
 
@@ -15,7 +15,7 @@ T4】程序 1:T6】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of PriorityBlockingQueue
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Queue:  [1, 2, 3, 4]
 Remaining Capacity: 2147483647
 ```
@@ -64,7 +64,7 @@ Remaining Capacity: 2147483647
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate remainingCapacity()
 // method of PriorityBlockingQueue
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Queue:  [A Computer, Portal, Geeks, forGeeks]
 Remaining Capacity: 2147483647
 ```

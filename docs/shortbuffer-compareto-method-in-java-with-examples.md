@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```java
 public int compareTo(ShortBuffer that)
 ```
 
@@ -20,7 +20,7 @@ public int compareTo(ShortBuffer that)
 
 **程序 1** :当两个浮动缓冲器相等时。
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb: [956, 761, 461]
 ShortBuffer sb1: [956, 761, 461]
 
@@ -107,7 +107,7 @@ both buffer are lexicographically equal
 
 **程序 2** :当这个短缓冲区大于传递的短缓冲区时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -184,7 +184,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer s: [956, 761, 41]
 ShortBuffer sb1: [856, 761, 461]
 
@@ -194,7 +194,7 @@ fb is lexicographically greater than fb1
 
 **程序 3** :当这个短缓存小于传递的短缓存时
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -271,7 +271,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb: [856, 761, 461]
 ShortBuffer sb1: [956, 761, 461]
 

@@ -16,7 +16,7 @@ POJOs 基本上定义了一个实体。像在您的程序中一样，如果您�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Employee POJO class to represent entity Employee
 public class Employee
 {
@@ -76,7 +76,7 @@ POJO 是封装业务逻辑的对象。下图显示了 POJO 类的一个工作示
 
 根据字段名，Getters 和 Setters 有一些特殊的名称。例如，如果字段名是 someProperty，那么它的 **getter** 最好是:
 
-```
+```java
 public "returnType" getSomeProperty()
 {
    return someProperty;
@@ -85,7 +85,7 @@ public "returnType" getSomeProperty()
 
 而**设定器**将
 
-```
+```java
 public void setSomePRoperty(someProperty)
 {
    this.someProperty=someProperty;
@@ -94,7 +94,7 @@ public void setSomePRoperty(someProperty)
 
 吸气剂和沉降剂的可见性通常是公开的。获取器和设置器提供了对字段的完全限制。例如考虑下面的属性，
 
-```
+```java
 Integer age;
 ```
 
@@ -102,7 +102,7 @@ Integer age;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate JavaBeans 
 class Bean 
 { 
@@ -156,7 +156,7 @@ public class GFG 
 
 输出:-
 
-```
+```java
 After setting to 0: null
 After setting to valid value: 5
 ```

@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public ZipEntry getEntry(String name)
 ```
 
 **语法:**
 
-```
+```java
 zip_file.getEntry();
 ```
 
@@ -24,7 +24,7 @@ zip_file.getEntry();
 
 **示例 1:** 创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getEntry() function
 
@@ -59,14 +59,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Name: file1.cpp
 
 ```
 
 **示例 2:** 创建一个名为 zip_file 的文件，并使用 getEntry()函数获取 zip 文件条目。“file.zip”是存在于 f:目录中的 zip 文件，而“file4.cpp”不存在于 zip 文件中。
 
-```
+```java
 // Java program to demonstrate the
 // use of getEntry() function
 
@@ -101,7 +101,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 null
 
 ```

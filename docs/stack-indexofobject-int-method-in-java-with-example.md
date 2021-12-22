@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int indexOf(Object element, 
                         int index)
 ```
@@ -24,7 +24,7 @@ public int indexOf(Object element,
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate indexOf()
 
 import java.util.*;
@@ -64,7 +64,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, Geeks]
 The first occurrence of Geeks is at index:0
 The second occurrence of Geeks is at index: 0
@@ -73,7 +73,7 @@ The second occurrence of Geeks is at index: 0
 
 **程序 2:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java code to illustrate indexOf()
 import java.util.*;
 
@@ -112,7 +112,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 The -1 occurrence of Geeks is at index: 
 java.lang.ArrayIndexOutOfBoundsException: -1

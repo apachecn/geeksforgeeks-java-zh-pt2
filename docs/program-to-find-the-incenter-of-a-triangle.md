@@ -5,7 +5,7 @@
 给定三角形的顶点和边长。三角形内切圆。任务是找到三角形的燃烧物。
 **例:**
 
-```
+```java
 Input: A(2, 2), B(1, 1), C(3, 1) 
         and AB = 2, BC = 1, AC = 1
 Output: (2, 1.5)
@@ -31,7 +31,7 @@ Output: (2.5, 2.83)
 
 ## C++
 
-```
+```java
 // C++ program to find the
 // incenter of a triangle
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the
 // incenter of a triangle
 
@@ -94,7 +94,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to find the
 # incenter of a triangle
 
@@ -118,7 +118,7 @@ print("Incenter = (", x, ",", y, ")");
 
 ## C#
 
-```
+```java
 // C# program to find the
 // incenter of a triangle
 
@@ -152,7 +152,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
       // JavaScript program to find the
       // incenter of a triangle
@@ -180,6 +180,6 @@ class GFG
 
 **Output:** 
 
-```
+```java
 Incenter= (2.0, 1.5)
 ```

@@ -18,31 +18,31 @@ Java 中的 [HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-wi
 *   所以我们需要位置来写 HashMap。
 *   因此需要提供外部位置来存储哈希表
 
-```
+```java
 final static String outputFilePath = "F:/Serialisation/write.txt";
 ```
 
 创建**字符串键**和**字符串值对**的哈希表
 
-```
+```java
 HashMap<String, String> map = new HashMap<String, String>();
 ```
 
 创建文件对象:
 
-```
+```java
 File file = new File(outputFilePath);
 ```
 
 使用文件对象，我们将使用函数[**BufferedWriter**](https://www.geeksforgeeks.org/bufferedwriter-write-method-in-java-with-examples/)**(File _ Path)**编写 HashMap 输入
 
-```
+```java
  bf = new BufferedWriter( new FileWriter(file));
 ```
 
 最后关闭文件
 
-```
+```java
  bf.close();
 ```
 
@@ -50,7 +50,7 @@ File file = new File(outputFilePath);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to write HashMap to a file
 
 import java.io.*;

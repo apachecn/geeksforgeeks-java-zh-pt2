@@ -25,7 +25,7 @@ Java 中类的 **printf(Locale，String，Object)** 方法用于使用给定的 
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter printf(String, Object) method
 
@@ -64,14 +64,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks 47.65734000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter printf(String, Object) method
 
@@ -112,7 +112,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A Computer Science Portal  GFG, GFG and GeeksforGeeks
 
 ```

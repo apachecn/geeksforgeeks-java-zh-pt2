@@ -8,13 +8,13 @@ java.util 包的 **ThreadLocalRandom** 类是一个随机数生成器，它生�
 
 **语法:**
 
-```
+```java
 public class ThreadLocalRandom extends Random
 ```
 
 ThreadLocalRandom 的用法通常为:
 
-```
+```java
 ThreadLocalRandom.current().nextX(...) {where X = Int, Long, Double etc}
 ```
 
@@ -28,7 +28,7 @@ ThreadLocalRandom.current().nextX(...) {where X = Int, Long, Double etc}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to illustrate ThreadLocalRandom class
 
 // Importing class from java.util.concurrent package
@@ -75,7 +75,7 @@ public class ThreadLocalRandomNumbers extends Thread {
 
 **Output**
 
-```
+```java
 Thread 11 generated 2
 Thread 12 generated 10
 ```
@@ -84,7 +84,7 @@ java.util 包的 **SecureRandom** 类是一个加密安全的随机数生成器�
 
 **语法:**
 
-```
+```java
 public class SecureRandom extends Random
 ```
 
@@ -94,7 +94,7 @@ public class SecureRandom extends Random
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate SecureRandom Class
 
 // Importing class from java.security package
@@ -138,7 +138,7 @@ public class SecureRandomNumbers {
 
 **Output**
 
-```
+```java
 Random Numbers
 Exception
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public String findInLine(Pattern pattern)
 ```
 
@@ -22,7 +22,7 @@ public String findInLine(Pattern pattern)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // findInLine() method of Scanner class in Java
 
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Target String:
 Geeksforgeeks has Scanner Class Methods
 
@@ -73,7 +73,7 @@ Any 5 letter plus for : Geeksfor
 
 **程序 2:** 演示**非法状态异常**
 
-```
+```java
 // Java program to illustrate the
 // findInLine() method of Scanner class in Java
 
@@ -117,7 +117,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Target String:
 Geeksforgeeks has Scanner Class Methods
 Exception thrown:
@@ -132,7 +132,7 @@ Exception thrown:
 
 **语法:**
 
-```
+```java
 public String findInLine(String pattern)
 ```
 
@@ -146,7 +146,7 @@ public String findInLine(String pattern)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // findInLine() method of Scanner class in Java
 
@@ -188,7 +188,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Target String:
 Geeksforgeeks has Scanner Class Methods
 
@@ -198,7 +198,7 @@ Any 5 letter plus for : Geeksfor
 
 **程序 2:** 演示**非法状态异常**
 
-```
+```java
 // Java program to illustrate the
 // findInLine() method of Scanner class in Java
 
@@ -240,7 +240,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Target String:
 Geeksforgeeks has Scanner Class Methods
 Exception thrown :

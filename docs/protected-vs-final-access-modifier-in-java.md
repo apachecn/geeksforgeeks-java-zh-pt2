@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Protected Access Modifier
 
 // Importing required classes
@@ -60,7 +60,7 @@ class B extends A {
 
 **Output**
 
-```
+```java
 GFG
 GFG
 GFG
@@ -76,7 +76,7 @@ GFG
 
 简单地说，它是一个简单的修饰符，用于创建最终的方法，变量，无论我们想根据需求在程序中创建什么。我们使用我们想让程序的一部分，从最小的变量到更大的块，这是考虑出生日期的方法。
 
-```
+```java
 final int dob = 25011947 ;
 ```
 
@@ -86,7 +86,7 @@ final int dob = 25011947 ;
 > 
 > *   如果变量在 final 旁边声明为静态的，如下所示，那么它只能在静态块中初始化。
 > 
-> ```
+> ```java
 > public static final weekDay ;
 > ```
 > 
@@ -96,7 +96,7 @@ final int dob = 25011947 ;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Final keyword
 
 // Importing required classes

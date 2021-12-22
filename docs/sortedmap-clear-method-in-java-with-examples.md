@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void clear()
 ```
 
@@ -20,7 +20,7 @@ void clear()
 
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the clear() method
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are:
  {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Finally the maps look like this: {}
@@ -68,7 +68,7 @@ Finally the maps look like this: {}
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the clear() method
 
 import java.util.*;
@@ -106,7 +106,7 @@ public class Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are:
  {4=15, Geeks=20, Welcomes=25, You=30}
 Finally the maps look like this: {}

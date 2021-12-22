@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public byte byteValue()
 
 ```
@@ -19,7 +19,7 @@ public byte byteValue()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Number.byteValue() method
 public class gfg {
@@ -44,7 +44,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 -70
 20
 
@@ -52,7 +52,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // Number.byteValue() method
 public class gfg {
@@ -77,7 +77,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 123
 76
 

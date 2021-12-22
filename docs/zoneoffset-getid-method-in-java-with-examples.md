@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String getId()
 
 ```
@@ -19,7 +19,7 @@ public static String getId()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getId() method
 
 import java.time.*;
@@ -45,7 +45,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +05:00
 ZoneOffset ID: +05:00
 
@@ -53,7 +53,7 @@ ZoneOffset ID: +05:00
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getId() method
 
 import java.time.*;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z
 ZoneOffset ID: Z
 

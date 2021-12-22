@@ -22,7 +22,7 @@ Java 8 设计人员一直在考虑这种冲突，并为这种场景指定了解�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // classes take higher precedence than interfaces
 
@@ -78,7 +78,7 @@ class C extends D implements A, B {
 
 **输出:**
 
-```
+```java
 method of class D
 ```
 
@@ -92,7 +92,7 @@ method of class D
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Derived interfaces or
 // sub-interfaces take higher precedence than the interfaces
 // higher-up in the inheritance hierarchy
@@ -145,7 +145,7 @@ class C implements B {
 
 **Output**
 
-```
+```java
 m1 method of B
 ```
 
@@ -159,7 +159,7 @@ m1 method of B
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to in which implementing class
 // has to specifically override and provide a method
 // with the same method definition
@@ -220,7 +220,7 @@ class C implements A, B {
 
 **输出:**
 
-```
+```java
 m1 method of interface B
 ```
 
@@ -231,7 +231,7 @@ m1 method of interface B
 
 > **注意:**在 print()方法的 C 类实现内部，它应该调用接口 A 或 b 的具体实现，为此 Java 8 有一个特殊的语法如下:
 > 
-> ```
+> ```java
 > <super-interface-name>.super<method-name>
 > ```
 > 

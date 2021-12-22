@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stream<**T**> filter(Predicate<**?** super **T**> predicate)
 
 Where, Stream is an interface and T is the 
@@ -17,7 +17,7 @@ The function returns the new stream.
 
 **示例 1 :** 过滤()方法，具有过滤掉可被 5 整除的元素的操作。
 
-```
+```java
 // Java code for Stream filter
 // (Predicate predicate) to get a stream
 // consisting of the elements of this
@@ -43,14 +43,14 @@ class GFG {
 
 输出:
 
-```
+```java
 20
 
 ```
 
 **示例 2 :** filter()方法，操作是过滤掉索引 1 处带有大写字母的元素。
 
-```
+```java
 // Java code for Stream filter
 // (Predicate predicate) to get a stream
 // consisting of the elements of this
@@ -79,7 +79,7 @@ class GFG {
 
 输出:
 
-```
+```java
 fOr
 GEEKSQUIZ
 
@@ -87,7 +87,7 @@ GEEKSQUIZ
 
 **示例 3 :** 过滤()方法，过滤掉以 s 结尾的元素
 
-```
+```java
 // Java code for Stream filter
 // (Predicate predicate) to get a stream
 // consisting of the elements of this
@@ -115,7 +115,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Geeks
 GeeksforGeeks
 

@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getComment()
 ```
 
 **语法:**
 
-```
+```java
 zip_file.getComment();
 ```
 
@@ -25,7 +25,7 @@ zip_file.getComment();
 
 **示例 1:** 创建一个名为 zip_file 的文件，并使用 getComment()函数获取注释。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getComment() function
 
@@ -56,14 +56,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 comment = This is a zip file comment
 
 ```
 
 **示例 2:** 创建一个名为 zip_file 的文件，并使用 getComment()函数获取注释。如果我们关闭文件，然后调用函数 getComment()，这个函数将引发异常。
 
-```
+```java
 // Java program to demonstrate the
 // use of getComment() function
 
@@ -97,7 +97,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 zip file closed
 
 ```

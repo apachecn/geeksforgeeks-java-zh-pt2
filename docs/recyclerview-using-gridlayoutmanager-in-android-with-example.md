@@ -69,7 +69,7 @@ RecyclerView 是 ListView 的临时版本。《回收者视角》的表演是即
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -112,7 +112,7 @@ RecyclerView 是 ListView 的临时版本。《回收者视角》的表演是即
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public class RecyclerData {
 
     private String title;
@@ -157,7 +157,7 @@ public class RecyclerData {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -221,7 +221,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--XMl Layout for RecyclerView-->
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -245,7 +245,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;

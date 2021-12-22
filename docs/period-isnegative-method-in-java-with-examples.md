@@ -6,7 +6,7 @@ Java 中 period 类的 isNegative()方法用于检查 Period 中的 YEAR、MONTH
 
 **语法:**
 
-```
+```java
 public boolean isNegative()
 ```
 
@@ -18,7 +18,7 @@ public boolean isNegative()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function isNegative()
 // to check whether any of the three given units
 // YEAR, MONTH, DAY is negative
@@ -50,14 +50,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function isNegative()
 // to check whether any of the three given units
 // YEAR, MONTH, DAY is negative
@@ -89,7 +89,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 false
 
 ```

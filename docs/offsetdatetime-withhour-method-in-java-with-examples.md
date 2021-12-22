@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**withour()**方法返回该 OffsetDateTime 的副
 
 **语法:**
 
-```
+```java
 public OffsetDateTime withHour(int hour)
 ```
 
@@ -20,7 +20,7 @@ public OffsetDateTime withHour(int hour)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the withHour() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after altering hour of the day: 2018-12-12T20:30:30+05:00
 
@@ -56,7 +56,7 @@ Date1 after altering hour of the day: 2018-12-12T20:30:30+05:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the withHour() method
 
 import java.time.OffsetDateTime;
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Exception: java.time.DateTimeException:
            Invalid value for HourOfDay (valid values 0 - 23): 27

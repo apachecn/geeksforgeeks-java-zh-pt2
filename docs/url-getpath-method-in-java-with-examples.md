@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getPath()
 ```
 
 **语法**:
 
-```
+```java
 url.getPath()
 ```
 
@@ -23,7 +23,7 @@ url.getPath()
 
 **示例 1** :给定一个 URL，我们将使用 getPath()函数获取路径。
 
-```
+```java
 // Java program to show the
 // use of the function getPath()
 
@@ -61,7 +61,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples/
  Path= /url-getprotocol-method-in-java-with-examples/
 
@@ -69,7 +69,7 @@ URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-example
 
 **例 2** :现在看看 getPath()和 getFile()有什么不同。getPath()将排除该查询，但 getFile()将包括该查询
 
-```
+```java
 // Java program to show the
 // use of the function getPath()
 
@@ -107,7 +107,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples?title=protocol
  Path= /url-getprotocol-method-in-java-with-examples
 

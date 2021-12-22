@@ -16,7 +16,7 @@
 
 **程序 1:** 使用直接转换。
 
-```
+```java
 // Java Program to convert
 // Set<String> to Set<Integer> in Java 8
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set of String: [1, 2, 3, 4, 5]
 Set of Integer: [1, 2, 3, 4, 5]
 
@@ -55,7 +55,7 @@ Set of Integer: [1, 2, 3, 4, 5]
 
 **程序 2:** 使用泛型函数。
 
-```
+```java
 // Java Program to convert
 // Set<String> to Set<Integer> in Java 8
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set of String: [1, 2, 3, 4, 5]
 Set of Integer: [1, 2, 3, 4, 5]
 

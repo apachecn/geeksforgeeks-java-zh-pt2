@@ -60,7 +60,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate producer code
 
 // Implement Runnable since object
@@ -99,7 +99,7 @@ class producer implements Runnable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate consumer code
 
 // Implement Runnable since object
@@ -146,7 +146,7 @@ class consumer implements Runnable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate producer consumer
 // problem solution
 
@@ -234,7 +234,7 @@ class consumer implements Runnable {
 
 **Output**
 
-```
+```java
 Produced 1
 Produced 2
 Produced 3

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setDSTSavings(int millisSavedDuringDST)
 
 ```
@@ -21,7 +21,7 @@ public void setDSTSavings(int millisSavedDuringDST)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function SimpleTimeZone.setDSTSavings()
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inittally DST saving value is = 3500000
 DST saving value set to 6000000
 Current DST saving value is = 6000000
@@ -72,7 +72,7 @@ Current DST saving value is = 6000000
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function SimpleTimeZone.setDSTSavings()
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inittally DST saving value is = 3500000
 DST saving value set to 4000000
 Current DST saving value is = 4000000

@@ -6,7 +6,7 @@ Java 中 **[Reader](https://www.geeksforgeeks.org/java-io-reader-class-java/)** 
 
 **语法:**
 
-```
+```java
 public void ready()
 ```
 
@@ -20,7 +20,7 @@ public void ready()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Reader ready() method
 
@@ -74,7 +74,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is Reader ready to be read: true
 
 Integer value of character read: 71
@@ -96,7 +96,7 @@ Actual character read: s
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Reader ready() method
 
@@ -149,7 +149,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.IOException: Stream closed
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.removeElementAt(int index)
 ```
 
@@ -16,7 +16,7 @@ Vector.removeElementAt(int index)
 
 下面的程序说明了 Java . util . vector . remove(int index)方法:
 
-```
+```java
 // Java code to illustrate removeElementAt()
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Geeks, for, Geeks, 10, 20]
 The initial size is: 5
 Final Vector: [Geeks, for, 10, 20]

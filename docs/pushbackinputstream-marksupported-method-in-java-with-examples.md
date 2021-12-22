@@ -6,7 +6,7 @@ Java 中**推回输入流**类的 **markSupported()** 方法用于验证 mark()�
 
 **语法:**
 
-```
+```java
 public boolean markSupported()
 
 ```
@@ -23,7 +23,7 @@ public boolean markSupported()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream markSupported() method
 
@@ -58,14 +58,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream markSupported() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

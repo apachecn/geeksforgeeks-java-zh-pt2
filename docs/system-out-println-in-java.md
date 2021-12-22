@@ -12,7 +12,7 @@ Java**system . out . println()**用于打印传递给它的参数。该陈述可
 
 **语法:**
 
-```
+```java
 System.out.println(*parameter*)
 ```
 
@@ -20,7 +20,7 @@ System.out.println(*parameter*)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // System.out.println();
 
@@ -38,7 +38,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Welcome
 To
 GeeksforGeeks
@@ -47,7 +47,7 @@ GeeksforGeeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // System.out.println();
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 The addition of 10 and 20 is:
 30
 
@@ -84,7 +84,7 @@ The addition of 10 and 20 is:
 1.  系统:这是用于从键盘或任何其他标准输入设备读取字符的标准输入流。
     **例:**
 
-    ```
+    ```java
     InputStreamReader inp = new InputStreamReader(System.in);
 
     ```
@@ -92,7 +92,7 @@ The addition of 10 and 20 is:
 2.  **System.err** :这是一个标准的错误流，用于在计算机屏幕或任何标准输出设备上输出程序可能抛出的所有错误数据。
     **例:**
 
-    ```
+    ```java
     System.err.print("Error");
 
     ```
@@ -103,7 +103,7 @@ The addition of 10 and 20 is:
 
 **例如**:
 
-```
+```java
 System.out.println(), 
 System.out.println(int), 
 System.out.println(double), 
@@ -117,7 +117,7 @@ PrintStream 大约有 10 个不同的 println()方法的重载，它们是根据
 
 **示例:**
 
-```
+```java
 // Java code to illustrate method
 // overloading in println()
 
@@ -150,7 +150,7 @@ class PrintLN {
 
 **Output:**
 
-```
+```java
 
 10
 G
@@ -170,7 +170,7 @@ Hello
 
 **示例:**
 
-```
+```java
 // Java code to illustrate difference
 // between print() and println()
 
@@ -204,7 +204,7 @@ class Demo_print {
 
 **输出:**
 
-```
+```java
 Using print()
 GfG! GfG! GfG! 
 

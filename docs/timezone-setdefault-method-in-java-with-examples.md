@@ -6,7 +6,7 @@ Java 中 **[TimeZone 类](https://www.geeksforgeeks.org/java-util-timezone-class
 
 **语法:**
 
-```
+```java
 public static void 
     setDefault(TimeZone *zone*)
 ```
@@ -18,7 +18,7 @@ public static void
 下面的程序说明了时区的 setDefault()方法的工作原理。
 **例 1:**
 
-```
+```java
 // Java code to illustrate setDefault() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class TimeZoneDemo {
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate setDefault() method
 
 import java.util.*;

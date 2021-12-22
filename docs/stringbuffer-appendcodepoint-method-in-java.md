@@ -4,7 +4,7 @@
 
 ***StringBuffer 类的 appendCodePoint()方法*** 将 CodePoint 参数的字符串表示追加到这个序列中，对于这个序列，我们需要具备 [ASCII 表](https://www.geeksforgeeks.org/ascii-table/)的先决知识，因为只有这样，我们才能够感知输出为什么要追加特定的文字，因为已经分配了一个整数值。
 
-```
+```java
 --> appendCodePoint() Method
     --> StringBuffer Class
         --> java.lang Package 
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public StringBuffer appendCodePoint(*int cp*)
 ```
 
@@ -22,13 +22,13 @@ public StringBuffer appendCodePoint(*int cp*)
 
 **插图:**
 
-```
+```java
 Input : StringBuffer = Apple
         int cp = 65
 Output: AppleA 
 ```
 
-```
+```java
 Input : StringBuffer = GeeksforGeeks
        int cp = 156
 Output: GeeksforGeeks?
@@ -40,7 +40,7 @@ Output: GeeksforGeeks?
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate appendCodePoint() Method
 // of StringBuffer class
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String buffer = Geeksforgeeks
 After appending CodePoint is = GeeksforgeeksA
 ```
@@ -84,7 +84,7 @@ After appending CodePoint is = GeeksforgeeksA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate appendCodePoint() Method
 // of StringBuffer class
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String buffer = Geeksforgeeks
 After appending CodePoint is = Geeksforgeeks6
 ```
@@ -124,7 +124,7 @@ After appending CodePoint is = Geeksforgeeks6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate appendCodePoint() Method
 // of StringBuffer class
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 String buffer = Geeksforgeeks
 After appending CodePoint is = Geeksforgeeks+
 ```

@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -39,14 +39,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.nio.HeapShortBuffer[pos=2 lim=100 cap=100]
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 java.nio.HeapShortBuffer[pos=0 lim=300 cap=300]
 
 ```

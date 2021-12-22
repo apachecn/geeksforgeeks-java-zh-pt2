@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 protected int next(int bits)
 
 ```
@@ -21,7 +21,7 @@ protected int next(int bits)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.next()
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next value returns = 8
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.next()
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next value returns = 54
 
 ```

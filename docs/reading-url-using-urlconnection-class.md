@@ -35,7 +35,7 @@ URLConnection 是一个抽象类，它的子类构成了用户应用程序和网
 
     让我们看一个示例程序，它使用上述方法来显示标题字段，并将整个页面的源代码打印到控制台窗口上。
 
-    ```
+    ```java
     //Java Program  to illustrate reading and writing
     // in URLConnection Class
     import java.io.*;
@@ -120,7 +120,7 @@ URLConnection 是一个抽象类，它的子类构成了用户应用程序和网
 
     输出:
 
-    ```
+    ```java
     Keep-Alive   :   [timeout=5, max=100]
     null   :   [HTTP/1.1 200 OK]
     Server   :   [Apache/2.4.18 (Ubuntu)]

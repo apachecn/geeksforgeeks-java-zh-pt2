@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <E> 
   Sets.SetView<E> 
     union(Set<? extends E> set1, 
@@ -18,7 +18,7 @@ public static <E>
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation
 // of Guava's Sets.union() method
 
@@ -55,7 +55,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set 1: [1, 2, 3, 4, 5]
 Set 2: [9, 3, 5, 7]
 Set 1 union Set 2: [1, 2, 3, 4, 5, 9, 7]
@@ -64,7 +64,7 @@ Set 1 union Set 2: [1, 2, 3, 4, 5, 9, 7]
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation
 // of Guava's Sets.union() method
 
@@ -101,7 +101,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set 1: [k, s, e, G]
 Set 2: [e, f, g, G]
 Set 1 union Set 2: [k, s, e, G, f, g]

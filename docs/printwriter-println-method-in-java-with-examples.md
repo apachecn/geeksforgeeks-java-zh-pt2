@@ -6,7 +6,7 @@ Java 中 **[PrintWriter](https://www.geeksforgeeks.org/java-io-printwriter-class
 
 **语法:**
 
-```
+```java
 public void println()
 ```
 
@@ -18,7 +18,7 @@ public void println()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter println() method
 
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter println() method
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 1.65
 
 ```

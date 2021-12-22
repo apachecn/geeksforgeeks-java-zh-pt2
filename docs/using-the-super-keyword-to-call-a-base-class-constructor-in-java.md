@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate inheritance properties
 
 class Programming {
@@ -43,7 +43,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 DP
 Programming
 ```
@@ -56,7 +56,7 @@ Programming
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the concept of Constructor
 // inheritance.
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Programming
 DP
 ```
@@ -104,7 +104,7 @@ DP
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the concepts of constructor
 // overloading.
@@ -158,7 +158,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Programming + +
 DP
 ```
@@ -173,7 +173,7 @@ DP
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Base Class
 class Programming {
 
@@ -221,7 +221,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Programming
 DP +
 ```

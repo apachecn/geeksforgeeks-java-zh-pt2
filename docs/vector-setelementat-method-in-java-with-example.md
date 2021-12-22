@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setElementAt(E element, int index)
 
 ```
@@ -24,7 +24,7 @@ public void setElementAt(E element, int index)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate setElementAt()
 
 import java.io.*;
@@ -61,7 +61,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector:[Geeks, for, Geeks, 10, 20]
 Geeks replaced with GFG
 The new Vector is:[Geeks, for, GFG, 10, 20]
@@ -70,7 +70,7 @@ The new Vector is:[Geeks, for, GFG, 10, 20]
 
 **示例 2:** 演示 ArrayIndexOutOfBoundsException
 
-```
+```java
 // Java code to illustrate setElementAt()
 
 import java.io.*;
@@ -111,7 +111,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector:[Geeks, for, Geeks, 10, 20]
 Trying to replace 10th element with GFG
 java.lang.ArrayIndexOutOfBoundsException: 10 >= 5

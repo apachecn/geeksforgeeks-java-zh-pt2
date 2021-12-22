@@ -28,7 +28,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to swap pair
 // of characters of a string
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 eGkeFsroeGkes
 
 ```
@@ -93,7 +93,7 @@ eGkeFsroeGkes
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to swap pair
 // of characters of a string
 
@@ -151,7 +151,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 eGkeFsroeGkes
 
 ```

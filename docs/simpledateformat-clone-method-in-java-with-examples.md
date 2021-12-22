@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -18,7 +18,7 @@ public Object clone()
 
 **例 1:**
 
-```
+```java
 // Java to illustrate clone() method
 
 import java.text.*;
@@ -51,7 +51,7 @@ public class SimpleDateFormat_Demo {
 
 **输出:**
 
-```
+```java
 The Original: 01/30/2019
 Is the clone equal? true
 

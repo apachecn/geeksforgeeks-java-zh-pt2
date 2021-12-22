@@ -5,7 +5,7 @@
 **模式**类的**编译(String，int)** 方法用于借助标志从正则表达式创建模式，其中表达式和标志都作为参数传递给该方法。模式类包含一系列标志(int 常量)，这些标志有助于使模式匹配以某种方式运行。例如，标志名 CASE _ INSENSITIVE 用于在匹配时忽略文本的大小写。
 **语法:**
 
-```
+```java
 public static Pattern compile(String regex, int flags)
 ```
 
@@ -25,7 +25,7 @@ public static Pattern compile(String regex, int flags)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Pattern.compile method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 actualString contains REGEX = false
 ```
 
@@ -70,7 +70,7 @@ actualString contains REGEX = false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Pattern.compile method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 actualString contains REGEX = true
 ```
 

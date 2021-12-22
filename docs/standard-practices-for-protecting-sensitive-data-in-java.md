@@ -20,7 +20,7 @@ Java 平台通过内存安全等特性，为执行不同权限级别的代码提
 
 **例 1:** 举例说明执行绕过方法
 
-```
+```java
 // Main class
 class GFG {
 
@@ -51,7 +51,7 @@ class GFG {
 
 **示例 2:** 演示资源试用语法
 
-```
+```java
 // Main class
 class GFG {
 
@@ -99,7 +99,7 @@ class GFG {
 
 **示例**通过合成和最终类
 
-```
+```java
 // Class 1
 // Helper class- Book class
 class Book {

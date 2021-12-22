@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void ifPresentOrElse(Consumer<T> action,
                             Runnable emptyAction)
 
@@ -27,7 +27,7 @@ public void ifPresentOrElse(Consumer<T> action,
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.ifPresentOrElse() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional[9455]
 Value is present, its: 9455
 
@@ -69,7 +69,7 @@ Value is present, its: 9455
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.ifPresentOrElse method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional.empty
 Value is empty
 

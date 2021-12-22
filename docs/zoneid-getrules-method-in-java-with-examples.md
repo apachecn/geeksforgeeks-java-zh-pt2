@@ -6,7 +6,7 @@ Java 中 **ZoneId** 类的 **getRules()** 方法用于获取该 Id 的时区规�
 
 **语法:**
 
-```
+```java
 public abstract ZoneRules getRules()
 
 ```
@@ -18,7 +18,7 @@ public abstract ZoneRules getRules()
 下面的程序说明了 getRules()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getRules() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Rules: ZoneRules[currentStandardOffset=+01:00]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getRules() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Rules: ZoneRules[currentStandardOffset=+05:30]
 
 ```

@@ -10,7 +10,7 @@
 
 在 eclipse 中设置时，我们需要创建一个 maven 项目，并在*“POM . XML 文件”*中添加以下依赖项。
 
-```
+```java
     <dependencies>
         <dependency>
 
@@ -24,7 +24,7 @@
 
 这将在我们的项目中下载以下 jar。
 
-```
+```java
 jackson-databind-2.2.3.jar
 jackson-annotations-2.2.3.jar
 jackson-core-2.2.3.jar
@@ -36,7 +36,7 @@ jackson-core-2.2.3.jar
 
 ## 爪哇
 
-```
+```java
 // Java Program to Serialize and Deserialize
 // Using the Jackson library
 
@@ -157,7 +157,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {"id":"e01010","name":"Jane","deptName":"Sales","salary":100000.0}
 Pretty print format
 {
@@ -170,7 +170,7 @@ Pretty print format
 
 文件 emp.json 在 src/main/resources 文件夹中创建。
 
-```
+```java
 {"id":"e01010","name":"Jane","deptName":"Sales","salary":100000.0}
 ```
 
@@ -182,7 +182,7 @@ Pretty print format
 *   当 Jackson 库试图将 json 字段值解组/反序列化为类属性时，它无法识别该属性，并引发 UnrecognizedPropertyException。
 *   我们在 src/main/resources 中创建了一个文件 emp1.json。文件 emp1.json 有一个不属于 Employee 类的新属性 phoneNumber。
 
-```
+```java
 {"id":"e01010","name":"Jane","deptName":"Sales","salary":100000.0,"phoneNumber": 98218281812}
 ```
 
@@ -190,7 +190,7 @@ Pretty print format
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate UnrecognizedPropertyException
 // While parsing json files
 
@@ -290,7 +290,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "phoneNumber" (class com.sample.json.Employee), not marked as ignorable (4 known properties: , "deptName", "salary", "id", "name"])
  at [Source: /home/suchitra/Desktop/suchitra/projects/java-concurrency-examples/json-parsing/src/main/resources/emp1.json; line: 1, column: 93] (through reference chain: com.sample.json.Employee["phoneNumber"])
     at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
@@ -315,7 +315,7 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 
 为了解决这个问题，我们禁用对象映射器对未知属性进行反序列化。因此，对象映射器将只解组/反序列化 json 文件中映射到 java 类的那些属性。我们有 emp1.json，它类似于前面的例子。
 
-```
+```java
 <u>emp1.json</u>
 {"id":"e01010","name":"Jane","deptName":"Sales","salary":100000.0,"phoneNumber": 98218281812}
 ```
@@ -324,7 +324,7 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 
 ## 爪哇
 
-```
+```java
 // Java Program to Remove UnrecognizedPropertyException by
 // Disabling the object mapper to deserialize on unknown
 // properties.
@@ -423,7 +423,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Reading values of employee attributes from a json file
 Employee [id=e01010, name=Jane, deptName=Sales, salary=100000.0]
 ```
@@ -432,7 +432,7 @@ Employee [id=e01010, name=Jane, deptName=Sales, salary=100000.0]
 
 另一种方法是在类级别@ JsonIgnoreProperties 提供注释(ignoreUnknown = true)。这个注释告诉 jackson 忽略那些不能映射到 java 类的属性。这与前面示例中的 emp1.json 相同。
 
-```
+```java
 <u>emp1.json</u>
 {"id":"e01010","name":"Jane","deptName":"Sales","salary":100000.0,"phoneNumber": 98218281812}
 ```
@@ -441,7 +441,7 @@ Employee [id=e01010, name=Jane, deptName=Sales, salary=100000.0]
 
 ## 爪哇
 
-```
+```java
 // Java Program to Remove UnrecognizedPropertyException by
 // Providing an annotation at the class level
 // @JsonIgnoreProperties
@@ -538,7 +538,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Reading values of employee attributes from a json file
 Employee [id=e01010, name=Jane, deptName=Sales, salary=100000.0]
 ```

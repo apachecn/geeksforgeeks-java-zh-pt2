@@ -14,7 +14,7 @@ Java 中的隐藏是在同名的重叠作用域中使用变量的实践，其中
 
 ## Java
 
-```
+```java
 // Java program to Demonstrates Shadowing in Java
 
 // Class 1 and 2
@@ -66,7 +66,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Inner John
 Outer John
 ```

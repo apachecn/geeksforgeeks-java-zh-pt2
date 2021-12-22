@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String nextLine()
 ```
 
@@ -16,7 +16,7 @@ public String nextLine()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the issue with
 // nextLine() method of Scanner Class
 
@@ -51,7 +51,7 @@ public class ScannerDemo1 {
 
 *   当该代码在**输入**下运行时:
 
-```
+```java
 abc
 m
 1
@@ -61,7 +61,7 @@ pqr
 
 *   **预期输出:**
 
-```
+```java
 Name: abc
 Gender: m
 Age: 1
@@ -71,7 +71,7 @@ Mother's Name: pqr
 
 *   **实际输出:**
 
-```
+```java
 Name: abc
 Gender: m
 Age: 1
@@ -84,7 +84,7 @@ Mother's Name: xyz
 **<u>为什么会出现这个问题？</u>**
 出现此问题是因为，当[扫描仪类](https://www.geeksforgeeks.org/scanner-class-in-java/)的 [nextInt()](https://www.geeksforgeeks.org/scanner-nextint-method-in-java-with-examples/) 方法用于读取人的年龄时，如预期的那样，它会将值 1 返回给可变年龄。但是光标在读完 1 之后，仍然停留在它的后面。
 
-```
+```java
 abc
 m
 1_ // Cursor is here
@@ -101,7 +101,7 @@ pqr
 
 **语法:**
 
-```
+```java
 // Read the complete line as String
 // and convert it to integer
 int var = Integer.parseInt(sc.nextLine());
@@ -113,7 +113,7 @@ int var = Integer.parseInt(sc.nextLine());
 
 **语法:**
 
-```
+```java
 // Read the integer
 int var = sc.nextInt();
 
@@ -125,7 +125,7 @@ sc.nextLine();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to solve the issue with
 // nextLine() method of Scanner Class
 
@@ -170,7 +170,7 @@ class ScannerDemo1 {
 
 *   当该代码在**输入**下运行时:
 
-```
+```java
 abc
 m
 1
@@ -180,7 +180,7 @@ pqr
 
 *   **预期输出:**
 
-```
+```java
 Name: abc
 Gender: m
 Age: 1
@@ -190,7 +190,7 @@ Mother's Name: pqr
 
 *   **实际输出:**
 
-```
+```java
 Name: abc
 Gender: m
 Age: 1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static OptionalLong empty()
 
 ```
@@ -19,7 +19,7 @@ public static OptionalLong empty()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.empty() method
 
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalLong: OptionalLong.empty
 
 ```

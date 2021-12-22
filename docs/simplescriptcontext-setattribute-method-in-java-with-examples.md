@@ -6,7 +6,7 @@ SimpleScriptContext 类的 **setAttribute()** 方法用于在给定范围内设�
 
 **语法:**
 
-```
+```java
 public void setAttribute(String name,
        Object value, int scope)
 
@@ -28,7 +28,7 @@ public void setAttribute(String name,
 下面的程序说明了 simplescriptcontext . setattribute()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.setAttribute() method
 
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 name1:Value1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.setAttribute() method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Team1:India
 Team2:Japan
 Team3:Nepal

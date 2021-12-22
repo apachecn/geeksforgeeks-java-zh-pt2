@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toPattern()
 ```
 
@@ -20,7 +20,7 @@ public String toPattern()
 
 ## 爪哇
 
-```
+```java
 // Java code to illustrate toPattern() method
 
 import java.text.*;
@@ -54,7 +54,7 @@ public class SimpleDateFormat_Demo {
 
 **输出:**
 
-```
+```java
 Current Date: 1/29/19 6:05 AM
 The Date Pattern- M/d/yy h:mm a
 ```

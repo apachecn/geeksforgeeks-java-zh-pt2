@@ -24,7 +24,7 @@
 
 **语法:**
 
-```
+```java
 public static  void fill(List list, T obj)
 ```
 
@@ -37,7 +37,7 @@ public static  void fill(List list, T obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for Replacing All 
 // Elements of Java Vector
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Vector before Replacing is: [20, 10, 30, 40, 60, 70]
 Vector after Replacing is:  [1, 1, 1, 1, 1, 1]
 ```

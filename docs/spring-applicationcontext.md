@@ -25,13 +25,13 @@ Spring 为下面列出的不同需求提供了不同类型的应用程序容器�
 
 **语法:**声明
 
-```
+```java
 ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class, AppConfig1.class);
 ```
 
 > **注意:**在 IDE 的属性文件中添加以下内容，以允许 spring 覆盖 beans。
 
-```
+```java
 spring.main.allow-bean-definition-overriding=true
 ```
 
@@ -41,7 +41,7 @@ spring.main.allow-bean-definition-overriding=true
 
 **例**
 
-```
+```java
 // Class
 // Implementing WebApplicationInitializer
 public class MyWebApplicationInitializer implements WebApplicationInitializer {
@@ -62,7 +62,7 @@ public class MyWebApplicationInitializer implements WebApplicationInitializer {
 
 Spring MVC 基于 Web 的应用程序完全可以使用 XML 或 Java 代码进行配置。配置这个容器类似于 AnnotationConfigWebApplicationContext 容器，这意味着我们可以用 web.xml 或使用 java 代码来配置它。
 
-```
+```java
 // Class
 // Implementing WebApplicationInitializer
 public class MyXmlWebApplicationInitializer implements WebApplicationInitializer {
@@ -84,7 +84,7 @@ public class MyXmlWebApplicationInitializer implements WebApplicationInitializer
 
 插图:
 
-```
+```java
 String path = "Documents/demoProject/src/main/resources/applicationcontext/student-bean-config.xml";
 
 ApplicationContext context = new FileSystemXmlApplicationContext(path);
@@ -97,7 +97,7 @@ AccountService accountService = context.getBean("studentService", StudentService
 
 插图:
 
-```
+```java
 ApplicationContext context = new ClassPathXmlApplicationContext("applicationcontext/student-bean-config.xml");
 StudentService studentService = context.getBean("studentService", StudentService.class);
 ```
@@ -122,7 +122,7 @@ StudentService studentService = context.getBean("studentService", StudentService
 
 *   ****类 1:** AppConfig 类**
 
-```
+```java
 @Configuration
 
 // Class
@@ -140,7 +140,7 @@ public class AppConfig {
 
 *   ****2 班:**学生班**
 
-```
+```java
 // Class
 public class Student {
 
@@ -168,7 +168,7 @@ public class Student {
 
 ****第 3 步:**现在根处的 Main Application 类包含容器的创建。**
 
-```
+```java
 // Class
 // @SpringBootApplication
 public class DemoApplication {
@@ -190,7 +190,7 @@ public class DemoApplication {
 
 ****步骤 4:** 创建 SpringBoot 项目时，默认情况下在主类中提供 **SpringApplication.run()** 方法。它创建容器，创建 bean，管理依赖注入和这些 bean 的生命周期。这是使用[@回弹应用注释](https://www.geeksforgeeks.org/introduction-to-spring-boot/)完成的。**
 
-```
+```java
 // Main driver method
 public static void main(String[] args) {
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsKey(Object key)
 
 ```
@@ -25,7 +25,7 @@ public boolean containsKey(Object key)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate containsKey() method
 
 import javax.script.SimpleBindings;
@@ -53,14 +53,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Key2 exits:true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate containsKey() method
 
 import javax.script.SimpleBindings;
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 England exits in Asia Team:false
 
 ```

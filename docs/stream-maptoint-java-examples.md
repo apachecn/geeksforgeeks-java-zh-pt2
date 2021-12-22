@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```java
 **IntStream mapToInt(ToIntFunction<**?** super **T**> mapper)**
 
 Where, IntStream is a sequence of primitive 
@@ -20,7 +20,7 @@ returns the new stream.
 
 ****示例 1 :** mapToInt()具有打印流元素的操作，如果可被 3 整除。**
 
-```
+```java
 // Java code for Stream mapToInt
 // (ToIntFunction mapper) to get a
 // IntStream by applying the given function
@@ -48,7 +48,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 3
 6
 15 
@@ -56,7 +56,7 @@ class GFG {
 
 ****例 2 :** mapToInt()执行映射字符串及其长度的操作后返回 IntStream。**
 
-```
+```java
 // Java code for Stream mapToInt
 // (ToIntFunction mapper) to get a
 // IntStream by applying the given function
@@ -84,7 +84,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 5
 3
 3

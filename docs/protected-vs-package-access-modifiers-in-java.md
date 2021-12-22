@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show Protected keyword
 
 // Importing input output classes
@@ -61,7 +61,7 @@ class Child extends Parent {
 
 **Output**
 
-```
+```java
 GFG
 GFG
 GFG
@@ -79,7 +79,7 @@ GFG
 
 ## Java
 
-```
+```java
 // Java Program to illustrate Package Level Access Modifier
 
 // Importing utility classes
@@ -122,7 +122,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 GeeksforGeeks
 ```
 

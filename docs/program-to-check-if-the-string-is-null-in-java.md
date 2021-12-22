@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = null 
 Output: True
 
@@ -21,7 +21,7 @@ Output: False
 *   我们可以简单地使用 [==关系运算符](https://www.geeksforgeeks.org/java-relational-operators-with-examples/)将字符串与 Null 进行比较。
     **语法:**
 
-    ```
+    ```java
     if(str == null)
 
     ```
@@ -30,7 +30,7 @@ Output: False
 
 下面是上述方法的实现:
 
-```
+```java
 // Java Program to check if
 // the String is Null in Java
 
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Is string [GeeksforGeeks] null? false
 Is string [null] null? true
 

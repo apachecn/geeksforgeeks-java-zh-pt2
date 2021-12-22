@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toMicros(long duration)
 ```
 
@@ -20,7 +20,7 @@ public long toMicros(long duration)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toMicros() method of TimeUnit Class
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585538596 milliSeconds in MicroSeconds = 1539585538596000
 ```
 
@@ -55,7 +55,7 @@ Time 1539585538596 milliSeconds in MicroSeconds = 1539585538596000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toMicros() method of TimeUnit Class
 
@@ -84,6 +84,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585540908 milliSeconds in MicroSeconds = 1539585540908000
 ```

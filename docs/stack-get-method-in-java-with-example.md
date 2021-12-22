@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.get(int index)
 ```
 
@@ -20,7 +20,7 @@ Stack.get(int index)
 
 **程序 1** :
 
-```
+```java
 // Java code to illustrate get() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 The element is: Geeks
 
@@ -58,7 +58,7 @@ The element is: Geeks
 
 **程序 2** :
 
-```
+```java
 // Java code to illustrate get() method
 import java.util.Stack;
 
@@ -89,7 +89,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 The element is: 20
 

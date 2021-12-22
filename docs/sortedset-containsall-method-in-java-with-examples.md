@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean containsAll(Collection C)
 ```
 
@@ -20,7 +20,7 @@ public boolean containsAll(Collection C)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // Set containsAll()
 
@@ -73,7 +73,7 @@ class SortedSetDemo {
 
 **输出:**
 
-```
+```java
 Set 1: [10, 20, Geeks, for]
 Set 2: [Geeks, for, 20, 10]
 
@@ -83,7 +83,7 @@ Does set 1 contains set 2?: true
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate
 // boolean containsAll()
 
@@ -131,7 +131,7 @@ class SortedSetDemo {
 
 **输出:**
 
-```
+```java
 Set 1: [Geeks, for]
 Set 2: [20, 10]
 

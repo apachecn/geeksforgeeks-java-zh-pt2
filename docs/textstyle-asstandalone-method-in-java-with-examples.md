@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TextStyle asStandalone()
 
 ```
@@ -18,7 +18,7 @@ public TextStyle asStandalone()
 下面的程序说明了 textstyle . as stand only()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.asStandalone() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Standlone TextStyle :SHORT_STANDALONE
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.asStandalone() method
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Standlone TextStyle :FULL_STANDALONE
 
 ```

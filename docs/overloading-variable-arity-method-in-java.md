@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 methodName(dataType...variableName)
 ```
 
@@ -18,7 +18,7 @@ methodName(dataType...variableName)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Variable arity Method
 
 // Importing required classes
@@ -64,7 +64,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Sum : 0
 Sum : 20
 Sum : 50
@@ -74,7 +74,7 @@ Sum : 50
 
 **1.1** Varargs 参数可以和正常参数混合使用。
 
-```
+```java
 methodName(int x, String...y)
 ```
 
@@ -109,7 +109,7 @@ methodName(int x, String...y)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG {
@@ -147,7 +147,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 varargs method
 Sum : 9
 normal method
@@ -164,7 +164,7 @@ Sum : 30
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Overloading in Variable
 // arity
 
@@ -233,7 +233,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 varargs method with int type arguments
  1 2 3 4 5
 varargs method with boolean type arguments

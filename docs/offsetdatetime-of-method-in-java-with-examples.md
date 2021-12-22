@@ -6,7 +6,7 @@ Java 中 **OffsetDateTime** 类的**(int year，int month，int day，int hour�
 
 **语法:**
 
-```
+```java
 public static OffsetDateTime of(int year,
                                 int month,
                                 int day,
@@ -37,7 +37,7 @@ public static OffsetDateTime of(int year,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime of() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-20T09:10:40.000050Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime of() method
 import java.time.*;
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-20T09:10:40.000020+05:30
 
 ```

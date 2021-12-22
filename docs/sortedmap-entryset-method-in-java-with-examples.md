@@ -6,7 +6,7 @@ Java 中 **SortedMap 接口的 **entrySet()方法**用于创建一组包含在�
 
 **语法:**
 
-```
+```java
 SortedMap.entrySet()
 ```
 
@@ -18,7 +18,7 @@ SortedMap.entrySet()
 
 **程序 1:** 使用 HashMap。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class SortedMap_Demo {
 
 **节目 2:**
 
-```
+```java
 // Java code to illustrate the entrySet() method
 
 import java.util.*;

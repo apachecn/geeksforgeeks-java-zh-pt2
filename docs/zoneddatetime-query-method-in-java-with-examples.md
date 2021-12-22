@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <R> R query(TemporalQuery<R> query)
 
 ```
@@ -24,7 +24,7 @@ public <R> R query(TemporalQuery<R> query)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.query() method
 
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Precision value for ZonedDateTime is Nanos
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.query() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 offset value for ZonedDateTime is +02:00
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ZoneOffset
   ofHoursMinutesSeconds(int hours, 
                         int minutes,  
@@ -28,7 +28,7 @@ public static ZoneOffset
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate ofHoursMinutesSeconds() method
 
 import java.time.*;
@@ -56,14 +56,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +05:20:50
 
 ```
 
 **示例 2:** 演示日期时间异常
 
-```
+```java
 // Java code to illustrate ofHoursMinutesSeconds() method
 
 import java.time.*;
@@ -95,7 +95,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.time.DateTimeException:
  Zone offset hours not in valid range:
  value 20 is not in the range -18 to 18

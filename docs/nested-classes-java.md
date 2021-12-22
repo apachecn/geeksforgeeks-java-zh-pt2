@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 class OuterClass
 {
 ...
@@ -33,20 +33,20 @@ class OuterClass
 与类方法和变量一样，静态嵌套类与其外部类相关联。像静态类方法一样，静态嵌套类不能直接引用其封闭类中定义的实例变量或方法:它只能通过对象引用来使用它们。
 使用封闭类名访问它们。
 
-```
+```java
 OuterClass.StaticNestedClass
 
 ```
 
 例如，要为静态嵌套类创建对象，请使用以下语法:
 
-```
+```java
 OuterClass.StaticNestedClass nestedObject =
      new OuterClass.StaticNestedClass();
 
 ```
 
-```
+```java
 // Java program to demonstrate accessing
 // a static nested class
 
@@ -97,7 +97,7 @@ public class StaticNestedClassDemo
 
 **输出:**
 
-```
+```java
 outer_x = 10
 outer_private = 30
 
@@ -107,7 +107,7 @@ outer_private = 30
 
 要实例化内部类，必须首先实例化外部类。然后，使用以下语法在外部对象中创建内部对象:
 
-```
+```java
 OuterClass.InnerClass innerObject = outerObject.new InnerClass();
 
 ```
@@ -117,7 +117,7 @@ OuterClass.InnerClass innerObject = outerObject.new InnerClass();
 1.  [本地内部类](https://www.geeksforgeeks.org/local-inner-class-java/)
 2.  [匿名内部类](https://www.geeksforgeeks.org/anonymous-inner-class-java/)
 
-```
+```java
 // Java program to demonstrate accessing
 // a inner class
 
@@ -168,7 +168,7 @@ public class InnerClassDemo
 
 输出:
 
-```
+```java
 outer_x = 10
 outer_y = 20
 outer_private = 30

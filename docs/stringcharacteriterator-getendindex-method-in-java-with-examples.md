@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getEndIndex()
 
 ```
@@ -19,7 +19,7 @@ public int getEndIndex()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -44,7 +44,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current EndingIndex: 13
 
 ```

@@ -6,7 +6,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Simple method (without filter) to find sum of a list
 import java.util.*;
 
@@ -50,7 +50,7 @@ class Addition {
 
 **Output:** 
 
-```
+```java
 40
 ```
 
@@ -59,7 +59,7 @@ class Addition {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Using stream filter to find sum of a list
 import java.util.*;
 
@@ -96,6 +96,6 @@ class Addition {
 
 **Output:** 
 
-```
+```java
 40
 ```

@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```java
 // C++ program to compare
 // floating point numbers
 
@@ -39,7 +39,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to compare
 // floating point numbers
 class GFG
@@ -71,7 +71,7 @@ class GFG
 
 ## 计算机编程语言
 
-```
+```java
 # Python program to compare
 # floating point numbers
 def compareFloatNum(a, b):
@@ -92,7 +92,7 @@ compareFloatNum(a, b)
 
 ## C#
 
-```
+```java
 // C# program to compare
 // floating point numbers
 using System;
@@ -126,7 +126,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 function compareFloatNum(a,b)
@@ -152,7 +152,7 @@ let a = (0.3 * 3) + 0.1;
 
 **Output:** 
 
-```
+```java
 The numbers are not equal
 ```
 
@@ -163,7 +163,7 @@ The numbers are not equal
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```java
 // C++ program to compare
 // floating point numbers
 
@@ -190,7 +190,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```java
 # Python 3 program to compare
 # floating point numbers
 def printFloatNum(a,  b):
@@ -211,7 +211,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```java
 a is : 0.99999999999999988898
 b is : 1
 ```

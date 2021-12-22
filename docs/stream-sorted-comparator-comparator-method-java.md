@@ -5,7 +5,7 @@
 **流排序(比较器比较器)**返回由该流的元素组成的流，根据比较器提供的**进行排序。对于有序流，排序方法是稳定的，但是对于无序流，不保证稳定性。这是一个 ***有状态的中间操作*** ，也就是说，当处理新元素时，它可以合并来自先前看到的元素的状态。在 java 8 中，比较器可以使用[λ表达式](https://www.geeksforgeeks.org/lambda-expressions-java-8/)进行实例化。我们也可以颠倒自然排序以及比较器提供的排序。
 **语法:****
 
-```
+```java
 Stream<T> sorted(Comparator<? super T> comparator)
 
 Where, Stream is an interface and T
@@ -18,7 +18,7 @@ comparator is used to compare stream elements.
 
 **例 1 :**
 
-```
+```java
 // Implementation of Stream.sorted()
 // to get a stream of sorted elements
 // according to the provided Comparator
@@ -47,7 +47,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The sorted stream according to provided Comparator is : 
 23
 7
@@ -59,7 +59,7 @@ The sorted stream according to provided Comparator is :
 
 **例 2 :**
 
-```
+```java
 // Implementation of Stream.sorted()
 // to get a stream of sorted elements
 // according to the provided Comparator
@@ -89,7 +89,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The sorted stream according to provided Comparator is : 
 for
 GeeksforGeeks
@@ -101,7 +101,7 @@ GFG
 
 **例 3 :**
 
-```
+```java
 // Implementation of Stream.sorted()
 // to get a stream of sorted elements
 import java.util.*;
@@ -132,7 +132,7 @@ class GFG {
 
 输出:
 
-```
+```java
 The sorted stream is :
 GFG
 for

@@ -10,13 +10,13 @@
 
 与上述主题相关的一个有趣的事实是，**我们也可以使用 *System.out.println()* 将消息打印到其他来源(而不仅仅是控制台)**。但是在这样做之前，我们必须使用系统类的以下方法重新分配标准输出:
 
-```
+```java
 System.*setOut*(PrintStream p);
 ```
 
 **打印流**可用于将字符输出到文本文件。下面的程序创建文件 A.txt，并使用 System.out.println(
 
-```
+```java
 // Java program to demonstrate redirection in System.out.println()
 import java.io.*;
 

@@ -11,7 +11,7 @@
 
 **申报**
 
-```
+```java
 public interface TransferQueue<E> extends BlockingQueue<E>
 
 ```
@@ -28,7 +28,7 @@ public interface TransferQueue<E> extends BlockingQueue<E>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate TransferQueue
 
 import java.util.concurrent.*;
@@ -66,7 +66,7 @@ public class TransferQueueDemo {
 
 **Output**
 
-```
+```java
 Queue1: [7855642, 35658786, 5278367, 74381793]
 Queue2: [7855642, 35658786, 5278367, 74381793]
 ```
@@ -79,7 +79,7 @@ Queue2: [7855642, 35658786, 5278367, 74381793]
 
 **语法:**
 
-```
+```java
 TransferQueue<E> objectName = new LinkedTransferQueue<E>();
 
 ```
@@ -92,7 +92,7 @@ LinkedTransferQueue 提供了各种方法的实现来添加或插入元素。分
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate adding
 // elements to TransferQueue
 
@@ -171,7 +171,7 @@ class AddingElementsExample {
 
 **Output**
 
-```
+```java
 adding 15 true
 The elements in the queue are:
 10 11 12 13 14 15 16 17 18 19 20 
@@ -186,7 +186,7 @@ LinkedTransferQueue 提供的 **remove()** 方法实现用于移除该队列中�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate removing
 // elements of TransferQueue
 
@@ -224,7 +224,7 @@ class RemoveElementsExample {
 
 **Output**
 
-```
+```java
 The elements in the queue are:
 1 2 3 4 5 
 Remaining elements in queue : 
@@ -237,7 +237,7 @@ LinkedTransferQueue 提供的**迭代器()**方法实现用于以正确的顺序
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate 
 // iterating over TransferQueue
 
@@ -269,7 +269,7 @@ class IteratingExample {
 
 **Output**
 
-```
+```java
 Gfg is fun!! 
 ```
 

@@ -7,7 +7,7 @@
 **(T ^ T)**流返回包含单个元素的顺序流。
 **语法:**
 
-```
+```java
 static Stream of(T t)
 
 ```
@@ -18,7 +18,7 @@ static Stream of(T t)
 
 **示例:**
 
-```
+```java
 // Java code for Stream of(T t)
 // to get a sequential Stream
 // containing a single element.
@@ -42,7 +42,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 
 ```
@@ -53,7 +53,7 @@ Geeks
 
 **语法:**
 
-```
+```java
 static Stream of(T... values)
 
 ```
@@ -64,7 +64,7 @@ static Stream of(T... values)
 
 **示例:**
 
-```
+```java
 // Java code for Stream of(T... values)
 // to get a sequential ordered stream whose
 // elements are the specified values.
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Geeks
 for
 Geeks

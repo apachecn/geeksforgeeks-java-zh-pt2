@@ -6,7 +6,7 @@ WeakHashMap 类的 java.util.WeakHashMap.get()方法用于检索或获取参数�
 
 **语法:**
 
-```
+```java
 WeakHashMap.get(*Object key_element*)
 ```
 
@@ -18,7 +18,7 @@ WeakHashMap.get(*Object key_element*)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The Value is: Welcomes
 The Value is: Geeks
@@ -59,7 +59,7 @@ The Value is: Geeks
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -91,7 +91,7 @@ public class Weak_Hash_Map_Demo {
 
 **输出:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The Value is: 20
 The Value is: 30

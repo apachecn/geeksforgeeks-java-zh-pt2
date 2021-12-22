@@ -6,7 +6,7 @@ Java 中 **ZonedDateTime** 类的 **getLong()** 方法用于从这个 ZonedDateT
 
 **语法:**
 
-```
+```java
 public int getLong(TemporalField field)
 
 ```
@@ -24,7 +24,7 @@ public int getLong(TemporalField field)
 下面的程序说明了 getLong()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getLong() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 field : NanoOfSecond || value : 123000000
 field : NanoOfDay || value : 69672123000000
 field : MicroOfSecond || value : 123000
@@ -95,7 +95,7 @@ field : OffsetSeconds || value : 19800
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getLong() method
 
@@ -133,7 +133,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 AMPM_OF_DAY value: 1
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Provider getProvider()
 ```
 
@@ -16,7 +16,7 @@ public final Provider getProvider()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getProvider() method
 
@@ -48,14 +48,14 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider name : SUN
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getProvider() method
 
@@ -86,6 +86,6 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider name : SUN
 ```

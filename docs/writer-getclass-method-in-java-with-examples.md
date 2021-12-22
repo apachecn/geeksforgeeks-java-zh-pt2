@@ -16,7 +16,7 @@ Java 中 **getClass()** 方法 **[Writer](https://www.geeksforgeeks.org/java-io-
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Writer getClass() method
 
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Parent Class: class java.io.PrintWriter
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Writer getClass() method
 
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Parent Class: class java.io.OutputStreamWriter
 
 ```

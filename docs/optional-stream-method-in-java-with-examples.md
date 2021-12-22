@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Stream<T> stream()
 
 ```
@@ -21,7 +21,7 @@ public Stream<T> stream()
 
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.stream() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional[9455]
 Getting the Stream:
 9455
@@ -58,7 +58,7 @@ Getting the Stream:
 
 **节目 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.stream() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Optional: Optional.empty
 Getting the Stream:
 

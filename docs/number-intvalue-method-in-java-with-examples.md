@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract int intValue()
 
 ```
@@ -19,7 +19,7 @@ public abstract int intValue()
 
 **程序 1:**
 
-```
+```java
 // java program to demonstrate
 // Number.intValue() method
 public class gfg {
@@ -42,7 +42,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 456
 20
 
@@ -50,7 +50,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // java program to demonstrate
 // Number.intValue() method
 
@@ -74,7 +74,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 56
 76
 

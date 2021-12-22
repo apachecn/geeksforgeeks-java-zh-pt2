@@ -5,7 +5,7 @@
 **简单绑定类**的 **remove()** 方法用于从该简单绑定对象中移除该键的映射(如果存在)。此方法返回与指定键关联的前一个值，如果没有键映射，则返回 null。
 **语法:**
 
-```
+```java
 public Object remove(Object key)
 ```
 
@@ -22,7 +22,7 @@ public Object remove(Object key)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java programs to Illustrate
 // the working of remove() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output: **
 
-```
+```java
 before removing key1 and key2
 Key1: value1
 Key2: value2

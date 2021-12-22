@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```java
     List.stream()
     ```
 
@@ -24,7 +24,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // List to Stream in Java 8
 
@@ -63,7 +63,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, A computer portal, for Geeks]
     Stream from List: [GeeksForGeeks, A computer portal, for Geeks]
 
@@ -83,7 +83,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // List to Stream in Java 8
 
@@ -128,7 +128,7 @@
 
     **Output:**
 
-    ```
+    ```java
     List: [GeeksForGeeks, A computer portal, for, Geeks]
     Stream from List with items starting with G: 
     GeeksForGeeks

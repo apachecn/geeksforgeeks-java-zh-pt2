@@ -16,7 +16,7 @@ Java 中 Period 类的 between()方法用于获取由两个给定日期(包括�
 
 **语法:**
 
-```
+```java
 public static Period between(LocalDate startDateInclusive,
                              LocalDate endDateExclusive)
 
@@ -31,7 +31,7 @@ public static Period between(LocalDate startDateInclusive,
 
 下面是上面功能的实现:
 
-```
+```java
 // Java code to show the period
 // between given start and end date
 import java.time.LocalDate;
@@ -65,7 +65,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 Period between start and end date is : P1Y6M7D
 
 ```

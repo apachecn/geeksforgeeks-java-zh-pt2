@@ -14,7 +14,7 @@
 
 *   **方法 1:** 使用 IntStream。
 
-    ```
+    ```java
     // Java program to iterate over Stream with Indices
 
     import java.util.stream.IntStream;
@@ -44,7 +44,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0 -> G
     1 -> e
     2 -> e
@@ -58,7 +58,7 @@
     3.  打印带有索引的元素
 *   **方法二:**使用原子整合器。
 
-    ```
+    ```java
     // Java program to iterate over Stream with Indices
 
     import java.util.stream.IntStream;
@@ -92,7 +92,7 @@
 
     **输出:**
 
-    ```
+    ```java
     0 -> G
     1 -> e
     2 -> e

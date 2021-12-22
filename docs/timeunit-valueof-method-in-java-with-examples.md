@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TimeUnit valueOf(String name)
 ```
 
@@ -23,7 +23,7 @@ public static TimeUnit valueOf(String name)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // valueOf() method of TimeUnit Class
 
@@ -54,7 +54,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 TimeUnit object is of type: DAYS
 1 Day = 24 Hours
 
@@ -62,7 +62,7 @@ TimeUnit object is of type: DAYS
 
 **程序 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // valueOf() method of TimeUnit Class
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Trying to create TimeUnit object using null Enum type
 
 Exception thrown: java.lang.NullPointerException: Name is null
@@ -102,7 +102,7 @@ Exception thrown: java.lang.NullPointerException: Name is null
 
 **程序 3:** 演示 IllegalArgumentException
 
-```
+```java
 // Java program to demonstrate
 // valueOf() method of TimeUnit Class
 
@@ -133,7 +133,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Trying to create TimeUnit object using ABCD Enum type
 
 Exception thrown: java.lang.IllegalArgumentException: No enum constant java.util.concurrent.TimeUnit.ABCD

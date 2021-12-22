@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean containsValue(*Object Value*)
 ```
 
@@ -22,7 +22,7 @@ boolean containsValue(*Object Value*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // the containsValue() method
 
@@ -63,7 +63,7 @@ public class Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are:
  {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Is the value 'Geeks' present? true
@@ -74,7 +74,7 @@ Is the value 'World' present? false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // the containsValue() method
 
@@ -120,7 +120,7 @@ public class Map_Demo {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 Is the value '10' present? false
 Is the value '30' present? true

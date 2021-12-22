@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : 00000123569
 Output : 123569
 
@@ -20,7 +20,7 @@ Output : 12356090
 1)计算前导零。
 2)使用 StringBuffer 替换功能删除等于以上计数的字符。
 
-```
+```java
 // Java program to remove leading/preceding zeros
 // from a given string
 import java.util.Arrays;
@@ -59,7 +59,7 @@ class RemoveZero
 
 输出:
 
-```
+```java
 123569
 
 ```

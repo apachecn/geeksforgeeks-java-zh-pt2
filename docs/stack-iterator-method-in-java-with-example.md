@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Stack.iterator();
 
 ```
@@ -19,7 +19,7 @@ Iterator *iterate_value* = Stack.iterator();
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -56,7 +56,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The iterator values are: 
 Welcome
@@ -69,7 +69,7 @@ Geeks
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hashCode()
 
 import java.util.*;
@@ -107,7 +107,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 The iterator values are: 
 10

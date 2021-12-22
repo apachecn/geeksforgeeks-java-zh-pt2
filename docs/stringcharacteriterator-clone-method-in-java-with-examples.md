@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 
 ```
@@ -19,7 +19,7 @@ public Object clone()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -47,7 +47,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current StringCharacterIterator:
  java.text.StringCharacterIterator@c11e1b98
 Cloned StringCharacterIterator:

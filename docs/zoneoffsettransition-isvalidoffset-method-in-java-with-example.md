@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isValidOffset(ZoneOffset offset)
 ```
 
@@ -18,7 +18,7 @@ public boolean isValidOffset(ZoneOffset offset)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isValidOffset() method
 
@@ -74,14 +74,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zoneoffset is invalid
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isValidOffset() method
 
@@ -134,14 +134,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zoneoffset is valid
 
 ```
 
 **输出:**
 
-```
+```java
 zoneoffset is valid
 
 ```

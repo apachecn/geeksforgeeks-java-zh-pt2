@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Period ofYears(int numberOfYears)
 
 ```
@@ -21,7 +21,7 @@ public static Period ofYears(int numberOfYears)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Period ofYears(int numberOfYears) method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Years: 5
 Months: 0
 Days: 0
@@ -57,7 +57,7 @@ Days: 0
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Period ofYears(int numberOfYears) method
 import java.time.*;
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Years: -10
 Months: 0
 Days: 0

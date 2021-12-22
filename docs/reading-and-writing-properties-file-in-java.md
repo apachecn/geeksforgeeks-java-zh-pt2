@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.abc;
 
 import java.sql.*;
@@ -97,7 +97,7 @@ public class DBConnect {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 url=jdbc:mysql://localhost:3306/DBName
 driver=com.mysql.cj.jdbc.Driver //Driver class of mysql
 userName=root //Db username
@@ -115,7 +115,7 @@ password=root //Db password
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 package com;
 
 import java.sql.Connection;

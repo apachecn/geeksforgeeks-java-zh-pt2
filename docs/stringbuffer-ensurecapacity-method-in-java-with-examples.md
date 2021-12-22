@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public void ensureCapacity(int minimumCapacity)
 ```
 
@@ -22,7 +22,7 @@ public void ensureCapacity(int minimumCapacity)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Before ensureCapacity method capacity = 16
 After ensureCapacity method capacity = 34
 
@@ -59,7 +59,7 @@ After ensureCapacity method capacity = 34
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -90,7 +90,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Before ensureCapacity method capacity = 31
 After ensureCapacity method capacity = 64
 

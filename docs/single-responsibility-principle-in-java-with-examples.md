@@ -38,7 +38,7 @@
 
 ## 爪哇
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -178,7 +178,7 @@ class DeliveryApp {
 
 **输出**
 
-```
+```java
 Preparing order for customer -John who has ordered Pizza
 Order with order id  Pizza-57 has a total bill amount of 46
 Delivering the order

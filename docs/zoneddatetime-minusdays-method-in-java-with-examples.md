@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusDays(long days)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime minusDays(long days)
 以下程序说明了天数()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusDays() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusDays() method
 

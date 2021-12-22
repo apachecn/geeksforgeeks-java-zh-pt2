@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```java
 Input  : list = {1, 2, 3, 4, 5, 6}
 Output : first = {1, 2, 3}, second = {4, 5, 6}
 
@@ -34,7 +34,7 @@ Output : first = {1, 2}, second = {3, 4, 5}
 
 ## Java
 
-```
+```java
 // Java Program to Split a List into Two Sublist
 
 // Importing required classes
@@ -102,7 +102,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 [Geeks, Practice]
 [Contribute, IDE, Courses]
 ```
@@ -115,7 +115,7 @@ public class GFG {
 
 ## 爪哇
 
-```
+```java
 // Java Program to Split a List into Two SubList
 // Using subList() method of List clas
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 [Geeks, Practice]
 [Contribute, IDE, Courses]
 ```

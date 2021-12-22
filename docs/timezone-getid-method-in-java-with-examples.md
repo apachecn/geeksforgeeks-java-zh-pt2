@@ -6,7 +6,7 @@ Java 中 **TimeZone 类**的 **getID()** 方法用于获取特定时区的官方
 
 **语法:**
 
-```
+```java
 public String getID()
 ```
 
@@ -17,7 +17,7 @@ public String getID()
 下面的程序说明了时区的 getID()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate getID() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The ID is: Pacific/Pago_Pago
 
 ```
 
 **实施例 2:**
 
-```
+```java
 // Java code to illustrate getID() method
 
 import java.util.*;
@@ -68,7 +68,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The ID is: Europe/Rome
 
 ```

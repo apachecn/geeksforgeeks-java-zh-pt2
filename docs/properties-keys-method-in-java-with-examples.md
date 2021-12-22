@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration keys()
 ```
 
@@ -18,7 +18,7 @@ public Enumeration keys()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // keys() method
 
@@ -55,7 +55,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 The enumeration of keys are:
 Book
@@ -67,7 +67,7 @@ Clothes
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // keys() method.
 
@@ -108,7 +108,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {You=30, Welcomes=25, 4=15, Geeks=20}
 The enumeration of keys are:
 You

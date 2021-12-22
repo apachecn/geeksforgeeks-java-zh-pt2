@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static double cbrt(*double num*)
 ```
 
@@ -21,7 +21,7 @@ public static double cbrt(*double num*)
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cbrt()
 import java.lang.*;
@@ -52,7 +52,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Cube root of 8.05 = 2.0041580161269152
 Cube root of 27.0 = 3.0
 Cube root of 0.0 = 0.0
@@ -62,7 +62,7 @@ Cube root of 0.0 = 0.0
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.cbrt()
 import java.lang.*;
@@ -93,7 +93,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Cube root of -8.05 = -2.0041580161269152
 Cube root of 128.0 = 5.039684199579493
 Cube root of 0.0 = 0.0

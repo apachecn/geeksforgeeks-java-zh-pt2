@@ -5,7 +5,7 @@
 [StringJoiner](https://www.geeksforgeeks.org/java-util-stringjoiner-java8/) 的 **toString()** 用于将 StringJoiner 转换为 String。它返回当前值，由前缀、到目前为止添加的值(由分隔符分隔)和后缀组成，除非没有添加任何元素，在这种情况下，将返回前缀+后缀或空值字符
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -14,7 +14,7 @@ public String toString()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method of StringJoiner
 
@@ -42,7 +42,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 StringJoiner: Geeks for Geeks
 ```
 
@@ -50,7 +50,7 @@ StringJoiner: Geeks for Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toString() method of StringJoiner
 
@@ -81,6 +81,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 StringJoiner: Geeks, for, Geeks, A, Computer, Portal
 ```

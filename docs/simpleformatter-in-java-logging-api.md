@@ -4,7 +4,7 @@
 
 日志对于任何软件应用程序都非常有用，它有助于发现项目在多个场景中的执行情况。在 Java 中， [java.util](https://www.geeksforgeeks.org/java-util-package-java/#:~:text=It%20contains%20the%20collections%20framework,the%20Important%20Classes%20in%20Java.) 包具有日志实用程序，下面的导入对于日志是非常必要的。
 
-```
+```java
 import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 
 ## 爪哇
 
-```
+```java
 // Specification of SimpleFormatter in .properties file
 java.util.logging.ConsoleHandler.formatter
     = java.util.logging.SimpleFormatter

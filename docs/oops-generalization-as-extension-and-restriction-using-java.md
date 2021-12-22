@@ -11,7 +11,7 @@
 
 **例 1:泛化为扩展**
 
-```
+```java
 // super or parent class
 class Person 
 {
@@ -57,7 +57,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 Shaan
 20
 
@@ -67,7 +67,7 @@ Shaan
 
 **例 2:泛化为限制**
 
-```
+```java
 // abstract super class
 abstract class User
 {
@@ -106,7 +106,7 @@ class Test {
 
 1.  医生不是抽象的，不会覆盖用户
 
-    ```
+    ```java
     class Doctor extends User
                    ^
     ```
@@ -114,14 +114,14 @@ class Test {
     中的抽象方法 fillForm(字符串，String)
 2.  用户是抽象的；无法实例化
 
-    ```
+    ```java
       User u = new User();
                       ^
     ```
 
 3.  cannot find symbol
 
-    ```
+    ```java
      u.experience = 10;
                          ^
     ```

@@ -71,7 +71,7 @@ Android 中主要有两种类型的上下文可用。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.app.Application;
 
 public class GlobalExampleClass extends Application

@@ -4,7 +4,7 @@
 
 Java NIO **服务器套接字通道**是一个可以监听传入的 TCP 连接的通道，就像标准 Java 网络中的服务器套接字一样。ServerSocketChannel 类位于 java.nio.channels 包中。
 
-```
+```java
 java.lang.Object
     java.nio.channels.spi.AbstractInterruptibleChannel
         java.nio.channels.SelectableChannel
@@ -14,11 +14,11 @@ java.lang.Object
 
 所有实现的接口:
 
-```
+```java
 Closeable, AutoCloseable, Channel, InterruptibleChannel, NetworkChannel
 ```
 
-```
+```java
 public abstract class ServerSocketChannel
 extends AbstractSelectableChannel
 implements NetworkChannel
@@ -48,7 +48,7 @@ implements NetworkChannel
 
 套接字选项是使用 setOption 方法配置的。服务器套接字通道支持以下选项:
 
-```
+```java
 Option Name         Description
 SO_RCVBUF             The size of the socket receive buffer
 SO_REUSEADDR        Re-use address
@@ -60,7 +60,7 @@ SO_REUSEADDR        Re-use address
 
 #### 这里有一个例子:
 
-```
+```java
 ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 
 serverSocketChannel.socket().bind(new InetSocketAddress(9999));
@@ -79,7 +79,7 @@ while(true) {
 
 **语法:**
 
-```
+```java
 ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 ```
 
@@ -89,7 +89,7 @@ ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 
 **语法:**
 
-```
+```java
 serverSocketChannel.close();
 ```
 
@@ -101,7 +101,7 @@ serverSocketChannel.close();
 
 **语法:**
 
-```
+```java
 while(true) {
    SocketChannel socketChannel = serverSocketChannel.accept();
    // Do something with socketChannel...
@@ -116,7 +116,7 @@ while(true) {
 
 **插图:**
 
-```
+```java
 ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 
 serverSocketChannel.socket().bind(new InetSocketAddress(9999));

@@ -14,7 +14,7 @@ static 关键字用于构造无论是否生成类的任何实例都将存在的�
 
 **声明静态方法的语法:**
 
-```
+```java
 Access_modifier static void methodName()
 { 
      // Method body.
@@ -25,7 +25,7 @@ Access_modifier static void methodName()
 
 **调用静态方法的语法:**
 
-```
+```java
 className.methodName(); 
 ```
 
@@ -35,7 +35,7 @@ JVM 首先运行静态方法，然后创建类实例。因为当使用静态方�
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate that
 // The static method does not have
 // access to the instance variable
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 40
 50
 40
@@ -85,7 +85,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // In both static and non-static methods,
 // static methods are directly accessed.
@@ -129,7 +129,7 @@ public class StaticExample {
 
 **Output**
 
-```
+```java
 static number is 100
 static string is GeeksForGeeks
 static number is 100

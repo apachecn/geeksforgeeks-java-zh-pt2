@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : 1
 Output:    1
 
@@ -47,7 +47,7 @@ Output: 100000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Binary
 // Equivalent of an Integer
 // using Recursion
@@ -72,7 +72,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 10100
 
 ```
@@ -83,7 +83,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Print Binary
 // Equivalent of an Integer
 // using Recursion
@@ -109,7 +109,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1000100100010000100001111011100011100011101101010101101010101010
 
 ```

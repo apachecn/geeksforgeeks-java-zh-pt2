@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--We have used RelativeLayout for layout-->
 <RelativeLayout 
@@ -51,7 +51,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Linearlayout is used for layout-->
 <LinearLayout 
@@ -88,7 +88,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -24,7 +24,7 @@
 
 **T1】包 P1T3】**
 
-```
+```java
 // Java program to illustrate
 // protected modifier
 
@@ -41,7 +41,7 @@ public class A {
 
 **T1】包 p2T3】**
 
-```
+```java
 // Java program to illustrate
 // protected modifier
 
@@ -62,7 +62,7 @@ class B extends A {
 
 **输出:**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -71,7 +71,7 @@ GeeksforGeeks
 1.  **Calling protected function without extending the parent class:** In this example, we will create two packages p1 and p2\. Class A in p1 is made public, to access it in p2\. The method display in class A is protected. But the code will not be able to access the function “display” since the child class has not inherited its value from the main class and will throw an exception as shown.
     **<u>Package p1</u>**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -88,7 +88,7 @@ GeeksforGeeks
 
     **T1】包 p2T3】**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -109,7 +109,7 @@ GeeksforGeeks
 
     这将引发以下错误:
 
-    ```
+    ```java
     Exception in thread "main" 
     java.lang.RuntimeException: 
     Uncompilable source code - 
@@ -119,7 +119,7 @@ GeeksforGeeks
 
 2.  **Accessing a protected class:** In this example we tried to access a protected class A resulting in error.
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -136,7 +136,7 @@ GeeksforGeeks
 
     **T1】包 p2T3】**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -157,7 +157,7 @@ GeeksforGeeks
 
     这将引发以下错误:
 
-    ```
+    ```java
     Exception in thread "main" 
     java.lang.RuntimeException: 
     Uncompilable source code - 
@@ -168,7 +168,7 @@ GeeksforGeeks
 3.  **Accessing display function from the same package but different class:** In this example we have accessed to access a protected function “display” from the same package but different class
     **<u>Package p1</u>**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -185,7 +185,7 @@ GeeksforGeeks
 
     **<u>丙类</u>T3】**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -201,14 +201,14 @@ GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```java
     GeeksforGeeks
     ```
 
 4.  **Accessing display function from a different package:** In this example we have tried to access the protected function display from a different package by inheritance and extending the class.
     **<u>Package p1</u>**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -225,7 +225,7 @@ GeeksforGeeks
 
     **T1】包 p2T3】**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -246,14 +246,14 @@ GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```java
     GeeksforGeeks
     ```
 
 5.  **Accessing a protected class by overriding to sub-class within same package:** In this example we have designed two classes A and C, where class C is the overridden one.
     **<u>class A</u>**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
     package p1;
@@ -269,7 +269,7 @@ GeeksforGeeks
 
     **<u>丙类</u>T3】**
 
-    ```
+    ```java
     // Java program to illustrate
     // protected modifier
 
@@ -290,6 +290,6 @@ GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```java
     Class C
     ```

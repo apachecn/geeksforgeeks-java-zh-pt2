@@ -6,7 +6,7 @@ OptionalLong 类的 **orElseThrow(Supplier)** 方法用于获取 OptionalLong �
 
 **语法:**
 
-```
+```java
 public <X extends Throwable> long 
     orElseThrow(Supplier<X> exceptionSupplier)
         throws X extends Throwable
@@ -26,7 +26,7 @@ public <X extends Throwable> long
 下面的程序说明了 orElseThrow(供应商)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseThrow(Supplier) method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseThrow(Supplier) method
 

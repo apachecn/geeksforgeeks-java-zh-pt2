@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **minusMonths()** 方法返回这个 OffsetDateTi
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusMonths(long months)
 ```
 
@@ -20,7 +20,7 @@ public OffsetDateTime minusMonths(long months)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusMonths() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting months: 2028-12-12T13:30:30+05:00
 
@@ -56,7 +56,7 @@ Date1 after subtracting months: 2028-12-12T13:30:30+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusMonths() method
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting months: 2007-04-12T13:30:30+05:00
 

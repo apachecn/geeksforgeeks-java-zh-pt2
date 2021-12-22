@@ -6,7 +6,7 @@ Java 中的 **ScheduledExecutorService** 接口是 **java.util.concurrent** 包�
 
 **申报**
 
-```
+```java
 public interface ScheduledExecutorService extends ExecutorService
 
 ```
@@ -31,7 +31,7 @@ ScheduledExecutorService 的实现类是[ScheduledThreadPoolExecutor](https://ww
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate
 // SchedulerExecutorService
 
@@ -82,7 +82,7 @@ class Task implements Runnable {
 
 **输出:**
 
-```
+```java
 A count-down-clock program that counts from 10 to 0
 Current time : 28
 Number 10 Current time : 28

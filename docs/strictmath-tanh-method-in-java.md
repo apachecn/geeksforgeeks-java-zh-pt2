@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double tanh*(*double x*)*
 ```
 
@@ -20,7 +20,7 @@ public static double tanh*(*double x*)*
 
 **示例:**
 
-```
+```java
 Input: 0.7853981633974483
 Output: 0.6557942026326724
 
@@ -32,7 +32,7 @@ Output: 0.999329299739067
 下面的程序说明了**Java . lang . strict math . tanh()**方法:
 T3】程序 1:
 
-```
+```java
 // Java Program to demonstrate tanh()
 import java.io.*;
 import java.math.*;
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hyperbolic tan of 0.7853981633974483 = 0.6557942026326724
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate 
 // StrictMath.tanh() function 
 
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hyperbolic tan of Infinity = 1.0
 Hyperbolic tan of 0.0 = 0.0
 

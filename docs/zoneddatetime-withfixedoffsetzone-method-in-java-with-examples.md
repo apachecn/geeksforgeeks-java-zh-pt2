@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withFixedOffsetZone()
 
 ```
@@ -19,7 +19,7 @@ public ZonedDateTime withFixedOffsetZone()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withFixedOffsetZone() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before withFixedOffsetZone(): 2018-11-04T01:25:43-06:00[US/Central]
 After withFixedOffsetZone(): 2018-11-04T01:25:43-06:00
 
@@ -62,7 +62,7 @@ After withFixedOffsetZone(): 2018-11-04T01:25:43-06:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withFixedOffsetZone() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Before withFixedOffsetZone(): 2018-12-17T05:16:41.417Z[Etc/UTC]
 After withFixedOffsetZone(): 2018-12-17T05:16:41.417Z
 

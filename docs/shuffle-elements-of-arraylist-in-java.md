@@ -23,7 +23,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate shuffling of arraylist
 // elements Using Random class
 
@@ -79,7 +79,7 @@ class ArraylistShuffle {
 
 **Output**
 
-```
+```java
 Before shuffling Arraylist:
 10 20 30 40 50 60 70 80 
 After shuffling Arraylist:
@@ -92,7 +92,7 @@ After shuffling Arraylist:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate shuffling
 // ArrayList elements using Collections.shuffle()
 
@@ -139,7 +139,7 @@ class ArraylistShuffle {
 
 **Output**
 
-```
+```java
 Before shuffling Arraylist:
 C C++ Java Python PHP Javascript 
 After shuffling Arraylist:

@@ -6,7 +6,7 @@
     [collections . shuffle()](https://www.geeksforgeeks.org/collections-shuffle-java-examples/)是 java 中用来洗牌的列表。
     等级体系:
 
-```
+```java
 java
    ↳ util
       ↳ Collections
@@ -14,7 +14,7 @@ java
 
 语法:
 
-```
+```java
 Collections.shuffle(list);
 ```
 
@@ -22,7 +22,7 @@ Collections.shuffle(list);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of shuffle()
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Original List : 
 [ide, quiz, geeksforgeeks, quiz, practice, qa]
 

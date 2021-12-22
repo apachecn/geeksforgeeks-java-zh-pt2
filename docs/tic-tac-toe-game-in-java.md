@@ -6,7 +6,7 @@
 
 **游戏板:**
 
-```
+```java
       |---|---|---|        
       | 1 | 2 | 3 |
       |-----------|
@@ -23,7 +23,7 @@
 
 **样本输出:**
 
-```
+```java
       |---|---|---|        
       | 1 | 2 | X |
       |-----------|
@@ -40,7 +40,7 @@
 
 **样本输出:**
 
-```
+```java
       |---|---|---|        
       | 1 | 2 | X |
       |-----------|
@@ -67,7 +67,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A simple program to demonstrate 
 // Tic-Tac-Toe Game.
 import java.util.*;
@@ -244,7 +244,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Below is the output of the above program :
 Welcome to 3x3 Tic Tac Toe.
 |---|---|---|

@@ -16,7 +16,7 @@ Java 8 在 java.time 包下引入了一个新的日期时间 API，其中最重�
 
 ## Java
 
-```
+```java
 // Java code for LocalDate
 // / LocalTime Function
 import java.time.*;
@@ -80,7 +80,7 @@ public static void LocalDateTimeApi()
 
 **输出**
 
-```
+```java
 the current date is 2021-09-23
 the current time is 20:52:39.954238
 current date and time : 2021-09-23T20:52:39.956909
@@ -95,7 +95,7 @@ specific date with current time : 2016-09-24T20:52:39.956909
 
 ## Java
 
-```
+```java
 // Java code for Zoned date-time API
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -156,7 +156,7 @@ public static void ZonedTimeAndDate()
 
 **输出:**
 
-```
+```java
 formatted current Date and Time : 09-04-2018 06:21:13
 the current zone is Etc/UTC
 tokyo time zone is 2018-04-09T15:21:13.220+09:00[Asia/Tokyo]

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static OptionalInt of(int value)
 
 ```
@@ -18,7 +18,7 @@ public static OptionalInt of(int value)
 以下程序说明了(int)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.of(int) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalInt: OptionalInt[452]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.of(int) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalInt: OptionalInt[2149]
 
 ```

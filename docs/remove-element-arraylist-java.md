@@ -31,7 +31,7 @@ ArrayList 是 [**集合框架**](https://www.geeksforgeeks.org/collections-in-ja
 
 ## Java
 
-```
+```java
 // Java program to Remove Elements from ArrayList
 // Using remove() method by indicies
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 [10, 20, 30, 1, 2]
 [10, 1, 2]
 ```
@@ -88,7 +88,7 @@ public class GFG {
 
 ## 爪哇
 
-```
+```java
 // Java program to Remove Elements from ArrayList
 // Using remove() method by values
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 [10, 20, 30,1 ,2]
 [10, 20, 30]
 ```
@@ -147,7 +147,7 @@ public class GFG {
 
 ## Java
 
-```
+```java
 // Java program to demonstrate working of
 // Iterator.remove() on an integer arraylist
 import java.util.ArrayList;
@@ -195,7 +195,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 [10, 20, 30, 1, 2]
 [10, 20, 30]
 ```

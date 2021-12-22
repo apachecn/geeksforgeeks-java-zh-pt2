@@ -6,7 +6,7 @@ Java.util.TreeSet.first()方法用于返回 TreeSet 元素的第一个元素。�
 
 **语法:**
 
-```
+```java
 Tree_Set.first()
 ```
 
@@ -17,7 +17,7 @@ Tree_Set.first()
 下面是说明使用 Java.util.TreeSet.first()方法的程序:
 **程序 1:** 当元素是整数类型时。
 
-```
+```java
 // Java code to illustrate first()
 import java.util.*;
 import java.util.TreeSet;
@@ -47,7 +47,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 TreeSet: [7, 8, 14, 48, 124, 200]
 The first element is: 7
 
@@ -55,7 +55,7 @@ The first element is: 7
 
 **程序 2:** 当元素为字符串类型时。
 
-```
+```java
 // Java code to illustrate first()
 import java.util.*;
 import java.util.TreeSet;
@@ -85,7 +85,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 TreeSet: [Ab, B, Geeks, To, TreeSet, Welcome]
 The first element is: Ab
 
@@ -93,7 +93,7 @@ The first element is: Ab
 
 **程序 3:** 当元素为字符串类型但带有整数值时。这里我们看到首先出现的数字被认为是第一个元素，与长度无关:
 
-```
+```java
 // Java code to illustrate first()
 import java.util.*;
 import java.util.TreeSet;
@@ -123,7 +123,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 TreeSet: [100, 45, 5, Geeks, To, Welcome]
 The first element is: 100
 

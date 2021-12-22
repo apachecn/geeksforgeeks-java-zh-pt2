@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```java
 public boolean hasMoreTokens()
 ```
 
@@ -30,7 +30,7 @@ public boolean hasMoreTokens()
 
 **语法:**
 
-```
+```java
 public String nextToken()
 ```
 
@@ -44,7 +44,7 @@ public String nextToken()
 
 **语法:**
 
-```
+```java
 public int countTokens()
 ```
 
@@ -54,7 +54,7 @@ public int countTokens()
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Methods of StringTokenizer class
 // Via hasMoreToken(), nextToken() and countTokens()
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 Number of tokens : 5
 
 token at [0] : JAVA
@@ -115,7 +115,7 @@ token at [4] : Geeks
 
 **语法:**
 
-```
+```java
 public Object nextElement()
 ```
 
@@ -129,7 +129,7 @@ public Object nextElement()
 
 **语法:**
 
-```
+```java
 public boolean hasMoreElements()
 ```
 
@@ -139,7 +139,7 @@ public boolean hasMoreElements()
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Methods of StringTokenizer
 // Class Via hasMoreElements, nextElement and nextElement
 
@@ -184,7 +184,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Number of tokens : 5
 JAVA
 Code

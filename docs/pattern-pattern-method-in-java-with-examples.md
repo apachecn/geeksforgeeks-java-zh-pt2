@@ -6,7 +6,7 @@ Java 中**模式**类的**模式()**方法用于获取正则表达式，该表�
 
 **语法:**
 
-```
+```java
 public String pattern()
 
 ```
@@ -18,7 +18,7 @@ public String pattern()
 下面的程序说明了模式()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.pattern() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Pattern's RegularExpression = (.*)(for)(.*)?
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.compile method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Pattern's RegularExpression = (.*)(ee)(.*)?
 
 ```

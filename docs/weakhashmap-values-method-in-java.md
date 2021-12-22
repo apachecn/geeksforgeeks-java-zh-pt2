@@ -6,7 +6,7 @@ java 中 HashMap 类的 java.util.WeakHashMap.values()方法用于从映射的�
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.values()
 ```
 
@@ -17,7 +17,7 @@ Weak_Hash_Map.values()
 下面的程序用来说明 java.util.WeakHashMap.values()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the values() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The collection is: [You, 4, Geeks, Welcomes, Geeks]
 
@@ -57,7 +57,7 @@ The collection is: [You, 4, Geeks, Welcomes, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the values() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The collection is: [25, 15, 30, 20]
 

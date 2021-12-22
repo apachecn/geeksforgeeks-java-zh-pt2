@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final String getAttribute(String name)
 ```
 
@@ -16,7 +16,7 @@ public final String getAttribute(String name)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAttribute() method
 
@@ -64,14 +64,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 KeySize is : 1024
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAttribute() method
 
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 ImplementedIn : Software
 
 ```

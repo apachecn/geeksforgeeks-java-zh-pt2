@@ -10,91 +10,91 @@
 
 1.  **getAddress() :** 将此 InetAddress 对象的原始 IP 地址作为数组返回。字节在数组中出现的顺序与在 IP 地址中的顺序相同，即 getAddress[0]将包含最高顺序的字节。
 
-    ```
+    ```java
     Syntax : public byte[] getAddress()
     ```
 
 2.  **getHostAddress() :** 以文本形式返回 IP 地址。
 
-    ```
+    ```java
     Syntax :public String getHostAddress()
     ```
 
 3.  **is anilocaladdress():**如果该地址代表本地地址，则返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isAnyLocalAddress()
     ```
 
 4.  **islinklocaldaddress():**如果该地址是链路本地地址，则返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isLinkLocalAddress()
     ```
 
 5.  **isLoopbackAddress() :** 如果该地址是环回地址，则返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isLoopbackAddress()
     ```
 
 6.  **isMCGlobal() :** 如果此多播地址具有全局作用域，则返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isMCGloabal()
     ```
 
 7.  **IsmCellLocal():**如果此多播地址有链接范围，则返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isMCLinkLocal()
     ```
 
 8.  **如果此多播地址具有节点作用域，则 isMCNodeLocal() :** 返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isMCNodeLocal()
     ```
 
 9.  **如果此多播地址具有组织范围，则 isMCOrgLocal() :** 返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isMCOrgLoacal()
     ```
 
 10.  **如果此多播地址具有站点范围，则 ISCSITELOCAL():**返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isMCSiteLocal()
     ```
 
 11.  **isMulticastAddress() :** 如果该地址是一个 IP 多播地址，则返回 true。多播地址的前 4 位是 1110。
 
-    ```
+    ```java
     Syntax :public boolean isMulticastAddress()
     ```
 
 12.  **如果该地址是站点本地地址，issitelocaddress():**返回 true。
 
-    ```
+    ```java
     Syntax :public boolean isSiteLocalAddress()()
     ```
 
 13.  **hashCode() :** 返回与此地址对象关联的 hashCode。
 
-    ```
+    ```java
     Syntax : public int hashCode()
     ```
 
 14.  **equals()** : returns true if this ip address is same as that of the object specified. Equals() method don’t consider host names while comparing and only consider IP address associated.
 
-    ```
+    ```java
     Syntax : public boolean equals(Object obj)
     Parameters :
     obj : object to compare with
     ```
 
-    ```
+    ```java
     // Java program to illustrate
     // Inetaddress class methods
     import java.net.Inet4Address;
@@ -162,7 +162,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Address : [52, 84, 102, 90]
     Host Address : 52.84.102.90
     isAnyLocalAddress : false
@@ -182,7 +182,7 @@
 
 15.  **isReachable() :** Returns true if this address is reachable. ICMP echo requests are used if permission can be granted otherwise the host tries to make a TCP connection at port 7 of the destination. This method is used generally as a pre-condition in various programs, to avoid Host Unreachable exceptions in future.
 
-    ```
+    ```java
     Syntax :public boolean isReachable(int timeout)
                         throws IOException
     Parameters :
@@ -194,7 +194,7 @@
 
     另一个重载的 isReachable()方法指定了检查可达性时要使用的网络接口，ttl 参数指定了回声数据包在退出网络之前的跳数。
 
-16.  ```
+16.  ```java
     Syntax :public boolean isReachable(NetworkInterface netif,
                       int ttl,
                       int timeout)
@@ -210,25 +210,25 @@
 
 17.  **获取主机名():**返回该 IP 地址的主机名。如果创建此对象时使用的主机名不同于返回的主机名，则执行反向查找以返回系统配置的主机名。
 
-    ```
+    ```java
     Syntax :public String getHostName()
     ```
 
 18.  **getCanonicalHostName() :** 返回此对象的完全限定域名。如果创建此对象时使用的主机名不同于返回的主机名，则执行反向查找以返回系统配置的主机名。
 
-    ```
+    ```java
     Syntax :public String getCanonicalHostName()
     ```
 
 19.  **toString() :** 将 IP 地址转换为字符串。它将结果作为主机名/ IP 地址返回。
 
-    ```
+    ```java
     Syntax :public String toString()
     ```
 
 20.  **getByAddress() :** One of the static methods to create an InetAddress object. It takes host name and IP address as its parameter. Host name can be the machine name as in “www.geeksforgeeks.org” or its textual IP address.
 
-    ```
+    ```java
     Syntax : public static InetAddress getByAddress(String host,
                            byte[] addr)
                                     throws UnknownHostException
@@ -241,7 +241,7 @@
 
     另一个重载方法，只接受字节地址，没有主机名。它只返回带有这个原始 IP 地址的 InetAddress 对象。
 
-21.  ```
+21.  ```java
     Syntax : public static InetAddress getByAddress(byte[] addr)
                                     throws UnknownHostException
     Parameters :
@@ -253,7 +253,7 @@
 
 22.  **getByName() :** 返回指定主机的 IP 地址。如果主机是一个字面上的 IP 地址，那么只检查其有效性。
 
-    ```
+    ```java
     Syntax :public static InetAddress getByName(String host)
     Parameters :
     host : host name
@@ -261,7 +261,7 @@
 
 23.  **getAllByName() :** 返回给定主机的 IP 地址数组。
 
-    ```
+    ```java
     Syntax :public static InetAddress[] getAllByName(String host)
     Parameters :
     host : host name
@@ -269,14 +269,14 @@
 
 24.  **getLoopbackAddress() :** 返回环回地址。
 
-    ```
+    ```java
     Syntax :public static InetAddress getLoopbackAddress()
 
     ```
 
 25.  **getLocalHost() :** Returns the IP address of the local host.
 
-    ```
+    ```java
     Syntax :public static InetAddress getLocalHost()
                                     throws UnknownHostException
     Throws :
@@ -284,7 +284,7 @@
 
     ```
 
-    ```
+    ```java
     // Java program to illustrate
     // Inetaddress class methods
     import java.io.IOException;
@@ -339,7 +339,7 @@
 
     **输出:**
 
-    ```
+    ```java
     getByName() : www.geeksforgeeks.org/52.84.102.90
     getByAddress() : /127.0.0.1
     getLocalHost() : DESKTOP-K4GGDH6/192.168.1.5
@@ -354,7 +354,7 @@
 
 下面的程序使用 InetAddress 类来获取给定域名的 IP 地址。当程序在连接到互联网的系统上运行时，它会给出给定域的 IP 地址。
 
-```
+```java
 // A Java program to demonstrate working of InetAddress class
 // This program finds IP address for a domain name.
 import java.net.*;
@@ -384,7 +384,7 @@ public class GetIPAddress
 
 **输出:**
 
-```
+```java
 IP Address(es)
 172.217.4.68
 2607:f8b0:4006:809:0:0:0:2004

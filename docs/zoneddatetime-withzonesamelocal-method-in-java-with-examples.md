@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withZoneSameLocal(ZoneId zone)
 
 ```
@@ -18,7 +18,7 @@ public ZonedDateTime withZoneSameLocal(ZoneId zone)
 下面的程序说明了 withZoneSameLocal()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withZoneSameLocal() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime of Calcutta: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime of Fuji: 2018-12-06T19:21:12.123+13:00[Pacific/Fiji]
 
@@ -60,7 +60,7 @@ ZonedDateTime of Fuji: 2018-12-06T19:21:12.123+13:00[Pacific/Fiji]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withZoneSameLocal() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime of Calcutta: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 ZonedDateTime of yukon: 2018-10-25T23:12:31.123-07:00[Canada/Yukon]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public TextStyle isStandalone()
 
 ```
@@ -18,7 +18,7 @@ public TextStyle isStandalone()
 下面的程序说明了 TextStyle.isStandalone()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.isStandalone() method
 
@@ -47,14 +47,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TextStyle is Standalone:true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.isStandalone() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TextStyle is Standalone:false
 
 ```

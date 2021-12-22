@@ -5,7 +5,7 @@
 Java 中 **YearMonth** 类的 **minusMonths()** 方法用来返回这个 YearMonth 减去指定月数的副本。
 **语法:**
 
-```
+```java
 public YearMonth minusMonths(
         long monthsToSubtract)
 ```
@@ -18,7 +18,7 @@ public YearMonth minusMonths(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minusMonths() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Modified YearMonth: 2020-03
 ```
 
@@ -57,7 +57,7 @@ Modified YearMonth: 2020-03
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minusMonths() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Modified YearMonth: 2018-12
 ```
 

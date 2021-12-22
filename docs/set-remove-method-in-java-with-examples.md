@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean remove(Object O)
 ```
 
@@ -16,7 +16,7 @@ boolean remove(Object O)
 
 下面程序举例说明了 java.util.Set.remove(Object O)方法:
 
-```
+```java
 // Java code to illustrate Set.remove() method
 
 import java.util.*;
@@ -51,7 +51,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, Welcome, To]
 Set after removing elements: [To]
 

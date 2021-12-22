@@ -20,7 +20,7 @@ Java 中类的 **write(char[]，int，int)** 方法用于在 Writer 上写入指
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Writer write(char[], int, int) method
 
@@ -65,14 +65,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Writer write(char[], int, int) method
 
@@ -117,7 +117,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 c
 
 ```

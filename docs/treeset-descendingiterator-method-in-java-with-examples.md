@@ -5,7 +5,7 @@
 [**Java . util . treeset<【E】>**](https://www.geeksforgeeks.org/treeset-in-java-with-examples/)类的**Degending Terrar()**方法用于以降序返回该集合中元素的迭代器。
 **语法:**
 
-```
+```java
 public Iterator descendingIterator()
 ```
 
@@ -15,7 +15,7 @@ public Iterator descendingIterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // descendingIterator() method
 // for Integer value
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeSet: [10, 20, 30, 40]
 
 Values using DescendingIterator:
@@ -76,7 +76,7 @@ Value : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // descendingIterator() method
 // for String value
@@ -123,7 +123,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeSet: [A, B, C, D]
 
 Values using DescendingIterator:

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public K floorKey(K key)
 ```
 
@@ -26,7 +26,7 @@ public K floorKey(K key)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate floorKey() method
 
 import java.util.TreeMap;
@@ -65,7 +65,7 @@ public class FloorKeyDemo {
 
 **Output:**
 
-```
+```java
 TreeMap: {1=One, 3=Three, 5=Five, 6=Six, 8=Eight, 10=Ten}
 Floor Entry of Element 11 is: 10
 Floor Entry of Element 0 is: null
@@ -74,7 +74,7 @@ Floor Entry of Element 0 is: null
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate floorKey() method
 
 import java.util.TreeMap;
@@ -112,7 +112,7 @@ public class FloorKeyDemo {
 
 **Output:**
 
-```
+```java
 TreeMap: {1=One, 3=Three, 5=Five, 6=Six, 8=Eight, 10=Ten}
 Exception: java.lang.NullPointerException
 

@@ -11,7 +11,7 @@ updateBackupDb()-是更新数据库的方法。
 使用这种 if else 更难调试和扩展现有函数中的任何功能。
 **优化前**
 
-```
+```java
 // A simple method handling the data
 // base operation related task
 private void updateDb(boolean isForceUpdate) {
@@ -65,7 +65,7 @@ private void updateDb(boolean isForceUpdate) {
 3。在最后一步中，所有任务都完成了更新备份数据库和更新主数据库。
 **优化后**
 
-```
+```java
 // A simple method handling the
 // data base operation related
 // task
@@ -108,7 +108,7 @@ private void updateDb(boolean isForceUpdate) {
 **已有代码来自上面的 API——这写得很完美。**
 **优化后**
 
-```
+```java
 public String substring(int beginIndex, int endIndex) {
 
   // My comment - Below are the example of
@@ -139,7 +139,7 @@ public String substring(int beginIndex, int endIndex) {
 
 如果在修改上述逻辑后，任何人使用 if else，如下例所示，这将非常复杂，但最终会产生相同的结果，因此我不喜欢在优化前执行如下所示–
 
-```
+```java
 public String substring(int beginIndex, int endIndex) {
 
   if (beginIndex < 0) {

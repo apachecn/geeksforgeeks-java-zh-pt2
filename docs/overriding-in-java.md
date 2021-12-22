@@ -8,7 +8,7 @@
 
 方法重写是 java 实现[运行时多态性](https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/)的方式之一。执行的方法版本将由用于调用它的对象决定。如果父类的对象被用来调用方法，那么父类中的版本将被执行，但是如果子类的对象被用来调用方法，那么子类中的版本将被执行。换句话说，*被引用对象的类型*(不是引用变量的类型)决定了被覆盖方法的哪个版本将被执行。
 
-```
+```java
 // A Simple Java program to demonstrate
 // method overriding in java
 
@@ -52,7 +52,7 @@ class Main {
 
 **Output:**
 
-```
+```java
 Parent's show()
 Child's show()
 
@@ -62,7 +62,7 @@ Child's show()
 
 1.  **Overriding and Access-Modifiers :** The [access modifier](https://www.geeksforgeeks.org/access-modifiers-java/) for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the super-class can be made public, but not private, in the subclass. Doing so, will generate compile-time error.
 
-    ```
+    ```java
     // A Simple Java program to demonstrate
     // Overriding and Access-Modifiers
 
@@ -110,7 +110,7 @@ Child's show()
 
     **Output:**
 
-    ```
+    ```java
     From parent m2()
     From child m2()
 
@@ -118,7 +118,7 @@ Child's show()
 
 2.  **Final methods can not be overridden :** If we don’t want a method to be overridden, we declare it as [final](https://www.geeksforgeeks.org/final-keyword-java/). Please see [Using final with Inheritance](https://www.geeksforgeeks.org/using-final-with-inheritance-in-java/) .
 
-    ```
+    ```java
     // A Java program to demonstrate that
     // final methods cannot be overridden
 
@@ -135,7 +135,7 @@ Child's show()
 
     **输出:**
 
-    ```
+    ```java
     13: error: show() in Child cannot override show() in Parent
         void show() {  }
              ^
@@ -151,7 +151,7 @@ Child's show()
     | 子类实例方法 | 推翻 | 生成编译时错误 |
     | 子类静态方法 | 生成编译时错误 | 隐瞒 |
 
-    ```
+    ```java
     // Java program to show that
     // if the static method is redefined by
     // a derived class, then it is not
@@ -213,7 +213,7 @@ Child's show()
 
     **Output:**
 
-    ```
+    ```java
     From parent static m1()
     From child non-static(instance) m2()
 
@@ -223,7 +223,7 @@ Child's show()
 5.  **The overriding method must have same return type (or subtype) :** From Java 5.0 onwards it is possible to have different return type for a overriding method in child class, but child’s return type should be sub-type of parent’s return type. This phenomena is known as [**covariant return type**](https://www.geeksforgeeks.org/covariant-return-types-java/).
 6.  **从子类调用覆盖方法:**我们可以使用[超级关键字](https://www.geeksforgeeks.org/super-keyword/)在覆盖方法中调用父类方法。
 
-    ```
+    ```java
     // A Java program to demonstrate that overridden
     // method can be called from sub-class
 
@@ -258,7 +258,7 @@ Child's show()
 
     **输出:**
 
-    ```
+    ```java
     Parent's show()
     Child's show()
 
@@ -269,7 +269,7 @@ Child's show()
 8.  **覆盖和异常处理:**下面是覆盖与异常处理相关的方法时需要注意的两条规则。
     *   **Rule#1 :** If the super-class overridden method does not throw an exception, subclass overriding method can only throws the [unchecked exception](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/), throwing checked exception will lead to compile-time error.
 
-        ```
+        ```java
         /* Java program to demonstrate overriding when 
           superclass method does not declare an exception
         */
@@ -306,7 +306,7 @@ Child's show()
 
         **输出:**
 
-        ```
+        ```java
         error: m2() in Child cannot override m2() in Parent
             void m2() throws Exception{ System.out.println("From child m2");}
                  ^
@@ -316,7 +316,7 @@ Child's show()
 
     *   **Rule#2 :** If the super-class overridden method does throws an exception, subclass overriding method can only throw same, subclass exception. Throwing parent exception in [Exception hierarchy](https://www.geeksforgeeks.org/exceptions-in-java/) will lead to compile time error.Also there is no issue if subclass overridden method is not throwing any exception.
 
-        ```
+        ```java
         // Java program to demonstrate overriding when
         // superclass method does declare an exception
 
@@ -364,7 +364,7 @@ Child's show()
 
         **输出:**
 
-        ```
+        ```java
         error: m1() in Child4 cannot override m1() in Parent
             void m1() throws Exception
                  ^
@@ -380,7 +380,7 @@ Child's show()
 1.  在 C++中，我们需要[虚拟关键字](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)来实现覆盖或者[运行时多态](https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/)。在 Java 中，默认情况下方法是虚拟的。
 2.  我们可以有多级方法重写。
 
-    ```
+    ```java
     // A Java program to demonstrate
     // multi-level overriding
 
@@ -419,7 +419,7 @@ Child's show()
 
     **输出:**
 
-    ```
+    ```java
     GrandChild's show()
 
     ```
@@ -449,7 +449,7 @@ Child's show()
 
 [![javaoverriding](img/f44a67ffcd96b990ffdc17e9893f33fc.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/JavaOVerriding.jpg)
 
-```
+```java
 // A Simple Java program to demonstrate application
 // of overriding in Java
 
@@ -507,7 +507,7 @@ class Main {
 
 **Output:**
 
-```
+```java
 Manager's salary : 30000
 Clerk's salary : 20000
 

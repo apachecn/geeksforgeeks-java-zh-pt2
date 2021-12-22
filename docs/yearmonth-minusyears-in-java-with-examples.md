@@ -6,7 +6,7 @@ Java 中 **YearMonth** 类的**MINUS year()**方法用来返回这个 YearMonth 
 
 **语法:**
 
-```
+```java
 public YearMonth minusYears(long yearsToSubtract)
 ```
 
@@ -20,7 +20,7 @@ public YearMonth minusYears(long yearsToSubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minusYears() method
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified YearMonth: 2015-05
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.minusYears() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified Year: 2009
 
 ```

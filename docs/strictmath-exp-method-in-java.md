@@ -11,7 +11,7 @@ java.lang.StrictMath 类的所有方法:[集 1](https://www.geeksforgeeks.org/ja
 
 **语法:**
 
-```
+```java
 public static double exp(*double num*)
 ```
 
@@ -19,7 +19,7 @@ public static double exp(*double num*)
 **返回值:**该方法返回值 *e^num* ，其中 e 是自然对数的基数。
 **示例:**
 
-```
+```java
 Input: num = 7
 Output: 1096.6331584284585
 
@@ -32,7 +32,7 @@ Output: Infinity
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.exp()
 import java.lang.*;
@@ -62,7 +62,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The exp value of 0.0 = 1.0
 The exp value of Infinity = Infinity
 The exp value of 4.0 = 54.598150033144236
@@ -72,7 +72,7 @@ The exp value of 4.0 = 54.598150033144236
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.exp()
 import java.lang.*;
@@ -103,7 +103,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 The exp value of -0.0 = 1.0
 The exp value of Infinity = Infinity
 The exp value of 14.0 = 1202604.2841647768

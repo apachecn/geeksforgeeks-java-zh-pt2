@@ -16,14 +16,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class Quartet<A, B, C, D> extends Tuple
 implements IValue0<A>, IValue1<B>, IValue2<C>, IValue3<D> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Quartet<A, B, C, D>
@@ -34,7 +34,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 Quartet<A, B, C, D> quartet = 
     new Quartet<A, B, C, D>
         (value1, value2, value3, value4);
@@ -44,7 +44,7 @@ Quartet<A, B, C, D> quartet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quartet tuple from Constructor
 
@@ -67,14 +67,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 20.18]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **句法**:
 
-```
+```java
 Quartet<type1, type2, type3, type4> quartet = 
     Quartet.with(value1, value2, value3, value4);
 ```
@@ -83,7 +83,7 @@ Quartet<type1, type2, type3, type4> quartet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quartet tuple from with() method
 
@@ -106,14 +106,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 20.18]
 ```
 
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **句法**:
 
-```
+```java
 Quartet<type1, type2, type3, type4> quartet = 
     Quartet.fromCollection(collectionWith_2_value);
 
@@ -125,7 +125,7 @@ Quartet<type1, type2, type3, type4> quartet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quartet tuple from Collection
 
@@ -162,7 +162,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [GeeksforGeeks, A computer portal, for geeks, by Sandeep Jain]
 [GeeksforGeeks, A computer portal, for geeks, by Sandeep Jain]
 ```
@@ -173,7 +173,7 @@ getValueX()方法可用于在索引 x 处获取元组中的值。元组中的索
 
 **语法**:
 
-```
+```java
 Quartet<type1, type2, type3, type4> quartet = 
     new Quartet<type1, type2, type3, type4>(value1, value2, value3, value4);
 
@@ -184,7 +184,7 @@ type1 val1 = quartet.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a Quartet value
 

@@ -6,7 +6,7 @@ Java 中 Year 类的 toString()方法用于返回这个 Year 对象的字符串�
 
 **语法** :
 
-```
+```java
 public String toString()
 
 ```
@@ -19,7 +19,7 @@ public String toString()
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the toString() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the toString() method
 
 import java.util.*;
@@ -66,7 +66,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 1997
 
 ```

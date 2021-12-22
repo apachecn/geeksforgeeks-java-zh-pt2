@@ -24,7 +24,7 @@
 
 **例 1:** 用整数。
 
-```
+```java
 // Java program to replace null values
 // of a map with a default value
 
@@ -83,7 +83,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Map with null values: {1=1, 2=2, 3=null, 4=4, 5=null, 6=null}
 Map with null value replaced: {1=1, 2=2, 3=0, 4=4, 5=0, 6=0}
 
@@ -91,7 +91,7 @@ Map with null value replaced: {1=1, 2=2, 3=0, 4=4, 5=0, 6=0}
 
 **例 2:** 带字符。
 
-```
+```java
 // Java program to replace null values
 // of a map with a default value
 
@@ -150,7 +150,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Map with null values: {1=A, 2=B, 3=null, 4=D, 5=null, 6=null}
 Map with null value replaced: {1=A, 2=B, 3=Z, 4=D, 5=Z, 6=Z}
 

@@ -6,7 +6,7 @@ Java 中 **[PrintStream](https://www.geeksforgeeks.org/java-io-printstream-class
 
 **语法:**
 
-```
+```java
 public void close()
 ```
 
@@ -18,7 +18,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream close() method
 
@@ -55,14 +55,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream close() method
 
@@ -96,7 +96,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A
 
 ```

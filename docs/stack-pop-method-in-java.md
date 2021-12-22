@@ -5,7 +5,7 @@
 Java 中的 Java.util.Stack.pop()方法用于从堆栈中弹出一个元素。元素从堆栈顶部弹出，并从堆栈中移除。
 **语法:**
 
-```
+```java
 STACK.pop()
 ```
 
@@ -17,7 +17,7 @@ STACK.pop()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate pop()
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class StackDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate pop()
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class StackDemo {
 
 **Output:** 
 
-```
+```java
 Initial Stack: [10, 15, 30, 20, 5]
 Popped element: 5
 Popped element: 20

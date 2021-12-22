@@ -30,7 +30,7 @@
 
     ## activity_main.xml
 
-    ```
+    ```java
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.example.gfgrecycleview;
 
     import androidx.appcompat.app.AppCompatActivity;

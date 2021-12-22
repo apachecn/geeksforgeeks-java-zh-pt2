@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean contains(Object o)
 ```
 
@@ -20,7 +20,7 @@ public boolean contains(Object o)
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of PriorityBlockingQueue
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 PrioQueue: [56156, 46514561, 4641515, 948964165]
 PriorityBlockingQueue contains number 56156 : true
 PriorityBlockingQueue contains number 46545 : false
@@ -76,7 +76,7 @@ PriorityBlockingQueue contains number 46545 : false
 
 **示例 2:** 演示包含名称列表的 PriorityBlockingQueue 的 contains()方法。
 
-```
+```java
 // Java Program Demonstrate contains(Object o)
 // method of PriorityBlockingQueue
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 List of Names: [A, Computer, Geeks, forGeeks, Portal]
 Does names contains Geeks: true
 Does names contains SandeepJain: false

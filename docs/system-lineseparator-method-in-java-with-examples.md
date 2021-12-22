@@ -6,7 +6,7 @@ lineSeparator()是 Java 中的内置方法，它返回依赖于系统的行分�
 
 **语法:**
 
-```
+```java
 public static String lineSeparator()
 ```
 
@@ -20,7 +20,7 @@ public static String lineSeparator()
 
 **程序 1:** 说明静态弦线分离器()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of static String lineSeparator() method
 import java.io.IOException;
@@ -41,7 +41,7 @@ public class LineSeparatorExample {
 
 **输出:**
 
-```
+```java
 10
 
 ```
@@ -50,7 +50,7 @@ public class LineSeparatorExample {
 
 **程序 2:** 说明一个整数值的静态字符串行分离器()方法的工作原理。
 
-```
+```java
 // Java program to demonstrate working
 // of static String lineSeparator() method
 import java.io.IOException;
@@ -69,7 +69,7 @@ class SystemDemo {
 
 **输出:**
 
-```
+```java
 \r\n
 
 ```

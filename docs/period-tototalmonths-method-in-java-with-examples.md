@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toTotalMonths()
 ```
 
@@ -18,7 +18,7 @@ public long toTotalMonths()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate toTotalMonths() method
 
 import java.time.Period;
@@ -46,7 +46,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Period: P1Y2M21D
 Total number of Months in this Period: 14
 
@@ -54,7 +54,7 @@ Total number of Months in this Period: 14
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate toTotalMonths() method
 
 import java.time.Period;
@@ -82,7 +82,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Period: P-1Y-2M-21D
 Total number of Months in this Period: -14
 

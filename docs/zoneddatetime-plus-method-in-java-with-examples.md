@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plus(long amountToAdd,
                           TemporalUnit unit)
 
@@ -33,7 +33,7 @@ public ZonedDateTime plus(long amountToAdd,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plus() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime after adding Months: 
 2021-06-06T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -76,7 +76,7 @@ ZonedDateTime after adding Months:
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plus(TemporalAmount amountToAdd)
 
 ```
@@ -94,7 +94,7 @@ public ZonedDateTime plus(TemporalAmount amountToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plus() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime after adding Days: 
 2019-03-16T19:21:12.123+05:30[Asia/Calcutta]
 

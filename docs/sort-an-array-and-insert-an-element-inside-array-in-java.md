@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to insert an element in
 // an array and then sorting it.
 
@@ -59,7 +59,7 @@ public class Gfg {
 
 **Output**
 
-```
+```java
 1 2 3 4 5 6 7 8 9 10 
 ```
 
@@ -77,7 +77,7 @@ public class Gfg {
 
 ## Java
 
-```
+```java
 // Java program to insert an element
 // in an array and then sorting it.
 
@@ -127,7 +127,7 @@ public class Gfg {
 
 **输出**
 
-```
+```java
 1 2 3 4 5 6 7 8 9 10 
 ```
 
@@ -143,7 +143,7 @@ public class Gfg {
 
 ## Java
 
-```
+```java
 // Java program to insert an element
 // in an array and then sorting it.
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 1 2 3 4 5 6 7 8 9 10 
 ```
 

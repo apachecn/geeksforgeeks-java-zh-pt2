@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stack.indexOf(Object element)
 ```
 
@@ -18,7 +18,7 @@ Stack.indexOf(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate indexOf()
 import java.util.*;
 
@@ -53,7 +53,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 The first occurrence of Geeks is at index:0
 The first occurrence of 10 is at index: 3
@@ -62,7 +62,7 @@ The first occurrence of 10 is at index: 3
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate indexOf()
 import java.util.*;
 
@@ -97,7 +97,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 The first occurrence of Geeks is at index:1
 The first occurrence of 10 is at index: 4

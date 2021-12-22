@@ -6,7 +6,7 @@ Java 中 Year 类的 length()方法用于返回以天数表示的今年对象值
 
 **语法**:
 
-```
+```java
 public int length()
 
 ```
@@ -18,7 +18,7 @@ public int length()
 下面的程序说明了 Java 中年份的长度()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the length() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 366
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the length() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 365
 
 ```

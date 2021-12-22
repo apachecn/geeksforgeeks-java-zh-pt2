@@ -6,7 +6,7 @@
 
 **申报:**申报为**com . Google . common . collect . range<T3】C**T7 类为:
 
-```
+```java
 @GwtCompatible
 public final class Range<C extends Comparable>
    extends Object
@@ -54,7 +54,7 @@ public final class Range<C extends Comparable>
 下面给出的是一些更好理解实现的例子:
 **例子 1 :**
 
-```
+```java
 // Java code to show implementation
 // of Range class of Guava
 import com.google.common.collect.Range;
@@ -86,7 +86,7 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 true
 true
@@ -96,7 +96,7 @@ true
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation
 // of Range class of Guava
 import com.google.common.collect.Range;
@@ -128,7 +128,7 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 true
 true
@@ -138,7 +138,7 @@ true
 
 **例 3 :**
 
-```
+```java
 // Java code to show implementation
 // of Range class of Guava
 import com.google.common.collect.Range;
@@ -171,7 +171,7 @@ class GFG {
 
 输出:
 
-```
+```java
 false
 false
 true
@@ -181,7 +181,7 @@ true
 
 **例 4 :**
 
-```
+```java
 // Java code to show implementation
 // of Range class of Guava
 import com.google.common.collect.Range;
@@ -214,7 +214,7 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 true
 true

@@ -13,7 +13,7 @@
 2。Java 中的 String 类没有 reverse()方法，但是 StringBuilder 类内置了 reverse()方法。
 3。StringBuilder 类没有 toCharArray()方法，而 String 类有 toCharArray()方法。
 
-```
+```java
 1\. The idea is to traverse the length of the string 
 2\. Extract each character while traversing 
 3\. Add each character in front of the existing string
@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to reverse a word
 
 import java.io.*;
@@ -51,7 +51,7 @@ class GFG {
 *   **将字符串转换为字节:** getBytes()方法用于将输入字符串转换为字节[]。
     **法:**
 
-```
+```java
 1\. Create a temporary byte[]  of length equal 
    to the length of the input string.
 2\. Store the bytes (which we get by using 
@@ -63,7 +63,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to ReverseString using ByteArray.
 import java.lang.*;
 import java.io.*;
@@ -93,7 +93,7 @@ class ReverseString {
 
 **输出:**
 
-```
+```java
 skeeGrofskeeG
 ```
 
@@ -101,7 +101,7 @@ skeeGrofskeeG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to ReverseString using StringBuilder
 import java.lang.*;
 import java.io.*;
@@ -129,14 +129,14 @@ class ReverseString {
 
 **输出:**
 
-```
+```java
 skeeG rof skeeG
 ```
 
 *   **将字符串转换为字符数组:**用户输入要反转的字符串。
     T3【方法:
 
-```
+```java
 1\. First, convert String to character array
    by using the built in Java String class 
    method toCharArray().
@@ -146,7 +146,7 @@ skeeG rof skeeG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Reverse a String  by
 // converting string to characters  one
 // by one
@@ -172,13 +172,13 @@ class ReverseString {
 
 **输出:**
 
-```
+```java
 skeeGrofskeeG
 ```
 
 *   **使用 toCharArray()将输入字符串转换为字符数组:**使用字符串类的 toCharArray()–内置方法将输入字符串转换为字符数组。然后，从两侧扫描字符数组，即从开始索引(左)和最后索引(右)同时扫描。
 
-```
+```java
 1\. Set the left index equal to 0 and right 
    index equal to the length of the string -1.
 2\. Swap the characters of the start index 
@@ -193,7 +193,7 @@ skeeGrofskeeG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Reverse a String using swapping
 // of variables
 import java.lang.*;
@@ -225,13 +225,13 @@ class ReverseString {
 
 **输出:**
 
-```
+```java
 skeeG roF skeeG
 ```
 
 *   **使用 ArrayList 对象:**使用 toCharArray()内置方法将输入字符串转换为字符数组。然后，将数组的字符添加到 ArrayList 对象中。Java 还为 Collections 类内置了反向()方法。由于 Collections 类 reverse()方法接受一个列表对象，为了反转列表，我们将传递 ArrayList 对象，它是一种字符列表类型。
 
-```
+```java
 1\. We copy String contents to an object 
    of ArrayList.
 1\. We create a ListIterator object by using 
@@ -246,7 +246,7 @@ skeeG roF skeeG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Reverse a String using ListIterator
 import java.lang.*;
 import java.io.*;
@@ -273,7 +273,7 @@ class ReverseString {
 
 **输出:**
 
-```
+```java
 skeeG roF skeeG
 ```
 
@@ -281,7 +281,7 @@ skeeG roF skeeG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate conversion from
 // String to StringBuffer and reverse of string
 import java.lang.*;
@@ -304,7 +304,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 skeeG
 ```
 

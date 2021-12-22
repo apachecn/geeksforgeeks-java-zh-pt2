@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
 
     <!-- Base application theme. -->
@@ -73,7 +73,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
 
     <!-- Base application theme. -->

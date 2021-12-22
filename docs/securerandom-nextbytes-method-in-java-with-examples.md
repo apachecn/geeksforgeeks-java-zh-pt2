@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public void nextBytes(byte[] bytes)
 ```
 
@@ -23,7 +23,7 @@ public void nextBytes(byte[] bytes)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // nextBytes() method
 
@@ -69,20 +69,20 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Byte array before operation : [84, 97, 106, 109, 97, 104, 97, 108]
 Byte array after operation : [-79, -110, -18, -31, -54, -36, 63, -61]
 ```
 
 **注意:**以下程序在 GeeksForGeeks IDE 上抛出以下异常，但它将在任何命令提示符下高效运行(JDK)
 
-```
+```java
 Exception thrown : java.security.ProviderException: init failed
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // nextBytes() method
 
@@ -123,7 +123,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Byte array before operation : [84, 97, 106, 109, 97, 104, 97, 108]
 Byte array after operation : [-14, 77, 123, 121, 116, 50, -89, -86]
 ```

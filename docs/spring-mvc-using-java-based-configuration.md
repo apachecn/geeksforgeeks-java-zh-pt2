@@ -47,7 +47,7 @@ Spring MVC 框架由以下组件组成:
 
         ## 可扩展标记语言
 
-        ```
+        ```java
         <project
           xmlns="http://maven.apache.org/POM/4.0.0" 
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -86,7 +86,7 @@ Spring MVC 框架由以下组件组成:
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         package com.geeksforgeeks.web;
 
         import org.springframework.web
@@ -142,7 +142,7 @@ Spring MVC 框架由以下组件组成:
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         package com.geeksforgeeks.web;
         import org.springframework
             .stereotype.Controller;
@@ -171,7 +171,7 @@ Spring MVC 框架由以下组件组成:
 
         ## 超文本标记语言
 
-        ```
+        ```java
         <html>
         <body>
         <h2>Hello World!</h2>
@@ -185,7 +185,7 @@ Spring MVC 框架由以下组件组成:
 
         ## 超文本标记语言
 
-        ```
+        ```java
         <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
             pageEncoding="ISO-8859-1" isELIgnored="false"%>
         <!DOCTYPE html>

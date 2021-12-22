@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 string.repeat(count);
 ```
 
@@ -16,7 +16,7 @@ string.repeat(count);
 
 **示例:**
 
-```
+```java
 Input:
 
 string = abc
@@ -45,7 +45,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the usage of 
 // repeat() method
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String :abcabcabc
 ```
 
@@ -74,7 +74,7 @@ String :abcabcabc
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the usage of 
 // repeat() method
 
@@ -94,6 +94,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 string :
 ```

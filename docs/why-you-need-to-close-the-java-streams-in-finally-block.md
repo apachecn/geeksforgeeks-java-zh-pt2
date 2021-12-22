@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the execution of the code
 // when exception is caused
 
@@ -61,7 +61,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Open files
 exception caught
 java.lang.ArithmeticException: / by zero
@@ -73,7 +73,7 @@ Close files
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the execution of the code
 // when exception is not caused
 
@@ -116,7 +116,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Open files
 After dividing a and b ans is 9
 Inside finally block

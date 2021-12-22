@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toSeconds(long duration)
 ```
 
@@ -18,7 +18,7 @@ public long toSeconds(long duration)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // toSeconds() method of TimeUnit Class
 
@@ -45,14 +45,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585656193 milliSeconds in Seconds = 1539585656
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // toSeconds() method of TimeUnit Class
 
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585659342 milliSeconds in Seconds = 1539585659
 
 ```

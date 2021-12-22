@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneOffsetTransitionRule.TimeDefinition getTimeDefinition()
 ```
 
@@ -18,7 +18,7 @@ public ZoneOffsetTransitionRule.TimeDefinition getTimeDefinition()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getTimeDefinition() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TimeDefinition : STANDARD
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getTimeDefinition() method
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TimeDefinition : UTC
 
 ```

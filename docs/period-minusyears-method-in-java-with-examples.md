@@ -6,7 +6,7 @@ Java 中 Period 类的 **minusYears()** 方法用于从给定的周期中减去�
 
 **语法:**
 
-```
+```java
 public Period minusYears(long yearsToSubtract)
 ```
 
@@ -20,7 +20,7 @@ public Period minusYears(long yearsToSubtract)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function minusYears()
 // to subtract the number of years from given period
 import java.time.Period;
@@ -54,14 +54,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P-4Y11M10D
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function minusYears()
 // to subtract the number of years from given period
 import java.time.Period;
@@ -95,7 +95,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P12Y11M10D
 
 ```

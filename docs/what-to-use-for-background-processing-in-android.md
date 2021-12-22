@@ -62,7 +62,7 @@ RxJava 开源框架允许指定一个可观察的知识流的观察者。一旦�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 Thread thread = new Thread(new Runnable() {
     @Override
     public void run() {
@@ -91,7 +91,7 @@ thread.start();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 public class BackgroundServiceGfG extends IntentService {
 
     private static final String TAG = BackgroundServiceGfG.class.getSimpleName();
@@ -119,7 +119,7 @@ public class BackgroundServiceGfG extends IntentService {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 new AsyncTask<Void, Void, String>() {
     @Override
     protected void onPreExecute() {

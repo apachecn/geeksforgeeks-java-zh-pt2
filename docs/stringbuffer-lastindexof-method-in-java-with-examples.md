@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(String str)
 ```
 
@@ -22,7 +22,7 @@ public int lastIndexOf(String str)
 
 **示例 1:** 当序列中存在传递的子串时。
 
-```
+```java
 // Java program to demonstrate
 // the lastIndexOf() Method.
 
@@ -51,7 +51,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 Index of last occurrence string "Geeks"= 8
 
@@ -59,7 +59,7 @@ Index of last occurrence string "Geeks"= 8
 
 **示例 2:** 当传递的子串在序列中不存在时。
 
-```
+```java
 // Java program to demonstrate
 // the lastIndexOf() Method.
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 Index of string 'article' = -1
 
@@ -101,7 +101,7 @@ Index of string 'article' = -1
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(String str, int fromIndex)
 ```
 
@@ -116,7 +116,7 @@ public int lastIndexOf(String str, int fromIndex)
 
 **示例 1:** 当传递的子串出现在序列中时。
 
-```
+```java
 // Java program to demonstrate
 // the lastIndexOf() Method.
 
@@ -145,7 +145,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 index of last occurrence string "For" = 5
 
@@ -153,7 +153,7 @@ index of last occurrence string "For" = 5
 
 **例 2:** 当 fromIndex 为<子串的最后一个出现索引时
 
-```
+```java
 // Java program to demonstrate
 // the lastIndexOf() Method.
 
@@ -182,7 +182,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 index of string 'contribute ' = -1
 

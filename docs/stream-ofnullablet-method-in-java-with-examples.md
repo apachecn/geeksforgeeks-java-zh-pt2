@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Stream<T> ofNullable(T t)
 
 ```
@@ -19,7 +19,7 @@ static <T> Stream<T> ofNullable(T t)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.ofNullable() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Stream.ofNullable method
 

@@ -8,13 +8,13 @@
 
 *parsent()*方法的用法:正如我们已经知道的，该方法有两种变体，即如下，以便更好地理解
 
-```
+```java
 public static int parseInt(String s) throws NumberFormatException
 
 This function parses the string argument as a signed decimal integer.
 ```
 
-```
+```java
 public static int parseInt(String s, int radix) throws NumberFormatException
 
 This function parses the string argument as a signed integer in the radix specified by the second argument.
@@ -35,49 +35,49 @@ This function parses the string argument as a signed integer in the radix specif
 
 **1。**输入字符串为空
 
-```
+```java
 Integer.parseInt("null") ;
 ```
 
 **2。**输入字符串为空
 
-```
+```java
 Float.parseFloat(“”) ; 
 ```
 
 **3。**带有前导和/或尾随空格的输入字符串
 
-```
+```java
 Integer abc=new Integer(“  432 “);
 ```
 
 **4。**带有额外符号的输入字符串
 
-```
+```java
 Float.parseFloat(4,236);
 ```
 
 **5。**非数字数据的输入字符串
 
-```
+```java
 Double.parseDouble(“ThirtyFour”);
 ```
 
 **6。**输入字符串为字母数字
 
-```
+```java
 Integer.valueOf(“31.two”);
 ```
 
 **7。**输入字符串可能超出存储解析字符串的数据类型范围
 
-```
+```java
 Integer.parseInt(“1326589741236”); 
 ```
 
 **8。**输入字符串值和用于解析的方法类型之间的数据类型不匹配
 
-```
+```java
 Integer.parseInt("13.26");
 ```
 
@@ -85,7 +85,7 @@ Integer.parseInt("13.26");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate NumberFormatException
 
 // Importing Scanner class to take
@@ -147,7 +147,7 @@ public class GFG {
 
 **输出:**以下输出是用户输入的不同数字
 
-```
+```java
 Enter any valid Integer:
 12,017
 NumberFormatException occurred

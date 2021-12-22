@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneId getZone()
 
 ```
@@ -19,7 +19,7 @@ public ZoneId getZone()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getZone() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time Zone:Asia/Calcutta
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getZone() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Time Zone:Europe/Paris
 
 ```

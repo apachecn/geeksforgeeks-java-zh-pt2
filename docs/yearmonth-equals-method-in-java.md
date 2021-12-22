@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 equals()方法用于比较两个 YearMonth 对象。�
 
 **语法**:
 
-```
+```java
 public boolean equals(Object otherYearMonth)
 
 ```
@@ -18,7 +18,7 @@ public boolean equals(Object otherYearMonth)
 下面的程序说明了 Java 中的 YearMonth 的 equals()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the equals() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 true
 
 ```

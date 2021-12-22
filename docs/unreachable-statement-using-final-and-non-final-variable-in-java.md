@@ -12,7 +12,7 @@ Java 中的不可达语句是指那些在程序执行过程中不会被执行的
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Unreachable Statement
 // Throwing Exception
 // Using Final Variable
@@ -77,7 +77,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Unreachable Statement
 // Running Into Infinite Loop
 // Using Final Variable
@@ -131,7 +131,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate unreachable Statement
 // Without using final variable
 

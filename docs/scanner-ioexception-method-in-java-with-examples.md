@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public IOException ioException()
 ```
 
@@ -16,7 +16,7 @@ public IOException ioException()
 
 ****程序 1:****
 
-```
+```java
 // Java program to illustrate the
 // ioException() method of Scanner class in Java
 // without parameter
@@ -48,7 +48,7 @@ public class GFG1 {
 
 ****输出:**
 
-```
+```java
 gfg geeks!
 null
 
@@ -56,7 +56,7 @@ null
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // ioException() method of Scanner class in Java
 // without parameter
@@ -87,7 +87,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 gopal dave!
 null
 

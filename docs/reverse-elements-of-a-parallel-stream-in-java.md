@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Parallel Stream = {11, 22, 33, 44}
 Output: {44, 33, 22, 11}
 
@@ -30,7 +30,7 @@ Output: {d, c, b, a}
 
 **程序:**
 
-```
+```java
 // Java program to reverse elements
 // of a parallel Stream
 
@@ -68,7 +68,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 44
 33
 22
@@ -89,7 +89,7 @@ class GFG {
 
     **程序:**
 
-    ```
+    ```java
     // Java program to reverse elements
     // of a parallel Stream
 
@@ -125,7 +125,7 @@ class GFG {
 
     **Output:**
 
-    ```
+    ```java
     44
     33
     22
@@ -147,7 +147,7 @@ class GFG {
 
     **程序:**
 
-    ```
+    ```java
     // Java program to reverse elements
     // of a parallel Stream
 
@@ -187,7 +187,7 @@ class GFG {
 
     **Output:**
 
-    ```
+    ```java
     44
     33
     22

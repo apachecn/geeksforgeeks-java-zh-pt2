@@ -30,7 +30,7 @@
 
 **语法:**
 
-```
+```java
 private static final long SerialVersionUID=10l;
 ```
 
@@ -38,7 +38,7 @@ private static final long SerialVersionUID=10l;
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate Implementation of
 // User-defined SerialVersionUID
 
@@ -60,7 +60,7 @@ class Geeks implements Serializable {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // implementation of User-defined
 // SerialVersionUID

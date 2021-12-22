@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 import java.util.LinkedHashMap;
 
@@ -55,6 +55,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 g2 e4 k2 s2 f1 o1 r1
 ```

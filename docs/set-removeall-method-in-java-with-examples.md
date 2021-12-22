@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -20,7 +20,7 @@ public boolean removeAll(Collection c)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -74,7 +74,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Set before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : [1, 2, 3]
 Set after removeAll() operation : [4, 5]
@@ -83,7 +83,7 @@ Set after removeAll() operation : [4, 5]
 
 **例 2:** 为*零点异常*。
 
-```
+```java
 // Java program to demonstrate
 // removeAll() method for Integer value
 
@@ -137,7 +137,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Set before removeAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be removed : null
 

@@ -12,7 +12,7 @@
 满足上述标准的号码是有效的手机号码。
 示例:
 
-```
+```java
 Input : Enter Mobile Number:
         7873923408
 Output :Valid Mobile Number
@@ -26,7 +26,7 @@ Output :Invalid Mobile Number
 
 ## C++
 
-```
+```java
 // C++ program to check if given mobile number
 // is valid.
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check if given mobile number
 // is valid.
 import java.util.regex.*;
@@ -119,7 +119,7 @@ public static void main(String[] args)
 
 ## 计算机编程语言
 
-```
+```java
 # Python program to check if 
 # given mobile number is valid
 import re
@@ -144,6 +144,6 @@ else :
 
 **输出:**
 
-```
+```java
 Invalid Number
 ```

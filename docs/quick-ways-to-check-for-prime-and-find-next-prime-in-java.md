@@ -10,7 +10,7 @@ Java 在 [java.math.BigInteger](https://www.geeksforgeeks.org/biginteger-class-i
 
     下面是演示上述功能的 Java 程序。
 
-    ```
+    ```java
     // A Java program to check if a number is prime using
     // inbuilt function
     import java.util.*;
@@ -39,7 +39,7 @@ Java 在 [java.math.BigInteger](https://www.geeksforgeeks.org/biginteger-class-i
 
     输出:
 
-    ```
+    ```java
     true
     ```
 
@@ -47,7 +47,7 @@ Java 在 [java.math.BigInteger](https://www.geeksforgeeks.org/biginteger-class-i
 
     下面是演示上述功能的 Java 程序。
 
-    ```
+    ```java
     // Java program to find prime number greater than a
     // given number using built in method
     import java.util.*;
@@ -74,7 +74,7 @@ Java 在 [java.math.BigInteger](https://www.geeksforgeeks.org/biginteger-class-i
 
     输出:
 
-    ```
+    ```java
     17
     ```
 

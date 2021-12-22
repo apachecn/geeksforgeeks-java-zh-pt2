@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float floatValue()
 ```
 
@@ -16,7 +16,7 @@ public float floatValue()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short floatValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Float value of 17 is : 17.0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short floatValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Float value of 17 is : 17.0
 
 ```

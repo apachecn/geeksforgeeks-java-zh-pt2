@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public boolean offer(E e)
 ```
 
@@ -27,7 +27,7 @@ public boolean offer(E e)
 
 **示例 1:** 在 PriorityBlockingQueue 上演示 offer()方法以添加数字列表的程序。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of PriorityBlockingQueue
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue Contains:
 [5278367, 35658786, 74381793, 87625142]
 
@@ -67,7 +67,7 @@ Queue Contains:
 
 **示例 2:** 程序演示当我们试图向 PriorityBlockingQueue 添加 null 时，offer()方法引发的异常。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of PriorityBlockingQueue
 
@@ -104,7 +104,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception Thrown: java.lang.NullPointerException
 
 ```
@@ -115,7 +115,7 @@ Exception Thrown: java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 offer(E e, long timeout, TimeUnit unit)
 ```
 
@@ -136,7 +136,7 @@ offer(E e, long timeout, TimeUnit unit)
 
 **示例 1:** 在优先级阻塞队列上演示报价(E e，长超时，时间单位单位)方法以添加数字列表的程序。
 
-```
+```java
 // Java Program Demonstrate offer()
 // method of PriorityBlockingQueue
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 adding 1234 true
 adding 2345 true
 adding 3456 true

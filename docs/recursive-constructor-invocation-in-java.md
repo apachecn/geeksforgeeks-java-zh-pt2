@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Recursion
 
 // Main class
@@ -36,7 +36,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Call 1
 Call 2
 Call 3
@@ -52,7 +52,7 @@ Call 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate How Recursive
 // Constructor Invocation Error is Occurred
 
@@ -91,7 +91,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Stack Overflow Error
 
 // Main class

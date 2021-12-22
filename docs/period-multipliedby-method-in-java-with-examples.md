@@ -6,7 +6,7 @@ Java 中 Period 类的 **multipliedBy()** 方法用于从给定的周期中乘�
 
 **语法:**
 
-```
+```java
 public Period multipliedBy(int toMultiply)
 ```
 
@@ -19,7 +19,7 @@ public Period multipliedBy(int toMultiply)
 以下是上述方法的实现:
 **程序一**:
 
-```
+```java
 // Java code to show the function multipliedBy()
 // to multiply the given number to given period
 
@@ -52,7 +52,7 @@ public class PeriodClass {
 
 **程序 2** :
 
-```
+```java
 // Java code to show the function multipliedBy()
 // to multiply the given number to given period
 

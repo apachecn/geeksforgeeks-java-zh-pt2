@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withHour(int hour)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime withHour(int hour)
 下面的程序说明了 withHour()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withHour() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withHour() method
 

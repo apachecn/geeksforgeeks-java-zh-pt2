@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public Object computeIfAbsent?(Object key,
                               Function mappingFunction)
 ```
@@ -29,7 +29,7 @@ public Object computeIfAbsent?(Object key,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 New Properties: {newPen=600, Book=500, newBook=800, Mobile=5000, Pen=10, Clothes=400}
 
@@ -74,7 +74,7 @@ New Properties: {newPen=600, Book=500, newBook=800, Mobile=5000, Pen=10, Clothes
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfAbsent(Key, Function) method.
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 New Properties: {4=600RS, 3=1000RS, 2=500RS, 1=100RS}
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int codePointCount(int beginIndex,
                                int endIndex)
 ```
@@ -28,7 +28,7 @@ public int codePointCount(int beginIndex,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the codePointCount() Method.
 
@@ -57,7 +57,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = Welcome to GeeksforGeeks
 No of Unicode code points  between index 4 and index 10 = 6
 
@@ -65,7 +65,7 @@ No of Unicode code points  between index 4 and index 10 = 6
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the codePointCount() Method.
 
@@ -98,7 +98,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = GeeksForGeeks contribute
 No of Unicode code points between index 13 and 17 = 4
 
@@ -106,7 +106,7 @@ No of Unicode code points between index 13 and 17 = 4
 
 **示例 3:** 演示 IndexOutOfBoundsException
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by the codePointCount() Method.
 
@@ -135,7 +135,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.IndexOutOfBoundsException
 
 ```

@@ -8,7 +8,7 @@ substring()方法有两个**变体。本文描述了所有这些，如下所示:
 
 ****1。String substring():** 这个方法有两个变体，**返回** **一个新的字符串**，它是这个字符串的一个子字符串。子字符串从指定索引处的字符开始，一直延伸到该字符串的末尾。子串的索引从 1 开始，而不是从 0 开始。**
 
-```
+```java
 **Syntax :** 
 **public String substring(int begIndex)**
 **Parameters :** 
@@ -19,7 +19,7 @@ The specified substring.
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to demonstrate the
 // working of substring(int begIndex)
 public class Substr1 {
@@ -40,13 +40,13 @@ public class Substr1 {
 
 ****输出:****
 
-```
+```java
 The extracted substring is :  geeksforgeeks
 ```
 
 ****2。字符串子字符串(begIndex，endIndex):** 该方法有两个变体，**返回一个**新字符串**即该字符串的子字符串**。子字符串从指定索引处的字符开始，**将**扩展到该字符串的末尾，如果给出了第二个参数，则向上扩展**到 endIndex–1**。**
 
-```
+```java
 **Syntax :** 
 **public String substring(int begIndex, int endIndex)**
 **Parameters :** 
@@ -58,7 +58,7 @@ The specified substring.
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to demonstrate the
 // working of substring(int begIndex, int endIndex)
 public class Substr2 {
@@ -78,7 +78,7 @@ public class Substr2 {
 
 ****输出:****
 
-```
+```java
 The extracted substring  is :  geeks
 ```
 
@@ -86,7 +86,7 @@ The extracted substring  is :  geeks
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java code to demonstrate the
 // application of substring()
 public class Appli {
@@ -110,7 +110,7 @@ public class Appli {
 
 ****输出:****
 
-```
+```java
 The original string  is : Rs 1000
 The extracted substring  is : 1000
 ```

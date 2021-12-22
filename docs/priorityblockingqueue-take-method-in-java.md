@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E take() throws InterruptedException
 ```
 
@@ -18,7 +18,7 @@ public E take() throws InterruptedException
 
 **示例 1:** 演示包含数字列表的 PriorityBlockingQueue 上的 take()方法。
 
-```
+```java
 // Java Program Demonstrate take()
 // method of PriorityBlockingQueue
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [5278367, 35658786, 7855642, 74381793]
 Head of PriorityBlockingQueue using take(): 5278367
 After removing head, Queue: [7855642, 35658786, 74381793]
@@ -67,7 +67,7 @@ After removing head, Queue: [7855642, 35658786, 74381793]
 
 **示例 2:** 演示包含字符串
 
-```
+```java
 // Java Program Demonstrate take()
 // method of PriorityBlockingQueue
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **的优先级阻塞队列的 take()方法输出:**
 
-```
+```java
 [A computer portal, forGeeks, Geeks]
 Head of Queue: A computer portal
 After removing head, Queue: [Geeks, forGeeks]

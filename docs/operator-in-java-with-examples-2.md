@@ -13,7 +13,7 @@ Java 中的 **&运算符**有两个明确的功能:
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // & operator as relational operator
 
@@ -42,7 +42,7 @@ Java 中的 **&运算符**有两个明确的功能:
 
     **Output:**
 
-    ```
+    ```java
     Demonstrating && operator
     Value of x: 5
 
@@ -55,7 +55,7 @@ Java 中的 **&运算符**有两个明确的功能:
 
     **示例:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // & operator as bitwise operator
 
@@ -77,7 +77,7 @@ Java 中的 **&运算符**有两个明确的功能:
 
     **Output:**
 
-    ```
+    ```java
     Demonstrating & operator
 
     12 & 25 = 8

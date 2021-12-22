@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double nextGaussian()
 
 ```
@@ -21,7 +21,7 @@ public double nextGaussian()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextGaussian()
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next Gaussian value is = 0.3350871100964153
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextGaussian()
 
@@ -70,7 +70,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next Gaussian value is = 1.5685150659018154
 
 ```

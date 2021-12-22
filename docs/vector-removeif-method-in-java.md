@@ -8,7 +8,7 @@ Java 8 有一个重要的内置功能接口，就是[谓词](https://www.geeksfo
 
 **语法:**
 
-```
+```java
 public boolean removeIf(Predicate<? super E> filter)
 ```
 
@@ -22,7 +22,7 @@ public boolean removeIf(Predicate<? super E> filter)
 
 **例 1:** 在包含一组数字并且只有可被 2 整除的数字的向量上演示 removeIf()方法。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of Vector
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 All Numbers not divisible by 2 are:
 33
 55
@@ -67,7 +67,7 @@ All Numbers not divisible by 2 are:
 
 **示例 2:** 演示包含一组学生姓名的 Vector 上的 removeIf()方法，并删除所有 4 个字符长的姓名。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of Vector
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Students name do not contain 4 char are
 Mohan
 Sohan
@@ -115,7 +115,7 @@ Shabbir
 
 **示例 3:** 演示 Vector 上 removeIf()方法中的 NullpointerException。
 
-```
+```java
 // Java Program Demonstrate removeIf()
 // method of Vector
 
@@ -150,7 +150,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.NullPointerException
 
 ```

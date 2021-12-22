@@ -47,7 +47,7 @@ Java 类是数据成员和函数的集合。任何 java 程序都可能包含两
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show structures and
 // members of Java Program
 public class classMember

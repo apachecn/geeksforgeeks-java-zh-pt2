@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getName()
 ```
 
@@ -16,7 +16,7 @@ public String getName()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -52,14 +52,14 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 name : SUN
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -95,7 +95,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 name : SUN
 
 ```

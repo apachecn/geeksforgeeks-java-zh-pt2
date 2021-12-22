@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // creating a package
 package pack1;
 
@@ -32,7 +32,7 @@ public class A {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // creating a package
 package pack2;
 
@@ -70,7 +70,7 @@ class B {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // import required packages
 import java.io.*;
 import java.util.*;

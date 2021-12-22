@@ -6,7 +6,7 @@ Java 中 **UUID 类**的**nameuidFromBytes()**方法一般用于根据指定的�
 
 **语法:**
 
-```
+```java
 public static UUID nameUUIDFromBytes(byte[] byte_name)
 ```
 
@@ -18,7 +18,7 @@ public static UUID nameUUIDFromBytes(byte[] byte_name)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate nameUUIDFromBytes() method
 
 import java.util.*;
@@ -49,7 +49,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 Specified byte array: [50, 40, 30, 20, 10]
 UUID value from byte: d66541c4-a9db-3308-8c67-bbf87dc0df8b
 
@@ -57,7 +57,7 @@ UUID value from byte: d66541c4-a9db-3308-8c67-bbf87dc0df8b
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate nameUUIDFromBytes() method
 
 import java.util.*;
@@ -88,7 +88,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 Specified byte array: [10, 15, 1, 45, 13, 20, 71]
 UUID value from byte: 15fe1179-e857-306b-ad67-b2388e006c8a
 

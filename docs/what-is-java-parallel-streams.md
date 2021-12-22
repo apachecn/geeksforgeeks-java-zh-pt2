@@ -29,7 +29,7 @@ Java Parallel Streams 是 Java 8 及更高版本的一个特性，旨在利用�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Parallel Streams
 // Using parallel() method on a Stream
 
@@ -91,7 +91,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Parallel Streams
 // using parallelStream() method on a Stream
 

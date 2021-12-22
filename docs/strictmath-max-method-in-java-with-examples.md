@@ -9,7 +9,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **语法:**
 
-    ```
+    ```java
     public static double max(*double num1, double num2*)
     ```
 
@@ -22,7 +22,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 8
     nm2 = 19
@@ -33,7 +33,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.max()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.max()
     import java.lang.*;
@@ -53,14 +53,14 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     max of the two num is 711.0
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.max()
     import java.lang.*;
@@ -80,14 +80,14 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     max of the two num is -11.0
 
     ```
 
     错误条件示例:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // error condition in
     // Java.lang.StrictMath.max() Method
@@ -111,7 +111,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     输出:
 
-    ```
+    ```java
     max of the two num is NaN
 
     ```
@@ -120,7 +120,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **语法:**
 
-    ```
+    ```java
     public static float max(*float num1, float num2*)
     ```
 
@@ -133,7 +133,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 87
     nm2 = 59
@@ -144,7 +144,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.max()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.max()
     import java.lang.*;
@@ -170,7 +170,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     max of the two num is 81.0
     max of the two num is -62.0
     max of the two num is -62.0
@@ -180,7 +180,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 3.  The **max(int num1, int num2)**is the inbuilt method which is used to get the maximum of two given int values arguments. It returns the same value when *num1* and *num2* have the same value. It returns NaN when either value is NaN. It returns positive zero when one argument is positive zero and the other negative zero. In short, it returns the argument that is closer to the value of Integer.MAX_VALUE.
     **Syntax :**
 
-    ```
+    ```java
     public static int max(*int num1, int num2*)
     ```
 
@@ -193,7 +193,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 13
     nm2 = 19
@@ -204,7 +204,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.max()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.max()
     import java.lang.*;
@@ -230,7 +230,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     max of the two num is 72
     max of the two num is -31
     max of the two num is -31
@@ -240,7 +240,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 4.  The **max(long num1, long num2)** is the inbuilt method which is used to get the maximum of two given long values arguments. It returns the same value when *num1* and *num2* have the same value. It returns NaN when either value is NaN. In short it returns the argument that is closer to the value of Long.MAX_VALUE.
     **Syntax :**
 
-    ```
+    ```java
     public static long max(*long num1, long num2*)
     ```
 
@@ -253,7 +253,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 78772728
     nm2 =  1617177
@@ -264,7 +264,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.max()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.max()
     import java.lang.*;
@@ -291,7 +291,7 @@ java.lang.StrictMath.max()方法返回两个值中较大的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     max of the two num is 787822
     max of the two num is -3271
     max of the two num is -459

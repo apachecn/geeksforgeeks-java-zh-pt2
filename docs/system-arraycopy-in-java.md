@@ -7,7 +7,7 @@ java.lang.System 类为标准输入和输出、加载文件和库或访问外部
 
 **班级申报**
 
-```
+```java
 public final class System
    extends Object
 ```
@@ -15,7 +15,7 @@ public final class System
 **![arraycopy](img/836f938bdd94b1dfbfee071cd7a492d5.png)** 
 **语法:**
 
-```
+```java
 public static void arraycopy(Object source_arr, int sourcePos,
                             Object dest_arr, int destPos, int len)
 Parameters : 
@@ -29,7 +29,7 @@ len : total no. of components to be copied.
 
 **实施**
 
-```
+```java
 // Java program explaining System class method - arraycopy()
 import java.lang.*;
 public class NewClass
@@ -78,7 +78,7 @@ public class NewClass
 
 输出:
 
-```
+```java
 source_array : 10 20 30 40 50 60 70 80 90 100 
 sourcePos : 3
 dest_array : 15 25 35 45 55 65 75 85 95 105 

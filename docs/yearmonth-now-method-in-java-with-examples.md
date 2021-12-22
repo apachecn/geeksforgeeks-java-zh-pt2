@@ -6,7 +6,7 @@ Java 中 **YearMonth** 类的 **now()** 方法用于从默认时区的系统时�
 
 **语法:**
 
-```
+```java
 public static YearMonth now()
 ```
 
@@ -18,7 +18,7 @@ public static YearMonth now()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now() method
 
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 YearMonth: 2020-05
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2020
 
 ```

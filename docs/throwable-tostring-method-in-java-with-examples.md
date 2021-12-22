@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() Method.
 
@@ -54,14 +54,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.Exception: New Exception Thrown
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the toString() Method.
 
@@ -92,7 +92,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.ArithmeticException: / by zero
 
 ```

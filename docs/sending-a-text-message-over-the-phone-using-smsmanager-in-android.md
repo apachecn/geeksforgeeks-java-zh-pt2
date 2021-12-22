@@ -42,7 +42,7 @@ pendingtent delivery intention, long messageId) |
 
 ## AndroidManifest.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
@@ -75,7 +75,7 @@ pendingtent delivery intention, long messageId) |
 
 ## activity_main.xml
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -131,7 +131,7 @@ pendingtent delivery intention, long messageId) |
 
 ## MainActivity.java
 
-```
+```java
 package com.example.gfg;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
 
 **注意:** *对于在安卓设备中运行的应用，启用该应用的短信权限。*
 
-```
+```java
 *Goto permissions->SMS->YourApp and enable permission.*
 ```
 

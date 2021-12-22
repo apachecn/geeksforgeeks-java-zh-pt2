@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -20,7 +20,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistdate : ThaiBuddhist BE 2563-05-08
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // toString() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistdate : ThaiBuddhist BE 1345-05-23
 
 ```

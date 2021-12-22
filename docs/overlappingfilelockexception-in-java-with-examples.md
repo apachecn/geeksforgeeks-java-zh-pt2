@@ -8,7 +8,7 @@
 
 **包装视图**
 
-```
+```java
 java.lang.Object
     java.lang.Throwable
          java.lang.Exception
@@ -21,7 +21,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public class OverlappingFileLockException
 extends IllegalStateException
 ```
@@ -45,7 +45,7 @@ extends IllegalStateException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Shared lock over File
 
 // Importing required classes
@@ -136,7 +136,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Lock a File before Writing into It
 
 // Importing required classes

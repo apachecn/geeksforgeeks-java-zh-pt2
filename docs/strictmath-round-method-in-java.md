@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static long round(*double num*)
 ```
 
@@ -18,7 +18,7 @@ public static long round(*double num*)
 
 **示例:**
 
-```
+```java
 Input: num = 34.14
 Output: 34
 
@@ -28,7 +28,7 @@ Output: 34
 
 **程序 1:**
 
-```
+```java
 // Java praogram to illustrate the
 // java.lang.StrictMath.round()
 
@@ -63,7 +63,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The round off value of 62.9 = 63
 The round off value of 87.1 = 87
 
@@ -75,7 +75,7 @@ The round off value of 87.1 = 87
 
 **语法:**
 
-```
+```java
 public static int round(*float num*)
 ```
 
@@ -85,7 +85,7 @@ public static int round(*float num*)
 
 **示例:**
 
-```
+```java
 Input: num = 72.15f
 Output: 72
 
@@ -95,7 +95,7 @@ Output: 72
 
 **程序 1:**
 
-```
+```java
 // Java praogram to illustrate the
 // java.lang.StrictMath.round()
 
@@ -130,7 +130,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 The round off value of 87.1 = 87
 The round off value of 92.9 = 93
 

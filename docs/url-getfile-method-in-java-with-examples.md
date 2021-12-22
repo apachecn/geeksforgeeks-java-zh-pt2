@@ -6,13 +6,13 @@ getFile()函数是 URL 类的一部分。函数 getFile()返回指定网址的�
 
 **功能签名**:
 
-```
+```java
 public String getFile()
 ```
 
 **语法**:
 
-```
+```java
 url.getFile()
 ```
 
@@ -24,7 +24,7 @@ url.getFile()
 
 **示例 1** :给定一个 URL，我们将使用 getFile()函数获取文件。
 
-```
+```java
 // Java program to show the
 // use of the function getFile()
 
@@ -64,7 +64,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples/
  File= /url-getprotocol-method-in-java-with-examples/
 
@@ -72,7 +72,7 @@ URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-example
 
 **例 2** :现在看看 getFile()和 getPath()有什么不同。getPath()将排除该查询，但 getFile()将包括该查询
 
-```
+```java
 // Java program to show the
 // use of the function getFile()
 
@@ -112,7 +112,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples?title=protocol
  File= /url-getprotocol-method-in-java-with-examples?title=protocol
 

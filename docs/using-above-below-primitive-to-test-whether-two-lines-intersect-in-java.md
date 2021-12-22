@@ -12,7 +12,7 @@
 
 ## 爪哇
 
-```
+```java
 // This is a java program to find whether two lines
 // intersect or not using above and below primitive
 public class Main {
@@ -80,7 +80,7 @@ public class Main {
 
 **输出**
 
-```
+```java
 Equation 1: (1)x+(-4)y+(10) = 0
 Equation 2: (-3)x+(-4)y+(25) = 0
 Intersecting

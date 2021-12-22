@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster lastDayOfYear()
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster lastDayOfYear()
 下面的程序说明了临时调整时间的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastDayOfYear()
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 last day of the year for localdate 2023-10-11: 2023-12-31
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastDayOfYear() method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 last day of  year for localdate 2099-12-29: 2099-12-31
 
 ```

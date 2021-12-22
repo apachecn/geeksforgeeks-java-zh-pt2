@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double sinh*(*double x*)*
 ```
 
@@ -20,7 +20,7 @@ public static double sinh*(*double x*)*
 
 **示例:**
 
-```
+```java
 Input : 0.7853981633974483
 Output : 0.8686709614860095
 
@@ -33,7 +33,7 @@ Output : 27.28991719712775
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate
 // StrictMath.sinh() function 
 
@@ -56,14 +56,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hyperbolic sine of 0.7853981633974483 = 0.8686709614860095
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate
 // StrictMath.sinh() function 
 
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hyperbolic sine of Infinity = Infinity
 Hyperbolic sine of 0.0 = 0.0
 

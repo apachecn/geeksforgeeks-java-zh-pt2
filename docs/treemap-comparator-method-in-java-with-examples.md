@@ -4,7 +4,7 @@
 
 [**Java . util . treemap**](https://www.geeksforgeeks.org/treemap-in-java/)类的**比较器()**方法用于返回用于排序此地图中的键的比较器，如果此地图使用其键的自然排序，则返回 null。
 
-```
+```java
 --> java.util Package
     --> TreeMap Class
         --> comparator() Method 
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public Comparator comparator()
 ```
 
@@ -24,7 +24,7 @@ public Comparator comparator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate comparator() Method
 // for Natural Ordering (Descending Order)
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap: {1=one, 2=two, 3=three, 4=four, 5=five}
 Comparator value: null
 ```
@@ -86,7 +86,7 @@ Comparator value: null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate comparator() Method
 // for Reverse Ordering
 
@@ -139,7 +139,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap: {5=five, 4=four, 3=three, 2=two, 1=one}
 Comparator value: java.util.Collections$ReverseComparator@232204a1
 ```

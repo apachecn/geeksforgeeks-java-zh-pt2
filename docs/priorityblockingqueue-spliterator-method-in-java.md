@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Spliterator spliterator()
 ```
 
@@ -16,7 +16,7 @@ public Spliterator spliterator()
 
 **示例 1:** 在包含数字列表的 PriorityBlockingQueue 上演示 spliterator()方法的程序。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of PriorityBlockingQueue
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Numbers:
 5278367
 35658786
@@ -69,7 +69,7 @@ list of Numbers:
 
 **示例 2:** 在包含名称列表的 PriorityBlockingQueue 上演示 spliterator()方法的程序。
 
-```
+```java
 // Java Program Demonstrate spliterator()
 // method of PriorityBlockingQueue
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 list of Names:
 Joydeep
 Priyanka

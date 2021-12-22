@@ -6,7 +6,7 @@ java . lang . strict math . log 10()是 Java 中的一个内置方法，它接�
 
 **语法:**
 
-```
+```java
 public static double log10(*double val*)
 ```
 
@@ -21,7 +21,7 @@ public static double log10(*double val*)
 
 **示例:**
 
-```
+```java
 Input : 2018.0
 Output : 7.609862200913554
 
@@ -34,7 +34,7 @@ Output : 6.0
 
 **程序 1:** 在这个程序中，有限的非零参数作为参数传递。
 
-```
+```java
 // Java Program to illustrate 
 // StrictMath.log10() function 
 
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Base 10 Logarithm of 2018.00567 is 3.3049223821418496
 Base 10 Logarithm of 100000.0 is 5.0
 
@@ -68,7 +68,7 @@ Base 10 Logarithm of 100000.0 is 5.0
 
 **程序 2:** 在本程序中，无穷大和零作为参数传递。
 
-```
+```java
 // Java Program to illustrate
 // StrictMath.log10() function 
 
@@ -92,7 +92,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Base 10 Logarithm of Infinity is Infinity
 Base 10 Logarithm of 0 is -Infinity
 

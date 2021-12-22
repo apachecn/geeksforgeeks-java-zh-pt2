@@ -8,7 +8,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 1.  **min(double num1, double num2)** is the inbuilt method of StrictMath class which is used to get the least of given two **double** values arguments. It returns NaN when any of the arguments is NaN. It returns the same value when *num1* and *num2* have the same value. **min()** method assumes negative zero to be strictly smaller than positive zero.It returns negative zero when one argument is positive zero and the other is negative zero.
     **Syntax :**
 
-    ```
+    ```java
     public static double min(*double num1, double num2*)
     ```
 
@@ -21,7 +21,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 9
     nm2 = 99
@@ -32,7 +32,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.min()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.min() Method
     // with double values passed
@@ -61,7 +61,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     min of the two num is 10.0
     min of the two num is -25.0
     min of the two num is -25.0
@@ -70,7 +70,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     错误条件示例:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // error condition in
     // Java.lang.StrictMath.min() Method
@@ -94,7 +94,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     输出:
 
-    ```
+    ```java
     min of the two num is NaN
 
     ```
@@ -102,7 +102,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 2.  The **min(float num1, float num2)** is the inbuilt method of StrictMath class which is used to get the least of given two float values arguments.It returns NaN when any of the arguments is NaN.It returns the same value when *num1* and *num2* have the same value. **min()** method assumes negative zero to be strictly smaller than positive zero.It returns negative zero when one argument is positive zero and the other is negative zero.
     **Syntax :**
 
-    ```
+    ```java
     public static float min(*float num1, float num2*)
     ```
 
@@ -115,7 +115,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 9
     nm2 = 5
@@ -126,7 +126,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.min()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.min() Method
     // with float values passed
@@ -155,7 +155,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     min of the two num is 28.0
     min of the two num is -23.0
     min of the two num is -23.0
@@ -165,7 +165,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 3.  The **min(int num1, int num2)** is the inbuilt method of StrictMath class which is used to get the least of given two int values arguments.It returns NaN when any of the arguments is NaN.It returns the same value when *num1* and *num2* have the same value. **min()** method assumes negative zero to be strictly smaller than positive zero.Simply the argument closer to the value of Integer.MIN_VALUE is the result.
     **Syntax :**
 
-    ```
+    ```java
     public static int min(*int num1, int num2*)
     ```
 
@@ -178,7 +178,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 61
     nm2 = 18
@@ -189,7 +189,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.min()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.min() Method
     // with int values passed
@@ -218,7 +218,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     min of the two num is 51.0
     min of the two num is -93.0
     min of the two num is -93.0
@@ -228,7 +228,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 4.  The **min(long num1, long num2)** is the inbuilt method of StrictMath class which is used to get the least of given two long values arguments.It returns NaN when any of the arguments is NaN.It returns the same value when *num1* and *num2* have the same value. **min()** method assumes negative zero to be strictly smaller than positive zero.Simply the argument closer to the value of Long.MIN_VALUE is the result.
     **Syntax :**
 
-    ```
+    ```java
     public static long min(*long num1, long num2*)
     ```
 
@@ -241,7 +241,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     num1 = 51617
     nm2 = 1345
@@ -252,7 +252,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
     下面的程序说明了 Java.lang.StrictMath.min()方法。
     **节目一:**
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.min() Method
     // with long values passed
@@ -281,7 +281,7 @@ java.lang.StrictMath.min()方法返回两个值中较小的一个**。该方法�
 
     **Output:**
 
-    ```
+    ```java
     min of the two num is 66671.0
     min of the two num is -776264.0
     min of the two num is -97623.0

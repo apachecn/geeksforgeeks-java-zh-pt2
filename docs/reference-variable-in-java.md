@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate reference
 // variable in java
 
@@ -61,7 +61,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Demo@214c265e
 x = 10
 0
@@ -79,7 +79,7 @@ x = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 class Demo {
     int x = 10;
@@ -109,7 +109,7 @@ class Main {
 
 **Output**
 
-```
+```java
 10
 x = 10
 ```
@@ -118,7 +118,7 @@ x = 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Accessing instance methods
 
 import java.io.*;
@@ -148,7 +148,7 @@ class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Pointing to same instance memory
 
 import java.io.*;
@@ -186,7 +186,7 @@ class Main {
 
 **Output**
 
-```
+```java
 25
 25
 ```
@@ -211,7 +211,7 @@ class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Pass by reference and value
 
 import java.io.*;
@@ -251,7 +251,7 @@ class Main {
 
 **Output**
 
-```
+```java
 x = 95
 y = 20
 x = 10
@@ -278,7 +278,7 @@ y = 55
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Swapping object references
 
 import java.io.*;
@@ -323,7 +323,7 @@ class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 class Demo {
     int arrayUpdate(int[] formalArray)
@@ -356,7 +356,7 @@ class Main {
 
 **Output**
 
-```
+```java
 1 , 2 , 3 , 4 , 5 , 
 
 1 , 2 , 99 , 4 , 77 , 
@@ -382,7 +382,7 @@ class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // null in java
 
 import java.io.*;
@@ -407,7 +407,7 @@ class Main {
 
 **输出**
 
-```
+```java
 Exception in thread "main" java.lang.NullPointerException
 at Main.main(File.java:17)
 Java Result: 1

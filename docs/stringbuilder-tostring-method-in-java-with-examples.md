@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract String toString() ;
 ```
 
@@ -14,7 +14,7 @@ public abstract String toString() ;
 
 因为这是一个非常基本的方法，所以我们将在干净的 java 程序中讨论它，以了解它的工作原理。在类内部，它的定义如下，这将使您更好地理解它的实际工作原理。
 
-```
+```java
 return getClass().getName()+ "@" + Integer.toHexString(hashCode);
 ```
 
@@ -22,7 +22,7 @@ return getClass().getName()+ "@" + Integer.toHexString(hashCode);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate toString() Method
 
 // Importing I/O classes
@@ -49,7 +49,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String contains = GeeksForGeeks
 ```
 
@@ -57,7 +57,7 @@ String contains = GeeksForGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate toString() Method.
 
 // Importing input output classes
@@ -84,7 +84,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 ```
 
@@ -94,7 +94,7 @@ String contains = Geeks for Geeks contribute
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Convert Array of Strings to A String
 // Using toString() method
 
@@ -140,6 +140,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 Single string generated using toString() method is --> Are You A Programmer
 ```

@@ -10,7 +10,7 @@
 
 插图:
 
-```
+```java
 class GFG {
 
         // Constructor of this class
@@ -44,7 +44,7 @@ class GFG {
 
 ## Java
 
-```
+```java
 // Java Program Running on JDK version 1.6 of Previous
 
 // Main class
@@ -62,7 +62,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Static block can be printed without main method
 ```
 
@@ -70,7 +70,7 @@ Static block can be printed without main method
 
 ## Java
 
-```
+```java
 // Java Program Running on JDK version 1.6 and Later
 
 // Main class

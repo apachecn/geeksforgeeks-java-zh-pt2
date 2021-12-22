@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **isSealed()** 方法用于检查该包裹是否密封。方法以布尔值的形式返回结果。
 **语法:**
 
-```
+```java
 public boolean isSealed()
 ```
 
@@ -16,7 +16,7 @@ public boolean isSealed()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isSealed() method
 
@@ -44,7 +44,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Is this package sealed or not: false
 ```
@@ -53,7 +53,7 @@ Is this package sealed or not: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isSealed() method
 
@@ -81,7 +81,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Is this package sealed or not: false
 ```

@@ -7,7 +7,7 @@
 
 **例 1:**
 
-```
+```java
 class NestedTry {
 
     // main method
@@ -43,7 +43,7 @@ class NestedTry {
 
 **Output:**
 
-```
+```java
 ArrayIndexOutOfBoundsException
 Element at such index does not exists
 
@@ -55,7 +55,7 @@ Element at such index does not exists
 
 **例 2:**
 
-```
+```java
 class Nesting {
     // main method
     public static void main(String args[])
@@ -101,7 +101,7 @@ class Nesting {
 
 **Output:**
 
-```
+```java
 ArrayIndexOutOfBoundsException main try-block
 
 ```

@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getMinute()** 方法获取小时分钟字段。
 
 **语法:**
 
-```
+```java
 public int getMinute()
 
 ```
@@ -18,7 +18,7 @@ public int getMinute()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getMinute() method
 
 import java.time.OffsetDateTime;
@@ -38,14 +38,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minute: 30
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate the getMinute() method
 import java.time.OffsetDateTime;
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Minute: 30
 
 ```

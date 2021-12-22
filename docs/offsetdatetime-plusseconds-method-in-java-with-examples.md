@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **plusSeconds()** 方法返回这个 OffsetDateTi
 
 **语法:**
 
-```
+```java
 public OffsetDateTime plusSeconds(long seconds)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime plusSeconds(long seconds)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the plusSeconds() method
 
 import java.time.OffsetDateTime;
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after adding seconds: 2018-12-12T13:28:30+05:00
 
@@ -57,7 +57,7 @@ Date1 after adding seconds: 2018-12-12T13:28:30+05:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the plusSeconds() method
 
 import java.time.OffsetDateTime;
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after adding seconds: 2018-12-12T13:32:50+05:00
 

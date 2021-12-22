@@ -6,7 +6,7 @@ Java 中 **ZoneId** 类的 **hashCode()** 方法用于返回该 ZoneId 的唯一
 
 **语法:**
 
-```
+```java
 public int hashCode(Object obj)
 
 ```
@@ -18,7 +18,7 @@ public int hashCode(Object obj)
 下面的程序说明了 hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.hashCode() method
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashcode: -672549154
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.hashCode() method
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 hashcode: -681304890
 
 ```

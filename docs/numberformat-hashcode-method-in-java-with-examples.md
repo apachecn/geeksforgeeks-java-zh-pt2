@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -45,14 +45,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The hash-code values is: 423132
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 import java.text.NumberFormat;
@@ -77,7 +77,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The hash-code values is: 423132
 
 ```

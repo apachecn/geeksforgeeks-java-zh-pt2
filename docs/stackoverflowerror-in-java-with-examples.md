@@ -14,7 +14,7 @@ StackOverflowError 的主要原因是我们**没有给我们的[递归函数](ht
 
 **下面给出的是无限递归的实现:**
 
-```
+```java
 // Java program to demonstrate
 // infinite recursion error
 
@@ -57,7 +57,7 @@ public class StackOverflowErrorClass {
 
     **下面给出了适当终止条件的实现:**
 
-    ```
+    ```java
     // Java Program to demonstrate proper
     // use of terminating condition
 
@@ -86,7 +86,7 @@ public class StackOverflowErrorClass {
 
     **Output:**
 
-    ```
+    ```java
     2
     4
     6
@@ -103,7 +103,7 @@ public class StackOverflowErrorClass {
 
     **下面给出的是类间循环关系的实现:**
 
-    ```
+    ```java
     // Java Program to demonstrate
     // cyclic relationship between class
 

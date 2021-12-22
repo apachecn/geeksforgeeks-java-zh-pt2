@@ -6,7 +6,7 @@
 
 Java 中的量词允许用户指定匹配的出现次数。下面是 Java 中一些常用的量词。
 
-```
+```java
 X*        Zero or more occurrences of X
 X?        Zero or One occurrences of X
 X+        One or More occurrences of X
@@ -23,7 +23,7 @@ X{n, m}   Count of occurrences of X is from n to m
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate Greedy Quantifiers
 
 import java.util.regex.Matcher;
@@ -50,7 +50,7 @@ class Test
 
 **Output**
 
-```
+```java
 Pattern found from 0 to 2
 ```
 
@@ -62,7 +62,7 @@ Pattern found from 0 to 2
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate Reluctant Quantifiers
 
 import java.util.regex.Matcher;
@@ -90,7 +90,7 @@ class Test
 
 **输出**
 
-```
+```java
 Pattern found from 0 to 0
 Pattern found from 1 to 1
 Pattern found from 2 to 2
@@ -104,7 +104,7 @@ Pattern found from 2 to 2
 
 ## 爪哇
 
-```
+```java
 // Java program to demonstrate Possessive Quantifiers
 
 import java.util.regex.Matcher;
@@ -131,7 +131,7 @@ class Test
 
 **输出**
 
-```
+```java
 Pattern found from 0 to 2
 ```
 
@@ -141,7 +141,7 @@ Pattern found from 0 to 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate difference
 // between Possessive and Greedy Quantifiers
 
@@ -176,7 +176,7 @@ class Test
 
 **Output**
 
-```
+```java
 Using Greedy Quantifier
 Pattern found from 0 to 2
 

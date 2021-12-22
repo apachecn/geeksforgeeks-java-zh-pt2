@@ -53,7 +53,7 @@
 
 就像我们声明变量一样(类型名；).这将通知编译器，我们将使用名称来引用类型为 type 的数据。对于一个原始变量，这个声明也为变量保留了适当的内存量。所以对于引用变量，类型必须是严格的具体类名。一般来说，我们**不能**创建抽象类或者接口的对象。
 
-```
+```java
 Dog tuffy;
 ```
 
@@ -65,7 +65,7 @@ Dog tuffy;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the concept
 // of classes and objects
 
@@ -130,14 +130,14 @@ public class Dog {
 
 **Output:** 
 
-```
+```java
 Hi my name is tuffy.
 My breed, age and color are papillon, 5, white
 ```
 
 *   这个类包含一个单独的[构造函数](https://www.geeksforgeeks.org/java-gq/constructors-2-gq/)。我们可以识别构造函数，因为它的声明使用与类相同的名称，并且没有返回类型。Java 编译器根据参数的数量和类型来区分构造函数。*狗*类中的构造函数接受四个参数。下面的语句为这些参数提供了“tuffy”、“papillon”、5、“white”作为值:
 
-```
+```java
 Dog tuffy = new Dog("tuffy", "papillon", 5, "white");
 ```
 
@@ -152,13 +152,13 @@ Dog tuffy = new Dog("tuffy", "papillon", 5, "white");
 *   ***使用新的关键字:*** 这是创建对象最简单的方法。通过使用此方法，可以调用所需的构造函数。
     **语法:**
 
-```
+```java
 ClassName ReferenceVariable = new ClassName();
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // creating and accessing objects
 // using new keyword
@@ -195,7 +195,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Bravo, 4
 Oliver, 5
 ```
@@ -207,14 +207,14 @@ Oliver, 5
     *如果驾驶类别没有访问指定类别定义的权限，将发生 IllegalAccessException* 。
     **语法:**
 
-```
+```java
 ClassName ReferenceVariable = 
                    (ClassName) Class.forName("PackageName.ClassName").newInstance();
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // object creation using newInstance() method
 
@@ -244,14 +244,14 @@ class Test {
 
 **Output:** 
 
-```
+```java
 Hello Geeks !!
 ```
 
 *   ***使用 newInstance()方法为 Constructor 类:*** 这是一种反射式的创建对象的方式。通过使用它，可以调用参数化的私有构造函数。它用 InvocationTargetException 包装抛出的异常。它被不同的框架使用——Spring、Hibernate、Struts 等。Constructor.newInstance()方法优于 Class.newInstance()方法。
     **语法:**
 
-```
+```java
 Constructor constructor = ClassName.class.getConstructor();
  ClassName ReferenceVariable = constructor.newInstance();
 ```
@@ -260,7 +260,7 @@ Constructor constructor = ClassName.class.getConstructor();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to demonstrate
 // creation of object
 // using Constructor.newInstance() method
@@ -315,14 +315,14 @@ class ExampleClass {
 
 **Output:** 
 
-```
+```java
 GeeksForGeeks
 ```
 
 *   ***使用克隆()方法:*** 用于克隆一个物体。这是复制对象最简单有效的方法。在代码中， **java.lang.Cloneable** 接口必须由要创建对象克隆的类来实现。如果未实现可克隆接口，clone()方法生成**克隆支持异常**。
     **语法:**
 
-```
+```java
 ClassName ReferenceVariable = (ClassName) ReferenceVariable.clone();
 ```
 
@@ -330,7 +330,7 @@ ClassName ReferenceVariable = (ClassName) ReferenceVariable.clone();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java program to demonstrate
 // object creation using clone() method
 
@@ -377,7 +377,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 201, Tom
 201, Tom
 ```
@@ -385,7 +385,7 @@ public class Test {
 *   ***使用反序列化:*** 要反序列化对象，首先在类中实现一个**可序列化接口**。此方法中没有用于创建对象的构造函数。
     **语法:**
 
-```
+```java
 ObjectInputStream in = new ObjectInputStream(new FileInputStream(FileName));
 ClassName ReferenceVariable = (ClassName) in.readObject();
 ```
@@ -394,7 +394,7 @@ ClassName ReferenceVariable = (ClassName) in.readObject();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate object
 // creation by deserialization
 

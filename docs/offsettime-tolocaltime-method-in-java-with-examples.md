@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **toLocalTime()** 方法获取这个日期时间的 L
 
 **语法:**
 
-```
+```java
 public LocalTime toLocalTime()
 
 ```
@@ -17,7 +17,7 @@ public LocalTime toLocalTime()
 
 下面的程序举例说明了 toLocalTime()方法:
 
-```
+```java
 // Java program to demonstrate the toLocalTime() method
 
 import java.time.OffsetTime;
@@ -36,7 +36,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Local-time: 03:59:10.258
 
 ```

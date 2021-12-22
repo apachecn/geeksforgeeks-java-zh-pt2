@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object *obj*)
 ```
 
@@ -17,7 +17,7 @@ public boolean equals(Object *obj*)
 以下程序说明了简单日期格式的 equals()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.text.*;
@@ -56,7 +56,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 First: 1/30/19 9:59 AM
 Second: 1/30/19 9:59 AM
 Equality: true
@@ -65,7 +65,7 @@ Equality: true
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.text.*;
@@ -107,7 +107,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 First: Jan
 Second: 1/30/19 10:00 AM
 Equality: false

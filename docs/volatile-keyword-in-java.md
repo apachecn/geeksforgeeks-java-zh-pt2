@@ -6,7 +6,7 @@
 
 考虑下面这个简单的例子。
 
-```
+```java
 class SharedObj
 {
    // Changes made to sharedVar in one thread
@@ -23,7 +23,7 @@ class SharedObj
 
 请注意，没有任何同步操作的正常变量的写入可能对任何读取线程都不可见(这种行为称为[顺序一致性](https://en.wikipedia.org/wiki/Sequential_consistency))。虽然大多数现代硬件都提供了良好的缓存一致性，因此一个缓存中的更改很可能会反映在另一个缓存中，但是依靠硬件来“修复”有故障的应用程序并不是一个好的做法。
 
-```
+```java
 class SharedObj
 {
    // volatile keyword here makes sure that

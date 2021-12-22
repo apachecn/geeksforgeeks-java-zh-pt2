@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: 
 set[] = {'a', 'b'}, k = 3
 
@@ -35,7 +35,7 @@ d
 
 ## C++
 
-```
+```java
 // C++ program to print all
 // possible strings of length k
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print all
 // possible strings of length k
 
@@ -165,7 +165,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```java
 # Python 3 program to print all
 # possible strings of length k
 
@@ -220,7 +220,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```java
 // C# program to print all
 // possible strings of length k
 using System;
@@ -289,7 +289,7 @@ static public void Main ()
 
 ## java 描述语言
 
-```
+```java
 <script>
 // Javascript program to print all
 // possible strings of length k  
@@ -351,7 +351,7 @@ static public void Main ()
 
 **输出:**
 
-```
+```java
 First Test
 aaa
 aab

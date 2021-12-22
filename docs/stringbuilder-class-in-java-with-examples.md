@@ -5,7 +5,7 @@
 Java 中的**字符串生成器**代表一个可变的字符序列。因为 Java 中的字符串类创建了一个不可变的字符序列，所以 StringBuilder 类提供了一个字符串类的替代，因为它创建了一个可变的字符序列。StringBuilder 的功能与 StringBuffer 类非常相似，因为两者都提供了一种字符串类的替代方法，即创建一个可变的字符序列。然而，基于同步，StringBuilder 类不同于 StringBuffer 类。StringBuilder 类不能保证同步，而 StringBuffer 类可以。因此，这个类被设计为在 StringBuffer 被一个单独的线程使用的地方作为 StringBuffer 的插入式替换(通常情况下)。在可能的情况下，建议优先使用这个类而不是 StringBuffer，因为在大多数实现中它会更快。StringBuilder 的实例对于多线程使用来说并不安全。如果需要这样的同步，那么建议使用 StringBuffer。
 **等级等级:**
 
-```
+```java
 java.lang.Object
  ↳ java.lang
     ↳ Class StringBuilder
@@ -13,7 +13,7 @@ java.lang.Object
 
 **语法:**
 
-```
+```java
 public final class StringBuilder
     extends Object
     implements Serializable, CharSequence
@@ -33,7 +33,7 @@ public final class StringBuilder
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate StringBuilder
 
 import java.util.*;
@@ -87,7 +87,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 String = GFG
 String1 = AAAABBBCCCC
 String2 capacity = 10
@@ -154,7 +154,7 @@ String3 = AAAABBBCCCC
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // methods of StringBuilder
 
@@ -202,7 +202,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 String = AAAABBBCCCC
 Reverse String = CCCCBBBAAAA
 Modified StringBuilder = CCCCBBBAAAA,

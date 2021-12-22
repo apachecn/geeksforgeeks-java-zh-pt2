@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long getAsLong()
 
 ```
@@ -21,7 +21,7 @@ public long getAsLong()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.getAsLong() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalLong: OptionalLong[445325]
 Value in OptionalLong = 445325
 
@@ -56,7 +56,7 @@ Value in OptionalLong = 445325
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.getAsLong() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalLong: OptionalLong.empty
 Exception: java.util.NoSuchElementException: No value present
 

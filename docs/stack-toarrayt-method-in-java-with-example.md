@@ -9,7 +9,7 @@ Java 中[栈类](https://www.geeksforgeeks.org/java-util-Stack-class-java/)的 *
 
 **语法:**
 
-```
+```java
 Object[] arr1 = Stack.toArray(arr[])
 ```
 
@@ -26,7 +26,7 @@ Object[] arr1 = Stack.toArray(arr[])
 
 **程序 1:** 当数组具有堆栈大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -61,7 +61,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -74,7 +74,7 @@ Geeks
 
 **程序 2:** 当数组小于堆栈大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -109,7 +109,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -122,7 +122,7 @@ Geeks
 
 **程序 3:** 当数组大于堆栈大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -157,7 +157,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -175,7 +175,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -218,7 +218,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack: [Welcome, To, Geeks, For, Geeks]
 Exception: java.lang.NullPointerException
 

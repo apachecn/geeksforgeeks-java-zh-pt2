@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.lastElement()
 ```
 
@@ -18,7 +18,7 @@ Vector.lastElement()
 
 ****程序 1:****
 
-```
+```java
 // Java code to illustrate lastElement()
 import java.util.*;
 
@@ -47,7 +47,7 @@ public class VectorDemo {
 
 ****Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 The last element is: Geeks
 
@@ -55,7 +55,7 @@ The last element is: Geeks
 
 ****程序 2:****
 
-```
+```java
 // Java code to illustrate lastElement()
 import java.util.*;
 
@@ -84,7 +84,7 @@ public class VectorDemo {
 
 ****Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The last element is: 5
 

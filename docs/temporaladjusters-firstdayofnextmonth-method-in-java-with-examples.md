@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster firstDayOfNextMonth()
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster firstDayOfNextMonth()
 下面的程序说明了临时调整的第一天第一个月()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfNextMonth()
 
@@ -52,14 +52,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of next month for localdate 2020-05-11: 2020-06-01
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.firstDayOfNextMonth() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 First day of next month for localdate 2010-12-29: 2011-01-01
 
 ```

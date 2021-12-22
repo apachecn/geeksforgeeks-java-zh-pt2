@@ -12,7 +12,7 @@
 
 1.**[try](https://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/)**:try 块包含一组可能发生异常的语句。
 
-```
+```java
 try
 {
     // statement(s) that might cause exception
@@ -22,7 +22,7 @@ try
 
 2. **catch** : Catch block 用于处理试块的不确定情况。try 块后面总是跟着 catch 块，catch 块处理关联 try 块中发生的异常。
 
-```
+```java
 catch
 {
    // statement(s) that handle an exception
@@ -41,7 +41,7 @@ catch
 
 系统生成的异常示例如下:
 
-```
+```java
 Exception in thread "main" 
 *java.lang.ArithmeticException*: divide 
 by zero at *ExceptionDemo.main(ExceptionDemo.java:5)*
@@ -52,7 +52,7 @@ java:5:line number
 
 ```
 
-```
+```java
 // Java program to demonstrate working of try,
 // catch and finally
 
@@ -78,7 +78,7 @@ class Division {
 
 **Output:**
 
-```
+```java
 Exception caught:Division by zero
 I am in final block
 
@@ -88,7 +88,7 @@ I am in final block
 
 **T5】**
 
-```
+```java
 // Java program to demonstrate working of throws
 class ThrowsExecp {
 
@@ -117,7 +117,7 @@ class ThrowsExecp {
 
 **Output:**
 
-```
+```java
 Inside fun(). 
 caught in main.
 

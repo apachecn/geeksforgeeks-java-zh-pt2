@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Math.sin(double radians)
     ```
 
@@ -20,7 +20,7 @@
 
     **示例 1 :** 演示 sin 用法的程序()
 
-    ```
+    ```java
     // Java program for sin() method
     import java.util.*;
 
@@ -46,7 +46,7 @@
 
     **输出:**
 
-    ```
+    ```java
     sin(45.0) = 0.7071067811865475
 
     ```
@@ -55,7 +55,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Math.cos(double radians)
     ```
 
@@ -67,7 +67,7 @@
 
     **示例 2 :** 演示 cos 使用的程序()
 
-    ```
+    ```java
     // Java program for cos() method
     import java.util.*;
 
@@ -93,7 +93,7 @@
 
     **输出:**
 
-    ```
+    ```java
     cos(45.0) = 0.7071067811865476
 
     ```
@@ -101,7 +101,7 @@
 3.  **Java.lang.Math.tan() :** is an inbuilt method which returns the **tangent** of the value passed as an argument. The value passed in this function should be in **radians**. If the argument is NaN or an infinity, then the result is NaN. If the argument is zero, then the result is a zero with the same sign as the argument.
     **Syntax :**
 
-    ```
+    ```java
     Math.tan(double radians)
     ```
 
@@ -113,7 +113,7 @@
 
     **示例 3 :** 演示 tan()使用的程序
 
-    ```
+    ```java
     // Java program for tan() method
     import java.util.*;
 
@@ -139,7 +139,7 @@
 
     **输出:**
 
-    ```
+    ```java
     tan(45.0) = 0.9999999999999999
 
     ```

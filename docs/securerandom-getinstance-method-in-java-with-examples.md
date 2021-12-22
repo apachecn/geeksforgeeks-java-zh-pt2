@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static SecureRandom 
 getInstance( String algorithm ) 
 throws NoSuchAlgorithmException
@@ -31,7 +31,7 @@ throws NoSuchAlgorithmException
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // nextBytes() method
 
@@ -80,14 +80,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Byte array before operation : [84, 97, 106, 109, 97, 104, 97, 108]
 Byte array after operation : [124, -66, -62, -5, -71, -4, 30, 16]
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getInstance() method
 
@@ -137,7 +137,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Trying to get the instance of TAJMAHAL
 Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL SecureRandom not available
 ```
@@ -151,7 +151,7 @@ Exception thrown : java.security.NoSuchAlgorithmException: TAJMAHAL SecureRandom
 
 **语法:**
 
-```
+```java
 public static SecureRandom 
 getInstance( String algorithm, Provider provider )
 throws NoSuchAlgorithmException
@@ -178,7 +178,7 @@ throws NoSuchAlgorithmException
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -234,7 +234,7 @@ throws NoSuchAlgorithmException
 
     **输出:**
 
-    ```
+    ```java
     Byte array before operation : [84, 97, 106, 109, 97, 104, 97, 108]
     Byte array after operation : [109, 55, 116, -15, -83, 126, -128, 88]
     ```
@@ -244,7 +244,7 @@ throws NoSuchAlgorithmException
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -300,7 +300,7 @@ throws NoSuchAlgorithmException
 
     **输出:**
 
-    ```
+    ```java
     Trying to getting the instance of TAJMAHAL
     Exception thrown : java.security.NoSuchAlgorithmException: no such algorithm: TAJMAHAL for provider SUN
     ```
@@ -313,7 +313,7 @@ throws NoSuchAlgorithmException
 
     **语法:**
 
-    ```
+    ```java
     public static SecureRandom 
     getInstance( String algorithm, String provider )
     throws NoSuchAlgorithmException, NoSuchProviderException
@@ -341,7 +341,7 @@ throws NoSuchAlgorithmException
 
     **例 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -407,14 +407,14 @@ throws NoSuchAlgorithmException
 
     **输出:**
 
-    ```
+    ```java
     Byte array before operation : [84, 97, 106, 109, 97, 104, 97, 108]
     Byte array after operation : [-11, 81, 39, 67, -95, -51, 115, -18]
     ```
 
     **例 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -477,14 +477,14 @@ throws NoSuchAlgorithmException
 
     **输出:**
 
-    ```
+    ```java
     Trying to take TAJMAHAL as a algorithm
     Exception thrown : java.security.NoSuchAlgorithmException: no such algorithm: TAJMAHAL for provider SUN
     ```
 
     **例 3:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // getInstance() method
 
@@ -544,7 +544,7 @@ throws NoSuchAlgorithmException
 
     **输出:**
 
-    ```
+    ```java
     Trying to taking MOON as a provider
     Exception thrown : java.security.NoSuchProviderException: no such provider: MOON
     ```

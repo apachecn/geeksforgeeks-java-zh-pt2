@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withNano(int nanoOfSecond)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime withNano(int nanoOfSecond)
 下面的程序说明了 withNano()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withNano() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withNano() method
 

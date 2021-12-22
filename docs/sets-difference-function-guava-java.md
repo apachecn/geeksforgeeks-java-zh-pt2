@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <E> 
   Sets.SetView<E> 
     difference(Set<E> set1,
@@ -20,7 +20,7 @@ public static <E>
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Sets.difference() method
 
@@ -58,7 +58,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set 1: [1, 2, 3, 4, 5, 6]
 Set 2: [1, 3, 5, 7]
 Difference between Set 1 and Set 2: [2, 4, 6]
@@ -67,7 +67,7 @@ Difference between Set 1 and Set 2: [2, 4, 6]
 
 **例 2 :**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Sets.difference() method
 
@@ -109,7 +109,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Set 1: [E, G, H, L, O]
 Set 2: [I, K, L, E, G]
 Difference between Set 1 and Set 2: [H, O]

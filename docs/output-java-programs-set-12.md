@@ -4,7 +4,7 @@
 
 **1)以下程序的输出是什么？** 
 
-```
+```java
 public class Test implements Runnable
 {
     public void run()
@@ -28,7 +28,7 @@ b)213
 c)132
 d)321
 
-```
+```java
 Ans: (c)
 ```
 
@@ -36,7 +36,7 @@ Ans: (c)
 
 **2)以下程序的输出是什么？** 
 
-```
+```java
 public class Test
 {
     private static int value = 20;
@@ -63,13 +63,13 @@ b) 1020
 c) 101520
 d)以上都没有
 
-```
+```java
 Ans: (a)
 ```
 
 **说明:**非静态变量不能在[静态嵌套内部类](https://www.geeksforgeeks.org/inner-class-java/)中访问。“嵌套”不能访问非静态变量[这种情况下是变量 s]。因此，错误是:
 
-```
+```java
 10: error: non-static variable s cannot be referenced from a static context
             System.out.println(temp + s + value);
                                       ^
@@ -77,7 +77,7 @@ Ans: (a)
 
 **3)以下程序的输出是什么？** 
 
-```
+```java
 import java.io.*;
 public class Test
 {
@@ -107,7 +107,7 @@ b)导出
 c)编译错误
 d)运行时错误
 
-```
+```java
 Ans: (b)
 ```
 
@@ -115,7 +115,7 @@ Ans: (b)
 
 **4)以下程序的输出是什么？** 
 
-```
+```java
 public class Test extends Thread
 {
     public void run()
@@ -136,7 +136,7 @@ b)运行时错误
 c)测试
 d)测试测试
 
-```
+```java
 Ans: (d)
 ```
 
@@ -144,7 +144,7 @@ Ans: (d)
 
 **5)以下程序的输出是什么？** 
 
-```
+```java
 public class Test extends Thread
 {
     public static void main(String[] args)
@@ -175,7 +175,7 @@ b)极客的极客
 c) GFG
 d)以上都不是
 
-```
+```java
 Ans: (b) 
 ```
 
@@ -184,7 +184,7 @@ Ans: (b)
 
 **6)以下程序的输出是什么？** 
 
-```
+```java
 public class Test
 {
     try
@@ -211,7 +211,7 @@ b) GFG
 c)编译错误
 d)以上都不是
 
-```
+```java
 Ans: (c)
 ```
 
@@ -219,7 +219,7 @@ Ans: (c)
 
 **7)对于给定的代码，选择正确的答案。** 
 
-```
+```java
 public interface Test
 {
     public int calculate();
@@ -235,13 +235,13 @@ a)由于嵌套接口
 的访问修饰符导致的编译时错误 c)无编译时错误
 d)嵌套接口不能保存任何函数声明。
 
-```
+```java
 Ans: (b)
 ```
 
 **说明:**nested interface 的访问修饰符只能是公共的。因此，错误是:
 
-```
+```java
 4: error: illegal combination of modifiers: public and protected
     protected interface NestedInterface
               ^
@@ -254,7 +254,7 @@ b)施工人员可以被试/抓块包围。
 c)构造函数不能抛出异常。
 d)构造函数可以保存同步的代码(这样每个线程都可以顺序访问构造函数)。
 
-```
+```java
 Ans: (d)
 ```
 

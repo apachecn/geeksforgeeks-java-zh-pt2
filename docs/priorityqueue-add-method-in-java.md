@@ -6,7 +6,7 @@ Java 中的 Java.util.PriorityQueue.add()方法用于将特定元素添加到 Pr
 
 **语法:**
 
-```
+```java
 Priority_Queue.add(Object element)
 ```
 
@@ -18,7 +18,7 @@ Priority_Queue.add(Object element)
 
 **程序 1:** 向队列中添加字符串元素。
 
-```
+```java
 // Java code to illustrate add()
 import java.util.PriorityQueue;
 
@@ -43,14 +43,14 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [4, Geeks, To, Welcome, Geeks]
 
 ```
 
 **程序 2:** 向队列中添加整数元素。
 
-```
+```java
 // Java code to illustrate add()
 import java.util.*;
 
@@ -75,7 +75,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [5, 10, 30, 20, 15]
 
 ```

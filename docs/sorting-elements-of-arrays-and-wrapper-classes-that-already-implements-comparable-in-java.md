@@ -8,7 +8,7 @@ Java 提供了可比较的接口，可以使用类的数据成员对对象进行
 
 **插图:**
 
-```
+```java
 Input  :  {8 , 9 , 1 , 5 , 3 , 0}
 Output :  {0 , 1 , 3 , 5 , 8 , 9}
 
@@ -22,7 +22,7 @@ Output :  {"Akshat" , "Ankit" , "Parul" , "Swati" , "Tarun"}
 
 ## Java
 
-```
+```java
 // Java Program to Sorting Elements illustrating
 // Array.srt) and Collection.sort() method
 // Naive approach
@@ -95,7 +95,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Before Sorting: [8, 9, 1, 5, 3, 0]
 After Sorting: [0, 1, 3, 5, 8, 9]
 Before Sorting: [Ankit, Parul, Swati, Tarun, Akshat]
@@ -112,7 +112,7 @@ After Sorting:: [Black, Blue, Green, Red]
 
 ## Java
 
-```
+```java
 // Java Program to Sorting Elements of Arrays and Wrapper
 // Classes that Already Implements Comparable
 
@@ -194,7 +194,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Student{RollNo=1, Name='Ankush', Marks=98.0}
 Student{RollNo=2, Name='Akshat', Marks=99.0}
 Student{RollNo=3, Name='Parul', Marks=87.0}

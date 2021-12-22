@@ -8,7 +8,7 @@ Java 中 Period 类的 from()方法用于从给定的时间量中获取 Period �
 
 **语法:**
 
-```
+```java
 public static Period from(TemporalAmount amount)
 ```
 
@@ -23,7 +23,7 @@ public static Period from(TemporalAmount amount)
 
 下面程序举例说明上面的方法:
 
-```
+```java
 // Java code to show the function from()
 // which represents the period of given amount
 import java.time.Period;
@@ -52,7 +52,7 @@ public class PeriodClassGfG {
 
 **输出:**
 
-```
+```java
 P20Y13M17D
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Iterator iterator()
 ```
 
@@ -18,7 +18,7 @@ public Iterator iterator()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of PriorityBlockingQueue
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 PrioQueue: [45616, 945645, 7564165, 6468516]
 The iterator values of PriorityBlockingQueue are:
 45616
@@ -74,7 +74,7 @@ The iterator values of PriorityBlockingQueue are:
 
 **例 2:** 说明包含名称列表的 PriorityBlockingQueue 的迭代器()方法。
 
-```
+```java
 // Java Program Demonstrate iterator()
 // method of PriorityBlockingQueue
 
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The Names are:
 A
 Computer

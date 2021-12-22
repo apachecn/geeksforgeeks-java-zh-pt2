@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double nextUp(*double num*)
     ```
 
@@ -20,7 +20,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 25.18700000
     Output: 25.187000000000005
 
@@ -28,7 +28,7 @@
 
     下面的程序说明了 Java.lang.StrictMath.nextUp()方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.nextUp() Method
 
@@ -60,7 +60,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Next upper value is : 67.12300000000002
     The Next upper value is : 21.120000000000005
     The Next upper value is : 4.9E-324
@@ -71,7 +71,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static float nextUp(*float num*)
     ```
 
@@ -85,7 +85,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 15.78f
     Output: 15.780000686645508
 
@@ -93,7 +93,7 @@
 
     下面的程序说明了 Java.lang.StrictMath.nextUp()方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // Java.lang.StrictMath.nextUp() Method
 
@@ -125,7 +125,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The Next upper value is : 73.7280044555664
     The Next upper value is : 51.71000289916992
     The Next upper value is : 1.401298464324817E-45

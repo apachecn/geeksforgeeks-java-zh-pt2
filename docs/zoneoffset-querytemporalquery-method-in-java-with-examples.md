@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <R> R query(TemporalQuery<R> temporalQuery)
 
 ```
@@ -24,7 +24,7 @@ public <R> R query(TemporalQuery<R> temporalQuery)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate query() method
 
 import java.time.*;
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:30
 Offset value: +05:30
 
@@ -57,7 +57,7 @@ Offset value: +05:30
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate query() method
 
 import java.time.*;
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: Z
 Zone value: Z
 

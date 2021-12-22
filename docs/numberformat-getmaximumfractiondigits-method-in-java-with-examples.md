@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public int getMaximumFractionDigits()
 ```
 
@@ -18,7 +18,7 @@ public int getMaximumFractionDigits()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -50,14 +50,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The maximum Fraction digits: 0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -89,7 +89,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 The maximum Fraction digits: 2
 
 ```

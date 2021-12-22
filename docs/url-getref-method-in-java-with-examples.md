@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getRef()
 ```
 
 **语法**:
 
-```
+```java
 url.getRef()
 ```
 
@@ -24,7 +24,7 @@ url.getRef()
 
 **示例 1** :给定一个 URL，我们将使用 getRef()函数获取引用或锚点。
 
-```
+```java
 // Java program to show the
 // use of the function getRef()
 
@@ -63,7 +63,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org#Arnab_Kundu
  Reference or anchor=Arnab_Kundu
 
@@ -71,7 +71,7 @@ URL = https:// www.geeksforgeeks.org#Arnab_Kundu
 
 **例 2** :现在我们不提供任何锚点，使用函数获取 Reference 或者 anchor，看结果。
 
-```
+```java
 // Java program to show the
 // use of the function getRef()
 
@@ -111,7 +111,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
  Reference or anchor= null
 

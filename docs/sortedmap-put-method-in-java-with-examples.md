@@ -6,7 +6,7 @@ Java 中 [SortedMap 接口](https://www.geeksforgeeks.org/sortedmap-java-example
 
 **语法:**
 
-```
+```java
 V put(K key,
     V value)
 ```
@@ -24,7 +24,7 @@ V put(K key,
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // put method in SortedMap interface
 
@@ -53,14 +53,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 
 ```
 
 **程序 2:** 下面是展示 put()实现的代码。
 
-```
+```java
 // Java code to show the implementation of
 // put method in SortedMap interface
 
@@ -89,7 +89,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 
 ```

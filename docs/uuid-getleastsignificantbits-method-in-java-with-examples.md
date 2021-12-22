@@ -6,7 +6,7 @@ UUIDs 是 128 位的值。Java 中的 **UUID 类**的**getlestsimitantbits()**�
 
 **语法:**
 
-```
+```java
 public long getLeastSignificantBits()
 ```
 
@@ -18,7 +18,7 @@ public long getLeastSignificantBits()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate
 // getLeastSignificantBits() method
 
@@ -51,7 +51,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The value is: 5737
 The least significant 64 bit: -7608541298835023258
@@ -60,7 +60,7 @@ The least significant 64 bit: -7608541298835023258
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate
 // getLeastSignificantBits() method
 
@@ -93,7 +93,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The value is: 5737
 The least significant 64 bit: -7608541298835023258

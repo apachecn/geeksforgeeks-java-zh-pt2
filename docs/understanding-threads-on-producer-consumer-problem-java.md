@@ -13,7 +13,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the factorial
 // of a number by the implementation
 // of threads using thread class
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 120
 ```
 
@@ -61,7 +61,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to find the factorial
 // of a number by the implementation
 // of threads using runnable interface
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 120
 ```
 
@@ -115,7 +115,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the
 // producer consumer's problem
 
@@ -227,7 +227,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Produced 0
 Produced 1
 Produced 2
@@ -248,7 +248,7 @@ Buffer is Empty
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the
 // producer consumer's problem
 // without using synchronization
@@ -356,7 +356,7 @@ class Efficiency {
 
 **Output:** 
 
-```
+```java
 Produced 0
 Produced 1
 Produced 2
@@ -372,7 +372,7 @@ Buffer is Empty
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the
 // producer consumer's problem
 // using single thread
@@ -475,7 +475,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Produced 0
 Produced 1
 Produced 2

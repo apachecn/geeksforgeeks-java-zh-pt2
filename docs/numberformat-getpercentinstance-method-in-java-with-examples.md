@@ -16,7 +16,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -51,14 +51,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Canadian Dollar
 
     ```
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```java
     US Dollar
 
     ```
@@ -110,7 +110,7 @@
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to implement
     // the above function
 
@@ -142,7 +142,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Canadian Dollar
 
     ```

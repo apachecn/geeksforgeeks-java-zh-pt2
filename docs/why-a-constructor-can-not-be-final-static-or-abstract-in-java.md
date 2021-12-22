@@ -14,7 +14,7 @@ java 构造函数的一个重要属性就是不能是 [final](https://www.geeksf
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Constructor as final
 
 import java.io.*;
@@ -41,7 +41,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 prog.java:4: error: modifier final not allowed here
 final GFG( )
       ^
@@ -58,7 +58,7 @@ java 构造函数的一个重要属性是它不能是[静态的](https://www.gee
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java class and a subclass
 
 import java.io.*;
@@ -90,7 +90,7 @@ class SubClass extends GFG {
 
 **Output**
 
-```
+```java
 GFG Constructor
 Subclass Constructor
 ```
@@ -103,7 +103,7 @@ Subclass Constructor
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java constructor as static
 
 import java.io.*;
@@ -131,7 +131,7 @@ class Main {
 
 **输出**
 
-```
+```java
 prog.java:5: error: modifier static not allowed here
  static GFG( )
         ^
@@ -148,7 +148,7 @@ java 构造函数的一个重要属性就是不能[抽象](https://www.geeksforg
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java constructor as static
 
 import java.io.*;
@@ -176,7 +176,7 @@ class Main {
 
 **输出**
 
-```
+```java
 prog.java:5: error: modifier abstract not allowed here
  abstract GFG( )
           ^

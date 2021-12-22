@@ -6,7 +6,7 @@ Java 中 getMonthValue 类的 getMonthValue()方法用于从使用它的 YearMon
 
 **语法**:
 
-```
+```java
 public int getMonthValue()
 
 ```
@@ -18,7 +18,7 @@ public int getMonthValue()
 下面的程序说明了 Java 中的 getMonthValue()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the getMonthValue() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 8
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the getMonthValue() method
 
 import java.util.*;
@@ -69,7 +69,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 5
 
 ```

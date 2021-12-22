@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 Observable.create<String> { shooter ->
     // do something
     if (!shooter.isDisposed) {
@@ -48,7 +48,7 @@ Observable.create<String> { shooter ->
 
 **输出:**
 
-```
+```java
 "GeeksforGeeks" "GfG"
 ```
 
@@ -60,7 +60,7 @@ Observable.create<String> { shooter ->
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 Observable.fromCallable<String> {
     // perform a task and then return
     return@fromCallable "Geeks for Geeks"
@@ -69,7 +69,7 @@ Observable.fromCallable<String> {
 
 **输出:**
 
-```
+```java
 Geeks for Geeks
 ```
 

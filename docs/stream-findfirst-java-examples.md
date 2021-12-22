@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Optional<**T**> findFirst()
 
 Where, Optional is a container object which
@@ -23,7 +23,7 @@ of this stream, or an empty Optional if the stream is empty.
 
 **示例 1 :** 整数流上的 findFirst()函数。
 
-```
+```java
 // Java code for Stream findFirst()
 // which returns an Optional describing
 // the first element of this stream, or
@@ -56,14 +56,14 @@ class GFG {
 
 输出:
 
-```
+```java
 3
 
 ```
 
 **示例 2 :** 字符串流上的 findFirst()函数。
 
-```
+```java
 // Java code for Stream findFirst()
 // which returns an Optional describing
 // the first element of this stream, or
@@ -97,7 +97,7 @@ class GFG {
 
 输出:
 
-```
+```java
 GeeksforGeeks
 
 ```

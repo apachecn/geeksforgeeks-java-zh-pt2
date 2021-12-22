@@ -25,7 +25,7 @@
 
 **1。弃用界面:**
 
-```
+```java
 @Deprecated
 
 interface GFG {
@@ -35,7 +35,7 @@ interface GFG {
 
 **2。弃用类**
 
-```
+```java
 @Deprecated
 
 class GFG {
@@ -45,7 +45,7 @@ class GFG {
 
 **3。贬低法**
 
-```
+```java
 class GFG {
 
   @Deprecated
@@ -60,7 +60,7 @@ class GFG {
 
 **4。取消成员变量**
 
-```
+```java
 class GFG {
 
   @Deprecated
@@ -73,7 +73,7 @@ class GFG {
 
 **5。贬低一个构造者**
 
-```
+```java
 class GFG {
 
   @Deprecated
@@ -95,7 +95,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating The @Deprecated Annotation
 // Using deprecated variable name
 
@@ -125,7 +125,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 100
 ```
 
@@ -133,7 +133,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating The @Deprecated Annotation
 // Using deprecated method name
 
@@ -178,7 +178,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is a deprecated method
 ```
 
@@ -186,7 +186,7 @@ This is a deprecated method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating The @Deprecated Annotation
 // Using deprecated method name
 // as well as the deprecated variable name
@@ -241,7 +241,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 This method is deprecated
 10
 ```
@@ -250,7 +250,7 @@ This method is deprecated
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating The @Deprecated Annotation
 // Using deprecated constructor
 // as well as the deprecated variable name.
@@ -303,7 +303,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 This is a deprecated constructor
 10
 ```

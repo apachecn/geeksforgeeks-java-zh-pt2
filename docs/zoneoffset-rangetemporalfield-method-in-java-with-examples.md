@@ -8,7 +8,7 @@ Java 中的区域偏移量范围(临时字段)方法，示例
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField temporalField)
 
 ```
@@ -26,7 +26,7 @@ public ValueRange range(TemporalField temporalField)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate range() method
 
 import java.time.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:30
 Second value: -64800 - 64800
 
@@ -59,7 +59,7 @@ Second value: -64800 - 64800
 
 **示例 2:** 显示不支持的临时异常
 
-```
+```java
 // Java code to illustrate range() method
 
 import java.time.*;
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:00
 java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: NanoOfDay
 

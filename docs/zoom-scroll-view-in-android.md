@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -48,7 +48,7 @@
 
 下面是实现该功能的代码。
 
-```
+```java
 // implementation of this feature
 mScaleGestureDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -83,7 +83,7 @@ mScaleGestureDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Year minusYears(long yearsToSubtract)
 
 ```
@@ -23,7 +23,7 @@ public Year minusYears(long yearsToSubtract)
 以下程序说明了负年()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minusYears() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After subtraction year: 1999
 
@@ -61,7 +61,7 @@ After subtraction year: 1999
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.minusYears() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After subtraction year: 819
 

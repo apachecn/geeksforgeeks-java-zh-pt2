@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toDays(long duration)
 ```
 
@@ -18,7 +18,7 @@ public long toDays(long duration)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // toDays() method of TimeUnit Class
 
@@ -45,14 +45,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585725051 milliSeconds in Days = 17819
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // toDays() method of TimeUnit Class
 
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585730178 milliSeconds in Days = 17819
 
 ```

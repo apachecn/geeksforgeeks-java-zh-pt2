@@ -4,7 +4,7 @@
 
 重载允许不同的方法具有相同的名称，但签名不同，其中签名可能因输入参数的数量或输入参数的类型或两者而异。重载与编译时(或静态)多态性有关。
 
-```
+```java
 // Java program to demonstrate working of method
 // overloading in Java.
 
@@ -41,7 +41,7 @@ public class Sum {
 
 输出:
 
-```
+```java
 30
 60
 31.0
@@ -57,7 +57,7 @@ Q .如果确切的原型与参数不匹配怎么办。**俺们 T3。
 
 让我们举个例子来澄清这个概念
 
-```
+```java
 class Demo {
     public void show(int x)
     {
@@ -100,7 +100,7 @@ class UseDemo {
 **我们可以在返回类型上重载方法吗？**
 我们**不能通过返回式**过载。这种行为在 C++中是相同的。详情请参考此处
 
-```
+```java
 public class Main {
     public int foo() { return 10; }
 
@@ -115,7 +115,7 @@ public class Main {
 
 但是，在显式指定被调用函数的数据类型的情况下，返回类型上的重载方法是可能的。请看下面的例子:
 
-```
+```java
 // Java program to demonstrate the working of method
 // overloading in static methods
 public class Main {
@@ -133,13 +133,13 @@ public class Main {
 
 输出:
 
-```
+```java
 10
 a
 
 ```
 
-```
+```java
 // Java program to demonstrate working of method
 // overloading in  methods
 class A {
@@ -161,7 +161,7 @@ public class Main {
 
 输出:
 
-```
+```java
 10
 a
 
@@ -175,7 +175,7 @@ a
 **我们可以在 Java 中重载 main()吗？**
 像其他静态方法一样，我们**可以在 Java 中** [重载 main()。有关更多详细信息，请参考 Java 中的重载 main()。](https://www.geeksforgeeks.org/gfact-48-overloading-main-in-java/)
 
-```
+```java
 // A Java program with overloaded main()
 import java.io.*;
 
@@ -203,7 +203,7 @@ public class Test {
 
 输出:
 
-```
+```java
 Hi Geek (from main)
 Hi, Geek
 Hi, Dear Geek, My Geek

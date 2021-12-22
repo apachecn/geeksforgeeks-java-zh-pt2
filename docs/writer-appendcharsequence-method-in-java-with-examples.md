@@ -6,7 +6,7 @@ Java 中 **[Writer](https://www.geeksforgeeks.org/java-io-printwriter-class-java
 
 **语法:**
 
-```
+```java
 public Writer append(CharSequence charSequence)
 ```
 
@@ -18,7 +18,7 @@ public Writer append(CharSequence charSequence)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Writer append(CharSequence) method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Writer append(CharSequence) method
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 
 ```

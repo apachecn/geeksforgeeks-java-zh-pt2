@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 long count()
 
 ```
@@ -15,7 +15,7 @@ long count()
 
 **例 1 :** 计算数组中元素的个数。
 
-```
+```java
 // Java code for Stream.count()
 // to count the elements in the stream.
 import java.util.*;
@@ -43,14 +43,14 @@ class GFG {
 
 输出:
 
-```
+```java
 7
 
 ```
 
 **示例 2 :** 计算列表中不同元素的数量。
 
-```
+```java
 // Java code for Stream.count()
 // to count the number of distinct
 // elements in the stream.
@@ -79,7 +79,7 @@ class GFG {
 
 输出:
 
-```
+```java
 4
 
 ```

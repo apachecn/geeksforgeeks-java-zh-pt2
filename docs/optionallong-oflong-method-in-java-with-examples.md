@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static OptionalLong of(long value)
 
 ```
@@ -18,7 +18,7 @@ public static OptionalLong of(long value)
 以下程序举例说明(长)法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.of(long) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalLong: OptionalLong[45213246]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.of(long) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalLong: OptionalLong[21438999]
 
 ```

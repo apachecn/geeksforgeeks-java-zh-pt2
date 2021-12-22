@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster lastInMonth(DayOfWeek dayOfWeek)
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster lastInMonth(DayOfWeek dayOfWeek)
 下面的程序说明了临时调整.最后一个月()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastInMonth()
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 last date in month having sunday for localdate 1998-10-31 is: 1998-10-25
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastInMonth() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 The last date in a month having TUESDAY for localdate 2029-12-11 is: 2029-12-25
 
 ```

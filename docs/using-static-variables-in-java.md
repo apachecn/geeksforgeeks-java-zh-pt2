@@ -14,7 +14,7 @@
 
 ## Java
 
-```
+```java
 //  Java Program to show the Advantages of Static Variable
 
 // Class 1
@@ -80,7 +80,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 ID: 1, Name:: Monodwip, Salary: $30000 & CEO:: Arnab
 ID: 2, Name:: Mukta, Salary: $50000 & CEO:: Arnab
 ID: 3, Name:: Subham, Salary: $40000 & CEO:: Arnab

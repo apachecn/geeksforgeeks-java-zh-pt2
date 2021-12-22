@@ -5,7 +5,7 @@
 **Stream anyMatch(谓词谓词)**返回该流的任何元素是否与提供的谓词匹配。如果不是确定结果所必需的，它可能不会计算所有元素上的谓词。这是一次 ***短路端子操作。*** 如果终端操作在无限输入时可能在有限时间内终止，则该操作为短路。
 **语法:**
 
-```
+```java
 boolean anyMatch(Predicate<**?** super **T**> predicate)
 
 Where, T is the type of the input to the predicate
@@ -20,7 +20,7 @@ otherwise false.
 
 **示例 1 :** anyMatch()函数检查列表中的任何元素是否满足给定条件。
 
-```
+```java
 // Java code for Stream anyMatch
 // (Predicate predicate) to check whether 
 // any element of this stream match 
@@ -47,14 +47,14 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 
 ```
 
 **示例 2 :** anyMatch()函数检查列表中的任何元素在第一个索引处是否有大写字母。
 
-```
+```java
 // Java code for  Stream anyMatch
 // (Predicate predicate) to check whether
 // any element of this stream match
@@ -84,7 +84,7 @@ class GFG {
 
 输出:
 
-```
+```java
 true
 
 ```

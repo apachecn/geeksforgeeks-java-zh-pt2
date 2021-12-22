@@ -6,7 +6,7 @@ Java 中 [StrictMath 类的**Java . lang . strict math . toradians()**方法用�
 
 **语法:**
 
-```
+```java
 public static double toRadians(*double deg*)
 ```
 
@@ -16,7 +16,7 @@ public static double toRadians(*double deg*)
 
 **示例:**
 
-```
+```java
 Input : 120
 Output : 2.0943951023931953
 
@@ -28,7 +28,7 @@ Output : 1.5202515916571408E-5
 下面的程序说明了 java 中的**方法:
 **程序 1:****
 
-```
+```java
 // Java Program to illustrate 
 // StrictMath.toRadians() function 
 
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Value in radian of 108.478 degrees is 1.8932982659784086
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate StrictMath.toRadians()
 // function 
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Value in radian of 360.0 degrees is 6.283185307179586
 
 ```

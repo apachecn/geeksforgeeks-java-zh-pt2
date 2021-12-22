@@ -5,7 +5,7 @@
 我们知道，Java 代码从主方法开始执行。在运行时，如果 JVM 找不到任何主方法，那么我们会得到一个运行时异常:
 **没有这样的方法错误** :
 
-```
+```java
 Main method not found in class, please define the main method as:
 public static void main(String[] args) 
 ```
@@ -22,7 +22,7 @@ public static void main(String[] args)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String[] args)
@@ -34,13 +34,13 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
 **主要语法的含义:**
 
-```
+```java
 public:  JVM can execute the method from anywhere.
 static:  Main method can be called without object.
 void:    The main method doesn't return anything.
@@ -54,7 +54,7 @@ args:- the name of the String array is args.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code to understand that The Order of Modifiers don't matters
 class Test
 {
@@ -67,7 +67,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
@@ -75,7 +75,7 @@ Main Method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String[] args)
@@ -87,13 +87,13 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String []args)
@@ -105,13 +105,13 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String args[])
@@ -123,7 +123,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
@@ -132,7 +132,7 @@ Main Method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Gfg{
 
        public static void main(String[] geeksforgeeks){
@@ -143,7 +143,7 @@ class Gfg{
 
 **输出:**
 
-```
+```java
 Instead of args we have written geeksforgeeks
 ```
 
@@ -152,7 +152,7 @@ Instead of args we have written geeksforgeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code-> using Var-Args instead of the array
 //please note these code may not run in gfg IDE, better run it on other IDEs e.g, eclipse
 class Gfg{
@@ -165,7 +165,7 @@ class Gfg{
 
 **输出:**
 
-```
+```java
 Var-args main method
 ```
 
@@ -173,7 +173,7 @@ Var-args main method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(final String[] args)
@@ -185,7 +185,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
@@ -194,7 +194,7 @@ Main Method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code having the final main method
 ////please note these code may not run in gfg IDE, better run it on other IDEs e.g, eclipse
 class Gfg{
@@ -209,7 +209,7 @@ class Gfg{
 
 **输出:**
 
-```
+```java
 final main method
 ```
 
@@ -217,7 +217,7 @@ final main method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code having Synchronized main method
 //please note these code may not run in gfg IDE, better run it on other IDEs e.g, eclipse
 class Test
@@ -231,7 +231,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
@@ -239,7 +239,7 @@ Main Method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java code-> using strictfp modifier in main method
 //please note these code may not run in gfg IDE, better run it on other IDEs e.g, eclipse
 class Test
@@ -253,7 +253,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method
 ```
 
@@ -263,7 +263,7 @@ Main Method
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Test
 {
     public static void main(String[] args)
@@ -279,7 +279,7 @@ class Test
 
 **输出:**
 
-```
+```java
 Main Method String Array
 ```
 
@@ -287,7 +287,7 @@ Main Method String Array
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class A
 {
     public static void main(String[] args)
@@ -304,7 +304,7 @@ class B extends A
 
 两个类文件，a 类和 b 类是由编译器生成的。当我们处决其中任何一个的时候。类，JVM 执行时不会出错。
 
-```
+```java
 O/P: Java A
 Main Method Parent
 O/P: Java B
@@ -315,7 +315,7 @@ Main Method Parent
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class A
 {
     public static void main(String[] args)
@@ -334,7 +334,7 @@ class B extends A
 
 两个类，a 类和 b 类是由 Java 编译器 javac 生成的。当我们执行。类，JVM 执行时不会出错。
 
-```
+```java
 O/P: Java A
 Main Method Parent
 O/P: Java B

@@ -6,7 +6,7 @@ Java 中的 **UUID 类**的 **toString()** 方法一般用来获取这个 UUID �
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -18,7 +18,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The string representation is: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 
@@ -54,7 +54,7 @@ The string representation is: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toString() method
 
 import java.util.*;
@@ -82,7 +82,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 The string representation is: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 

@@ -8,7 +8,7 @@ Java 中 [Vector 类](https://www.geeksforgeeks.org/java-util-vector-class-java/
 
 **语法:**
 
-```
+```java
 Object[] arr = Vector.toArray()
 ```
 
@@ -20,7 +20,7 @@ Object[] arr = Vector.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [Welcome, To, Geeks, For, Geeks]
 The array is:
 Welcome
@@ -66,7 +66,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -100,7 +100,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [10, 15, 30, 20, 5, 25]
 The array is:
 10
@@ -119,7 +119,7 @@ Java 中[向量类](https://www.geeksforgeeks.org/java-util-vector-class-java/)�
 
 **语法:**
 
-```
+```java
 Object[] arr1 = Vector.toArray(arr[])
 ```
 
@@ -136,7 +136,7 @@ Object[] arr1 = Vector.toArray(arr[])
 
 **程序 1:** 当数组的大小为向量时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -171,7 +171,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -184,7 +184,7 @@ Geeks
 
 **程序 2:** 当数组小于向量的大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -219,7 +219,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -232,7 +232,7 @@ Geeks
 
 **程序 3:** 当数组大于向量大小时
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -267,7 +267,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [Welcome, To, Geeks, For, Geeks]
 The arr[] is:
 Welcome
@@ -285,7 +285,7 @@ null
 
 **程序 4:** 演示空指针异常
 
-```
+```java
 // Java code to illustrate toArray(arr[])
 
 import java.util.*;
@@ -328,7 +328,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 The Vector: [Welcome, To, Geeks, For, Geeks]
 Exception: java.lang.NullPointerException
 

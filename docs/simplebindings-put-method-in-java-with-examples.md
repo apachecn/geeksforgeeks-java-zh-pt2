@@ -5,7 +5,7 @@
 **简单绑定类**的 **put()** 方法用于在简单绑定对象中添加指定的键和值对。键和值都作为参数传递。该键被重命名为要在 SimpleBindings 对象中设置的值的名称。设置值后，方法返回指定键的前一个值，如果该键以前未设置，它将返回 null。
 **语法:**
 
-```
+```java
 public Object put(String name, Object value)
 ```
 
@@ -25,7 +25,7 @@ Java 程序演示 put()方法的工作原理:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate get() method
 
 import javax.script.SimpleBindings;
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Key1: value1
 Key2: value2
 Key3: value3
@@ -66,7 +66,7 @@ Key3: value3
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate get() method
 
 import javax.script.SimpleBindings;
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 India
 Sri Lanka
 Pakistan

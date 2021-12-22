@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **minusHours()** 方法返回这个 OffsetTime 的一
 
 **语法:**
 
-```
+```java
 public OffsetTime minusHours(long hours)
 
 ```
@@ -19,7 +19,7 @@ public OffsetTime minusHours(long hours)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the minusHours() method
 
 import java.time.OffsetTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After subtraction, time is: 06:10:10+05:05
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusHours() method
 
 import java.time.OffsetTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After subtraction, time is: 16:10:10+05:05
 
 ```

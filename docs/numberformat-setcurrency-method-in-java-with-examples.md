@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setCurrency(Currency currency)
 ```
 
@@ -24,7 +24,7 @@ public void setCurrency(Currency currency)
 
 **程序 1** :
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -57,7 +57,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Initially Currency: USD
 Currency set as: CAD
 
@@ -65,7 +65,7 @@ Currency set as: CAD
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -102,7 +102,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Initially Currency: USD
 Exception is: java.lang.NullPointerException
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void nextBytes(byte[] bytes)  
 
 ```
@@ -21,7 +21,7 @@ public void nextBytes(byte[] bytes)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextBytes()
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random bytes = [ -90 -126 -75 50 -117 -13 -55 -63 -117 47 ]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextBytes()
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random bytes = [ -82 75 -105 41 -34 94 81 10 -107 -46 37 4 -1 100 -119 ]
 
 ```

@@ -41,7 +41,7 @@ Java 定义了几种与其不同类库相关的异常类型。Java 还允许用�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ArithmeticException
 class ArithmeticException_Demo
 {
@@ -61,7 +61,7 @@ class ArithmeticException_Demo
 
 **输出:**
 
-```
+```java
 Can't divide a number by 0
 ```
 
@@ -69,7 +69,7 @@ Can't divide a number by 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate NullPointerException
 class NullPointer_Demo
 {
@@ -87,7 +87,7 @@ class NullPointer_Demo
 
 **输出:**
 
-```
+```java
 NullPointerException..
 ```
 
@@ -95,7 +95,7 @@ NullPointerException..
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate StringIndexOutOfBoundsException
 class StringIndexOutOfBound_Demo
 {
@@ -115,7 +115,7 @@ class StringIndexOutOfBound_Demo
 
 **输出:**
 
-```
+```java
 StringIndexOutOfBoundsException
 ```
 
@@ -123,7 +123,7 @@ StringIndexOutOfBoundsException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 //Java program to demonstrate FileNotFoundException
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -146,7 +146,7 @@ import java.io.FileReader;
 
 **输出:**
 
-```
+```java
 File does not exist
 ```
 
@@ -154,7 +154,7 @@ File does not exist
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate NumberFormatException
 class  NumberFormat_Demo
 {
@@ -174,7 +174,7 @@ class  NumberFormat_Demo
 
 **输出:**
 
-```
+```java
 Number format exception
 ```
 
@@ -182,7 +182,7 @@ Number format exception
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate ArrayIndexOutOfBoundException
 class ArrayIndexOutOfBound_Demo
 {
@@ -202,7 +202,7 @@ class ArrayIndexOutOfBound_Demo
 
 **输出:**
 
-```
+```java
 Array Index is Out Of Bounds
 ```
 
@@ -213,20 +213,20 @@ Array Index is Out Of Bounds
 
 *   用户应该创建一个异常类作为异常类的子类。因为所有的异常都是异常类的子类，所以用户也应该使他的类成为它的子类。这是通过以下方式完成的:
 
-```
+```java
 class MyException extends Exception
 ```
 
 *   我们可以在他自己的异常类中编写一个默认构造函数。
 
-```
+```java
 MyException(){}
 ```
 
 *   我们还可以创建一个参数化的构造函数，用一个字符串作为参数。
     我们可以用这个来存储异常详细信息。我们可以从这里调用超类(异常)构造函数，并将字符串发送到那里。
 
-```
+```java
 MyException(String str)
 {
    super(str);
@@ -235,7 +235,7 @@ MyException(String str)
 
 *   要引发用户定义类型的异常，我们需要为他的异常类创建一个对象，并使用 throw 子句抛出它，如下所示:
 
-```
+```java
 MyException me = new MyException(“Exception details”);
 throw me;
 ```
@@ -247,7 +247,7 @@ throw me;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate user defined exception
 
 // This program throws an exception whenever balance
@@ -302,14 +302,14 @@ class MyException extends Exception
 
 运行时错误
 
-```
+```java
  MyException: Balance is less than 1000
     at MyException.main(fileProperty.java:36)
 ```
 
 **输出:**
 
-```
+```java
 ACCNO    CUSTOMER    BALANCE
 1001    Nish    10000.0
 1002    Shubh    12000.0

@@ -42,7 +42,7 @@ Java 中的运算符用于对变量和值执行操作。
 
 **语法:**
 
-```
+```java
 left_operand  <<  number
 ```
 
@@ -58,7 +58,7 @@ left_operand  <<  number
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // the Signed left shift operator
 import java.io.*;
@@ -78,7 +78,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 8
 ```
 
@@ -90,7 +90,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 left_operand  >>  number
 ```
 
@@ -106,7 +106,7 @@ left_operand  >>  number
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // the Signed right shift operator
 import java.io.*;
@@ -127,7 +127,7 @@ class GFG 
 
 **输出**
 
-```
+```java
 2
 ```
 
@@ -137,13 +137,13 @@ class GFG 
 
 **语法:**
 
-```
+```java
 left_operand  >>>  number
 ```
 
 ## Java
 
-```
+```java
 // Java program to demonstrate
 // the Unsigned right shift operator
 import java.io.*;
@@ -163,7 +163,7 @@ class GFG 
 
 **输出**
 
-```
+```java
 2
 1073741822
 ```

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public boolean remove(Object o)
 ```
 
@@ -19,7 +19,7 @@ public boolean remove(Object o)
 
 **程序 1:**
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of PriorityBlockingQueue
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [1, 2, 3, 4]
 
 2 removed: true
@@ -72,7 +72,7 @@ Queue:  [1, 4, 3]
 
 ```
 
-```
+```java
 // Java Program Demonstrate remove()
 // method of PriorityBlockingQueue
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Queue: [A Computer, Portal, Geeks, forGeeks]
 
 Geeks removed: true

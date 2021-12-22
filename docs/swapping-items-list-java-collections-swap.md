@@ -6,7 +6,7 @@
 
 **java.util.Collections . swap()**方法是一个 Java . util . collections 类方法。它交换给定列表中指定位置的元素。
 
-```
+```java
 // Swaps elements at positions "i" and "j" in myList.
 public static void swap(List mylist, int i, int j)
 
@@ -15,7 +15,7 @@ or j is out of range.
 
 ```
 
-```
+```java
 // Java program to demonstrate working of Collections.swap
 import java.util.*;
 
@@ -50,7 +50,7 @@ public class GFG
 
 输出:
 
-```
+```java
 Original List : Original List : 
 [code, practice, quiz, geeksforgeeks]
 

@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```java
 Input: List : [1="1", 2="2", 3="3"]
 Output: Map : {1=1, 2=2, 3=3}
 
@@ -29,7 +29,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
     3.  遍历列表中的项目，并将它们添加到地图中。
     4.  返回形成的地图
 
-    ```
+    ```java
     // Java program for list convert in map
     // with the help of Object method
 
@@ -103,7 +103,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
 
     **Output:**
 
-    ```
+    ```java
     Map  : {1=Geeks, 2=For, 3=Geeks}
 
     ```
@@ -111,7 +111,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
 2.  **使用 Collectors.toMap()方法:**该方法包括创建学生对象列表，并使用 Collectors.toMap()将其转换为地图。
     **进场:**
 
-    ```
+    ```java
     // Java program for list convert  in map
     // with the help of Collectors.toMap() method
 
@@ -188,7 +188,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
 
     **出场:**
 
-    ```
+    ```java
     1=Geeks
     2=For
     3=Geeks
@@ -210,7 +210,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
     4.  使用 stream.collect()方法收集形成的地图
     5.  返回形成的地图
 
-    ```
+    ```java
     // Java program for list convert  in map
     // with the help of Collectors.groupingBy() method
 
@@ -290,7 +290,7 @@ Output: Map : {1=Geeks, 2=for, 3=Geeks}
 
     **Output:**
 
-    ```
+    ```java
     MultiMap = {1=[Geeks, For], 2=[Geeks, GeeksForGeeks]}
 
     ```

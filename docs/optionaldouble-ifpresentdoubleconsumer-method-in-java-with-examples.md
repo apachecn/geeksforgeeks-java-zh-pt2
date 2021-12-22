@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void ifPresentOrElse(DoubleConsumer action)
 
 ```
@@ -21,7 +21,7 @@ public void ifPresentOrElse(DoubleConsumer action)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.ifPresent(DoubleConsumer) method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.ifPresent(DoubleConsumer) method
 

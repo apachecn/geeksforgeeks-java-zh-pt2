@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public void setSize(int size)
 ```
 
@@ -20,7 +20,7 @@ public void setSize(int size)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setSize() method for Integer value
 
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40]
 Current size of Stack: 4
 New size of Stack: 10
@@ -75,7 +75,7 @@ New size of Stack: 10
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setSize() method for String value
 
@@ -122,7 +122,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [A, B, C, D]
 Current size of Stack: 4
 Exception thrown : java.lang.ArrayIndexOutOfBoundsException: -1

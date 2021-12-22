@@ -4,7 +4,7 @@
 
 在 Java 中，treemap 类的 clone()方法用于返回所提到的 TreeMap 的浅拷贝。它只是创建了一个地图的副本。
 
-```
+```java
 --> java.util Package
     --> TreeMap Class
         --> clone() Method 
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Map.clone()
 ```
 
@@ -24,7 +24,7 @@ Tree_Map.clone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate clone() method
 // of TreeMap class
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The cloned map look like this: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 ```
@@ -73,7 +73,7 @@ The cloned map look like this: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to Illustrate clone() Method
 // of TreeMap class
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The cloned map look like this: {4=15, Geeks=20, Welcomes=25, You=30}
 ```

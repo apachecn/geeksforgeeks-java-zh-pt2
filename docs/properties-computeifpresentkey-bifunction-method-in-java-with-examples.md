@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 public Object computeIfPresent?(Object key,
                               BiFunction remappingFunction)
 ```
@@ -29,7 +29,7 @@ public Object computeIfPresent?(Object key,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfPresent(Key, BiFunction) method.
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 New Properties: {Book=800, Mobile=5000, Pen=600, Clothes=400}
 
@@ -76,7 +76,7 @@ New Properties: {Book=800, Mobile=5000, Pen=600, Clothes=400}
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // computeIfPresent(Key, BiFunction) method.
 
@@ -118,7 +118,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 New Properties: {3=00RS, 2=500RS, 1=100RS}
 

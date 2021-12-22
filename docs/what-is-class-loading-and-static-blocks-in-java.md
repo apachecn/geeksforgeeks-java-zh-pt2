@@ -32,7 +32,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate static block concept
 // alongside discussing the class loading
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 I am static block and will be shown to eyeballs first no matter what
 I am the only line in main method but static block is hindering me to display first
 

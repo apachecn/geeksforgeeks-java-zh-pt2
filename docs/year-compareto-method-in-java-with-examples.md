@@ -5,7 +5,7 @@
 Java 中 Year 类的 compareTo()方法用于比较这个 Year 对象和另一个 Year 对象。年份对象的比较基于年份的值。
 **语法** :
 
-```
+```java
 public int compareTo(Year otherYear)
 ```
 
@@ -16,7 +16,7 @@ public int compareTo(Year otherYear)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -40,7 +40,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 -1
 ```
 
@@ -48,7 +48,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -72,7 +72,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 0
 ```
 

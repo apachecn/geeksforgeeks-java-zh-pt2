@@ -12,7 +12,7 @@ java 中的增量有两种执行方式，
 
 **例**
 
-```
+```java
 int i = 3;
 int a = i++; // a = 3, i = 4
 int b = ++a; // b = 4, a = 4
@@ -22,7 +22,7 @@ int b = ++a; // b = 4, a = 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate pre and post increment
 // operators
 
@@ -52,7 +52,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Post-Increment
 0
 Pre-Increment
@@ -63,7 +63,7 @@ Pre-Increment
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Applying increment operator on a constant value
 
 import java.io.*;
@@ -81,7 +81,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 prog.java:8: error: unexpected type
           int x = ++ 10;
                      ^

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ResolverStyle valueOf(String name)
 
 ```
@@ -23,7 +23,7 @@ public static ResolverStyle valueOf(String name)
 以下程序说明了 ResolverStyle.valueOf()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ResolverStyle.valueOf() method
 
@@ -46,14 +46,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ResolverStyle: SMART
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ResolverStyle.valueOf() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ResolverStyle: LENIENT
 
 ```

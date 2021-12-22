@@ -28,7 +28,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to List
 
@@ -76,7 +76,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [Geeks, forGeeks, A computer Portal]
     List: [Geeks, forGeeks, A computer Portal]
 
@@ -92,7 +92,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Array to List
 
@@ -135,7 +135,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array: [Geeks, forGeeks, A computer Portal]
     List: [Geeks, forGeeks, A computer Portal]
 

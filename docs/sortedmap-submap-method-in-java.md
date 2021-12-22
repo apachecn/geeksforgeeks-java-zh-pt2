@@ -10,7 +10,7 @@ Java 中 **SortedMap 接口的 subMap()方法用于返回该地图的一部分�
 
 **语法** :
 
-```
+```java
 SortedMap<K, V> subMap(K fromKey,
                       K toKey)
 
@@ -34,7 +34,7 @@ SortedMap<K, V> subMap(K fromKey,
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -62,14 +62,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Elements in range from 2 to 5 in the map is : {2=Two, 3=Three, 4=Four}
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -96,7 +96,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Key in range from D to Z in the map is : {Five=It, Four=Code, One=Geeks, Three=Geeks, Two=For}
 
 ```

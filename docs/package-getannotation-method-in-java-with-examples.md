@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public T getAnnotation(Class<T> annotationClass)
 
 ```
@@ -23,7 +23,7 @@ public T getAnnotation(Class<T> annotationClass)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotation() method
 
@@ -72,7 +72,7 @@ public class Test {
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getAnnotation() method
 

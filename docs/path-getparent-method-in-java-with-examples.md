@@ -6,13 +6,13 @@ Java 7 中的 [Java NIO](https://www.geeksforgeeks.org/tag/java-nio-package/) �
 
 **getParent()** 方法的 **java.nio.file.Path** 用来返回当前路径对象的父路径，如果该路径没有父路径则为 null。此路径对象的父路径由此路径的根组件和路径中的每个元素组成，但离目录层次结构中的根最远的元素除外。如果此路径有多个元素，并且没有根组件，则此方法相当于计算表达式:
 
-```
+```java
 subpath(0, getNameCount()-1);
 ```
 
 **语法:**
 
-```
+```java
 Path getParent()
 
 ```
@@ -24,7 +24,7 @@ Path getParent()
 以下程序说明 getParent()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getParent() method
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Parent Path: D:/workspace
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getParent() method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Parent Path: D:
 
 ```

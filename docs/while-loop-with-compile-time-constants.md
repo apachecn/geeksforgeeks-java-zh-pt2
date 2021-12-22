@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 while(test_expression)
 {
    // statements 
@@ -20,7 +20,7 @@ while(test_expression)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // while loop
 
@@ -45,7 +45,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Hello World
 Hello World
 Hello World
@@ -60,7 +60,7 @@ Hello World
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate while loop
 import java.io.*;
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Done!
 
 ```
@@ -93,7 +93,7 @@ Done!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // above statement
 
@@ -121,7 +121,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // above statement
 import java.io.*;
@@ -150,7 +150,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // above approach
 import java.io.*;
@@ -172,7 +172,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Inside Loop
 Done!
 
@@ -184,14 +184,14 @@ Done!
 
 编译时常数是指其各自值在编译时已知的常数。[原始数据类型](https://www.geeksforgeeks.org/data-types-in-java/)和[字符串](https://www.geeksforgeeks.org/python-strings/)的最终变量可以是编译时常数。它们必须用它们的声明初始化。下面是编译时常数的示例:
 
-```
+```java
 final int i = 100;
 final String str = "Hello";
 ```
 
 以下不是编译时常数:
 
-```
+```java
 final int j;
 j = 10;
 final Integer k = 20;
@@ -201,7 +201,7 @@ final Integer k = 20;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // while loop with compile-time
 // constant
@@ -233,7 +233,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // above statement
 import java.io.*;
@@ -256,7 +256,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Done!
 
 ```
@@ -269,7 +269,7 @@ Done!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the while
 // loop with compiled time constant
 import java.io.*;
@@ -293,7 +293,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Done!
 
 ```
@@ -304,7 +304,7 @@ Done!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // above statement
 import java.io.*;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object o)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object o)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate equals()
 // method of Set
 
@@ -69,7 +69,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 First Set: [A, B, C, D, E]
 Second Set: [A, B, C, D, E]
 Are both set equal? true
@@ -78,7 +78,7 @@ Are both set equal? true
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate equals()
 // method of Set
 
@@ -125,7 +125,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 First Set: [50, 20, 40, 10, 30]
 Second Set: [20, 10, 30]
 Are both set equal? false

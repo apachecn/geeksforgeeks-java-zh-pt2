@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getDisplayName(TextStyle style, Locale locale)
 
 ```
@@ -19,7 +19,7 @@ public String getDisplayName(TextStyle style, Locale locale)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getDisplayName() method
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Display Name: +05:30
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.getDisplayName() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Display Name: +05:30
 
 ```

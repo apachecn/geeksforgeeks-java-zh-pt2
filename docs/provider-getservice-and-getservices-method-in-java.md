@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Provider.Service getService(String type, String algorithm)
 ```
 
@@ -27,7 +27,7 @@ public Provider.Service getService(String type, String algorithm)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getService() method
 
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider service : SUN: Signature.SHA1withDSA -> sun.security.provider.DSA$SHA1withDSA
   aliases: [DSA, DSS, SHA/DSA, SHA-1/DSA, SHA1/DSA, SHAwithDSA, DSAWithSHA1, OID.1.2.840.10040.4.3, 1.2.840.10040.4.3, 1.3.14.3.2.13, 1.3.14.3.2.27]
   attributes: {ImplementedIn=Software, KeySize=1024, SupportedKeyClasses=java.security.interfaces.DSAPublicKey|java.security.interfaces.DSAPrivateKey}
@@ -72,7 +72,7 @@ Provider service : SUN: Signature.SHA1withDSA -> sun.security.provider.DSA$SHA1w
 
 **示例 2:** 展示 getService()方法抛出的 NullPointerException。
 
-```
+```java
 // Java program to demonstrate
 // getService() method
 
@@ -112,7 +112,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Exception thrown : java.lang.NullPointerException
 
 ```
@@ -123,7 +123,7 @@ Exception thrown : java.lang.NullPointerException
 
 **语法:**
 
-```
+```java
 public Set<Provider.Service> getServices()
 ```
 
@@ -133,7 +133,7 @@ public Set<Provider.Service> getServices()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // getService() method
 
@@ -184,7 +184,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Provider servicelist : 
 
 Value is : SUN: SecureRandom.NativePRNG -> sun.security.provider.NativePRNG

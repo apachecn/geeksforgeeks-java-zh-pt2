@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input : ArrayList: [5, 6, 8, 10]
 Output:
 Value is : 5
@@ -26,7 +26,7 @@ Value is : 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Traverse through ArrayList in
 // forward direction using Java
 import java.util.*;
@@ -54,7 +54,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Value is : 5
 Value is : 6
 Value is : 8
@@ -71,7 +71,7 @@ Value is : 10
 
 ## Java
 
-```
+```java
 // Traverse through ArrayList in
 // forward direction using Java
 import java.util.*;
@@ -97,7 +97,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Value is : 5
 Value is : 6
 Value is : 8
@@ -114,7 +114,7 @@ Value is : 10
 
 ## Java
 
-```
+```java
 // Traverse through ArrayList in
 // forward direction using Java
 import java.util.*;
@@ -139,7 +139,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Value is : 5
 Value is : 6
 Value is : 8
@@ -156,7 +156,7 @@ Value is : 10
 
 ## Java
 
-```
+```java
 // Traverse through ArrayList in
 // forward direction using Java
 import java.util.*;
@@ -181,7 +181,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 Value is : 5
 Value is : 6
 Value is : 8

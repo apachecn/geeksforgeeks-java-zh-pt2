@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Vector.remove(int index)
     ```
 
@@ -18,7 +18,7 @@
 
     下面的程序说明了 Java . util . vector . remove(int index)方法:
 
-    ```
+    ```java
     // Java code to illustrate remove() when position of
     // element is passed as parameter
     import java.util.*;
@@ -54,7 +54,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Vector: [Geeks, for, Geeks, 10, 20]
     Removed element: 20
     Final Vector: [Geeks, for, Geeks, 10]
@@ -67,7 +67,7 @@
 
     **语法:**
 
-    ```
+    ```java
     Vector.remove(Object o)
     ```
 
@@ -77,7 +77,7 @@
 
     下面的程序说明了方法:
 
-    ```
+    ```java
     // Java code to illustrate remove() method
     import java.util.*;
 
@@ -126,7 +126,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Vector: [Geeks, for, Geeks, 10, 20]
     Geeks found and removed.
     500 not found or removed.

@@ -37,7 +37,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // IllegalArgumentException in Java
 
 // Class
@@ -71,7 +71,7 @@ ArrayIndexOutOfBoundsException 是一个只在运行时抛出的运行时异常�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // ArrayIndexOutOfBoundsException in Java
 
 // Importing all classes of
@@ -114,7 +114,7 @@ StackOverflowError 是 Java 不允许捕捉的错误，例如，堆栈空间不�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // StackOverflowException in Java
 
 // Importing all classes of 
@@ -162,7 +162,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // NumberFormatException in Java
 
 // Importing input output java classes
@@ -206,7 +206,7 @@ Null 是 Java 中使用的特殊值。主要用于表示没有给引用变量赋
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // NullPointerException in Java
 
 // Importing all classes of

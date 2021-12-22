@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public TemporalField weekOfYear()
 
 ```
@@ -26,7 +26,7 @@ public TemporalField weekOfYear()
 下面的程序说明了 WeekFields.weekOfYear()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekOfYear() method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Week of year for 2021-12-21 :52
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.weekOfYear() method
 
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Week of year for 2014-10-12 :42
 
 ```

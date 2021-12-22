@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getYear()
 
 ```
@@ -19,7 +19,7 @@ public int getYear()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getYear() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 year:2018
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getYear() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 year:1918
 
 ```

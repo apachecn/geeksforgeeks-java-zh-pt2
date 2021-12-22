@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Temporal adjustInto(Temporal temporalInstance)
 
 ```
@@ -24,7 +24,7 @@ public Temporal adjustInto(Temporal temporalInstance)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate adjustInto() method
 
 import java.time.temporal.*;
@@ -58,7 +58,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original Temporal instance: 2018-12-11T09:44:14.373Z[Etc/UTC]
 Adjusted Temporal instance: 2018-12-11T09:44:14.373Z[Etc/UTC]
 
@@ -66,7 +66,7 @@ Adjusted Temporal instance: 2018-12-11T09:44:14.373Z[Etc/UTC]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate adjustInto() method
 
 import java.time.temporal.*;
@@ -100,7 +100,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Original Temporal instance: 2018-12-11T09:44:16.893Z
 Adjusted Temporal instance: 2018-12-11T09:44:16.893+05:00
 

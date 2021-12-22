@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 public int drainTo(Collection<? super E> col)
 ```
 
@@ -31,7 +31,7 @@ public int drainTo(Collection<? super E> col)
 
 **示例 1:** 程序演示 PriorityBlockingQueue 上的 drainTo()方法，该方法包含数组列表的数字列表。
 
-```
+```java
 // Java Program Demonstrate drainTo()
 // method of PriorityBlockingQueue
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No of elements drained :6
 ArrayList Contains element
 5278367
@@ -90,7 +90,7 @@ ArrayList Contains element
 **示例 2:**
 下面的程序演示了 drainTo()方法引发的异常。
 
-```
+```java
 // Java Program Demonstrate drainTo()
 // method of PriorityBlockingQueue
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception Thrown: java.lang.NullPointerException
 
 ```

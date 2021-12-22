@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 static <T> Stream<T> generate(Supplier<T> s)
 
 Where, Stream is an interface and T
@@ -20,7 +20,7 @@ unordered Stream.
 
 **示例 1 :** 生成随机整数流。
 
-```
+```java
 // Java code for Stream.generate()
 // to generate an infinite sequential
 // unordered stream
@@ -42,7 +42,7 @@ class GFG {
 
 输出:
 
-```
+```java
 697197501
 50139200
 321540264
@@ -53,7 +53,7 @@ class GFG {
 
 **示例 2 :** 生成随机 Double 流。
 
-```
+```java
 // Java code for Stream.generate()
 // to generate an infinite sequential
 // unordered stream
@@ -75,7 +75,7 @@ class GFG {
 
 输出:
 
-```
+```java
 0.5390254520295368
 0.8477297185718798
 0.23703352435894398

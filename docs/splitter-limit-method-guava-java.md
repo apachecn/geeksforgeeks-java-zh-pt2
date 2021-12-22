@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Splitter limit(int limit)
 
 ```
@@ -18,7 +18,7 @@ public Splitter limit(int limit)
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // limit(int limit) method
 // of Guava's Splitter Class
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 When Limit is 3 : 
 geeks
 .  for
@@ -83,7 +83,7 @@ geeks, ., noida, ., classes
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // limit(int limit) method
 // of Guava's Splitter Class
@@ -132,7 +132,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 When Limit is 2 : 
 Learn,,Data $ structures 123$ to be $ best Coder..
 

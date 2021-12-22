@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static OffsetDateTime now()
     ```
 
@@ -19,7 +19,7 @@
     下面的程序说明了 Java 中 OffsetDateTime 类的 now()方法:
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // OffsetDateTime now() method
 
@@ -43,7 +43,7 @@
 
     **Output:**
 
-    ```
+    ```java
     DATE-TIME: 2020-05-20T05:40:08.721Z
 
     ```
@@ -52,7 +52,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static OffsetDateTime now(Clock clock)
 
     ```
@@ -67,7 +67,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // OffsetDateTime now(Clock clock) method
 
@@ -92,7 +92,7 @@
 
     **Output:**
 
-    ```
+    ```java
     DATE-TIME: 2020-05-20T13:12:18.825Z
 
     ```
@@ -101,7 +101,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static OffsetDateTime now(ZoneId zone)
 
     ```
@@ -116,7 +116,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // OffsetDateTime now(ZoneId zone) method
 
@@ -141,7 +141,7 @@
 
     **Output:**
 
-    ```
+    ```java
     DATE-TIME: 2020-05-20T13:12:40.458Z
 
     ```

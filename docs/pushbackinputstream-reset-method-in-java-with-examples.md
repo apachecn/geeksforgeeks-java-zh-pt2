@@ -6,7 +6,7 @@ Java 中**推回输入流**类的 **reset()** 方法用于将蒸汽重置到调�
 
 **语法:**
 
-```
+```java
 public void reset()
            throws IOException
 
@@ -24,7 +24,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream reset() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream reset() method
 

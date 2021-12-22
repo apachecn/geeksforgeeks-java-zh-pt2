@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 first_StringWriter.equals(second_StringWriter)
 ```
 
@@ -22,7 +22,7 @@ first_StringWriter.equals(second_StringWriter)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 
 import java.io.*;
@@ -59,7 +59,7 @@ public class StringWriter_Demo {
 
 **Output:**
 
-```
+```java
 StringWriter 1: GeeksForGeeks
 StringWriter 2: GFG
 Are both of them equal? false
@@ -68,7 +68,7 @@ Are both of them equal? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the equals() method
 
 import java.io.*;
@@ -105,7 +105,7 @@ public class StringWriter_Demo {
 
 **Output:**
 
-```
+```java
 StringWriter 1: GFG
 StringWriter 2: GFG
 Are both of them equal? false

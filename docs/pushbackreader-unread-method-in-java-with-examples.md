@@ -8,7 +8,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **语法:**
 
-    ```
+    ```java
     public void unread(int c)
                 throws IOException
 
@@ -24,7 +24,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader unread(int) method
 
@@ -64,7 +64,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
     A
 
@@ -72,7 +72,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader unread(int) method
 
@@ -112,7 +112,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKSFORGEEKS
     Z
 
@@ -122,7 +122,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **语法:**
 
-    ```
+    ```java
     public void unread(char[] cbuf)
                 throws IOException
 
@@ -138,7 +138,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader unread(char[]) method
 
@@ -184,7 +184,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
     ABC
 
@@ -192,7 +192,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader unread(char[]) method
 
@@ -238,7 +238,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKSFORGEEKS
     XYZ
 
@@ -248,7 +248,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **语法:**
 
-    ```
+    ```java
     public void unread(char[] cbuf,
                        int offset,
                        int length)
@@ -270,7 +270,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 1:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader
     // unread(char[], int, int) method
@@ -319,7 +319,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKS
     CDE
 
@@ -327,7 +327,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **程序 2:**
 
-    ```
+    ```java
     // Java program to illustrate
     // PushbackReader
     // unread(char[], int, int) method
@@ -376,7 +376,7 @@ Java 中**推回阅读器**类的**未读()**方法有三种类型:
 
     **Output:**
 
-    ```
+    ```java
     GEEKSFORGEEKS
     XYZ
 

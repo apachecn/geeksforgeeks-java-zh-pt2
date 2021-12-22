@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Priority_Queue.clear()
 ```
 
@@ -18,7 +18,7 @@ Priority_Queue.clear()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.PriorityQueue;
 
@@ -49,7 +49,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [4, Geeks, To, Welcome, Geeks]
 The final Queue: []
 
@@ -57,7 +57,7 @@ The final Queue: []
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -88,7 +88,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [5, 10, 30, 20, 15]
 The final Queue: []
 

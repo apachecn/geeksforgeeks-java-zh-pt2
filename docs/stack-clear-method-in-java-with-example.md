@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.clear()
 ```
 
@@ -20,7 +20,7 @@ Stack.clear()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The final Stack: []
 
@@ -59,7 +59,7 @@ The final Stack: []
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate clear()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 The final Stack: []
 

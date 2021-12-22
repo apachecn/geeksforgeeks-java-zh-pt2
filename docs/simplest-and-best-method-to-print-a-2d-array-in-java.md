@@ -7,7 +7,7 @@
 **方法 1: Loop 方法**
 首先想到的是为 Loop 写一个嵌套，通过 arr[i][j]打印每个元素。
 
-```
+```java
 // Java program to print 2d array
 // using Loop method
 
@@ -39,7 +39,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 [ 1,  2,  3, ], [ 4,  5,  6, ], [ 7,  8,  9, ],
 
 ```
@@ -47,7 +47,7 @@ class GFG {
 **方法 2: [Arrays.deepToString()](https://www.geeksforgeeks.org/arrays-deeptostring-in-java-with-example/) 方法(最简单的方法)**
 为此，我们将在 Java 的 util 包中使用 Arrays 类的 [deepToString()方法。这个方法帮助我们获取数组的字符串表示形式。借助 print()或 println()方法可以轻松打印该字符串。这是用 Java 打印 2D 数组的最好也是最简单的方法](https://www.geeksforgeeks.org/arrays-deeptostring-in-java-with-example/)
 
-```
+```java
 // Java program to print 2d array
 // using Arrays.deepToString() method
 
@@ -74,7 +74,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Array: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 ```

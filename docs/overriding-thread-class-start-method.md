@@ -4,7 +4,7 @@
 
 每当我们重写 start()方法时，我们的 start()方法就会像正常的方法调用一样执行，并且不会创建新的线程。我们可以覆盖线程类的启动/运行方法，因为它不是最终的。但是**不建议超驰 start()方法**，否则会破坏多线程概念。
 
-```
+```java
 // Java program illustrate the concept of
 // overriding of start() method
 class Bishal extends Thread {
@@ -28,7 +28,7 @@ public static void main(String[] args)
 
 **输出:**
 
-```
+```java
 Start Method
 Main Method
 
@@ -42,7 +42,7 @@ Main Method
 当我们在线程上调用 start()方法时，它会在内部用新创建的线程调用 run()方法。因此，如果我们重写 start()方法，那么 run()方法将不会被调用，直到我们编写用于调用 run()方法的代码。
 **另一个例子:**
 
-```
+```java
 class GThread extends Thread
 {
     public void run()
@@ -84,7 +84,7 @@ public class MyTest 
 
 输出:
 
-```
+```java
 GThread: start()
 GRunnable: run()
 

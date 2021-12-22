@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Pattern delimiter()
 ```
 
@@ -16,7 +16,7 @@ public Pattern delimiter()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // delimiter() method of Scanner class in Java
 
@@ -49,7 +49,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: 
 Geeksforgeeks has Scanner Class Methods
 
@@ -59,7 +59,7 @@ Delimiter being used in Scanner: \p{javaWhitespace}+
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // delimiter() method of Scanner class in Java
 
@@ -95,7 +95,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: 
 Geeksforgeeks.has.Scanner.Class.Methods
 

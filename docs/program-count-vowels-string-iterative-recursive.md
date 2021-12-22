@@ -7,7 +7,7 @@
 2。
 递归**示例:**T5】
 
-```
+```java
 Input : abc de
 Output : 2
 
@@ -20,7 +20,7 @@ Output : 7
 
 ## C++
 
-```
+```java
 // C++ program to count vowels in a string
 #include<iostream>
 using namespace std;
@@ -57,7 +57,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to count vowels in a string
 public class GFG {
 
@@ -94,7 +94,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program to count vowels
 # in a string
 
@@ -126,7 +126,7 @@ print(countVowels(str))
 
 ## C#
 
-```
+```java
 // C# program to count vowels in a string
 using System;
 
@@ -175,7 +175,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP program to count vowels in a string
 
@@ -213,7 +213,7 @@ echo countVowels($str) . "\n";
 
 ## java 描述语言
 
-```
+```java
 <script>
       // JavaScript program to count vowels in a string
 
@@ -250,7 +250,7 @@ echo countVowels($str) . "\n";
 
 **输出:**
 
-```
+```java
 2
 ```
 
@@ -259,7 +259,7 @@ echo countVowels($str) . "\n";
 
 ## C++
 
-```
+```java
 // Recursive C++ program to count the total
 // number of vowels using recursion
 #include<iostream>
@@ -296,7 +296,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Recursive Java program to count the total
 // number of vowels using recursion
 public class GFG {
@@ -335,7 +335,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Recursive Python 3 program to count the
 # total number of vowels using recursion
 
@@ -366,7 +366,7 @@ print(countVovels(str, len(str)))
 
 ## C#
 
-```
+```java
 using System;
 
 // Recursive C# program to count the total
@@ -415,7 +415,7 @@ public class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // Recursive PHP program to count the total
 // number of vowels using recursion
@@ -455,7 +455,7 @@ echo countVovels($str, strlen($str)) . "\n";
 
 **输出:**
 
-```
+```java
 2
 ```
 

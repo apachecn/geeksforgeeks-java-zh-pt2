@@ -9,7 +9,7 @@
 
 **这就是 UTF-8 编码的工作原理:**
 
-```
+```java
   Char. number range   |        UTF-8 octet sequence
       (hexadecimal)    |              (binary)
    --------------------+---------------------------------------------
@@ -54,7 +54,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to check whether the data
 // is a valid UTF-8 encoding
 
@@ -129,7 +129,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 ```
 

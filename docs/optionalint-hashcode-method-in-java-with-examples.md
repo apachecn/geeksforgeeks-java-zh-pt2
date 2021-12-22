@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.hashCode() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt: OptionalInt[253]
 HashCode value: 253
 
@@ -54,7 +54,7 @@ HashCode value: 253
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.hashCode() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt: OptionalInt.empty
 HashCode value: 0
 

@@ -6,7 +6,7 @@ Java 中 Stack 类的**Java . util . Stack . equals(Object obj)**方法用于验
 
 **语法:**
 
-```
+```java
 first_Stack.equals(second_Stack)
 ```
 
@@ -18,7 +18,7 @@ first_Stack.equals(second_Stack)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -62,7 +62,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, 4, Geeks, Welcomes, You]
 The Stack is: [Geeks, 4, Geeks, Welcomes, You]
 Are both of them equal? true
@@ -71,7 +71,7 @@ Are both of them equal? true
 
 **程序 2 :**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -114,7 +114,7 @@ public class Stack_Demo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 15, 20, 25, 30]
 The Stack is: [10, 15, 20, 25, 30, 40]
 Are both of them equal? false

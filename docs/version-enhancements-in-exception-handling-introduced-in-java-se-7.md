@@ -15,7 +15,7 @@
 
 **例如:**
 
-```
+```java
 // Java program to illustrate cleaning of
 // resources before Java 7
 
@@ -78,7 +78,7 @@ class Resource {
 
 **输出:**
 
-```
+```java
 hello
 java
 
@@ -89,7 +89,7 @@ java
 1.  **试配资源**的主要优势在于，作为[试配块](https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java/)的一部分打开的资源，一旦控制正常或异常到达试配块的末尾，就会被**自动关闭**。因此，我们不需要显式关闭它。因此，编程的复杂性将会降低。
 2.  我们可以声明任意数量的资源，但是所有这些资源都应该用分号(；)
 
-    ```
+    ```java
     try(R1;R2;R3)
     {
     - - - - - - -
@@ -103,7 +103,7 @@ java
     比如所有数据库相关、网络相关、文件 IO 相关的资源都已经实现了 AutoCloseable 接口。
 4.  所有资源引用变量都是隐式最终的，因此我们不能在 try 块中执行重新分配。例如，在下面的代码中，我们正在重新分配 **br** 的值，我们得到了一个[编译时错误](https://www.geeksforgeeks.org/difference-between-compile-time-errors-and-runtime-errors/)。
 
-    ```
+    ```java
     try (BufferedReader br = new BufferedReader(new FileReader("abc.txt"))) {
         br = new BufferedReader(new FileReader("abc.txt"));
     }
@@ -111,7 +111,7 @@ java
 
 5.  在 1.6 版本之前，try 后面应该跟有 [catch](https://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/) 或者 final，但是 1.7 版本我们只能用没有 catch 或者 final 语句的资源进行 try。
 
-    ```
+    ```java
     try(R)
     {  //valid
     }
@@ -120,7 +120,7 @@ java
 
 下面是增强的 try-catch 块的实现:
 
-```
+```java
 // Try opening a file
 try (bufferedReader br = new BufferedReader(new FileReader("abc.txt"))) {
 }
@@ -138,7 +138,7 @@ catch (IOException e) { // handling code }
 
 **例如:**
 
-```
+```java
 // For this try block
 try {
     -------- - -------- -
@@ -169,7 +169,7 @@ catch (IOException e) {
 
 下面是多重捕获语句的实现:
 
-```
+```java
 try {
     ------ - ------ -
 }

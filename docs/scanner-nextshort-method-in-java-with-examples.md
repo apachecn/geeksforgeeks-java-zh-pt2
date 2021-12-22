@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public short nextShort()
 
 ```
@@ -27,7 +27,7 @@ public short nextShort()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // nextShort() method of Scanner class in Java
 // without parameter
@@ -68,7 +68,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Not found short value :Gfg
 Found Short value :9
 Not found short value :+
@@ -82,7 +82,7 @@ Not found short value :12.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // nextShort() method of Scanner class in Java
 // with parameter
@@ -123,7 +123,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Not found short value :Gfg
 Found Short value :9
 Not found short value :+
@@ -137,7 +137,7 @@ Not found short value :12.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // nextShort() method of Scanner class in Java
 // InputMismatchException
@@ -178,7 +178,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Exception thrown: java.util.InputMismatchException
 
 ```
@@ -187,7 +187,7 @@ Exception thrown: java.util.InputMismatchException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // nextShort() method of Scanner class in Java
 // NoSuchElementException
@@ -237,7 +237,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Not found short value :Gfg
 Exception thrown: java.util.NoSuchElementException
 
@@ -247,7 +247,7 @@ Exception thrown: java.util.NoSuchElementException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the
 // nextShort() method of Scanner class in Java
 // IllegalStateException
@@ -300,7 +300,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Scanner Closed
 Trying to get next Short value
 Exception thrown: java.lang.IllegalStateException: Scanner closed

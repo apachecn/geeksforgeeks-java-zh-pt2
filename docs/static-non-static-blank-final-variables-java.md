@@ -7,7 +7,7 @@
 
 **静态变量:**类变量也称为静态变量，在类中用 Static 关键字声明，但在方法、构造函数或块之外。每个类只有一个类变量的副本，不管有多少对象是从它创建的。它们是类的属性，而不是对象的属性，因此可以直接使用类名和对象来使用它们。
 
-```
+```java
 // Java code to illustrate use of instance and static variables
 public class Emp {
     String name;
@@ -44,7 +44,7 @@ public class Emp {
 
 输出:
 
-```
+```java
 Name: Shubham
 Company: GeeksForGeeks
 Salary: 100000
@@ -70,7 +70,7 @@ Salary: 200000
 **静态空白最终变量:**是声明为静态的空白最终变量。也就是说，声明但未给定值或未初始化的最终静态变量称为静态空白最终变量。它只能通过静态块初始化。
 这里有一个例子说明了空白最终变量的初始化-
 
-```
+```java
 // Java program to illustrate initialization 
 // of blank final variables
 public class GFG {
@@ -97,7 +97,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 1
 10
 10
@@ -108,7 +108,7 @@ public class GFG {
 
 **预测以下程序的输出:**
 
-```
+```java
 // Java program to illustrate 
 // static blank final variable
 public class UserLogin {
@@ -141,7 +141,7 @@ class IdNotFound extends Exception {
 
 输出:
 
-```
+```java
 prog.java:8: error: variable USER_ID might already have been assigned
 USER_ID = GUEST_ID;
 ^
@@ -153,7 +153,7 @@ USER_ID = GUEST_ID;
 
 这里，编译器不确定它是否在 try 块中被赋值，所以程序不编译。我们可以通过移除静态块并在声明时初始化 USER_ID 来解决这个问题。
 
-```
+```java
 // Java program to illustrate 
 // static blank final variable
 public class UserLogin {
@@ -186,7 +186,7 @@ class IdNotFound extends Exception {
 
 输出:
 
-```
+```java
 Logging in as guest
 User ID: -1
 

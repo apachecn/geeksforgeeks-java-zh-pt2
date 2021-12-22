@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isGap()
 ```
 
@@ -18,7 +18,7 @@ public boolean isGap()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // isGap() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 no gap found
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // isGap() method
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 there is a gap
 
 ```

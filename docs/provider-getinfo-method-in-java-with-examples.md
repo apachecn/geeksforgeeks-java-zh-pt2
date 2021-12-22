@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getInfo()
 ```
 
@@ -16,7 +16,7 @@ public String getInfo()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -52,7 +52,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 info : 
 SUN (DSA key/parameter generation;
     DSA signing; SHA-1, MD5 digests; 
@@ -67,7 +67,7 @@ SUN (DSA key/parameter generation;
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -103,7 +103,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 info : 
 SUN (DSA key/parameter generation; 
     DSA signing; SHA-1, MD5 digests; 

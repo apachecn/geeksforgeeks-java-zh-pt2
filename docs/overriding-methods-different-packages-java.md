@@ -18,7 +18,7 @@
 
 **1。私有方法覆盖:**这里，我们要覆盖的方法的访问修饰符是私有的。
 
-```
+```java
 // Filename: Hello.java
 package a;
 public class Hello {
@@ -51,7 +51,7 @@ public class World extends Hello {
 
 输出:
 
-```
+```java
 Hello
 ```
 
@@ -61,7 +61,7 @@ Hello
 
 **2。公共方法覆盖:**这里，我们要覆盖的方法的访问修饰符是公共的。
 
-```
+```java
 // Hello.java
 package a;
 public class Hello {
@@ -90,7 +90,7 @@ public class World extends Hello {
 
 输出:
 
-```
+```java
 World
 
 ```
@@ -100,7 +100,7 @@ World
 
 **3。默认方法覆盖**
 
-```
+```java
 // Hello.java
 package a;
 public class Hello {
@@ -126,7 +126,7 @@ public class World extends Hello {
 }
 ```
 
-```
+```java
 error: printMessage() is not public in Hello; cannot be accessed from outside package
 ```
 
@@ -135,7 +135,7 @@ error: printMessage() is not public in Hello; cannot be accessed from outside pa
 
 **预测以下程序的输出**
 
-```
+```java
 /* Hello.java */
 package a;
 public class Hello {
@@ -169,7 +169,7 @@ public class World {
 
 输出:
 
-```
+```java
 Hello
 
 ```

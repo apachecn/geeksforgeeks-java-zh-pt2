@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusHours(long hours)
 
 ```
@@ -28,7 +28,7 @@ public ZonedDateTime plusHours(long hours)
 下面的程序说明了 plusHours()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusHours() method
 
@@ -67,7 +67,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusHours() method
 

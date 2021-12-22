@@ -27,7 +27,7 @@ Spring Boot 建在春天的顶端，包含了春天的所有特征。由于其�
 
 **第二步:**按要求填写详细内容。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.2.8
@@ -50,7 +50,7 @@ Dependencies: Spring Web
 
 **应用属性:**
 
-```
+```java
 server.port=7000
 ```
 
@@ -68,7 +68,7 @@ server.port=7000
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Component
 public class server implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
     @Override
@@ -89,7 +89,7 @@ public class server implements WebServerFactoryCustomizer<ConfigurableWebServerF
 
 转到运行->编辑配置->跳转应用->虚拟机选项
 
-```
+```java
 -Dserver.port=8011
 ```
 

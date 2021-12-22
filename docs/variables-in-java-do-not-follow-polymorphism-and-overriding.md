@@ -10,7 +10,7 @@ Java 中的变量不遵循多态性。重写仅适用于方法，不适用于变
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Illustrating Instance variables
 // Can not be Overridden
 
@@ -71,7 +71,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 inside C subclass
 10
 20

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public static byte[] getSeed(int numBytes)
 ```
 
@@ -20,7 +20,7 @@ public static byte[] getSeed(int numBytes)
 
 **实施例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getSeed() method
 
@@ -52,13 +52,13 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed Bytes : [1, 2, 3, 4, 1]
 ```
 
 **实施例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getSeed() method
 
@@ -94,7 +94,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed Bytes : [-64, 79, 82, -118, -97, -95, -80, -101, -40, 12]
 ```
 

@@ -6,7 +6,7 @@ Java 中 **TreeSet** 的 **hashCode()** 方法用于获取 TreeSet 这个实例�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in TreeSet
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TreeSet: [1, 2, 3, 4]
 HashCode value: 10
 
@@ -60,7 +60,7 @@ HashCode value: 10
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate the working of
 // hashCode() method in TreeSet
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TreeSet: [For, ForGeeks, Geeks, GeeksForGeeks]
 HashCode value: -482506029
 

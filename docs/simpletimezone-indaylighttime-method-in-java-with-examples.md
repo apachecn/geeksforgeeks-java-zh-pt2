@@ -6,7 +6,7 @@ Java 中 **[SimpleTimeZone 类](https://www.geeksforgeeks.org/tag/java-simpletim
 
 **语法:**
 
-```
+```java
 public boolean inDaylightTime(Date date)
 ```
 
@@ -17,7 +17,7 @@ public boolean inDaylightTime(Date date)
 下面的程序说明了 inDaylightTime()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // inDaylightTime() method
 
@@ -47,14 +47,14 @@ public class SimpleTimeZone_Demo {
 
 **Output:**
 
-```
+```java
 Is it in day light saving time? false
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // inDaylightTime() method
 
@@ -98,7 +98,7 @@ public class SimpleTimeZone_Demo {
 
 **Output:**
 
-```
+```java
 Is it in day light saving time? false
 
 ```

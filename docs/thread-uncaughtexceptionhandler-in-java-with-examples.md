@@ -8,7 +8,7 @@
 
 在实现处理程序之前，让我们了解异常是如何由如下示例引起的:
 
-```
+```java
 public class GFG {
 
     public static void main(String args[])
@@ -20,7 +20,7 @@ public class GFG {
 
 上述代码的输出是
 
-```
+```java
 Exception in thread "main"
  java.lang.ArithmeticException:
  / by zero at Demo.main(GFG.java:5)
@@ -41,7 +41,7 @@ Exception in thread "main"
 
 **示例 1:** 让我们尝试创建一个类，该类实现来自线程类的接口 UncaughtExceptionHandler 来处理除以 0 的异常，如下所示:
 
-```
+```java
 // Java program to demonstrate
 // the exception handler
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **示例 2:** 在这个示例中，让我们抛出一个新的异常，并了解如何处理异常。
 
-```
+```java
 // Java program to demonstrate
 // the exception handler
 

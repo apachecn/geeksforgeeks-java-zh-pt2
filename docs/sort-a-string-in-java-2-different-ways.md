@@ -10,13 +10,13 @@ String 类没有任何直接对字符串进行排序的方法，但是我们可�
 
 *   ***字符串文字***
 
-```
+```java
 String s = “GeeksforGeeks”;
 ```
 
 *   **使用** ***新增*** **关键词**
 
-```
+```java
 String s = new String (“GeeksforGeeks”);
 ```
 
@@ -31,7 +31,7 @@ String s = new String (“GeeksforGeeks”);
 
 插图:
 
-```
+```java
 Input string : "geeksforgeeks"
 Output string : "eeeefggkkorss"
 ```
@@ -52,7 +52,7 @@ Output string : "eeeefggkkorss"
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort a String Alphabetically
 // Using toCharArray() method
 // Without using sort() method
@@ -103,7 +103,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 eeeefggkkorss
 ```
 
@@ -121,7 +121,7 @@ eeeefggkkorss
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java program to Sort a String Alphabetically
 // Using toCharArray() method
 // With using the sort() method
@@ -166,7 +166,7 @@ public class GFG {
 
 ***Output**
 
-```
+```java
 Input String : geeksforgeeks
 Output String : eeeefggkkorss
 ```* 
@@ -177,7 +177,7 @@ Output String : eeeefggkkorss
 
 *插图:*
 
-```
+```java
 *Input String : GeeksforGeeks
 Output String : eeeefGGkkorss*
 ```
@@ -192,7 +192,7 @@ Output String : eeeefGGkkorss*
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Sort a Mixed String Containing
 // Uppercase and Lowercase Characters
 
@@ -261,14 +261,14 @@ class GFG {
 
 ***Output**
 
-```
+```java
 Input String : GeeksforGeeks
 Output String : eeeefGGkkorss
 ```* 
 
 > ***注:***
 > 
-> ```
+> ```java
 > *public int compare(Object o1, Object o2) {}*
 > ```
 > 

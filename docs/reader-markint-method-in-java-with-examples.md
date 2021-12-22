@@ -6,7 +6,7 @@ Java 中 **[Reader](https://www.geeksforgeeks.org/java-io-reader-class-java/)** 
 
 **语法:**
 
-```
+```java
 public void mark(int readAheadLimit)
 ```
 
@@ -20,7 +20,7 @@ public void mark(int readAheadLimit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Reader mark() method
 
@@ -77,7 +77,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 eks??
 
@@ -85,7 +85,7 @@ eks??
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Reader mark() method
 
@@ -141,7 +141,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 e
 

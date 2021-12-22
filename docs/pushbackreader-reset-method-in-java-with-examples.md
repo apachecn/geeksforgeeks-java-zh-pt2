@@ -6,7 +6,7 @@ Java 中 **[推读类](https://www.geeksforgeeks.org/java-io-pushbackreader-clas
 
 **语法:**
 
-```
+```java
 public void reset()
 ```
 
@@ -20,7 +20,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader reset() method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.IOException: mark/reset not supported
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader reset() method
 
@@ -101,7 +101,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.io.IOException: mark/reset not supported
 
 ```

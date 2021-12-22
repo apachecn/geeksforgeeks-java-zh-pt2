@@ -6,7 +6,7 @@ Java 中 Period 类的 plusYears()方法用于将给定的年份添加到此期�
 
 **语法:**
 
-```
+```java
 public Period plusYears(long yearsToAdd)
 ```
 
@@ -20,7 +20,7 @@ public Period plusYears(long yearsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function plusYears()
 // to add the number of years from given periods
 import java.time.Period;
@@ -53,14 +53,14 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P12Y11M10D
 
 ```
 
 **程序二**:期间可以为负数。
 
-```
+```java
 // Java code to show the function plusYears()
 // to add the number of years to given periods
 import java.time.Period;
@@ -93,7 +93,7 @@ public class PeriodClass {
 
 **输出:**
 
-```
+```java
 P4Y-11M
 
 ```

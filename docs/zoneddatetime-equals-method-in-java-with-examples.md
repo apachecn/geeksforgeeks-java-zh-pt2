@@ -9,7 +9,7 @@ Java 中 **ZonedDateTime** 类的 **equals()** 方法用于将这个 ZonedDateTi
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -21,7 +21,7 @@ public boolean equals(Object obj)
 下面的程序说明了 equals()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.equals() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Both ZonedDateTime are equal: true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.equals() method
 
@@ -84,7 +84,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Both ZonedDateTime are equal: false
 
 ```

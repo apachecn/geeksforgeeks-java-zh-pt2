@@ -6,7 +6,7 @@ java 中的 java.util.Stack.peek()方法用于检索或获取堆栈的第一个�
 
 **语法:**
 
-```
+```java
 STACK.peek()
 ```
 
@@ -19,7 +19,7 @@ STACK.peek()
 下面的程序说明了 java.util.Stack.peek()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peek() function
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Initial Stack: [Welcome, To, Geeks, For, Geeks]
 The element at the top of the stack is: Geeks
 Final Stack: [Welcome, To, Geeks, For, Geeks]
@@ -61,7 +61,7 @@ Final Stack: [Welcome, To, Geeks, For, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peek() function
 
 import java.util.*;
@@ -94,7 +94,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Initial Stack: [10, 15, 30, 20, 5]
 The element at the top of the stack is: 5
 Final Stack: [10, 15, 30, 20, 5]

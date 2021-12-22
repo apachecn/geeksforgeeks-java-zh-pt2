@@ -24,7 +24,7 @@ Java 中 **[【打印流】](https://www.geeksforgeeks.org/java-io-printstream-c
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream format(String, Object) method
 
@@ -60,14 +60,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks 47.65734000
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream format(String, Object) method
 
@@ -106,7 +106,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A Computer Science Portal  GFG, GFG and GeeksforGeeks
 
 ```

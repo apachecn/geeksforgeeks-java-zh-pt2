@@ -36,7 +36,7 @@
 
 **第二步:**导航到**Gradle Scripts>build . Gradle(模块)**文件，并在其中添加以下依赖项。之后点击立即同步保存项目中的更改。
 
-```
+```java
 implementation 'com.hanks:passcodeview:0.1.2'
 ```
 
@@ -52,7 +52,7 @@ implementation 'com.hanks:passcodeview:0.1.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Relative layout as parent layout-->
 <RelativeLayout 
@@ -92,7 +92,7 @@ implementation 'com.hanks:passcodeview:0.1.2'
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Constraint layout as parent layout-->
 <android.support.constraint.ConstraintLayout 
@@ -163,7 +163,7 @@ implementation 'com.hanks:passcodeview:0.1.2'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 

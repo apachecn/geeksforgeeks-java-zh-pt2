@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isPresent()
 
 ```
@@ -18,7 +18,7 @@ public boolean isPresent()
 下面的程序说明了 isPresent()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.isPresent() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalLong has a value= true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.isPresent() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value absent
 
 ```

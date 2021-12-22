@@ -10,7 +10,7 @@
 
 **申报:**
 
-```
+```java
 @GwtCompatible
 public final class Preconditions
 extends Object
@@ -19,7 +19,7 @@ extends Object
 
 **示例 1 :** 在本例中，checkArgument 抛出一个***IllegalArgumentException***来指示 examplePre1 在调用 sqrt 时出错，因为传递的参数是负数。
 
-```
+```java
 // Returns the positive square
 // root of the given value.
 // throws IllegalArgumentException
@@ -39,7 +39,7 @@ void examplePre1()
 
 **例 2 :** 假设给我们一个以 List 作为参数的方法。当调用这个方法时，我们要检查列表是否为空。这个问题的一个简单的 Java 解决方案如下所示:
 
-```
+```java
 // Method to check if passed list
 // is null or empty
 public void example(List<Object> myList)
@@ -61,7 +61,7 @@ public void example(List<Object> myList)
 
 但是，当我们使用番石榴的先决条件时，代码量大大减少。解决方案类似于:
 
-```
+```java
 // Method to check if passed list
 // is null or empty
 public void example(List<Object> myList)
@@ -79,7 +79,7 @@ public void example(List<Object> myList)
 
 **示例 3 :** 如果要验证年龄以确保其大于 18，可以使用 prepreprecedent . checkargument()。
 
-```
+```java
 // To check if age is greater than 18 or not
 public static void validateAge(int age)
 {
@@ -99,7 +99,7 @@ public static void validateAge(int age)
 
 第三种变体的例子:
 
-```
+```java
 checkArgument(i >= 0, "Argument was %s but expected nonnegative", i);
 checkArgument(i < j, "Expected i = %s", i, j);
 
@@ -116,7 +116,7 @@ checkArgument(i < j, "Expected i = %s", i, j);
 
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava Preconditions
 import com.google.common.base.Preconditions;
@@ -159,7 +159,7 @@ class GFG {
 
 输出:
 
-```
+```java
 Illegal Argument, Second parameter is Null.
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Enumeration enu = Vector.elements()
 ```
 
@@ -18,7 +18,7 @@ Enumeration enu = Vector.elements()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the elements() method
 import java.util.*;
 
@@ -54,7 +54,7 @@ public class Vector_Demo {
 
 **Output:**
 
-```
+```java
 The Vector is: [Geeks, 4, Geeks, Welcomes, You]
 The enumeration of values are:
 Geeks
@@ -67,7 +67,7 @@ You
 
 **程序 2 :**
 
-```
+```java
 import java.util.*;
 
 public class Vector_Demo {
@@ -102,7 +102,7 @@ public class Vector_Demo {
 
 **Output:**
 
-```
+```java
 The Vector is: [10, 15, 20, 25, 30]
 The enumeration of values are:
 10

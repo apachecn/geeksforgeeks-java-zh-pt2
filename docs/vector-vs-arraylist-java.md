@@ -5,7 +5,7 @@
 [数组列表](https://www.geeksforgeeks.org/arraylist-in-java/)和[向量](https://www.geeksforgeeks.org/java-util-vector-class-java/)都实现了列表接口，并且都使用**(可动态调整大小的)数组**作为其内部数据结构，很像使用普通数组。
 **语法:**
 
-```
+```java
 
    ArrayList<T> al = new ArrayList<T>();
    Vector<T> v = new Vector<T>(); 
@@ -23,7 +23,7 @@
 
 *注意:在没有具体要求使用 vector 的情况下，以 ArrayList 为佳。*
 
-```
+```java
 // Java Program to illustrate use of ArrayList
 // and Vector in Java
 import java.io.*;
@@ -65,7 +65,7 @@ class GFG
 
 输出:
 
-```
+```java
 ArrayList elements are:
 Practice.GeeksforGeeks.org
 quiz.GeeksforGeeks.org

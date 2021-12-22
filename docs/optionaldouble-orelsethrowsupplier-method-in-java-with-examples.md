@@ -6,7 +6,7 @@ optionalduble 类的 **orElseThrow(Supplier)** 方法，用于获取 optionaldub
 
 **语法:**
 
-```
+```java
 public <X extends Throwable> double 
     orElseThrow(Supplier<X> exceptionSupplier)
         throws X extends Throwable
@@ -26,7 +26,7 @@ public <X extends Throwable> double
 下面的程序说明了 orElseThrow(供应商)方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElseThrow(Supplier) method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElseThrow(Supplier) method
 import java.io.IOException;

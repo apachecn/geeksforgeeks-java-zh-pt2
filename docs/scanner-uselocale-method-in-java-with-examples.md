@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Scanner useLocale(Locale locale)
 ```
 
@@ -20,7 +20,7 @@ public Scanner useLocale(Locale locale)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Scanner useLocale() method in Java
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: 
 Geeksforgeeks has Scanner Class Methods
 Current Lcoale: en_US
@@ -72,7 +72,7 @@ Updated Locale: en
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // Scanner useLocale() method in Java
 
@@ -113,7 +113,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: 
 Geeksforgeeks 2018
 Current Lcoale: en_US

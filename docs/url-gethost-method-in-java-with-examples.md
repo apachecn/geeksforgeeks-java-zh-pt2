@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public String getHost()
 
 ```
 
 **语法**
 
-```
+```java
 url.getHost()
 
 ```
@@ -26,7 +26,7 @@ url.getHost()
 
 **例 1:**
 
-```
+```java
 // Java program to show the use
 // of the function getHost()
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
 Host =  www.geeksforgeeks.org
 
@@ -74,7 +74,7 @@ Host =  www.geeksforgeeks.org
 
 **例 2:**
 
-```
+```java
 // Java program to show the
 // use of the function getHost()
 
@@ -121,7 +121,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org:80/url-samefile-method-in-java-with-examples/
 Authority =  www.geeksforgeeks.org:80
 Host =  www.geeksforgeeks.org
@@ -130,7 +130,7 @@ Host =  www.geeksforgeeks.org
 
 **示例 3:** 如果我们创建一个没有主机名的 URL，并使用 getHost()函数请求主机，则该函数返回空字符串。
 
-```
+```java
 // Java program to show the
 // use of the function getHost()
 
@@ -168,7 +168,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL = https:
 Host =
 

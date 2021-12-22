@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Student implements Cloneable {
 
     // raise visibility level to public
@@ -36,7 +36,7 @@ class Student implements Cloneable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Student implements Cloneable {
 
     // other components
@@ -60,7 +60,7 @@ class Student implements Cloneable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Date;
 import java.util.GregorianCalendar;
 

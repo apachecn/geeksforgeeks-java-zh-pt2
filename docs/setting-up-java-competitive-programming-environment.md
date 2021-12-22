@@ -20,7 +20,7 @@
 3.  必须出现一个新文件，此时您需要将下面的 JSON 对象粘贴到该文件中
 4.  用您在**步骤 1** 中获得的路径替换路径变量
 
-```
+```java
 { 
 "cmd": ["javac", "$file_name", "&&", "java" ,"$file_base_name"],  
 "selector": "source.java",
@@ -68,7 +68,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that is been setup in Sublime Text
 // for Competitive Coding
 

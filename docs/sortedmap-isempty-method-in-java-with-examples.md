@@ -6,7 +6,7 @@ Java 中 [**SortedMap 接口**](https://www.geeksforgeeks.org/sortedmap-java-exa
 
 **语法:**
 
-```
+```java
 boolean isEmpty()
 ```
 
@@ -22,7 +22,7 @@ boolean isEmpty()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the implementation of
 // isEmpty method in SortedMap interface
 
@@ -47,7 +47,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 {}
 true
 ```
@@ -56,7 +56,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to show the implementation of
 // isEmpty method in SortedMap interface
 
@@ -86,7 +86,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 {1=One, 3=Three, 5=Five, 7=Seven, 9=Ninde}
 false
 ```

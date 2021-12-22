@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 ublic static ZoneId ofOffset(String prefix,
                               ZoneOffset offset)
 
@@ -21,7 +21,7 @@ ublic static ZoneId ofOffset(String prefix,
 以下程序说明了 ofOffset()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.ofOffset() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId:UTC
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.ofOffset() method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZoneId:GMT+18:00
 
 ```

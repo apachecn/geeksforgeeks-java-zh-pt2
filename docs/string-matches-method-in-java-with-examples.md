@@ -12,7 +12,7 @@ matches()方法的变体用于更精确地告诉不要测试给定的字符串�
 
 ****语法:****
 
-```
+```java
 public boolean matches(String regex) 
 ```
 
@@ -24,7 +24,7 @@ public boolean matches(String regex)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of matches() Method
 // of String class
 
@@ -57,7 +57,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Does String contains regex (.*)geeks(.*) ? : true
 Does String contains regex geeks ? : false
 ```** 
@@ -70,7 +70,7 @@ Does String contains regex geeks ? : false
 
 ****语法:****
 
-```
+```java
 public boolean regionMatches(int str_strt, String other, int other_strt,int len)
 ```
 
@@ -87,7 +87,7 @@ public boolean regionMatches(int str_strt, String other, int other_strt,int len)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of regionmatches()
 // method of String class
 
@@ -117,7 +117,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Checking if GEEKS is in geeksforgeeks( case sensitive ) : false
 ```** 
 
@@ -127,7 +127,7 @@ Checking if GEEKS is in geeksforgeeks( case sensitive ) : false
 
 ****语法:****
 
-```
+```java
 public boolean 
 regionMatches(boolean ignoreCase, int str_strt, String other, int other_strt,int len)
 ```
@@ -146,7 +146,7 @@ regionMatches(boolean ignoreCase, int str_strt, String other, int other_strt,int
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to Demonstrate Working of regionmatches()
 
 // Main class 
@@ -173,7 +173,7 @@ public class GFG {
 
 ****输出:****
 
-```
+```java
 Checking if GEEKS is in geeksforgeeks( case insensitive ) : true
 ```
 

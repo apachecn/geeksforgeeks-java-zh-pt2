@@ -17,7 +17,7 @@ Java 中的 TreeMap 与 AbstractMap 类一起用于实现[地图接口](https://
 
 现在让我们坚持向前，讨论同步树图。树图的实现不同步。这意味着，如果多个线程同时访问一个树集合，并且至少有一个线程修改了该集合，那么它必须在外部同步。这通常通过使用[collections . synchronizedstortedmap](https://www.geeksforgeeks.org/collections-synchronizedsortedmap-method-in-java-with-examples/)方法来完成。这最好在创建时完成，以防止对集合的意外非同步访问。这可以通过以下方式实现:
 
-```
+```java
 SortedMap m = Collections.synchronizedSortedMap(new TreeMap(...)); 
 ```
 
@@ -49,7 +49,7 @@ SortedMap m = Collections.synchronizedSortedMap(new TreeMap(...)); 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate TreeMap
 // using the Default Constructor
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap using TreeMap() constructor:
 TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 ```
@@ -109,7 +109,7 @@ TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate TreeMap
 // using Comparator Constructor
 
@@ -191,7 +191,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap using TreeMap(Comparator) constructor:
 TreeMap: {111 bbbb london=2, 121 cccc jaipur=1, 131 aaaa nyc=3}
 ```
@@ -204,7 +204,7 @@ TreeMap: {111 bbbb london=2, 121 cccc jaipur=1, 131 aaaa nyc=3}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate TreeMap
 // using the Default Constructor
 
@@ -255,7 +255,7 @@ public class TreeMapImplementation {
 
 **Output:** 
 
-```
+```java
 TreeMap using TreeMap(Map) constructor:
 TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 ```
@@ -268,7 +268,7 @@ TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate TreeMap
 // using the SortedMap Constructor
 
@@ -320,7 +320,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap using TreeMap(SortedMap) constructor:
 TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 ```
@@ -356,7 +356,7 @@ TreeMap: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Operations in TreeMap
 // Such as Creation, insertion
 // searching, and traversal
@@ -480,7 +480,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 TreeMap successfully created
 Elements successfully inserted in the TreeMap
 Is key "50" present? false
@@ -507,7 +507,7 @@ Traversing the TreeMap:
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Addition of Elements
 // in TreeMap using put() Method
 
@@ -551,7 +551,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -564,7 +564,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Updation of Elements
 // in TreeMap using put() Method
 
@@ -603,7 +603,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {1=Geeks, 2=Geeks, 3=Geeks}
 {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -616,7 +616,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Removal of Elements
 // in TreeMap using remove() Method
 
@@ -655,7 +655,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 {1=Geeks, 2=Geeks, 3=Geeks, 4=For}
 {1=Geeks, 2=Geeks, 3=Geeks}
 ```
@@ -668,7 +668,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Iterating over TreeMap
 // using
 
@@ -710,7 +710,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 1 : Geeks
 2 : For
 3 : Geeks

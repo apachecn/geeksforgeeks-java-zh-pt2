@@ -5,7 +5,7 @@
 Java 中 **YearMonth** 类的(int year，Month month) 方法的**用于从年和月中获取 **YearMonth** 的实例。
 **语法:****
 
-```
+```java
 public static YearMonth of(
     int year, Month month)
 ```
@@ -23,7 +23,7 @@ public static YearMonth of(
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.of(int year, Month month) method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth: 2020-05
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.of(int year, Month month) method
 
@@ -80,14 +80,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year: 2020
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.of(int year, Month month) method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Month: MAY
 
 ```

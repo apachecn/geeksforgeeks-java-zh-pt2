@@ -12,7 +12,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
 *   对于 maven 项目，您可以在 pom.xml 文件中包含 OpenCSV maven 依赖项。
 
-    ```
+    ```java
     <dependency>
         <groupId>com.opencsv</groupId>
         <artifactId>opencsv</artifactId>
@@ -22,7 +22,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     *   对于 Gradle 项目，您可以包含 OpenCSV 依赖项。
 
-    ```
+    ```java
     compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
     ```
 
@@ -33,7 +33,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
     *   Write Data Line by line – CSVWriter can write line by line using writeNext() method where a string array is passed with each comma-separated element as a separate entry.
     CODE:
 
-    ```
+    ```java
     public static void writeDataLineByLine(String filePath)
     {
         // first create file object for file placed at location
@@ -68,7 +68,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     **输出:**结果. csv 文件，包含以下数据
 
-    ```
+    ```java
     "Name", "Class", "Marks"
     "Aman", "10", "620"
     "Suraj", "10", "630"
@@ -78,7 +78,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
     *   Write all Data at once- For witting data at once call writeAll() method of CSVWriter class and pass A List of String[] as the parameter with each String[] representing a line of the file.
     CODE:
 
-    ```
+    ```java
     public static void writeDataAtOnce(String filePath)
     {
 
@@ -112,7 +112,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     **输出:**结果. csv 文件，包含以下数据
 
-    ```
+    ```java
     "Name", "Class", "Marks"
     "Aman", "10", "620"
     "Suraj", "10", "630"
@@ -123,7 +123,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     By default, the separator for CSV will be a comma(, ). If you want to make another character as a separator so it can be passed as an argument to CSVWriter class.
 
-    ```
+    ```java
     Syntax :
     CSVWriter(Writer writer, char separator, char quotechar,
                                   char escapechar, String lineEnd)
@@ -134,7 +134,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     代码:
 
-    ```
+    ```java
     public static void writeDataForCustomSeparatorCSV(String filePath)
     {
 
@@ -171,7 +171,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     **输出:**结果. csv 文件，包含以下数据
 
-    ```
+    ```java
     Name|Class|Marks
     Aman|10|620
     Suraj|10|630
@@ -181,7 +181,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
     **示例:**
     让我们创建一个 java 程序，它生成一个分号分隔的 csv 文件，并包含作为输入提供的数据。
 
-    ```
+    ```java
     Input:
     Enter no of rows
     9
@@ -200,7 +200,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     代码:
 
-    ```
+    ```java
     // Java program to illustrate
     // for Writing Data in CSV file
     import java.io.*;
@@ -257,7 +257,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
     **输出:**结果. csv 文件，包含以下数据
 
-    ```
+    ```java
     Name;Class;Marks
     Aman;10;543
     Amar;10;541

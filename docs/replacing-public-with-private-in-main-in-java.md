@@ -4,7 +4,7 @@
 
 考虑以下 Java 程序:
 
-```
+```java
 class GFG {
     public static void main(String args[])
     {
@@ -13,7 +13,7 @@ class GFG {
 }
 ```
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -26,7 +26,7 @@ GeeksforGeeks
 
 现在，如果我们将“公共静态 void main”中的“public”替换为“private”，上面的代码将变成:
 
-```
+```java
 class GFG {
     private static void main(String args[])
     {
@@ -38,7 +38,7 @@ class GFG {
 **解释:**
 上面的代码会编译成功，但是会抛出如下运行时错误:
 
-```
+```java
 Error: Main method not found in class GFG, please define the main method as:
    public static void main(String[] args)
 or a JavaFX application class must extend javafx.application.Application

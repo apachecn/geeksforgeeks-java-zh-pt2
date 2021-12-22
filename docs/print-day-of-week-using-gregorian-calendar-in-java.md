@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : 2018 3 26
 Output : Mon
 
@@ -25,7 +25,7 @@ Output : Wed
 输入数据的有效性。如果发现输入错误，将输出**无效的**
 信息。
 
-```
+```java
 // Necessary imports for using Gregorian Calendar
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Mon
 
 ```

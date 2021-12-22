@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**getmonthvvalue()**方法使用 month 枚举获�
 
 **语法:**
 
-```
+```java
 public int getMonthValue()
 
 ```
@@ -19,7 +19,7 @@ public int getMonthValue()
 
 **节目 1 :**
 
-```
+```java
 // Java program to demonstrate the getMonthValue() method
 
 import java.time.OffsetDateTime;
@@ -39,7 +39,7 @@ public class GFG {
 
 **节目 2** :
 
-```
+```java
 // Java program to demonstrate the getMonthValue() method
 
 import java.time.OffsetDateTime;

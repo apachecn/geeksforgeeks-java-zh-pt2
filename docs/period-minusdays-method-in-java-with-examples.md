@@ -6,7 +6,7 @@ Java 中 Period 类的 minusDays()方法用于从这个 Period 中减去天数�
 
 **语法:**
 
-```
+```java
 public Period minusDays(long daysToSubtract)
 ```
 
@@ -21,7 +21,7 @@ public Period minusDays(long daysToSubtract)
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function minusDays()
 // to subtract the number of days from given periods
 
@@ -56,14 +56,14 @@ public class PeriodClass {
 
 **Output:**
 
-```
+```java
 P4Y11M2D
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Java code to show the function minusDays()
 // to subtract the number of days from given periods
 import java.time.Period;
@@ -96,7 +96,7 @@ public class PeriodClass {
 
 **Output:**
 
-```
+```java
 P-4Y-11M-8D
 
 ```

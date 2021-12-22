@@ -5,7 +5,7 @@
 Java 中 [SortedSet 接口的第一个()方法用于返回第一个，即当前在这个集合中最低的元素。
 **语法** :](https://www.geeksforgeeks.org/sortedset-java-examples/) 
 
-```
+```java
 E first()
 ```
 
@@ -18,7 +18,7 @@ E first()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 
@@ -47,7 +47,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Lowest element in set is : 1
 ```
 
@@ -55,7 +55,7 @@ Lowest element in set is : 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the first()
 // method of SortedSet interface
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.util.NoSuchElementException
 ```
 

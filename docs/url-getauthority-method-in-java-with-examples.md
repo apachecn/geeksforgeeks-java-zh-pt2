@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public String getAuthority()
 
 ```
 
 **语法**
 
-```
+```java
 url.getAuthority()
 
 ```
@@ -26,7 +26,7 @@ url.getAuthority()
 
 **例 1:**
 
-```
+```java
 // Java program to show the
 // use of the function getAuthority()
 
@@ -69,7 +69,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
 Authority =  www.geeksforgeeks.org
 
@@ -77,7 +77,7 @@ Authority =  www.geeksforgeeks.org
 
 **示例 2:**getAuthority()和 getHost()函数的区别在于 getAuthority()返回主机和端口，而 getHost()只返回主机名。
 
-```
+```java
 // Java program to show the
 // use of the function getAuthority()
 
@@ -125,7 +125,7 @@ class Solution {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org:80/url-samefile-method-in-java-with-examples/
 Authority =  www.geeksforgeeks.org:80
 Host =  www.geeksforgeeks.org

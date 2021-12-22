@@ -20,7 +20,7 @@ HashMap 可用于存储字符及其频率，然后 HashSet 可用于查找唯一
 
 ## C++
 
-```
+```java
 // CPP implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -63,7 +63,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation of the approach
 import java.util.*;
 class GFG {
@@ -112,7 +112,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python implementation of the approach
 
 # Function to return the count of operations required
@@ -151,7 +151,7 @@ print(totalOperations(st, l))
 
 ## C#
 
-```
+```java
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -209,7 +209,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // Javascript implementation of the approach
@@ -252,6 +252,6 @@ document.write( totalOperations(str, len));
 
 **Output:** 
 
-```
+```java
 3
 ```

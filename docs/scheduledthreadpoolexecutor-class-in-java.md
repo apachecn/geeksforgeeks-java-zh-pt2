@@ -23,7 +23,7 @@ Java 中的 ScheduledThreadPoolExecutor 类是 java.util.concurrent package 中�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrates ScheduleThreadPoolExecutor
 // class
 import java.util.*;
@@ -78,7 +78,7 @@ class Command implements Runnable {
 
 **输出**:
 
-```
+```java
 Current time : 51
 Task name : task1 Current time : 53
 Task name : task2 Current time : 56
@@ -91,7 +91,7 @@ Task name : task2 Current time : 56
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrates ScheduleThreadPoolExecutor
 // class
 import java.util.*;
@@ -172,7 +172,7 @@ class Command implements Runnable {
 
 **输出**:
 
-```
+```java
 Current time:26
 Task name : task1 Current time : 28
 Executed : task1 Current time : 30

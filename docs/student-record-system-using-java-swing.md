@@ -51,7 +51,7 @@
 
 **7。**现在让我们创建数据库来存储数据。打开 MySQL 命令客户端，输入密码，并输入以下命令来创建新数据库、新表和定义属性。
 
-```
+```java
 mysql> create database student;
 Query OK, 1 row affected (0.14 sec)
 
@@ -105,7 +105,7 @@ mysql> describe record;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Write the import code at top
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -159,7 +159,7 @@ public class SchoolRecord extends javax.swing.JFrame {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 DefaultTableModel model
     = (DefaultTableModel)jTable1.getModel();
 try {
@@ -192,7 +192,7 @@ catch (Exception e) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 jTextField1.setText("");
 jTextField2.setText("");
 jTextField3.setText("");
@@ -206,7 +206,7 @@ jTable1.repaint();
 
 **13。**现在要退出系统，在按钮 4 操作执行选项下添加以下语句，在设计区域点击退出按钮两次即可完成。
 
-```
+```java
 System.exit(0);
 
 ```

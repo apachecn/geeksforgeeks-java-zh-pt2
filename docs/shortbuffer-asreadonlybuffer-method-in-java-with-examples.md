@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```java
 public abstract ShortBuffer asReadOnlyBuffer()
 ```
 
@@ -18,7 +18,7 @@ public abstract ShortBuffer asReadOnlyBuffer()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ShortBuffer: [856, 0, 961, 0, 0, 0, 0, 0, 0, 0]
 
 ReadOnlyBuffer ShortBuffer: 856, 0, 961, 0, 0, 0, 0, 0, 0, 0,
@@ -82,7 +82,7 @@ ReadOnlyBuffer ShortBuffer: 856, 0, 961, 0, 0, 0, 0, 0, 0, 0,
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate
 // asReadOnlyBuffer() method
 
@@ -162,7 +162,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb: [856, 0, 961, 0, 0, 0, 0, 0, 0, 0]
 
 ShortBuffer sb1: [0, 456, 645, 0, 0]

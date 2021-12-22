@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster lastDayOfMonth()
 
 ```
@@ -18,7 +18,7 @@ public static TemporalAdjuster lastDayOfMonth()
 下面的程序说明了临时调整的最后一天()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastDayOfMonth()
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 last day of the month for localdate 2020-05-11: 2020-05-31
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.lastDayOfMonth() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 last day of the month for localdate 2010-12-29: 2010-12-31
 
 ```

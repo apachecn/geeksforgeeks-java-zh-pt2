@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime now()
 
 ```
@@ -22,7 +22,7 @@ public static ZonedDateTime now()
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.now() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2019-01-21T05:36:18.973Z[Etc/UTC]
 
 ```
@@ -56,7 +56,7 @@ ZonedDateTime : 2019-01-21T05:36:18.973Z[Etc/UTC]
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime now(Clock clock)
 
 ```
@@ -68,7 +68,7 @@ public static ZonedDateTime now(Clock clock)
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.now() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2019-01-21T05:36:25.966Z
 
 ```
@@ -105,7 +105,7 @@ ZonedDateTime : 2019-01-21T05:36:25.966Z
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime now(ZoneId zone)
 
 ```
@@ -117,7 +117,7 @@ public static ZonedDateTime now(ZoneId zone)
 下面的程序说明了 now()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.now() method
 
@@ -143,7 +143,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2019-01-21T06:36:30.188+01:00[Europe/Paris]
 
 ```

@@ -5,7 +5,7 @@
 类的 **hashCode()** 方法用于获取这个 Collator 对象的 hashCode。
 **语法:**
 
-```
+```java
 public abstract int hashCode()
 ```
 
@@ -16,7 +16,7 @@ public abstract int hashCode()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 hashCode is :- 1882448026
 ```
 
@@ -70,7 +70,7 @@ hashCode is :- 1882448026
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // hashCode() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 hashCode is :- 2022902017
 ```
 

@@ -6,7 +6,7 @@ java 中的 java.util.WeakHashMap.keySet()方法用于创建一组包含在哈�
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.keySet()
 ```
 
@@ -17,7 +17,7 @@ Weak_Hash_Map.keySet()
 下面的程序用来说明 java.util.WeakHashMap.keySet()的工作方法:
 **程序 1:** 将字符串值映射到整键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The set is: [30, 15, 10, 25, 20]
 
@@ -57,7 +57,7 @@ The set is: [30, 15, 10, 25, 20]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the keySet() method
 import java.util.*;
 
@@ -89,7 +89,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The set is: [Welcomes, 4, You, Geeks]
 

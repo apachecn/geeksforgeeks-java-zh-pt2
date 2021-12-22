@@ -28,7 +28,7 @@ static 关键字意味着应用它的实体在类的任何特定实例之外都�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // static variable
@@ -47,7 +47,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -57,7 +57,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class static_gfg {
@@ -91,7 +91,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1
 2
 ```
@@ -106,7 +106,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class final_gfg { 
@@ -130,7 +130,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 geek1
 geek2
 ```
@@ -141,7 +141,7 @@ geek2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 // This class is final
@@ -178,7 +178,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class final_gfg{
@@ -202,7 +202,7 @@ class GFG{
 
 **Output**
 
-```
+```java
 Overrides GeeksforGeeks
 ```
 
@@ -212,7 +212,7 @@ Overrides GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class final_gfg{
@@ -248,7 +248,7 @@ class GFG{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // abstract class
 abstract class abstract_gfg{ 
         abstract void myMethod();
@@ -273,7 +273,7 @@ class GFG{
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -285,7 +285,7 @@ synchronized 关键字防止一个代码块被多个线程同时执行。这对�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class Counter{
@@ -336,7 +336,7 @@ class GFG{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class Counter{
@@ -381,7 +381,7 @@ class GFG{
 
 **Output**
 
-```
+```java
 200000
 ```
 
@@ -391,7 +391,7 @@ volatile 关键字用于使类线程安全。这意味着如果一个变量被�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -426,7 +426,7 @@ class GFG{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -468,7 +468,7 @@ transient 关键字可以应用于类的成员变量，以指示在序列化包�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class transient_gfg implements Serializable {
@@ -522,7 +522,7 @@ class GFG{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.*;
 
 class GFG

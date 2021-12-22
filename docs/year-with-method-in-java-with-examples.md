@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public Year with(TemporalAdjuster adjuster)
 
 ```
@@ -27,7 +27,7 @@ public Year with(TemporalAdjuster adjuster)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.with() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year before adjustment: 2019
 Year after adjustment: 2012
 
@@ -72,7 +72,7 @@ Year after adjustment: 2012
 
 **语法:**
 
-```
+```java
 public Year with(TemporalField field, long newValue)
 
 ```
@@ -90,7 +90,7 @@ public Year with(TemporalField field, long newValue)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.with() method
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year before applying method: 2019
 Year after applying method: 2100
 

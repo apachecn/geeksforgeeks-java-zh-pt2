@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double log1p(double x)
 ```
 
@@ -21,7 +21,7 @@ public static double log1p(double x)
 
 **示例:**
 
-```
+```java
 Input : 2018.0
 Output : 7.610357618312838
 
@@ -34,7 +34,7 @@ Output : NaN
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // StrictMath.log1p() function
 
@@ -58,7 +58,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Natural Logarithm of 2019.00567 is 7.610360426629845
 Natural Logarithm of 100000.0 is 11.512925464970229
 ```
@@ -67,7 +67,7 @@ Natural Logarithm of 100000.0 is 11.512925464970229
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate
 // StrictMath.log1p() function
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Natural Logarithm of Infinity is Infinity
 Natural Logarithm of -4742.0 is NaN
 ```

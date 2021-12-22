@@ -6,7 +6,7 @@ Java . time . zone . zoneoffsettransitionrule 类的 **getDayOfMonthIndicator()*
 
 **语法:**
 
-```
+```java
 public int getDayOfMonthIndicator()
 ```
 
@@ -18,7 +18,7 @@ public int getDayOfMonthIndicator()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getDayOfMonthIndicator() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day Of Month Indicator : 12
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getDayOfMonthIndicator() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Day Of Month Indicator : 20
 
 ```

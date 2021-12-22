@@ -50,7 +50,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.io.File;
 
 import net.sourceforge.tess4j.Tesseract;
@@ -83,7 +83,7 @@ public class Test {
 > 
 > **输出:**
 > 
-> ```
+> ```java
 > 05221859
 > ```
 > 
@@ -103,7 +103,7 @@ public class Test {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.awt.Graphics2D;
 import net.sourceforge.tess4j.*;
 import java.awt.Image;

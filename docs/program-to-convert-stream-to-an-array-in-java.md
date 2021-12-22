@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```java
     stream.toArray()
     ```
 
@@ -25,7 +25,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Stream to array in Java 8
 
@@ -58,7 +58,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array from Stream: [1, 2, 3, 4, 5]
 
     ```
@@ -67,7 +67,7 @@
 
     **语法:**
 
-    ```
+    ```java
     <A> A[] toArray(IntFunction<A[]> generator)
     ```
 
@@ -80,7 +80,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Stream to array in Java 8
 
@@ -114,7 +114,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array from Stream: [1, 2, 3, 4, 5]
 
     ```
@@ -131,7 +131,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Stream to array in Java 8
 
@@ -165,7 +165,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Array of Integer from Stream: [1, 2, 3, 4, 5]
 
     ```

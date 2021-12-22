@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static int getExponent(*double num*)
     ```
 
@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 75.45
     Output: 6.0
 
@@ -29,7 +29,7 @@
 
     下面的程序举例说明了 Java . lang . strict math . getindex()方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.getExponent()
     import java.lang.*;
@@ -52,7 +52,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Exponent of 93.5 = 6.0
 
     ```
@@ -63,7 +63,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static int getExponent(*float num*)
     ```
 
@@ -73,7 +73,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: num = 10254.25f
     Output: 13.0
 
@@ -84,7 +84,7 @@
 
     下面的程序举例说明了 Java . lang . strict math . getindex()方法:
 
-    ```
+    ```java
     // Java praogram to illustrate the
     // java.lang.StrictMath.getExponent()
     import java.lang.*;
@@ -107,7 +107,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Exponent of 10254.25 = 13.0
 
     ```

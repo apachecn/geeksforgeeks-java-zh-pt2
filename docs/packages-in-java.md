@@ -22,7 +22,7 @@
 **子包:**在另一个包中的包是**子包**。这些默认情况下是不导入的，它们必须显式导入。此外，子包的成员没有访问权限，也就是说，它们被视为受保护和默认访问说明符的不同包。
 **例:**
 
-```
+```java
 import java.util.*;
 
 ```
@@ -33,7 +33,7 @@ import java.util.*;
 
 考虑以下两种说法:
 
-```
+```java
 // import the Vector class from util package.
 import java.util.vector; 
 
@@ -45,7 +45,7 @@ import java.util.*;
 *   第一个语句用于从包含在 **java** 中的 **util** 包导入**向量**类。
 *   第二条语句从 **util** 包导入所有类。
 
-```
+```java
 // All the classes and interfaces of this package
 // will be accessible but not subpackages.
 import package.*;
@@ -61,7 +61,7 @@ import my.packag.Date;
 
 ```
 
-```
+```java
 // Java program to demonstrate accessing of members when
 // corresponding classes are imported and not imported.
 import java.util.Vector;
@@ -102,7 +102,7 @@ public class ImportDemo
 **用户定义的包**
 这些是用户定义的包。首先我们创建一个目录**我的包**(名字应该和包的名字一样)。然后在目录中创建 **MyClass** ，第一个语句是**包名**。
 
-```
+```java
 // Name of the package must be same as the directory
 // under which this file is saved
 package myPackage;
@@ -119,7 +119,7 @@ public class MyClass
 
 现在我们可以在程序中使用 **MyClass** 类。
 
-```
+```java
 /* import 'MyClass' class from 'names' myPackage */
 import myPackage.MyClass;
 
@@ -148,7 +148,7 @@ public class PrintName
 **静态导入是 **Java** 编程语言(版本 5 及以上)中引入的一项功能，它允许在类中定义为公共的成员(字段和方法)**静态**在 Java 代码中使用，而无需指定定义字段的类。
 以下程序演示**静态导入**:**
 
-```
+```java
 // Note static keyword after import.
 import static java.lang.System.*;
 
@@ -165,7 +165,7 @@ class StaticImportDemo
 
 **输出:**
 
-```
+```java
  GeeksforGeeks
 ```
 
@@ -173,7 +173,7 @@ class StaticImportDemo
 
 **我们唯一需要注意包的时候是我们有名字冲突的时候。例如，java.util 和 java.sql 包都有一个名为 Date 的类。如果我们在程序中导入这两个包，如下所示:**
 
-```
+```java
 import java.util.*;
 import java.sql.*;
 
@@ -184,7 +184,7 @@ Date today ; //ERROR-- java.util.Date or java.sql.Date?
 
 **编译器将无法计算出我们想要哪个日期类。这个问题可以通过使用特定的导入语句来解决:**
 
-```
+```java
 import java.util.Date;
 import java.sql.*; 
 ```
@@ -192,7 +192,7 @@ import java.sql.*;
 **如果我们需要两个日期类，那么我们需要在每次声明该类的新对象时使用完整的包名。
 例如:**
 
-```
+```java
 java.util.Date deadLine = new java.util.Date();
 java.sql.Date today = new java.sql.Date(); 
 ```
@@ -209,19 +209,19 @@ java.sql.Date today = new java.sql.Date();
 *   **类路径可以在环境中永久设置:在 Windows 中，选择控制面板？系统？高级？环境变量？选择“系统变量”(针对所有用户)还是“用户变量”(仅针对当前登录的用户)？选择“编辑”(如果类路径已经存在)或“新建”？输入“CLASSPATH”作为变量名？输入所需的目录和 JAR 文件(用分号分隔)作为值(例如。；c:\ javaproject \ class；d:\tomcat\lib\servlet-api.jar”)。请注意，您需要包含当前的工作目录(用“.”表示))在类路径中。
     要检查类路径的当前设置，发出以下命令:
 
-    ```
+    ```java
     > SET CLASSPATH
 
     ```** 
 *   **通过发出以下命令，可以为特定的 CMD shell 会话临时设置类路径:
 
-    ```
+    ```java
     > SET CLASSPATH=.;c:\javaproject\classes;d:\tomcat\lib\servlet-api.jar
 
     ```** 
 *   **Instead of using the CLASSPATH environment variable, you can also use the command-line option -classpath or -cp of the javac and java commands, for example,
 
-    ```
+    ```java
     > java –classpath c:\javaproject\classes com.abc.project1.subproject2.MyClass3
 
     ```
@@ -230,7 +230,7 @@ java.sql.Date today = new java.sql.Date();
     创建我们的第一个包:
     文件名–ClassOne.java
 
-    ```
+    ```java
     package package_name;
 
     public class ClassOne {
@@ -243,7 +243,7 @@ java.sql.Date today = new java.sql.Date();
     创建我们的第二个包:
     文件名-ClassTwo.java
 
-    ```
+    ```java
     package package_one;
 
     public class ClassTwo {
@@ -256,7 +256,7 @@ java.sql.Date today = new java.sql.Date();
     利用两个创建的包:
     文件名-Testing.java
 
-    ```
+    ```java
     import package_one.ClassTwo;
     import package_name.ClassOne;
 
@@ -272,7 +272,7 @@ java.sql.Date today = new java.sql.Date();
 
     输出:
 
-    ```
+    ```java
     Hello there i am ClassTwo
     Hello there its ClassOne
 

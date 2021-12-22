@@ -6,7 +6,7 @@ Java 中 Period 类的 hashCode()方法用来获取这个期间生成的 hashCod
 
 **语法:**
 
-```
+```java
 public int hashCode()
 ```
 
@@ -18,7 +18,7 @@ public int hashCode()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function hashCode()
 // to get the hashCode for the given period
 
@@ -48,14 +48,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 2032396
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function hashCode()
 // to get the hashCode for the given period
 
@@ -85,7 +85,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 2032372
 
 ```

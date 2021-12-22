@@ -6,7 +6,7 @@ Java 中 Year 类的 isbbefore()方法用于检查当前 Year 对象是否在指
 
 **语法**:
 
-```
+```java
 public boolean isBefore(Year otherYear)
 
 ```
@@ -18,7 +18,7 @@ public boolean isBefore(Year otherYear)
 以下程序说明了 Java 中的 isBefore()年方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 false
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -73,7 +73,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 true
 
 ```

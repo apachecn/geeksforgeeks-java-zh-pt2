@@ -5,7 +5,7 @@
 **Java . text . rulesbasedcollator 类**的 **getCollationKey()** 方法用于获取从传入的字符串转换而来的位序列。
 **语法:**
 
-```
+```java
 public CollationKey getCollationKey(String source)
 ```
 
@@ -16,7 +16,7 @@ public CollationKey getCollationKey(String source)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCollationKey() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Series of bits are :- Geek
 ```
 
@@ -72,7 +72,7 @@ Series of bits are :- Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getCollationKey() method
 
@@ -120,7 +120,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Series of bits are :- G_f_G
 ```
 

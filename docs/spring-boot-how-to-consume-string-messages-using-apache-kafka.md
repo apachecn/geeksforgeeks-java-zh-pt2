@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,7 +63,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to consume string
 // messages using spring kafka
 
@@ -120,7 +120,7 @@ public class Config {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @Service
 public class KafkaService {
 

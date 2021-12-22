@@ -8,7 +8,7 @@ Java 不支持多值返回。我们可以使用以下解决方案来返回多个
 
 我们可以用 Java 返回一个数组。下面是一个 Java 程序来演示同样的情况。
 
-```
+```java
 // A Java program to demonstrate that a method
 // can return multiple values of same type by
 // returning an array
@@ -37,7 +37,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 Sum = 150
 Sub = 50
 
@@ -48,7 +48,7 @@ Sub = 50
 **使用 Pair(如果只有两个返回值)**
 我们可以使用 Java 中的[Pair](https://www.geeksforgeeks.org/pair-class-in-java/)返回两个值。
 
-```
+```java
 // Returning a pair of values from a function
 import javafx.util.Pair;
 
@@ -72,7 +72,7 @@ class GfG {
 
 让我们看看下面的代码。
 
-```
+```java
 // A Java program to demonstrate that we can return
 // multiple values of different types by making a class
 // and returning an object of class.
@@ -112,7 +112,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 Multiplication = 200
 Division = 0.5
 Addition = 30
@@ -121,7 +121,7 @@ Addition = 30
 
 **返回[对象类列表](https://www.geeksforgeeks.org/object-class-in-java/)**
 
-```
+```java
 // Java program to demonstrate return of
 // multiple values from a function using
 // list Object class.
@@ -148,7 +148,7 @@ class GfG {
 
 **Output:**
 
-```
+```java
 [Geek, 35, M]
 
 ```

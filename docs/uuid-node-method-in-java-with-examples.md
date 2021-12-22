@@ -6,7 +6,7 @@ Java 中 **UUID 类**的**节点()**方法一般用来获取与这个 UUID 关�
 
 **语法:**
 
-```
+```java
 public long node()
 ```
 
@@ -20,7 +20,7 @@ public long node()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate node() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The node value is: 8796630719078
 
@@ -56,7 +56,7 @@ The node value is: 8796630719078
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate node() method
 
 import java.util.*;
@@ -84,7 +84,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 The node value is: 145009316876108
 

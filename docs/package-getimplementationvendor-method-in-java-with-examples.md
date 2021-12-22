@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getImplementationVendor()
 ```
 
@@ -19,7 +19,7 @@ public String getImplementationVendor()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getImplementationVendor() method
 
@@ -47,7 +47,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Implementation vendor of myPackage: N/A
 ```
@@ -56,7 +56,7 @@ Implementation vendor of myPackage: N/A
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getImplementationVendor() method
 
@@ -84,7 +84,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Implementation vendor of myPackage: N/A
 ```

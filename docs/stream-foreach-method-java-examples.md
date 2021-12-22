@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void forEach(Consumer<**?** super T> action)
 
 Where, Consumer is a functional interface
@@ -18,7 +18,7 @@ and T is the type of stream elements.
 
 **例 1 :** 对反向排序流的每个元素进行打印操作。
 
-```
+```java
 // Java code for forEach
 // (Consumer action) in Java 8
 import java.util.*;
@@ -42,7 +42,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 10
 8
 6
@@ -53,7 +53,7 @@ class GFG {
 
 **例 2 :** 对字符串流的每个元素进行打印操作。
 
-```
+```java
 // Java code for forEach
 // (Consumer action) in Java 8
 import java.util.*;
@@ -77,7 +77,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 Geeks
 for
@@ -87,7 +87,7 @@ GeeksforGeeks
 
 **例 3 :** 对反向排序后的字符串流的每个元素进行打印操作。
 
-```
+```java
 // Java code for forEach
 // (Consumer action) in Java 8
 import java.util.*;
@@ -114,7 +114,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 o
 e
 e

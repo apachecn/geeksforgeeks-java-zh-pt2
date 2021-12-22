@@ -4,7 +4,7 @@
 
 ***【大小】()方法*** [***树状图类***](https://www.geeksforgeeks.org/treemap-in-java/) 用于获取地图的大小，即地图中键值对或映射的数量。
 
-```
+```java
 --> java.util package
     --> TreeMap class
         --> size() Method   
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Map.size()
 ```
 
@@ -22,7 +22,7 @@ Tree_Map.size()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate size() Method
 // of TreeMap class
 
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The size of the map is 5
 ```
@@ -71,7 +71,7 @@ The size of the map is 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate the size() method
 // of TreeMap class
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The size of the map is 4
 ```

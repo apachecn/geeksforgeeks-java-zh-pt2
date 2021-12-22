@@ -34,7 +34,7 @@ PriorityBlockingQueue 类及其迭代器实现了 Collection 和 iterator 接口
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // PriorityBlockingQueue() constructor
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[1, 2, 3, 4, 5]
 ```
 
@@ -77,7 +77,7 @@ PriorityBlockingQueue:[1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // PriorityBlockingQueue(Collection c) constructor
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[1, 2, 3, 4, 5]
 ```
 
@@ -121,7 +121,7 @@ PriorityBlockingQueue:[1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // PriorityBlockingQueue(int initialCapacity)
 // constructor
@@ -154,7 +154,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[1, 2, 3]
 ```
 
@@ -164,7 +164,7 @@ PriorityBlockingQueue:[1, 2, 3]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // PriorityBlockingQueue(int initialCapacity, Comparator
 // comparator) constructor
@@ -197,7 +197,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[3, 1, 2]
 ```
 
@@ -209,7 +209,7 @@ PriorityBlockingQueue 的 [add(E e)](https://www.geeksforgeeks.org/priorityblock
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate adding elements
 // to the PriorityBlockingQueue
 
@@ -239,7 +239,7 @@ public class AddingElementsExample {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[1, 2, 3]
 ```
 
@@ -249,7 +249,7 @@ PriorityBlockingQueue 的 [remove(Object o)](https://www.geeksforgeeks.org/prior
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate removing
 // elements from the PriorityBlockingQueue
 
@@ -285,7 +285,7 @@ public class RemovingElementsExample {
 
 **Output:** 
 
-```
+```java
 PriorityBlockingQueue:[1, 2, 3]
 PriorityBlockingQueue:[]
 ```
@@ -296,7 +296,7 @@ PriorityBlockingQueue 的 [peek()](https://www.geeksforgeeks.org/priorityblockin
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate accessing
 // elements of PriorityBlockingQueue
 
@@ -331,7 +331,7 @@ public class AccessingElementsExample {
 
 **Output**
 
-```
+```java
 PrioQueue: [416165, 464161]
 Head of Queue: 416165
 ```
@@ -342,7 +342,7 @@ PriorityBlockingQueue 类的[迭代器()](https://www.geeksforgeeks.org/priority
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate iterating
 // over PriorityBlockingQueue
 
@@ -384,7 +384,7 @@ public class IteratingExample {
 
 **Output**
 
-```
+```java
 The Names are:
 A
 Computer
@@ -400,7 +400,7 @@ PriorityBlockingQueue 的[比较器()](https://www.geeksforgeeks.org/priorityblo
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate comparator()
 // method and passing Comparator to PriorityBlockingQueue
 
@@ -450,7 +450,7 @@ public class ComparatorExample {
 
 **Output**
 
-```
+```java
 Comparator value: ComparatorExample$1@27bc2616
 PriorityBlockingQueue follows : ComparatorExample$1@27bc2616
 ```

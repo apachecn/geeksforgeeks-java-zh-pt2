@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuffer append(*boolean a*)
     ```
 
@@ -19,7 +19,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     string_buffer = "I love my Country" 
     boolean a = true
@@ -30,7 +30,7 @@
 
     下面的程序说明了 java.lang.StringBuffer.append()方法:
 
-    ```
+    ```java
     // Java program to illustrate the
     // StringBuffer append(boolean a)
     import java.lang.*;
@@ -61,7 +61,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Input: We are geeks and its really 
     Output: We are geeks and its really true
 
@@ -74,7 +74,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuffer append(*char a*)
     ```
 
@@ -83,7 +83,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     **例:**
 
-    ```
+    ```java
     Input :
     StringBuffer = I love my Country 
     char a = A
@@ -93,7 +93,7 @@
 
     下面的程序说明了 Java . lang . StringBuffer . append(char a)方法。
 
-    ```
+    ```java
     // Java program to illustrate the
     // java.lang.StringBuffer.append(char a)
     import java.lang.*;
@@ -123,7 +123,7 @@
 
     **Output:**
 
-    ```
+    ```java
     We are geeks and its really 
     Result after appending = We are geeks and itsM
     We are lost -
@@ -135,7 +135,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuffer append(*char[] astr*)
     ```
 
@@ -144,7 +144,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     **例:**
 
-    ```
+    ```java
     Input :
     StringBuffer  = *I love my Country  * 
     char[] astr = *'I', 'N', 'D', 'I', 'A'*
@@ -154,7 +154,7 @@
 
     下面的程序说明了 Java . lang . stringbuffer . append(*char[]astr*)方法:
 
-    ```
+    ```java
     // Java program to illustrate the
     // java.lang.StringBuffer.append(<em>char[] astr</em>)
     import java.lang.*;
@@ -191,7 +191,7 @@
 
     **Output:**
 
-    ```
+    ```java
     We are geeks and its really 
     Result after appending = We are geeks and its GEEkS
     We are lost -
@@ -203,7 +203,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuffer append(*char[] cstr, int iset, int ilenght*)
     ```
 
@@ -216,7 +216,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     下面的程序说明了 Java . lang . stringbuffer . append(char[]CSTR，int iset，int ilength)方法。
 
-    ```
+    ```java
     // Java program to illustrate the
     // java.lang.StringBuffer append(char[] cstr, int iset, int ilength)
     import java.lang.*;
@@ -244,7 +244,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String buffer  before = Geeks
     After appending string buffer = GeeksforGeeks
 

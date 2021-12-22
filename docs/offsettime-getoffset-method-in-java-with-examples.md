@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **getOffset()** 方法从解析的时间中获取区�
 
 **语法:**
 
-```
+```java
 public ZoneOffset getOffset()
 
 ```
@@ -19,7 +19,7 @@ public ZoneOffset getOffset()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getOffset() method
 
 import java.time.OffsetTime;
@@ -41,14 +41,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset time: +07:00
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getOffset() method
 
 import java.time.OffsetTime;
@@ -70,7 +70,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Offset time: +04:00
 
 ```

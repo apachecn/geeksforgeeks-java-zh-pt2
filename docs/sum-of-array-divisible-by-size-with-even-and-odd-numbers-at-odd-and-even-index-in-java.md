@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```java
 Input : arr = {1, 2, 3, 4, 5, 6, 9, 10} 
 Output: "VALID"
 Explanation: 
@@ -45,7 +45,7 @@ Hence it is invalid.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Sum of Array Divisible by Size with Even
 // and Odd Numbers at Odd and Even Index 
 // in Java
@@ -100,7 +100,7 @@ public class Main {
 
 **Output**
 
-```
+```java
 VALID
 INVALID
 ```

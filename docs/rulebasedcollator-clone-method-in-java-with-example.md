@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object clone()
 ```
 
@@ -18,7 +18,7 @@ public Object clone()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // clone() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 equivalent object :- java.text.RuleBasedCollator@7033e09a
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // clone() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 equivalent object :- java.text.RuleBasedCollator@78930901
 
 ```

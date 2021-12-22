@@ -6,7 +6,7 @@ Java . util . WeakHashMap . contains KeY()方法用于检查特定的键是否�
 
 **语法:**
 
-```
+```java
 Weak_Hash_Map.containsKey(*key_element*)
 ```
 
@@ -17,7 +17,7 @@ Weak_Hash_Map.containsKey(*key_element*)
 下面的程序用来说明 Java . util . weakashmap . contains key()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -51,7 +51,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 Is the key '20' present? true
 Is the key '5' present? false
@@ -60,7 +60,7 @@ Is the key '5' present? false
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the containsKey() method
 import java.util.*;
 
@@ -94,7 +94,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 Is the key 'Welcomes' present? true
 Is the key 'World' present? false

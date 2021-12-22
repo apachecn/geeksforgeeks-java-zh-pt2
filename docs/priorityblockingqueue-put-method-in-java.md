@@ -5,7 +5,7 @@
 [**优先级阻塞队列**](https://www.geeksforgeeks.org/priorityblockingqueue-class-in-java/) 的 **put(E e)** 方法用于**向该队列**中添加一个元素。此方法将指定的元素插入到该优先级队列中。由于队列是无界的，这个方法永远不会被阻塞。
 **语法:**
 
-```
+```java
 public void put(E e)
 ```
 
@@ -21,7 +21,7 @@ public void put(E e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate put(E e)
 // method of PriorityBlockingQueue
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Queue: [1, 2, 3, 4]
 ```
 
@@ -57,7 +57,7 @@ Queue: [1, 2, 3, 4]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrate put(E e)
 // method of PriorityBlockingQueue
 
@@ -85,6 +85,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Exception: java.lang.NullPointerException
 ```

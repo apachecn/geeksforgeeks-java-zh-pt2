@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **minusYears()** 方法返回这个 OffsetDateTim
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusYears(long years)
 ```
 
@@ -20,7 +20,7 @@ public OffsetDateTime minusYears(long years)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusYears() method
 
 import java.time.OffsetDateTime;
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting years: 2138-12-12T13:30:30+05:00
 
@@ -55,7 +55,7 @@ Date1 after subtracting years: 2138-12-12T13:30:30+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusYears() method
 
 import java.time.OffsetDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting years: 1878-12-12T13:30:30+05:00
 

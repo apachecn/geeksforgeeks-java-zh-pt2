@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 LinkedList.remove()
 ```
 
@@ -22,7 +22,7 @@ LinkedList.remove()
 
 **语法:**
 
-```
+```java
 LinkedList.removeLast()
 ```
 
@@ -34,7 +34,7 @@ LinkedList.removeLast()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the Java.util.LinkedList.remove() method
 // and Java.util.LinkedList.removeLast() method
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 LinkedList:    [Geek, for, Geeks, 2020, 2021]
 The last element is removed:    2021
 Final LinkedList:    [Geek, for, Geeks, 2020]

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ListIterator listIterator()
 ```
 
@@ -16,7 +16,7 @@ public ListIterator listIterator()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // listIterator() method
 // for String value
@@ -64,7 +64,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Stack: [A, B, C, D]
 
 Using ListIterator:
@@ -78,7 +78,7 @@ Value is : D
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate lastIndexOf()
 import java.util.*;
 
@@ -116,7 +116,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [1, 2, 3, 10, 20]
 
 Using ListIterator:

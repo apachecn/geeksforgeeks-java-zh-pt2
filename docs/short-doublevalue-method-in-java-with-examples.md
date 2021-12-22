@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double doubleValue()
 ```
 
@@ -16,7 +16,7 @@ public double doubleValue()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short doubleValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 17 is : 17.0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short doubleValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Double value of 17 is : 17.0
 
 ```

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 public static double atan2(*double abscissa_val, double ordinate_val* )
 ```
 
@@ -34,7 +34,7 @@ public static double atan2(*double abscissa_val, double ordinate_val* )
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan2()
 
@@ -59,7 +59,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Arc tangent value is: 0.00599992800155516
 ```
 
@@ -67,7 +67,7 @@ Arc tangent value is: 0.00599992800155516
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan2()
 
@@ -93,7 +93,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Arc tangent value is: 3.135592725588238
 ```
 
@@ -101,7 +101,7 @@ Arc tangent value is: 3.135592725588238
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan2()
 
@@ -127,7 +127,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Arc tangent value is: -0.00599992800155516
 ```
 
@@ -135,7 +135,7 @@ Arc tangent value is: -0.00599992800155516
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.atan2()
 
@@ -161,6 +161,6 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Arc tangent value is: -3.135592725588238
 ```

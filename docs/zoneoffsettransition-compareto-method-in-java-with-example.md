@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(ZoneOffsetTransition transition)
 ```
 
@@ -18,7 +18,7 @@ public int compareTo(ZoneOffsetTransition transition)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -85,14 +85,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zonetrans1 is equal to zonetrans2
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // compareTo() method
 
@@ -159,7 +159,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 zonetrans1 is greater than zonetrans2
 
 ```

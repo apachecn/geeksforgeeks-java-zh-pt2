@@ -10,7 +10,7 @@
 
 下面是演示类的实现，演示了上图中提到的步骤:
 
-```
+```java
 // Java Program to demonstrate
 // the above steps
 
@@ -92,7 +92,7 @@ public class MainDemo2 {
 
 **Output:**
 
-```
+```java
 Geek Requested: Java
 Google Searched: Java
 
@@ -109,7 +109,7 @@ Google Searched: Java
 
     因此，在上面的例子中:
 
-    ```
+    ```java
     Agents: Geek, Google, and other objects
     Community: Search engine community
 

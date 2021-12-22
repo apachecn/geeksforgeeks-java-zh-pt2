@@ -14,7 +14,7 @@
 2.  [初始化块](https://www.geeksforgeeks.org/g-fact-26-the-initializer-block-in-java/)按照它们在程序中出现的相同顺序运行。
 3.  [实例初始化块](https://www.geeksforgeeks.org/instance-initialization-block-iib-java/)在初始化类时和调用构造函数之前执行。它们通常放置在大括号内的构造函数之上。
 
-```
+```java
 // Java code to illustrate order of
 // execution of constructors, static
 // and initialization blocks
@@ -58,7 +58,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 1st static init
 2nd static init
 1st instance init
@@ -73,7 +73,7 @@ ONE argument constructor
 
 现在，预测以下程序的输出-
 
-```
+```java
 // A tricky Java code to predict the output
 // based on order of 
 // execution of constructors, static 
@@ -114,7 +114,7 @@ public class GFG {
 
 输出:
 
-```
+```java
 9900
 
 ```

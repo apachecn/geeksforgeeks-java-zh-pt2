@@ -5,7 +5,7 @@
 给定学生在学科名称是关键，得分是价值的学科中满分 100 分。我们的任务是根据值，即根据标记，对[哈希表](https://www.geeksforgeeks.org/java-util-hashmap-in-java/)进行排序。
 **例:**
 
-```
+```java
 Input : Key = Math, Value = 98
         Key = Data Structure, Value = 85
         Key = Database, Value = 91
@@ -26,7 +26,7 @@ Output : Key = Operating System, Value = 79
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort hashmap by values
 import java.util.*;
 import java.lang.*;
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key = Operating System, Value = 79
 Key = Networking, Value = 80
 Key = Data Structure, Value = 85
@@ -101,7 +101,7 @@ Key = Math, Value = 98
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort hashmap by values
 import java.lang.*;
 import java.util.*;
@@ -161,7 +161,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Key = Operating System, Value = 79
 Key = Networking, Value = 80
 Key = Data Structure, Value = 85
@@ -177,7 +177,7 @@ Key = Math, Value = 98
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to sort hashmap by values
 import static java.util.stream.Collectors.*;
 
@@ -234,7 +234,7 @@ public class gfg3 {
 
 **Output**
 
-```
+```java
 Key = Operating System, Value = 79
 Key = Networking, Value = 80
 Key = Data Structure, Value = 85

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static <T>
   Optional<T> ofNullable(T value)
 
@@ -19,7 +19,7 @@ public static <T>
 以下程序举例说明了 ofNullable()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.ofNullable() method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional 1: Optional[9455]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.ofNullable() method
 
@@ -73,7 +73,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional 2: Optional.empty
 
 ```

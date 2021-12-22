@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.contains(Object element)
 ```
 
@@ -18,7 +18,7 @@ Vector.contains(Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Welcome, To, Geeks, 4, Geeks]
 Does the vector contains 'Geeks'? true
 Does the Vector contains '4'? true
@@ -65,7 +65,7 @@ Does the Queue contains 'No'? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate contains()
 import java.util.*;
 
@@ -102,7 +102,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 Does the vector contains 'Geeks'? false
 Does the Vector contains '4'? false

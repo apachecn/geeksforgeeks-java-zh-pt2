@@ -6,7 +6,7 @@ Java 中 Year 类的 format()方法用于根据作为参数传递给它的 DateT
 
 **语法**:
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 
 ```
@@ -20,7 +20,7 @@ public String format(DateTimeFormatter formatter)
 下面的程序用 Java 说明了 Year 的格式()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 1997
 97
 
@@ -56,7 +56,7 @@ public class GfG {
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the format() method
 
 import java.util.*;
@@ -84,7 +84,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 2018
 18
 

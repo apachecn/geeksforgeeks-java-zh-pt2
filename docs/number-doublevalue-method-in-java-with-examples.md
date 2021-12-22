@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract double doubleValue()
 
 ```
@@ -19,7 +19,7 @@ public abstract double doubleValue()
 
 **程序 1:**
 
-```
+```java
 // java program that demonstrates
 // the Number.doubleValue()
 public class gfg {
@@ -42,7 +42,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 1.234785456E9
 9.8745872E7
 
@@ -50,7 +50,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // java program that demonstrates
 // the Number.doubleValue()
 
@@ -74,7 +74,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 123.0
 9876.0
 

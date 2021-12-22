@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public void getChars(int srcBegin, int srcEnd, 
                           char[] dst, int dstBegin)
 ```
@@ -36,7 +36,7 @@ public void getChars(int srcBegin, int srcEnd,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getChars() Method.
 
@@ -78,7 +78,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = Geeks For Geeks
 char array contains : . G e e k s   F o r . . . . .
 
@@ -86,7 +86,7 @@ char array contains : . G e e k s   F o r . . . . .
 
 **示例 2:** 演示 StringIndexOutOfBoundsException。
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by the getChars() Method.
 
@@ -123,7 +123,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: srcBegin > srcEnd
 
 ```

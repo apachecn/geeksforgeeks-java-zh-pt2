@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getErrorIndex()
 ```
 
@@ -18,7 +18,7 @@ public int getErrorIndex()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getErrorIndex() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 index at which parse error may occur: 3
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getErrorIndex() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 error index is not set
 
 ```

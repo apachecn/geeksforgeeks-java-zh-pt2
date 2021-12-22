@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的**Nanos()**方法返回这个 OffsetTime 的一个副�
 
 **语法:**
 
-```
+```java
 public OffsetTime minusNanos(long Nanos)
 
 ```
@@ -19,7 +19,7 @@ public OffsetTime minusNanos(long Nanos)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the minusNanos() method
 
 import java.time.OffsetTime;
@@ -38,14 +38,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After subtraction, time is: 11:10:09.999999995+05:05
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusNanos() method
 
 import java.time.OffsetTime;
@@ -64,7 +64,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 After subtraction, time is: 11:10:10.000000005+05:05
 
 ```

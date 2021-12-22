@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getLocalizedMessage()
 ```
 
@@ -16,7 +16,7 @@ public String getLocalizedMessage()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getLocalizedMessage() Method.
 
@@ -58,14 +58,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 LocalizedMessage = Numbers are not Positive
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the ensureCapacity() Method.
 
@@ -101,7 +101,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 LocalizedMessage of Exception : Forcefully Generated Exception
 
 ```

@@ -10,7 +10,7 @@
 
 ## XML
 
-```
+```java
 <dependencies>       
       <dependency>         
          <groupId>com.itextpdf</groupId>         

@@ -17,7 +17,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Map<Key, Value> into Stream
 
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Map: {1=Geeks, 2=forGeeks, 3=A computer Portal}
     Stream: [1=Geeks, 2=forGeeks, 3=A computer Portal]
 
@@ -86,7 +86,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Map<Key, Value> into Stream
 
@@ -137,7 +137,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Map: {1=Geeks, 2=forGeeks, 3=A computer Portal}
     Stream: [1, 2, 3]
 
@@ -154,7 +154,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Map<Key, Value> into Stream
 
@@ -205,7 +205,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Map: {1=Geeks, 2=forGeeks, 3=A computer Portal}
     Stream: [Geeks, forGeeks, A computer Portal]
 

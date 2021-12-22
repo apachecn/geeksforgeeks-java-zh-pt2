@@ -16,7 +16,7 @@
 1.  **字符串(字节[]字节 _ arr)**–通过解码*字节数组*来构建新字符串。它使用平台的默认字符集进行解码。
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     String s_byte =new String(b_arr); //Geeks
 
@@ -25,7 +25,7 @@
 2.  **字符串(字节[]字节 _arr，字符集 char _ set)**–通过解码*字节数组*来构建新字符串。它使用 *char_set* 进行解码。
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     Charset cs = Charset.defaultCharset();
     String s_byte_char = new String(b_arr, cs); //Geeks
@@ -36,7 +36,7 @@
     它看起来类似于上面的构造，它们出现在类似的函数之前，但是它以*字符串(包含 char_set_name)* 为参数，而上面的构造函数以 *CharSet 为参数。*
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     String s = new String(b_arr, "US-ASCII"); //Geeks
 
@@ -45,7 +45,7 @@
 4.  **字符串(byte[] byte_arr，int start_index，int length)**–根据 *start_index(起始位置)*和 *length(起始位置的字符数)从*字节数组*构建新字符串。*
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     String s = new String(b_arr, 1, 3); // eek
 
@@ -54,7 +54,7 @@
 5.  **字符串(byte[] byte_arr，int start_index，int length，Charset char _ set)**–根据 *start_index(起始位置)*和 *length(起始位置的字符数)*从*字节数组*构建新字符串。使用 *char_set* 进行解码。
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     Charset cs = Charset.defaultCharset();
     String s = new String(b_arr, 1, 3, cs); // eek
@@ -64,7 +64,7 @@
 6.  **字符串(byte[] byte_arr，int start_index，int length，String char _ set _ name)**–根据 *start_index(起始位置)*和 *length(起始位置的字符数)*从*字节数组*构建新字符串。使用 *char_set_name* 进行解码。
     **例:**
 
-    ```
+    ```java
     byte[] b_arr = {71, 101, 101, 107, 115};
     String s = new String(b_arr, 1, 4, "US-ASCII"); // eeks
 
@@ -73,7 +73,7 @@
 7.  **字符串(char[]char _ arr)**–从给定的*字符数组*
     **中分配一个新字符串示例:**
 
-    ```
+    ```java
     char char_arr[] = {'G', 'e', 'e', 'k', 's'};
     String s = new String(char_arr); //Geeks
 
@@ -82,7 +82,7 @@
 8.  **字符串(char[] char_array，int start_index，int count)**–从给定的*字符数组*中分配一个字符串，但从 *start_index* 中选择*计数*字符。
     **例:**
 
-    ```
+    ```java
     char char_arr[] = {'G', 'e', 'e', 'k', 's'};
     String s = new String(char_arr , 1, 3); //eek
 
@@ -91,7 +91,7 @@
 9.  **字符串(int[] uni_code_points，int offset，int count)**–从 *uni_code_array* 中分配字符串，但从 *start_index* 中选择*计数*字符。
     **例:**
 
-    ```
+    ```java
     int[] uni_code = {71, 101, 101, 107, 115};
     String s = new String(uni_code, 1, 3); //eek
 
@@ -100,7 +100,7 @@
 10.  **字符串(StringBuffer s _ buffer)**–从 *s_buffer*
     **中的字符串分配新字符串示例:**
 
-    ```
+    ```java
     StringBuffer s_buffer = new StringBuffer("Geeks");
     String s = new String(s_buffer); //Geeks
 
@@ -109,7 +109,7 @@
 11.  **字符串(StringBuilder s _ builder)**–从 *s_builder*
     **中的字符串分配新字符串示例:**
 
-    ```
+    ```java
     StringBuilder s_builder = new StringBuilder("Geeks");
     String s = new String(s_builder); //Geeks
 
@@ -119,31 +119,31 @@
 
 1.  **int length():** 返回字符串中的字符数。
 
-    ```
+    ```java
     "GeeksforGeeks".length();  // returns 13
     ```
 
 2.  **[Char charAt(int I)](https://www.geeksforgeeks.org/java-string-charat-method-example/):**返回 i <sup>th</sup> 索引处的字符。
 
-    ```
+    ```java
     "GeeksforGeeks".charAt(3); // returns  ‘k’
     ```
 
 3.  **[字符串子串(int i)](https://www.geeksforgeeks.org/substring-in-java/) :** 从 i <sup>第</sup>个索引字符返回子串到结尾。
 
-    ```
+    ```java
     "GeeksforGeeks".substring(3); // returns “ksforGeeks”
     ```
 
 4.  **[字符串子串(int i，int j)](https://www.geeksforgeeks.org/substring-in-java/) :** 返回从 I 到 j-1 索引的子串。
 
-    ```
+    ```java
      "GeeksforGeeks".substring(2, 5); // returns “eks”
     ```
 
 5.  **[字符串连接符(String str)](https://www.geeksforgeeks.org/java-string-concat-examples/) :** 将指定的字符串连接到该字符串的末尾。
 
-    ```
+    ```java
      String s1 = ”Geeks”;
      String s2 = ”forGeeks”;
      String output = s1.concat(s2); // returns “GeeksforGeeks”
@@ -152,7 +152,7 @@
 
 6.  **[int indexOf(字符串)](https://www.geeksforgeeks.org/java-string-indexof/) :** 返回指定字符串第一次出现的字符串内的索引。
 
-    ```
+    ```java
      String s = ”Learn Share Learn”;
      int output = s.indexOf(“Share”); // returns 6
 
@@ -160,7 +160,7 @@
 
 7.  **[int indexOf(字符串 s，int i)](https://www.geeksforgeeks.org/java-string-indexof/) :** 从指定的索引开始，返回指定字符串第一个匹配项的字符串内的索引。
 
-    ```
+    ```java
      String s = ”Learn Share Learn”;
      int output = s.indexOf("ea",3);// returns 13
 
@@ -168,7 +168,7 @@
 
 8.  **[Int lastIndexOf(字符串)](https://www.geeksforgeeks.org/java-lang-string-lastindexof-method/) :** 返回指定字符串最后一次出现的字符串内的索引。
 
-    ```
+    ```java
      String s = ”Learn Share Learn”;
      int output = s.lastIndexOf("a"); // returns 14
 
@@ -176,7 +176,7 @@
 
 9.  **布尔等于(对象其他对象):**将该字符串与指定的对象进行比较。
 
-    ```
+    ```java
      Boolean out = “Geeks”.equals(“Geeks”); // returns true
      Boolean out = “Geeks”.equals(“geeks”); // returns false
 
@@ -184,14 +184,14 @@
 
 10.  **[布尔 equalsIgnoreCase(String other String)](https://www.geeksforgeeks.org/equalsignorecase-in-java/):**将字符串与另一个字符串进行比较，忽略大小写。
 
-    ```
+    ```java
      Boolean out= “Geeks”.equalsIgnoreCase(“Geeks”); // returns true
      Boolean out = “Geeks”.equalsIgnoreCase(“geeks”); // returns true
     ```
 
 11.  **[int compare to(String other String)](https://www.geeksforgeeks.org/java-lang-string-compareto/):**按字典顺序比较两个字符串。
 
-    ```
+    ```java
      int out = s1.compareTo(s2);  // where s1 ans s2 are
                                  // strings to be compared
 
@@ -204,7 +204,7 @@
 
 12.  **int compareToIgnoreCase( String anotherString): **Compares two string lexicographically, ignoring case considerations.
 
-    ```
+    ```java
      int out = s1.compareToIgnoreCase(s2);  
     // where s1 ans s2 are 
     // strings to be compared
@@ -220,7 +220,7 @@
 
 13.  **[字符串到小写()](https://www.geeksforgeeks.org/java-string-tolowercase-examples/) :** 将字符串中的所有字符转换为小写。
 
-    ```
+    ```java
     String word1 = “HeLLo”;
     String word3 = word1.toLowerCase(); // returns “hello"
 
@@ -228,7 +228,7 @@
 
 14.  **[字符串 to ppercase()](https://www.geeksforgeeks.org/java-touppercase-examples/):**将字符串中的所有字符转换为大写。
 
-    ```
+    ```java
     String word1 = “HeLLo”;
     String word2 = word1.toUpperCase(); // returns “HELLO”
 
@@ -236,7 +236,7 @@
 
 15.  **[字符串修剪()](https://www.geeksforgeeks.org/java-string-trim-method-example/) :** 通过删除两端的空格来返回字符串的副本。它不影响中间的空白。
 
-    ```
+    ```java
     String word1 = “ Learn Share Learn “;
     String word2 = word1.trim(); // returns “Learn Share Learn”
 
@@ -244,7 +244,7 @@
 
 16.  **[ String replace (char oldChar, char newChar)](https://www.geeksforgeeks.org/java-lang-string-replace-method-java/): **Returns new string by replacing all occurrences of *oldChar* with *newChar.*
 
-    ```
+    ```java
     String s1 = “feeksforfeeks“;
     String s2 = “feeksforfeeks”.replace(‘f’ ,’g’); // returns “geeksgorgeeks”
 
@@ -254,7 +254,7 @@
 
     说明所有字符串方法的程序:
 
-    ```
+    ```java
     // Java code to illustrate different constructors and methods 
     // String class.
 
@@ -336,7 +336,7 @@
 
     输出:
 
-    ```
+    ```java
     String length = 13
     Character at 3rd position = k
     Substring ksforGeeks

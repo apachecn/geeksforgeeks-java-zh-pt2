@@ -21,7 +21,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Widening Datatype Conversion
 // No Computations
@@ -43,7 +43,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 YOLO
 ```
 
@@ -55,7 +55,7 @@ YOLO
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate
 // Widening Datatype Conversion
 // Computations is Carried Out
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 YO155
 ```
 

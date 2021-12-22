@@ -23,7 +23,7 @@ Clip 是一个 java 接口，在 javax.sound.sampled 包中提供，并在 Java7
 4.  为剪辑设置所需的属性，如帧位置、循环、微秒位置。
 5.  开始剪辑
 
-```
+```java
 // Java program to play an Audio
 // file using Clip Object
 import java.io.File;

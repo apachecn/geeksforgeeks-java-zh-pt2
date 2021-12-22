@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate minus(
            long amountToSubtract,
            TemporalUnit unit)
@@ -25,7 +25,7 @@ public ThaiBuddhistDate minus(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate minus() method
 
 import java.util.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Old ThaiBuddhist date: ThaiBuddhist BE 2563-05-03
 New ThaiBuddhist date: ThaiBuddhist BE 2563-04-11
 ```
@@ -85,7 +85,7 @@ New ThaiBuddhist date: ThaiBuddhist BE 2563-04-11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate minus() method
 
 import java.util.*;
@@ -136,7 +136,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Old ThaiBuddhist date: ThaiBuddhist BE 2563-05-03
 New ThaiBuddhist date: ThaiBuddhist BE 2523-05-03
 ```

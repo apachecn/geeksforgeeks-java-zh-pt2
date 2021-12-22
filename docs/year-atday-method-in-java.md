@@ -6,7 +6,7 @@ Java 中 Year 类的 atDay()方法将当前年份与作为参数传递给它的�
 
 **语法**:
 
-```
+```java
 public LocalDate atDay(int dayOfYear)
 ```
 
@@ -22,7 +22,7 @@ public LocalDate atDay(int dayOfYear)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the atDay() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 2017-01-31
 ```
 
@@ -54,7 +54,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the atDay() method
 
 import java.util.*;
@@ -82,7 +82,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 java.time.DateTimeException: Invalid value for DayOfYear (valid values 1 - 365/366): 367
 ```
 

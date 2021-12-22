@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public int getDefaultPort()
 
 ```
 
 **语法**
 
-```
+```java
 url.getDefaultPort()
 
 ```
@@ -26,7 +26,7 @@ url.getDefaultPort()
 
 **例 1**HTTPS 默认港口
 
-```
+```java
 // Java program to show the use
 // of the function getDefaultPort()
 
@@ -67,7 +67,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL: https:// www.geeksforgeeks.org
 Default Port: 443
 
@@ -75,7 +75,7 @@ Default Port: 443
 
 **示例 2:**HTTP 的默认端口
 
-```
+```java
 // Java program to show the use
 // of the function getDefaultPort()
 
@@ -114,7 +114,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL: http:// www.geeksforgeeks.org
 Default Port: 80
 
@@ -122,7 +122,7 @@ Default Port: 80
 
 **例 3**FTP 默认端口
 
-```
+```java
 // Java program to show the use
 // of the function getDefaultPort()
 
@@ -162,7 +162,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL: ftp:// www.geeksforgeeks.org
 Default Port: 21
 

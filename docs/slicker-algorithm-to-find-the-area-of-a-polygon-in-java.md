@@ -6,7 +6,7 @@
 
 **例**
 
-```
+```java
 Input:
       Enter number of sides of the Polygon: 4
       Enter the coordinates as : <x> <y>
@@ -20,7 +20,7 @@ The Area of Polygon with 4 points using Slicker Algorithm is: 1
 
 **接近**
 
-```
+```java
 Take no of sides and coordinates of n-sided polygon as an input from the user
 
 Define function Area() which calculates the area with p as an argument as follows:
@@ -37,7 +37,7 @@ Define function Area() which calculates the area with p as an argument as follow
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implement Slicker Algorithm that avoids
 // Triangulation to Find Area of a Polygon
 import java.util.*;

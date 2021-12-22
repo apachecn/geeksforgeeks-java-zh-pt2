@@ -25,14 +25,14 @@ JDBC 行集接口是行集扩展。它是 ResultSet 对象的包装器，增加�
 
 **语法:**Jdbc 行集接口的声明
 
-```
+```java
 public interface JdbcRowSet
 extends RowSet, Joinable
 ```
 
 为了连接行集和数据库，行集接口提供了配置 Java bean 属性的方法，如下所示:
 
-```
+```java
 void setURL(String url):
 void setUserName(String user_name):
 void setPassword(String password):
@@ -42,7 +42,7 @@ void setPassword(String password):
 
 **插图:**
 
-```
+```java
 JdbcRowSetrowSet = RowSetProvider.newFactory().createJdbcRowSet();
 
 // 1\. Oracle database considered 
@@ -60,7 +60,7 @@ rowSet.setCommand("select * from Students");
 
 **实现:**假设我们在数据库中有一个名为**学生**的表，为:
 
-```
+```java
 +--------------+-------------+
 |  RollNo |   Name   | Marks |
 +--------------+-------------+
@@ -75,7 +75,7 @@ rowSet.setCommand("select * from Students");
 
 ## 
 
-```
+```java
 // Java Program to Illustrate RowSet in JDBC
 
 // Importing database
@@ -144,7 +144,7 @@ class RowSetDemo {
 
 **输出:**
 
-```
+```java
 RollNo: 1
 Name: jack 
 Marks: 92

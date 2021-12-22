@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 class GFG {
     {
         // Code inside instance block
@@ -26,7 +26,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Usage of Instance Blocks
 
 // Class 1
@@ -91,7 +91,7 @@ class GFGJava {
 
 **Output**
 
-```
+```java
 Instance block
 1st argument constructor
 Instance block
@@ -108,7 +108,7 @@ Instance block
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Execution of Instance Blocks
 
 // Main class
@@ -145,7 +145,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 I am Static block!
 I am Instance block!
 I am Constructor!

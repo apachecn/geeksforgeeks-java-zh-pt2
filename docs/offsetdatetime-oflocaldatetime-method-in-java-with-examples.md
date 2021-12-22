@@ -6,7 +6,7 @@ Java 中 **OffsetDateTime** 类的(LocalDateTime，ZoneOffset offset) 方法的*
 
 **语法:**
 
-```
+```java
 public static OffsetDateTime
        of(LocalDateTime dateTime,
           ZoneOffset offset)
@@ -26,7 +26,7 @@ public static OffsetDateTime
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime of(LocalDateTime,
 // ZoneOffset) method
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-28T04:12:50Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime of(LocalDateTime,
 // ZoneOffset) method
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-28T04:12:50Z
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetTime plusHours(long hoursToAdd)
 
 ```
@@ -19,7 +19,7 @@ public OffsetTime plusHours(long hoursToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.plusHours() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OffsetTime before addition : 12:16:10+11:00
 OffsetTime after addition : 15:16:10+11:00
 
@@ -57,7 +57,7 @@ OffsetTime after addition : 15:16:10+11:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.plusHours() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OffsetTime before addition : 13:20:15+13:00
 OffsetTime after addition : 03:20:15+13:00
 

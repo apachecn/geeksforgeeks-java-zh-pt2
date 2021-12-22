@@ -46,7 +46,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // package whatever
 
 import java.io.*;
@@ -78,7 +78,7 @@ public class Student {
 
 **输出:**
 
-```
+```java
 The total marks is = 192\. Th average is = 96.0.
 ```
 
@@ -112,7 +112,7 @@ The total marks is = 192\. Th average is = 96.0.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // package whatever 
 
 import java.io.*;
@@ -191,7 +191,7 @@ public class Student {
 
 **输出:**
 
-```
+```java
 Roll number of student : 23\. The name of student : Deepthi. Department of the student : CSE.
 The total marks is = 192\. The averge is = 96.0.
 ```
@@ -206,7 +206,7 @@ The total marks is = 192\. The averge is = 96.0.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 class Vehicle {
     String belongsTo = "automobiles";
 }
@@ -225,7 +225,7 @@ public class Car extends Vehicle {
 
 **输出:**
 
-```
+```java
 Car belongs to- automobiles
 Car has 4 wheels.
 ```

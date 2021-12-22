@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 
 ```
@@ -21,7 +21,7 @@ public ValueRange range(TemporalField field)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // range() method
 
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Equivalent Range : 0 - 1
 
 ```
@@ -70,7 +70,7 @@ Equivalent Range : 0 - 1
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // range() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Equivalent Range : -999999456 - 1000000542
 
 ```

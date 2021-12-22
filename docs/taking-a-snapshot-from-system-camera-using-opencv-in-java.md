@@ -36,7 +36,7 @@ Java 中的 [OpenCV](https://www.geeksforgeeks.org/java-program-to-draw-geometri
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to take a Snapshot from System Camera
 // using OpenCV
 

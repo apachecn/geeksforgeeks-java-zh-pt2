@@ -16,13 +16,13 @@ java 中的 java.util.HashMap.clear()方法用于清除和移除指定 HashMap �
 
 **语法:**
 
-```
+```java
 Hash_Map.clear()
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove mappings from
 // HashMap using clear() method
 
@@ -60,7 +60,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------before removing------
 {DSA=100, FANG=99, Competitive Programming=97, Problem Solving=100, Development=99, Interviews=99}
 6
@@ -77,7 +77,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove each key value pair
 // by iterating over the Hashmap
 
@@ -124,7 +124,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 -------before removing------
 {DSA=100, FANG=99, Competitive Programming=97, Problem Solving=100, Development=99, Interviews=99}
 6
@@ -137,7 +137,7 @@ class GFG {
 
 **语法:**
 
-```
+```java
 public boolean removeIf(Predicate filter)
 ```
 
@@ -154,7 +154,7 @@ public boolean removeIf(Predicate filter)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove the hashings
 // from HashMap using removeIf()
 
@@ -199,7 +199,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 -------before removing------
 {DSA=100, FANG=99, Competitive Programming=97, Problem Solving=100, Development=99, Interviews=99}
 6

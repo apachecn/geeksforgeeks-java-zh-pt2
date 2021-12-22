@@ -10,7 +10,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // First initiate the SlidingDrawer, simpleSlidingDrawer1 
 // is the id of SlidingDrawer defined in activity_main.xml
 // Here using simpleSlidingDrawer1 as object and 
@@ -44,7 +44,7 @@ SlidingDrawer simpleSlidingDrawer1 = (SlidingDrawer) findViewById (R.id.simpleSl
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // important methods are discussed here
 
 // open the Sliding Drawer
@@ -64,7 +64,7 @@ simpleSlidingDrawer1.animateClose();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // check whether the slider is opened or not and 
 // depends upon that we can do rest of the calculations
 Boolean isSliderSrawerOpen = simpleSlidingDrawer1.isOpened(); 
@@ -85,7 +85,7 @@ simpleSlidingDrawer1\. unlock();
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 simpleSlidingDrawer1.setOnDrawerCloseListener(
     new SlidingDrawer.OnDrawerCloseListener() {
         @Override public void onDrawerClosed()
@@ -103,7 +103,7 @@ simpleSlidingDrawer1.setOnDrawerCloseListener(
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 simpleSlidingDrawer1.setOnDrawerOpenListener(
     new SlidingDrawer.OnDrawerOpenListener() {
         @Override public void onDrawerOpened()
@@ -119,7 +119,7 @@ simpleSlidingDrawer1.setOnDrawerOpenListener(
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 simpleSlidingDrawer1.setOnDrawerScrollListener(
     new SlidingDrawer.OnDrawerScrollListener() {
         @Override public void onScrollStarted()
@@ -169,7 +169,7 @@ simpleSlidingDrawer1.setOnDrawerScrollListener(
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -222,7 +222,7 @@ simpleSlidingDrawer1.setOnDrawerScrollListener(
 
 ## **可扩展标记语言**
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -246,7 +246,7 @@ simpleSlidingDrawer1.setOnDrawerScrollListener(
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;

@@ -26,7 +26,7 @@
 
 现在我们必须先创造一个过程-
 
-```
+```java
 ProcessBuilder pb = new ProcessBuilder("cmd"); 
 ```
 
@@ -43,7 +43,7 @@ ProcessBuilder pb = new ProcessBuilder("cmd");
 
 下面是一个示例 java 代码来编译和运行另一个 java 代码-
 
-```
+```java
 // Java program to demonstrate use of ProcessBuilder
 // to compile and run external files.
 import java.util.*;
@@ -105,7 +105,7 @@ class Main
 **runtime . getruntime . exec()和 ProcessBuilder 的区别:**
 Runtime.getRuntime.exec()在单独的进程中执行指定的字符串命令。另一方面，ProcessBuilder 只接受一个字符串列表，其中数组或列表中的每个字符串都被认为是一个单独的参数。这些参数然后被连接成一个字符串，然后被传递给操作系统执行。
 
-```
+```java
    // ProcessBuilder takes a list of argyments
    ProcessBuilder pb =
    new ProcessBuilder("myCommand", "myArg1", "myArg2");

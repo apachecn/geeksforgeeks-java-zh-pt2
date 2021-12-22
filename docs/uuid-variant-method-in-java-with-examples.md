@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int variant()
 ```
 
@@ -18,7 +18,7 @@ public int variant()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate variant() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The variant number is: 2
 
@@ -54,7 +54,7 @@ The variant number is: 2
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate variant() method
 
 import java.util.*;
@@ -82,7 +82,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 The variant number is: 2
 

@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static WeekFields of(DayOfWeek firstDayOfWeek, 
                               int minimalDaysInFirstWeek)
 
@@ -28,7 +28,7 @@
     下面的程序说明了 weekfield . of(DayOfWeek first DayOfWeek，int minimalDaysInFirstWeek)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // WeekFields.of(DayOfWeek, int) method
 
@@ -51,7 +51,7 @@
 
     **Output:**
 
-    ```
+    ```java
     WeekFields[MONDAY, 1]
 
     ```
@@ -59,7 +59,7 @@
 2.  **of(Locale locale)**: This method help us to get an instance of WeekFields appropriate for a locale.
     **Syntax:**
 
-    ```
+    ```java
     public static WeekFields of(Locale locale)
 
     ```
@@ -71,7 +71,7 @@
     下面的程序说明了 WeekFields.of(龙敏，长最大最小值，长最大值)方法:
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // of(Locale locale) method
 
@@ -95,7 +95,7 @@
 
     **Output:**
 
-    ```
+    ```java
     WeekFields[SUNDAY, 1]
 
     ```

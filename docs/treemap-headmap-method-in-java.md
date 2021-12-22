@@ -6,7 +6,7 @@ TreeMap 类的 Java . util . tree map . hear map(*key _ point*)方法用于获�
 
 **语法:**
 
-```
+```java
 sorted_map = old_treemap.headMap(*key_point*)
 ```
 
@@ -23,7 +23,7 @@ sorted_map = old_treemap.headMap(*key_point*)
 下面的程序举例说明了 Java . util . treemap . hear map()方法的使用:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -59,7 +59,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Tree is: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The headmap is: {10=Geeks, 15=4}
 
@@ -67,7 +67,7 @@ The headmap is: {10=Geeks, 15=4}
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the get() method
 import java.util.*;
 
@@ -104,7 +104,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Tree is: {4=15, Geeks=20, Welcomes=25, You=30}
 The headmap is: {4=15, Geeks=20, Welcomes=25}
 

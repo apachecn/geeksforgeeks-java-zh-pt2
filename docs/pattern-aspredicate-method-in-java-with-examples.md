@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Predicate asPredicate()
 
 ```
@@ -19,7 +19,7 @@ public Predicate asPredicate()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.splitAsStream(CharSequence input) method
 
@@ -59,14 +59,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value matched: true
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.splitAsStream(CharSequence input) method
 
@@ -105,7 +105,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value matched: false
 
 ```

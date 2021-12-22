@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean useDaylightTime()
 
 ```
@@ -22,7 +22,7 @@ public boolean useDaylightTime()
 
 下面的程序演示了上述功能:
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.useDaylightTime()
 import java.util.*;
@@ -46,12 +46,12 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Day light time is = false
 
 ```
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.useDaylightTime()
 import java.util.*;
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Day light time is = false
 
 ```

@@ -17,7 +17,7 @@ firebase 用户身份验证的步骤如下:
 
     ## activity _ registration . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
 
     <!-- Linear Layout with vertical orientation and other properties -->
@@ -75,7 +75,7 @@ firebase 用户身份验证的步骤如下:
     *   注册新用户**使用 createusewithmailandpassword()**函数，该函数接收两个参数，即您要注册的电子邮件和密码。在 createUserWithEmailAndPassword()方法中，检查任务是否成功。如果任务成功，用户将被引导至主活动或仪表板，否则将显示“注册失败”的吐司消息。
     *   对于用户认证，我们必须参考 FirebaseAuth。我们可以使用 getInstance 函数进行引用。代码片段为:
 
-        ```
+        ```java
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         ```
 
@@ -83,7 +83,7 @@ firebase 用户身份验证的步骤如下:
 
     ## RegistrationActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.firebaseuserauthentication;
 
     import android.support.v7.app.AppCompatActivity;
@@ -206,7 +206,7 @@ firebase 用户身份验证的步骤如下:
 
     ## activity _ log in . XML
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <!-- Linear Layout with vertical orientation and other properties -->
 
@@ -264,7 +264,7 @@ firebase 用户身份验证的步骤如下:
 
     ## 【LoginActivity.java】
 
-    ```
+    ```java
     package com.geeksforgeeks.firebaseuserauthentication;
 
     import android.support.v7.app.AppCompatActivity;
@@ -387,7 +387,7 @@ firebase 用户身份验证的步骤如下:
 
     ## activity _ main . XML
 
-    ```
+    ```java
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -409,7 +409,7 @@ firebase 用户身份验证的步骤如下:
 
     ## MainActivity.java
 
-    ```
+    ```java
     package com.geeksforgeeks.firebaseuserauthentication;
 
     import android.support.v7.app.AppCompatActivity;

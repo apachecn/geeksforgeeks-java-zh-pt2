@@ -10,13 +10,13 @@
     *   **包装器值 Of(字符串):**除了字符类之外，每个包装器类都包含一个静态值 Of()方法，用于为给定的字符串创建包装器类对象。
         **语法:**
 
-        ```
+        ```java
         public static Wrapper valueOf(String s);
         ```
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java program to illustrate valueof()
 
         class GFG {
@@ -37,7 +37,7 @@
 
         输出:
 
-```
+```java
 10
 10.0
 true
@@ -48,13 +48,13 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 *   **包装器值 Of(字符串 s，整数基数):**每个整数包装器类 Byte，Short，Integer，Long)都包含以下 valueOf()方法，为给定的具有指定基数的字符串创建包装器对象。基数的范围是 2 到 36。
     **语法:**
 
-    ```
+    ```java
     public static Wrapper valueOf(String s, int radix)
     ```
 
     ## Java 语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     // Java program to illustrate valueof()
 
     class GFG {
@@ -70,7 +70,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
     输出:
 
-    ```
+    ```java
     15
     85
 
@@ -80,13 +80,13 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
     **语法:**
 
-    ```
+    ```java
     public static Wrapper valueOf(primitive p);
     ```
 
     ## Java 语言（一种计算机语言，尤用于创建网站）
 
-    ```
+    ```java
     // Java program to illustrate valueof()
 
     class GFG {
@@ -104,7 +104,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
     Output:
 
-    ```
+    ```java
     10
     10.5
     a
@@ -115,7 +115,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
     ## Java 语言（一种计算机语言,尤用于创建网站)
 
-    ```
+    ```java
     // Java program to illustrate bytevalue()
 
     class GFG {
@@ -134,7 +134,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
     输出:
 
-    ```
+    ```java
     -126
     130
     130
@@ -153,13 +153,13 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
     *   **原语 parseXxx(字符串):**除了字符类之外的每个包装类都包含以下 parseXxx()方法来为给定的字符串对象查找原语。
         **语法:**
 
-        ```
+        ```java
         public static primitive parseXxx(String s);
         ```
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java program to illustrate parseXxx()
 
         class GFG {
@@ -177,7 +177,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
         输出:
 
-```
+```java
 10
 10.5
 true
@@ -188,13 +188,13 @@ true
 
     **语法:**
 
-    ```
+    ```java
     public static primitive parseXxx(String s, int radix);
     ```
 
     ## Java 语言（一种计算机语言，尤用于创建网站）
 
-    ```
+    ```java
     // Java program to illustrate parseXxx()
 
     class GFG {
@@ -210,7 +210,7 @@ true
 
     Output:
 
-    ```
+    ```java
     8
     85
 
@@ -222,13 +222,13 @@ true
     *   **公共字符串 toString() :** 每个包装类都包含以下 toString()方法，用于将包装对象转换为字符串类型。
         **语法:**
 
-        ```
+        ```java
         public String toString();
         ```
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java program to illustrate toString()
 
         class GFG {
@@ -243,7 +243,7 @@ true
 
         输出:
 
-        ```
+        ```java
         10
 
         ```
@@ -251,13 +251,13 @@ true
     *   **toString(原语 p) :** 包括 Character 类在内的每个 Wrapper 类都包含以下静态 toString()方法，用于将原语转换为字符串。
         **语法:**
 
-        ```
+        ```java
         public static String toString(primitive p);
         ```
 
         ## Java 语言（一种计算机语言,尤用于创建网站)
 
-        ```
+        ```java
         // Java program to illustrate toString()
 
         class GFG {
@@ -273,7 +273,7 @@ true
 
         输出:
 
-        ```
+        ```java
         10
         a
 
@@ -283,13 +283,13 @@ true
 
         **语法:**
 
-        ```
+        ```java
         public static String toString(primitive p, int radix);
         ```
 
         ## Java 语言（一种计算机语言，尤用于创建网站）
 
-        ```
+        ```java
         // Java program to illustrate toString()
 
         class GFG {
@@ -305,7 +305,7 @@ true
 
         Output:
 
-        ```
+        ```java
         1111
         222120121300
 

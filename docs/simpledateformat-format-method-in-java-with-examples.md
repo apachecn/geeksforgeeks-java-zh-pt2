@@ -5,7 +5,7 @@
 **简单日期格式类**的**格式()**方法用于将给定日期格式化为日期/时间字符串。基本上，该方法用于将该日期和时间转换为特定格式，例如 mm/dd/yyyy。
 **语法:**
 
-```
+```java
 public final String format(Date date)
 ```
 
@@ -16,7 +16,7 @@ public final String format(Date date)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate format() method
 
 import java.text.*;
@@ -47,7 +47,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The original Date: Tue Jan 29 12:23:40 UTC 2019
 Formatted Date: 01/29/2019
 ```
@@ -56,7 +56,7 @@ Formatted Date: 01/29/2019
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate format() method
 
 import java.text.*;
@@ -86,7 +86,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:** 
 
-```
+```java
 The original Date: Tue Jan 29 12:29:32 UTC 2019
 Formatted Date: 1/29/19 12:29 PM
 ```

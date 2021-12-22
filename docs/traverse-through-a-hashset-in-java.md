@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate iteration over
 // HashSet using an Enhanced for-loop
 
@@ -44,7 +44,7 @@ class IterationDemo {
 
 **Output**
 
-```
+```java
 Geeks
 for
 ```
@@ -59,7 +59,7 @@ for
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate iteration over
 // HashSet using forEach() method
 
@@ -84,7 +84,7 @@ class IterationDemo {
 
 **Output:** 
 
-```
+```java
 Geeks
 for
 ```
@@ -97,7 +97,7 @@ iterator()方法用于获取该集合中元素的迭代器。元素没有特定�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Traversal over HashSet
 // Using an iterator
 
@@ -136,7 +136,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 for
 ```

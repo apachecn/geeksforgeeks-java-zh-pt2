@@ -8,7 +8,7 @@
 
 **申报:**以下为**com . Google . common . collect . table<**R、C、V**T7**界面申报:
 
-```
+```java
 @GwtCompatible
 public interface Table<R, C, V>
 
@@ -34,7 +34,7 @@ public interface Table<R, C, V>
 ![](img/3d2c7d5f7d00a59f45740f9496b2424a.png)
 **示例:**
 
-```
+```java
 // Java code to show implementation of
 // Guava's Table interface
 import java.util.Map;
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 List of ECE students : 
 Student Roll No : 15, Student Name : Ram
 Student Roll No : 18, Student Name : Anmol

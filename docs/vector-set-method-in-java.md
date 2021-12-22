@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.set(int index, Object element)
 ```
 
@@ -21,7 +21,7 @@ Vector.set(int index, Object element)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate set()
 import java.util.*;
 
@@ -57,7 +57,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [Geeks, for, Geeks, 10, 20]
 The Object that is replaced is: Geeks
 The Object that is replaced is: 20
@@ -67,7 +67,7 @@ The new Vector is:[Geeks, for, GFG, 10, 50]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate set()
 import java.util.*;
 
@@ -103,7 +103,7 @@ public class VectorDemo {
 
 **Output:**
 
-```
+```java
 Vector: [12, 23, 22, 10, 20]
 The Object that is replaced is: 12
 The Object that is replaced is: 20

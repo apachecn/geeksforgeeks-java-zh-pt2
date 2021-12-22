@@ -11,7 +11,7 @@ Scanner 是 java.util 包中的一个类，用于获取 int、double 等原语�
 
 让我们看一下读取各种数据类型的代码片段。
 
-```
+```java
 // Java program to read data of various types using Scanner class.
 import java.util.Scanner;
 public class ScannerDemo1
@@ -47,7 +47,7 @@ public class ScannerDemo1
 
 输入:
 
-```
+```java
 Geek
 F
 40
@@ -58,7 +58,7 @@ F
 
 输出:
 
-```
+```java
 Name: Geek
 Gender: F
 Age: 40
@@ -72,7 +72,7 @@ CGPA: 9.9
 
 让我们看一下从控制台读取一些数字并打印它们的平均值的代码片段。
 
-```
+```java
 // Java program to read some values using Scanner
 // class and print their mean.
 import java.util.Scanner;
@@ -104,7 +104,7 @@ public class ScannerDemo2
 
 输入:
 
-```
+```java
 101
 223
 238
@@ -117,7 +117,7 @@ public class ScannerDemo2
 
 输出:
 
-```
+```java
 Mean: 397
 ```
 

@@ -6,13 +6,13 @@
 
 **功能签名**:
 
-```
+```java
 public String getRawAuthority()
 ```
 
 **语法**:
 
-```
+```java
 url.getRawAuthority()
 ```
 
@@ -24,7 +24,7 @@ url.getRawAuthority()
 
 **例 1:**
 
-```
+```java
 // Java program to show the
 // use of the function getRawAuthority()
 
@@ -66,7 +66,7 @@ public static void main(String args[])
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org
 Raw Authority = www.geeksforgeeks.org
 
@@ -74,7 +74,7 @@ Raw Authority = www.geeksforgeeks.org
 
 **示例 2:**getRawAuthority()和 getHost()函数的区别在于 getRawAuthority()返回主机和端口，而 getHost()只返回主机名。
 
-```
+```java
 // Java program to show the
 // use of the function getRawAuthority()
 
@@ -122,7 +122,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks.org:80
 Raw Authority = www.geeksforgeeks.org:80
 Host = www.geeksforgeeks.org
@@ -131,7 +131,7 @@ Host = www.geeksforgeeks.org
 
 **示例 3:**getAuthority()和 getRawAuthority()返回的值是相同的，只是转义八位字节的所有序列都被解码。getRawAuthority()返回用户提供的字符串的确切值，但是 getAuthority()函数解码转义八位字节序列(如果有)。
 
-```
+```java
 // Java program to show the
 // use of the function getAuthority()
 
@@ -180,7 +180,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URI = https://www.geeksforgeeks%E2%82%AC.org:80
 Authority = www.geeksforgeeks?.org:80
 Raw Authority = www.geeksforgeeks%E2%82%AC.org:80

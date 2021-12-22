@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input String: 016-78967
 Regular Expression: - 
 Output : {"016", "78967"}
@@ -52,7 +52,7 @@ Output : {"016", "78967"}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with small limit.
 public class GFG {
@@ -69,7 +69,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geekss
 for@geekss
 ```
@@ -78,7 +78,7 @@ for@geekss
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with high limit.
 public class GFG {
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geekss
 for
 geekss
@@ -105,7 +105,7 @@ geekss
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with negative limit.
 public class GFG {
@@ -122,7 +122,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geekss
 for
 geekss
@@ -132,7 +132,7 @@ geekss
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with high limit.
 public class GFG {
@@ -149,7 +149,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geek
 
 @for@geek
@@ -159,7 +159,7 @@ geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with negative limit.
 public class GFG {
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geek
 
 @for@geek
@@ -186,7 +186,7 @@ geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split(regex,
 // limit) with 0 limit.
 public class GFG {
@@ -203,7 +203,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 geek
 
 @for@geek
@@ -225,7 +225,7 @@ geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 public class GFG {
     public static void main(String args[])
@@ -241,7 +241,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 A Computer Science Portal
 ```
@@ -250,7 +250,7 @@ A Computer Science Portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 public class GFG {
     public static void main(String args[])
@@ -266,7 +266,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 Geeks
 Students
@@ -278,7 +278,7 @@ Students
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 public class GFG {
     public static void main(String args[])
@@ -294,7 +294,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 for
 Geeks
@@ -304,7 +304,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 public class GFG {
     public static void main(String args[])
@@ -320,7 +320,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geek
 ```
 
@@ -330,7 +330,7 @@ Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 public class GFG {
     public static void main(String args[])
@@ -346,7 +346,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Geeks
 
 Geeks
@@ -359,7 +359,7 @@ Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of split()
 // using regular expressions
 public class GFG {
@@ -376,7 +376,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 word1
 word2
 word3

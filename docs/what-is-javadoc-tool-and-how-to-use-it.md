@@ -10,7 +10,7 @@
 
 JavaDoc 注释不同于普通注释，因为注释开头有一个额外的星号。它也可能包含 [**HTML 标签**](https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/) 。
 
-```
+```java
 // Single-Line Comment
 
 /* 
@@ -30,7 +30,7 @@ JavaDoc 注释不同于普通注释，因为注释开头有一个额外的星号
 **生成 javaDoc:–**
 要创建一个 JavaDoc，你不需要编译 Java 文件。要创建 Java 文档应用编程接口，您需要编写 Javadoc，后跟文件名。
 
-```
+```java
 javadoc file_name or javadoc package_name
 ```
 
@@ -65,7 +65,7 @@ javadoc file_name or javadoc package_name
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package exa;
 
 import java.util.Scanner;
@@ -116,7 +116,7 @@ public class Example {
 
 **为上述类生成文档**
 
-```
+```java
 javadoc exa
 ```
 

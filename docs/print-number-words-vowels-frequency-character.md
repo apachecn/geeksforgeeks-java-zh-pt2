@@ -5,7 +5,7 @@
 给定一个带有大写、小写和特殊字符的字符串**。输入字符串以空格或点结束。问题是在单独的一行中计算字符串中每个字符的字数、元音和频率。
 **例:**** 
 
-```
+```java
 **Input :** How Good GOD Is.
 
 **Output :** 
@@ -30,7 +30,7 @@ Character = w Frequency = 1
 
 ## **C++**
 
-```
+```java
 // C++ program to print Number of Words,
 // Vowels and Frequency of Each Character
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main(int argc, char const *argv[])
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to print Number of Words,
 // Vowels and Frequency of Each Character
 import java.util.*;
@@ -204,7 +204,7 @@ public class Stringfun
 
 ## **蟒蛇 3**
 
-```
+```java
 # Python3 program to print Number of Words,
 # Vowels and Frequency of Each Character
 
@@ -277,7 +277,7 @@ frequency(s)
 
 ****输出:**** 
 
-```
+```java
 Number of words = 3
 Number of vowels = 5
 Number of upper case characters = 2

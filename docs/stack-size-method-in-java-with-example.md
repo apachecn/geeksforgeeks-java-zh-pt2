@@ -6,7 +6,7 @@ Java 中的 **Java.util.Stack.size()** 方法用于获取堆栈的大小或堆�
 
 **语法:**
 
-```
+```java
 Stack.size()
 ```
 
@@ -18,7 +18,7 @@ Stack.size()
 
 **程序 1:** 用字符串元素堆叠。
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The size is: 5
 
@@ -54,7 +54,7 @@ The size is: 5
 
 **程序 2:** 用整数元素堆叠。
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -82,7 +82,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 The size is: 5
 

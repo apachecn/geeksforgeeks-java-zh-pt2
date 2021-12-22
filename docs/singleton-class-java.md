@@ -18,7 +18,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program implementing Singleton class
 // with using  getInstance() method
 
@@ -94,7 +94,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Hashcode of x is 558638686
 Hashcode of y is 558638686
 Hashcode of z is 558638686
@@ -113,7 +113,7 @@ Three objects point to the same memory location on the heap i.e, to the same obj
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program implementing Singleton class
 // with method name as that of class
 
@@ -183,7 +183,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 String from x is HELLO I AM A STRING PART OF SINGLETON CLASS
 String from y is HELLO I AM A STRING PART OF SINGLETON CLASS
 String from z is HELLO I AM A STRING PART OF SINGLETON CLASS

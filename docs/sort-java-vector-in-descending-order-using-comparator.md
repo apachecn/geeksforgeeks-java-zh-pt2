@@ -13,13 +13,13 @@
 
 **输入:**
 
-```
+```java
 vector [4,3,2,6,7]
 ```
 
 **输出:**
 
-```
+```java
 vector [2,3,4,6,7]
 ```
 
@@ -32,7 +32,7 @@ vector [2,3,4,6,7]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort Java Vector in
 // descending order using comparator
 
@@ -92,7 +92,7 @@ class GFG implements Comparator<Integer>
 
 **Output**
 
-```
+```java
 Before sorting elements 4 3 2 6 7 
 After sorting elements 7 6 4 3 2
 ```
@@ -101,7 +101,7 @@ After sorting elements 7 6 4 3 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Sort Java Vector in
 // descending order using comparator
 
@@ -159,7 +159,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Before sorting elements 4 3 2 6 7 
 After sorting elements 7 6 4 3 2
 ```

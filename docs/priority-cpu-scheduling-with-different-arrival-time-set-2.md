@@ -21,7 +21,7 @@
 
 **示例–**
 
-```
+```java
 Input :
 process no-> 1 2 3 4 5 
 arrival time-> 0 1 3 2 4
@@ -40,7 +40,7 @@ Average Turn Around time is : 8.8
 
 ## C++
 
-```
+```java
 // C++ implementation for Priority Scheduling with
 //Different Arrival Time priority scheduling
 /*1\. sort the processes according to arrival time
@@ -195,7 +195,7 @@ for(int i=0;i<totalprocess;i++)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation for Priority Scheduling with
 //Different Arrival Time priority scheduling
 import java.util.*;
@@ -290,7 +290,7 @@ class FindGantChart {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 implementation for Priority Scheduling with
 # Different Arrival Time priority scheduling
 """1\. sort the processes according to arrival time
@@ -404,7 +404,7 @@ if __name__ =="__main__":
 
 **输出:**
 
-```
+```java
 Process_no Start_time Complete_time Turn_Around_Time Waiting_Time
 1           1           4              3              0 
 2           5           10             8              3

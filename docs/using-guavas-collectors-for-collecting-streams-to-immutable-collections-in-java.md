@@ -6,7 +6,7 @@
 
 插图:
 
-```
+```java
 <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```java
 static IntStream range (int start, int end)
 ```
 
@@ -30,7 +30,7 @@ static IntStream range (int start, int end)
 
 **说明**:此方法用于返回整数流的顺序
 
-```
+```java
 Stream intStream boxed()
 ```
 
@@ -42,7 +42,7 @@ Stream intStream boxed()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Use Guava's Collectors
 // for Collecting Streams to Immutable Collections
 
@@ -74,7 +74,7 @@ public class App {
 
 **输出:**
 
-```
+```java
 [0, 1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
@@ -84,7 +84,7 @@ public class App {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate Use Guava's Collectors
 // for Collecting Streams to Immutable Collections
 // Where UnsupportedOperationException is thrown
@@ -124,7 +124,7 @@ public class App {
 
 **输出:**
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
 at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:220)
 at james.App.main(App.java:15)

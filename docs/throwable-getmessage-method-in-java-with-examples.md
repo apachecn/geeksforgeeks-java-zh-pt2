@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getMessage()
 ```
 
@@ -16,7 +16,7 @@ public String getMessage()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getMessage() Method.
 
@@ -56,14 +56,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Message String = / by zero
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the getMessage() Method.
 
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Message of Exception : null
 
 ```

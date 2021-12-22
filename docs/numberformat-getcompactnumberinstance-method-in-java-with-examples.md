@@ -8,7 +8,7 @@ NumberFormat 帮助您格式化和解析任何地区的数字。您的代码可�
 
 **班级编号格式层次:**
 
-```
+```java
 java.lang.Object
     java.text.Format
         java.text.NumberFormat
@@ -26,7 +26,7 @@ java.lang.Object
 
 **语法**:
 
-```
+```java
 public abstract class NumberFormat extends Format
 ```
 
@@ -34,7 +34,7 @@ public abstract class NumberFormat extends Format
 
 **注**:Java 12 中增加了 getCompactNumberInstance()方法。因此，请确保您的机器上安装了 Java 12 或更高版本。您可以通过以下方式检查 java 版本:
 
-```
+```java
 java -version
 ```
 
@@ -42,7 +42,7 @@ java -version
 
 **输出**
 
-```
+```java
 java version "13.0.2" 2020-01-14
 Java(TM) SE Runtime Environment (build 13.0.2+8)
 Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
@@ -50,7 +50,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
 
 **注**:Java 12 中增加了这个方法。因此，请确保您的机器上安装了 Java 12 或更高版本。您可以通过轮询命令检查 java 版本，如下所示:
 
-```
+```java
 java -version
 ```
 
@@ -58,7 +58,7 @@ java -version
 
 **输出:**
 
-```
+```java
 java version "13.0.2" 2020-01-14
 Java(TM) SE Runtime Environment (build 13.0.2+8)
 Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
@@ -74,7 +74,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
 
 **语法:**
 
-```
+```java
 public static NumberFormat getCompactNumberInstance()
 ```
 
@@ -86,7 +86,7 @@ public static NumberFormat getCompactNumberInstance()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement NumberFormat class by
 // Illustrating getCompactNumberInstance() Method 
 
@@ -120,7 +120,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 This method returns in NumberFormat.Style.SHORT:
 Result: 100
 Result: 10K
@@ -135,7 +135,7 @@ Result: 1B
 
 **语法**:
 
-```
+```java
 public static NumberFormat getCompactNumberInstance​(Locale locale, NumberFormat.Style formatStyle)
 ```
 
@@ -152,7 +152,7 @@ public static NumberFormat getCompactNumberInstance​(Locale locale, NumberForm
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement NumberFormat class by
 // Illustrating getCompactNumberInstance​() Method
 
@@ -193,7 +193,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 100
 1 thousand
 10 thousand
@@ -208,7 +208,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Implement NumberFormat class by
 // Illustrating getCompactNumberInstance​() Method
 
@@ -238,7 +238,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 100
 1000
 10000

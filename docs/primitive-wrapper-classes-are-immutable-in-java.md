@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate that Primitive
 // Wrapper Classes are Immutable
 
@@ -55,7 +55,7 @@ class GFG {
 这里，参数“I”是修改时的引用，它引用的对象与 main()中的“I”相同，但对“I”所做的更改不会反映在 main()方法中。这是因为 Java 中所有的原语包装类(Integer、Byte、Long、Float、Double、Character、Boolean 和 Short)都是不可变的，所以像加法和减法这样的操作会创建一个新的对象，而不会修改旧的对象。
 modify 方法中的下面一行代码在包装类 Integer 上运行，而不是在 int 上运行，并且如下所述执行以下操作:
 
-```
+```java
 i = i + 1;
 ```
 

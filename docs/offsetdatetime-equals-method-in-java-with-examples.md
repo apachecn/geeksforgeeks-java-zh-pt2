@@ -5,7 +5,7 @@
 Java 中 OffsetDateTime 类的 **equals()** 方法检查这个日期时间是否等于另一个日期时间。
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 ```
 
@@ -16,7 +16,7 @@ public boolean equals(Object obj)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the equals() method
 
 import java.time.OffsetDateTime;
@@ -44,7 +44,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2018-12-12T13:30:30+05:00
 On comparing we get true
@@ -54,7 +54,7 @@ On comparing we get true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the equals() method
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2015-12-12T13:30:30+05:00
 On comparing we get false

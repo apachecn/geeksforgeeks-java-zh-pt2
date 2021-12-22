@@ -16,14 +16,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class Triplet<A, B, C> extends Tuple
     implements IValue0<A>, IValue1<B>, IValue2<C> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Triplet<A, B, C> 
@@ -34,7 +34,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 Triplet<A, B, C> triplet = 
     new Triplet<A, B, C>(value1, value2, value3);
 ```
@@ -43,7 +43,7 @@ Triplet<A, B, C> triplet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Triplet tuple from Constructor
 
@@ -64,14 +64,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **句法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
        Triplet.with(value1, value2, value3);
 ```
@@ -80,7 +80,7 @@ Triplet<type1, type2, type3> triplet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Triplet tuple from with() method
 
@@ -101,14 +101,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal]
 ```
 
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **句法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     Triplet.fromCollection(collectionWith_2_value);
 
@@ -120,7 +120,7 @@ Triplet<type1, type2, type3> triplet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Triplet tuple from Collection
 
@@ -155,7 +155,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [GeeksforGeeks, A computer portal, for geeks]
 [GeeksforGeeks, A computer portal, for geeks]
 ```
@@ -166,7 +166,7 @@ getValueX()方法可用于在索引 x 处获取元组中的值。元组中的索
 
 **语法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     new Triplet<type1, type2, type3>(value1, value2, value3);
 
@@ -177,7 +177,7 @@ type1 val1 = triplet.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a Triplet value
 
@@ -200,7 +200,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 A computer portal
 ```
@@ -211,7 +211,7 @@ A computer portal
 
 **语法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     new Triplet<type1, type2, type3>
                 (value1, value2, value3);
@@ -224,7 +224,7 @@ Triplet<type1, type2, type3>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to set
 // a Triplet value
 
@@ -248,7 +248,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal for geeks]
 ```
 
@@ -258,7 +258,7 @@ class GfG {
 
 **语法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     new Triplet<type1, type2, type3>(value1, value2, value3);
 
@@ -270,7 +270,7 @@ Quartet<type 1, type 2, type 3, type 4> quartet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to add
 // a value
 
@@ -296,7 +296,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, for geeks]
 ```
 
@@ -306,7 +306,7 @@ class GfG {
 
 **语法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     new Triplet<type1, type2, type3>(value1, value2, value3);
 
@@ -317,7 +317,7 @@ boolean res = triplet.contains(value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to search
 // a value in a Triplet
 
@@ -343,7 +343,7 @@ class GfG {
 
 输出:
 
-```
+```java
 true
 false 
 ```
@@ -354,7 +354,7 @@ false
 
 **语法**:
 
-```
+```java
 Triplet<type1, type2, type3> triplet = 
     new Triplet<type1, type2, type3>(value1, value2, value3);
 
@@ -367,7 +367,7 @@ for (Object item : triplet) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to iterate
 // a Triplet
 
@@ -390,7 +390,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 GeeksforGeeks
 A computer portal

@@ -4,7 +4,7 @@
 
 **ParseContext** 类是 Java package org . Apache . Tika . parser 的一个组件，用于解析上下文并将其传递给**Tika**(Apache Tika 工具包从一千多个不同的文件类型中检测并提取元数据和文本)解析器**org . Apache . Tika . parser . parse context**实现了一个 Serializable 接口。
 
-```
+```java
 public class ParseContext extends Object implements Serializable
 ```
 
@@ -12,7 +12,7 @@ public class ParseContext extends Object implements Serializable
 
 **1。ParseContext()–**parse context()初始化 parse context 类的一个新实例。
 
-```
+```java
 ParseContext p = new ParseContext()
 ```
 
@@ -88,7 +88,7 @@ ParseContext p = new ParseContext()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program To Get Content of the
 // document using Tika Toolkit and 
 // ContextParser:
@@ -143,7 +143,7 @@ class GFG {
 
 **输出-**
 
-```
+```java
 Contents of the document:GFG is the best website for programmer
 ```
 

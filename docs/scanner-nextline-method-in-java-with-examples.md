@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String nextLine()
 ```
 
@@ -23,7 +23,7 @@ public String nextLine()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // nextLine() method of Scanner class in Java
 // without parameter
@@ -57,7 +57,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Gfg 
  Geeks 
  GeeksForGeeks
@@ -66,7 +66,7 @@ Gfg
 
 **程序 2:** 演示 nosucheelementexception
 
-```
+```java
 // Java program to illustrate the
 // nextLine() method of Scanner class in Java
 
@@ -97,14 +97,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown: java.util.NoSuchElementException: No line found
 
 ```
 
 **程序 3:** 演示非法状态异常
 
-```
+```java
 // Java program to illustrate the
 // nextLine() method of Scanner class in Java
 // without parameter
@@ -139,7 +139,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown: java.lang.IllegalStateException: Scanner closed
 
 ```

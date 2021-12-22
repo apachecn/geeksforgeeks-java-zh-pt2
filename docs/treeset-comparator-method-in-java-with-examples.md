@@ -8,7 +8,7 @@ java.util.TreeSet 中已经存在的 [*比较器()方法*](https://www.geeksforg
 
 **语法:**
 
-```
+```java
 comp_set = (TreeSet)tree_set.comparator()
 ```
 
@@ -22,7 +22,7 @@ comp_set = (TreeSet)tree_set.comparator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the use of comparator() method
 // While using the natural ordering of the elements
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Tree Set values are: [20, 24, 30, 35, 45, 50]
 Since the Comparator value is: null
 it follows natural ordering
@@ -78,7 +78,7 @@ it follows natural ordering
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate the use of comparator()
 // While using a specific comparator
 
@@ -151,7 +151,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Set before using the comparator: [4, E, G, K, S]
 The elements sorted in descending order:[S, K, G, E, 4]
 ```

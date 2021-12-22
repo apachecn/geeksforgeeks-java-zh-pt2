@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Object[] arr = TreeSet.toArray()
 ```
 
@@ -18,7 +18,7 @@ Object[] arr = TreeSet.toArray()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -54,7 +54,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [For, Geeks, To, Welcome]
 The array is:
 For
@@ -66,7 +66,7 @@ Welcome
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -103,7 +103,7 @@ public class TreeSetDemo {
 
 **Output:**
 
-```
+```java
 The TreeSet: [5, 10, 15, 20, 25, 30]
 The array is:
 5

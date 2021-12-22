@@ -15,7 +15,7 @@ Java 允许在另一个类中定义一个类。这些被称为**嵌套类**。�
 1.  静态嵌套类可以在不实例化其外部类的情况下实例化。
 2.  内部类可以访问外部类的静态和非静态成员。静态类只能访问外部类的静态成员。
 
-```
+```java
 // Java program to demonstrate how to
 // implement static and non-static
 // classes in a Java program.
@@ -93,7 +93,7 @@ class Main {
 
 **输出:**
 
-```
+```java
 Message from nested static class: GeeksForGeeks
 Message from non-static nested class: GeeksForGeeks
 Message from non-static nested class: GeeksForGeeks

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = *sortedSetInstance*.iterator();
 
 ```
@@ -19,7 +19,7 @@ Iterator *iterate_value* = *sortedSetInstance*.iterator();
 
 下面程序举例说明了 java.util.Set.iterator()方法:
 
-```
+```java
 // Java code to illustrate iterator()
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class SortedSetDemo {
 
 **输出:**
 
-```
+```java
 SortedSet: [4, Geeks, To, Welcome]
 The iterator values are: 
 4

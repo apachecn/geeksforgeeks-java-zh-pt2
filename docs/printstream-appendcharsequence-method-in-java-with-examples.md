@@ -6,7 +6,7 @@ Java 中 **[【打印流】](https://www.geeksforgeeks.org/java-io-printstream-c
 
 **语法:**
 
-```
+```java
 public PrintStream append(CharSequence charSequence)
 ```
 
@@ -18,7 +18,7 @@ public PrintStream append(CharSequence charSequence)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream append(CharSequence) method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream append(CharSequence) method
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GFG
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Period withYears(int numberOfYears)
 ```
 
@@ -18,7 +18,7 @@ public Period withYears(int numberOfYears)
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate withYears() method
 
 import java.time.Period;
@@ -48,7 +48,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Period: P1Y2M21D
 New Period: P5Y2M21D
 
@@ -56,7 +56,7 @@ New Period: P5Y2M21D
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate withYears() method
 
 import java.time.Period;
@@ -86,7 +86,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Period: P-1Y-2M-21D
 New Period: P-5Y-2M-21D
 

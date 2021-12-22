@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getRules()
 ```
 
@@ -19,7 +19,7 @@ public String getRules()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getRules() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 rule is :- < a < c & a < b
 ```
 
@@ -73,7 +73,7 @@ rule is :- < a < c & a < b
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getRules() method
 
@@ -119,7 +119,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 rule is :- < a < b < c < d
 ```
 

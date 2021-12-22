@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public NavigableSet<K> descendingKeySet()
 
 ```
@@ -23,7 +23,7 @@ public NavigableSet<K> descendingKeySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the working
 // of descendingKeySet() Method
 import java.io.*;
@@ -56,7 +56,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Navigable set values are: [7, 6, 3, 2, 1, 0]
 
 ```
@@ -65,7 +65,7 @@ Navigable set values are: [7, 6, 3, 2, 1, 0]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to show the working
 // of descendingKeySet() Method
 import java.io.*;
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 TreeMap values :- {1=Guru, 2=Ayush, 3=Devesh, 4=Kashish}
 Reverse key values:- [4, 3, 2, 1]
 

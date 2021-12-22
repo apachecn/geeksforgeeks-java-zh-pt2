@@ -6,7 +6,7 @@ Java 中 **[定时器类](https://www.geeksforgeeks.org/java-util-timer-class-ja
 
 **语法:**
 
-```
+```java
 public int purge()
 ```
 
@@ -18,7 +18,7 @@ public int purge()
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate purge()
 
 import java.util.*;
@@ -59,7 +59,7 @@ public class Java_Timer_Demo {
 
 **输出:**
 
-```
+```java
 Working on the task
 Working on the task
 Working on the task
@@ -74,7 +74,7 @@ The Purge value:0
 
 **程序二:**
 
-```
+```java
 // Java code to illustrate purge()
 
 import java.util.*;
@@ -115,7 +115,7 @@ public class Java_Timer_Demo {
 
 **输出:**
 
-```
+```java
 Working on the task
 Working on the task
 Stopping the task

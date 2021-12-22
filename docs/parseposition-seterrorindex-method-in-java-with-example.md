@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setErrorIndex(int ei)
 ```
 
@@ -18,7 +18,7 @@ public void setErrorIndex(int ei)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setErrorIndex() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 index at which error occurred: 3
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setErrorIndex() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 index at which error occurred: 3000
 
 ```

@@ -6,7 +6,7 @@ Java 中 **YearMonth** 类的 **get()** 方法用于从这个 year-month 中获�
 
 **语法:**
 
-```
+```java
 public int get(TemporalField field)
 ```
 
@@ -24,7 +24,7 @@ public int get(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.get() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 YEAR: 2020
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.get() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 MONTH: 5
 
 ```

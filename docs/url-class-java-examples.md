@@ -34,7 +34,7 @@ URL 类是互联网上任何可用资源的网关。类网址代表统一资源�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of URL
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -93,7 +93,7 @@ public class URLclass1
 
 **输出:**
 
-```
+```java
 https://www.google.co.in/?gfe_rd=cr&ei=ptYqWK26I4fT8gfth6CACg#q=geeks+for+geeks+java
 https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
 

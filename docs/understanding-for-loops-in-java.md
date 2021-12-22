@@ -4,7 +4,7 @@
 
 假设需要打印从 1 到 5 的数字。一种可能的方法是借助下面的代码:
 
-```
+```java
 class GFG {
     public static void main(String args[])
     {
@@ -41,7 +41,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 1.  **while loop:** A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
     **Syntax :**
 
-    ```
+    ```java
     while (boolean condition)
     {
        loop statements...
@@ -55,7 +55,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 2.  **for loop:** for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
     **Syntax:**
 
-    ```
+    ```java
     for (initialization condition; testing condition; 
                                   increment/decrement)
     {
@@ -72,7 +72,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
     Java 还包括 Java 5 中引入的 for 循环的另一个版本。增强的 for 循环提供了一种更简单的方法来迭代集合或数组的元素。它是不灵活的，应该仅在需要以顺序方式迭代元素而不知道当前处理的元素的索引时使用。
     **语法:**
 
-    ```
+    ```java
     for (T element:Collection obj/array)
     {
         statement(s)
@@ -83,7 +83,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 3.  **do while:** do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of **Exit Control Loop.**
     **Syntax:**
 
-    ```
+    ```java
     do
     {
         statements..
@@ -112,7 +112,7 @@ Java 提供了三种执行循环的方式。虽然所有的方法都提供类似
 
     下面是在循环的帮助下所需代码的执行:
 
-    ```
+    ```java
     class GFG {
         public static void main(String args[])
         {

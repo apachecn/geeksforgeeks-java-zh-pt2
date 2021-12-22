@@ -21,7 +21,7 @@ H2 数据库的一些主要特点是:
 
 为了在 spring boot 应用程序中使用 H2 数据库，我们必须在 **pom.xml** 文件中添加以下依赖项:
 
-```
+```java
 dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
@@ -31,7 +31,7 @@ dependency>
 
 **步骤 2:** 在 application.properties 文件中写入一些属性
 
-```
+```java
 # H2 Database
 spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:dcbapp
@@ -45,7 +45,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 **H2 控制台:**默认情况下，H2 数据库的控制台视图处于禁用状态。在访问 H2 数据库之前，我们必须使用以下属性启用它。
 
-```
+```java
 spring.h2.console.enabled=true
 ```
 
@@ -74,7 +74,7 @@ spring.h2.console.enabled=true
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -174,7 +174,7 @@ spring.h2.console.enabled=true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Department File
 
 // Importing required package modules
@@ -216,7 +216,7 @@ public class Department {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.amiya.springbootdemoproject.repository;
 
 import com.amiya.springbootdemoproject.entity.Department;
@@ -240,7 +240,7 @@ public interface DepartmentRepository
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate DepartmentService File
 
 // Importing required package modules
@@ -271,7 +271,7 @@ public interface DepartmentService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate DepartmentServiceImpl.java
 // File
 
@@ -361,7 +361,7 @@ public class DepartmentServiceImpl
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // java Program to Illustrate DepartmentController File
 
 // mporting required packages modules
@@ -422,7 +422,7 @@ public class DepartmentController {
 
 **第 8 步:**下面是应用程序属性文件的代码
 
-```
+```java
 server.port = 8082
 
 # H2 Database

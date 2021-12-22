@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean add(E e)
 ```
 
@@ -23,7 +23,7 @@ public boolean add(E e)
 
 **例 1:**
 
-```
+```java
 // Java Program to Demonstrate add(E e) method
 // of PriorityBlockingQueue.
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 After Adding Some Numbers
 PriorityBlockingQueue:[526734, 84879456, 4586415]
 
@@ -75,7 +75,7 @@ PriorityBlockingQueue:[156116, 526734, 4586415, 84879456, 61651191]
 
 **示例 2:** 演示 add()方法引发的 NullPointerException。
 
-```
+```java
 // Java Program to Demonstrate Exception
 // thrown by add(E e) method
 // of PriorityBlockingQueue.
@@ -115,7 +115,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Exception when adding null: java.lang.NullPointerException
 
 ```

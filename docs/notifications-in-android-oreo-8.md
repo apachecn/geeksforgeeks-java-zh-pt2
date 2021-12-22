@@ -14,13 +14,13 @@
 
 在继续之前，确保这一行被添加到 build.gradle(模块:应用程序)依赖项中:
 
-```
+```java
 implementation 'com.android.support:appcompat-v7:26.1.0'
 ```
 
 让我们从创建通知渠道开始。下面的方法创建一个通知通道:
 
-```
+```java
 @RequiresApi(api = Build.VERSION_CODES.O)
 void makeNotificationChannel(String id, String name, int importance)
 {
@@ -49,7 +49,7 @@ void makeNotificationChannel(String id, String name, int importance)
 
             通常，IMPORTANCE _ DEFAULT 参数是首选参数，但这会产生令人讨厌的通知声音。要静音，在*make notificationchannel()*方法中，在最后一行之前添加以下一行。
 
-            ```
+            ```java
             channel.setSound(null, null);
 
             ```
@@ -60,7 +60,7 @@ void makeNotificationChannel(String id, String name, int importance)
 
     现在让我们发出通知。我们将使用*通知兼容性*进行向后兼容性。
 
-    ```
+    ```java
     void issueNotification()
     {
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 Stack.copyInto(Object Stack[])
 ```
 
@@ -22,7 +22,7 @@ Stack.copyInto(Object Stack[])
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate copyInto()
 import java.util.*;
 
@@ -66,7 +66,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The initial Stack is: 
 Hello
@@ -87,7 +87,7 @@ null
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate copyInto()
 import java.util.*;
 
@@ -134,7 +134,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 The initial Stack is: 
 50

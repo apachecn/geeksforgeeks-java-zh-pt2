@@ -5,7 +5,7 @@
 String toString()是 java.lang 的内置方法，它返回一个字符串。所以这里不执行实际转换。由于 toString()方法只是返回当前字符串，没有任何更改，因此不需要显式调用该字符串，通常是隐式调用。
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -14,7 +14,7 @@ public String toString()
 
 **示例:**
 
-```
+```java
 Input: String("geeksforgeeks")
 Output: geeksforgeeks
 
@@ -23,7 +23,7 @@ Output: geeksforgeeks
 下面的程序说明了 Java.lang.String.toString()方法:
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.String.toString() method
 import java.io.*;
@@ -44,7 +44,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output String Value :Welcome to the world of geeks.
 Output String Value :Let's make it simple for you.
 
@@ -52,7 +52,7 @@ Output String Value :Let's make it simple for you.
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.String.toString() method
 import java.io.*;
@@ -69,7 +69,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 Output : THank You
 
 ```

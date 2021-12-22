@@ -7,7 +7,7 @@
 **Java Set** 的 **toArray()** 方法用于形成与 Set 相同元素的数组。基本上，它将集合中的所有元素复制到一个新数组中。
 **语法:**
 
-```
+```java
 Object[] toArray()
 ```
 
@@ -18,7 +18,7 @@ Object[] toArray()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class SetDemo {
 
 **Output:** 
 
-```
+```java
 The Set: [Geeks, For, Welcome, To]
 The array is:
 Geeks
@@ -66,7 +66,7 @@ To
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate toArray()
 
 import java.util.*;
@@ -101,7 +101,7 @@ public class SetDemo {
 
 **Output:** 
 
-```
+```java
 The Set: [20, 5, 25, 10, 30, 15]
 The array is:
 20

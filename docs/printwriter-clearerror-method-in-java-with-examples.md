@@ -6,7 +6,7 @@ Java 中类的 **clearError()** 方法用于清除这个 PrintWriter 实例的�
 
 **语法:**
 
-```
+```java
 protected void clearError()
 ```
 
@@ -18,7 +18,7 @@ protected void clearError()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter clearError() method
 
@@ -66,7 +66,7 @@ class GFG extends PrintWriter {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 Has any error occurred: false
 
@@ -74,7 +74,7 @@ Has any error occurred: false
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintWriter clearError() method
 
@@ -122,7 +122,7 @@ class GFG extends PrintWriter {
 
 **Output:**
 
-```
+```java
 A
 Has any error occurred: false
 

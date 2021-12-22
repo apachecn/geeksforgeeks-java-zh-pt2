@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneRules getRules()
 
 ```
@@ -19,7 +19,7 @@ public ZoneRules getRules()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getRules() method
 
 import java.time.*;
@@ -43,7 +43,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:30
 ZoneRules: ZoneRules[currentStandardOffset=+05:30]
 
@@ -51,7 +51,7 @@ ZoneRules: ZoneRules[currentStandardOffset=+05:30]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getRules() method
 
 import java.time.*;
@@ -76,7 +76,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: Z
 ZoneRules: ZoneRules[currentStandardOffset=Z]
 

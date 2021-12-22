@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean nextBoolean()
 
 ```
@@ -21,7 +21,7 @@ public boolean nextBoolean()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextBoolean()
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random boolean value is : true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextBoolean()
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random boolean value is : false
 
 ```

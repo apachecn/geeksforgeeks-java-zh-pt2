@@ -27,7 +27,7 @@
 
 ## XML
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <!--Constraint layout which contain Spinner widget-->
 

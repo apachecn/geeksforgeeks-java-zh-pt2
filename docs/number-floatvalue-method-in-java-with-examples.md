@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract float floatValue()
 
 ```
@@ -19,7 +19,7 @@ public abstract float floatValue()
 
 **程序 1:**
 
-```
+```java
 // Below program demonstrate the
 // Number.floatValue() method
 public class gfg {
@@ -42,7 +42,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 1.78542349E9
 9.785488E7
 
@@ -50,7 +50,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // Below program demonstrate the
 // Number.floatValue() method
 
@@ -74,7 +74,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 456.0
 96.0
 

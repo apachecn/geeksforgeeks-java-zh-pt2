@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static OffsetTime now()
 
     ```
@@ -19,7 +19,7 @@
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java program to demonstrate the now() method
 
     import java.time.OffsetTime;
@@ -38,7 +38,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Current time: 02:58:01.700Z
 
     ```
@@ -47,7 +47,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static OffsetTime now(Clock clock)
 
     ```
@@ -60,7 +60,7 @@
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java program to demonstrate the now(clock) method
 
     import java.time.OffsetTime;
@@ -80,7 +80,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Current time: SystemClock[Z]
 
     ```

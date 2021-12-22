@@ -48,7 +48,7 @@
 
 现在我们将在依赖项部分添加下面的依赖项。导航到 build.gradle(您的应用程序名称)，并向其中添加以下代码。
 
-```
+```java
 buildscript {
     repositories {
         google()
@@ -76,7 +76,7 @@ buildscript {
 
 ## 可扩展标记语言
 
-```
+```java
 <!--adding permissions for Internet-->
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -88,7 +88,7 @@ buildscript {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -157,7 +157,7 @@ buildscript {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.onesignal.OneSignal;

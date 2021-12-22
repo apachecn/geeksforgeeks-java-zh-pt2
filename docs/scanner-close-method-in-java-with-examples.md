@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void close()
 ```
 
@@ -16,7 +16,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // close() method of Scanner class in Java
 
@@ -61,7 +61,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner: Geeksforgeeks has Scanner Class Methods
 
 Scanner Closed.

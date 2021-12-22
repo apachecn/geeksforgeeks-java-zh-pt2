@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: String = "Geeks For Geeks", Word = "For"
 Output: "Geeks Geeks"
 
@@ -21,7 +21,7 @@ Output: "A computer Science Portal"
 
 ## C++
 
-```
+```java
 // C++ program to remove
 // a given word from a string
 
@@ -107,7 +107,7 @@ int main(int argc, char const *argv[]) 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove
 // a given word from a string
 public class GFG {
@@ -188,7 +188,7 @@ public class GFG {
 
 ## C#
 
-```
+```java
 // C# program to remove
 // a given word from a string
 using System;
@@ -276,7 +276,7 @@ class GFG 
 
 **Output:**
 
-```
+```java
 String: Geeks for Geeks.
 Word: for
 Result String: Geeks Geeks.

@@ -10,7 +10,7 @@ Java 中 **[【推回阅读器类】](https://www.geeksforgeeks.org/java-io-push
 
 **语法:**
 
-```
+```java
 public int read(char[] charArray, 
                      int offset, 
                      int length) 
@@ -35,7 +35,7 @@ public int read(char[] charArray,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader read(char, int, int) method
 
@@ -90,7 +90,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s]
 Stream Closed.
 
@@ -98,7 +98,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader read(char, int, int) method
 
@@ -153,7 +153,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, F,,, ]
 Stream Closed.
 

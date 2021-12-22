@@ -24,7 +24,7 @@
 
 ## AndroidManifest.xml
 
-```
+```java
 <activity android:name="package_name.Your_ActivityName"  
     android:screenOrientation="orientation_type">  
 </activity>  

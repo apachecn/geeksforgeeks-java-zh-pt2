@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static OptionalDouble of(double value)
 
 ```
@@ -18,7 +18,7 @@ public static OptionalDouble of(double value)
 以下程序说明了(双)法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.of(double) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalDouble: OptionalDouble[45213.246]
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.of(double) method
 
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OptionalDouble: OptionalDouble[2.1438999E7]
 
 ```

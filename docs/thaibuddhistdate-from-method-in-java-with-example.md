@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ThaiBuddhistDate
       from(TemporalAccessor temporal)
 ```
@@ -19,7 +19,7 @@ public static ThaiBuddhistDate
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate from() method
 
 import java.util.*;
@@ -67,14 +67,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate: ThaiBuddhist BE 2561-10-25
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate from() method
 
 import java.util.*;
@@ -121,7 +121,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate: ThaiBuddhist BE 2561-12-30
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setRawOffset(int offsetMillis)
 
 ```
@@ -21,7 +21,7 @@ public void setRawOffset(int offsetMillis)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.setRawOffset()
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inittally RawOffset is = 500
 RawOffset set to 6000000
 Current RawOffset is = 6000000
@@ -63,7 +63,7 @@ Current RawOffset is = 6000000
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.setRawOffset()
 
@@ -96,7 +96,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Inittally RawOffset is = 800
 RawOffset set to 8000000
 Current RawOffset is = 8000000

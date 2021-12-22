@@ -45,7 +45,7 @@
 
 T5】爪哇
 
-```
+```java
 class Student {
     @Autowired
     Address address;
@@ -56,7 +56,7 @@ class Student {
 
 ## Java
 
-```
+```java
 class Student {
     Address address;
 

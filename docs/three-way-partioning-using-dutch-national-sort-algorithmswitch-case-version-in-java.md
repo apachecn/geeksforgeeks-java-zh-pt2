@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = {1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32}  
         lowVal = 14, highVal = 20
 Output: arr[] = {1, 5, 4, 2, 1, 3, 14, 20, 20, 98, 87, 32, 54}
@@ -39,7 +39,7 @@ Output: arr[] = {1, 14, 5, 4, 2, 1, 3, 20, 20, 98, 87, 32, 54}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Dutch National Sort algorithm
 // using switch in Java
 
@@ -135,7 +135,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 1 5 4 2 1 3 14 20 20 98 87 32 54 
 ```
 

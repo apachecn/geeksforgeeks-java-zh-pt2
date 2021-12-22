@@ -14,7 +14,7 @@ run()方法返回后，在线程停止之前有一小段时间。如果我们想
 
 **语法:**
 
-```
+```java
 final boolean isAlive()
 ```
 
@@ -26,7 +26,7 @@ final boolean isAlive()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate isAlive() Method
 // of Thread class
 
@@ -80,7 +80,7 @@ public class oneThread extends Thread {
 
 **输出:**
 
-```
+```java
 geeks 
 true
 true

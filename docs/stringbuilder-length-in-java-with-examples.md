@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int length()
 ```
 
@@ -16,7 +16,7 @@ public int length()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the length() Method.
 
@@ -46,7 +46,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = WelcomeGeeks
 length of String = 12
 
@@ -54,7 +54,7 @@ length of String = 12
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the length() Method.
 
@@ -84,7 +84,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = India is Great
 length of String = 14
 

@@ -5,7 +5,7 @@
 **先决条件:**[Java 中的 Try-Catch Block](https://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/)
 在 Java 中，您的程序可能会遇到异常，为此语言提供了 Try-Catch 语句来处理它们。但是，包含在“try”块中的代码可能容易受到多个异常的影响。例如，看看下面的示例代码:
 
-```
+```java
 // A sample Java code with a try catch block
 // where the try block has only one catch block
 // to handle all possible exceptions
@@ -39,7 +39,7 @@ class A {
 
 **任何一种异常情况下的输出**:
 
-```
+```java
 Exception occurred
 ```
 
@@ -49,7 +49,7 @@ Exception occurred
 
 为了在这种情况下指定自定义操作，程序员通常会放入多个 catch 语句，如下例所示:
 
-```
+```java
 // A sample Java code with one try block
 // having multiple catch blocks to catch
 // different exceptions
@@ -86,7 +86,7 @@ class A {
 
 **输出**:
 
-```
+```java
 a) In case of ArithmeticException: Dividing by 0
 b) In case of ArrayIndexOutOfBoundsException: That index doesn't exist
 ```
@@ -96,7 +96,7 @@ b) In case of ArrayIndexOutOfBoundsException: That index doesn't exist
 但是，有一种方法可以做到同样的事情，只使用**一个抓块**。为此，java 提供了一个运算符:的实例。
 通过使用这个操作符，我们可以为发生的不同异常指定自定义操作。以下程序演示了如何:
 
-```
+```java
 // Java program to demonstrate the use of
 // instanceof to specify different actions for
 // different exceptions using only one catch block
@@ -134,7 +134,7 @@ class A {
 
 **输出:**
 
-```
+```java
 a) In case of ArithmeticException: 
 Can't divide by 0
 b) In case of ArrayIndexOutOfBoundsException: 

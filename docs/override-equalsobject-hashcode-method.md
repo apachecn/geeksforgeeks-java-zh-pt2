@@ -19,7 +19,7 @@ HashMap 和 HashSet 使用对象的 hashcode 值来找出该对象将如何存�
 *   如果两个对象根据 equals(Object)方法是相等的，那么在两个对象上调用 hashCode 方法必须产生相同的整数结果。
 *   不要求如果两个对象根据 equals(java.lang.Object)方法不相等，那么在两个对象的每一个上调用 hashCode 方法都必须产生不同的整数结果。但是，程序员应该知道，为不相等的对象生成不同的整数结果可能会提高哈希表的性能。
 
-```
+```java
 // Java program to illustrate
 // overriding of equals and
 // hashcode methods
@@ -106,7 +106,7 @@ class GFG 
 
 输出:
 
-```
+```java
 IT
 
 ```
@@ -120,7 +120,7 @@ IT
 [![hashcoe_1](img/a305f8bceccac1a1a830c65c2e5eaf28.png)](https://media.geeksforgeeks.org/wp-content/uploads/hashcoe_1.png) 
 正如你在图中清楚看到的，两个值都被存储到不同的桶位置。像这样，无论我们使用相同的关键对象还是不同的关键对象(即关键对象的状态相同或不同)，每次插入到地图中都会得到不同的桶位置。
 
-```
+```java
 // Java program to illustrate
 // Overriding only the equals(Object) method
 import java.io.*;
@@ -186,7 +186,7 @@ class GFG 
 
 输出:
 
-```
+```java
 CSE
 IT
 ```
@@ -195,7 +195,7 @@ IT
 
 考虑地图的另一个例子:
 
-```
+```java
 Map map = new HashMap();
 map.put(“xyz”, “CSE”);
 map.put(“xyz”, “IT”);
@@ -204,7 +204,7 @@ map.put(“xyz”, “IT”);
 
 当我们称**为 map . put(“XYZ”、“CSE”)；**它将生成 hashcode 值，并将其存储到用该地址指定的存储桶位置(hashcode 值)。当我们称**为地图时(“xyz”，“IT”)；**它生成与前一个条目相同的 hashcode 值，因为键对象相同，hashCode()方法已被覆盖。所以它应该按照规则用第二个代替第一个。但事实并非如此。原因是，当它遍历该桶并试图找到 k，使得 k 等于(“xyz”)时，即如果搜索关键字已经存在。但是它找不到，因为 equals(Object)方法没有被覆盖。这违反了散列规则。
 
-```
+```java
 // Java program to illustrate 
 // Overriding only hashCode() method
 
@@ -264,7 +264,7 @@ class GFG 
 
 输出:
 
-```
+```java
 CSE
 IT
 ```

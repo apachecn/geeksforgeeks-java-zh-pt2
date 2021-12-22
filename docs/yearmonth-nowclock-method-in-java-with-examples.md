@@ -5,7 +5,7 @@
 **Java 中 **YearMonth** 类的 now(Clock clock)** 方法用于从指定的时钟获取当前的年-月。
 **语法:**
 
-```
+```java
 public static YearMonth
          now(Clock clock)
 ```
@@ -18,7 +18,7 @@ public static YearMonth
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now(Clock clock) method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth: 2020-05
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now(Clock clock) method
 
@@ -79,7 +79,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year: 2020
 
 ```

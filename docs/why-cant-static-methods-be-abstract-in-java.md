@@ -7,7 +7,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // abstract static method
 
@@ -48,7 +48,7 @@ public class Demo {
 上面的代码不正确，因为静态方法不能是抽象的。运行时出现的编译错误为:
 **编译错误:**
 
-```
+```java
 prog.java:12: error: illegal combination of modifiers: abstract and static
     abstract static void func();
                          ^
@@ -58,7 +58,7 @@ prog.java:12: error: illegal combination of modifiers: abstract and static
 **<u>如果一个静态方法被抽象会发生什么？</u>**
 假设我们做一个静态的方法抽象。那么该方法将被写成:
 
-```
+```java
 public abstract static void func();
 ```
 
@@ -68,7 +68,7 @@ public abstract static void func();
 现在考虑**场景 1** ，如果 func 方法被描述为抽象的，那么它必须在子类中有一个定义。但是根据**场景 2** ，静态 func 方法不能在任何子类中被覆盖，因此它不能有定义。所以这些情景似乎相互矛盾。因此，我们关于静态函数方法是抽象的假设失败了。**所以，一个静态的方法不能是抽象的**。
 那么该方法将被编码为:
 
-```
+```java
 public static void func();
 ```
 
@@ -76,7 +76,7 @@ public static void func();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // abstract static method
 
@@ -124,7 +124,7 @@ public class Demo {
 
 **Output:** 
 
-```
+```java
 Static method implemented.
 Abstract method implemented.
 ```

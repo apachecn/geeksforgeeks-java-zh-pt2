@@ -6,7 +6,7 @@ Java 中**模式**类的**匹配(String，CharSequence)** 方法用于回答输�
 
 **语法:**
 
-```
+```java
 public static boolean matches(String regex, CharSequence input)
 
 ```
@@ -22,7 +22,7 @@ public static boolean matches(String regex, CharSequence input)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.matches(String, CharSequence) method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 match found for Regex.
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.matches(String, CharSequence) method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No match found for Regex.
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate dateNow(Clock clock)
 ```
 
@@ -18,7 +18,7 @@ public ThaiBuddhistDate dateNow(Clock clock)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -69,14 +69,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 JapaneseDate is: Japanese Heisei 32-03-11
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2563-02-08
 
 ```

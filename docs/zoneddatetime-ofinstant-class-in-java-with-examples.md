@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime ofInstant(Instant instant,
                                       ZoneId zone)
 
@@ -28,7 +28,7 @@ T5 区即时区。
 下面的程序说明了 Instant()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.ofInstant() method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime is 2018-10-20T18:55:30+02:00[Europe/Paris]
 
 ```

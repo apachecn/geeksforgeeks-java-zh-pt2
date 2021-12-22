@@ -6,7 +6,7 @@ Java 中 **OffsetTime** 类的**(int hour，int minute，int second，int 纳秒
 
 **语法:**
 
-```
+```java
 public static OffsetTime of(int hour,
                             int minute,
                             int second,
@@ -31,7 +31,7 @@ public static OffsetTime of(int hour,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime of() method
 
@@ -57,14 +57,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TIME: 08:20:40.000050Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime of() method
 
@@ -89,14 +89,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TIME: 05:40:30.000020-18:00
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime of() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TIME: 06:10:20.000030+18:00
 
 ```

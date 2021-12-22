@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public IntStream stream()
 
 ```
@@ -18,7 +18,7 @@ public IntStream stream()
 以下节目举例说明 stream()方法:
 **节目 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.stream() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.stream() method
 

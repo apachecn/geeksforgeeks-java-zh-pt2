@@ -11,7 +11,7 @@ run()方法在使用单独的 Runnable 对象构造的线程类中可用。否�
 
 **语法:**
 
-```
+```java
 public void run()  
 {    
     //statements  
@@ -26,19 +26,19 @@ public void run()
 
 **步骤 2:** 为类创建一个对象。
 
-```
+```java
 Syntax: Usingstart obj=new Usingstart(); 
 ```
 
 **步骤 3:** 通过传递类变量创建线程对象。
 
-```
+```java
 Syntax: Thread t1 =new Thread(obj);    
 ```
 
 **第 4 步:**这将调用 run()方法。
 
-```
+```java
 Syntax: t1.start();
 ```
 
@@ -46,7 +46,7 @@ Syntax: t1.start();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the working 
 // of run() method using the start() method
 
@@ -75,7 +75,7 @@ public class Usingstart implements Runnable  
 
 **Output**
 
-```
+```java
 This thread is running
 ```
 
@@ -87,13 +87,13 @@ This thread is running
 
 **步骤 2:** 为类创建一个对象。
 
-```
+```java
 Syntax: Usingstart obj=new Usingstart();     
 ```
 
 **第三步:**这将调用 run()方法。
 
-```
+```java
 Syntax: obj.run();
 ```
 
@@ -101,7 +101,7 @@ Syntax: obj.run();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // the working of run() method
 
@@ -127,7 +127,7 @@ public class Usingstart implements Runnable  
 
 **Output**
 
-```
+```java
 This thread is running
 ```
 
@@ -139,7 +139,7 @@ This thread is running
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to call the
 // run() method multiple times
 
@@ -166,7 +166,7 @@ public class RumMultipleTimes extends Thread {
 
 **Output**
 
-```
+```java
 Running 1 Time
 Running 2 Time
 Running 3 Time
@@ -199,7 +199,7 @@ Running 10 Time
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the behavior of
 // run() method overloading
 
@@ -235,7 +235,7 @@ public class Test {
 
 **Output**
 
-```
+```java
 single parameter method
 no parameters method
 ```

@@ -52,19 +52,19 @@ Java 是一种通用的计算机编程语言，具有并发性、基于类、面
 
 **第 2 步:**键入如下命令:
 
-```
+```java
 sudo apt-get install openjdk-8-jdk
 ```
 
 **步骤 3:** 对于如下所示的“JAVA_HOME”(环境变量)类型命令，在“Terminal”中使用您的安装路径……(注意:默认路径如图所示，但是如果您必须在另一个位置安装 OpenJDK，那么请设置该路径。)
 
-```
+```java
 export JAVA_HOME = /usr/lib/jvm/java-8-openjdk
 ```
 
 **第 4 步:**对于“PATH”(环境值)键入如下所示的命令，在“Terminal”中使用您的安装路径……注意:默认路径如图所示，但是如果您必须在另一个位置安装 OpenJDK，则设置该路径。)
 
-```
+```java
 export PATH = $PATH:/usr/lib/jvm/java-8-openjdk/bin
 ```
 
@@ -83,7 +83,7 @@ export PATH = $PATH:/usr/lib/jvm/java-8-openjdk/bin
 
 **步骤 2:** 现在，为了进行配置，首先编写命令“Java–version ”,下面的消息会弹出，说明没有
 
-```
+```java
 java --version
 javac --version 
 ```
@@ -94,7 +94,7 @@ javac --version
 
 **第 2 步:**安装完 JDK 之后，现在让我们继续设置 java home 环境变量，为此，您必须使用下面的命令查看名为“bash_profie”的内容
 
-```
+```java
 ls -al
 ```
 
@@ -104,7 +104,7 @@ ls -al
 
 **步骤 3:** 设置 home java 变量。使用以下命令检查或设置终端上是否安装了以下软件:
 
-```
+```java
 echo $JAVA_HOME
 ```
 
@@ -120,13 +120,13 @@ echo $JAVA_HOME
 
 现在，您将看到在您的机器中创建了 bash-profile，如步骤 2 所示，hone 可以通过编写如下命令来验证:
 
-```
+```java
 ls -al 
 ```
 
 **第 5 步:**编辑。bash_profile 已创建，对于 java，您只需编写在下面的介质中标记的命令，如下所示:
 
-```
+```java
 export JAVA_HOME=$(/usr/libexec/java_home)
 // No need to remember this command  
 ```
@@ -137,7 +137,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 **步骤 5:** 通过输入以下两个命令验证是否安装
 
-```
+```java
 source .bash_profile
 echo $JAVA_HOME
 ```

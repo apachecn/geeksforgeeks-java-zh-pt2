@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public Enumeration entries()
 ```
 
 **语法:**
 
-```
+```java
 zip_file.entries();
 ```
 
@@ -26,7 +26,7 @@ zip_file.entries();
 
 **示例 1:** 创建一个名为 zip_file 的文件，并使用 entries()函数获取 zip 文件条目。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of entries() function
 
@@ -68,7 +68,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 Entries:
 file3.cpp
 file1.cpp
@@ -78,7 +78,7 @@ file2.cpp
 
 **示例 2:** 创建一个名为 zip_file 的文件，并使用 entries()函数获取 zip 文件条目。如果我们关闭文件，然后调用函数条目()，此函数将引发异常。
 
-```
+```java
 // Java program to demonstrate the
 // use of entries() function
 
@@ -124,7 +124,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 zip file closed
 
 ```

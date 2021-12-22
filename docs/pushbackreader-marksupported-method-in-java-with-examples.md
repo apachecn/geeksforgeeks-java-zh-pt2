@@ -6,7 +6,7 @@ Java 中 **[推回阅读器类](https://www.geeksforgeeks.org/java-io-pushbackre
 
 **语法:**
 
-```
+```java
 public boolean markSupported()
 ```
 
@@ -18,7 +18,7 @@ public boolean markSupported()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader markSupported() method
 
@@ -57,7 +57,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is mark() supported:false
 Stream Closed.
 
@@ -65,7 +65,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader markSupported() method
 
@@ -104,7 +104,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is mark() supported:false
 Stream Closed.
 

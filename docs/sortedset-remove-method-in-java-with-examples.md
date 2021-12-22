@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean remove(Object O)
 ```
 
@@ -20,7 +20,7 @@ boolean remove(Object O)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // SortedSet.remove() method
 
@@ -63,7 +63,7 @@ public class SortedSetDemo {
 
 **Output:** 
 
-```
+```java
 SortedSet: [4, Geeks, To, Welcome]
 SortedSet after removing elements: [To]
 ```

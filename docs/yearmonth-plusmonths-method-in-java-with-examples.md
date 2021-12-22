@@ -6,7 +6,7 @@ Java 中 **YearMonth** 类的 **plusMonths()** 方法用来获取这个添加了
 
 **语法:**
 
-```
+```java
 public YearMonth plusMonths(long monthsToAdd)
 ```
 
@@ -20,7 +20,7 @@ public YearMonth plusMonths(long monthsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plusMonths() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified YearMonth: 2020-10
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plusMonths() method
 
@@ -86,7 +86,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified YearMonth: 2020-03
 
 ```

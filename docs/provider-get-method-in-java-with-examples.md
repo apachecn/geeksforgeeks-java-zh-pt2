@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Object get(Object key)
 ```
 
@@ -20,7 +20,7 @@ public Object get(Object key)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -72,7 +72,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 value is : SHA1withDSA
 value is : SHA1withDSA
 value is : SHA1withDSA
@@ -88,7 +88,7 @@ value is : sun.security.provider.DSA$SHA256withDSA
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // get() method
 
@@ -126,7 +126,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Trying to get the value of an unmapped key
 value is : null
 

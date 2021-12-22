@@ -49,7 +49,7 @@
 
 **第一步:** Bean 定义:创建一个 Student POJO 类。
 
-```
+```java
 // Java Program where we are creating a POJO class
 
 // POJO class
@@ -81,7 +81,7 @@ public class Student {
 
 **第二步:** XML Bean 配置:在***Bean-factory-demo . XML***文件中配置学生 Bean。
 
-```
+```java
 <?xml version = "1.0" encoding="UTF-8"?>
 <beans xmlns = "http://www.springframework.org/schema/beans"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -97,7 +97,7 @@ public class Student {
 
 **第三步:**主类
 
-```
+```java
 // Application class 
 @SpringBootApplication
 
@@ -118,7 +118,7 @@ public class DemoApplication {
 
 **输出:**
 
-```
+```java
 Student{name='Tina', age='21'}
 ```
 

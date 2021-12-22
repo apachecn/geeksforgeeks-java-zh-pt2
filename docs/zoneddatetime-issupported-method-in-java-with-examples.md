@@ -46,7 +46,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField field)
 
 ```
@@ -59,7 +59,7 @@ public boolean isSupported(TemporalField field)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.isSupported() method
 
@@ -92,7 +92,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ALIGNED_WEEK_OF_YEAR Field is supported: true
 
 ```
@@ -123,7 +123,7 @@ ALIGNED_WEEK_OF_YEAR Field is supported: true
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalUnit unit)
 
 ```
@@ -136,7 +136,7 @@ public boolean isSupported(TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.isSupported() method
 
@@ -168,7 +168,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ChronoUnit MILLENNIA is  supported: true
 
 ```

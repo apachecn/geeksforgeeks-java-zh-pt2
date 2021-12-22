@@ -6,7 +6,7 @@ Java 格式的 OffsetTime 类的**isaafter()**方法检查传递的时间是否�
 
 **语法:**
 
-```
+```java
 public boolean isAfter(OffsetTime other)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(OffsetTime other)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the isAfter() method
 import java.time.OffsetTime;
 
@@ -51,7 +51,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 15:20:30+07:00
 time1 is after time2: true
@@ -60,7 +60,7 @@ time1 is after time2: true
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the isAfter() method
 
 import java.time.OffsetTime;
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 time1: 15:30:30+07:00
 time1: 15:30:30+07:00
 time1 is after time2: false

@@ -27,7 +27,7 @@
 
 要使用 Z 垃圾收集器，我们必须遵循多个步骤。您必须安装特定于 Linux/x64 的 JDK 二进制文件，并构建和启动它。您可以使用以下命令下载 ZGC 并将其构建在您的系统上:
 
-```
+```java
 $ hg clone http://hg.openjdk.java.net/jdk/jdk
 $ cd zgc
 $ sh configure --with-jvm-features=zgc
@@ -36,7 +36,7 @@ $ make images
 
 > 执行给定命令后，您可以在以下位置找到 JDK 根目录:
 
-```
+```java
 g./build/linux-x86_64-normal-server-release/images/jdk 
 ```
 
@@ -44,7 +44,7 @@ g./build/linux-x86_64-normal-server-release/images/jdk
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Simply Create a Demo Class
 
 // Importing input output libraries
@@ -64,25 +64,25 @@ class HelloGFG {
 
 **Output**
 
-```
+```java
 Hello to new Garbage Collector - ZGC!
 ```
 
 > 现在，以下命令可用于启用和使用 ZGC:
 > 
-> ```
+> ```java
 > java -XX:+UnlockExperimentalVMOptions -XX:+UseZGC HelloGFG
 > ```
 
 为了启用基本的 GC 记录，用户可以添加 **-Xlog:gc** 选项。在微调应用程序时，详细的日志记录很有帮助。用户可以使用 **-Xlog:gc*** 选项来启用它，如下所示:
 
-```
+```java
 java -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xlog:gc* HelloGFG
 ```
 
 前面的命令会将所有日志输出到控制台，这可能会使搜索特定内容变得困难。用户可以指定要写入文件的日志，如下所示:
 
-```
+```java
 java -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xlog:gc:mylog.log* HelloGFG
 ```
 
@@ -131,7 +131,7 @@ ZGC 把记忆分成几个区域，也叫 ZPages。这些可以动态创建和销
 
 **ZGC 是一个并发垃圾收集器。通过设置应该分配给 ZGC 线程的 CPU 时间，用户可以控制垃圾收集的频率。这可以通过使用以下选项来实现:**
 
-```
+```java
 **-XX:ConcGCThreads=<number>**
 ```
 
@@ -139,13 +139,13 @@ ZGC 把记忆分成几个区域，也叫 ZPages。这些可以动态创建和销
 
 **对于高级 ZGC 调优，用户还可以启用大页面来提高应用程序的性能。可以通过使用以下选项来完成:**
 
-```
+```java
 **-XX:+UseLargePages**
 ```
 
 **除了启用大页面，用户还可以使用以下选项启用透明的大页面:**
 
-```
+```java
 **-XX:+UseTransparentHugePage**
 ```
 
@@ -153,7 +153,7 @@ ZGC 把记忆分成几个区域，也叫 ZPages。这些可以动态创建和销
 
 **ZGC 是一个 NUMA 意识的 GC。在 NUMA 机器上执行的应用程序可以带来显著的性能提升。默认情况下，ZGC 支持 NUMA。然而，如果 JVM 意识到它被绑定到 JVM 中的一个子集，这个特性可以被禁用。要覆盖 JVM 的决定，可以使用以下选项:**
 
-```
+```java
 **-XX:+UseNUMA**
 ```
 

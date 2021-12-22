@@ -6,7 +6,7 @@ Java 7 中的 [Java NIO](https://www.geeksforgeeks.org/tag/java-nio-package/) �
 
 **语法:**
 
-```
+```java
 int toAbsolutePath()
 
 ```
@@ -24,7 +24,7 @@ int toAbsolutePath()
 下面的程序说明了 toAbsolutePath()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.toAbsolute() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.toAbsolutePath() method
 

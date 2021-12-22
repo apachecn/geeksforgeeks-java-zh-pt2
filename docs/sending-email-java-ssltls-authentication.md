@@ -18,7 +18,7 @@ JavaMail 应用编程接口定义了代表邮件系统组件的类。JavaMail �
 
 **获取会话对象**–**javax . mail . session**类提供了会话对象、Session.getDefaultInstance()方法和 Session.getInstance()方法。
 
-```
+```java
 // Setup mail server
 properties.setProperty("mail.smtp.host", host); 
 
@@ -29,7 +29,7 @@ properties.setProperty("mail.password", "password$");
 
 **撰写消息**–**javax . mail . transport**类提供了发送消息的方法。
 
-```
+```java
 // javax.mail.internet.MimeMessage class is
 // mostly used for abstraction. 
 MimeMessage message = new MimeMessage(session);
@@ -44,7 +44,7 @@ message.setText("Hello, aas is sending email ");
 
 **发送消息**
 
-```
+```java
 Transport.send(message);
 ```
 
@@ -52,7 +52,7 @@ Transport.send(message);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -104,7 +104,7 @@ public class SendEmail {
 
 **输出**T2】
 
-```
+```java
 Yo it has been sent...
 ```
 
@@ -112,7 +112,7 @@ Yo it has been sent...
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -191,7 +191,7 @@ public class SendMail {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -280,7 +280,7 @@ catch (MessagingException mex) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is an array of e-mail ID. You would
 // need to use InternetAddress() method
 // while specifying email IDs

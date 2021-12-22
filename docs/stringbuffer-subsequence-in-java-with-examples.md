@@ -5,7 +5,7 @@
 StringBuffer 类的**子序列(int start，int end)** 方法是用于**返回位于该序列的索引开始和结束-1 之间的字符子序列**的内置方法。子序列以索引开始处的字符值开始，以(end-1)处的字符值结束。返回的子序列的长度是 end-start。所以如果开始等于结束，那么返回一个空的子序列。
 **语法:**
 
-```
+```java
 public CharSequence subSequence?(int start, int end)
 ```
 
@@ -24,7 +24,7 @@ public CharSequence subSequence?(int start, int end)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the subSequence() Method.
 
@@ -50,7 +50,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String length = 12 and contains = WelcomeGeeks
 SubSequence = Welcome
 ```
@@ -59,7 +59,7 @@ SubSequence = Welcome
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the subSequence() Method.
 
@@ -85,7 +85,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String contains = Indian Team Played Well
 SubSequence = Team Played
 ```
@@ -94,7 +94,7 @@ SubSequence = Team Played
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by the subSequence() Method.
 
@@ -121,7 +121,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 java.lang.StringIndexOutOfBoundsException: String index out of range: -1
     at java.lang.AbstractStringBuffer.substring(AbstractStringBuffer.java:935)
     at java.lang.StringBuffer.substring(StringBuffer.java:76)

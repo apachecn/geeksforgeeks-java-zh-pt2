@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minusMinutes(long minutes)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime minusMinutes(long minutes)
 下面的程序说明了分钟数()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusMinutes() method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minusMinutes() method
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void list(PrintWriter out)
 ```
 
@@ -20,7 +20,7 @@ public void list(PrintWriter out)
 
 **程序 1:**
 
-```
+```java
 // Java code to show the implementation of
 // list(PrintWriter) method
 
@@ -58,7 +58,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 listing out the Properties: 
 -- listing properties --
@@ -71,7 +71,7 @@ Clothes=400
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // list(PrintWriter) method.
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Properties: {You=30, Welcomes=25, 4=15, Geeks=20}
 listing out the Properties: 
 -- listing properties --

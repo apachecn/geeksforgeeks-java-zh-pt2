@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime with(TemporalAdjuster adjuster)
 
 ```
@@ -27,7 +27,7 @@ public ZonedDateTime with(TemporalAdjuster adjuster)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.with() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime before adjustment: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after adjustment: 2018-09-01T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -77,7 +77,7 @@ ZonedDateTime after adjustment: 2018-09-01T19:21:12.123+05:30[Asia/Calcutta]
 
 **语法:**
 
-```
+```java
 public ZonedDateTime with(TemporalField field, long newValue)
 
 ```
@@ -95,7 +95,7 @@ public ZonedDateTime with(TemporalField field, long newValue)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.with() method
 
@@ -131,7 +131,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime before applying method: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after applying method: 2018-12-06T13:21:12.123+05:30[Asia/Calcutta]
 

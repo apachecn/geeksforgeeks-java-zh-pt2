@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **withNano()** 方法返回这个 OffsetDateTime 
 
 **语法:**
 
-```
+```java
 public OffsetDateTime withNano(int nanoOfSecond)
 ```
 
@@ -20,7 +20,7 @@ public OffsetDateTime withNano(int nanoOfSecond)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the withNano() method
 
 import java.time.OffsetDateTime;
@@ -47,7 +47,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after altering nano-of-second: 2018-12-12T13:30:30.000001+05:00
 
@@ -55,7 +55,7 @@ Date1 after altering nano-of-second: 2018-12-12T13:30:30.000001+05:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate the withNano() method
 
 import java.time.OffsetDateTime;
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Exception: java.time.DateTimeException: 
            Invalid value for NanoOfSecond (valid values 0 - 999999999): 1000000000

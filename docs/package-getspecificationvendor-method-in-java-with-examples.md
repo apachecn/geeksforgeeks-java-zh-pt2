@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **getSpecificationVendor()** 方法用于获取该包的规格的厂商。方法以字符串形式返回包的规范供应商。
 **语法:**
 
-```
+```java
 public String getSpecificationVendor()
 ```
 
@@ -16,7 +16,7 @@ public String getSpecificationVendor()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getSpecificationVendor() method
 
@@ -47,7 +47,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Specification vendor of myPackage: Oracle Corporation
 ```
@@ -56,7 +56,7 @@ Specification vendor of myPackage: Oracle Corporation
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getSpecificationVendor() method
 
@@ -88,7 +88,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Specification vendor of myPackage: Oracle Corporation
 ```

@@ -6,7 +6,7 @@ Java 向量中指定索引处的元素可以使用 [**remove()**](https://www.ge
 
 **语法:**
 
-```
+```java
 public removed_element remove(int index)
 ```
 
@@ -20,7 +20,7 @@ public removed_element remove(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for removing element
 // at specified index
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Values in vector: [10, 20, 30, 20, 40]
 Removed element: 30
 Values in vector: [10, 20, 20, 40]
@@ -68,7 +68,7 @@ Values in vector: [10, 20, 20, 40]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the exception 
 // of remove() method 
 
@@ -108,6 +108,6 @@ public class ArrayListDemo { 
 }
 ```
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 4
 ```

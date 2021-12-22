@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public E peek()
 ```
 
@@ -18,7 +18,7 @@ public E peek()
 
 **例 1:**
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of PriorityBlockingQueue
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 PrioQueue: [416165, 464161]
 Head of Queue: 416165
 
@@ -60,7 +60,7 @@ Head of Queue: 416165
 
 **例 2:** 说明包含名称列表的 PriorityBlockingQueue 的 peek()方法。
 
-```
+```java
 // Java Program Demonstrate peek()
 // method of PriorityBlockingQueue
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 List of Names: [A, Computer, Geeks, forGeeks, Portal]
 Head of Queue: A
 First Name from head is removed

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneOffset getStandardOffset()
 ```
 
@@ -18,7 +18,7 @@ public ZoneOffset getStandardOffset()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getStandardOffset() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 standard Zone Offset : +00:00:08
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getStandardOffset() method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 standard Zone Offset : +00:00:21
 
 ```

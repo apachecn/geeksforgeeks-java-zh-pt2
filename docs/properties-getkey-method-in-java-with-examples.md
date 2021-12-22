@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object get(Object key)
 ```
 
@@ -18,7 +18,7 @@ public Object get(Object key)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // get(key) method.
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Properties: {Book=500, Mobile=5000, Pen=10, Clothes=400}
 Value of Pen: 10
 Value of Phone: null
@@ -63,7 +63,7 @@ Value of Phone: null
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // get(key) method.
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current Properties: {3=1000RS, 2=500RS, 1=100RS}
 Value of 1: 100RS
 Value of 5: null

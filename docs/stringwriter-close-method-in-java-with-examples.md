@@ -6,7 +6,7 @@ Java 中的 **close()** 方法 **[StringWriter](https://www.geeksforgeeks.org/ja
 
 **语法:**
 
-```
+```java
 public void close()
 ```
 
@@ -18,7 +18,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter close() method
 
@@ -57,14 +57,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 GeeksForGeeks
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter close() method
 
@@ -100,7 +100,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 A
 
 ```

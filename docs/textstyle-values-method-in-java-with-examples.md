@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TextStyle[] values()
 
 ```
@@ -18,7 +18,7 @@ public static TextStyle[] values()
 下面的程序说明了 TextStyle.values()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.values() method
 
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 FULL
 FULL_STANDALONE
 SHORT
@@ -57,7 +57,7 @@ NARROW_STANDALONE
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TextStyle.values() method
 import java.time.format.TextStyle;
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 TextStyle length:6
 
 ```

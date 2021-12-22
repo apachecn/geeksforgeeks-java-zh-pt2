@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getIndex()
 ```
 
@@ -18,7 +18,7 @@ public int getIndex()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getIndex() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current parse position: 1
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getIndex() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current parse position: 3
 
 ```

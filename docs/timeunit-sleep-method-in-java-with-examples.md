@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void sleep(long timeout)
            throws InterruptedException
 ```
@@ -21,7 +21,7 @@ public void sleep(long timeout)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // sleep() method of TimeUnit Class
 
@@ -60,7 +60,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Going to sleep for 0 seconds
 Slept for 0 seconds
 
@@ -68,7 +68,7 @@ Slept for 0 seconds
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // sleep() method of TimeUnit Class
 
@@ -107,7 +107,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Going to sleep for 10 seconds
 Slept for 10 seconds
 

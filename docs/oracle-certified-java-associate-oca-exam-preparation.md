@@ -8,7 +8,7 @@
 **1。必须练习 str1 == str2 和 str1.equals(str2) 之间的[差异。](https://www.geeksforgeeks.org/difference-equals-method-java/)**
 **示例-1.1** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -28,7 +28,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 equals
 
 ```
@@ -37,7 +37,7 @@ equals
 
 **示例-1.2** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -57,7 +57,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 ==
 equals
 
@@ -69,7 +69,7 @@ equals
 
 **示例-2.1** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -82,14 +82,14 @@ class Test {
 
 **Output:**
 
-```
+```java
 Pass
 
 ```
 
 **示例-2.2** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -109,7 +109,7 @@ class Test {
 **3。研究“字符串对象是不可变的”这一规则。**
 **例-3.1** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -126,7 +126,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 A B C C
 
 ```
@@ -137,7 +137,7 @@ Java Lambda 表达式语法:
 (参数列表)- > {body}
 **4.1 Lambda 表达式示例:无参数**
 
-```
+```java
 // This a java method
 void printHello()
 {
@@ -157,7 +157,7 @@ Or
 
 **4.2λ表达式示例:单参数**
 
-```
+```java
 // This a java method
 void sayHello(String name)
 {
@@ -180,7 +180,7 @@ name -> System.out.println("Hello " + name); 
 
 **4.3λ表达式示例:多参数**
 
-```
+```java
 // This a java method
 int add(int num1, int num2)
 {
@@ -204,7 +204,7 @@ Or 
 **5。研究&(按位与)和& &(逻辑与)运算符的区别。**
 **例-5.1** :
 
-```
+```java
 class Test {
     public static void main(String[] args)
     {
@@ -227,7 +227,7 @@ class Test {
 
 **Output:**
 
-```
+```java
 Output of && operator: a = 11 b = 20
 -------------
 Output of & operator: a = 11 b = 19

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int getTotalSeconds()
 
 ```
@@ -19,7 +19,7 @@ public static int getTotalSeconds()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate getTotalSeconds() method
 
 import java.time.*;
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +05:00
 Total seconds: 18000
 
@@ -54,7 +54,7 @@ Total seconds: 18000
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getTotalSeconds() method
 
 import java.time.*;
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z
 Total seconds: 0
 

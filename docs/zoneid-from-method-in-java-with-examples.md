@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static ZoneId from(TemporalAccessor temporal)
 
 ```
@@ -20,7 +20,7 @@ public static ZoneId from(TemporalAccessor temporal)
 以下程序说明了 from()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.from() method
 
@@ -47,7 +47,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Zone Id got from TemporalAccessor object 
 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 is Europe/Paris
@@ -56,7 +56,7 @@ is Europe/Paris
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneId.from() method
 
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Zone Id got from TemporalAccessor object 
 2018-12-10T18:20:03.637Z[Etc/UTC]
 is Etc/UTC

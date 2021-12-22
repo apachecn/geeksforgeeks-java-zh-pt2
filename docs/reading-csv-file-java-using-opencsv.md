@@ -12,7 +12,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
 ## 超文本标记语言
 
-```
+```java
 <dependency>
     <groupId>com.opencsv</groupId>
     <artifactId>opencsv</artifactId>
@@ -22,7 +22,7 @@ OpenCSV 是一个面向 Java 的 CSV 解析器库。OpenCSV 支持所有你想�
 
 2.对于 Gradle 项目，您可以包含 OpenCSV 依赖项。
 
-```
+```java
 compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
 ```
 
@@ -39,7 +39,7 @@ compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
 
 要读取 CSV 文件，您需要 CSVReader 类。下面是我们将要阅读的示例 CSV 文件。
 
-```
+```java
 name, rollno, department, result, cgpa
 amar, 42, cse, pass, 8.6
 rohini, 21, ece, fail, 3.2
@@ -56,7 +56,7 @@ suvam, 68, me, pass, 8.2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate reading a
 // CSV file line by line
 public static void readDataLineByLine(String file)
@@ -89,13 +89,13 @@ public static void readDataLineByLine(String file)
 
 **2。一次读取所有数据:**我们使用 readNext()方法逐个读取 CSV 记录。CSVReader 还提供了一个名为 readAll()的方法，可以一次将所有记录读入一个 List。
 
-```
+```java
  List allData = csvReader.readAll(); 
 ```
 
 当我们默认读取 csv 文件时，头不会被忽略，如上面代码的输出所示。当我们需要跳过列表中的第一个元素时，我们可以在创建 CSVReader 时指定开始行。
 
-```
+```java
 CSVReader csvReader = 
 new CSVReaderBuilder(reader).withSkipLines(1).build();
 ```
@@ -104,7 +104,7 @@ new CSVReaderBuilder(reader).withSkipLines(1).build();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate reading a
 // all data at once
 public static void readAllDataAtOnce(String file)
@@ -140,7 +140,7 @@ CSV 文件可以用逗号以外的分隔符分隔，例如分号、管道等。�
 
 **分号分隔的 CSV 文件示例:**
 
-```
+```java
 name;rollno;department;result;cgpa
 amar;42;cse;pass;8.6
 rohini;21;ece;fail;3.2
@@ -153,13 +153,13 @@ suvam;68;me;pass;8.2
 
 对于自定义分隔符，首先创建带有特定解析器字符的 CSVParser。
 
-```
+```java
 CSVParser parser = new CSVParserBuilder().withSeparator(';').build();
 ```
 
 然后，我们将使用 withsparser()方法和构造函数创建 CSVReader 对象，并将生成的解析器对象提供给 withsparser 方法的参数。最后调用 build 方法构建对象。
 
-```
+```java
 CSVReader csvReader = new CSVReaderBuilder(filereader).withCSVParser(parser).build();
 ```
 
@@ -167,7 +167,7 @@ CSVReader csvReader = new CSVReaderBuilder(filereader).withCSVParser(parser).bui
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // Reading CSV File with different separator
 public static void readDataFromCustomSeparator(String file)
@@ -210,7 +210,7 @@ result . CSV 有默认分隔符'，'但 results _ 分号 _ separator . CSV 有�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate reading
 // two CSV files
 // with different separators
@@ -333,7 +333,7 @@ public class ReadCSVData {
 
 **输出:**
 
-```
+```java
 _______________________________________________
 Read Data Line by Line With Header 
 

@@ -10,7 +10,7 @@ Java 中 **SortedMap 接口的 tailMap()方法用于返回该地图中键大于�
 
 **语法** :
 
-```
+```java
 SortedMap<K, V> tailMap(K fromKey)
 
 ```
@@ -33,7 +33,7 @@ SortedMap<K, V> tailMap(K fromKey)
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -61,14 +61,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Last Key in the map is : {2=Two, 3=Three, 4=Four, 5=Five}
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -96,7 +96,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Last Key in the map is : {Five=It, Four=Code, One=Geeks, Three=Geeks, Two=For}
 
 ```

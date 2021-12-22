@@ -6,7 +6,7 @@ Java 中 **[【打印流】](https://www.geeksforgeeks.org/java-io-printstream-c
 
 **语法:**
 
-```
+```java
 public void print(boolean booleanValue)
 ```
 
@@ -18,7 +18,7 @@ public void print(boolean booleanValue)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream print(boolean) method
 
@@ -51,14 +51,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // PrintStream print(boolean) method
 
@@ -91,7 +91,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

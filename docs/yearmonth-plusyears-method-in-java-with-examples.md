@@ -6,7 +6,7 @@ Java 中 **YearMonth 类**的 **plusYears()** 方法用来返回这个 YearMonth
 
 **语法:**
 
-```
+```java
 public YearMonth plusYears(long yearsToAdd)
 ```
 
@@ -20,7 +20,7 @@ public YearMonth plusYears(long yearsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plusYears() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified YearMonth: 2025-05
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plusYears() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Modified Year: 2029
 
 ```

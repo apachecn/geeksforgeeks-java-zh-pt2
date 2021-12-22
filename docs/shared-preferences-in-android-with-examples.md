@@ -75,7 +75,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Storing data into SharedPreferences
 SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
 
@@ -96,7 +96,7 @@ myEdit.commit();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Retrieving the value using its keys the file name
 // must be same in both saving and retrieving the data
 SharedPreferences sh = getSharedPreferences("MySharedPref", MODE_APPEND);
@@ -117,7 +117,7 @@ age.setText(String.valueOf(a));
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -175,7 +175,7 @@ age.setText(String.valueOf(a));
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.SharedPreferences;

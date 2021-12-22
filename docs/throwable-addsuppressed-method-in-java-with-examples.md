@@ -7,7 +7,7 @@
 如果有多个兄弟异常，并且只能传播一个，那么这个方法可以用来传播那个方法。
 **语法:**
 
-```
+```java
 public final void addSuppressed?(Throwable exception)
 ```
 
@@ -23,7 +23,7 @@ public final void addSuppressed?(Throwable exception)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the addSuppressed() Method.
 
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Suppressed Exceptions:
 java.lang.ArithmeticException
 ```

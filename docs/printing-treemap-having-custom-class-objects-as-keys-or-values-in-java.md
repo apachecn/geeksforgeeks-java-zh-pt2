@@ -12,7 +12,7 @@
 
 T0T6T8】输出 T10】
 
-```
+```java
 1=>Student@3941a79c
 2=>Student@506e1b77
 3=>Student@4fca772d

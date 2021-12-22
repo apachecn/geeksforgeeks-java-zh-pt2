@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setSeed() 
 
 ```
@@ -21,7 +21,7 @@ public void setSeed()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.setSeed()
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random Integer value : -2053473769
 Random Integer value : -1152406585
 
@@ -58,7 +58,7 @@ Random Integer value : -1152406585
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.setSeed()
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Random Integer value : -388369680
 Random Integer value : -1154330330
 

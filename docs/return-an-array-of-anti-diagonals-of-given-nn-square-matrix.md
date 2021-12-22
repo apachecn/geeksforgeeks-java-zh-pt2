@@ -6,13 +6,13 @@
 
 **示例:**
 
-```
+```java
 Input :
 ```
 
 ![null](img/643fd5e06944da410aab84b549469b3b.png)
 
-```
+```java
 Output :
  1
  2  5
@@ -33,7 +33,7 @@ Output :
 
 ## C++
 
-```
+```java
 // C++ implementation to  return
 // an array of its anti-diagonals
 // when an N*N square matrix is given
@@ -92,7 +92,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java implementation to  return
 // an array of its anti-diagonals
 // when an N*N square matrix is given
@@ -155,7 +155,7 @@ class Matrix {
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 implementation to return
 # an array of its anti-diagonals
 # when an N*N square matrix is given
@@ -211,7 +211,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```java
 // C# implementation to return
 // an array of its anti-diagonals
 // when an N*N square matrix is given
@@ -266,7 +266,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```java
 <script>
 
 // Javascript implementation to  return
@@ -323,7 +323,7 @@ diagonal(A);
 
 **Output:** 
 
-```
+```java
 1 
 2 4 
 3 5 7 
@@ -348,7 +348,7 @@ diagonal(A);
 
 ## C++
 
-```
+```java
 // C++ program for the above approach
 #include <iostream>
 #include <vector>
@@ -395,7 +395,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for the above approach
 import java.util.*;
 import java.lang.*;
@@ -445,7 +445,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```java
 # Python3 program for the above approach
 
 # Function to print diagonals
@@ -485,7 +485,7 @@ diagonal(A)
 
 ## C#
 
-```
+```java
 // C# program for the above approach
 using System;
 using System.Collections.Generic;
@@ -534,7 +534,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```java
 <script>
     // Javascript program for the above approach
 
@@ -579,7 +579,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1  
 2 5  
 3 6 9  

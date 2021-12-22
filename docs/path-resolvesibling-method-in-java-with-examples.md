@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```java
     default Path resolveSibling(Path other)
 
     ```
@@ -22,7 +22,7 @@
     下面的程序说明了解析(路径其他)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.resolveSibling(Path other) method
 
@@ -60,7 +60,7 @@
 
     **语法:**
 
-    ```
+    ```java
     default Path resolveSibling(String other)
 
     ```
@@ -74,7 +74,7 @@
     下面的程序说明了 resolveSibling(String other)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.resolveSibling(String other) method
 

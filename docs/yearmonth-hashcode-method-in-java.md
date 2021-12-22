@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 hashCode()方法用于为使用它的 YearMonth 实例
 
 **语法**:
 
-```
+```java
 public int hashCode()
 
 ```
@@ -18,7 +18,7 @@ public int hashCode()
 下面的程序用 Java 说明了年月的 hashCode()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 1073743841
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the hashCode() method
 
 import java.util.*;
@@ -68,7 +68,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 671090658
 
 ```

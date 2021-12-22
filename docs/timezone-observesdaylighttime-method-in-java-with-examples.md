@@ -6,7 +6,7 @@ Java 中 **[时区类](https://www.geeksforgeeks.org/java-util-timezone-class-se
 
 **语法:**
 
-```
+```java
 public boolean observesDaylightTime()
 ```
 
@@ -17,7 +17,7 @@ public boolean observesDaylightTime()
 下面的程序说明了 observesDaylightTime()方法在 Java 中的使用:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // observesDaylightTime() method
 
@@ -53,7 +53,7 @@ public class TimeZone_Demo {
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // inDaylightTime() method
 

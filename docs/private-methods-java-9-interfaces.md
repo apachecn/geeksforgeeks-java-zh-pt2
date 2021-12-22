@@ -8,7 +8,7 @@
 
 在 Java SE 7 或更早的版本中，一个接口只能有两样东西，即**常量变量和**抽象方法。这些接口方法必须由选择实现接口的类来实现。
 
-```
+```java
 // Java 7 program to illustrate
 // private methods in interfaces
 public interface TempI {
@@ -35,7 +35,7 @@ class Temp implements TempI {
 }
 ```
 
-```
+```java
 OUTPUT : geeksforgeeks
          GEEKSFORGEEKS
 
@@ -52,7 +52,7 @@ Java 8 中引入了一些新的接口特性，即默认方法和静态方法特�
 
 **例**
 
-```
+```java
 // Java 8 program to illustrate
 // static, default and abstract methods in interfaces
 public interface TempI {
@@ -92,7 +92,7 @@ class Temp implements TempI {
 }
 ```
 
-```
+```java
 OUTPUT : Answer by Abstract method = 4
          Answer by Default method = 4
          Answer by Static method = 4
@@ -112,7 +112,7 @@ Java 9 在接口中引入了私有方法和私有静态方法。在 Java 9 和�
 
     这些私有方法将提高接口内部代码的可重用性，并将提供仅向用户公开我们的预期方法实现的选择。这些方法只能在该接口内访问，不能从一个接口访问或继承到另一个接口或类。
 
-    ```
+    ```java
     // Java 9 program to illustrate
     // private methods in interfaces
     public interface TempI {
@@ -170,7 +170,7 @@ Java 9 在接口中引入了私有方法和私有静态方法。在 Java 9 和�
     }
     ```
 
-    ```
+    ```java
     OUTPUT : Answer by Abstract method = 6              // mul(2, 3) = 2*3 = 6
              Answer by Private method = 4               // sub(6, 2) = 6-2 = 4 
              Answer by Private static method = 3        // div(6, 2) = 6/2 = 3

@@ -15,14 +15,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class Pair<A, B> extends Tuple 
            implements IValue0<A>, IValue1<B> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Pair<A, B> 
@@ -33,7 +33,7 @@ Object
 *   **从建造师**:
     T3】语法:
 
-```
+```java
 Pair<A, B> pair = new Pair<A, B>(value1, value2);
 ```
 
@@ -41,7 +41,7 @@ Pair<A, B> pair = new Pair<A, B>(value1, value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Pair tuple from Constructor
 
@@ -61,14 +61,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **句法**:
 
-```
+```java
 Pair<type1, type2> pair = Pair.with(value1, value2);
 ```
 
@@ -76,7 +76,7 @@ Pair<type1, type2> pair = Pair.with(value1, value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Pair tuple from with() method
 
@@ -96,14 +96,14 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks]
 ```
 
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **句法**:
 
-```
+```java
 Pair<type1, type2> pair = Pair.fromCollection(collectionWith_2_value);
 Pair<type1, type2> pair = Pair.fromArray(arrayWith_2_value);
 ```
@@ -112,7 +112,7 @@ Pair<type1, type2> pair = Pair.fromArray(arrayWith_2_value);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Pair tuple from Collection
 
@@ -142,7 +142,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [GeeksforGeeks, A computer portal]
 [GeeksforGeeks, A computer portal] 
 ```
@@ -153,7 +153,7 @@ getValueX()方法可用于在索引 x 处获取元组中的值。元组中的索
 
 **语法**:
 
-```
+```java
 Pair<type1, type2> pair = 
     new Pair<type1, type2>(value1, value2);
 
@@ -164,7 +164,7 @@ type1 val1 = pair.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a Pair value
 
@@ -184,7 +184,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1 
 ```
 
@@ -194,7 +194,7 @@ class GfG {
 
 **语法**:
 
-```
+```java
 Pair<type1, type2> pair = 
     new Pair<type1, type2>(value1, value2);
 
@@ -205,7 +205,7 @@ type1 val1 = pair.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to set
 // a Pair value
 
@@ -228,7 +228,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, A computer portal] 
 ```
 
@@ -238,7 +238,7 @@ class GfG {
 
 **语法**:
 
-```
+```java
 Pair<type1, type2> pair = 
     new Pair<type1, type2>(value1, value2);
 
@@ -250,7 +250,7 @@ Triplet<type 1, type 2, type 3> pair =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to add
 // a value
 
@@ -274,7 +274,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal] 
 ```
 
@@ -284,7 +284,7 @@ class GfG {
 
 **语法**:
 
-```
+```java
 Pair<type1, type2> pair = 
     new Pair<type1, type2>(value1, value2);
 
@@ -295,7 +295,7 @@ boolean res = pair.contains(value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to search
 // a value
 
@@ -319,7 +319,7 @@ class GfG {
 
 输出:
 
-```
+```java
 true
 false 
 ```
@@ -330,7 +330,7 @@ false
 
 **语法**:
 
-```
+```java
 Pair<type1, type2> pair = 
     new Pair<type1, type2>(value1, value2);
 
@@ -343,7 +343,7 @@ for (Object item : pair) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to iterate
 // a Pair
 
@@ -364,7 +364,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 GeeksforGeeks
 ```

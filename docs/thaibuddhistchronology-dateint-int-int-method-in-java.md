@@ -5,7 +5,7 @@
 **Java . time . chrono . ThaiBuddhist**类的 **date()** 方法用于根据 thaibudhistory 系统获取给定年、月、日的本地日期。
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate date(int prolepticYear,
                          int month,
                          int dayOfMonth)
@@ -24,7 +24,7 @@ public ThaiBuddhistDate date(int prolepticYear,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // date() method
 
@@ -69,6 +69,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2018-05-24
 ```

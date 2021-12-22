@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract long longValue()
 
 ```
@@ -19,7 +19,7 @@ public abstract long longValue()
 
 **程序 1:**
 
-```
+```java
 // java program to demonstrate
 // Number.longValue() method
 public class gfg {
@@ -42,7 +42,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 127483456
 78549876
 
@@ -50,7 +50,7 @@ public class gfg {
 
 **程序 2:**
 
-```
+```java
 // java program to demonstrate
 // Number.longValue() method
 public class gfg {
@@ -73,7 +73,7 @@ public class gfg {
 
 **Output:**
 
-```
+```java
 127
 76
 

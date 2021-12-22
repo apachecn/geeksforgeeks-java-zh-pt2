@@ -23,7 +23,7 @@ TreeSet 提供了 SortedSet 接口的实现，SortedSet 扩展了 Set 接口。�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working TreeSet collection
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -88,7 +88,7 @@ public class TreeSetExample
 
 **输出:**
 
-```
+```java
 Tree set data: 10 39 61 87 
 
 Tree Set size: 4

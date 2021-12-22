@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime withZoneSameInstant(ZoneId zone)
 ```
 
@@ -20,7 +20,7 @@ public ZonedDateTime withZoneSameInstant(ZoneId zone)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.withZoneSameInstant() method
 
@@ -56,7 +56,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ZonedDateTime of Calcutta: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime of Fuji: 2018-12-07T02:51:12.123+13:00[Pacific/Fiji]
 ```
@@ -65,7 +65,7 @@ ZonedDateTime of Fuji: 2018-12-07T02:51:12.123+13:00[Pacific/Fiji]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate
 // ZonedDateTime.withZoneSameInstant() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ZonedDateTime of Paris: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 ZonedDateTime of Yukon: 2018-10-25T14:12:31.123-07:00[Canada/Yukon]
 ```

@@ -9,7 +9,7 @@
 
 **语法**:
 
-```
+```java
 public abstract ShortBuffer slice()
 ```
 
@@ -21,7 +21,7 @@ public abstract ShortBuffer slice()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original ShortBuffer: [856, 961, 0, 0, 0, 0, 0, 0, 0, 0]
 
 position: 2
@@ -105,7 +105,7 @@ capacity: 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // slice() method
 
@@ -175,7 +175,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Original ShortBuffer: [856, 961, 656, 361, 0, 0, 0, 0, 0, 0]
 
 position: 4

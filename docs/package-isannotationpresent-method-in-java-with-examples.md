@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isAnnotationPresent(Class<T> annotationClass)
 ```
 
@@ -21,7 +21,7 @@ public boolean isAnnotationPresent(Class<T> annotationClass)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isAnnotationPresent() method
 
@@ -72,7 +72,7 @@ public class Test {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // isAnnotationPresent() method
 

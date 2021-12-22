@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int offsetByCodePoints(int index,
                        int codePointOffset)
 ```
@@ -28,7 +28,7 @@ public int offsetByCodePoints(int index,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the offsetByCodePoints() Method.
 
@@ -57,7 +57,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = WelcomeGeeks
 Index = 5
 
@@ -65,7 +65,7 @@ Index = 5
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the offsetByCodePoints() Method.
 
@@ -93,7 +93,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = India Is great
 Index = 11
 
@@ -101,7 +101,7 @@ Index = 11
 
 **示例 3:** 演示 IndexOutOfBoundException
 
-```
+```java
 // Java program to demonstrate
 // Exception thrown by offsetByCodePoints() Method.
 
@@ -133,7 +133,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.IndexOutOfBoundsException
 
 ```

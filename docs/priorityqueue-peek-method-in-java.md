@@ -6,7 +6,7 @@ java 中的 java.util.PriorityQueue.peek()方法用于检索或获取 Queue 的�
 
 **语法:**
 
-```
+```java
 Priority_Queue.peek()
 ```
 
@@ -17,7 +17,7 @@ Priority_Queue.peek()
 下面的程序说明了 java.util.PriorityQueue.peek()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [For, Geeks, To, Welcome, Geeks]
 The element at the head of the queue is: For
 Final PriorityQueue: [For, Geeks, To, Welcome, Geeks]
@@ -58,7 +58,7 @@ Final PriorityQueue: [For, Geeks, To, Welcome, Geeks]
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate peek()
 import java.util.*;
 
@@ -90,7 +90,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [5, 10, 30, 20, 15]
 The element at the head of the queue is: 5
 Final PriorityQueue: [5, 10, 30, 20, 15]

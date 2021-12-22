@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```java
 Path relativize(Path other)
 
 ```
@@ -25,7 +25,7 @@ Path relativize(Path other)
 下面的程序说明相对化()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.relativize() method
 
@@ -66,7 +66,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.relativize() method
 

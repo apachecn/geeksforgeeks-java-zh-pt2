@@ -6,7 +6,7 @@ Java 中 **OffsetDateTime** 类的 **ofInstant(Instant instant，ZoneId ZoneId)*
 
 **语法:**
 
-```
+```java
 public static OffsetDateTime
        ofInstant(Instant instant,
                  ZoneId zone)
@@ -26,7 +26,7 @@ public static OffsetDateTime
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime ofInstant() method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-20T04:05:38.471Z
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime ofInstant() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 DATE-TIME: 2020-05-20T04:05:42.166Z
 
 ```

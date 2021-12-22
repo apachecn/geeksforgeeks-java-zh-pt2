@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 
 ```
@@ -21,7 +21,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.toString()
 import java.util.*;
@@ -45,7 +45,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value is =  java.util.SimpleTimeZone[
     id=US,
     offset=700,
@@ -69,7 +69,7 @@ String value is =  java.util.SimpleTimeZone[
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.toString()
 import java.util.*;
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String value is =  java.util.SimpleTimeZone[
     id=US,
     offset=800,

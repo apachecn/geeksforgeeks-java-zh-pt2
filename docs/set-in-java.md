@@ -10,7 +10,7 @@
 
 **声明:**设置界面声明为:
 
-```
+```java
 public interface Set extends Collection 
 ```
 
@@ -18,7 +18,7 @@ public interface Set extends Collection 
 
 由于 Set 是一个[接口](https://www.geeksforgeeks.org/interfaces-in-java/)，因此不能在排版中创建对象。我们总是需要一个扩展这个列表的类来创建一个对象。此外，在 Java 1.5 中引入[泛型](https://www.geeksforgeeks.org/generics-in-java/)后，可以限制可以存储在集合中的对象类型。这种类型安全集合可以定义为:
 
-```
+```java
 // Obj is the type of the object to be stored in Set 
 Set<Obj> set = new HashSet<Obj> (); 
 ```
@@ -49,7 +49,7 @@ Set<Obj> set = new HashSet<Obj> (); 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program Illustrating Set Interface
 
 // Importing utility classes
@@ -81,7 +81,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [Set, Example, Geeks, For]
 ```
 
@@ -91,19 +91,19 @@ public class GFG {
 
 **1。交集:**该操作返回给定两个集合中的所有公共元素。对于以上两个集合，交集将是:
 
-```
+```java
 Intersection = [0, 1, 3, 4] 
 ```
 
 **2。联合:**此操作将一个集合中的所有元素与另一个集合相加。对于以上两个集合，联合将是:
 
-```
+```java
 Union = [0, 1, 2, 3, 4, 5, 7, 8, 9] 
 ```
 
 **3。差异:**此操作从另一个集合中移除一个集合中存在的所有值。对于以上两组，区别在于:
 
-```
+```java
 Difference = [2, 8, 9]
 ```
 
@@ -113,7 +113,7 @@ Difference = [2, 8, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrating Operations on the Set
 // such as Union, Intersection and Difference operations
 
@@ -164,7 +164,7 @@ public class SetExample {
 
 **Output**
 
-```
+```java
 Union of the two Set[0, 1, 2, 3, 4, 5, 7, 8, 9]
 Intersection of the two Set[0, 1, 3, 4]
 Difference of the two Set[2, 8, 9]
@@ -190,7 +190,7 @@ Difference of the two Set[2, 8, 9]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrating Working of Set by
 // Adding elements using add() method
 
@@ -222,7 +222,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 [A, B, C]
 ```
 
@@ -234,7 +234,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate Working of Set by
 // Accessing the Elements og the Set object
 
@@ -277,7 +277,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Set is [A, B, C]
 Contains D false
 ```
@@ -290,7 +290,7 @@ Contains D false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrating Working of Set by
 // Removing Element/s from the Set
 
@@ -333,7 +333,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Initial HashSet [A, B, C, D, E]
 After removing element [A, C, D, E]
 ```
@@ -346,7 +346,7 @@ After removing element [A, C, D, E]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Working of Set by
 // Iterating through the Elements
 
@@ -387,7 +387,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 A, B, C, D, E, 
 ```
 
@@ -408,7 +408,7 @@ A, B, C, D, E,
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program Demonstrating Creation of Set object
 // Using the Hashset class
 
@@ -461,7 +461,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [South Africa, Australia, India]
 Set after removing Australia:[South Africa, India]
 Iterating over set:
@@ -477,7 +477,7 @@ India
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of the set object
 // using the EnumSet class
@@ -504,7 +504,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Set 1: [CODE, LEARN, CONTRIBUTE, QUIZ]
 ```** 
 
@@ -516,7 +516,7 @@ Set 1: [CODE, LEARN, CONTRIBUTE, QUIZ]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate the
 // creation of Set object using
 // the LinkedHashset class
@@ -558,7 +558,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [India, Australia, South Africa]
 Set after removing Australia:[India, South Africa]
 Iterating over set:
@@ -574,7 +574,7 @@ South Africa
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program Demonstrating Creation of Set object
 // Using the TreeSet class
 
@@ -623,7 +623,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 [Australia, India, South Africa]
 Set after removing Australia:[India, South Africa]
 Iterating over set:

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static double sqrt(*double num*)
 ```
 
@@ -21,7 +21,7 @@ public static double sqrt(*double num*)
 
 **示例:**
 
-```
+```java
 Input: num = 25
 Output: 5.0
 
@@ -34,7 +34,7 @@ Output: NaN
 
 **程序 1:**
 
-```
+```java
 // Java Program to illustrate
 // java.lang.StrictMath.sqrt() function
 import java.lang.*;
@@ -65,7 +65,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 square root = 17.0
 square root = NaN
 square root = 0.0
@@ -75,7 +75,7 @@ square root = 23.406622994357814
 
 **程序 2:**
 
-```
+```java
 // Java Program to illustrate
 // java.lang.StrictMath.sqrt() function
 import java.lang.*;
@@ -110,7 +110,7 @@ public class Geeks {
 
 **Output:**
 
-```
+```java
 square root = 34.058772731852805
 square root = NaN
 square root = -0.0

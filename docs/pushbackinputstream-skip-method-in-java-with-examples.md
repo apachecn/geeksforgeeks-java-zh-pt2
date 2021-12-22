@@ -6,7 +6,7 @@ Java 中**推回输入流**类的**跳过(长 n)** 方法用于跳过并丢弃�
 
 **语法:**
 
-```
+```java
 public long skip(long n)
            throws IOException
 
@@ -24,7 +24,7 @@ public long skip(long n)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream skip(long) method
 
@@ -63,14 +63,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 EKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream skip(long) method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```

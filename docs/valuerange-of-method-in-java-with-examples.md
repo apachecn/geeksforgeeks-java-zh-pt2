@@ -9,7 +9,7 @@
 1.  **of(long min, long max)**: This method help us to get a fixed value range where the minimum and maximum values are fixed.
     **Syntax:**
 
-    ```
+    ```java
     public static ValueRange of(long min, long max)
 
     ```
@@ -26,7 +26,7 @@
     下面的程序说明了 ValueRange.of(龙敏，long max)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // ValueRange.of(long min, long max) method
 
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ValueRange: 0 - 66666
 
     ```
@@ -58,7 +58,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static ValueRange of(long min,
                                 long maxSmallest,
                                 long maxLargest)
@@ -78,7 +78,7 @@
     下面的程序说明了 ValueRange.of(龙敏，长最大最小值，长最大值)的方法:
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // of(long, long, long) method
 
@@ -101,7 +101,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ValueRange: 0 - 230/500
 
     ```
@@ -110,7 +110,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static ValueRange of(long minSmallest, long minLargest,
                                 long maxSmallest, long maxLargest)
 
@@ -130,7 +130,7 @@
     下面的程序说明了 ValueRange.of(long minSmallest，long minmaxmaximum，long maxminism，long maxmaxmaxmaxmaxmaximum)方法:
     **程序 2:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // of(long, long, long, long) method
 
@@ -155,7 +155,7 @@
 
     **Output:**
 
-    ```
+    ```java
     ValueRange: 0/1 - 500/1000
 
     ```

@@ -6,7 +6,7 @@ Java 中**时区类**的**getrawpoffset()**方法用于知道需要添加到 UTC
 
 **语法:**
 
-```
+```java
 public abstract int getRawOffset()
 ```
 
@@ -17,7 +17,7 @@ public abstract int getRawOffset()
 以下程序说明了时区的 getRawOffset()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate getRawOffset() method
 
 import java.util.*;
@@ -39,14 +39,14 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The rawOffset time is: -39600000
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getRawOffset() method
 
 import java.util.*;
@@ -68,7 +68,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The rawOffset time is: 3600000
 
 ```

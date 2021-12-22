@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZoneId hashCode()
 
 ```
@@ -19,7 +19,7 @@ public ZoneId hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.hashCode() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode:1966859253
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.hashCode() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hashcode:1110445649
 
 ```

@@ -6,7 +6,7 @@ Java 中 **Vector** 的 **removeRange()** 方法用于从 Vector 对象中移除
 
 **语法:**
 
-```
+```java
 removeRange(int fromIndex, int toIndex)
 ```
 
@@ -21,7 +21,7 @@ removeRange(int fromIndex, int toIndex)
 
 **例 1**:
 
-```
+```java
 // Java program to understand
 // about vector.removeRange() function
 
@@ -62,7 +62,7 @@ public class GFG extends Vector<String> {
 
 //sice vector removeRange()方法受保护//因此 Vector 是继承的**输出:**
 
-```
+```java
 Vector before calling removeRange(): [Geeks, for, Geeks, Ankit, Mishra, MNNIT]
 Vector after calling removeRange(1, 3): [Geeks, Ankit, Mishra, MNNIT]
 
@@ -70,7 +70,7 @@ Vector after calling removeRange(1, 3): [Geeks, Ankit, Mishra, MNNIT]
 
 **例 2** :
 
-```
+```java
 // Java program to understand
 // about vector.removeRange() function
 
@@ -119,7 +119,7 @@ public class GFG extends Vector<String> {
 
 **输出:**
 
-```
+```java
 Vector before calling removeRange(): [Geeks, for, Geeks, Ankit, Mishra, MNNIT]
 java.lang.ArrayIndexOutOfBoundsException
 

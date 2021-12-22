@@ -5,7 +5,7 @@
 **简单时区类**的 **getRawOffset()** 方法用于获取该时区的格林尼治时间偏移。
 **语法:**
 
-```
+```java
 public int getRawOffset()
 
 ```
@@ -20,7 +20,7 @@ public int getRawOffset()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getRawOffset()
 import java.util.*;
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Raw Offset is = 580
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.getRawOffset()
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Raw Offset is = 640
 
 ```

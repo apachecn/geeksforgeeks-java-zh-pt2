@@ -6,7 +6,7 @@ Java 中 **TimeZone 类**的 **getAvailableIDs()** 方法用于获取 TimeZone �
 
 **语法:**
 
-```
+```java
 public static String[] getAvailableIDs()
 ```
 
@@ -16,7 +16,7 @@ public static String[] getAvailableIDs()
 
 下面的程序说明了 getAvailableIDs()的工作方法时区:
 
-```
+```java
 // Java code to illustrate getAvailableIDs() method
 
 import java.util.*;
@@ -41,7 +41,7 @@ public class TimeZone_Demo {
 
 **输出:**
 
-```
+```java
 All the available Ids are: 
 Africa/Abidjan
 Africa/Accra

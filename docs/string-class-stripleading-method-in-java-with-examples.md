@@ -6,7 +6,7 @@ String Class stripLeading()方法用于从字符串中去除前导空格，即 *
 
 **示例:**
 
-```
+```java
 Input:
 
 String name = "   kapil   ";
@@ -21,7 +21,7 @@ Output:
 
 **语法:**
 
-```
+```java
 public String stripLeading()
 ```
 
@@ -33,7 +33,7 @@ public String stripLeading()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the usage of
 // stripLeading() method in comparison to
 // other methods
@@ -69,7 +69,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 String is
 #  Hello,  World #
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public static int hashCode()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.time.*;
@@ -45,7 +45,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 +05:00
 ZoneOffset hashCode: 18000
 
@@ -53,7 +53,7 @@ ZoneOffset hashCode: 18000
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate hashCode() method
 
 import java.time.*;
@@ -79,7 +79,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Z
 ZoneOffset hashCode: 0
 

@@ -24,7 +24,7 @@
 
 他们的工作和他们的名字相似。readLock()用于在读取时获取锁:
 
-```
+```java
 Lock readLock = rwLock.readLock();
 ```
 
@@ -32,7 +32,7 @@ Lock readLock = rwLock.readLock();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 readLock.lock();
 try {
    // statements 
@@ -44,7 +44,7 @@ finally {
 
 并且，writeLock()用于在写入时获取锁:
 
-```
+```java
 Lock writeLock = rwLock.writeLock();
 ```
 
@@ -52,7 +52,7 @@ Lock writeLock = rwLock.writeLock();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 writeLock.lock();
 try {
     statements to write the data
@@ -66,7 +66,7 @@ finally {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Implementation of ReadWriteLock in Java
 import java.io.*;
 import java.util.ArrayList;
@@ -136,7 +136,7 @@ class GFG<O> {
 
 **Output**
 
-```
+```java
 Element by thread main is added
 Element by thread main is added
 Element by thread main is added

@@ -32,7 +32,7 @@ ServletConfig 界面
 
 ## XML
 
-```
+```java
 <web-app>
     <servlet>
         <servlet-name>Test</servlet-name>
@@ -58,7 +58,7 @@ ServletConfig 界面
 
 ## XML
 
-```
+```java
 <web-app>
    <servlet>
        <servlet-name>Test</servlet-name>
@@ -84,7 +84,7 @@ ServletConfig 界面
 
 ## 爪哇
 
-```
+```java
 import javax.servlet.Servlet;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

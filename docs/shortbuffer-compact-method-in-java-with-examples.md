@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public abstract ShortBuffer compact()
 ```
 
@@ -18,7 +18,7 @@ public abstract ShortBuffer compact()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Original ShortBuffer: [856, 961, 54, 0, 0, 0, 0, 0, 0, 0]
 Position: 3
 limit: 10
@@ -94,7 +94,7 @@ limit: 10
 
 **程序 2:** 演示 ReadOnlyBufferException。
 
-```
+```java
 // Java program to demonstrate
 // compact() method
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ReadOnlyBuffer ShortBuffer: 856, 961, 6010, 0, 0, 0, 0, 0, 0, 0, 
 
 Position: 0

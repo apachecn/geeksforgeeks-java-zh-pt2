@@ -7,7 +7,7 @@
 **注意:**每个映射的流在其内容被放入该流后被关闭。如果映射的流为空，则改为使用空流。
 **语法:**
 
-```
+```java
 DoubleStream flatMapToDouble(Function<**?** super T, **?** extends DoubleStream> mapper)
 
 Where, DoubleStream is a sequence of primitive
@@ -20,7 +20,7 @@ returns the new stream.
 
 **示例 1:**flatmaptooDouble()函数，带有解析字符串为 double 的操作。
 
-```
+```java
 // Java code for Stream flatMapToDouble
 // (Function mapper) to get an DoubleStream
 // consisting of the results of replacing
@@ -49,7 +49,7 @@ class GFG {
 
 输出:
 
-```
+```java
 1.5
 2.7
 3.0
@@ -60,7 +60,7 @@ class GFG {
 
 **示例 2 :** flatMapToDouble()函数，具有返回字符串长度的流的操作。
 
-```
+```java
 // Java code for Stream flatMapToDouble
 // (Function mapper) to get an DoubleStream
 // consisting of the results of replacing
@@ -90,7 +90,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5.0
 3.0
 13.0

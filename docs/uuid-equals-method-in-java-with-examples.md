@@ -6,7 +6,7 @@ Java 中 **UUID 类**的 **equals()** 方法用于检查一个 UUID 与另一个
 
 **语法:**
 
-```
+```java
 public boolean equals(Object uuidObj)
 ```
 
@@ -18,7 +18,7 @@ public boolean equals(Object uuidObj)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID_1: 14534
 UUID_2: 14534
 Are both UUID equal: true
@@ -62,7 +62,7 @@ Are both UUID equal: true
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate equals() method
 
 import java.util.*;
@@ -97,7 +97,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 UUID_1: 14534
 UUID_2: 5737
 Are both UUID equal: false

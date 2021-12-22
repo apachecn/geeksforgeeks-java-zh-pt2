@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double getAsDouble()
 
 ```
@@ -21,7 +21,7 @@ public double getAsDouble()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.getAsDouble() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalDouble: OptionalDouble[44356.455]
 Value in OptionalDouble = 44356.455
 
@@ -57,7 +57,7 @@ Value in OptionalDouble = 44356.455
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.getAsDouble() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalDouble: OptionalDouble.empty
 Exception: java.util.NoSuchElementException: No value present
 

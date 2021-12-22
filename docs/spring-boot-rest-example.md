@@ -25,7 +25,7 @@
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -83,7 +83,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.modal;
 
 public class Book {
@@ -135,7 +135,7 @@ public class Book {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.service;
 
 import java.util.HashSet;
@@ -151,7 +151,7 @@ public interface BookService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.service;
 import java.util.HashSet;
 import org.springframework.stereotype.Service;
@@ -201,7 +201,7 @@ public class BookServiceImpl implements BookService {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.controller;
 
 import java.util.ArrayList;
@@ -254,7 +254,7 @@ public class BookController {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;

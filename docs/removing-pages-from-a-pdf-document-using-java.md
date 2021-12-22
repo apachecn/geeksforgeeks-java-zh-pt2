@@ -27,7 +27,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Removing Pages from a PDF document using Java
 import java.io.File;
 import java.io.IOException;

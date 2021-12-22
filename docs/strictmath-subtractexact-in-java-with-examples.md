@@ -8,7 +8,7 @@
 由于减法精确( *int num1，int num2* )是静态的，因此对象创建不是强制性的。
 **语法:**
 
-```
+```java
 public static int subtractExact(int num1, int num2)
 ```
 
@@ -21,7 +21,7 @@ public static int subtractExact(int num1, int num2)
 **异常:**如果结果溢出一个 *int* 它会抛出**算术异常**。
 **示例:**
 
-```
+```java
 Input: num1 = 750, num2 = 50
 Output: 700
 
@@ -34,7 +34,7 @@ Output: -568
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.subtractExact()
 
@@ -71,7 +71,7 @@ class Geeks {
 
 **Output:** 
 
-```
+```java
 Difference of 76761 and 99 = 76662
 Difference of 76761 and 786616 = -709855
 ```
@@ -81,7 +81,7 @@ Difference of 76761 and 786616 = -709855
 **减法精确(** ***长 num1，长 num2*** **)** 是 java 中 StrictMath 类的一个内置方法，用于得到给定参数 *num1* 和 *num2* 的差值。如果结果溢出*长的*就会抛出异常。由于减法精确( *long num1，long num2* )是静态的，因此对象创建不是强制性的。
 **语法:**
 
-```
+```java
 public static long subtractExact(long num1, long num2)
 ```
 
@@ -94,7 +94,7 @@ public static long subtractExact(long num1, long num2)
 **异常:**如果结果溢出一个*长的*，则抛出**算术异常**。
 **示例:**
 
-```
+```java
 Input: num1 = 750, num2 = 50
 Output: 700
 
@@ -107,7 +107,7 @@ Output: -568
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StrictMath.subtractExact()
 
@@ -144,7 +144,7 @@ class Geeks {
 
 **Output:** 
 
-```
+```java
 Difference of -76342561 and 949 = -76343510
 Difference of -76342561 and 78326616 = -154669177
 ```

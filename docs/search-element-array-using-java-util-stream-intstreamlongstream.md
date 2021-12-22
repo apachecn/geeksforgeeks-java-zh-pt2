@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : arr[] = {1,2,3,4,5,6,7} ,  key = 3
 Output : Yes
          3 is present in the array.
@@ -19,14 +19,14 @@ Output : No
 **Stream.anyMatch()** 方法用于检查流中是否包含任何与给定谓词匹配的元素。如果流中至少有 1 个元素与给定的谓词条件匹配，则返回 true，否则返回 false。
 语法:
 
-```
+```java
 boolean anyMatch(Predicate< ? super T >  predicate)
 
 ```
 
 下面是一个关于如何对整数流和长整数流使用 anyMatch()方法的 Java 程序。
 
-```
+```java
 // Java program to check if an element is present
 // in an array using java.util.stream.IntStream
 
@@ -63,7 +63,7 @@ class CheckElement
 
 输出:
 
-```
+```java
 Yes
 Yes
 

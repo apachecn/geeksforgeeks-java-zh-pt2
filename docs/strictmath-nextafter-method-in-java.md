@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double nextAfter(*double start, double direction*)
     ```
 
@@ -25,7 +25,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: start = 72.74d
            direction = 1.2d
 
@@ -35,7 +35,7 @@
 
     下面的程序说明了 java.lang.StrictMath.nextAfter()方法:
 
-    ```
+    ```java
     // Java program to demonstrate nextAfter()
 
     import java.lang.*;
@@ -65,7 +65,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The NextAfter is = 23.619999999999997
     The NextAfter is = 23.619999999999997
     The NextAfter is =4.9E-324
@@ -83,7 +83,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public static double nextAfter(*float start, double direction*)
     ```
 
@@ -96,7 +96,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: start = 22.2f
            direction = 0.0d
 
@@ -106,7 +106,7 @@
 
     下面的程序说明了 java.lang.StrictMath.nextAfter()方法:
 
-    ```
+    ```java
     // Java program to demonstrate nextAfter()
 
     import java.lang.*;
@@ -137,7 +137,7 @@
 
     **Output:**
 
-    ```
+    ```java
     The NextAfter is = 42.9000015258789
     The NextAfter is = 42.9000015258789
     The NextAfter is =4.9E-324

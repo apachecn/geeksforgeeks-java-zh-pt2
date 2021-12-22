@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```java
 Input: String = "Geeks, For, Geeks, ", delimiter = ', '
 Output: "Geeks, For, Geeks"
 
@@ -23,7 +23,7 @@ Output: "G.e.e.k.s"
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to remove
     // extra delimiter at the end of a String
 
@@ -59,7 +59,7 @@ Output: "G.e.e.k.s"
 
     **输出:**
 
-    ```
+    ```java
     Original String: Geeks, For, Geeks,
     String with extra delimiter removed: Geeks, For, Geeks
 

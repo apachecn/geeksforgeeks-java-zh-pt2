@@ -17,7 +17,7 @@ Thread 类包含用于创建和操作线程的构造函数和方法。线程是�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This class contains an integer array &
 // Threads set the element's value for this array
 class NumVal {
@@ -139,7 +139,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 THREAD NAME : Thread1 
 Putting value 1 in the NumVal Array
 Main Thread 500

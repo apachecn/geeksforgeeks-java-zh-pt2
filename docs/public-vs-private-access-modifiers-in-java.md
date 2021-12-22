@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to showcase the example
 // of public access modifier
 
@@ -43,7 +43,7 @@ class B {
 
 **Output**
 
-```
+```java
 GFG
 
 ```
@@ -60,7 +60,7 @@ GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to showcase the example
 // of private access modifier
 

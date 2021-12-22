@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public BigInteger nextBigInteger()
 ```
 
@@ -24,7 +24,7 @@ public BigInteger nextBigInteger()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // nextBigInteger() method of Scanner class in Java
 // without parameter
@@ -65,7 +65,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Not found BigInteger value :G fg
 Found BigInteger value : 9
 Not found BigInteger value : +
@@ -77,7 +77,7 @@ Not found BigInteger value : 12.0
 
 **程序二:**
 
-```
+```java
 // Java program to illustrate the
 // nextBigInteger() method of Scanner class in Java
 // with parameter
@@ -118,7 +118,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Not found BigInteger value : Gfg
 Found BigInteger value : 9
 Not found BigInteger value : +
@@ -130,7 +130,7 @@ Not found BigInteger value : 12.0
 
 **程序 3:** 演示输入 ismatcheexception
 
-```
+```java
 // Java program to illustrate the
 // nextBigInteger() method of Scanner class in Java
 // InputMismatchException
@@ -171,14 +171,14 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception thrown: java.util.InputMismatchException
 
 ```
 
 **程序 4:** 演示 nosucheelementexception
 
-```
+```java
 // Java program to illustrate the
 // nextBigInteger() method of Scanner class in Java
 // NoSuchElementException
@@ -228,7 +228,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Not found BigInteger value :Gfg
 Exception thrown: java.util.NoSuchElementException
 
@@ -236,7 +236,7 @@ Exception thrown: java.util.NoSuchElementException
 
 **程序 5:** 演示非法状态异常
 
-```
+```java
 // Java program to illustrate the
 // nextBigInteger() method of Scanner class in Java
 // IllegalStateException
@@ -289,7 +289,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner Closed
 Trying to get next BigInteger value
 Exception thrown: java.lang.IllegalStateException: Scanner closed

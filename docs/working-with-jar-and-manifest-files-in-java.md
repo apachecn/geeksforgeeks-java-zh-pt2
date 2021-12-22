@@ -10,7 +10,7 @@
 
 使用 jar 工具创建一个 jar 文件。一般命令看起来有点像这样:
 
-```
+```java
  jar options jar-file [manifest-file] file1 file2 file3 ...
 ```
 
@@ -37,7 +37,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 
 要创建一个包含两个类 server.class 和 client.class 以及一个 Jpeg 图像 logo.jpeg 的 JAR 文件，需要编写以下命令:
 
-```
+```java
  jar cvf chat.jar server.class client.class logo.jpeg
 ```
 
@@ -55,7 +55,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 
 清单文件的条目分为几个部分。每个部分都有两个条目部分名称及其值。稍后我们将看到这些部分如何真正帮助我们控制归档的属性。也可以使用 jar 命令的 **m** 选项更新清单文件。但是在更新清单文件时有一些事情需要记住，否则你可能会得到以下令人毛骨悚然的消息。
 
-```
+```java
  java.io.IOException: invalid manifest format
 ```
 
@@ -64,7 +64,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 1.  您应该在清单文件中的任何部分的名称和值之间留出空间，就像版本:1.1 在有效的部分中，而不是写版本:1.1 冒号和 1.1 之间的空间真的很重要。
 2.  While specifying the main class you should not add .class extension at the end of class name. Simply specify the main class by typing:
 
-    ```
+    ```java
     Main-Class: Classname
     ```
 
@@ -77,7 +77,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 
 现在让我们回来更新 chat.jar 档案的内容。要更新清单文件，我们只需要编写以下命令:
 
-```
+```java
  jar uvfm chat.jar manifest.txt
 ```
 
@@ -99,7 +99,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 
 要创建以客户端类为主类的 chat.jar 文件，您需要编写以下命令–
 
-```
+```java
  jar cvfe chat.jar client client.class server.class logo.jpeg
 ```
 
@@ -111,13 +111,13 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 
 或者，您可以在清单文件中添加一个 Main-Class 条目，然后更新它。对于上面的例子，您只需要添加这个条目:
 
-```
+```java
  Main-Class: client
 ```
 
 设置了 main 类后，只需编写以下命令即可运行 jar 程序–
 
-```
+```java
  java -jar chat.jar
 ```
 
@@ -131,7 +131,7 @@ jar 命令的选项几乎与 UNIX tar 命令的选项相似。在 windows 中，
 *   默认情况下，jar 文件中的包是不密封的，但是可以通过在清单文件中添加几行来更改全局默认值。
 *   让我们再次考虑我们的 chat.jar 档案的情况，现在类 client.class 和 server.class 的包是 application，我们想要密封这个包，我们需要做的就是在清单文件中添加以下行并更新它。
 
-    ```
+    ```java
      Name: application
     Sealed: true
     ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int toIntExact(long num)
 ```
 
@@ -18,7 +18,7 @@ public static int toIntExact(long num)
 
 **例:**
 
-```
+```java
 Input: num = 2727l
 Output: 2727
 
@@ -31,7 +31,7 @@ Output: -86262
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.StrictMath.toIntExact() method
 
@@ -60,14 +60,14 @@ class Geeks {
 
 **Output:**
 
-```
+```java
 IntExact value of 266526 = 266526
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.StrictMath.toIntExact() method
 
@@ -96,14 +96,14 @@ class Geeks {
 
 **Output:**
 
-```
+```java
 IntExact value of -7226526 = -7226526
 
 ```
 
 **程序 3:** 演示算术异常
 
-```
+```java
 // Java program to demonstrate working
 // of java.lang.StrictMath.toIntExact() method
 
@@ -141,7 +141,7 @@ class Geeks {
 
 **Output:**
 
-```
+```java
 Trying to get IntExact value of: 654456645546
 Exception throwm: java.lang.ArithmeticException: integer overflow
 

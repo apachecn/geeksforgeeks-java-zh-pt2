@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String getName()
 ```
 
 **语法:**
 
-```
+```java
 zip_file.getName();
 ```
 
@@ -24,7 +24,7 @@ zip_file.getName();
 
 **示例 1:** 创建一个名为 zip_file 的文件，并使用 getName()函数获取名称。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getName() function
 
@@ -51,14 +51,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 f:\file.zip
 
 ```
 
 **示例 2:** 创建一个名为 zip_file 的文件，并使用 getName()函数获取名称。“file1.zip”是 f:目录中不存在的 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of getName() function
 
@@ -87,7 +87,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 f:\file1.zip (The system cannot find the file specified)
 
 ```

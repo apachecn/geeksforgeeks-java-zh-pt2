@@ -29,7 +29,7 @@ singleton 类的构造函数是私有的，因此必须有另一种方法来获�
 
 下面是 java 中的一个例子，说明了同样的情况:
 
-```
+```java
 // Java program to demonstrate implementation of Singleton 
 // pattern using private constructors.
 import java.io.*;
@@ -68,7 +68,7 @@ class Main
 
 输出:
 
-```
+```java
 Value of a.x = 20
 Value of b.x = 20
 ```

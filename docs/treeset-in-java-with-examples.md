@@ -26,7 +26,7 @@ TreeSet 基本上是一个自平衡二叉查找树的实现，就像[红黑树](
 
 **现在让我们在继续之前讨论同步树集。**树集的实现不同步。这意味着，如果多个线程同时访问一个树集合，并且至少有一个线程修改了该集合，那么它必须在外部同步。这通常是通过同步一些自然地[封装了](https://www.geeksforgeeks.org/encapsulation-in-java/)集合的对象来实现的。如果不存在这样的对象，应该使用[collections . synchronizedstoredset](https://www.geeksforgeeks.org/collections-synchronizedsortedset-method-in-java-with-examples/)方法“包装”该集合。这最好在创建时完成，以防止对集合的意外非同步访问。可以通过如下方式实现:
 
-```
+```java
 TreeSet ts = new TreeSet(); 
 Set syncSet = Collections.synchronziedSet(ts); 
 ```
@@ -39,7 +39,7 @@ Set syncSet = Collections.synchronziedSet(ts);
 
 **语法:**如果我们希望创建一个名为 ts 的空树集，那么它可以创建为:
 
-```
+```java
 TreeSet ts = new TreeSet(); 
 ```
 
@@ -47,7 +47,7 @@ TreeSet ts = new TreeSet();
 
 **语法:**如果我们希望创建一个具有外部排序现象的名为 ts 的空树集，那么，它可以创建为:
 
-```
+```java
 TreeSet ts = new TreeSet(Comparator comp); 
 ```
 
@@ -55,7 +55,7 @@ TreeSet ts = new TreeSet(Comparator comp);
 
 **语法:**如果我们希望创建一个名为 ts 的树集，那么，它可以如下创建:
 
-```
+```java
 TreeSet t = new TreeSet(Collection col);  
 ```
 
@@ -63,7 +63,7 @@ TreeSet t = new TreeSet(Collection col); 
 
 **语法:**如果我们希望创建一个名为 ts 的树集，那么，它可以如下创建:
 
-```
+```java
 TreeSet t = new TreeSet(SortedSet s);
 ```
 
@@ -106,7 +106,7 @@ TreeSet 实现 [SortedSet](https://www.geeksforgeeks.org/sortedset-java-examples
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Working of  TreeSet
 
 // Importing required utility classes
@@ -139,7 +139,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 [A, B, C]
 ```
 
@@ -162,7 +162,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Illustrate Addition of Elements to TreeSet
 
 // Importing utility classes
@@ -192,7 +192,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 [For, Geek, Geeks]
 ```
 
@@ -204,7 +204,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to Illustrate Working of TreeSet by
 // Accessing the Element of TreeSet
 
@@ -256,7 +256,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Tree Set is [For, Geek, Geeks]
 Contains Geeks true
 First Value For
@@ -273,7 +273,7 @@ Lower For
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Removal of Elements
 // in a TreeSet
 
@@ -330,7 +330,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Initial TreeSet [A, B, For, Geek, Geeks, Z]
 After removing element [A, For, Geek, Geeks, Z]
 After removing first [For, Geek, Geeks, Z]
@@ -345,7 +345,7 @@ After removing last [For, Geek, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Working of TreeSet
 
 // Importing utility classes
@@ -388,7 +388,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 A, B, For, Geek, Geeks, Z,
 ```
 
@@ -403,7 +403,7 @@ A, B, For, Geek, Geeks, Z,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate What if Heterogeneous
 // Objects are Inserted
 
@@ -440,6 +440,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 [, A, B, L, O, Z]
 ```

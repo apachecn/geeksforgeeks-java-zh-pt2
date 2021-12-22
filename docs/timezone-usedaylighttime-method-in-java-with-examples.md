@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public abstract boolean useDaylightTime()
 ```
 
@@ -20,7 +20,7 @@ public abstract boolean useDaylightTime()
 下面的程序演示了上述功能:
 **例 1:**
 
-```
+```java
 // Program to demonstrate the
 // useDaylightTime()
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Day light time is = true
 
 ```
 
 **例 2:**
 
-```
+```java
 // Program to demonstrate the
 // useDaylightTime()
 
@@ -77,7 +77,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Day light time is = false
 
 ```

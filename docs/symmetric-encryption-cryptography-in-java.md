@@ -103,7 +103,7 @@ JCA(Java 密码体系结构)是 Java 加密、解密、哈希、安全随机和�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to generate
 // a symmetric key
 import java.security
@@ -179,7 +179,7 @@ public class symmetric {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the
 // encryption and decryption
 

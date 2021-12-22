@@ -15,7 +15,7 @@
 
 **班级申报**
 
-```
+```java
 public final class Octet<A, B, C, D, E, F, G, H> extends Tuple
 implements IValue0<A>, IValue1<B>, IValue2<C>, IValue3<D>, IValue4<E>, 
                                             IValue5<F, IValue6<G, IValue7<H>
@@ -23,7 +23,7 @@ implements IValue0<A>, IValue1<B>, IValue2<C>, IValue3<D>, IValue4<E>,
 
 **等级等级**
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Octet<A, B, C, D, E, F, G, H>
@@ -34,7 +34,7 @@ Object
 **从构造器**:
 T3】语法 :
 
-```
+```java
 Octet<A, B, C, D, E, F, G, H> octet = 
     new Octet<A, B, C, D, E, F, G, H>
         (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -44,7 +44,7 @@ Octet<A, B, C, D, E, F, G, H> octet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Octet tuple from Constructor
 
@@ -71,14 +71,14 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     Octet.with(value1, value2, value3, value4, value5, value6, value7, value8);
 ```
@@ -87,7 +87,7 @@ Octet<type1, type2, type3, type4, type5, type6, type7> octet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Octet tuple from with() method
 
@@ -114,14 +114,14 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     Octet.fromCollection(collectionWith_8_value);
 
@@ -133,7 +133,7 @@ Octet<type1, type2, type3, type4, type5, type6, type7> octet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Octet tuple from Collection
 
@@ -171,7 +171,7 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8]
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
@@ -180,7 +180,7 @@ class GfG {
 GetValueX()方法可用于获取索引 x 处元组中的值。元组中的索引从 0 开始。因此，索引 X 处的值代表位置 X+1 处的值。
 **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     new Octet<type1, type2, type3, type4, type5, type6, type7>
         (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -192,7 +192,7 @@ type1 val1 = octet.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a Octet value
 
@@ -220,7 +220,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 3
 ```
@@ -230,7 +230,7 @@ class GfG {
 由于元组是**不可变的**，这意味着修改索引处的值是不可能的。因此，JavaTuples 提供 **setAtX(value)** ，它在索引 X 处创建一个带有新值的元组副本，并返回该元组。
 **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     new Octet<type1, type2, type3, type4, type5, type6, type7>
       (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -243,7 +243,7 @@ Octet<type1, type2, type3, type4, type5, type6, type7>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to set
 // a Octet value
 
@@ -273,7 +273,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, 2, 3, 40, 5, 6, 7, 8]
 ```
 
@@ -282,7 +282,7 @@ class GfG {
 添加一个值可以借助 **addAtX()** 方法完成，其中 X 代表要添加该值的索引。这个方法返回一个比被调用的元组多一个元素的元组。
 **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     new Octet<type1, type2, type3, type4, type5, type6, type7>
         (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -295,7 +295,7 @@ Octet<type 1, type 2, type 3, type 4, type 5, type 6, type 7> octet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to add
 // a value
 
@@ -326,7 +326,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -335,7 +335,7 @@ class GfG {
 可以使用预定义的方法**在元组中搜索元素，该方法包含()**。无论该值是否存在，它都会返回一个布尔值。
 **语法** :
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     new Octet<type1, type2, type3, type4, type5, type6, type7>
         (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -347,7 +347,7 @@ boolean res = octet.contains(value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to search
 // a value in a Octet
 
@@ -378,7 +378,7 @@ class GfG {
 
 输出:
 
-```
+```java
 true
 false
 ```
@@ -388,7 +388,7 @@ false
 因为八位字节实现了**可迭代<对象>T1】接口。这意味着它们可以像集合或数组一样迭代。
 **语法** :** 
 
-```
+```java
 Octet<type1, type2, type3, type4, type5, type6, type7> octet = 
     new Octet<type1, type2, type3, type4, type5, type6, type7>
             (value1, value2, value3, value4, value5, value6, value7, value8);
@@ -402,7 +402,7 @@ for (Object item : octet) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to iterate
 // a Octet
 
@@ -430,7 +430,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 2
 3

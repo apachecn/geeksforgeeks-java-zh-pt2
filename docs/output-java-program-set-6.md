@@ -8,7 +8,7 @@
 
 **程序 1:**
 
-```
+```java
 class First
 {
     public First() {  System.out.println("a"); }
@@ -35,7 +35,7 @@ public class MainClass
 
 输出:
 
-```
+```java
 a
 b
 c
@@ -47,7 +47,7 @@ c
 
 **程序 2:**
 
-```
+```java
 class First
 {
     int i = 10;
@@ -81,7 +81,7 @@ public class MainClass
 
 输出:
 
-```
+```java
 10
 200
 400
@@ -93,7 +93,7 @@ public class MainClass
 
 **程序 3:**
 
-```
+```java
 import java.util.*; 
 class I 
 {
@@ -109,7 +109,7 @@ class I 
 
 输出:
 
-```
+```java
 false, true, false
 
 ```
@@ -119,7 +119,7 @@ iterator()方法以适当的顺序返回列表中元素的迭代器，它不返�
 
 **程序 4:**
 
-```
+```java
 class ThreadEx extends Thread
 {
     public void run()
@@ -138,7 +138,7 @@ class ThreadEx extends Thread
 
 输出:
 
-```
+```java
 Run Time Exception
 
 ```

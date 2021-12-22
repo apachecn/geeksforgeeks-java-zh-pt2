@@ -8,7 +8,7 @@
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 // Java code to demonstrate star patterns
@@ -48,7 +48,7 @@ public class GeeksForGeeks
 
 **输出**
 
-```
+```java
 * 
 * * 
 * * * 
@@ -61,7 +61,7 @@ public class GeeksForGeeks
 
 ## Java
 
-```
+```java
 import java.io.*;
 
 // Java code to demonstrate star pattern
@@ -109,7 +109,7 @@ public class GeeksForGeeks
 
 **输出**
 
-```
+```java
            * 
          * * 
        * * * 
@@ -118,7 +118,7 @@ public class GeeksForGeeks
 
 ```
 
-*   ```
+*   ```java
         * 
        * * 
       * * * 

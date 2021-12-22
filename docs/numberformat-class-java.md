@@ -6,7 +6,7 @@
 
 **例:**假设我们有一个双数型数。但是这个双数在不同的国家有不同的表现方式。要根据不同的国家表示一个数字，我们必须借助 NumberFormat 类，如:
 
-```
+```java
 double d = 123456.789;
 For India, it is represented like 1,23,456.789
 For US, it is represented like 123,456.789
@@ -29,7 +29,7 @@ For ITALY, it is represented like 123.456,789
 *   **public static numberformat getinstance (locale l);** : Get the NumberFormat object of the specified area object.
 *   **Public static format (length l);** : Convert java number to locale object.
 
-```
+```java
 // Java Program to illustrate NumberFormat class use
 import java.util.*;
 import java.text.*;
@@ -45,7 +45,7 @@ class NumberFormatDemo {
 
 输出:
 
-```
+```java
 ITALY representation of 123456.789 : 123.456, 789
 
 ```

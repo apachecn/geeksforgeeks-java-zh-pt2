@@ -10,7 +10,7 @@ Java 中 [SortedSet 接口的 tailSet()方法用于返回该集合中元素大�
 
 **语法** :
 
-```
+```java
 SortedSet tailSet(E fromElement)
 
 ```
@@ -31,7 +31,7 @@ SortedSet tailSet(E fromElement)
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -60,14 +60,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Elements greater than or equal to 5 in set are : [5, 9]
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -96,7 +96,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Element greater than or equal to G in set is : [Geeks, It]
 
 ```

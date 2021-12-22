@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print vector element
 // in reverse using for loop
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Before reverse of vector : 
 [1, 2, 3, 4, 5]
 After reverse of vector : 
@@ -91,7 +91,7 @@ After reverse of vector :
 
 ****语法:****
 
-```
+```java
 Collections.reverse(vector) ;
 ```
 
@@ -101,7 +101,7 @@ Collections.reverse(vector) ;
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to reverse order of elements of vector
 
 // Importing generic java input/output classes
@@ -144,7 +144,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Before Reverse Order, Vector Contains : [GFG, EarlierGreen, NowBlack]
 After Reverse Order, Vector Contains : [NowBlack, EarlierGreen, GFG]
 ```** 
@@ -153,7 +153,7 @@ After Reverse Order, Vector Contains : [NowBlack, EarlierGreen, GFG]
 
 ****语法:****
 
-```
+```java
 public ListIterator listIterator()
 ```
 
@@ -165,7 +165,7 @@ public ListIterator listIterator()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java Program to reverse order of elements of vector
 // using listiterator
 
@@ -216,7 +216,7 @@ public class GFG {
 
 ****Output**
 
-```
+```java
 Before: [Geeks, for, Geeks, is, Best]
 After: 
 Best

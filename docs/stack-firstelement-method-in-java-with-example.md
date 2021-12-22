@@ -8,7 +8,7 @@ Java 中的**Java . util . Stack . first element()**方法用于检索或获取�
 
 **语法:**
 
-```
+```java
 Stack.firstElement()
 ```
 
@@ -20,7 +20,7 @@ Stack.firstElement()
 
 ****程序 1:****
 
-```
+```java
 // Java code to illustrate firstElement()
 import java.util.*;
 
@@ -49,7 +49,7 @@ public class StackDemo {
 
 ****Output:**
 
-```
+```java
 Stack: [Welcome, To, Geeks, 4, Geeks]
 The first element is: Welcome
 
@@ -57,7 +57,7 @@ The first element is: Welcome
 
 ****程序 2:****
 
-```
+```java
 // Java code to illustrate firstElement()
 import java.util.*;
 
@@ -86,7 +86,7 @@ public class StackDemo {
 
 ****Output:**
 
-```
+```java
 Stack: [10, 15, 30, 20, 5]
 The first element is: 10
 

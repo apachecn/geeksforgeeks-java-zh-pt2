@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setMaximumFractionDigits(int val)
 ```
 
@@ -18,7 +18,7 @@ public void setMaximumFractionDigits(int val)
 
 **程序 1** :
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -49,7 +49,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Maximum set initially as: 3
 Maximum set finally as: 100
 
@@ -57,7 +57,7 @@ Maximum set finally as: 100
 
 **程序二:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -88,7 +88,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Maximum set initially as: 3
 Maximum set finally as: 6785
 

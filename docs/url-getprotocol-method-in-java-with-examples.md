@@ -6,14 +6,14 @@
 
 **功能签名**
 
-```
+```java
 public String getProtocol()
 
 ```
 
 **语法**
 
-```
+```java
 url.getProtocol()
 
 ```
@@ -26,7 +26,7 @@ url.getProtocol()
 
 **例 1:**
 
-```
+```java
 // Java program to show the
 // use of the function getProtocol()
 
@@ -88,7 +88,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
 Protocol = https
 URL = http:// www.geeksforgeeks.org

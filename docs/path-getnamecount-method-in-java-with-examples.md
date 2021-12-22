@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 int getNameCount()
 
 ```
@@ -20,7 +20,7 @@ int getNameCount()
 下面的程序说明了 getNameCount()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getNameCount() method
 
@@ -48,14 +48,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NameCount in Path: 3
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getNameCount() method
 
@@ -82,14 +82,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NameCount in Path: 2
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getNameCount() method
 
@@ -116,7 +116,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 NameCount in Path: 1
 
 ```

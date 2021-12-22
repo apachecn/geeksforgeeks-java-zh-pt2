@@ -6,7 +6,7 @@ Java 中 **ZonedDateTime** 类的 **format()** 方法用于使用作为参数传
 
 **语法:**
 
-```
+```java
 public String format(DateTimeFormatter formatter)
 
 ```
@@ -20,7 +20,7 @@ public String format(DateTimeFormatter formatter)
 下面的程序说明了格式()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.format() method
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result: 19:21:12.123+05:30
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.format() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result: 20181025+0200
 
 ```

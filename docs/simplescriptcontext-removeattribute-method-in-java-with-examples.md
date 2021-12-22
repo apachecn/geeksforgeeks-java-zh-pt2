@@ -6,7 +6,7 @@ SimpleScriptContext 类的 **removeAttribute()** 方法用于移除给定范围�
 
 **语法:**
 
-```
+```java
 public Object removeAttribute(String name, int scope)
 
 ```
@@ -26,7 +26,7 @@ public Object removeAttribute(String name, int scope)
 下面的程序说明了 simplescriptcontext . remove attribute()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.removeAttribute() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Object :Value
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.removeAttribute() method
 
@@ -110,7 +110,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed : India
 Removed : Japan
 

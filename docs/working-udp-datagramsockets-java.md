@@ -12,7 +12,7 @@ UDP 优于 TCP 的一个例子是电视频道的直播。在这方面，我们�
 *   **创建 DatagramSocket:-** 首先，创建一个 DatagramSocket 对象，将数据包携带到目的地，并在服务器发送任何数据时接收数据包。要创建 datagramSocket，可以使用以下构造函数:
     *   **受保护的 DatagramSocket DatagramSocket():**
 
-```
+```java
 Syntax: public DatagramSocket()
               throws SocketException
 Creates a datagramSocket and binds it to any available
@@ -22,7 +22,7 @@ OS would assign any port to this socket.
 
 *   **受保护的 DatagramSocket DatagramSocket(int 端口):-**
 
-```
+```java
 Syntax: public DatagramSocket(int port)
                         throws SocketException
 Parameters:
@@ -35,7 +35,7 @@ to the specified port on the local machine.
 
 *   **受保护的 DatagramSocket DatagramSocket(int port，InetAddress InetAddress):-**
 
-```
+```java
 Syntax: public DatagramSocket(int port,
                        InetAddress inetaddress)
                         throws SocketException
@@ -51,7 +51,7 @@ binds it to specified port and ip-address.
 *   **创建数据图包:**在此步骤中，创建用于通过数据图套接字发送/接收数据的包。
     *   发送数据的构造函数: **DatagramPacket(字节 buf[]，int 长度，InetAddress inetaddress，int 端口):-**
 
-```
+```java
 Syntax: public DatagramPacket(byte[] buf,
               int offset,
               int length,
@@ -69,7 +69,7 @@ Constructs a DatagramPacket for sending data at specified address
 
 *   **数据分组(字节 buf[]，int 长度):-**
 
-```
+```java
 Syntax: public DatagramPacket(byte buf[],
               int length)
 Parameters:
@@ -81,7 +81,7 @@ in the byte array buf.
 
 *   **调用套接字对象上的发送()或接收()调用**
 
-```
+```java
 Syntax: void send(DatagramPacket packet)
                            throws SocketException
 Parameters:
@@ -91,7 +91,7 @@ SocketException - If there is an error in binding.
 IllegalArgumentException - if address is not supported by the socket.
 ```
 
-```
+```java
 Syntax: void receive(DatagramPacket packet)
                            throws SocketException
 Parameters:
@@ -105,7 +105,7 @@ IllegalArgumentException - if address is not supported by the socket.
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Client side
 // Implementation using DatagramSocket
 import java.io.IOException;
@@ -154,7 +154,7 @@ public class udpBaseClient_2
 
 **输出:**
 
-```
+```java
 Hello
 I am Client.
 ...
@@ -165,7 +165,7 @@ bye
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate Server side
 // Implementation using DatagramSocket
 import java.io.IOException;
@@ -233,7 +233,7 @@ public class udpBaseServer_2
 
 **输出:**
 
-```
+```java
 Client:- Hello
 Client:- I am client.
 ...

@@ -25,7 +25,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement solution of producer
 // consumer problem.
 
@@ -145,7 +145,7 @@ public class Threadexample {
 
 **输出:**
 
-```
+```java
 Producer produced-0
 Producer produced-1
 Consumer consumed-0

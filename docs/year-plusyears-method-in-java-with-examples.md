@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Year plusYears(long yearsToadd)
 
 ```
@@ -23,7 +23,7 @@ public Year plusYears(long yearsToadd)
 以下程序说明了 plusYears()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plusYears() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After addition year: 2039
 
@@ -61,7 +61,7 @@ After addition year: 2039
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plusYears() method
 
@@ -91,7 +91,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After addition year: 3219
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Vector.clone()
 ```
 
@@ -20,7 +20,7 @@ Vector.clone()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate clone() method of Vector class
 
 // Importing required classes
@@ -62,7 +62,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Vector: [Welcome, To, Geeks, For, Geeks]
 The cloned vector is: [Welcome, To, Geeks, For, Geeks]
 ```
@@ -71,7 +71,7 @@ The cloned vector is: [Welcome, To, Geeks, For, Geeks]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate clone() method of Vector class
 
 // Importing required classes
@@ -111,7 +111,7 @@ public class VectorDemo {
 
 **Output**
 
-```
+```java
 Vector: [10, 15, 30, 20, 5]
 The cloned vector is: [10, 15, 30, 20, 5]
 ```

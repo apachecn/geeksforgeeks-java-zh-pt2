@@ -31,7 +31,7 @@ Java 中**[【StringReader】](https://www.geeksforgeeks.org/java-io-stringreade
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader read(char[], int, int) method
 
@@ -80,14 +80,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s]
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader read(char[], int, int) method
 
@@ -137,7 +137,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 [G, e, e, k, s, F, o, r, G, e, e, k, s]
 
 ```

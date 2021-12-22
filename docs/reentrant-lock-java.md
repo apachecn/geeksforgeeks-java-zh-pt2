@@ -18,7 +18,7 @@ Java 中提供了重入锁，以提供更大灵活性的同步。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 public void some_method()
 {
         reentrantlock.lock();
@@ -56,7 +56,7 @@ Unlock 语句总是在 finally 块中调用，以确保即使在方法体(try �
 
 **应遵循的步骤**
 
-```
+```java
 1\. Create an object of ReentrantLock
 2\. Create a worker(Runnable Object) to execute and pass the lock to the object
 3\. Use the lock() method to acquire the lock on shared resource
@@ -67,7 +67,7 @@ Unlock 语句总是在 finally 块中调用，以确保即使在方法体(try �
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate Reentrant Locks
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -189,7 +189,7 @@ public class test
 
 **样品执行**
 
-```
+```java
 Output:
 task name - Job2 waiting for lock
 task name - Job1 outer lock acquired at 09:49:42 Doing outer work

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public float nextFloat() 
 
 ```
@@ -21,7 +21,7 @@ public float nextFloat()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextFloat()
 
@@ -41,14 +41,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next float value is = 0.25155503
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.Random.nextFloat()
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Next float value is = 0.7730949
 
 ```

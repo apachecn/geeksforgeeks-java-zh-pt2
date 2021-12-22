@@ -6,7 +6,7 @@ java 中的 java.util.WeakHashMap.entrySet()方法用于创建一组包含在地
 
 **语法:**
 
-```
+```java
 weak_hash_map.entrySet()
 ```
 
@@ -17,7 +17,7 @@ weak_hash_map.entrySet()
 下面的程序说明了 Java . util . weakhsmap . entryset()方法:
 **程序 1:** 将字符串值映射到整数键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks}
 The set is: [30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks]
 
@@ -54,7 +54,7 @@ The set is: [30=You, 15=4, 10=Geeks, 25=Welcomes, 20=Geeks]
 
 **程序 2:** 将整数值映射到字符串键。
 
-```
+```java
 // Java code to illustrate the entrySet() method
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class Weak_Hash_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {Welcomes=25, 4=15, You=30, Geeks=20}
 The set is: [Welcomes=25, 4=15, You=30, Geeks=20]
 

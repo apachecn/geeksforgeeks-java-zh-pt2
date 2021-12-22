@@ -10,7 +10,7 @@ resolve()方法有两种类型。
 
     **语法:**
 
-    ```
+    ```java
     default Path resolve(String other)
 
     ```
@@ -24,7 +24,7 @@ resolve()方法有两种类型。
     以下程序说明了解析(字符串其他)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.resolve(String other) method
 
@@ -59,7 +59,7 @@ resolve()方法有两种类型。
 
     **语法:**
 
-    ```
+    ```java
     Path resolve(Path other)
 
     ```
@@ -71,7 +71,7 @@ resolve()方法有两种类型。
     以下程序说明了解析(路径其他)方法:
     **程序 1:**
 
-    ```
+    ```java
     // Java program to demonstrate
     // Path.resolve(Path other) method
 

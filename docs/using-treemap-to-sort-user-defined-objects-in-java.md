@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```java
 Input : xbnnskd 100 geek 50
 Output : geek 50 xbnnskd 100
 
@@ -21,7 +21,7 @@ sorting is done on the basis of employee's name.
 
 **进场:**
 
-```
+```java
 1\. Traverse through the string 
    and map the employee's salary(S)
    with the list of employee names having salary S.
@@ -34,7 +34,7 @@ sorting is done on the basis of employee's name.
 
 下面是上述方法的实现:
 
-```
+```java
 // Java program to print employees
 // records in a sorted manner
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Neha 20 Karan 50 Harsh 100 Neha 100 Samay 600
 
 ```

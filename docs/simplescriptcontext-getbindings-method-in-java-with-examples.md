@@ -6,7 +6,7 @@ SimpleScriptContext 类的 **getBindings()** 方法用于返回与这个 ScriptC
 
 **语法:**
 
-```
+```java
 Bindings getBindings(int scope)
 
 ```
@@ -22,7 +22,7 @@ Bindings getBindings(int scope)
 下面的程序说明了 simplescriptcontext . getbindings()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getBindings() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Bindings value for name1:Value1
 Bindings value for name2:Value2
 
@@ -72,7 +72,7 @@ Bindings value for name2:Value2
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getBindings() method
 
@@ -120,7 +120,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Bindings value for Team1:India
 Bindings value for Team2:Japan
 Bindings value for Team3:Nepal

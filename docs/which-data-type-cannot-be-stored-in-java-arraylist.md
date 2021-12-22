@@ -19,7 +19,7 @@ add()方法接收一个整数。我们可以将一个 int 传递给这个方法�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program that uses ArrayList of Integer Values
 
 // Importing ArrayList class from
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 [-3, 0, 100]
 3
 3
@@ -72,7 +72,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing List and ArrayList class of
 // java.util package 
 import java.util.ArrayList;
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 7
 8
 9
@@ -130,7 +130,7 @@ public class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program showcasing where Data Type
 // can not be stored in ArrayList
 
@@ -167,6 +167,6 @@ class GFG
 
 **Output**
 
-```
+```java
 [G, e, e, k, s,  , f, o, r,  , G, e, e, k, s]
 ```

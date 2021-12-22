@@ -29,7 +29,7 @@
 
 **示例:**
 
-```
+```java
 // Java program to explain the
 // concept of thread interference.
 import java.io.*;

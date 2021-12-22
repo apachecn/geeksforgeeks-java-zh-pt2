@@ -12,7 +12,7 @@ Java 中 **[Reader](https://www.geeksforgeeks.org/java-io-reader-class-java/)** 
 
 **语法:**
 
-```
+```java
 public abstract int read()
 ```
 
@@ -26,7 +26,7 @@ public abstract int read()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Reader read() method
 
@@ -74,7 +74,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value of character read: 71
 Actual character read: G
 
@@ -94,7 +94,7 @@ Actual character read: s
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Reader read() method
 
@@ -139,7 +139,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value of character read: 71
 Actual character read: G
 

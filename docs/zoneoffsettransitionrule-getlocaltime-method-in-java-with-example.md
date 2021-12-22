@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public LocalTime getLocalTime()
 ```
 
@@ -18,7 +18,7 @@ public LocalTime getLocalTime()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getLocalTime() method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Local Time : 03:24:45
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getLocalTime() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Local Time : 04:40:45
 
 ```

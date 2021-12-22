@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static String quote(String s)
 
 ```
@@ -18,7 +18,7 @@ public static String quote(String s)
 以下程序举例说明了报价()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.quote() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 found the Regex in text:ee starting index:1 and ending index:3
 found the Regex in text:ee starting index:9 and ending index:11
 
@@ -73,7 +73,7 @@ found the Regex in text:ee starting index:9 and ending index:11
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.quote() method
 
@@ -114,7 +114,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 match found
 
 ```

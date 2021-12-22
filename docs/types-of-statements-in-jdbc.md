@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Statement statement = connection.createStatement();
 ```
 
@@ -26,7 +26,7 @@ Statement statement = connection.createStatement();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Create Statement in JDBC
 
 // Importing Database(SQL) classes
@@ -101,14 +101,14 @@ class GFG {
 
 考虑到在人员数据库中是否需要插入一些值，使用如下 SQL 语句:
 
-```
+```java
 INSERT INTO people VALUES ("Ayan",25);
 INSERT INTO people VALUES("Kriya",32);
 ```
 
 要在 Java 中做到这一点，可以使用准备好的语句，并在？准备好的报表的持有人 setXXX()如下所示:
 
-```
+```java
 String query = "INSERT INTO people(name, age)VALUES(?, ?)";
 Statement pstmt = con.prepareStatement(query);
 pstmt.setString(1,"Ayan");
@@ -126,7 +126,7 @@ ptstmt.setInt(2,25);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Prepared Statement in JDBC
 
 // Step 1: Importing DB(SQL here) classes
@@ -215,7 +215,7 @@ class GFG {
 
 ******语法:**准备调用状态****
 
-```
+```java
 **CallableStatement cstmt = con.prepareCall("{call Procedure_name(?, ?}");**
 ```
 
@@ -227,7 +227,7 @@ class GFG {
 
 ## ****Java 语言(一种计算机语言，尤用于创建网站)****
 
-```
+```java
 **// Java Program illustrating Callable Statement in JDBC
 
 // Step 1: Importing DB(SQL) classes

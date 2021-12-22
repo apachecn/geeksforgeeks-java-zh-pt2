@@ -16,7 +16,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // Object lock concept
 class Geek implements Runnable {
@@ -56,7 +56,7 @@ class Geek implements Runnable {
 
 **Output**
 
-```
+```java
 t1
 t3
 t2
@@ -73,7 +73,7 @@ in block t2 end
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate class level lock
 class Geek implements Runnable {
     public void run() { Lock(); }
@@ -113,7 +113,7 @@ class Geek implements Runnable {
 
 **Output**
 
-```
+```java
 t1
 t2
 t3

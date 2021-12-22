@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```java
 public boolean retainAll(Collection c)
 ```
 
@@ -24,7 +24,7 @@ public boolean retainAll(Collection c)
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // retainAll() method for Sorted set
 
@@ -88,7 +88,7 @@ public class GFG1 {
 
 ****Output:** 
 
-```
+```java
 Set before retainAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be retained : [1, 2, 3]
 Set after retainAll() operation : [1, 2, 3]
@@ -98,7 +98,7 @@ Set after retainAll() operation : [1, 2, 3]
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate
 // retainAll() method for Sorted set
 
@@ -162,7 +162,7 @@ public class GFG1 {
 
 ****Output:** 
 
-```
+```java
 Set before retainAll() operation : [1, 2, 3, 4, 5]
 Collection Elements to be retained : null
 

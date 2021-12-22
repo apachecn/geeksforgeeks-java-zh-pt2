@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetDateTime with(TemporalAdjuster adjuster)
 
 ```
@@ -27,7 +27,7 @@ public OffsetDateTime with(TemporalAdjuster adjuster)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime.with() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OffsetDateTime before adjustment: 2018-12-12T13:30:30+05:00
 OffsetDateTime after adjustment: 2018-06-01T13:30:30+05:00
 
@@ -75,7 +75,7 @@ OffsetDateTime after adjustment: 2018-06-01T13:30:30+05:00
 
 **语法:**
 
-```
+```java
 public OffsetDateTime with(TemporalField field, long newValue)
 
 ```
@@ -93,7 +93,7 @@ public OffsetDateTime with(TemporalField field, long newValue)
 下面的程序说明了用()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime.with() method
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 OffsetDateTime before adjustment: 2018-12-12T13:30:30+05:00
 OffsetDateTime after applying method: 2018-12-31T13:30:30+05:00
 

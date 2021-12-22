@@ -6,7 +6,7 @@ Java 中 **TimeZone 类**的 **getDisplayName()** 方法用来获取这个 TimeZ
 
 **语法:**
 
-```
+```java
 public final String getDisplayName()
 ```
 
@@ -16,7 +16,7 @@ public final String getDisplayName()
 
 下面的程序说明了时区的 getDisplayName()方法的工作:
 
-```
+```java
 // Java code to illustrate getDisplayName() method
 
 import java.util.*;
@@ -37,7 +37,7 @@ public class TimeZoneDemo {
 
 **输出:**
 
-```
+```java
 The TimeZone: Coordinated Universal Time
 
 ```

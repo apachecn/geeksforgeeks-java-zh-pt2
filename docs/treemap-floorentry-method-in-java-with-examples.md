@@ -6,7 +6,7 @@ Java . util . treemap .floor entry()方法用于返回与小于或等于给定�
 
 **语法:**
 
-```
+```java
 tree_map.floorEntry(K key)
 ```
 
@@ -23,7 +23,7 @@ tree_map.floorEntry(K key)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // TreeMap floorEntry() method
 import java.util.*;
@@ -51,7 +51,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The greatest key-value less than 18 is : 13=Thirteen
 
 ```
@@ -60,7 +60,7 @@ The greatest key-value less than 18 is : 13=Thirteen
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // TreeMap floorEntry() method
 import java.util.TreeMap;
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 The greatest key-value less than 5 is : null
 
 ```

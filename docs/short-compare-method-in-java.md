@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static int compare(short x, short y)
 ```
 
@@ -24,7 +24,7 @@ public static int compare(short x, short y)
 下面是 compare()方法在 Java 中的实现:
 **示例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short compare() method
 
@@ -49,14 +49,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4 and 4 : 0
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short compare() method
 
@@ -81,14 +81,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 4 and 2 : 2
 
 ```
 
 **例 3:**
 
-```
+```java
 // Java code to demonstrate
 // Short compare() method
 
@@ -113,7 +113,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Comparing 2 and 4 : -2
 
 ```

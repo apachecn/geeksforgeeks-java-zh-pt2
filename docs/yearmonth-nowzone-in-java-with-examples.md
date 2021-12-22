@@ -5,7 +5,7 @@
 **现在(ZoneId zone)**Java 中 **YearMonth** 类的方法用于从指定时区的系统时钟中获取当前的年-月。
 **语法:**
 
-```
+```java
 public static YearMonth now(ZoneId zone)
 ```
 
@@ -17,7 +17,7 @@ public static YearMonth now(ZoneId zone)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now(ZoneId zone) method
 
@@ -43,14 +43,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth: 2020-05
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now(ZoneId zone) method
 
@@ -78,14 +78,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year: 2020
 
 ```
 
 **程序 3:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.now(ZoneId zone) method
 
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Month: 5
 
 ```

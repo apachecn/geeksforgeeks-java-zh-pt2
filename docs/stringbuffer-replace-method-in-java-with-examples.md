@@ -5,7 +5,7 @@
 StringBuffer.replace()是一种内置方法，用于将该序列的子字符串中的字符替换为指定字符串中的字符。这里简单地删除子串中的字符，并在开始处插入其他字符。
 **语法:**
 
-```
+```java
 public StringBuffer replace(*int first, int last, String st*)
 ```
 
@@ -19,7 +19,7 @@ public StringBuffer replace(*int first, int last, String st*)
 **异常:**如果*第一个*为负，大于长度()，或大于*最后一个*，则*StringIndexOutOfBoundsException*。
 **示例:**
 
-```
+```java
 Input:
 StringBuffer= "The first planet of solar system is merrhxy"
 first = 39
@@ -34,7 +34,7 @@ Output: The first planet of solar system is mercury
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.replace()
 
@@ -58,7 +58,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 string buffer = Welcome to Geekshssgeeks
 After replacing string buffer= Welcome to Geekforsgeeks
 ```
@@ -67,7 +67,7 @@ After replacing string buffer= Welcome to Geekforsgeeks
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.replace()
 
@@ -91,7 +91,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: 
 String index out of range: -15
 at java.lang.AbstractStringBuilder.replace(AbstractStringBuilder.java:851)
@@ -103,7 +103,7 @@ at Geeks.main(Geeks.java:14)
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.replace()
 
@@ -127,7 +127,7 @@ public class Geeks {
 
 **Output:** 
 
-```
+```java
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: 
 start > length()
 at java.lang.AbstractStringBuilder.replace(AbstractStringBuilder.java:853)

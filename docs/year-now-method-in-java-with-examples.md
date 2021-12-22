@@ -6,7 +6,7 @@ Java 中 Year 类的 now()方法用于从默认时区的系统时钟返回当前
 
 **语法** :
 
-```
+```java
 public static Year now()
 
 or,
@@ -25,7 +25,7 @@ public static Year now(ZoneId zone)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the now() method
 
 import java.util.*;
@@ -47,14 +47,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```
 
 **程序 2** :如果时钟被指定为 now()方法的参数。在这种情况下，它将使用默认时区，但不使用系统时钟，而是使用默认时区中作为参数传递给它的时钟。
 
-```
+```java
 // Program to illustrate the now() method
 
 import java.util.*;
@@ -76,14 +76,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```
 
 **程序 3** :如果区域被指定为 now()方法的参数。在这种情况下，它将不会使用默认时区，而是使用时区中的系统时钟作为参数。
 
-```
+```java
 // Program to illustrate the now() method
 
 import java.util.*;
@@ -105,7 +105,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 2018
 
 ```

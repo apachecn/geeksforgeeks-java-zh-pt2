@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long convert(long sourceDuration, 
                         TimeUnit sourceUnit)
 ```
@@ -22,7 +22,7 @@ public long convert(long sourceDuration,
 
 **程序 1:** 将分钟转换为毫秒
 
-```
+```java
 // Java program to demonstrate
 // convert() method of TimeUnit Class
 
@@ -50,14 +50,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 55 minutes in milliSeconds = 3300000
 
 ```
 
 **程序 2:** 将秒转换为分钟
 
-```
+```java
 // Java program to demonstrate
 // convert() method of TimeUnit Class
 
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 300 seconds in minutes = 5
 
 ```

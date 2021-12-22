@@ -23,14 +23,14 @@ Java 中的读写锁使用相同的思想，通过拥有独立的锁对来提高
 
 包资源管理器视图
 
-```
+```java
 • java.lang.Object
     • java.util.concurrent.locks.ReentrantReadWriteLock
 ```
 
 **语法:**导入类
 
-```
+```java
 public class ReentrantReadWriteLock
 extends Object
 implements ReadWriteLock, Serializable
@@ -56,7 +56,7 @@ implements ReadWriteLock, Serializable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate ReentrantReadWriteLock Class
 
 // Importing ReentrantReadWriteLock
@@ -166,7 +166,7 @@ public class ReentrantReadWriteLockExample {
 
 **Output**
 
-```
+```java
 ReadThread 11 ---> Message is a
 ReadThread 11 ---> Message is aba
 ReadThread 11 ---> Message is ababa

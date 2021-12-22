@@ -19,7 +19,7 @@ IOException 是一种在输入/输出操作过程中出现的[检查异常](http
 
 **下面是 BufferedReader 使用的一个例子**
 
-```
+```java
 Input: a = 5, b = 3
 Output: 8
 ```
@@ -28,7 +28,7 @@ Output: 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // This is an example of use of BufferedReader Class
 
 import java.io.*;

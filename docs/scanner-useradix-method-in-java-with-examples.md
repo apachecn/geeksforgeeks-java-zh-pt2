@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Scanner useRadix(int radix)
 ```
 
@@ -20,7 +20,7 @@ public Scanner useRadix(int radix)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // useRadix() method of Scanner class in Java
 
@@ -68,7 +68,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 String:
 Geeksforgeeks has Scanner Class Methods
 
@@ -80,7 +80,7 @@ New Radix: 12
 
 **程序二:**异常演示
 
-```
+```java
 // Java program to illustrate the
 // useRadix() method of Scanner class in Java
 
@@ -128,7 +128,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 String:
 Geeksforgeeks has Scanner Class Methods
 

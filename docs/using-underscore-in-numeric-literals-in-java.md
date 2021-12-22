@@ -8,7 +8,7 @@ JDK 7 引入了一个新特性，允许使用下划线字符书写数字。基�
 
 ## Java
 
-```
+```java
 // Java Program to Illustrate Diggerent Ways of Usage
 // of Underscore in Numeric Literals
 
@@ -43,7 +43,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 inum:10000000
 lnum:10000000
 fnum:2.10001

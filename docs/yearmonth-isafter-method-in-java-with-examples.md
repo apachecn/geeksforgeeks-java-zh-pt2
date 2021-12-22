@@ -6,7 +6,7 @@ Java 中 **Year 类的**isaafter()**方法用于检查当前的 YearMonth 对象
 
 **语法** :
 
-```
+```java
 public boolean isAfter(Year otherYearMonth)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(Year otherYearMonth)
 
 **节目 1** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -46,7 +46,7 @@ public class GfG {
 
 **节目 2** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;

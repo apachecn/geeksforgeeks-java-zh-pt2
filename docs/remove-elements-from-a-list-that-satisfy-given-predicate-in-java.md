@@ -4,7 +4,7 @@
 
 以下是从满足谓词条件的列表中有效移除元素的方法:
 
-```
+```java
 p  ==> Predicate, specifying the condition
 l  ==> List, from which element to be removed
 
@@ -17,7 +17,7 @@ l  ==> List, from which element to be removed
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to remove nulls
 // from a List using iterator and Predicate
 import java.util.function.Predicate;
@@ -80,7 +80,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 List with null values: [Geeks, null, forGeeks, null, A computer portal]
 List with null values removed: [Geeks, forGeeks, A computer portal]
 

@@ -5,7 +5,7 @@
 [字符串连接符](https://www.geeksforgeeks.org/java-util-stringjoiner-java8/)的**add(CharSequence new element)**添加给定的 CharSequence 值的副本作为字符串连接符值的下一个元素。如果新元素为空，则添加“空”。
 **语法:**
 
-```
+```java
 public StringJoiner add(CharSequence newElement)
 ```
 
@@ -15,7 +15,7 @@ public StringJoiner add(CharSequence newElement)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // add() method of StringJoiner
 
@@ -41,7 +41,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Geeks for Geeks
 ```
 
@@ -49,7 +49,7 @@ Geeks for Geeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // add() method of StringJoiner
 
@@ -75,6 +75,6 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Geeks,for,Geeks
 ```

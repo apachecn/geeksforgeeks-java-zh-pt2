@@ -10,7 +10,7 @@
 
 例如，下面的代码是一个使用 [**Arrays.sort()**](https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/) 和**arrays . parallels art()**对随机化的双精度数组进行排序的程序。这个程序只是测量这两种方法之间的性能差异。：
 
-```
+```java
 // Java program to demonstrate time taken by sort()
 // and parallelSort() methods.
 import java.util.Arrays;
@@ -68,7 +68,7 @@ public class ParallelSortTest
 
 环境:
 
-```
+```java
 2.6 GHz Intel Core i7
 java version "1.8.0_25"
 
@@ -94,7 +94,7 @@ java version "1.8.0_25"
 **解释:**
 现在，让我们看一下代码，了解一下这种并行排序是如何工作的。
 
-```
+```java
     public static void parallelSort(double[] a) {
         int n = a.length, p, g;
         if (n <= MIN_ARRAY_SORT_GRAN ||

@@ -15,7 +15,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **数组的类层次:**
 
-    ```
+    ```java
     java.lang.Object
      ↳ java.lang.reflect
       ↳ Class Array
@@ -24,7 +24,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **数组的类层次结构:**
 
-    ```
+    ```java
     java.lang.Object
      ↳ java.util
       ↳ Class Arrays
@@ -36,7 +36,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **数组的类声明:**
 
-    ```
+    ```java
     public final class Array
         extends Object
 
@@ -44,7 +44,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **数组的类声明:**
 
-    ```
+    ```java
     public class Arrays
         extends Object
 
@@ -55,7 +55,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **示例:**
 
-    ```
+    ```java
     // Java program to show Array vs Arrays
 
     import java.lang.reflect.Array;
@@ -82,7 +82,7 @@ java.util 包中的[数组类是 java 集合框架的一部分。这个类提供
 
     **Output:**
 
-    ```
+    ```java
     [10, 0, 0, 0, 0]
 
     ```

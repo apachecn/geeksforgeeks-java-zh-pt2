@@ -10,7 +10,7 @@
 
 下面的例子只是给了我们如何将一个流转换成一个并行流的想法！
 
-```
+```java
 // A Simple Java program to demonstrate parallel
 // processing.
 import java.util.stream.*;
@@ -36,7 +36,7 @@ public class JavaApplication1 {
 
 输出:
 
-```
+```java
 Sum is 55
 
 ```

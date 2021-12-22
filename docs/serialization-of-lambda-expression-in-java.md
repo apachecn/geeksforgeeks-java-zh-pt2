@@ -14,7 +14,7 @@
 
 **例**
 
-```
+```java
 MapView userMap = Chassis.acquireMap("users", String.class, UserInfo.class);
 userMap.put("userid", new UserInfo("User's Name"));
 
@@ -44,7 +44,7 @@ ui -> ui.usageCounter);
 
 **布局:**
 
-```
+```java
 public class IntersectionCasting {
 
   public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class IntersectionCasting {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to serialize and deserialize the lambda
 // function using a function interface
 
@@ -185,7 +185,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Run original function: Hello 10
 Serialized function to ./serialized-fn
 Deserialized function from ./serialized-fn

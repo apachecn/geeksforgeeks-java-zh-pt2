@@ -6,7 +6,7 @@ Java 中 **SortedMap 接口的 firstKey()方法**用来返回当前在这个映�
 
 **语法** :
 
-```
+```java
 K firstKey()
 
 ```
@@ -23,7 +23,7 @@ K firstKey()
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedMap
 import java.util.*;
@@ -51,14 +51,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 First Key in the map : 1
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -86,7 +86,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 First Key in the map is : Five
 
 ```

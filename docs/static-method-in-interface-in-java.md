@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // static method in Interface.
 
@@ -52,7 +52,7 @@ public class InterfaceDemo implements NewInterface {
 
 **Output:** 
 
-```
+```java
 Hello, New Static Method Here
 Hello, Override Method here
 ```
@@ -62,7 +62,7 @@ Hello, Override Method here
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate scope
 // of static method in Interface.
 
@@ -98,7 +98,7 @@ public class InterfaceDemo implements PrintDemo {
 
 **Output:** 
 
-```
+```java
 Called from Interface PrintDemo
 Called from Class
 ```

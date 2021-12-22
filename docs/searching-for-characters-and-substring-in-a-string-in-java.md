@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```java
 int indexOf(char c)
 // Accepts character as argument, Returns index of 
 // the first occurrence of specified character 
@@ -26,7 +26,7 @@ int indexOf(char c)
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(char c)
 // Accepts character as argument, Returns an 
 // index of the last occurrence specified 
@@ -41,7 +41,7 @@ public int lastIndexOf(char c)
 
 **语法:**
 
-```
+```java
 public int IndexOf(char c, int indexFrom)
 ```
 
@@ -60,7 +60,7 @@ public int IndexOf(char c, int indexFrom)
 
 **语法:**
 
-```
+```java
 public int lastIndexOf(char c, int fromIndex)
 ```
 
@@ -70,7 +70,7 @@ public int lastIndexOf(char c, int fromIndex)
 
 **语法:**
 
-```
+```java
 char charAt(int indexNumber)
 ```
 
@@ -78,7 +78,7 @@ char charAt(int indexNumber)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate to Find a Character
 // in the String
 
@@ -134,7 +134,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First occurrence of char 's' is found at : 4
 Last occurrence of char 's' is found at : 28
 First occurrence of char 's' after index 10 : 12
@@ -150,7 +150,7 @@ Character at location 20: 111
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate to Find a Substring
 // in the String
 
@@ -199,7 +199,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 First occurrence of char Geeks is found at : 0
 Last occurrence of char Geeks is found at : 8
 First occurrence of char Geeks after index 10 : -1
@@ -210,7 +210,7 @@ Last occurrence of char Geeks after index 20 is : 8
 
 **语法:**
 
-```
+```java
 public boolean contains(CharSequence seq)
 ```
 
@@ -220,7 +220,7 @@ public boolean contains(CharSequence seq)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate How to Find a Substring
 // in the String using contains() Method
 
@@ -256,7 +256,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Found soft?: true
 Found war? true
 Found wr?: false
@@ -272,7 +272,7 @@ Found wr?: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Match ofstart and endof a Substring
 
 // Importing required classes
@@ -299,7 +299,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 true
 false

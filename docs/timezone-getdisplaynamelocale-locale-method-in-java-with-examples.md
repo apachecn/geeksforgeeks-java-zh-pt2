@@ -6,7 +6,7 @@ Java 中 **TimeZone 类**的**getDisplayName(Locale*Locale _ time*)**方法用�
 
 **语法:**
 
-```
+```java
 public final String getDisplayName(Locale *locale_time*)
 ```
 
@@ -17,7 +17,7 @@ public final String getDisplayName(Locale *locale_time*)
 下面的程序说明了时区的 getDisplayName()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate getDisplayName()
 
 import java.util.*;
@@ -52,14 +52,14 @@ public class TimeZone_Demo {
 
 **Output:**
 
-```
+```java
 The Display name for the locale is: Greenwich Mean Time
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getDisplayName()
 
 import java.util.*;
@@ -93,7 +93,7 @@ public class TimeZone_Demo {
 
 **Output:**
 
-```
+```java
 The Display name for the locale is: 
 Australian Eastern Standard Time (New South Wales)
 

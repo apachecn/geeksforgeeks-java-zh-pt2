@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: arr[] = { 1, 2, 3, 4, 5 }, index = 2
 Output: arr[] = { 1, 2, 4, 5 }
 
@@ -31,7 +31,7 @@ Output: arr[] = { 4, 5, 9, 1 }
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove an element
 // from a specific index from an array
 
@@ -103,7 +103,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Original Array: [1, 2, 3, 4, 5]
 Index to be removed: 2
 Resultant Array: [1, 2, 4, 5]
@@ -123,7 +123,7 @@ Resultant Array: [1, 2, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove an element
 // from a specific index from an array
 
@@ -183,7 +183,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Original Array: [1, 2, 3, 4, 5]
 Index to be removed: 2
 Resultant Array: [1, 2, 4, 5]
@@ -203,7 +203,7 @@ Resultant Array: [1, 2, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove an element
 // from a specific index from an array
 
@@ -271,7 +271,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Original Array: [1, 2, 3, 4, 5]
 Index to be removed: 2
 Resultant Array: [1, 2, 4, 5]
@@ -291,7 +291,7 @@ Resultant Array: [1, 2, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove an element
 // from a specific index from an array
 
@@ -359,7 +359,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Original Array: [1, 2, 3, 4, 5]
 Index to be removed: 2
 Resultant Array: [1, 2, 4, 5]

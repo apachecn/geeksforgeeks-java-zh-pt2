@@ -5,7 +5,7 @@
 java.lang.StringBuffer.delete()是 java 中的一个内置方法，用于移除或删除这个序列的子串中的字符。子字符串从指定的索引起点开始，延伸到索引终点的字符。
 **语法:**
 
-```
+```java
 public StringBuffer delete(*int start_point, int end_point*)
 ```
 
@@ -16,7 +16,7 @@ public StringBuffer delete(*int start_point, int end_point*)
 **异常:**StringIndexOutOfBoundsException 如果*开始点*为负，大于长度()，或大于*结束点*，则发生异常。
 **示例:**
 
-```
+```java
 Input: String = "Apple"
             start_point = 2 
             end_point = 4
@@ -35,7 +35,7 @@ Output: GerGeeks
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // java.lang.StringBuffer.delete()
 import java.lang.*;
@@ -57,7 +57,7 @@ public class geeks {
 
 **Output:** 
 
-```
+```java
 string buffer = Geeksforgeeks
 After deletion string buffer is = Geeksfgeeks
 ```

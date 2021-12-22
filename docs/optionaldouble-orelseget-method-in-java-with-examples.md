@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double orElseGet(DoubleSupplier supplier)
 
 ```
@@ -21,7 +21,7 @@ public double orElseGet(DoubleSupplier supplier)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElseGet(DoubleSupplier) method
 
@@ -51,14 +51,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 2134.0
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.orElseGet(DoubleSupplier) method
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 value: 758628.0
 
 ```

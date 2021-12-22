@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public E poll()
 ```
 
@@ -18,7 +18,7 @@ public E poll()
 
 **示例 1:** 程序演示 PriorityBlockingQueue 上的 poll()方法，以从数字列表中移除元素。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of PriorityBlockingQueue
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Element: 5278367
 Now Queue Contains:
 [35658786, 87625142, 74381793]
@@ -64,7 +64,7 @@ Now Queue Contains:
 
 **示例 2:** 程序演示 poll()方法，从字符串值列表中移除 String，如果列表为空，则返回 null。
 
-```
+```java
 // Java Program Demonstrate poll()
 // method of PriorityBlockingQueue
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Name 1: Joyita
 Removed Name 2: Priyanka
 Now Queue Contains:
@@ -122,7 +122,7 @@ Removed Name 3: null
 
 **语法:**
 
-```
+```java
 public E poll(long timeout, TimeUnit unit) throws InterruptedException
 ```
 
@@ -140,7 +140,7 @@ public E poll(long timeout, TimeUnit unit) throws InterruptedException
 
 **示例 1:** 对优先级阻塞队列演示轮询(长超时，时间单位单位)方法的程序，以从数字列表中删除元素。
 
-```
+```java
 // Java Program Demonstrate poll(long timeout, TimeUnit unit)
 // method of PriorityBlockingQueue
 
@@ -181,7 +181,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Removed Number: 5278367
 List Contains[35658786]
 Removed Number: 35658786

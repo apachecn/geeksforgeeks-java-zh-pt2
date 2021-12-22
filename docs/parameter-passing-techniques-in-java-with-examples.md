@@ -9,7 +9,7 @@
 *   **形式参数:**出现在函数或方法原型中的变量及其类型。
     **语法:**
 
-```
+```java
 function_name(datatype variable_name)
 
 ```
@@ -17,7 +17,7 @@ function_name(datatype variable_name)
 *   **实际参数:**在调用环境中出现在函数或方法调用中的形式参数对应的变量或表达式。
     **语法:**
 
-```
+```java
 func_name(variable name(s)); 
 ```
 
@@ -32,7 +32,7 @@ func_name(variable name(s));
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Call by Value
 
@@ -75,7 +75,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Value of a: 10 & b: 20
 Value of a: 10 & b: 20
 ```
@@ -91,7 +91,7 @@ Value of a: 10 & b: 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // Call by Reference
 
@@ -147,7 +147,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 Value of a: 10 & b: 20
 Value of a: 20 & b: 40
 ```

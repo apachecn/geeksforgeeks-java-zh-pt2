@@ -31,7 +31,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Transfer Object Pattern - Design Pattern
 
 // Step 1
@@ -83,7 +83,7 @@ public class StudentVO {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Transfer Object Pattern - Design Pattern
 
 // Step 2
@@ -140,7 +140,7 @@ public class StudentBO {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Transfer Object Pattern - Design Pattern
 // Step 3
 
@@ -175,7 +175,7 @@ public class TransferObjectPatternDemo {
 
 **步骤 4:** 验证输出
 
-```
+```java
 Student : [RollNo : 0, Name : Robert ]
 Student : [RollNo : 1, Name : John ]
 Student : Roll No 0, updated in the database

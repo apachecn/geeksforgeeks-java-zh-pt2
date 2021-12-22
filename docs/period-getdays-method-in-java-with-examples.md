@@ -6,7 +6,7 @@ Java 中 Period 类的 getDays()方法用于获取当前周期中使用它的天
 
 **语法:**
 
-```
+```java
 public int getDays()
 ```
 
@@ -18,7 +18,7 @@ public int getDays()
 
 **程序 1:**
 
-```
+```java
 // Java code to show the function getDays()
 // to get number of days from given period
 import java.time.Period;
@@ -48,14 +48,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 25
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java code to show the function getDays()
 // to get number of days from given period
 import java.time.Period;
@@ -85,7 +85,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 365
 
 ```

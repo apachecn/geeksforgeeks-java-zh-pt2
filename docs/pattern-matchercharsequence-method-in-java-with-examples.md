@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Matcher matcher(CharSequence input)
 
 ```
@@ -19,7 +19,7 @@ public Matcher matcher(CharSequence input)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.matcher(CharSequence) method
 
@@ -62,14 +62,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 found the Regex in text:geeksforgeeks starting index:0 and ending index:13
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.matcher(CharSequence) method
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 No match found
 
 ```

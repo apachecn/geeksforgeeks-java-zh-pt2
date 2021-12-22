@@ -6,7 +6,7 @@ Java 中 YearMonth 类的 compareTo()方法用于比较两个 YearMonth 对象�
 
 **语法**:
 
-```
+```java
 public int compareTo(YearMonth otherYearMonth)
 ```
 
@@ -24,7 +24,7 @@ public int compareTo(YearMonth otherYearMonth)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -48,7 +48,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 1
 ```
 
@@ -56,7 +56,7 @@ public class GfG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Program to illustrate the compareTo() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **Output:** 
 
-```
+```java
 0
 ```
 

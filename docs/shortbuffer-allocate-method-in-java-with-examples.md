@@ -6,7 +6,7 @@
 新缓冲区的位置将为零&它的极限是它的容量，尽管标记是未定义的，并且它的每个元素都被初始化为零。它将有一个后备数组，数组偏移量为零。
 **语法** :
 
-```
+```java
 public static ShortBuffer allocate(int capacity)
 ```
 
@@ -18,7 +18,7 @@ public static ShortBuffer allocate(int capacity)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ShortBuffer: [10000, 10640, 10189, -2000, -16780]
 ```
 
@@ -62,7 +62,7 @@ ShortBuffer: [10000, 10640, 10189, -2000, -16780]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // allocate() method
 
@@ -95,7 +95,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Trying to allocate a negative integer
 Exception thrown: java.lang.IllegalArgumentException: capacity < 0: (-10 < 0)
 

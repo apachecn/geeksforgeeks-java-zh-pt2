@@ -6,7 +6,7 @@
 如果任何 Throwable 的堆栈跟踪不可写，那么调用此方法除了验证其参数之外没有任何作用。
 **语法:**
 
-```
+```java
 public void 
     setStackTrace(StackTraceElement[] stackTrace)
 ```
@@ -18,7 +18,7 @@ public void
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the setStackTrace () Method.
 
@@ -71,7 +71,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 ClassNameOfExe.methodNameOfExe(fileNameOfExe:10)
 ```
 
@@ -79,7 +79,7 @@ ClassNameOfExe.methodNameOfExe(fileNameOfExe:10)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the setStackTrace () Method.
 
@@ -141,7 +141,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 StackTraceElement length :3
 Stack Trace at index 0 : ClassName1.methodName1(fileName1:10)
 Stack Trace at index 1 : ClassName2.methodName2(fileName2:20)

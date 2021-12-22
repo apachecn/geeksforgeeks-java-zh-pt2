@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetDateTime toOffsetDateTime()
 
 ```
@@ -19,7 +19,7 @@ public OffsetDateTime toOffsetDateTime()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.toOffsetDateTime() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 OffsetDateTime: 2018-12-06T19:21:12.123+05:30
 
@@ -56,7 +56,7 @@ OffsetDateTime: 2018-12-06T19:21:12.123+05:30
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.toOffsetDateTime() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZonedDateTime: 2018-10-25T23:12:31.123+02:00[Europe/Paris]
 OffsetDateTime: 2018-10-25T23:12:31.123+02:00
 

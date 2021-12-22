@@ -15,7 +15,7 @@
 
 **语法**:
 
-```
+```java
 public boolean equals(Object ob)
 ```
 
@@ -27,7 +27,7 @@ public boolean equals(Object ob)
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer 1: [856, 0, 961, 0, 0, 0, 0, 0, 0, 0]
 ShortBuffer 2: [856, 0, 961, 0, 0, 0, 0, 0, 0, 0]
 
@@ -107,7 +107,7 @@ both are equal
 
 **程序 2** :
 
-```
+```java
 // Java program to demonstrate
 // equals() method
 
@@ -177,7 +177,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer 1: [856, 0, 961, 0, 0, 0, 0, 0, 0, 0]
 ShortBuffer 2: [856, 0, 431, 0, 0]
 

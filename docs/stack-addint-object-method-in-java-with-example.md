@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 void add(int index, Object element)
 ```
 
@@ -23,7 +23,7 @@ void add(int index, Object element)
 
 **示例:**
 
-```
+```java
 // Java code to illustrate boolean add(Object element)
 import java.util.*;
 
@@ -56,7 +56,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack is: [Geeks, for, Geeks, 10, 20]
 The new Stack is: [Geeks, for, Last, Geeks, Element, 10, 20]
 
@@ -64,7 +64,7 @@ The new Stack is: [Geeks, for, Last, Geeks, Element, 10, 20]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // boolean add(Object element)
 
@@ -103,7 +103,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 The Stack is: [10, 20, 30, 40, 50]
 The new Stack is: [100, 10, 20, 200, 30, 40, 50]
 

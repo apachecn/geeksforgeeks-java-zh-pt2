@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean removeAll(Collection c)
 ```
 
@@ -18,7 +18,7 @@ public boolean removeAll(Collection c)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Remove One Array From Another Array
 
 import java.util.ArrayList;
@@ -68,7 +68,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 elements in first array [100, 200, 300, 400, 500, 600]
 elements in second array [300, 500]
 first array after removing second array from first array
@@ -82,7 +82,7 @@ first array after removing second array from first array
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Remove One Array From Another Array
 
 import java.io.*;
@@ -200,7 +200,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Our First ArrayList
 
 (Amit:Ghulla)

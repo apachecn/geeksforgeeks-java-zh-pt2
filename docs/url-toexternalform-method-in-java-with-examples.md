@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public String toExternalForm()
 ```
 
 **语法:**
 
-```
+```java
 url.toExternalForm()
 ```
 
@@ -23,7 +23,7 @@ url.toExternalForm()
 
 ****示例 1** :给定一个网址，我们将对该网址进行字符串表示**
 
-```
+```java
 // Java program to show the
 // use of the function toExternalForm()
 
@@ -61,7 +61,7 @@ class Solution {
 
 ****Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org
  String representation= https:// www.geeksforgeeks.org
 
@@ -69,7 +69,7 @@ URL = https:// www.geeksforgeeks.org
 
 ****例 2:****
 
-```
+```java
 // Java program to show the
 // use of the function toExternalForm()
 
@@ -109,7 +109,7 @@ class Solution {
 
 ****Output:**
 
-```
+```java
 URL = https:// www.geeksforgeeks.org#Arnab_Kundu
  String representation= https:// www.geeksforgeeks.org#Arnab_Kundu
 

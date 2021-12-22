@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **from()** 方法从一个临时对象中获取 Offse
 
 **语法:**
 
-```
+```java
 public static OffsetTime from(TemporalAccessor temporal)
 
 ```
@@ -19,7 +19,7 @@ public static OffsetTime from(TemporalAccessor temporal)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the from() method
 
 import java.time.OffsetTime;
@@ -42,14 +42,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current-time: 13:07:59.941Z
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the from() method
 
 import java.time.OffsetTime;
@@ -72,7 +72,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Current-time: 13:08:03.087Z
 
 ```

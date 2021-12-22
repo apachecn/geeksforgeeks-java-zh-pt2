@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Long orElseThrow()
 
 ```
@@ -21,7 +21,7 @@ public Long orElseThrow()
 下面的程序举例说明了 orElseThrow()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseThrow() method
 import java.util.OptionalLong;
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出**:
 
-```
+```java
 Value extracted using orElseThrow() = 45213246
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalLong.orElseThrow() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出**:
 
-```
+```java
 Exception thrown : java.util.NoSuchElementException: No value present
 
 ```

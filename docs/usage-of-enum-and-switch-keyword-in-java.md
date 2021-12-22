@@ -8,7 +8,7 @@ An [**Enum**](https://www.geeksforgeeks.org/enum-in-java/) 是 java 中一种独
 
 ## 爪哇
 
-```
+```java
 // Java Program to show working of Enum 
 // Keyword when declared outside the Class
 enum Days {
@@ -34,7 +34,7 @@ public class temp {
 
 **输出:**
 
-```
+```java
 FRIDAY
 
 ```
@@ -47,7 +47,7 @@ FRIDAY
 
 ## 爪哇
 
-```
+```java
 // Java Program to show working
 // of Switch statement
 public class Example_Switch {
@@ -79,7 +79,7 @@ public class Example_Switch {
 
 **输出:**
 
-```
+```java
 Other than 10, 20 or 30
 
 ```
@@ -90,7 +90,7 @@ Other than 10, 20 or 30
 
 ## 之外时，使用带 Switch 语句的枚举【Java】
 
-```
+```java
 // Java Program to show the
 // working of Enum keyword
 // with Switch statement
@@ -144,7 +144,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 You choose AUDI !
 
 ```
@@ -155,7 +155,7 @@ You choose AUDI !
 
 ## Java
 
-```
+```java
 // Java Program to Show 
 // working of Enum keyword
 // with Switch statement
@@ -213,7 +213,7 @@ public class MainClass {
 
 **输出:**
 
-```
+```java
 Mirzapur selected
 
 ```

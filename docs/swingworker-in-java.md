@@ -16,7 +16,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 1.  **doInBackground()** :这个函数包含了我们后台任务的逻辑，也就是我们希望线程做什么。该函数在工作线程上运行，并且是实现所必需的。
 
-    ```
+    ```java
     protected abstract T doInBackground()
                                  throws Exception
     Computes a result, or throws an exception if unable to do so. 
@@ -29,25 +29,25 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 2.  **done()** :这个函数在线程执行完的时候被调用。此外，doInBackground()函数返回的任何值都可以使用 get()在该函数中接收。此外，可以在此功能中对图形用户界面进行更新。因此，在 doInBackground 方法完成后，函数在事件调度线程上执行。
 
-    ```
+    ```java
     protected void done()
     ```
 
 3.  **execute()** :调度这个 SwingWorker 在工作线程上执行。
 
-    ```
+    ```java
     public final void execute()
     ```
 
 4.  **publish()** :该方法将从 doInBackground 方法内部使用，以传递中间结果，供流程方法内部的事件调度线程处理。
 
-    ```
+    ```java
     protected final void publish(V... chunks)
     ```
 
 5.  **进程()**:在事件调度线程上异步接收来自发布方法的数据块。因为这个方法是异步调用的，所以 publish()可能被调用了多次。
 
-    ```
+    ```java
     protected void process(List chunks)
     Parameters:
     chunks - intermediate results to process
@@ -55,13 +55,13 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 6.  **run():** 将此未来设置为计算结果，除非它已被取消。
 
-    ```
+    ```java
     public final void run()
     ```
 
 7.  **设置进度:**设置进度绑定属性。该值应该在 0 到 100 之间。
 
-    ```
+    ```java
     protected final void setProgress(int progress)
 
     Example:
@@ -79,7 +79,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 8.  **获取进度:**返回进度绑定属性。
 
-    ```
+    ```java
     public final int getProgress()
     Returns:
     the progress bound property.
@@ -88,7 +88,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 9.  **取消:**尝试取消此任务的执行。如果任务已经完成、已经取消或由于其他原因无法取消，此尝试将失败。如果成功，并且在调用取消时此任务尚未开始，则此任务不应运行。如果任务已经开始，则 may 中断运行参数确定执行此任务的线程是否应该中断以尝试停止任务。
     此方法返回后，后续对 Future.isDone()的调用将始终返回 true。如果此方法返回 true，对 Future.isCancelled()的后续调用将始终返回 true。
 
-    ```
+    ```java
     public final boolean cancel(boolean mayInterruptIfRunning)
     Parameters:
     mayInterruptIfRunning - true if the thread executing this task 
@@ -101,7 +101,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 10.  **取消:**如果该任务在正常完成前被取消，则返回真。
 
-    ```
+    ```java
     public final boolean isCancelled()
     Returns:
     true if this task was cancelled before it completed
@@ -109,7 +109,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 11.  **isDone:** 如果任务完成，返回 true。完成可能是由于正常终止、异常或取消，在所有这些情况下，该方法将返回 true。
 
-    ```
+    ```java
     public final boolean isDone()
     Returns:
     true if this task completed
@@ -117,7 +117,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 12.  **获取:**等待计算完成，然后检索其结果。
 
-    ```
+    ```java
     public final T get()
                 throws InterruptedException,
                        ExecutionException
@@ -125,7 +125,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 
 13.  **getState:** 返回 SwingWorker 状态绑定属性。
 
-    ```
+    ```java
     public final SwingWorker.StateValue getState()
     Returns:
     the current state
@@ -138,7 +138,7 @@ SwingWorker 允许用户在 Worker 线程上调度后台任务的执行。但是
 T–这个 SwingWorker 的 doInBackground 和 get 方法返回的结果类型，在下面的代码中是 String。
 V–该 SwingWorker 的发布和处理方法用于执行中间结果的类型，在下面的代码中为 Integer。
 
-```
+```java
 // Java program to illustrate 
 // working of SwingWorker
 import java.awt.*;

@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```java
 package package-name;
 ```
 
@@ -27,13 +27,13 @@ package package-name;
 
 **步骤 1:** 在 java 类中创建包。格式非常简单容易。只需按名称写一个包。
 
-```
+```java
 package example1;
 ```
 
 **步骤 2:** 在 java 包中包含类，但是要记住类只有一个包声明。
 
-```
+```java
 package example1;
 
 class gfg {
@@ -53,7 +53,7 @@ class gfg {
 
 ## 爪哇
 
-```
+```java
 // Java program to create a user-defined
 // package and function to print
 // a message for the users.
@@ -77,7 +77,7 @@ public class gfg {
 
 **输出 1:**
 
-```
+```java
 Hello geeks!! How are you?
 ```
 
@@ -87,7 +87,7 @@ Hello geeks!! How are you?
 
 ## 爪哇
 
-```
+```java
 import example.gfg;
 
 public class GFG {
@@ -101,7 +101,7 @@ public class GFG {
 
 **输出 2:**
 
-```
+```java
 Hello geeks!! How are you?
 ```
 

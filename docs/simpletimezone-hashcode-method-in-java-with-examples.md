@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -21,7 +21,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.hashCode()
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SimpleTimeZone: java.util.SimpleTimeZone
 [ 
  id=US,
@@ -75,7 +75,7 @@ Hash code is = 500
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.SimpleTimeZone.hashCode()
 
@@ -102,7 +102,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SimpleTimeZone: java.util.SimpleTimeZone
 [ 
  id=IN,

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input: [(1, 2), (3, 5), (2, 6), (1, 7)]
 Output: [(1, 2), (3, 5), (2, 6), (1, 7)]
 
@@ -23,7 +23,7 @@ Output: [(2, 5), (5, 6), (10, 20), (20, 30)]
 
 下面是上述方法的实现:
 
-```
+```java
 // Java code to sort the array
 // according to second element
 import java.io.*;
@@ -91,7 +91,7 @@ public static void main(String[] args)
 
 **Output:**
 
-```
+```java
 3 1 1 2 4 3 10 8 10 20
 
 ```

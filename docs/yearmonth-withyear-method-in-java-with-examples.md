@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public YearMonth withYear(int year)
 
 ```
@@ -20,7 +20,7 @@ public YearMonth withYear(int year)
 下面的程序说明了 withYear()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.withYear() method
 
@@ -53,7 +53,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth before applying method: 2019-12
 YearMonth after applying method: 2023-12
 
@@ -61,7 +61,7 @@ YearMonth after applying method: 2023-12
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.withYear() method
 
@@ -94,7 +94,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 YearMonth before applying method: 2022-07
 YearMonth after applying method: 1992-07
 

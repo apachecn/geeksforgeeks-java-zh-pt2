@@ -6,7 +6,7 @@ Java 中 **ObjectInputStream** 类的 **available()** 方法返回在不阻塞�
 
 **语法**:
 
-```
+```java
 public int available()
 ```
 
@@ -18,7 +18,7 @@ public int available()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // the above method
 

@@ -7,7 +7,7 @@
 因此，在处理浮点数计算时(尤其是如果计算是以金钱为单位)，我们需要注意编程语言中的舍入误差。
 我们来看一个例子:
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -25,7 +25,7 @@ public class Main {
 
 输出:
 
-```
+```java
 x = 0.7999999999999999
 y = 0.8
 false
@@ -38,7 +38,7 @@ false
 
 浮点和双数据类型实现 IEEE 浮点 754 规范。这意味着数字以如下形式表示:
 
-```
+```java
 SIGN FRACTION * 2 ^ EXP 
 ```
 
@@ -47,7 +47,7 @@ SIGN FRACTION * 2 ^ EXP
 
 另一个例子:
 
-```
+```java
 public class Main {
     public static void main(String[] args)
     {
@@ -65,7 +65,7 @@ public class Main {
 
 输出:
 
-```
+```java
 x = 0.7999999999999999
 y = 0.8
 false
@@ -74,7 +74,7 @@ false
 
 另一个例子:
 
-```
+```java
 public class Main {
     public static void main(String args[])
     {
@@ -91,7 +91,7 @@ public class Main {
 
 输出:
 
-```
+```java
 a = 0.09999999999999998
 
 ```
@@ -104,7 +104,7 @@ a = 0.09999999999999998
 
     以下程序显示了如何消除错误:
 
-    ```
+    ```java
     public class Main {
         public static void main(String args[])
         {
@@ -124,7 +124,7 @@ a = 0.09999999999999998
 
     输出:
 
-    ```
+    ```java
     0.1
     ```
 

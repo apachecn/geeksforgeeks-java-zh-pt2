@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Enumeration keys()
 ```
 
@@ -18,7 +18,7 @@ public Enumeration keys()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // keys() method
 
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 enumeration of the values: 
 
 Value is: Alg.Alias.Signature.SHA1/DSA
@@ -81,7 +81,7 @@ Value is: Signature.SHA256withDSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // keys() method
 
@@ -125,7 +125,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 enumeration of the values: 
 
 Value is: Alg.Alias.Signature.SHA1/DSA

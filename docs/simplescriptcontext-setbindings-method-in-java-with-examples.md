@@ -6,7 +6,7 @@ SimpleScriptContext 类的 **setBindings()** 方法用于为给定的作用域�
 
 **语法:**
 
-```
+```java
 public void setBindings(Bindings bindings,
                         int scope)
 
@@ -27,7 +27,7 @@ public void setBindings(Bindings bindings,
 下面的程序说明了 simplescriptcontext . setbindings()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.setBindings() method
 
@@ -66,14 +66,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 name1:Value1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.setBindings() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Team1:India
 Team2:Japan
 Team3:Nepal

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Double hasNextDouble()
 ```
 
@@ -20,7 +20,7 @@ public Double hasNextDouble()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // hasNextDouble() method of Scanner class in Java
 // without parameter
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 false -> gfg
 true -> 2
 false -> geeks!
@@ -69,7 +69,7 @@ false -> geeks!
 
 **程序二:**程序演示异常
 
-```
+```java
 // Java program to illustrate the
 // hasNextDouble() method of Scanner class in Java
 // Exception case
@@ -116,7 +116,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Exception: java.lang.IllegalStateException: Scanner closed
 
 ```

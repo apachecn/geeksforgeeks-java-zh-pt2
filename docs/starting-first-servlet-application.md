@@ -16,7 +16,7 @@
 
 为了简单起见，这个页面只会有一个按钮**调用生命周期**。当你点击此按钮时，它将调用**生命周期服务集**(根据 web.xml 文件中的条目进行映射)。
 
-```
+```java
 <html>
     <form action="LifeCycleServlet">
         <input type="submit" value="invoke life cycle servlet">
@@ -30,7 +30,7 @@ Servlet 的名称在表单标签的动作属性中给出，点击按钮请求将
 
 现在，是时候创建 LifeCycleServlet 了，它实现了 **init()** 、 **service()** 和 **destroy()** 方法来演示 Servlet 的生命周期。
 
-```
+```java
 // importing the javax.servlet package
 // importing java.io package for PrintWriter
 import javax.servlet.*;
@@ -78,7 +78,7 @@ public class LifeCycleServlet implements Servlet {
 
 正如在其他关于 **web.xml** 文件的帖子中所讨论的，我们将在本文中继续创建它。
 
-```
+```java
 <?xml version="1.0" encoding="UTF=8"?>
 <web-app>
     <servlet>

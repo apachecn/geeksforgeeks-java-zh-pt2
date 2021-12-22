@@ -11,7 +11,7 @@
 
 **语法:【Java @ SuppressWarnings 注释的签名如下:**
 
-```
+```java
 @Retention(value=SOURCE)
 @Target(value = {TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE })
 public @interface SuppressWarnings {
@@ -30,7 +30,7 @@ public @interface SuppressWarnings {
 
 使用@SuppressWarnings 是为了抑制或忽略来自编译器的警告，也就是说，编译器将忽略该段代码的警告(如果有的话)。
 
-```
+```java
 1\. @SuppressWarnings("unchecked")
    public class Calculator {
           }
@@ -38,7 +38,7 @@ public @interface SuppressWarnings {
 - Here, it will ignore all unchecked warnings coming from that class. (All methods, variables, constructors).
 ```
 
-```
+```java
 2\. public class Calculator {
    @SuppressWarnings("unchecked")
       public int sum(x,y) {
@@ -81,7 +81,7 @@ public @interface SuppressWarnings {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to demonstrate Use of @SuppressWarnings
 // Annotation
 
@@ -157,7 +157,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Sum of 10 and 20 : 30
 List items : [12, 120]
 ```

@@ -14,7 +14,7 @@
 
 **说明 1:** 数字文字中下划线的有效用法
 
-```
+```java
 Input  : int i = 12_34_56; 
 Output : 123456
 
@@ -24,27 +24,27 @@ Output : 123.456
 
 **说明 2:** 数值文字中的无效用法
 
-```
+```java
 int i = _12345; // Invalid as this is an identifier, not a numeric literal
 ```
 
-```
+```java
 double db = 123._456; // Invalid as we cannot put underscores adjacent to a decimal point
 ```
 
-```
+```java
 double db 123_.456_; // Invalid as we cannot put underscores at the end of a number 
 ```
 
 现在 geek 你一定想知道为什么会引入它，所以基本上这种方法的主要优点是代码的可读性会得到提高。编译时，这些下划线符号将被自动删除。我们也可以在数字之间使用多个下划线符号。例如，下面是一个有效的数字文字，如下所示:
 
-```
+```java
 int x4 = 5_______2;        // OK (decimal literal)
 ```
 
 **实现:**在编写代码之前，确保我们确实有 java 版及更高版本，正如 header 本身所讨论的。为了检查，打开终端，写下命令，如果不是这样，安装最新的 java 版本，如果已经更新，我们就可以走了。
 
-```
+```java
 java -version  
 ```
 
@@ -52,7 +52,7 @@ java -version
 
 ## Java
 
-```
+```java
 // Java program to illustrate
 // using underscore in Numeric Literals
 
@@ -80,7 +80,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 i = 123456
 db = 123.456
 x4 = 52

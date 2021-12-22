@@ -33,7 +33,7 @@ Java 中的[树图](https://www.geeksforgeeks.org/treemap-in-java/)和抽象类�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // HashMap to TreeMap in Java 8
 
@@ -96,7 +96,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 ```
@@ -114,7 +114,7 @@ TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // HashMap to TreeMap in Java 8
 
@@ -161,7 +161,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 ```
@@ -179,7 +179,7 @@ TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // HashMap to TreeMap in Java 8
 
@@ -228,7 +228,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 ```
@@ -248,7 +248,7 @@ TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to convert
 // HashMap to TreeMap in Java 8
 
@@ -298,7 +298,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 HashMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 TreeMap: {1=Geeks, 2=forGeeks, 3=A computer Portal}
 ```

@@ -52,7 +52,7 @@ Java 中的接口是一种特殊的类。像类一样，接口包含方法和成
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Java Class implementing
 // Interfaces
 
@@ -87,7 +87,7 @@ class Chicks implements Animal {
 
 **Output**
 
-```
+```java
 cheep
 The value of x = 4
 
@@ -103,7 +103,7 @@ The value of x = 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Java Abstract Class
 // implementing Interfaces
 
@@ -139,7 +139,7 @@ class Main {
 
 **Output**
 
-```
+```java
 Ragdoll
 meow
 
@@ -153,7 +153,7 @@ Java 能够在接口中嵌套一个类。嵌套类是隐式公共的和静态的
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Java Nested Classes
 // implementing Interfaces
 
@@ -200,7 +200,7 @@ class MainClass {
 
 **Output**
 
-```
+```java
 The animal is cat
 Munchkin
 Meow
@@ -215,7 +215,7 @@ Meow
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Java Enum class
 // implementing Interfaces
 
@@ -255,7 +255,7 @@ public class MainClass {
 
 **Output**
 
-```
+```java
 The breed is Persian
 ```
 
@@ -267,7 +267,7 @@ The breed is Persian
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program illustrating Java Dynamic Proxy Class
 // implementing Interfaces
 
@@ -337,7 +337,7 @@ class MainClass {
 
 输出:
 
-```
+```java
 Ragdoll
 meow
 {sound=1, breed=1}

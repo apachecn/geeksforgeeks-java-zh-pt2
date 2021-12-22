@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 first_vector.equals(second_vector)
 ```
 
@@ -18,7 +18,7 @@ first_vector.equals(second_vector)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -62,7 +62,7 @@ public class Vector_Demo {
 
 **Output:**
 
-```
+```java
 The Vector is: [Geeks, 4, Geeks, Welcomes, You]
 The Vector is: [Geeks, 4, Geeks, Welcomes, You]
 Are both of them equal? true
@@ -71,7 +71,7 @@ Are both of them equal? true
 
 **程序 2 :**
 
-```
+```java
 // Java code to illustrate the equals() method
 import java.util.*;
 
@@ -114,7 +114,7 @@ public class Vector_Demo {
 
 **Output:**
 
-```
+```java
 The Vector is: [10, 15, 20, 25, 30]
 The Vector is: [10, 15, 20, 25, 30, 40]
 Are both of them equal? false

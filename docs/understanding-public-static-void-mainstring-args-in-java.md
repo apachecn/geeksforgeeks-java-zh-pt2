@@ -6,7 +6,7 @@
 
 **main()方法最常见的语法:**
 
-```
+```java
 class GeeksforGeeks {
     public static void main(String[] args)
     {
@@ -15,7 +15,7 @@ class GeeksforGeeks {
 }
 ```
 
-```
+```java
 I am a Geek
 ```
 
@@ -24,7 +24,7 @@ I am a Geek
 
 1.  **公共:**是一个*访问修饰符*，指定从哪里以及谁可以访问该方法。将 *main()* 方法公之于众，可以在全球范围内使用。它是公开的，这样 JVM 就可以从类外部调用它，因为它不在当前类中。
 
-    ```
+    ```java
     class GeeksforGeeks {
         private static void main(String[] args)
         {
@@ -33,7 +33,7 @@ I am a Geek
     }
     ```
 
-    ```
+    ```java
     Error: Main method not found in class, please define the main method as:
     public static void main(String[] args)
     or a JavaFX application class must extend javafx.application.Application
@@ -41,7 +41,7 @@ I am a Geek
 
 2.  **静态:**是一个*关键字*，当与一个方法关联时，使其成为一个类相关的方法。 *main()* 方法是静态的，这样 JVM 就可以在不实例化类的情况下调用它。这也节省了不必要的内存浪费，而这些内存本来是由只声明用于 JVM 调用 *main()* 方法的对象使用的。
 
-    ```
+    ```java
     class GeeksforGeeks {
         public void main(String[] args)
         {
@@ -50,14 +50,14 @@ I am a Geek
     }
     ```
 
-    ```
+    ```java
     Error: Main method is not static in class test, please define the main method as:
     public static void main(String[] args)
     ```
 
 3.  **Void:** 是一个关键字，用来指定一个方法不返回任何东西。由于*主()*法不返回任何东西，其返回类型为*虚空*。一旦 *main()* 方法终止，java 程序也会终止。因此，从 *main()* 方法返回没有任何意义，因为 JVM 不能用它的返回值做任何事情。
 
-    ```
+    ```java
     class GeeksforGeeks {
         public static int main(String[] args)
         {
@@ -67,7 +67,7 @@ I am a Geek
     }
     ```
 
-    ```
+    ```java
     Error: Main method not found in class, please define the main method as:
     public static void main(String[] args)
     or a JavaFX application class must extend javafx.application.Application
@@ -75,7 +75,7 @@ I am a Geek
 
 4.  **main:** 是 Java main 方法的名字。它是 JVM 寻找的作为 java 程序起点的标识符。不是关键词。
 
-    ```
+    ```java
     class GeeksforGeeks {
         public static void myMain(String[] args)
         {
@@ -84,7 +84,7 @@ I am a Geek
     }
     ```
 
-    ```
+    ```java
     Error: Main method not found in class, please define the main method as:
     public static void main(String[] args)
     or a JavaFX application class must extend javafx.application.Application
@@ -92,7 +92,7 @@ I am a Geek
 
 5.  **String[] args:** It stores Java *command line arguments* and is an array of type *java.lang.String* class. Here, the name of the String array is *args* but it is not fixed and user can use any name in place of it.
 
-    ```
+    ```java
     class GeeksforGeeks {
         // javac GeeksforGeeks.java
         // java GeeksforGeeks 1 2 3
@@ -104,7 +104,7 @@ I am a Geek
     }
     ```
 
-    ```
+    ```java
     1
     2
     3
@@ -114,7 +114,7 @@ I am a Geek
 
     **主方法可以是 int 吗？如果没有，为什么？**
 
-    ```
+    ```java
     class GeeksforGeeks {
 
         public static int main(String[] args) {
@@ -132,7 +132,7 @@ I am a Geek
     > ^
     > 1 错误
 
-    ```
+    ```java
     class GeeksforGeeks {
 
         public static int main(String[] args) {

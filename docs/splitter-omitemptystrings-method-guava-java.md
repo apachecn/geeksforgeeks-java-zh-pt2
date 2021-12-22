@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Splitter omitEmptyStrings()
 
 ```
@@ -23,7 +23,7 @@ public Splitter omitEmptyStrings()
 
 **例 1:**
 
-```
+```java
 // Java code to show implementation of
 // omitEmptyStrings() method
 // of Guava's Splitter Class
@@ -59,7 +59,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String with empty strings: 
 geeks,,  for,,,  geeks,, noida,,, classes
 
@@ -70,7 +70,7 @@ String with empty strings removed:
 
 **例 2:**
 
-```
+```java
 // Java code to show implementation of
 // omitEmptyStrings() method
 // of Guava's Splitter Class
@@ -105,7 +105,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String with empty strings: 
 Hello..$.$ everyone..{content}amp; $ what's up..?
 

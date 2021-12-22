@@ -6,7 +6,7 @@
 
 我们可以使用以下步骤在 [BFS](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/) 中迭代遍历目录。我们创建一个空队列，并首先对给定的目录路径进行排队。当队列不为空时，我们运行循环。我们从队列中取出一个项目。如果弹出的项目是一个目录，获取其中所有文件和目录的列表，将每个目录添加到队列中。如果弹出的项目是一个文件，我们打印它的名称。
 
-```
+```java
 // Java program to print all files/directories
 // present in a directory.
 import java.io.File;

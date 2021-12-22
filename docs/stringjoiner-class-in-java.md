@@ -10,7 +10,7 @@ StringJoiner 是 java.util 包中的一个类，用于构造由分隔符分隔�
 
 **语法:**
 
-```
+```java
 public StringJoiner(CharSequence delimiter)
 ```
 
@@ -22,7 +22,7 @@ public StringJoiner(CharSequence delimiter)
 
 **语法:**
 
-```
+```java
 public StringJoiner(CharSequence delimiter, CharSequence prefix, CharSequence suffix)
 ```
 
@@ -52,7 +52,7 @@ public StringJoiner(CharSequence delimiter, CharSequence prefix, CharSequence su
 
 ## Java
 
-```
+```java
 // Java program to Demonstrate Methods
 // of StringJoiner class
 
@@ -107,7 +107,7 @@ public class GFG {
 
 **输出**
 
-```
+```java
 sj1 is empty
 Ram,Shyam
 Length of sj1 : 9

@@ -6,7 +6,7 @@ StringBuffer.insert()方法将给定数据类型的字符串表示形式插入�
 
 **语法:**
 
-```
+```java
  str.insert(int position,  char x);
  str.insert(int position,  boolean x);
  str.insert(int position,  char[] x);
@@ -22,13 +22,13 @@ we need to insert.
 
 **返回:**
 
-```
+```java
 This method returns a reference to this object.
 ```
 
 例外:
 
-```
+```java
 The position argument must be greater
 than or equal to 0, and less than 
 or equal to the length of this string.
@@ -37,7 +37,7 @@ or equal to the length of this string.
 
 **布尔输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for boolean input.  
 import java.lang.*;
@@ -61,7 +61,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fotruer geeks
 
@@ -69,7 +69,7 @@ After insertion = geeks fotruer geeks
 
 **字符输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for char input.  
 import java.lang.*;
@@ -93,7 +93,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fopr geeks
 
@@ -101,7 +101,7 @@ After insertion = geeks fopr geeks
 
 **字符数组输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for char array input.  
 import java.lang.*;
@@ -128,7 +128,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fopawanr geeks
 
@@ -136,7 +136,7 @@ After insertion = geeks fopawanr geeks
 
 **浮动输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for float input.
 import java.lang.*;
@@ -161,7 +161,7 @@ public class GFG 
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fo41.35r geeks
 
@@ -169,7 +169,7 @@ After insertion = geeks fo41.35r geeks
 
 **双输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for double input.
 import java.lang.*;
@@ -194,7 +194,7 @@ public class GFG 
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fo41.35r geeks
 
@@ -202,7 +202,7 @@ After insertion = geeks fo41.35r geeks
 
 **长输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for Long input.
 import java.lang.*;
@@ -226,7 +226,7 @@ public class GFG 
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fo546986r geeks
 
@@ -234,7 +234,7 @@ After insertion = geeks fo546986r geeks
 
 **内部输入**
 
-```
+```java
 // Java program to demonstrate StringBuffer insert
 // for Int input.
 import java.lang.*;
@@ -260,7 +260,7 @@ public class GFG 
 
 **Output:**
 
-```
+```java
 string = geeks for geeks
 After insertion = geeks fo10r geeks
 

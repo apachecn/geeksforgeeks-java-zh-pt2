@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime of(int year, int month, 
                                int dayOfMonth,
                                int hour, int minute,
@@ -37,7 +37,7 @@ public static ZonedDateTime of(int year, int month,
 以下程序说明()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.of() method
 
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2020-12-03T12:20:59.000090Z[Etc/UTC]
 
 ```
@@ -74,7 +74,7 @@ ZonedDateTime : 2020-12-03T12:20:59.000090Z[Etc/UTC]
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime of(LocalDate date,
                                LocalTime time,
                                ZoneId zone)
@@ -92,7 +92,7 @@ public static ZonedDateTime of(LocalDate date,
 以下程序说明()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.of() method
 
@@ -129,7 +129,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2020-12-30T17:52:49+01:00[Europe/Paris]
 
 ```
@@ -140,7 +140,7 @@ ZonedDateTime : 2020-12-30T17:52:49+01:00[Europe/Paris]
 
 **语法:**
 
-```
+```java
 public static ZonedDateTime of(LocalDateTime localDateTime,
                                ZoneId zone)
 
@@ -156,7 +156,7 @@ public static ZonedDateTime of(LocalDateTime localDateTime,
 以下程序说明()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.of() method
 
@@ -189,7 +189,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime : 2018-11-03T12:45:30+01:00[Europe/Paris]
 
 ```

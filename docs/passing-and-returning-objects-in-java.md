@@ -11,7 +11,7 @@
 
 **图解:**假设创建了三个对象‘ob1’、‘ob2’和‘ob3’:
 
-```
+```java
 ObjectPassDemo ob1 = new ObjectPassDemo(100, 22);
 ObjectPassDemo ob2 = new ObjectPassDemo(100, 22);
 ObjectPassDemo ob3 = new ObjectPassDemo(-1, -1);
@@ -21,7 +21,7 @@ ObjectPassDemo ob3 = new ObjectPassDemo(-1, -1);
 
 在方法端，一个名为 a 的 Foo 类型的引用被声明，并且它最初被赋值为 null。
 
-```
+```java
 boolean equalTo(ObjectPassDemo o);
 ```
 
@@ -29,7 +29,7 @@ boolean equalTo(ObjectPassDemo o);
 
 当我们调用 equalTo 方法时，引用“o”将被分配给作为参数传递的对象，即“o”将在以下语句执行时引用“ob2”。
 
-```
+```java
 System.out.println("ob1 == ob2: " + ob1.equalTo(ob2));
 ```
 
@@ -37,13 +37,13 @@ System.out.println("ob1 == ob2: " + ob1.equalTo(ob2));
 
 现在我们可以看到，在‘ob1’上调用了 equalTo 方法，‘o’指的是‘ob2’。因为“a”和“b”的值对于两个引用都是相同的，所以如果(condition)为真，那么将返回布尔值 true。
 
-```
+```java
 if(o.a == a && o.b == b)
 ```
 
 当以下语句执行时,“o”将再次重新分配给“ob3”。
 
-```
+```java
 System.out.println("ob1 == ob3: " + ob1.equalTo(ob3));
 ```
 
@@ -57,7 +57,7 @@ System.out.println("ob1 == ob3: " + ob1.equalTo(ob3));
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Objects Passing to Methods.
 
 // Class
@@ -106,7 +106,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ob1 == ob2: true
 ob1 == ob3: false
 ```
@@ -119,7 +119,7 @@ ob1 == ob3: false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate One Object to
 // Initialize Another
 
@@ -176,7 +176,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Volume of mybox is 3000.0
 Volume of myclone is 3000.0
 ```
@@ -189,7 +189,7 @@ Volume of myclone is 3000.0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Demonstrate Returning of Objects
 
 // Class 1
@@ -230,7 +230,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 ob1.a: 2
 ob2.a: 12
 ```

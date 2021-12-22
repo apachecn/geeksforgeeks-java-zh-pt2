@@ -22,7 +22,7 @@ StAX 提供了各种类，通过使用 XMLInputFactory、XMLOutputFactory 和 XM
 
 **步骤 1:** 通过调用 new instance()方法
 
-```
+```java
 XMLOutputFactory factory = XMLOutputFactory.newInstance();
 ```
 
@@ -30,21 +30,21 @@ XMLOutputFactory factory = XMLOutputFactory.newInstance();
 
 **步骤 2:** 使用这个实例，创建一个 XMLStreamWriter 和一个 XMLEventWriter
 
-```
+```java
 XMLEventWriter eventWriter = factory.createXMLEventWriter(new FileWriter("data\\gfg.xml"));
 XMLStreamWriter streamWriter = factory.createXMLStreamWriter(new FileWriter("data\\gfg.xml"));
 ```
 
 **第 3 步:**编写 XML 的头部，并继续创建开始元素。
 
-```
+```java
 XMLEvent event = eventFactory.createStartDocument();
 event = eventFactory.createStartElement("GFG", "https://www.geeksforgeeks.org/", "document");
 ```
 
 **第四步:**添加元素后我们可以添加属性，命名空间。
 
-```
+```java
 event = eventFactory.createNamespace("GeeksforGeeks-practice", "https://practice.geeksforgeeks.org/");
 writer.add(event);
 event = eventFactory.createAttribute("attribute", "value");
@@ -53,14 +53,14 @@ writer.add(event);
 
 **步骤 5:** 冲洗并关闭打开的元素。
 
-```
+```java
 writer.flush();
 writer.close();
 ```
 
 **第六步:**添加试捕块。
 
-```
+```java
 try 
     {
        --code--
@@ -79,7 +79,7 @@ catch (IOException e)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Importing required classes
 import java.io.*;
 import javax.xml.stream.XMLEventFactory;
@@ -148,7 +148,7 @@ class GFG {
 
 ### 输出:
 
-```
+```java
 <?xml version='1.0' encoding='UTF-8'?>
 <GFG:document xmlns:GeeksforGeeks-practice="https://practice.geeksforgeeks.org/" attribute="GFG>
 </GFG:document>

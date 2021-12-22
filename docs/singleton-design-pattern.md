@@ -12,7 +12,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Classical Java implementation of singleton
 // design pattern
 class Singleton
@@ -44,7 +44,7 @@ class Singleton
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Thread Synchronized Java implementation of
 // singleton design pattern
 class Singleton
@@ -70,7 +70,7 @@ class Singleton
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Static initializer based Java implementation of
 // singleton design pattern
 class Singleton
@@ -93,7 +93,7 @@ class Singleton
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Double Checked Locking based Java implementation of
 // singleton design pattern
 class Singleton

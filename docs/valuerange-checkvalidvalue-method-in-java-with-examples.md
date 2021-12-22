@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long checkValidValue(long value, TemporalField field)
 
 ```
@@ -21,7 +21,7 @@ public long checkValidValue(long value, TemporalField field)
 下面的程序说明了 ValueRange.checkValidValue()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.checkValidValue() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :4999
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ValueRange.checkValidValue() method
 
@@ -76,7 +76,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Value passed :6666
 
 ```

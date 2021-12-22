@@ -6,7 +6,7 @@ Java.util.TreeSet.clear()方法用于从一个 TreeSet 中移除所有元素。�
 
 **语法:**
 
-```
+```java
 Tree_Set.clear()
 ```
 
@@ -16,7 +16,7 @@ Tree_Set.clear()
 
 下面程序说明了使用 Java.util.TreeSet.clear()方法:
 
-```
+```java
 // Java code to illustrate addAll()
 import java.io.*;
 import java.util.TreeSet;
@@ -49,7 +49,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 After clearing TreeSet: []
 

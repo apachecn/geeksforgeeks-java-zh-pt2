@@ -6,13 +6,13 @@ Java 中 [Writer 类](https://www.geeksforgeeks.org/java-io-writer-class-java/)�
 
 **签名:**
 
-```
+```java
 public boolean equals(Writer second_Writer)
 ```
 
 **语法:**
 
-```
+```java
 first_Writer.equals(second_Writer)
 ```
 
@@ -24,7 +24,7 @@ first_Writer.equals(second_Writer)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the equals() method
 
 import java.io.*;
@@ -66,7 +66,7 @@ public class Writer_Demo {
 
 **Output:**
 
-```
+```java
 Writer 1: java.io.PrintWriter@232204a1
 Writer 2: java.io.PrintWriter@4aa298b7
 Are both of them equal? false
@@ -75,7 +75,7 @@ Are both of them equal? false
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the equals() method
 
 import java.io.*;
@@ -117,7 +117,7 @@ public class Writer_Demo {
 
 **Output:**
 
-```
+```java
 Writer 1: java.io.PrintWriter@232204a1
 Writer 2: java.io.PrintWriter@4aa298b7
 Are both of them equal? false

@@ -4,7 +4,7 @@
 
 打印以下图案的程序:
 
-```
+```java
 ********1********
 *******2*2*******
 ******3*3*3******
@@ -16,7 +16,7 @@
 
 **例:**
 
-```
+```java
 Input : 4
 
 Output :
@@ -37,7 +37,7 @@ Output :
 
 ## C++
 
-```
+```java
 // CPP program to print pattern
 #include<bits/stdc++.h>
 using namespace std;
@@ -102,7 +102,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to print pattern
 import java.util.*;
 import java.lang.*;
@@ -163,7 +163,7 @@ public class GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```java
 # Python program to print pattern
 
 def StarPattern(height):
@@ -216,7 +216,7 @@ StarPattern(height)
 
 ## C#
 
-```
+```java
 // C# program to print pattern
 using System;
 public class GeeksforGeeks {
@@ -272,7 +272,7 @@ public class GeeksforGeeks {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```java
 <?php
 // PHP implementation to
 // print pattern
@@ -339,7 +339,7 @@ StarPattern($height);
 
 ## java 描述语言
 
-```
+```java
 <script>
       // JavaScript program to print pattern
 
@@ -395,7 +395,7 @@ StarPattern($height);
 
 **输出:**
 
-```
+```java
 ********1********
 *******2*2*******
 ******3*3*3******
@@ -428,7 +428,7 @@ StarPattern($height);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -462,7 +462,7 @@ public class GFGInterestingPattern {
 
 **Output**
 
-```
+```java
 ********1********
 *******2*2*******
 ******3*3*3******

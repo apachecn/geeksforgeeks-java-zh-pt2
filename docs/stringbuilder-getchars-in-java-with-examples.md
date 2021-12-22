@@ -10,7 +10,7 @@ StringBuilder 类**的 **getChars(int srcBegin，int srcEnd，char[] dst，int d
 
 **语法:**
 
-```
+```java
 public void getChars(int srcBegin, int srcEnd, 
                           char[] dst, int dstBegin)
 ```
@@ -36,7 +36,7 @@ public void getChars(int srcBegin, int srcEnd,
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getChars() Method.
 
@@ -73,7 +73,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = WelcomeGeeks
 Char array contains : W e l c o m e
 
@@ -81,7 +81,7 @@ Char array contains : W e l c o m e
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the getChars() Method.
 
@@ -123,7 +123,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String = evil dead_01
 char array contains : _ _ _ d e a d _ _ _
 
@@ -131,7 +131,7 @@ char array contains : _ _ _ d e a d _ _ _
 
 **示例 3:** 演示 StringIndexOutOfBoundException
 
-```
+```java
 // Java program to demonstrate
 // exception thrown by the getChars() Method.
 
@@ -168,7 +168,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Exception: java.lang.StringIndexOutOfBoundsException: srcBegin > srcEnd
 
 ```

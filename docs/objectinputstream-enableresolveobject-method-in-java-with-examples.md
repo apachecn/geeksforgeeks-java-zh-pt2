@@ -6,7 +6,7 @@ Java 中 **ObjectInputStream** 类的 **enableResolveObject()** 方法用于使�
 
 **语法:**
 
-```
+```java
 protected boolean enableResolveObject(
                         boolean enable)
 
@@ -26,7 +26,7 @@ protected boolean enableResolveObject(
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the above method
 
@@ -91,7 +91,7 @@ public class GFG
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate
 // the above method
 

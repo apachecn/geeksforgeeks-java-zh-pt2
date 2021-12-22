@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public OffsetTime plusNanos(long nanosecondsToAdd)
 
 ```
@@ -19,7 +19,7 @@ public OffsetTime plusNanos(long nanosecondsToAdd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.plusNanos() method
 
@@ -49,7 +49,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OffsetTime before add: 12:25:10+01:00
 OffsetTime after add: 12:25:10.034+01:00
 
@@ -57,7 +57,7 @@ OffsetTime after add: 12:25:10.034+01:00
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetTime.plusNanos() method
 
@@ -87,7 +87,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OffsetTime before add: 12:25:10+01:00
 OffsetTime after add: 12:25:09.028800+01:00
 

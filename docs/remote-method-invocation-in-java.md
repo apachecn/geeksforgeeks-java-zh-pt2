@@ -38,7 +38,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Creating a Search interface
 import java.rmi.*;
 public interface Search extends Remote
@@ -54,7 +54,7 @@ public interface Search extends Remote
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement the Search interface
 import java.rmi.*;
 import java.rmi.server.*;
@@ -101,7 +101,7 @@ rmic SearchQuery 处执行以下命令。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for server application
 import java.rmi.*;
 import java.rmi.registry.*;
@@ -138,7 +138,7 @@ public class SearchServer
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program for client application
 import java.rmi.*;
 public class ClientRequest

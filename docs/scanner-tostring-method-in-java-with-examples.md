@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // toString() method of Scanner class in Java
 
@@ -51,7 +51,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Scanner String: 
 GeeksForGeeks - A Computer Science Portal for Geeks
 

@@ -24,7 +24,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Use a Semaphore to Protect more than One
 // Copy of a Resource
 
@@ -198,7 +198,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Use a Semaphore to Protect more than One
 // Copy of a Resource
 
@@ -372,7 +372,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GFG!
 Thread 7: - about to withdraw money after acquiring the permit
 Thread 4: - about to withdraw money after acquiring the permit

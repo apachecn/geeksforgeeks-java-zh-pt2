@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setStartYear(int year)
 
 ```
@@ -21,7 +21,7 @@ public void setStartYear(int year)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function SimpleTimeZone.setStartYear()
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SimpleTimeZone: java.util.SimpleTimeZone[
     id=US,
     offset=500,
@@ -99,7 +99,7 @@ SimpleTimeZone: java.util.SimpleTimeZone[
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function SimpleTimeZone.setStartYear()
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 SimpleTimeZone: java.util.SimpleTimeZone[
     id=US,
     offset=620,

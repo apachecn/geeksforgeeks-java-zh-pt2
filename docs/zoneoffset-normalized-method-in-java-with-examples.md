@@ -8,7 +8,7 @@ Java 中 **ZoneOffset** 类的 **normalized()** 方法用于对时区 ID 进行�
 
 **语法:**
 
-```
+```java
 public ZoneId normalized()
 
 ```
@@ -21,7 +21,7 @@ public ZoneId normalized()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneOffset.normalized() method
 
@@ -44,14 +44,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Normalised zoneId: +05:30
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZoneOffset.normalized() method
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Normalised zoneId: Z
 
 ```

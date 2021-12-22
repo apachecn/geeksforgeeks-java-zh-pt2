@@ -24,7 +24,7 @@ SortedMap 由 ConcurrentSkipListMap 实现， [TreeMap。](https://www.geeksforg
 
 **申报:**
 
-```
+```java
 public interface SortedMap<K, V> extends Map<K, V>
 {
     Comparator comparator();
@@ -41,7 +41,7 @@ public interface SortedMap<K, V> extends Map<K, V>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to demonstrate SortedMap Interface
 import java.util.Iterator;
 import java.util.Map;
@@ -81,7 +81,7 @@ public class SortedMapExample {
 
 **输出:**
 
-```
+```java
 Key : 1  value : geeksforgeeks
 Key : 2  value : practice
 Key : 3  value : quiz
@@ -106,7 +106,7 @@ Key : 5  value : code
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program add the elements in the SortedMap
 import java.io.*;
 import java.util.*;
@@ -141,7 +141,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {1=Geeks, 2=For, 3=Geeks}
 {1=Geeks, 2=For, 3=Geeks}
 
@@ -151,7 +151,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to change
 // the elements in SortedMap
 import java.io.*;
@@ -182,7 +182,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {1=Geeks, 2=Geeks, 3=Geeks}
 {1=Geeks, 2=For, 3=Geeks}
 ```
@@ -191,7 +191,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove the 
 // elements from SortedMap
 import java.io.*;
@@ -224,7 +224,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {1=Geeks, 2=Geeks, 3=Geeks, 4=For}
 {1=Geeks, 2=Geeks, 3=Geeks}
 ```
@@ -233,7 +233,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to iterate through SortedMap
 import java.util.*;
 
@@ -266,7 +266,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 1 : Geeks
 2 : For
 3 : Geeks
@@ -278,7 +278,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the
 // creation of SortedMap object using
 // the TreeMap class
@@ -317,7 +317,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 {South Africa=3, India=1, Australia=2}
 Map after removing Australia:{South Africa=3, India=1}
 ```

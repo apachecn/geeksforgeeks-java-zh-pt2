@@ -17,7 +17,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Demonstrate that Not Using Generics
 // Can cause Run Time Exceptions
 
@@ -64,7 +64,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:19: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
         al.add("Sachin");
               ^
@@ -93,7 +93,7 @@ prog.java:23: warning: [unchecked] unchecked call to add(E) as a member of the r
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Conversion of
 // Runitime Exceptions into compile time errors
 // Using generics
@@ -128,7 +128,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 prog.java:24: error: incompatible types: int cannot be converted to String
         al.add(10);
                ^
@@ -144,7 +144,7 @@ Note: Some messages have been simplified; recompile with -Xdiags:verbose to get 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to Illustrate Type Casting is Needed
 // Everytime in Non-Generic
 
@@ -186,7 +186,7 @@ class GFG {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Simple Java program to demonstrate that
 // type casting is not needed in Generic
 
@@ -216,7 +216,7 @@ class Test {
 
 **Output**
 
-```
+```java
 [Sachin, Rahul]
 ```
 

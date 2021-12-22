@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **getName()** 方法用于获取此包的名称。方法以字符串形式返回包的名称。
 **语法:**
 
-```
+```java
 public String getName()
 ```
 
@@ -16,7 +16,7 @@ public String getName()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getName() method
 
 public class Test {
@@ -42,7 +42,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Name of myPackage: java.lang
 ```
@@ -51,7 +51,7 @@ Name of myPackage: java.lang
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate getName() method
 
 public class Test {
@@ -77,7 +77,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Name of myPackage: java.io
 ```

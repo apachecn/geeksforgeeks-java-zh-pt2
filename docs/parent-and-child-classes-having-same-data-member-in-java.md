@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // A Java program to demonstrate that non-method
 // members are accessed according to reference
 // type (Unlike methods which are accessed according
@@ -55,7 +55,7 @@ class Test
 
 输出:
 
-```
+```java
 Parent Constructor
 Child Constructor
 Reference of Child Type : 10

@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```java
 // file name: Main.java
 
 class Base {
@@ -28,7 +28,7 @@ foo()在 Base 中受保护，在派生类中默认。默认访问权限更严格
 
 **问题 2**
 
-```
+```java
 // file name: Main.java
 
 class Complex {

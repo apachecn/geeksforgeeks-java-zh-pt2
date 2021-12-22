@@ -7,7 +7,7 @@
 
 **以下是 Java 中一些无效的变量声明:**
 
-```
+```java
 boolean break = false; // not allowed as break is keyword
 int boolean = 8; // not allowed as boolean is keyword
 boolean goto = false; // not allowed as goto is keyword
@@ -19,7 +19,7 @@ String final = "hi"; // not allowed as final is keyword
 1.  **问题:**我们可以将类名作为程序中预定义的类名之一吗？
     **回答:**是的，我们可以拥有它。以下是使用**编号**作为用户定义类别的示例
 
-```
+```java
 // Number is predefined class name in java.lang package
 // Note : java.lang package is included in every java program by default
 public class Number
@@ -33,14 +33,14 @@ public class Number
 
 输出:
 
-```
+```java
 It works
 
 ```
 
 *   **Using String as User Defined Class:**
 
-    ```
+    ```java
     // String is predefined class name in java.lang package
     // Note : java.lang package is included in every java program by default
     public class String
@@ -54,7 +54,7 @@ It works
 
     但是，在这种情况下，您会得到如下运行时错误:
 
-    ```
+    ```java
     Error: Main method not found in class String, please define 
     the main method as:
        public static void main(String[] args)
@@ -64,7 +64,7 @@ It works
     **解释:**这是因为[主线程](https://www.geeksforgeeks.org/main-thread-java/)正在用预定义的**字符串类**数组参数寻找*主*方法()。但是在这里，它得到了带有用户定义的 String 类的 *main* 方法()。每当主线程看到一个类名时，它就试图逐个范围地搜索该类。首先它会出现在你的程序中，然后出现在你的包中。如果没有找到，那么 [JVM](https://www.geeksforgeeks.org/jvm-works-jvm-architecture/) 遵循委托层次原则加载该类。因此你会得到运行时错误。
     要运行上面的程序，我们还可以提供 String 类的完整路径，即 *java.lang.String* 。
 
-    ```
+    ```java
     // String is predefined class name in java.lang package
     // Note : java.lang package is included in every java program by default
     public class String
@@ -78,7 +78,7 @@ It works
 
     输出:
 
-    ```
+    ```java
     I got confused
 
     ```
@@ -88,7 +88,7 @@ It works
     **问题:**我们可以在程序中有一个变量名作为预定义的类名之一吗？
     **回答:**是的，我们可以拥有它。
 
-    ```
+    ```java
     // Number is predefined class name in java.lang package
     // Note : java.lang package is included in every java program by default
     public class Number
@@ -112,7 +112,7 @@ It works
 
     输出:
 
-    ```
+    ```java
     Number@15db9742
     20
 

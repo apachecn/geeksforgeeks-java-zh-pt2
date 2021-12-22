@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -19,7 +19,7 @@ public boolean equals(Object obj)
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -65,7 +65,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 StringCharacterIterator 1: java.text.StringCharacterIterator@bd43b778
 StringCharacterIterator 2: java.text.StringCharacterIterator@ac5740a8
 StringCharacterIterator 3: java.text.StringCharacterIterator@bd43b778

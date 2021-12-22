@@ -12,7 +12,7 @@
 
     **示例 1:** 除以零导致的运行时错误
 
-    ```
+    ```java
     // Java program to demonstrate Runtime Error
 
     class DivByZero {
@@ -41,7 +41,7 @@
 
     **Java 代码中的运行时错误:**
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ArithmeticException: / by zero
         at DivByZero.main(File.java:14)
 
@@ -49,7 +49,7 @@
 
     **示例 2:** 使用大于数组大小的索引从数组中赋值/检索值导致的运行时错误
 
-    ```
+    ```java
     class RTErrorDemo {
         public static void main(String args[])
         {
@@ -68,7 +68,7 @@
 
     **Java 代码中的运行时错误:**
 
-    ```
+    ```java
     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 9
         at RTErrorDemo.main(File.java:10)
 
@@ -78,7 +78,7 @@
 
     **示例 1:** 拼错变量名或方法名
 
-    ```
+    ```java
     class MisspelledVar {
         public static void main(String args[])
         {
@@ -98,7 +98,7 @@
 
     **Java 代码编译错误:**
 
-    ```
+    ```java
     prog.java:14: error: cannot find symbol
                 + sum);
                   ^
@@ -110,7 +110,7 @@
 
     **示例 2:** 缺少分号
 
-    ```
+    ```java
     class PrintingSentence {
         public static void main(String args[])
         {
@@ -124,7 +124,7 @@
 
     **Java 代码编译错误:**
 
-    ```
+    ```java
     prog.java:8: error: ';' expected
             System.out.println("Welcome to " + s)
                                                  ^
@@ -134,7 +134,7 @@
 
     **示例:**缺少括号、方括号或大括号
 
-    ```
+    ```java
     class MissingParenthesis {
         public static void main(String args[])
         {
@@ -154,7 +154,7 @@
 
     **Java 代码编译错误:**
 
-    ```
+    ```java
     prog.java:10: error: ')' expected
             for (i = 1; i <= 1 5; i++ { ^ error < pre>**示例:**选择语句或循环的格式不正确
 
@@ -175,14 +175,14 @@
             }
         }
     }
-    ```
+    ```java
 
     **Java 代码编译错误:**
 
     ```
     prog.java:12: error: not a statement
             for (i = 1, i <= 2 10; i++) { ^ prog.java:12: error: ';' expected for (i="1," i <="10;" errors pre>
-    ```
+    ```java
 
     ```
 
@@ -192,7 +192,7 @@
 
     **示例:**意外地对变量使用了不正确的运算符来执行运算(使用“/”运算符来获取模数，而不是使用“%”)
 
-    ```
+    ```java
     public class LErrorDemo {
         public static void main(String[] args)
         {
@@ -218,14 +218,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Reversed number is 7870
 
     ```
 
     **示例:**显示错误信息
 
-    ```
+    ```java
     class IncorrectMessage {
         public static void main(String args[])
         {
@@ -253,7 +253,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Finding the largest number 
 
     8 is the smallest Number

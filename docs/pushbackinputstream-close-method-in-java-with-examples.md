@@ -6,7 +6,7 @@ Java 中**推回输入流**类的 **close()** 方法用于关闭输入流，并�
 
 **语法:**
 
-```
+```java
 public void close()
            throws IOException
 
@@ -26,7 +26,7 @@ public void close()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream close() method
 
@@ -70,14 +70,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 GEEKS
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to illustrate
 // PushbackInputStream close() method
 
@@ -121,7 +121,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Stream is closed
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public char last()
 
 ```
@@ -19,7 +19,7 @@ public char last()
 
 **程序:**
 
-```
+```java
 // Java program to demonstrate
 // the above method
 
@@ -48,7 +48,7 @@ public class StringCharacterIteratorDemo {
 
 **输出:**
 
-```
+```java
 Current character: G
 Last character: s
 

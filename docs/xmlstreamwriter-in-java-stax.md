@@ -30,20 +30,20 @@ java StAX 中的 XMLStreamWriter 有一些限制，主要如下:
 
 **步骤 1:** 使用 XMLOutputFactory 创建 XMLStreamWriter 的实例。
 
-```
+```java
 XMLOutputFactory outputFactory = XMLOutputFactory.newFactory();
 XMLStreamWriter xmlStreamWriter = outputFactory.createXMLStreamWriter(outputStream);
 ```
 
 **步骤 2:** 写下 XML 的头，然后继续写元素。
 
-```
+```java
 xmlStreamWriter.writeStartElement("gfg");
 ```
 
 **第三步:**添加元素后，我们可以添加属性、字符数据或 CDATA。
 
-```
+```java
 xmlStreamWriter.writeAttribute("id", "10");
 xmlStreamWriter.writeCharacters("hello world!");
 xmlStreamWriter.writeCData("more text data");
@@ -51,20 +51,20 @@ xmlStreamWriter.writeCData("more text data");
 
 **步骤 4:** 关闭打开的元素
 
-```
+```java
 xmlStreamWriter.writeEndElement();
 ```
 
 **第 5 步:**清空元素或写评论，但一定要注意这是一个可选步骤
 
-```
+```java
 xmlStreamWriter.writeEmptyElement("used & new");
 xmlStreamWriter.writeComment("Thank you!");
 ```
 
 **步骤 6:** 关闭并完成 XML 文档。
 
-```
+```java
 xmlStreamWriter.writeEndDocument();
 xmlStreamWriter.close();
 ```
@@ -73,7 +73,7 @@ xmlStreamWriter.close();
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate XMLStreamWriter in Java StAX
 
 // Importing required classes
@@ -147,7 +147,7 @@ public class StaxXMLStreamWriter {
 
 **输出:**
 
-```
+```java
 <gfg id="10">hello world!
 <![CDATA[more text data]]>
 </gfg>

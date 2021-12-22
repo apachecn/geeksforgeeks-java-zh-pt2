@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public OffsetTime minus(long amountToSubtract, TemporalUnit unit)
 
     ```
@@ -22,7 +22,7 @@
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java program to demonstrate the minus() method
 
     import java.time.OffsetTime;
@@ -41,14 +41,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Time after subtraction of hours: 09:35:40+06:03
 
     ```
 
     **程序 2** :
 
-    ```
+    ```java
     // Java program to demonstrate the minus() method
 
     import java.time.OffsetTime;
@@ -67,7 +67,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Time after subtraction of minutes: 11:33:40+06:03
 
     ```
@@ -76,7 +76,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public OffsetTime minus(TemporalAmount amountToSubtract)
 
     ```
@@ -94,7 +94,7 @@
 
     **程序 1 :**
 
-    ```
+    ```java
     // Java program to demonstrate the minus() method
 
     import java.time.Duration;
@@ -113,14 +113,14 @@
 
     **Output:**
 
-    ```
+    ```java
     Time after subtraction of hours: 09:35:40+06:03
 
     ```
 
     **程序 2** :
 
-    ```
+    ```java
     // Java program to demonstrate the minus() method
 
     import java.time.Duration;
@@ -139,7 +139,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Time after subtraction of hours: 11:07:40+06:03
 
     ```

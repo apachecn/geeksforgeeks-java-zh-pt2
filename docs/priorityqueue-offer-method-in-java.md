@@ -6,7 +6,7 @@ java.util.PriorityQueue.offer()方法用于将特定元素插入优先级队列�
 
 **语法:**
 
-```
+```java
 Priority_Queue.offer(Object element)
 ```
 
@@ -22,7 +22,7 @@ Priority_Queue.offer(Object element)
 下面的程序说明了 java.util.PriorityQueue.offer()方法
 **程序 1:**
 
-```
+```java
 // Java code to illustrate offer()
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [4, Geeks, To, Welcome, Geeks]
 Priority queue after Insertion: [4, Class, Priority, Geeks, Geeks, To, The, Welcome]
 
@@ -63,7 +63,7 @@ Priority queue after Insertion: [4, Class, Priority, Geeks, Geeks, To, The, Welc
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate offer()
 import java.util.*;
 
@@ -96,7 +96,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 Initial PriorityQueue: [5, 10, 30, 20, 15]
 Priority queue after Insertion: [5, 10, 30, 20, 15, 100, 120, 150]
 

@@ -6,7 +6,7 @@ java.util.ArrayList 类中的 **remove(int index)** 方法删除列表中指定�
 
 **语法:**
 
-```
+```java
 public removed_element remove(int index)
 ```
 
@@ -18,7 +18,7 @@ public removed_element remove(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove an element
 // from an specified index from
 // an ArrayList.
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Size of list: 5
 Flower ArrayList = [red-rose, tulip, sun-flower, marie-gold, orchid]
 Removing element at index = 2 
@@ -81,7 +81,7 @@ Flower ArrayList = [red-rose, tulip, marie-gold, orchid]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to show the exception
 // of remove() method
 
@@ -121,6 +121,6 @@ public class ArrayListDemo {
 }
 ```
 
-```
+```java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 4
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public double getVersion()
 ```
 
@@ -16,7 +16,7 @@ public double getVersion()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getVersion() method
 
@@ -52,14 +52,14 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 version : 1.8
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getVersion() method
 
@@ -95,7 +95,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 version : 1.8
 
 ```

@@ -21,7 +21,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate that we can swap two
 // objects be swapping members
 
@@ -65,7 +65,7 @@ class GFG {
 
 ****Output**
 
-```
+```java
 c1.no = 2
 c2.no = 1
 ```** 
@@ -78,7 +78,7 @@ c2.no = 1
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to demonstrate that we can swap two
 // objects be swapping members
 // Where it does not work
@@ -135,7 +135,7 @@ class Main
 
 ****Output**
 
-```
+```java
 no = 1, model = 101
 no = 2, model = 202
 ```** 
@@ -150,7 +150,7 @@ no = 2, model = 202
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```java
 // Java program to Demonstrate that Wrapper Classes
 // Can be Used to Swap two Objects
 
@@ -215,7 +215,7 @@ class GFG {
 
 ****输出:****
 
-```
+```java
 no = 2, model = 202
 no = 1, model = 101
 ```

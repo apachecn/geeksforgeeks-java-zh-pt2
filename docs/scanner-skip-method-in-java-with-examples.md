@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public Scanner skip(Pattern pattern)
 ```
 
@@ -25,7 +25,7 @@ public Scanner skip(Pattern pattern)
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // skip() method of Scanner class in Java
 
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 String trying to get input:
 GeeksForGeeks - A Computer Science Portal for Geeks
 Skipping 5 letter words that ends with 'eks'
@@ -78,7 +78,7 @@ ForGeeks - A Computer Science Portal for Geeks
 
 **程序 2:** 演示 nosucheelementexception
 
-```
+```java
 // Java program to illustrate the
 // skip() method of Scanner class in Java
 
@@ -125,7 +125,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 String trying to get input:
 GeeksForGeeks - A Computer Science Portal for Geeks
 Skipping 3 letter words and
@@ -136,7 +136,7 @@ Exception thrown: java.util.NoSuchElementException
 
 **程序 3:** 演示非法状态异常
 
-```
+```java
 // Java program to illustrate the
 // skip() method of Scanner class in Java
 
@@ -184,7 +184,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 String trying to get input:
 GeeksForGeeks - A Computer Science Portal for Geeks
 Scanner Closed

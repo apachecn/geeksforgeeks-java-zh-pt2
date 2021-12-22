@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public MatchResult match()
 ```
 
@@ -18,7 +18,7 @@ public MatchResult match()
 
 **程序 1:**
 
-```
+```java
 // Java program to illustrate the
 // match() method of Scanner class in Java
 // without parameter
@@ -53,7 +53,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 true
 java.util.regex.Matcher[pattern=GFG region=0, 10 lastmatch=GFG]
 GFG Geeks!
@@ -62,7 +62,7 @@ GFG Geeks!
 
 **程序 2:** 演示非法状态异常
 
-```
+```java
 // Java program to illustrate the
 // match() method of Scanner class in Java
 // without parameter
@@ -104,7 +104,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 false
 Exception caught is: java.lang.IllegalStateException: No match result available
 

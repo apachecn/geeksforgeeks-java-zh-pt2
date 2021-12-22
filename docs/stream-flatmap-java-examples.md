@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 <**R**> Stream<**R**> flatMap(Function<**?** super T, **?** extends Stream<**?** extends R>> mapper)
 
 where, R is the element type of the new stream.
@@ -25,7 +25,7 @@ returns the new stream.
 
 **示例 1 :** 提供了映射功能的 flatMap()函数。
 
-```
+```java
 // Java code for Stream flatMap
 // (Function mapper) to get a stream by
 // replacing the stream with a mapped
@@ -52,7 +52,7 @@ class GFG {
 
 输出:
 
-```
+```java
 5.6
 7.4
 4
@@ -63,7 +63,7 @@ class GFG {
 
 **示例 2 :** flatMap()函数提供了将字符串映射到位置 2 的操作。
 
-```
+```java
 // Java code for Stream flatMap
 // (Function mapper) to get a stream by
 // replacing the stream with a mapped
@@ -91,7 +91,7 @@ class GFG {
 
 输出:
 
-```
+```java
 e
 G
 e
@@ -107,14 +107,14 @@ T3】**
 **例 1 :**
 扁平化前的列表:
 
-```
+```java
 [ [2, 3, 5], [7, 11, 13], [17, 19, 23] ]
 
 ```
 
 该列表有 2 个级别，由 3 个小列表组成。扁平化后，转化为“一级”结构，如图所示:
 
-```
+```java
 [ 2, 3, 5, 7, 11, 13, 17, 19, 23 ] 
 
 ```
@@ -122,14 +122,14 @@ T3】**
 **例 2 :**
 拉平前的列表:
 
-```
+```java
 [ ["G", "E", "E"], ["K", "S", "F"], ["O", "R", "G"], ["E", "E", "K", "S"] ]
 
 ```
 
 该列表有 3 个级别，由 4 个小列表组成。扁平化后，转化为“一级”结构，如图所示:
 
-```
+```java
 ["G", "E", "E", "K", "S", "F", "O", "R", "G", "E", "E", "K", "S"] 
 
 ```
@@ -137,7 +137,7 @@ T3】**
 简而言之，我们可以说，如果在展平之前存在< < **数据类型** > > 的**列表流，那么在应用 flatMap()时，**数据类型<<**>>**的流在展平之后被返回。
 **应用:******
 
-```
+```java
 // Java code for Stream flatMap(Function mapper) 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -175,7 +175,7 @@ class GFG
 
 **输出:**
 
-```
+```java
 The Structure before flattening is : [[5, 7, 11, 13], [1, 3, 5], [2, 4, 6, 8]]
 The Structure after flattening is : [5, 7, 11, 13, 1, 3, 5, 2, 4, 6, 8] 
 ```

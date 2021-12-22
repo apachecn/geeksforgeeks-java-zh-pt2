@@ -20,7 +20,7 @@
 
     **语法:**
 
-    ```
+    ```java
     // Declaration
     type var-name[];
     OR
@@ -33,7 +33,7 @@
 
     **实施:**
 
-    ```
+    ```java
     // Java program to illustrate creating an array
     // of integers, puts some values in the array,
     // and prints each value to standard output.
@@ -72,7 +72,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Element at index 0 : 10
     Element at index 1 : 20
     Element at index 2 : 30
@@ -96,7 +96,7 @@
 
     链表是线性数据结构，其中元素不存储在连续的位置，每个元素都是一个独立的对象，有数据部分和地址部分。这些元素使用指针和地址进行链接。每个元素都被称为一个节点。由于插入和删除的动态性和容易性，它们比数组更受欢迎。
 
-    ```
+    ```java
     // Java code for Linked List implementation
 
     import java.util.*;
@@ -158,7 +158,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Linked list : [D, A, E, B, C, F, G]
     Linked list after deletion: [A, E, F]
     List contains the element 'E' 
@@ -174,7 +174,7 @@
 
     [![](img/1fac4717827a04f080fae80f8fd57fe7.png)](https://www.geeksforgeeks.org/doubly-linked-list/)
 
-    ```
+    ```java
     // Java program to demonstrate DLL
 
     // Class for Doubly Linked List
@@ -343,7 +343,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Created DLL is: 
     Traversal in forward Direction
     1 7 8 6 4 
@@ -356,7 +356,7 @@
 
     向量类实现了一个可增长的对象数组。向量基本上属于遗留类，但现在它与集合完全兼容。Vector 实现了一个动态数组，这意味着它可以根据需要增长或收缩。像数组一样，它包含可以使用整数索引访问的组件。
 
-    ```
+    ```java
     // Java code illustrating Vector data structure
 
     import java.util.*;
@@ -381,7 +381,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Vector is [1, 2, geeks, forGeeks, 3]
 
     ```
@@ -392,7 +392,7 @@
 
     [![](img/65e1db85d6cbd7231fe141e47968bdc0.png)](https://www.geeksforgeeks.org/stack-class-in-java/)
 
-    ```
+    ```java
     // Java code for stack implementation
 
     import java.io.*;
@@ -418,7 +418,7 @@
 
     **Output:**
 
-    ```
+    ```java
     4
     3
     2
@@ -437,7 +437,7 @@
 
     [![](img/c42036f3f74cce8827236640b7f21a49.png)](https://www.geeksforgeeks.org/queue-interface-java/)
 
-    ```
+    ```java
     // Java orogram to demonstrate working
     // of Queue interface in Java
 
@@ -480,7 +480,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Elements of queue-[0, 1, 2, 3, 4]
     removed element-0
     [1, 2, 3, 4]
@@ -505,7 +505,7 @@
     *   **子节点**是有父节点的节点
     *   **叶**是一个没有任何子节点附着的节点，它是一棵树的最底层节点。
 
-    ```
+    ```java
     // Java program for different tree traversals
 
     /* Class containing left and right child of current 
@@ -614,7 +614,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Preorder traversal of binary tree is
     1 2 4 5 3 
     Inorder traversal of binary tree is

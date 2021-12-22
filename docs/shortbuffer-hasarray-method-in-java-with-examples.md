@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```java
 public final boolean hasArray()
 ```
 
@@ -17,7 +17,7 @@ public final boolean hasArray()
 **程序 1** :
 当缓冲区由数组支持时。
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -68,7 +68,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb is backed by array
 
 ```
@@ -76,7 +76,7 @@ ShortBuffer sb is backed by array
 **程序 2** :
 当缓冲区没有数组支持时。
 
-```
+```java
 // Java program to demonstrate
 // hasArray() method
 
@@ -132,7 +132,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ShortBuffer sb is not backed by any array
 
 ```

@@ -6,7 +6,7 @@
 
 **1)以下程序的输出是什么？**
 
-```
+```java
 class Main {
     public static void main(String[] args)
     {
@@ -35,7 +35,7 @@ D. 116 116.0
 
 **2)以下程序的输出是什么？**
 
-```
+```java
 class Main {
     public static void main(String[] args)
     {
@@ -59,7 +59,7 @@ D .真真
 
 **3)以下程序的输出是什么？**
 
-```
+```java
 class Main {
     public static void main(String args[])
     {
@@ -81,7 +81,7 @@ d . 10 10.0
 
 **4)以下程序的输出是什么？**
 
-```
+```java
 class Main {
     static int funct(Integer x)
     {
@@ -107,7 +107,7 @@ D .无输出
 
 **5)以下程序的输出是什么？**
 
-```
+```java
 class Main {
     public static void main(String args[])
     {

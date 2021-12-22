@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Year plus(long amountToadd, TemporalUnit unit)
 
 ```
@@ -28,7 +28,7 @@ public Year plus(long amountToadd, TemporalUnit unit)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plus(long, unit) method
 
@@ -59,7 +59,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 After addition year: 2049
 
@@ -67,7 +67,7 @@ After addition year: 2049
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plus(long, unit) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2022
 After addition year: 2072
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toString()
 ```
 
@@ -16,7 +16,7 @@ public String toString()
 
 **示例 1:** 演示包含整数列表的 PriorityBlockingQueue 上的 toString()方法。
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of PriorityBlockingQueue
 
@@ -49,14 +49,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String representation: [4594591, 9459156, 4981561, 45815616]
 
 ```
 
 **示例 2:** 演示包含字符串列表的 PriorityBlockingQueue 上的 toString()方法
 
-```
+```java
 // Java Program Demonstrate toString()
 // method of PriorityBlockingQueue
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 String representation: [A Computer Portal, By Sandeep Jain, Geeks, forGeeks]
 
 ```

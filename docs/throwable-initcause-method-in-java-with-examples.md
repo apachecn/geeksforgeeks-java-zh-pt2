@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Throwable initCause?(Throwable cause)
 ```
 
@@ -23,7 +23,7 @@ public Throwable initCause?(Throwable cause)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the initCause() Method.
 
@@ -73,14 +73,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Cause : java.lang.ArrayIndexOutOfBoundsException
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the initCause() Method.
 
@@ -141,7 +141,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Cause : java.lang.Exception: Numbers are not Positive
 
 ```

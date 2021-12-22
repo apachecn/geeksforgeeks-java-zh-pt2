@@ -17,7 +17,7 @@
 
 1.  在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。它允许开发人员直接使用内置功能。
 
-    ```
+    ```java
 
     dependencies {     
           implementation 'io.supercharge:shimmerlayout:2.1.0'
@@ -28,7 +28,7 @@
 
     ## 
 
-    ```
+    ```java
     <?xml version="1.0" encoding="utf-8"?>
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="rectangle">
@@ -44,7 +44,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```java
 
     <io.supercharge.shimmerlayout.ShimmerLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -125,7 +125,7 @@
 
     ## MainActivity.java
 
-    ```
+    ```java
     package org.geeksforgeeks.shimmerLayout;
 
     import android.os.Bundle;

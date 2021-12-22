@@ -13,7 +13,7 @@
 
     **Example:**
 
-    ```
+    ```java
     Pair p1 = new Pair(3,4);
     Pair p2 = new Pair(3,4);
     Pair p3 = new Pair(4,4);
@@ -33,7 +33,7 @@
 
     **注意:你需要在你的机器上安装 Java 8 才能运行下面的程序。**
 
-    ```
+    ```java
     /* Java program to find a Pair which has maximum score*/
     import javafx.util.Pair;
     import java.util.ArrayList;
@@ -99,7 +99,7 @@
 
     **输出**:
 
-    ```
+    ```java
     Student C is top scorer with score of 99
     ```
 

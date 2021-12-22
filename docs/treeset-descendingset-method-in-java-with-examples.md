@@ -6,7 +6,7 @@
 返回的集合具有相当于 Collections.reverseOrder(比较器())的排序。表达式 s.descendingSet()。descendingSet()返回 s 的视图，本质上等同于 s。
 **语法:**
 
-```
+```java
 public NavigableSet descendingSet()
 ```
 
@@ -16,7 +16,7 @@ public NavigableSet descendingSet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // descendingSet() method
 // for String value
@@ -68,7 +68,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeSet: [A, B, C, D]
 
 Values using DescendingSet:
@@ -82,7 +82,7 @@ Value : A
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // descendingSet() method
 // for Integer value
@@ -128,7 +128,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 Values using DescendingSet:
 Value : 40
 Value : 30

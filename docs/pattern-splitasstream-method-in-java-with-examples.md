@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Stream<String> splitAsStream(CharSequence input)
 
 ```
@@ -19,7 +19,7 @@ public Stream<String> splitAsStream(CharSequence input)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.splitAsStream(CharSequence input) method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Welcome to 
  for
 
@@ -60,7 +60,7 @@ Welcome to
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // Pattern.splitAsStream(CharSequence input) method
 
@@ -93,7 +93,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 aa
 bb
 cc

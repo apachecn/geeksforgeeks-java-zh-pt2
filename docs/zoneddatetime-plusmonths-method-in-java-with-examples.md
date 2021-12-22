@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime plusMonths(long months)
 
 ```
@@ -20,7 +20,7 @@ public ZonedDateTime plusMonths(long months)
 下面的程序说明了 plusMonths()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusMonths() method
 
@@ -54,7 +54,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime before adding months: 2018-12-06T19:21:12.123+05:30[Asia/Calcutta]
 ZonedDateTime after  adding months: 2019-03-06T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -62,7 +62,7 @@ ZonedDateTime after  adding months: 2019-03-06T19:21:12.123+05:30[Asia/Calcutta]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.plusMonths() method
 

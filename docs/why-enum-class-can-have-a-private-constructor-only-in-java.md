@@ -6,7 +6,7 @@
 
 **没有构造函数的枚举:**
 
-```
+```java
 enum Day{
  SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 }
@@ -14,7 +14,7 @@ enum Day{
 
 **带构造函数的枚举:**
 
-```
+```java
 enum Size {
  SMALL("The size is small."),
  MEDIUM("The size is medium."),
@@ -41,7 +41,7 @@ Java 中的枚举包含固定的常量值。因此，没有理由使用公共或
 
 ## 爪哇
 
-```
+```java
 enum PizzaSize {
 
    // enum constants calling the enum constructors 
@@ -72,7 +72,7 @@ class GFG {
 
 **输出**
 
-```
+```java
 The size is small.
 
 ```

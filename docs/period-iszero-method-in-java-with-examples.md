@@ -8,7 +8,7 @@ Java 中 Period 类的 isZero()方法用来检查这个周期中的 YEAR、MONTH
 
 **语法:**
 
-```
+```java
 public boolean isZero()
 ```
 
@@ -20,7 +20,7 @@ public boolean isZero()
 
 **程序 1** :
 
-```
+```java
 // Java code to show the function isZero()
 // to check whether all of the three given units
 // YEAR, MONTH, DAY are zero.
@@ -51,14 +51,14 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java code to show the function isZero()
 // to check whether all of the three given units
 // YEAR, MONTH, DAY are zero.
@@ -89,7 +89,7 @@ public class PeriodDemo {
 
 **输出:**
 
-```
+```java
 false
 
 ```

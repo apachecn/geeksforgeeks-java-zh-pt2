@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```java
 Input :    Hello   Everyone . 
 Output : HelloEveryone.
 
@@ -31,7 +31,7 @@ Output : GeeksforGeeks.
 
 **申报:**
 
-```
+```java
 public String replaceAll(String replacement) 
 ```
 
@@ -43,7 +43,7 @@ public String replaceAll(String replacement)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove whitespaces from a string
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -72,7 +72,7 @@ public class GeeksforGeeks {
 
 **Output**
 
-```
+```java
 HelloGeeks.
 ```
 
@@ -82,7 +82,7 @@ HelloGeeks.
 
 **语法:**
 
-```
+```java
 public Matcher appendReplacement(StringBuilder builder, String stringToBeReplaced)
 ```
 
@@ -103,7 +103,7 @@ public Matcher appendReplacement(StringBuilder builder, String stringToBeReplace
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to remove the whiltespaces
 // in a string using Java Regex
 import java.util.regex.Matcher;
@@ -138,6 +138,6 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks            
 ```

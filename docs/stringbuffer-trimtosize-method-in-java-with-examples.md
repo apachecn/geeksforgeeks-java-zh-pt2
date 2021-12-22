@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void trimToSize()
 ```
 
@@ -16,7 +16,7 @@ public void trimToSize()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the trimToSize() Method.
 
@@ -53,7 +53,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Capacity before applying trimToSize() = 29
 String = GeeksForGeeksContribute
 Capacity after applying trimToSize() = 23
@@ -62,7 +62,7 @@ Capacity after applying trimToSize() = 23
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the trimToSize() Method.
 
@@ -99,7 +99,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Capacity before applying trimToSize() = 34
 String = GeeksForGeeks classes
 Capacity after applying trimToSize() = 21

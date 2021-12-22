@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input : "Welcome to geeksforgeeks"
 Output : "geeksforgeeks to Welcome"
 
@@ -17,7 +17,7 @@ Output :"Programming Java love I"
 
 先决条件:[Java 中的正则表达式](https://www.geeksforgeeks.org/regular-expressions-in-java/)
 
-```
+```java
 // Java Program to reverse a String
 // without using inbuilt String function
 import java.util.regex.Pattern;
@@ -61,7 +61,7 @@ public class Exp {
 
 输出:
 
-```
+```java
 geeksforgeeks to Welcome
 Programming Java love I
 

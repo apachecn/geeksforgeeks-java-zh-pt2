@@ -16,7 +16,7 @@ Java 中 **[StringWriter](https://www.geeksforgeeks.org/java-io-stringwriter-cla
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter getClass() method
 
@@ -53,14 +53,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Parent Class: class java.io.StringWriter
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // StringWriter getClass() method
 
@@ -97,7 +97,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Parent Class: class java.io.StringWriter
 
 ```

@@ -16,7 +16,7 @@
 
 如果这些检查中的任何一个失败，JVM 都会抛出一个“java.lang.VerifyError”错误。但是，我们可以使用禁用这些检查
 
-```
+```java
 java -noverify VerifyGeekFile
 
 ```
@@ -26,7 +26,7 @@ java -noverify VerifyGeekFile
 
 考虑这个简单的程序
 
-```
+```java
 // A Java program to demonstrate working
 // of the verification process
 
@@ -52,7 +52,7 @@ class VerifyGeekFile
 }
 ```
 
-```
+```java
 Output
  4000.0
 
@@ -60,14 +60,14 @@ Output
 
 然后在命令行中执行该命令，以助记符的形式查看字节码:-
 
-```
+```java
 javap -c VerifyGeekFile
 
 ```
 
 输出:
 
-```
+```java
 float depositBalance(int);
     Code:
        0: iload_1

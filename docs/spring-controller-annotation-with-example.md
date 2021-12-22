@@ -38,7 +38,7 @@ Spring @Controller 标注也是 **@Component** 标注的专门化。@Controller 
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
@@ -53,7 +53,7 @@ Spring @Controller 标注也是 **@Component** 标注的专门化。@Controller 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DemoController File
 
 // Importing package in this code module
@@ -93,7 +93,7 @@ public class DemoController {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate DemoApplication File
 
 // Importing package in this code module

@@ -6,7 +6,7 @@
 集合的迭代器以升序返回键。集合由地图支持，因此对地图的更改会反映在集合中，反之亦然。如果在对集合进行迭代时修改了映射(通过迭代器自己的移除操作除外)，迭代的结果是未定义的。集合支持元素移除，通过迭代器移除、集合移除、全部移除、保留和清除操作从映射中移除相应的映射。它不支持 add 或 addAll 操作。
 **语法:**
 
-```
+```java
 public NavigableSet navigableKeySet()
 ```
 
@@ -16,7 +16,7 @@ public NavigableSet navigableKeySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // navigableKeySet() method
 // for Integer value key
@@ -62,7 +62,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeMap: {1=One, 2=Two, 3=Three, 4=Four, 5=Five}
 Value is: [1, 2, 3, 4, 5]
 ```
@@ -71,7 +71,7 @@ Value is: [1, 2, 3, 4, 5]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // navigableKeySet() method
 // for String value key
@@ -117,7 +117,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 TreeMap: {A=1, B=2, C=3, D=4, E=5}
 Value is: [A, B, C, D, E]
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean contains(Object element)
 ```
 
@@ -20,7 +20,7 @@ boolean contains(Object element)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java code to illustrate
 // SortedSet.contains() method
 
@@ -66,7 +66,7 @@ public class SortedSetDemo {
 
 **Output:** 
 
-```
+```java
 Set: [4, Geeks, To, Welcome]
 Does the Set contains 'Geeks'? true
 Does the Set contains '4'? true

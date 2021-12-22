@@ -9,13 +9,13 @@
 1.  **Upper Bounded Wildcards:** These wildcards can be used when you want to relax the restrictions on a variable. For example, say you want to write a method that works on List < integer >, List < double >, and List < number > , you can do this  using an upper bounded wildcard.
     To declare an upper-bounded wildcard, use the wildcard character (‘?’), followed by the extends keyword, followed by its upper bound.
 
-    ```
+    ```java
     public static void add(List<? extends Number> list)
     ```
 
     **实施:**
 
-    ```
+    ```java
     //Java program to demonstrate Upper Bounded Wildcards
     import java.util.Arrays;
     import java.util.List;
@@ -53,7 +53,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Total sum is:22.0
     Total sum is:15.299999999999999
     ```
@@ -62,13 +62,13 @@
 
 2.  **Lower Bounded Wildcards:** It is expressed using the wildcard character (‘?’), followed by the super keyword, followed by its lower bound: <? super A>.
 
-    ```
+    ```java
      Syntax: Collectiontype <? super A>
     ```
 
     **执行:** 
 
-    ```
+    ```java
     //Java program to demonstrate Lower Bounded Wildcards
     import java.util.Arrays;
     import java.util.List;
@@ -99,7 +99,7 @@
 
     **输出:**
 
-    ```
+    ```java
     [4, 5, 6, 7]
     [4, 5, 6, 7]
     ```
@@ -116,7 +116,7 @@
 
     **执行:** 
 
-    ```
+    ```java
     //Java program to demonstrate Unbounded wildcard
     import java.util.Arrays;
     import java.util.List;
@@ -147,7 +147,7 @@
 
     输出:
 
-    ```
+    ```java
     [1, 2, 3]
     [1.1, 2.2, 3.3]
     ```

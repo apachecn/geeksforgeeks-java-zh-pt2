@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Stack.remove(Object o)
 ```
 
@@ -18,7 +18,7 @@ Stack.remove(Object o)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate remove() when position of
 // element is passed as parameter
 
@@ -57,7 +57,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [Geeks, for, Geeks, 10, 20]
 Was 20 removed: true
 Final Stack: [Geeks, for, Geeks, 10]
@@ -66,7 +66,7 @@ Final Stack: [Geeks, for, Geeks, 10]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate remove() when position of
 // element is passed as parameter
 
@@ -105,7 +105,7 @@ public class StackDemo {
 
 **Output:**
 
-```
+```java
 Stack: [10, 20, 30, 40, 50]
 Was 100 removed: false
 Final Stack: [10, 20, 30, 40, 50]

@@ -30,7 +30,7 @@ java StAX 中的 XMLEventWriter 有一些限制，主要如下:
 
 **步骤 1 :** 使用 XMLOutputFactory 创建 XMLEventWriter 的实例。
 
-```
+```java
 XMLOutputFactory factory = XMLOutputFactory.newInstance();
 XMLEventFactory eventFactory = XMLEventFactory.newInstance();
 XMLEventWriter writer =factory.createXMLEventWriter(
@@ -39,14 +39,14 @@ new FileWriter("F:\\gfg-XmlFile.xml"));
 
 **第 2 步:**编写 XML 的头部，并继续创建开始元素。
 
-```
+```java
 XMLEvent event = eventFactory.createStartDocument();
 event = eventFactory.createStartElement("GFG", "https://www.geeksforgeeks.org/", "document");
 ```
 
 **第三步:**添加元素后我们可以添加属性，命名空间。
 
-```
+```java
 event = eventFactory.createNamespace("GeeksforGeeks-practice",
 "https://practice.geeksforgeeks.org/");
 
@@ -57,14 +57,14 @@ writer.add(event);
 
 **步骤 4:** 冲洗并关闭打开的元素。
 
-```
+```java
 writer.flush();
 writer.close();
 ```
 
 **第五步:**添加试捕块。
 
-```
+```java
 try 
     {
   ----------code------------
@@ -83,7 +83,7 @@ catch (IOException e)
 
 ## 爪哇
 
-```
+```java
 // Java Program to Illustrate XML EventWriter in StAX API
 
 // Importing required classes
@@ -165,7 +165,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 <?xml version='1.0' encoding='UTF-8'?>
 <GFG:document xmlns:GeeksforGeeks-practice="https://practice.geeksforgeeks.org/" attribute="GFG>
 </GFG:document>

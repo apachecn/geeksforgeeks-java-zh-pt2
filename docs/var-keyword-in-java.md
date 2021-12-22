@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to explain that
 // var can used to declare any datatype
 
@@ -45,7 +45,7 @@ class Demo1 {
 
 **Output**
 
-```
+```java
 100
 1.9
 a
@@ -57,7 +57,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var can be used to declare a local variable
 
@@ -76,7 +76,7 @@ class Demo2 {
 
 **Output**
 
-```
+```java
 100
 ```
 
@@ -84,7 +84,7 @@ class Demo2 {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var cannot be used to declare
 // instance and global variables
@@ -102,7 +102,7 @@ class Demo3 {
 
 **输出**
 
-```
+```java
 prog.java:8: error: 'var' is not allowed here
     var x = 50;
     ^
@@ -113,7 +113,7 @@ prog.java:8: error: 'var' is not allowed here
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var cannot be used as a Generic
 // type
@@ -138,7 +138,7 @@ class Demo4 {
 
 **输出**
 
-```
+```java
 prog.java:10: error: 'var' is not allowed here
         var<var> al = new ArrayList<>();
             ^
@@ -149,7 +149,7 @@ prog.java:10: error: 'var' is not allowed here
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var cannot be used with Generic type
 
@@ -177,7 +177,7 @@ class Demo5 {
 
 **输出**
 
-```
+```java
 prog.java:9: error: illegal reference to restricted type 'var'
         var<Integer> al = new ArrayList<Integer>();
         ^
@@ -188,7 +188,7 @@ prog.java:9: error: illegal reference to restricted type 'var'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var cannot be used without explicit
 // initialization
@@ -211,7 +211,7 @@ class Demo6 {
 
 **输出**
 
-```
+```java
 prog.java:13: error: cannot infer type for local variable variable
         var variable;
             ^
@@ -227,7 +227,7 @@ prog.java:16: error: cannot infer type for local variable variable
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate that
 // var cannot be used with Lambda
 // Expression
@@ -252,7 +252,7 @@ class Demo7 {
 }
 ```
 
-```
+```java
 prog.java:13: error: cannot infer type for local variable obj
           var obj = (a, b) -> {
               ^
@@ -264,7 +264,7 @@ prog.java:13: error: cannot infer type for local variable obj
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to explain that
 // var cannot be used for a method
 // parameters and return type
@@ -296,7 +296,7 @@ class Demo8 {
 
 **输出**
 
-```
+```java
 prog.java:6: error: 'var' is not allowed here
     var method1()
     ^

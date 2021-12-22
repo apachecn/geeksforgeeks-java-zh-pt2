@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**亚纳米()**方法返回这个 OffsetDateTime �
 
 **语法:**
 
-```
+```java
 public OffsetDateTime minusNanos(long nano-seconds)
 
 ```
@@ -21,7 +21,7 @@ public OffsetDateTime minusNanos(long nano-seconds)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the minusNanos() method
 
 import java.time.OffsetDateTime;
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting nano-seconds: 2018-12-12T13:30:30.000000120+05:00
 
@@ -56,7 +56,7 @@ Date1 after subtracting nano-seconds: 2018-12-12T13:30:30.000000120+05:00
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the minusNanos() method
 
 import java.time.OffsetDateTime;
@@ -83,7 +83,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date1 after subtracting nano-seconds: 2018-12-12T13:30:29.999999860+05:00
 

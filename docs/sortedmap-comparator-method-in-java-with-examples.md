@@ -5,7 +5,7 @@
 **java.util.SortedMap** 接口的**比较器()**方法用于返回用于对该地图中的键进行排序的比较器，如果该地图使用其键的自然排序，则返回 null。
 **语法:**
 
-```
+```java
 public Comparator comparator()
 ```
 
@@ -15,7 +15,7 @@ public Comparator comparator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // comparator() method for natural ordering
 
@@ -60,7 +60,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 SortedTreeMap: {1=one, 2=two, 3=three, 4=four, 5=five}
 Comparator value: null
 ```
@@ -69,7 +69,7 @@ Comparator value: null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // comparator() method
 // for reverse ordering
@@ -122,7 +122,7 @@ The set is: [10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You]
 
 **Output:** 
 
-```
+```java
 SortedTreeMap: {5=five, 4=four, 3=three, 2=two, 1=one}
 Comparator value: java.util.Collections$ReverseComparator@232204a1
 ```

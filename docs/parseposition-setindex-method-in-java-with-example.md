@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setIndex(int index)
 ```
 
@@ -18,7 +18,7 @@ public void setIndex(int index)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setIndex() method
 
@@ -61,14 +61,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current parse position: 3
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setIndex() method
 
@@ -111,7 +111,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 current parse position: 30
 
 ```

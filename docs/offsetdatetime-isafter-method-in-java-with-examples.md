@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的**isaafter()**方法检查这个日期是否在指
 
 **语法:**
 
-```
+```java
 public boolean isAfter(OffsetDateTime other)
 
 ```
@@ -19,7 +19,7 @@ public boolean isAfter(OffsetDateTime other)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate the isAfter() method
 
 import java.time.OffsetDateTime;
@@ -54,7 +54,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2018-12-12T13:30:30+05:00
 Is Date1 after Date2? false
@@ -63,7 +63,7 @@ Is Date1 after Date2? false
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the isAfter() method
 
 import java.time.OffsetDateTime;
@@ -98,7 +98,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Date1: 2018-12-12T13:30:30+05:00
 Date2: 2015-12-12T13:30:30+05:00
 Is Date1 after Date2? true

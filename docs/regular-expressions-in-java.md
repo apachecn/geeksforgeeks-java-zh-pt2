@@ -47,7 +47,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrating Working of matches() Method
 // Pattern class
 
@@ -77,7 +77,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 true
 false
 ```
@@ -108,7 +108,7 @@ false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // String matching in Java
 
@@ -146,7 +146,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Pattern found from 0 to 4
 Pattern found from 8 to 12
 ```
@@ -155,7 +155,7 @@ Pattern found from 8 to 12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // String matching in Java
 
@@ -195,7 +195,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Pattern found from 0 to 2
 Pattern found from 8 to 10
 Pattern found from 16 to 16
@@ -205,7 +205,7 @@ Pattern found from 16 to 16
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program Demonstrating Working of String matching
 
 // Importing Matcher class and Pattern classes
@@ -242,7 +242,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Pattern found from 0 to 2
 Pattern found from 8 to 10
 Pattern found from 16 to 16
@@ -254,14 +254,14 @@ string split()方法在给定正则表达式的匹配项周围断开给定的字
 
 插图:
 
-```
+```java
 Input  --> String: 016-78967
 Output -->  Regex: {"016", "78967"}
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program Illustrating Working of split() Method
 // by Splitting a text by a given pattern
 
@@ -299,7 +299,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 geeks
 for
 geeks

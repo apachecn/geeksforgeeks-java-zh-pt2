@@ -20,7 +20,7 @@
 
 如下所示，所以我们首先需要创建一个名为 Coffee 的类，如下所示:
 
-```
+```java
 // Class
 public class Coffee {
 
@@ -33,7 +33,7 @@ public class Coffee {
 
 *   Now we will also define a simple REST controller to demonstrate serialization:
 
-```
+```java
 @GetMapping ("/coffee")
 
 public Coffee getCoffee(
@@ -49,7 +49,7 @@ public Coffee getCoffee(
 
 *   By default, the response when calling get ***is http://localhost:8080/Coffee? Brand = Lavazza*** will be as follows [T4】 o ws:
 
-```
+```java
 {
   "name": null,
   "brand": Lavazza",
@@ -59,7 +59,7 @@ public Coffee getCoffee(
 
 *   Now we want to exclude null values and have a custom date format *(DD-mm-yyyh: mm)* . The final response is as follows:
 
-```
+```java
 {
   "brand:" "Lavazza",
   "date": "04-11-20202 10:34"
@@ -74,25 +74,25 @@ public Coffee getCoffee(
 
 配置映射器的最简单方法是通过应用程序属性。配置的一般结构如下:
 
-```
+```java
   spring.jackson.<category_name>.<feature_name>=true, false
 ```
 
 例如，如果我们想禁用序列化功能。WRITE _ DATES _ AS _ TIMESTAMPS，我们将添加:
 
-```
+```java
 spring.jackson.serialization.write-dates-as-timestamps=false
 ```
 
 除了上面提到的特征类别，我们还可以配置属性包含:
 
-```
+```java
 spring.jackson.default-property-inclusion=always, non_null, non_absent, non_default, non_empty
 ```
 
 用最简单的方法配置环境变量。这种方法的缺点是我们不能定制高级选项，比如为 LocalDateTime 定制日期格式。此时，我们将获得如下所示的结果:
 
-```
+```java
 {
   "brand": "Lavazza",
   "date": "2020-11-16T10:35:34.593"
@@ -101,7 +101,7 @@ spring.jackson.default-property-inclusion=always, non_null, non_absent, non_defa
 
 现在，为了实现我们的目标，我们将使用我们的自定义日期格式注册一个新的 JavaTimeModule:
 
-```
+```java
 @Configuration
 @PropertySource("classpath:coffee.properties")
 
@@ -124,7 +124,7 @@ public class CoffeeRegisterModuleConfig {
 
 这个功能接口的目的是允许我们创建配置 beans。它们将应用于通过杰克逊 2 对象映射生成器创建的默认对象映射器。
 
-```
+```java
 @Bean
 public Jackson2ObjectMapperBuilderCustomizer jsonCustomizer() {
   return builder ->
@@ -139,7 +139,7 @@ public Jackson2ObjectMapperBuilderCustomizer jsonCustomizer() {
 
 另一个干净的方法是定义一个 Jackson 2 objectmapperbuilder bean。实际上，默认情况下，Spring Boot 在构建对象映射器时使用这个构建器，并且会自动拾取定义的对象:
 
-```
+```java
 @Bean
 public Jackson2ObjectMapperBuilder jackson2ObjectMapperBuilder() {
   return new
@@ -163,7 +163,7 @@ public Jackson2ObjectMapperBuilder jackson2ObjectMapperBuilder() {
 
 我们只需定义一个类型为 mapping Jackson 2 httpmessageconverter 的 bean，Spring Boot 就会自动使用它:
 
-```
+```java
 @Bean
 
 // Convertor method
@@ -183,7 +183,7 @@ public MappingJackson2HttpMessageConverter() {
 
 最后，为了测试我们的配置，我们将使用 TestRestTemplate 并将对象序列化为字符串。通过这种方式，我们可以验证我们的 Coffee 对象是在没有空值的情况下用自定义日期格式进行序列化的:
 
-```
+```java
 @Test
 
 public voif whenGetCoffee_thenSerializedWithDateAndNonNull() {

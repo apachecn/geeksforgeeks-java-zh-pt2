@@ -6,7 +6,7 @@ Java.util.PriorityQueue.size()方法用于获取 PriorityQueue 的大小或 Prio
 
 **语法:**
 
-```
+```java
 Priority_Queue.size()
 
 ```
@@ -18,7 +18,7 @@ Priority_Queue.size()
 下面的程序说明了 Java.util.PriorityQueue.size()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -46,7 +46,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [For, Geeks, To, Welcome, Geeks]
 The size of the queue is: 5
 
@@ -54,7 +54,7 @@ The size of the queue is: 5
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate size()
 import java.util.*;
 
@@ -83,7 +83,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [5, 10, 18, 20, 15, 30]
 The size of the queue is: 6
 

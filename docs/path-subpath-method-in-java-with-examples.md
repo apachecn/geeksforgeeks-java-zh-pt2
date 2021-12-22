@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 Path subpath(int beginIndex,
              int endIndex)
 
@@ -24,7 +24,7 @@ Path subpath(int beginIndex,
 以下程序说明子路径()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.subpath() method
 
@@ -55,7 +55,7 @@ public class GFG {
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.subpath() method
 

@@ -4,7 +4,7 @@
 
 在 Java 中， *containsValue()方法[树图类](https://www.geeksforgeeks.org/treemap-in-java/)的*用于检查树图中的任何键是否映射了特定的值。它将该值作为参数，如果该值由映射中的任何键映射，则返回 True。
 
-```
+```java
 --> java.util Package 
     --> TreeMap class
         --> containsValue() Method  
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 Tree_Map.containsValue(*Object Value*)
 ```
 
@@ -26,7 +26,7 @@ Tree_Map.containsValue(*Object Value*)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate containsValue() Method
 // of TreeMap class
 
@@ -74,7 +74,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Is the value 'Geeks' present? true
 Is the value 'World' present? false
@@ -84,7 +84,7 @@ Is the value 'World' present? false
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program  to illustrate containsValue() Method
 // of TreeMap class
 

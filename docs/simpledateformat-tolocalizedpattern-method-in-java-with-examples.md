@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String toLocalizedPattern()
 ```
 
@@ -18,7 +18,7 @@ public String toLocalizedPattern()
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate
 // toLocalizedPattern() method
 
@@ -51,7 +51,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Date: 1/29/19 8:02 AM
 In localized pattern: M/d/yy h:mm a
 
@@ -59,7 +59,7 @@ In localized pattern: M/d/yy h:mm a
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate
 // toLocalizedPattern() method
 
@@ -93,7 +93,7 @@ public class SimpleDateFormat_Demo {
 
 **Output:**
 
-```
+```java
 Date: 1/29/19 12:46 PM
 In localized pattern: M/d/yy h:mm a
 

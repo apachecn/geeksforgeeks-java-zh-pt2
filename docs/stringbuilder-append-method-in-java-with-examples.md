@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuilder append(*boolean a*)
     ```
 
@@ -18,7 +18,7 @@
 
     **示例:**
 
-    ```
+    ```java
     Input: 
     string_buffer = "We are Indians" 
     boolean a = true
@@ -29,7 +29,7 @@
 
     下面的程序说明了 java.lang.StringBuilder.append()方法:
 
-    ```
+    ```java
     // Java program to illustrate the
     // StringBuilder append(boolean a)
     import java.lang.*;
@@ -61,7 +61,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Input: Welcome to Geeksforgeeks 
     Output: Welcome to Geeksforgeeks true
 
@@ -74,7 +74,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuilder append(*char a*)
     ```
 
@@ -83,7 +83,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     **例:**
 
-    ```
+    ```java
     Input :
     StringBuilder = I love my Country 
     char a = A
@@ -93,7 +93,7 @@
 
     下面的程序说明了 Java . lang . StringBuilder . append(char a)方法。
 
-    ```
+    ```java
     // Java program to illustrate the
     // java.lang.StringBuilder.append(char a)
     import java.lang.*;
@@ -126,7 +126,7 @@
 
     **Output:**
 
-    ```
+    ```java
     Welcome geeks!
     Result after appending = Welcome geeks!T
     hello world-
@@ -138,7 +138,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuilder append(*char[] astr*)
     ```
 
@@ -147,7 +147,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     **例:**
 
-    ```
+    ```java
     Input :
     StringBuffer  = *I love my Country  * 
     char[] astr = *'I', 'N', 'D', 'I', 'A'*
@@ -158,7 +158,7 @@
 
     下面的程序说明了 Java . lang . stringbuilder . append(*char[]astr*)方法:
 
-    ```
+    ```java
     // Java program to illustrate the
     // java.lang.StringBuilder.append(<em>char[] astr</em>)
     import java.lang.*;
@@ -198,7 +198,7 @@
 
     **Output:**
 
-    ```
+    ```java
     We are geeks  
     Result after appending = We are geeks  GEEkS
     We are  -
@@ -210,7 +210,7 @@
 
     **语法:**
 
-    ```
+    ```java
     public StringBuilder append(*char[] cstr, int iset, int ilenght*)
     ```
 
@@ -223,7 +223,7 @@
     **返回值:**该方法在执行追加操作后返回一个字符串对象。
     下面的程序说明了 Java . lang . stringbuilder . append(char[]CSTR，int iset，int ilength)方法。
 
-    ```
+    ```java
     // Java program to illustrate the
     // append(char[] cstr, int iset, int ilength)
     import java.lang.*;
@@ -254,7 +254,7 @@
 
     **Output:**
 
-    ```
+    ```java
     String Builder before = Geeks
     After appending String Builder = GeeksforGeeks
 

@@ -5,7 +5,7 @@
 **java.security.Provider** 类的 **values()** 方法用于返回此提供程序中包含的属性值的不可修改的集合视图。
 **语法:**
 
-```
+```java
 public Collection<Object> values()
 ```
 
@@ -15,7 +15,7 @@ public Collection<Object> values()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // values() method
 
@@ -63,7 +63,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 unmodifiable Set view : 
 
 Value is : SHA1withDSA
@@ -82,7 +82,7 @@ Value is : sun.security.provider.DSA$SHA256withDSA
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // values() method
 
@@ -130,7 +130,7 @@ public class GFG1 {
 
 **Output:** 
 
-```
+```java
 unmodifiable Set view : 
 
 Value is : SHA1withDSA

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int getAsInt()
 
 ```
@@ -21,7 +21,7 @@ public int getAsInt()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.getAsInt() method
 
@@ -48,7 +48,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt: OptionalInt[45]
 Value in OptionalInt = 45
 
@@ -56,7 +56,7 @@ Value in OptionalInt = 45
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.getAsInt() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalInt: OptionalInt.empty
 Exception: java.util.NoSuchElementException: No value present
 

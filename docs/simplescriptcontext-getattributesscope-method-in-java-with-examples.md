@@ -6,7 +6,7 @@ SimpleScriptContext 类的**getattributessscope()**方法用于返回定义属�
 
 **语法:**
 
-```
+```java
 public int getAttributesScope(String name)
 
 ```
@@ -23,7 +23,7 @@ public int getAttributesScope(String name)
 下面的程序说明了 simplescriptcontext . getattributesscope()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getAttributesScope() method
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Scope :100
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // SimpleScriptContext.getAttributesScope() method
 
@@ -112,7 +112,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Scope for Team1: 100
 Scope for Team2: -1
 Scope for Team3: -1

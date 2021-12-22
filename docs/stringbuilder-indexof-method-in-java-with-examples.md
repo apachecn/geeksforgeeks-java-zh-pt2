@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public int indexOf(String str)
 ```
 
@@ -22,7 +22,7 @@ public int indexOf(String str)
 
 **示例 1:** 当传递的子串出现在序列中时。
 
-```
+```java
 // Java program to demonstrate
 // the indexOf() Method.
 
@@ -50,7 +50,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 index of string 'For' = 5
 
@@ -58,7 +58,7 @@ index of string 'For' = 5
 
 **示例 2:** 当传递的子串在序列中不存在时。
 
-```
+```java
 // Java program to demonstrate
 // the indexOf() Method.
 
@@ -89,7 +89,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 Index of string 'article' = -1
 
@@ -101,7 +101,7 @@ Index of string 'article' = -1
 
 **语法:**
 
-```
+```java
 public int indexOf(String str, int fromIndex)
 ```
 
@@ -116,7 +116,7 @@ public int indexOf(String str, int fromIndex)
 
 **示例 1:** 当传递的子串出现在序列中时。
 
-```
+```java
 // Java program to demonstrate
 // the indexOf() Method.
 
@@ -145,7 +145,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = GeeksForGeeks
 index of string "For" = 5
 
@@ -153,7 +153,7 @@ index of string "For" = 5
 
 **示例 2:** 当传递的子串出现在序列中，但搜索索引大于子串索引时。
 
-```
+```java
 // Java program to demonstrate
 // the indexOf() Method.
 
@@ -181,7 +181,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 String contains = Geeks for Geeks contribute
 index of string 'Geeks ' = -1
 

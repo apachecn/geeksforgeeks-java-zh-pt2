@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input : TreeSet = [2, 5, 6]
 Output: Reverse = [6, 5, 2]
 
@@ -16,7 +16,7 @@ Output: Reverse =
 
 **语法:**
 
-```
+```java
 public Iterator descendingIterator()
 ```
 
@@ -32,7 +32,7 @@ public Iterator descendingIterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Reversing Elements Order in TreeSet in
 // Java Using the descendingIterator Method
 import java.util.Iterator;
@@ -71,7 +71,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 TreeSet(setOfNumbers) : [1, 2, 4, 5, 7]
 TreeSet in reverse order : 7 5 4 2 1
 ```

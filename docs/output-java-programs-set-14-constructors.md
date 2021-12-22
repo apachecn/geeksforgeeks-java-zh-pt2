@@ -6,7 +6,7 @@
 
 **1)以下程序的输出是什么？**
 
-```
+```java
 class Helper
 {
     private int data;
@@ -35,7 +35,7 @@ d)这些都没有
 
 **2)以下程序的输出是什么？**
 
-```
+```java
 public class Test implements Runnable
 {
     public void run()
@@ -75,7 +75,7 @@ d)运行时间错误
 
 **3)以下程序的输出是什么？**
 
-```
+```java
 class Temp
 {
     private Temp(int data)
@@ -112,7 +112,7 @@ d)以上都不是
 **解释:**当构造函数被标记为私有时，从某个外部类创建该类的新对象的唯一方法是使用创建新对象的方法，如上面在程序中定义的那样。create()方法负责从其他外部类创建 Temp 对象。一旦创建了对象，就可以从创建对象的类中调用它的方法。
  **4)以下程序的输出是什么？**
 
-```
+```java
 public class Test
 {
     public Test()
@@ -152,7 +152,7 @@ d)运行时错误
 
 **5)以下程序的输出是什么？**
 
-```
+```java
 class Base
 {
     public static String s = " Super Class ";

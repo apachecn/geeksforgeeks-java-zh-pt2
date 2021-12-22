@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate dateNow(ZoneId zone)
 ```
 
@@ -18,7 +18,7 @@ public ThaiBuddhistDate dateNow(ZoneId zone)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -64,14 +64,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2563-04-19
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // dateNow() method
 
@@ -117,7 +117,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ThaiBuddhistDate is: ThaiBuddhist BE 2563-04-19
 
 ```

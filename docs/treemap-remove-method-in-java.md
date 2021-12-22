@@ -6,7 +6,7 @@ java.util.TreeMap.remove()是 TreeMap 类的内置方法，用于从映射中移
 
 **语法:**
 
-```
+```java
 Tree_Map.remove(*Object key*)
 ```
 
@@ -17,7 +17,7 @@ Tree_Map.remove(*Object key*)
 下面的程序说明了 java.util.TreeMap.remove()方法的工作原理:
 **程序 1:** 在传递现有密钥时。
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Returned value is: Geeks
 New map is: {10=Geeks, 15=4, 25=Welcomes, 30=You}
@@ -64,7 +64,7 @@ New map is: {10=Geeks, 15=4, 25=Welcomes, 30=You}
 
 **程序 2:** 传递新密钥时。
 
-```
+```java
 // Java code to illustrate the remove() method
 import java.util.*;
 
@@ -104,7 +104,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 Returned value is: null
 New map is: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}

@@ -14,7 +14,7 @@
 
 **例**:
 
-```
+```java
 // StaticControlFlow class (Main class)
 class StaticControlFlow {
     // initializing static integer a=100
@@ -59,7 +59,7 @@ class StaticControlFlow {
 
 **Output:**
 
-```
+```java
 100
 0
 Inside First Static Block

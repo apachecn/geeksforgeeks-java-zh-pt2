@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 boolean add(E e)
 ```
 
@@ -25,7 +25,7 @@ boolean add(E e)
 
 **程序一:**借助 [**链接列表**](https://www.geeksforgeeks.org/linked-list-in-java/) 。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Queue
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **节目 2:** 借助 **ArrayDeque** 。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Queue
 
@@ -90,14 +90,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 
 ```
 
 **程序三:**在**的帮助下链接锁定了**。
 
-```
+```java
 // Java Program Demonstrate add()
 // method of Queue
 
@@ -127,7 +127,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Queue: [7855642, 35658786, 5278367, 74381793]
 
 ```

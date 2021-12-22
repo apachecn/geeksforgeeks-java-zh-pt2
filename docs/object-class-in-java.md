@@ -10,7 +10,7 @@
 
 1.  **toString()** : toString()提供对象的字符串表示，用于将对象转换为 String。Object 类的默认 toString()方法返回一个字符串，该字符串由对象作为实例的类的名称、at 符号字符“@”和对象哈希代码的无符号十六进制表示形式组成。换句话说，它被定义为:
 
-```
+```java
 // Default behavior of toString() is to print class name, then
 // @, then unsigned hexadecimal representation of the hash code
 // of the object
@@ -23,7 +23,7 @@ public String toString()
 1.  总是建议覆盖 **toString()** 方法来获得我们自己的对象的字符串表示。有关重写 toString()方法的更多信息，请参考–[在 Java 中重写 toString()](https://www.geeksforgeeks.org/overriding-tostring-method-in-java/)
     **注意:**每当我们试图打印任何对象引用时，都会在内部调用 toString()方法。
 
-```
+```java
 Student s = new Student();
 
 // Below two statements are equivalent
@@ -37,7 +37,7 @@ System.out.println(s.toString());
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // hashCode() and toString()
 public class Student
@@ -73,7 +73,7 @@ public class Student
 
 1.  输出:
 
-```
+```java
 Student@64
 Student@64
 ```
@@ -87,7 +87,7 @@ Student@64
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of getClass()
 public class Test
 {
@@ -103,7 +103,7 @@ public class Test
 
 1.  输出:
 
-```
+```java
 Class of Object obj is : java.lang.String
 ```
 
@@ -114,7 +114,7 @@ Class of Object obj is : java.lang.String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of finalize()
 public class Test
 {
@@ -141,7 +141,7 @@ public class Test
 
 1.  输出:
 
-```
+```java
 366712642
 finalize method called
 end

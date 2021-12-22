@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Month getMonth()
 ```
 
@@ -18,7 +18,7 @@ public Month getMonth()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getMonth() method
 
@@ -60,14 +60,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month : JANUARY
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getMonth() method
 
@@ -109,7 +109,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Month : MARCH
 
 ```

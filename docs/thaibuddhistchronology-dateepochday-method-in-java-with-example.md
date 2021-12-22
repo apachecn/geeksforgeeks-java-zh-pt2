@@ -5,7 +5,7 @@
 **Java . time . chrono . ThaiBuddhist**类的 **dateEpochDay()** 方法用于根据 thaibudhistory 日历系统从大纪元日获取本地日期。
 **语法:**
 
-```
+```java
 public ThaiBuddhistDate dateEpochDay(long epochDay)
 ```
 
@@ -17,7 +17,7 @@ public ThaiBuddhistDate dateEpochDay(long epochDay)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -65,7 +65,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current ThaiBuddhistDate is: ThaiBuddhist BE 2564-06-25
 
 ThaiBuddhistDate(according to ephochday) is: ThaiBuddhist BE 2577-03-22
@@ -76,7 +76,7 @@ ThaiBuddhistDate(according to ephochday) is: ThaiBuddhist BE 2577-03-22
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // dateEpochDay() method
 
@@ -124,7 +124,7 @@ public class GFG {
 
 **Output**
 
-```
+```java
 current ThaiBuddhistDate is: ThaiBuddhist BE 2564-06-25
 
 ThaiBuddhistDate(according to ephochday) is: ThaiBuddhist BEFORE_BE 271279-04-21

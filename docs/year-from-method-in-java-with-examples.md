@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static Year from(TemporalAccessor temporal)
 
 ```
@@ -22,7 +22,7 @@ public static Year from(TemporalAccessor temporal)
 以下程序说明了 from()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.from() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate :2007-12-03
 Year get from method: 2007
 
@@ -60,7 +60,7 @@ Year get from method: 2007
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.from() method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LocalDate :2018-11-27
 Year get from method: 2018
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public DayOfWeek getDayOfWeek()
 
 ```
@@ -19,7 +19,7 @@ public DayOfWeek getDayOfWeek()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getDayOfWeek() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 day-of-week:THURSDAY
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.getDayOfWeek() method
 
@@ -78,7 +78,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 day-of-week:WEDNESDAY
 
 ```

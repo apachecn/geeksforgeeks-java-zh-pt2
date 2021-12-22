@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getLong()** 方法从这个日期时间中获�
 
 **语法:**
 
-```
+```java
 public long getLong(TemporalField field)
 
 ```
@@ -25,7 +25,7 @@ public long getLong(TemporalField field)
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getLong() method
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoField;
@@ -46,14 +46,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 12
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getDayOfYear() method
 // exceptions
 
@@ -80,7 +80,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 java.time.format.DateTimeParseException: 
 Text '2018-24-03T12:30:30+01:00' could not be parsed: 
 Invalid value for MonthOfYear (valid values 1 - 12): 24

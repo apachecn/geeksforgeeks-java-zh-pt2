@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Optional<T> 
   filter(Predicale<T> predicate)
 
@@ -21,7 +21,7 @@ public Optional<T>
 下面的程序说明了 filter()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.filter() method
 
@@ -52,7 +52,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional[9456]
 Filtered value for odd or even: Optional[9456]
 
@@ -60,7 +60,7 @@ Filtered value for odd or even: Optional[9456]
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Optional.filter() method
 
@@ -97,7 +97,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Optional: Optional.empty
 Filtered value for odd or even: Optional.empty
 

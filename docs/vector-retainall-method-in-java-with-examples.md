@@ -6,7 +6,7 @@ java 中类[向量](https://www.geeksforgeeks.org/java-util-vector-class-java/)�
 
 **语法:**
 
-```
+```java
 public boolean retainAll(Collection c)
 
 ```
@@ -23,7 +23,7 @@ public boolean retainAll(Collection c)
 
     **程序 1:** 用 Java 说明 Vector.retainAll()方法。
 
-    ```
+    ```java
     import java.util.*;
     import java.io.*;
     public class GFG {
@@ -82,7 +82,7 @@ public boolean retainAll(Collection c)
 
     **程序 2:** 用 Java 显示 retainAll()方法的返回值。
 
-    ```
+    ```java
     import java.util.*;
     import java.io.*;
 

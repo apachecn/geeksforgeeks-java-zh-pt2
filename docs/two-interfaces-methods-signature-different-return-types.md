@@ -6,7 +6,7 @@ Java 不支持多重继承，但是我们可以使用接口达到多重继承的
 详见 java 中[多重继承](https://www.geeksforgeeks.org/java-and-multiple-inheritance/)。
 假设我们有两个接口，方法名相同(geek)，返回类型不同(int 和 String)
 
-```
+```java
 public interface InterfaceX
 {
     public int geek();
@@ -19,7 +19,7 @@ public interface InterfaceY
 
 现在，假设我们有一个实现这两个接口的类:
 
-```
+```java
 public class Testing implements InterfaceX, InterfaceY
 {
 public String geek()
@@ -34,7 +34,7 @@ public String geek()
 如果两个接口包含一个签名相同但返回类型不同的方法，那么不可能同时实现两个接口。
 根据 [JLS ( 8.4.2)](https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.2) 规定，这种情况下不允许使用相同签名的方法。
 
-```
+```java
 Two methods or constructors, M and N, have the same signature if they have,
 the same name
 the same type parameters (if any) (§8.4.4), and
@@ -44,7 +44,7 @@ after adopting the formal parameter types of N
 
 在类中声明两个具有重写等效签名的方法是一个编译时错误。
 
-```
+```java
 // JAVA program to illustrate the behavior
 // of program when two interfaces having same 
 // methods and different return-type
@@ -78,14 +78,14 @@ public
 
 输出:
 
-```
+```java
 error: method show() is already defined in class Test
 error: Test is not abstract and does not override abstract method show() in geeks
 error: show() in Test cannot implement show() in bishal
 
 ```
 
-```
+```java
 // Java program to illustrate the behavior of the program
 // when two interfaces having the same methods and different return-type
 // and we defined the method in the child class
@@ -110,7 +110,7 @@ public
 }
 ```
 
-```
+```java
 error: MainClass is not abstract and does not override abstract method fun() in InterfaceA
 
 ```

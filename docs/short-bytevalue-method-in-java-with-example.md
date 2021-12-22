@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```java
 ShortObject.byteValue()
 ```
 
@@ -16,7 +16,7 @@ ShortObject.byteValue()
 
 **例 1:**
 
-```
+```java
 // Java code to demonstrate
 // Short byteValue() method
 
@@ -43,14 +43,14 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Byte value of 17 is : 17
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to demonstrate
 // Short byteValue() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Byte value of 17 is : 17
 
 ```

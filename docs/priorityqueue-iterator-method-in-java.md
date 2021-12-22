@@ -6,7 +6,7 @@ Java . util . priorityqueue . iterator()方法用于返回与优先级队列相�
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Priority_Queue.iterator();
 
 ```
@@ -18,7 +18,7 @@ Iterator *iterate_value* = Priority_Queue.iterator();
 下面的程序说明了 Java . util . priority queue . iterator()方法:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 
@@ -52,7 +52,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [4, Geeks, To, Welcome, Geeks]
 The iterator values are: 
 4
@@ -65,7 +65,7 @@ Geeks
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 
@@ -99,7 +99,7 @@ public class PriorityQueueDemo {
 
 **Output:**
 
-```
+```java
 PriorityQueue: [5, 10, 30, 20, 15]
 The iterator values are: 
 5

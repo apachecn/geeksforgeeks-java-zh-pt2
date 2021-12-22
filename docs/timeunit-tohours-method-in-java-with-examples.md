@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toHours(long duration)
 ```
 
@@ -20,7 +20,7 @@ public long toHours(long duration)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toHours() method of TimeUnit Class
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585595812 milliSeconds in Hours = 427662
 
 ```
@@ -56,7 +56,7 @@ Time 1539585595812 milliSeconds in Hours = 427662
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toHours() method of TimeUnit Class
 
@@ -85,7 +85,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Time 1539585598692 milliSeconds in Hours = 427662
 
 ```

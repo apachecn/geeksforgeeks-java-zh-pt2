@@ -8,7 +8,7 @@
 
 **程序 1 :**
 
-```
+```java
 public class Calculator
 {
     int num = 100;
@@ -34,7 +34,7 @@ D)2
 
 **程序 2 :**
 
-```
+```java
 public class MyStuff
 {
     String name;
@@ -69,7 +69,7 @@ D)输出为假，MyStuff 未履行 Object.equals()合同。
 
 **程序 3 :**
 
-```
+```java
 class Alpha
 {
     public String type = "a ";
@@ -105,7 +105,7 @@ T3】解释: The statement **new Beta()。go()** 分两个阶段执行。在第�
 
 **程序 4 :**
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -130,7 +130,7 @@ D)A**StringIndexOutOfBoundsException**在运行时抛出。
 
 **程序 5 :**
 
-```
+```java
 class Writer
 {
     public  static void write()

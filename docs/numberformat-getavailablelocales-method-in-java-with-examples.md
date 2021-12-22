@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```java
 public static Locale[] getAvailableLocales()
 ```
 
@@ -18,7 +18,7 @@ public static Locale[] getAvailableLocales()
 
 **程序 1:**
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -47,7 +47,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 United Arab Emirates 
 Jordan 
 Syria 

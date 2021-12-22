@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public StringJoiner setEmptyValue(CharSequence emptyValue)
 ```
 
@@ -20,7 +20,7 @@ public StringJoiner setEmptyValue(CharSequence emptyValue)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setEmptyValue() method of StringJoiner
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial StringJoiner: 
 After setEmptyValue(): StrigJoiner is empty
 Final StringJoiner: Geeks forGeeks
@@ -67,7 +67,7 @@ Final StringJoiner: Geeks forGeeks
 
 **示例 2:** 演示空指针异常
 
-```
+```java
 // Java program to demonstrate
 // setEmptyValue() method of StringJoiner
 
@@ -99,7 +99,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Initial StringJoiner: 
 Exception when adding null in setEmptyValue(): 
     java.lang.NullPointerException: 

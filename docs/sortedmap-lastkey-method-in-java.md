@@ -6,7 +6,7 @@ Java 中 **SortedMap 接口的 lastKey()方法用于返回当前在此地图中�
 
 **语法** :
 
-```
+```java
 K lastKey()
 
 ```
@@ -23,7 +23,7 @@ K lastKey()
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -50,14 +50,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Last Key in the map is : 5
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.*;
@@ -84,7 +84,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Last Key in the map is : Two
 
 ```

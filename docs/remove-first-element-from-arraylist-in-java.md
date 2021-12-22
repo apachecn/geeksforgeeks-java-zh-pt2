@@ -6,7 +6,7 @@
 
 **例**:
 
-```
+```java
 Input: ArrayList[] = [10, 20, 30, 1, 2]
 Output: [20, 30, 1, 2]
 After removing the first element 10, the ArrayList is:
@@ -32,7 +32,7 @@ ArrayList 提供了两个重载的 remove()方法:
 
 *   **程序 1** :使用移除(int index)。数组列表中元素的索引从零开始。因此，数组列表中第一个元素的索引是 0。
 
-    ```
+    ```java
     // Java program to delete the first element of ArrayList
     import java.util.List;
     import java.util.ArrayList;
@@ -60,14 +60,14 @@ ArrayList 提供了两个重载的 remove()方法:
 
     **输出:**
 
-    ```
+    ```java
     Modified ArrayList : [20, 30, 1, 2]
 
     ```
 
 *   **程序 2** :使用移除(对象对象)。
 
-    ```
+    ```java
     // Java program to delete first element of ArrayList
     import java.util.List;
     import java.util.ArrayList;
@@ -94,7 +94,7 @@ ArrayList 提供了两个重载的 remove()方法:
 
     **输出:**
 
-    ```
+    ```java
     Modified ArrayList : [20, 30, 1, 2]
 
     ```

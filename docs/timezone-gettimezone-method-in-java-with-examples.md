@@ -6,7 +6,7 @@ Java 中**时区类**的 **getTimeZone()** 方法用于知道任何传递的时�
 
 **语法:**
 
-```
+```java
 public static TimeZone getTimeZone(*String the_ID*)
 ```
 
@@ -17,7 +17,7 @@ public static TimeZone getTimeZone(*String the_ID*)
 下面的程序说明了时区的 getTimeZone()方法的工作:
 **示例 1:**
 
-```
+```java
 // Java code to illustrate getTimeZone() method
 
 import java.util.*;
@@ -40,7 +40,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The TimeZone is: sun.util.calendar.ZoneInfo[id="GMT+05:30",
 offset=19800000, dstSavings=0, useDaylight=false, transitions=0, lastRule=null]
 
@@ -48,7 +48,7 @@ offset=19800000, dstSavings=0, useDaylight=false, transitions=0, lastRule=null]
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getTimeZone() method
 
 import java.util.*;
@@ -71,7 +71,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The TimeZone is: sun.util.calendar.ZoneInfo[id="GMT-03:30",
 offset=-12600000, dstSavings=0, useDaylight=false, transitions=0, lastRule=null]
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Year plus(TemporalAmount amountToadd)
 
 ```
@@ -24,7 +24,7 @@ public Year plus(TemporalAmount amountToadd)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plus(TemporalAmount amountToadd) method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 Value after addition: 2031
 
@@ -65,7 +65,7 @@ Value after addition: 2031
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // Year.plus(TemporalAmount amountToadd) method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Year :2019
 Value after addition: 2139
 

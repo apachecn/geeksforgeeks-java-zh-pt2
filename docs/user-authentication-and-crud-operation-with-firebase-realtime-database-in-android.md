@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=-Gvpf8tXpbc
 
 之后，验证 Firebase 实时数据库的依赖项已经添加到我们的 Gradle 文件中。现在导航到**应用程序>渐变脚本**，并在该文件中检查是否添加了以下依赖项。如果以下依赖项没有添加到您的 [build.gradle](https://www.geeksforgeeks.org/android-build-gradle/) 文件中。在依赖项部分添加以下依赖项。下面是完整的依赖项部分，其中有身份验证和数据库的依赖项。
 
-```
+```java
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
@@ -71,7 +71,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gtappdevelopers.firebasecrudapp">
 
@@ -115,7 +115,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <color name="purple_200">#296D98</color>
@@ -148,7 +148,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.FirebaseCrudApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -195,7 +195,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
@@ -211,7 +211,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <rotate 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -252,7 +252,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -392,7 +392,7 @@ dependencies {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.firebasecrudapp;
 
 import android.content.Intent;
@@ -502,7 +502,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -616,7 +616,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.firebasecrudapp;
 
 import android.content.Intent;
@@ -730,7 +730,7 @@ public class LoginActivity extends AppCompatActivity {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.firebasecrudapp;
 
 import android.os.Parcel;
@@ -866,7 +866,7 @@ public class CourseRVModal implements Parcelable {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1080,7 +1080,7 @@ public class CourseRVModal implements Parcelable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.gtappdevelopers.firebasecrudapp;
 
 import android.content.Intent;
@@ -1175,7 +1175,7 @@ public class AddCourseActivity extends AppCompatActivity {
 
 ## 可扩展标记语言
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"

@@ -31,7 +31,7 @@ Java 在 TIOBE 流行编程开发人员中被评为第一名，有超过 1000 �
 
 为了查看线程状态，让我们将 windows 作为一个操作系统，它说明了我们将拥有 ProcessExplorer，您可以看到下面显示的 windows 操作系统的图形用户界面。
 
-```
+```java
 This PC > OS > Users > GeeksforGeeks > Downloads > ProcessExplorer
 ```
 
@@ -104,12 +104,12 @@ Java 中的线程在任何时间点都处于以下任何一种状态。线程在
 
 插图:
 
-```
+```java
 System.out.println(“Mayank Solanki”);
 Output: Mayank Solanki
 ```
 
-```
+```java
 System.out.println(Thread.getname().currentthread()); 
 Output: main
 ```
@@ -136,7 +136,7 @@ java 中有以下两种类型的线程:
 
 我们可以通过使用一个已经在上面被称为 [***的方法来命名一个线程，用 setName()***](https://www.geeksforgeeks.org/naming-thread-fetching-name-current-thread-java/)**替换默认的命名方式，比如“线程-0”，“线程-1”，等等。**
 
-```
+```java
 thread_class_object.setName("Name_thread_here");
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public static TemporalAdjuster
        previousOrSame(DayOfWeek dayOfWeek)
 
@@ -19,7 +19,7 @@ public static TemporalAdjuster
 下面的程序说明了临时调整程序.前一个程序名()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters.previousOrSame()
 
@@ -55,14 +55,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Previous or same date having FRIDAY for localdate 2020-10-30 is: 2020-10-30
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // TemporalAdjusters previousOrSame() method
 
@@ -98,7 +98,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Previous or same date having THURSDAY for localdate 2018-02-23 is: 2018-02-22
 
 ```

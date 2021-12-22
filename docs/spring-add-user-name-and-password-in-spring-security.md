@@ -21,7 +21,7 @@
 
 按照要求填写细节。对于此应用:
 
-```
+```java
 Project: Maven
 Language: Java
 Spring Boot: 2.4.12
@@ -40,7 +40,7 @@ Dependencies: Spring Web, Spring Security
 
 **步骤 3:** 现在我们必须设置我们的用户名和密码，以便覆盖默认用户名和密码。所以我们必须在我们的**应用程序.属性**文件中设置它。
 
-```
+```java
 spring.security.user.name=Aayush
 spring.security.user.password=12
 ```
@@ -51,7 +51,7 @@ spring.security.user.password=12
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 @SpringBootApplication
 public class SpringSecurityApplication {
 

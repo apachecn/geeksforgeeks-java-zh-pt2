@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public String getProperty(String key)
 ```
 
@@ -18,7 +18,7 @@ public String getProperty(String key)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // getProperty() method
 
@@ -70,7 +70,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 value is : SHA1withDSA
 value is : SHA1withDSA
 value is : SHA1withDSA
@@ -86,7 +86,7 @@ value is : sun.security.provider.DSA$SHA256withDSA
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // getProperty() method
 
@@ -126,7 +126,7 @@ public class GFG1 {
 
 **Output:**
 
-```
+```java
 Trying to search for unspecified key
 value is : null
 

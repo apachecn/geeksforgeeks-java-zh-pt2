@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: str = "              " 
 Output: True
 
@@ -21,7 +21,7 @@ Output: False
 *   我们可以使用[字符串类](https://www.geeksforgeeks.org/string-class-in-java/)的[修剪()方法](https://www.geeksforgeeks.org/java-string-trim-method-example/)来移除字符串中的前导空格。
     **语法:**
 
-    ```
+    ```java
     str.trim()
 
     ```
@@ -29,14 +29,14 @@ Output: False
 *   然后我们可以使用[字符串类](https://www.geeksforgeeks.org/string-class-in-java/)的 [isEmpty()方法](https://www.geeksforgeeks.org/java-string-isempty-method-example/)来检查结果字符串是否为空。如果字符串只包含空格，那么这个方法将返回真
     **语法:**
 
-    ```
+    ```java
     str.isEmpty()
 
     ```
 
 *   使用[方法链接](https://www.geeksforgeeks.org/method-chaining-in-java-with-examples/)将两种方法结合使用。
 
-    ```
+    ```java
     str.trim().isEmpty();
 
     ```
@@ -45,7 +45,7 @@ Output: False
 
 下面是上述方法的实现:
 
-```
+```java
 // Java Program to check if
 // the String is not all whitespaces
 
@@ -81,7 +81,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Is string [GeeksforGeeks] only whitespaces? false
 Is string [              ] only whitespaces? true
 

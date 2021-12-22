@@ -6,7 +6,7 @@
 
 **问题 1 :**
 
-```
+```java
 public class Base
 {
     private int data;
@@ -52,7 +52,7 @@ d)运行时错误
 
 **问题 2 :**
 
-```
+```java
 public class Test
 {
     private int data = 5;
@@ -88,7 +88,7 @@ d) 7
 
 **问题 3:**
 
-```
+```java
 public class Base
 {
     private int multiplier(int data)
@@ -132,7 +132,7 @@ d) finally 块包含重要的代码段，因此在 java 代码中有/没有 try 
 
 **问题 5:**
 
-```
+```java
 import java.io.IOException;
 import java.util.EmptyStackException;
 
@@ -178,7 +178,7 @@ d)145
 
 **问题 6:**
 
-```
+```java
 public class javaclass
 {
     static

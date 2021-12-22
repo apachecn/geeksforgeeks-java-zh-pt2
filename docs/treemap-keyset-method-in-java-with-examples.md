@@ -4,7 +4,7 @@
 
 在 Java 中，[树形图类](https://www.geeksforgeeks.org/treemap-in-java/)的 *keySet()方法*存在于 [java.util 包](https://www.geeksforgeeks.org/java-util-package-java/)中，用于创建一组包含在树形图中的关键元素。它基本上返回一个键的集合视图，或者我们可以创建一个新的集合，并将键元素以升序存储在其中。由于集合由地图支持，因此对地图所做的任何更改都会反映在集合中，反之亦然。
 
-```
+```java
 --> java.util Package
     --> TreeMap Class
         --> keySet() Method  
@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```java
 tree_map.keySet()
 ```
 
@@ -22,7 +22,7 @@ tree_map.keySet()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate the keySet() method
 // of TreeMap class where we are
 // Mapping String Values to Integer Keys
@@ -63,7 +63,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The set is: [10, 15, 20, 25, 30]
 ```
@@ -72,7 +72,7 @@ The set is: [10, 15, 20, 25, 30]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate keySet() Method
 // of TreeMap class where we are
 // Mapping Integer Values to String Keys
@@ -113,7 +113,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Initial Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The set is: [4, Geeks, Welcomes, You]
 ```

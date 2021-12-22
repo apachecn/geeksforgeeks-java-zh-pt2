@@ -7,7 +7,7 @@
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java Program to illustrate
 // calling of predefined methods
 // without static import
@@ -23,7 +23,7 @@ class Geeks {
 
 **输出:**
 
-```
+```java
 2.0
 4.0
 6.3 
@@ -31,7 +31,7 @@ class Geeks {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java Program to illustrate
 // calling of predefined methods
 // with static import
@@ -48,7 +48,7 @@ class Test2 {
 
 **输出:**
 
-```
+```java
 2.0
 4.0
 6.3
@@ -56,7 +56,7 @@ class Test2 {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java to illustrate calling of static member of
 // System class without Class name
 import static java.lang.Math.*;
@@ -75,7 +75,7 @@ class Geeks {
 
 **输出:**
 
-```
+```java
 2.0
 4.0
 6.3
@@ -88,7 +88,7 @@ class Geeks {
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate
 // ambiguity in case of
 // static import
@@ -104,7 +104,7 @@ class Geeks {
 
 **输出:**
 
-```
+```java
 Error:Reference to MAX_VALUE is ambigious
 ```
 

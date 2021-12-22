@@ -7,7 +7,7 @@
 
 **语法**:
 
-```
+```java
 public abstract ByteOrder order()
 ```
 
@@ -17,7 +17,7 @@ public abstract ByteOrder order()
 
 **程序 1** :
 
-```
+```java
 // Java program to demonstrate
 // order() method
 
@@ -41,7 +41,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 LITTLE_ENDIAN
 
 ```

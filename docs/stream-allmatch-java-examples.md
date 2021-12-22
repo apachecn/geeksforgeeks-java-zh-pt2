@@ -5,7 +5,7 @@
 **Stream allMatch(谓词谓词)**返回该流的所有元素是否与提供的谓词匹配。如果不是确定结果所必需的，它可能不会计算所有元素上的谓词。这是一次 ***短路端子操作。*** 如果终端操作在无限输入时可能在有限时间内终止，则该操作为短路。
 **语法:**
 
-```
+```java
 boolean allMatch(Predicate<**?** super **T**> predicate)
 
 Where, T is the type of the input to the predicate
@@ -19,7 +19,7 @@ the stream is empty, otherwise false.
 
 **例 1 :** allMatch()函数检查所有元素是否能被 3 整除。
 
-```
+```java
 // Java code for Stream allMatch
 // (Predicate predicate) to check whether 
 // all elements of this stream match 
@@ -47,14 +47,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **示例 2 :** allMatch()函数，检查字符串的长度是否大于 2。
 
-```
+```java
 // Java code for Stream allMatch
 // (Predicate predicate) to check whether 
 // all elements of this stream match 
@@ -83,14 +83,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 true
 
 ```
 
 **示例 3 :** allMatch()函数检查所有字符串在第一个索引处是否都有大写字符。
 
-```
+```java
 // Java code for Stream allMatch
 // (Predicate predicate) to check whether 
 // all elements of this stream match 
@@ -120,14 +120,14 @@ class GFG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **示例 4 :** 使用同一个流完成多个功能
 
-```
+```java
 // In case we want multiple function to be done.
 
 import java.util.stream.IntStream;
@@ -159,7 +159,7 @@ public class MultipleStreamFunction {
 
 **输出:**
 
-```
+```java
 false
 true
 

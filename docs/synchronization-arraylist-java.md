@@ -13,7 +13,7 @@
 
 要进行串行访问，必须通过返回的列表完成对后备列表的所有访问。用户**在迭代返回的列表时，必须手动**对其进行同步。
 
-```
+```java
 public static  List<T> synchronizedList(List<T> list)
 ```
 
@@ -24,7 +24,7 @@ public static  List<T> synchronizedList(List<T> list)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of
 // Collections.synchronizedList
 
@@ -55,7 +55,7 @@ class GFG
 
 **Output**
 
-```
+```java
 practice
 code
 quiz
@@ -63,7 +63,7 @@ quiz
 
 ### 方法 2:使用 CopyOnWriteArrayList
 
-```
+```java
 CopyOnWriteArrayList<T> threadSafeList = new CopyOnWriteArrayList<T>();
 ```
 
@@ -82,7 +82,7 @@ CopyOnWriteArrayList<T> threadSafeList = new CopyOnWriteArrayList<T>();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the thread-safe ArrayList.
 
 import java.io.*;
@@ -115,7 +115,7 @@ class GFG
 
 **Output**
 
-```
+```java
 Elements of synchronized ArrayList :
 geek
 code
@@ -128,7 +128,7 @@ practice
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to illustrate the thread-safe ArrayList
 
 import java.io.*;
@@ -164,7 +164,7 @@ class GFG
 
 **运行时错误:**
 
-```
+```java
 Exception in thread "main" java.lang.UnsupportedOperationException
     at java.util.concurrent.CopyOnWriteArrayList$COWIterator.remove
         (CopyOnWriteArrayList.java:1176)

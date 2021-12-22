@@ -36,7 +36,7 @@ RequestDispatcher 接口提供了将客户端请求分派到另一个 web 资源
 
 ## 超文本标记语言
 
-```
+```java
 <html>
 <head>
 <body>
@@ -53,7 +53,7 @@ Password:<input type="password" name="userPass"/><br/> 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // First java servlet that calls another resource
 import java.io.*;
 import javax.servlet.*;
@@ -100,7 +100,7 @@ throws ServletException, IOException
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Called servlet in case password matches
 import java.io.*;
 import javax.servlet.*;
@@ -129,7 +129,7 @@ public class Welcome extends HttpServlet {
 
 ## 超文本标记语言
 
-```
+```java
 <web-app> 
  <servlet> 
     <servlet-name>Login</servlet-name> 
@@ -173,7 +173,7 @@ public class Welcome extends HttpServlet {
 
 *   HttpServletResponse 接口负责管理 Http 响应。为了实现 servlet 协作，它使用了以下方法:
 
-```
+```java
 public void sendRedirect(String URL)throws IOException;  
 ```
 
@@ -186,7 +186,7 @@ public void sendRedirect(String URL)throws IOException;
 
 ## 超文本标记语言
 
-```
+```java
 <html>
 <head>
 <body>
@@ -200,7 +200,7 @@ public void sendRedirect(String URL)throws IOException;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Servlet class to redirect the text keyword
 // in the 'name' field to google.com
 // using sendRedirect()
@@ -228,7 +228,7 @@ public class MySearcher extends HttpServlet {
 
 ## 超文本标记语言
 
-```
+```java
 <web-app>
 <servlet>
 <servlet-name>MySearcher</servlet-name>

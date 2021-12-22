@@ -8,7 +8,7 @@ Java 中 TreeSet 类的 **lower(E ele)** 方法用来返回这个集合中最大
 
 **语法** :
 
-```
+```java
 public E lower(E ele)
 ```
 
@@ -25,7 +25,7 @@ public E lower(E ele)
 
 **节目 1** :
 
-```
+```java
 // Java program to illustrate lower() method
 // of TreeSet class
 
@@ -50,14 +50,14 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 11
 
 ```
 
 **程序 2** (空指针异常演示):
 
-```
+```java
 // Java program to illustrate lower() method
 // of TreeSet class
 
@@ -88,7 +88,7 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 java.lang.NullPointerException
     at java.util.TreeMap.compare(TreeMap.java:1294)
     at java.util.TreeMap.getLowerEntry(TreeMap.java:494)
@@ -100,7 +100,7 @@ java.lang.NullPointerException
 
 **程序 3** (阶级例外演示):
 
-```
+```java
 // Java program to illustrate lower() method
 // of TreeSet class
 
@@ -139,7 +139,7 @@ public class GFG {
 
 **输出** :
 
-```
+```java
 Exception in thread "main" java.lang.ClassCastException: 
 java.util.LinkedList cannot be cast to java.lang.Comparable
     at java.util.TreeMap.compare(TreeMap.java:1294)

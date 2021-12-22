@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.hashCode() method
 
@@ -46,7 +46,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalDouble: OptionalDouble[253255.432525]
 HashCode value: 885080309
 
@@ -54,7 +54,7 @@ HashCode value: 885080309
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.hashCode() method
 
@@ -81,7 +81,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 OptionalDouble: OptionalDouble.empty
 HashCode value: 0
 

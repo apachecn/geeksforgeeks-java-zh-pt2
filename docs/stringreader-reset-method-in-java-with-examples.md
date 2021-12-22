@@ -6,7 +6,7 @@ Java 中 **[StringReader](https://www.geeksforgeeks.org/java-io-stringreader-cla
 
 **语法:**
 
-```
+```java
 public void reset()
 ```
 
@@ -23,7 +23,7 @@ public void reset()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader reset() method
 
@@ -79,7 +79,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 eks??
 
@@ -87,7 +87,7 @@ eks??
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // StringReader reset() method
 
@@ -139,7 +139,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 GeeksForGe
 Geeks
 

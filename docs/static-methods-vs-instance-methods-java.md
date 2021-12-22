@@ -6,7 +6,7 @@
 
 实例方法是需要在调用之前创建其类的对象的方法。要调用实例方法，我们必须创建一个在其中定义它的类的对象。
 
-```
+```java
 public void geek(String name)
 {
  // code to be executed....
@@ -25,7 +25,7 @@ public void geek(String name)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example to illustrate accessing the instance method .
 import java.io.*;
 
@@ -55,7 +55,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 GeeksforGeeks
 ```
 
@@ -63,7 +63,7 @@ GeeksforGeeks
 
 静态方法是 Java 中不需要创建类对象就可以调用的方法。它们由**类名本身**或该类的对象引用来引用。
 
-```
+```java
 public static void geek(String name)
 {
  // code to be executed....
@@ -87,7 +87,7 @@ public static void geek(String name)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Example to illustrate Accessing
 // the Static method(s) of the class.
 import java.io.*;
@@ -122,7 +122,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 vaibhav
 mohit
 ```
@@ -131,7 +131,7 @@ mohit
 
 **如果静态变量引用一个对象怎么办？**
 
-```
+```java
 static int i = 1;
 static Object obj = new Object();
 ```

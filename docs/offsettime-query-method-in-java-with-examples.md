@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **Query()** 方法这次使用指定的查询进行�
 
 **语法:**
 
-```
+```java
 public  R query(TemporalQuery query)
 ```
 
@@ -25,7 +25,7 @@ public  R query(TemporalQuery query)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the query() method
 
 import java.time.OffsetTime;
@@ -46,7 +46,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 OffsetTime precision is Nanos
 ```
 
@@ -54,7 +54,7 @@ OffsetTime precision is Nanos
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate the query() method
 
 import java.time.OffsetTime;
@@ -75,7 +75,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 OffsetTime precision is Nanos
 ```
 

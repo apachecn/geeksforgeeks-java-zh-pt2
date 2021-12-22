@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public static double log(*double num*)
 ```
 
@@ -18,7 +18,7 @@ public static double log(*double num*)
 **返回值:**该方法返回 *num* 的自然对数的值。
 **示例:**
 
-```
+```java
 Input: num = 5.0 
 Output: 1.6094379124341003
 
@@ -31,7 +31,7 @@ Output:  2.302585092994046
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.log() Method
 import java.lang.*;
@@ -57,7 +57,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Log value of 10.0 = 2.302585092994046
 Log value of 25.2 = 3.2268439945173775
 ```
@@ -66,7 +66,7 @@ Log value of 25.2 = 3.2268439945173775
 
 ## Java 语言（一种计算机语言，尤用于创建网站）
 
-```
+```java
 // Java program to illustrate the
 // Java.lang.StrictMath.log() Method
 import java.lang.*;
@@ -96,7 +96,7 @@ public static void main(String[] args) {
 
 **Output:** 
 
-```
+```java
 Log value of 0.0 = -Infinity
 Log value of Infinity = Infinity
 Log value of 1.0 = 0.0

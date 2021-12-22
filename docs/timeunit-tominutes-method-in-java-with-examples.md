@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public long toMinutes(long duration)
 ```
 
@@ -20,7 +20,7 @@ public long toMinutes(long duration)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toMinutes() method of TimeUnit Class
 
@@ -47,7 +47,7 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585683206 milliSeconds in Minutes = 25659761
 ```
 
@@ -55,7 +55,7 @@ Time 1539585683206 milliSeconds in Minutes = 25659761
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // toMinutes() method of TimeUnit Class
 
@@ -84,6 +84,6 @@ class GFG {
 
 **Output:** 
 
-```
+```java
 Time 1539585685664 milliSeconds in Minutes = 25659761
 ```

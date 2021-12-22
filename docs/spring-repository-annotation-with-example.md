@@ -32,7 +32,7 @@ Spring Framework 中有很多注释。下面列出了一些 Spring 框架注释�
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
@@ -48,7 +48,7 @@ Spring Framework 中有很多注释。下面列出了一些 Spring 框架注释�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.entity;
 
 public class Student {
@@ -102,7 +102,7 @@ public class Student {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate DemoRepository File
 
 package com.example.demo.repository;
@@ -122,7 +122,7 @@ public interface DemoRepository<T> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate StudentRepository File
 
 package com.example.demo.repository;
@@ -170,7 +170,7 @@ public class StudentRepository implements DemoRepository<Student> {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo;
 
 import com.example.demo.entity.Student;

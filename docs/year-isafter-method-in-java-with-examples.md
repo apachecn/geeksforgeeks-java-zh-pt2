@@ -6,7 +6,7 @@ Java 中 Year 类的 isaafter()方法用于检查当前 Year 对象是否在指�
 
 **语法**:
 
-```
+```java
 public boolean isAfter(Year otherYear)
 
 ```
@@ -18,7 +18,7 @@ public boolean isAfter(Year otherYear)
 下面的程序用 Java 说明了年度的 isAfter()方法:
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -42,14 +42,14 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 true
 
 ```
 
 **程序 2** :
 
-```
+```java
 // Program to illustrate the isAfter() method
 
 import java.util.*;
@@ -73,7 +73,7 @@ public class GfG {
 
 **Output:**
 
-```
+```java
 false
 
 ```

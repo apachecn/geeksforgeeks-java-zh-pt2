@@ -35,7 +35,7 @@
 
 ***语法:**从其他数据类型创建*
 
-```
+```java
 *Integer hundred = Integer.valueOf("100");
 Boolean value = Boolean.valueOf("True");*
 ```
@@ -44,7 +44,7 @@ Boolean value = Boolean.valueOf("True");*
 
 ## *Java 语言(一种计算机语言，尤用于创建网站)*
 
-```
+```java
 *// Java Program to Show Wrapper class concept
 
 // Importing input output classes
@@ -84,7 +84,7 @@ class GFG {
 
 ***Output**
 
-```
+```java
 45
 5
 ```*

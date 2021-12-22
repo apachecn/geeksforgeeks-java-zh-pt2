@@ -6,7 +6,7 @@ Java 中 OffsetTime 类的 **hashCode()** 方法用于获取这个 Time 实例�
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -19,7 +19,7 @@ public int hashCode()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the hashCode() method
 
 import java.time.OffsetTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hash-code: -1984024609
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the hashCode() method
 
 import java.time.OffsetTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 hash-code: 745450958
 
 ```

@@ -24,7 +24,7 @@
 
 **语法:**
 
-```
+```java
 public static  boolean
   replaceAll(List list, T oldVal, T newVal)
 ```
@@ -41,7 +41,7 @@ public static  boolean
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to replace all occurrences
 // of Specified Element of Java Vector
 
@@ -82,7 +82,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Vector before Replacing is: [5, 6, 8, 5, 9, 1, 5, 2]
 Vector after Replacing is:  [-1, 6, 8, -1, 9, 1, -1, 2]
 ```
@@ -103,7 +103,7 @@ Vector after Replacing is:  [-1, 6, 8, -1, 9, 1, -1, 2]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to replace all occurrences
 // of Specified Element of Java Vector
 
@@ -140,7 +140,7 @@ class GFG {
 
 **Output**
 
-```
+```java
 Vector before Replacing is: [CAT, DOG, CAT, HORSE, TIGER, CAT]
 Vector after Replacing is:  [LION, DOG, LION, HORSE, TIGER, LION]
 ```

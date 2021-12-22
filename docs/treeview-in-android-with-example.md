@@ -30,7 +30,7 @@ TreeView 是一种以树的形式表示数据的模式，这样用户就更容�
 
 ## 可扩展标记语言
 
-```
+```java
 <resources>
     <string name="app_name">GFG App</string>
     <string name="my_node">Node</string>

@@ -17,7 +17,7 @@
     *   **公共数据输入流(input stream in)**t0]
     *   **公共数据输出流(InputStream in)**
 
-        ```
+        ```java
         Syntax: public DataOutputStream(OutputStream out)
         Parameters:
         out - The underlying OutputStream.
@@ -31,7 +31,7 @@
     *   **公共最终字符串 writeUTF()
         抛出 IOException**
 
-        ```
+        ```java
         Writes the string encoded using UTF8 encoding.
         Throws:
         IOException -  the stream has been closed and the contained input stream 
@@ -44,7 +44,7 @@
 
 **客户端实现**
 
-```
+```java
 // Java program to illustrate Client Side Programming
 // for Simple Calculator using TCP
 import java.io.DataInputStream;
@@ -95,7 +95,7 @@ public class Calc_Client
 
 **输出**
 
-```
+```java
 Enter the equation in the form: 'operand operator operand'
 5 * 6
 Answer=30
@@ -118,7 +118,7 @@ Answer=3
 
 **服务器端实现**
 
-```
+```java
 // Java program to illustrate Server Side Programming
 // for Simple Calculator using TCP
 import java.io.DataInputStream;
@@ -189,7 +189,7 @@ public class Calc_Server
 
 **输出:**
 
-```
+```java
 Equation received:-5 * 6
 Sending the result...
 Equation received:-5 + 6

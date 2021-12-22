@@ -11,7 +11,7 @@
 
 为了克服上述问题，SUN 微系统在 JDK 1.5 版本中引入了一个新特性，它就是并发集合。
 
-```
+```java
 // Java program to illustrate Concurrent
 // Collection need
 import java.util.*;

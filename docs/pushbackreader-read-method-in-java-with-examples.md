@@ -10,7 +10,7 @@ Java 中 **[推读类](https://www.geeksforgeeks.org/java-io-pushbackreader-clas
 
 **语法:**
 
-```
+```java
 public int read()
 ```
 
@@ -24,7 +24,7 @@ public int read()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader read() method
 
@@ -76,7 +76,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value of character read: 71
 Actual character read: G
 
@@ -97,7 +97,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader read() method
 
@@ -149,7 +149,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Integer value of character read: 71
 Actual character read: G
 

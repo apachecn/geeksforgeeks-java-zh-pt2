@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 int size()
 
 ```
@@ -19,7 +19,7 @@ int size()
 
 下面的程序说明了 java.util.Set.size()方法:
 
-```
+```java
 // Java code to illustrate Set.size() method
 
 import java.util.*;
@@ -53,7 +53,7 @@ public class SetDemo {
 
 **输出:**
 
-```
+```java
 Set: [4, Geeks, To, Welcome]
 The size of the SortedSet is: 4
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```java
 public void setSeed(byte[] seed)
 ```
 
@@ -20,7 +20,7 @@ public void setSeed(byte[] seed)
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setSeed() method
 
@@ -66,7 +66,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed[0]:69
 Seed[0] : 23
 Seed[1] : -99
@@ -83,7 +83,7 @@ Seed[9] : 47
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setSeed() method
 
@@ -124,7 +124,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed[0]:92
 Seed[1]:127
 Seed[2]:28
@@ -143,7 +143,7 @@ Seed[9]:-78
 
 **语法:**
 
-```
+```java
 public void setSeed( long seed )
 ```
 
@@ -155,7 +155,7 @@ public void setSeed( long seed )
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // setSeed() method
 
@@ -195,7 +195,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed[0] : -36
 Seed[1] : -65
 Seed[2] : -94
@@ -205,7 +205,7 @@ Seed[4] : -104
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // setSeed() method
 
@@ -240,7 +240,7 @@ public class GFG1 {
 
 **输出:**
 
-```
+```java
 Seed[0]:-29
 Seed[1]:-93
 Seed[2]:6

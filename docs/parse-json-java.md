@@ -6,7 +6,7 @@
 
 下面是一个来自维基百科的简单例子，显示了描述一个人的对象的 JSON 表示。该对象具有名和姓的字符串值、年龄的数字值、代表个人地址的对象值以及电话号码对象的数组值。
 
-```
+```java
 {
     "firstName": "John",
     "lastName": "Smith",
@@ -44,7 +44,7 @@
 
 让我们看一个例子，在 JSONObject 和 JSONArray 的帮助下，将上面的 JSON 数据写入一个文件“JSONExample.json”。
 
-```
+```java
 // Java program for write JSON to a file
 
 import java.io.FileNotFoundException;
@@ -108,7 +108,7 @@ public class JSONWriteExample
 
 文件“JSONExample.json”的输出:
 
-```
+```java
 {
      "lastName":"Smith",
     "address":{
@@ -137,7 +137,7 @@ public class JSONWriteExample
 
 让我们看一个例子，在 JSONParser、JSONObject 和 JSONArray 的帮助下，从上面创建的文件“JSONExample.json”中读取 JSON 数据。
 
-```
+```java
 // Java program to read JSON from a file
 
 import java.io.FileReader;
@@ -199,7 +199,7 @@ public class JSONReadExample 
 
 输出:
 
-```
+```java
 John
 Smith
 25

@@ -20,7 +20,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Set<Integer> to int[] in Java 8
 
@@ -60,7 +60,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Set of Integer: [1, 2, 3, 4, 5]
     Array of Integer: [1, 2, 3, 4, 5]
 
@@ -75,7 +75,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Set<Integer> to int[] in Java 8
 
@@ -115,7 +115,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Set of Integer: [1, 2, 3, 4, 5]
     Array of Integer: [1, 2, 3, 4, 5]
 
@@ -132,7 +132,7 @@
 
     **程序:**
 
-    ```
+    ```java
     // Java Program to convert
     // Set<Integer> to int[] in Java 8
 
@@ -174,7 +174,7 @@
 
     **输出:**
 
-    ```
+    ```java
     Set of Integer: [1, 2, 3, 4, 5]
     Array of Integer: [1, 2, 3, 4, 5]
 

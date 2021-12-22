@@ -16,7 +16,7 @@ T3【5。设置图像的位置:我们将使用图像的 setFixedPosition()方法
 **6。向 Pdf 文档添加图像:**使用 Document 类的 Add()方法添加图像对象，使用 Document 类的 close()方法关闭文档。
 **以下是执行程序所需的依赖项:**
 
-```
+```java
 io-7.1.13.jar
 kernel-7.1.13.jar
 layout-7.1.13.jar
@@ -26,7 +26,7 @@ layout-7.1.13.jar
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Setting the Position of the Image
 // in PDF Document using Java
 import com.itextpdf.io.image.ImageData;
@@ -83,7 +83,7 @@ public class SetImagePosition {
 
 **输出:**
 
-```
+```java
 Image  position set successfully in pdf
 ```
 

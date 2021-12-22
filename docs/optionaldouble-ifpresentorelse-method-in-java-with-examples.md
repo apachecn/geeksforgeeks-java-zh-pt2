@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void ifPresentOrElse(DoubleConsumer action,
                             Runnable emptyAction)
 
@@ -24,7 +24,7 @@ public void ifPresentOrElse(DoubleConsumer action,
 下面的程序说明了 ifPresentOrElse()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.ifPresentOrElse() method
 
@@ -54,14 +54,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value is present, its: 12
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalDouble.ifPresentOrElse method
 import java.util.OptionalDouble;
@@ -90,7 +90,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Value is empty
 
 ```

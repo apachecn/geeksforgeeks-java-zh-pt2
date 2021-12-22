@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public final Throwable[] getSuppressed()
 ```
 
@@ -18,7 +18,7 @@ public final Throwable[] getSuppressed()
 
 **例 1:**
 
-```
+```java
 // Java program to demonstrate
 // the getSuppressed() Method.
 
@@ -76,7 +76,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Suppressed Exceptions:
 java.lang.ArrayIndexOutOfBoundsException
 
@@ -84,7 +84,7 @@ java.lang.ArrayIndexOutOfBoundsException
 
 **例 2:**
 
-```
+```java
 // Java program to demonstrate
 // the getSuppressed() Method.
 
@@ -138,7 +138,7 @@ class GFG {
 
 **Output:**
 
-```
+```java
 Suppressed Exception Array length = 0
 
 ```

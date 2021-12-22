@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```java
 public Int orElseThrow()
 
 ```
@@ -21,7 +21,7 @@ public Int orElseThrow()
 下面的程序举例说明了 orElseThrow()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseThrow() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **输出**:
 
-```
+```java
 int Value extracted using orElseThrow() = 12345
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OptionalInt.orElseThrow() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **输出**:
 
-```
+```java
 Exception thrown : java.util.NoSuchElementException: No value present
 
 ```

@@ -6,7 +6,7 @@ Java 中的 **UUID 类**的 **fromString()** 方法用于从相同的标准字�
 
 **语法:**
 
-```
+```java
 public static UUID fromString(String UUID_name)
 ```
 
@@ -20,7 +20,7 @@ public static UUID fromString(String UUID_name)
 
 **程序 1:**
 
-```
+```java
 // Java code to illustrate fromString() method
 
 import java.util.*;
@@ -52,7 +52,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 The specified String is: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 The UUID from specified String: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 
@@ -60,7 +60,7 @@ The UUID from specified String: 5fc03087-d265-11e7-b8c6-83e29cd24f4c
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate fromString() method
 
 import java.util.*;
@@ -92,7 +92,7 @@ public class UUID_Demo {
 
 **Output:**
 
-```
+```java
 The specified String is: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 The UUID from specified String: 58e0a7d7-eebc-11d8-9669-0800200c9a66
 

@@ -39,17 +39,17 @@
 
 **插图:**
 
-```
+```java
 float simpleInterest; 
 // Declaring float variable
 ```
 
-```
+```java
 int time = 10, speed = 20; 
 // Declaring and Initializing integer variable
 ```
 
-```
+```java
 char var = 'h'; 
 // Declaring and Initializing character variable
 ```
@@ -102,7 +102,7 @@ char var = 'h';
 
 **语法:**静态和实例变量
 
-```
+```java
 class GFG
 {
     // Static variable

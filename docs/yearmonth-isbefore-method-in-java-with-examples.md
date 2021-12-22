@@ -6,7 +6,7 @@ Java 中 **Year 类的 **isBefore()** 方法用于检查当前的 YearMonth 对�
 
 **语法** :
 
-```
+```java
 public boolean isBefore(Year otherYearMonth)
 
 ```
@@ -19,7 +19,7 @@ public boolean isBefore(Year otherYearMonth)
 
 **程序 1** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -46,14 +46,14 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 false
 
 ```
 
 **程序二** :
 
-```
+```java
 // Program to illustrate the isBefore() method
 
 import java.util.*;
@@ -80,7 +80,7 @@ public class GfG {
 
 **输出:**
 
-```
+```java
 true
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean isSupported(TemporalField temporalField)
 
 ```
@@ -19,7 +19,7 @@ public boolean isSupported(TemporalField temporalField)
 
 **例 1:**
 
-```
+```java
 // Java code to illustrate isSupported() method
 
 import java.time.*;
@@ -44,7 +44,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:30
 Is Second supported: true
 
@@ -52,7 +52,7 @@ Is Second supported: true
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate isSupported() method
 
 import java.time.*;
@@ -77,7 +77,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 ZoneOffset: +05:00
 Is Nano-Of-The-Day supported: false
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public void setRoundingMode(RoundingMode mode)
 ```
 
@@ -25,7 +25,7 @@ public void setRoundingMode(RoundingMode mode)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -57,7 +57,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 set initially as: HALF_EVEN
 set finally as: FLOOR
 ```
@@ -66,7 +66,7 @@ set finally as: FLOOR
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -98,7 +98,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 set initially as: HALF_EVEN
 set finally as: DOWN
 ```
@@ -107,7 +107,7 @@ set finally as: DOWN
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to implement
 // the above function
 
@@ -145,7 +145,7 @@ public class Main {
 
 **Output:** 
 
-```
+```java
 set initially as: HALF_EVEN
 Exception is: java.lang.NullPointerException
 ```

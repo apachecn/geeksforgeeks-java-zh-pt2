@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 TreeSet.remove(Object O)
 ```
 
@@ -16,7 +16,7 @@ TreeSet.remove(Object O)
 
 下面的程序说明了 Java.util.TreeSet.remove()方法:
 
-```
+```java
 // Java code to illustrate remove()
 import java.util.*;
 import java.util.TreeSet;
@@ -51,7 +51,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, TreeSet, Welcome]
 New TreeSet: [To, Welcome]
 

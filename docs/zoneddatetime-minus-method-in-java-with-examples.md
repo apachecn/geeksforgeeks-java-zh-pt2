@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minus(long amountToSubtract,
                            TemporalUnit unit)
 
@@ -33,7 +33,7 @@ public ZonedDateTime minus(long amountToSubtract,
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minus() method
 
@@ -64,7 +64,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime after subtracting Months:
  2016-06-06T19:21:12.123+05:30[Asia/Calcutta]
 
@@ -76,7 +76,7 @@ ZonedDateTime after subtracting Months:
 
 **语法:**
 
-```
+```java
 public ZonedDateTime minus(TemporalAmount amountTosubtract)
 
 ```
@@ -94,7 +94,7 @@ public ZonedDateTime minus(TemporalAmount amountTosubtract)
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.minus() method
 
@@ -123,7 +123,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 ZonedDateTime after subtracting Days:
  2018-11-26T19:21:12.123+05:30[Asia/Calcutta]
 

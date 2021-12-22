@@ -13,7 +13,7 @@
 
 Spring Boot 入门数据 JPA 说明如下:
 
-```
+```java
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>

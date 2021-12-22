@@ -7,7 +7,7 @@ java 8 中添加了不同的特性，如 lambdas 和 streams，使得 Java 能�
 
 **语法:**
 
-```
+```java
 public static IntStream stream(int[] arr)
 Parameter :
 arr - An array which is to be converted to the stream
@@ -17,7 +17,7 @@ An IntStream of an array
 
 变化:
 
-```
+```java
 public static IntStream stream(int[] array)
 public static IntStream stream(int[] array, int startInclusive, int endExclusive)
 public static DoubleStream stream(double[] array)
@@ -41,7 +41,7 @@ public static  Stream stream(T[] array, int startInclusive, int endExclusive)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 class GFG_Demo_1 {
     public static void main(String[] args)
@@ -74,7 +74,7 @@ class GFG_Demo_1 {
 
 **输出:**
 
-```
+```java
 Average using iteration :10
 Average using streams : 10
 Printing array elements :
@@ -101,7 +101,7 @@ array . stream(arr)。sum()–一旦我们获得了 IntStream，我们就可以�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 import java.util.function.IntPredicate;
 class GFG_Demo_2 {
@@ -172,7 +172,7 @@ class GFG_Demo_2 {
 
 **输出:**
 
-```
+```java
 Example of asDoubleStream():
 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0
 14.0 15.0 16.0 17.0 18.0 19.0 20.0
@@ -201,7 +201,7 @@ true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 class GFG_Demo_3 {
     public static void main(String[] args)
@@ -257,7 +257,7 @@ class GFG_Demo_3 {
 
 **Output**
 
-```
+```java
 These method returns Optional
 Example of average() : 
 OptionalDouble[17.4]
@@ -277,7 +277,7 @@ OptionalInt[348]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.Arrays;
 class GFG_Demo_4 {
 public static void main(String[] args)
@@ -304,7 +304,7 @@ public static void main(String[] args)
 
 **输出:**
 
-```
+```java
 These method convert Optional to primitive
 Example of average() :
 17.4

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public boolean equals(Object obj)
 
 ```
@@ -24,7 +24,7 @@ public boolean equals(Object obj)
 
 **程序 1:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.date.equals()
 import java.util.SimpleTimeZone;
@@ -50,14 +50,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of comparison is : false
 
 ```
 
 **程序 2:**
 
-```
+```java
 // program to demonstrate the
 // function java.util.date.equals()
 import java.util.SimpleTimeZone;
@@ -83,7 +83,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Result of comparison is : true
 
 ```

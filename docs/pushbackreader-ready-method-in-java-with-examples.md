@@ -6,7 +6,7 @@ Java 中 **[推读器类](https://www.geeksforgeeks.org/java-io-pushbackreader-c
 
 **语法:**
 
-```
+```java
 public void ready()
 ```
 
@@ -20,7 +20,7 @@ public void ready()
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader ready() method
 
@@ -60,7 +60,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is PushbackReader ready to be read: true
 Stream Closed.
 
@@ -68,7 +68,7 @@ Stream Closed.
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate
 // PushbackReader ready() method
 
@@ -108,7 +108,7 @@ class GFG {
 
 **输出:**
 
-```
+```java
 Is PushbackReader ready to be read: true
 Stream Closed.
 

@@ -36,7 +36,7 @@ Spring Framework 为我们提供了一些特殊的注释。这些注释用于在
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
@@ -50,7 +50,7 @@ Spring Framework 为我们提供了一些特殊的注释。这些注释用于在
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Component class
 package com.example.demo;
 
@@ -78,7 +78,7 @@ public class ComponentDemo {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to Illustrate Application class
 
 // Importing package here
@@ -133,7 +133,7 @@ public class DemoApplication {
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
@@ -149,7 +149,7 @@ public class DemoApplication {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.service;
 
 import org.springframework.stereotype.Service;
@@ -180,7 +180,7 @@ public class MyServiceClass {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo;
 
 import com.example.demo.service.MyServiceClass;
@@ -227,7 +227,7 @@ public class DemoApplication {
 
 ## 可扩展标记语言
 
-```
+```java
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
@@ -243,7 +243,7 @@ public class DemoApplication {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 package com.example.demo.entity;
 
 public class Student {
@@ -297,7 +297,7 @@ public class Student {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java Program to illustrate DemoRepository File
 
 package com.example.demo.repository;

@@ -8,7 +8,7 @@
 
 **语法:**声明变量
 
-```
+```java
 int x = 10 or int y = 30
 ```
 
@@ -18,7 +18,7 @@ int x = 10 or int y = 30
 
 **语法:**
 
-```
+```java
 Student[]  s = new Student[5];
 ```
 
@@ -30,7 +30,7 @@ Student[]  s = new Student[5];
 
 插图:
 
-```
+```java
 Student s = new Student[1000];
 we can declare like this : s[0] = new Student
 but we cannot declare like this : s[1] = new customer

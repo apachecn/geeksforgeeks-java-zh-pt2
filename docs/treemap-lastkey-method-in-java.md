@@ -6,7 +6,7 @@ java.util.TreeMap.lastKey()用于检索地图中最后或最高的键。
 
 **语法:**
 
-```
+```java
  tree_map.lastKey()
 ```
 
@@ -19,7 +19,7 @@ java.util.TreeMap.lastKey()用于检索地图中最后或最高的键。
 下面的程序说明了 java.util.TreeMap.lastKey()方法的工作:
 **程序 1:**
 
-```
+```java
 // Java code to illustrate the lastKey() method
 import java.util.*;
 
@@ -48,7 +48,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {10=Geeks, 15=4, 20=Geeks, 25=Welcomes, 30=You}
 The last key is 30
 
@@ -56,7 +56,7 @@ The last key is 30
 
 **程序 2:**
 
-```
+```java
 // Java code to illustrate the lastKey() method
 import java.util.*;
 
@@ -85,7 +85,7 @@ public class Tree_Map_Demo {
 
 **Output:**
 
-```
+```java
 The Mappings are: {4=15, Geeks=20, Welcomes=25, You=30}
 The last key is You
 

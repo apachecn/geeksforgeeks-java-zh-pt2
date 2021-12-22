@@ -5,7 +5,7 @@
 [**java.lang.Package 类**](https://www.geeksforgeeks.org/java-lang-package-java/) 的 **getSpecificationTitle()** 方法用于获取该包的规格标题。方法以字符串形式返回包的规范标题。
 **语法:**
 
-```
+```java
 public String getSpecificationTitle()
 ```
 
@@ -16,7 +16,7 @@ public String getSpecificationTitle()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getSpecificationTitle() method
 
@@ -44,7 +44,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.lang, Java Platform API Specification, version 1.8
 Specification title of myPackage: Java Platform API Specification
 ```
@@ -53,7 +53,7 @@ Specification title of myPackage: Java Platform API Specification
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // getSpecificationTitle() method
 
@@ -81,7 +81,7 @@ public class Test {
 
 **Output:** 
 
-```
+```java
 Package represented by myPackage: package java.io, Java Platform API Specification, version 1.8
 Specification title of myPackage: Java Platform API Specification
 ```

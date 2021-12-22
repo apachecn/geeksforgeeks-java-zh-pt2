@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public Object get(Object key)
 
 ```
@@ -25,7 +25,7 @@ Java 程序演示 get()方法的工作原理:
 
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate get() method
 
 import javax.script.SimpleBindings;
@@ -55,14 +55,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 key3 value: value3
 
 ```
 
 **程序二:**
 
-```
+```java
 // Java program to demonstrate get() method
 
 import javax.script.SimpleBindings;
@@ -99,7 +99,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Team1 :India
 Team2 :Sri Lanka
 Team5 :null

@@ -13,7 +13,7 @@ ICMP 与 TCP 和 UDP 等传输协议的不同之处在于，它通常不用于�
 
 这个 Java 程序使用[地址类](https://www.geeksforgeeks.org/networking-class-in-java/)在 Java 中 pings 一个 IP 地址。它在本地主机的情况下是成功的，但是对于其他主机，该程序显示主机不可访问。
 
-```
+```java
 // Java Program to Ping an IP address
 import java.io.*;
 import java.net.*;
@@ -50,7 +50,7 @@ class NewClass
 
 **输出:**
 
-```
+```java
 Sending Ping Request to  127.0.0.1
 Host is reachable
 Sending Ping Request to  133.192.31.42

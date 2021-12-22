@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class priorityQueue {
@@ -44,7 +44,7 @@ d)22 12 11 10 5 2
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class Treeset {
@@ -78,7 +78,7 @@ d)极客暴发户极客
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class linkedList {
@@ -116,7 +116,7 @@ c)GFG 极客 T2 d)GFG 极客乔治
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class hashSet {
@@ -144,7 +144,7 @@ b)【极客暴发户，极客，为】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 import java.util.*;
 
 public class stack {

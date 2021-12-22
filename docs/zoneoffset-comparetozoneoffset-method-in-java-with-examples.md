@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int compareTo(ZoneOffset anotherZoneOffset)
 
 ```
@@ -25,7 +25,7 @@ public int compareTo(ZoneOffset anotherZoneOffset)
 
     **例 1:**
 
-    ```
+    ```java
     // Java code to illustrate compareTo() method
 
     import java.time.*;
@@ -72,7 +72,7 @@ public int compareTo(ZoneOffset anotherZoneOffset)
 
     **Output:**
 
-    ```
+    ```java
     ZoneOffset 1: +05:00
     ZoneOffset 2: +05:00
     ZoneOffset 3: +03:00
@@ -84,7 +84,7 @@ public int compareTo(ZoneOffset anotherZoneOffset)
 
     **示例 2:** 显示空指针异常
 
-    ```
+    ```java
     // Java code to illustrate compareTo() method
 
     import java.time.*;
@@ -115,7 +115,7 @@ public int compareTo(ZoneOffset anotherZoneOffset)
 
     **Output:**
 
-    ```
+    ```java
     ZoneOffset: +03:00
     ZoneOffset compared to null: 
     java.lang.NullPointerException

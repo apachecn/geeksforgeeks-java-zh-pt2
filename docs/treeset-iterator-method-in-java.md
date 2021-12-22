@@ -6,7 +6,7 @@ Java.util.TreeSet.iterator()方法用于返回与 TreeSet 相同元素的迭代�
 
 **语法:**
 
-```
+```java
 Iterator *iterate_value* = Tree_Set.iterator();
 
 ```
@@ -17,7 +17,7 @@ Iterator *iterate_value* = Tree_Set.iterator();
 
 下面程序举例说明了使用 Java.util.TreeSet.iterator()方法:
 
-```
+```java
 // Java code to illustrate iterator()
 import java.util.*;
 import java.util.TreeSet;
@@ -52,7 +52,7 @@ public class TreeSetDemo {
 
 **输出:**
 
-```
+```java
 TreeSet: [4, Geeks, To, Welcome]
 The iterator values are: 
 4

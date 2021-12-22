@@ -8,7 +8,7 @@ Java AWT 包中的 Robot 类用于生成本机系统输入事件，用于测试�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate working of Robot
 // class. This program is for Windows. It opens
 // notepad and types a message.
@@ -93,7 +93,7 @@ public class robo
 
 **输出:**
 
-```
+```java
 The code opens a blank Notepad file and types 
 "hello from geeksforgeeks" onto it with a delay
 of 500 ms before typing out each character.

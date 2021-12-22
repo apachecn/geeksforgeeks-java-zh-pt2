@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public YearMonth plus(TemporalAmount amountToadd)
 ```
 
@@ -25,7 +25,7 @@ public YearMonth plus(TemporalAmount amountToadd)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plus(TemporalAmount amountToadd) method
 
@@ -58,7 +58,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth :2019-11
 Value after addition: 2139-11
 ```
@@ -67,7 +67,7 @@ Value after addition: 2139-11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plus(TemporalAmount amountToadd) method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth :2022-11
 Value after addition: 2039-07
 ```

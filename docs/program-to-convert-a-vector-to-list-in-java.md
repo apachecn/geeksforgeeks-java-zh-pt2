@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```java
 Input: Vector: [1, 2, 3, 4, 5]
 Output: List: [1, 2, 3, 4, 5]
 
@@ -19,7 +19,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **语法:**
 
-    ```
+    ```java
     List list = Collections.list(vec.elements());
 
     ```
@@ -32,7 +32,7 @@ Output : List  = [a, b, c, d, e, f]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to
     // convert vector to List
 
@@ -67,7 +67,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **Output:**
 
-    ```
+    ```java
     Vector: [1, 2, 3, 4, 5]
     List:[1, 2, 3, 4, 5]
 
@@ -77,7 +77,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **语法:**
 
-    ```
+    ```java
     List list = Collections.unmodifiableList(vector);
 
     ```
@@ -90,7 +90,7 @@ Output : List  = [a, b, c, d, e, f]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to
     // convert vector to List
 
@@ -125,7 +125,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **Output:**
 
-    ```
+    ```java
     Vector: [1, 2, 3, 4, 5]
     List:[1, 2, 3, 4, 5]
 
@@ -135,7 +135,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **语法:**
 
-    ```
+    ```java
     List list = new ArrayList(vector);
 
     ```
@@ -148,7 +148,7 @@ Output : List  = [a, b, c, d, e, f]
 
     下面是上述方法的实现:
 
-    ```
+    ```java
     // Java program to
     // convert vector to List
 
@@ -183,7 +183,7 @@ Output : List  = [a, b, c, d, e, f]
 
     **Output:**
 
-    ```
+    ```java
     Vector: [1, 2, 3, 4, 5]
     List:[1, 2, 3, 4, 5]
 

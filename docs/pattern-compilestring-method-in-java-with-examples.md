@@ -5,7 +5,7 @@
 Java 中**模式**类的**编译(字符串)**方法用于从作为参数传递给方法的正则表达式创建模式。每当需要多次将文本与正则表达式模式进行匹配时，请使用 Pattern.compile()方法创建一个模式实例。
 **语法:**
 
-```
+```java
 public static Pattern compile(String regex)
 ```
 
@@ -20,7 +20,7 @@ public static Pattern compile(String regex)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // Pattern.compile() method
 
@@ -57,6 +57,6 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 actualString contains REGEX = true
 ```

@@ -5,7 +5,7 @@
 **ZonedDateTime** 类的**of Trict()**方法，用于创建 ZonedDateTime 实例，严格验证本地日期-时间、偏移量和区域标识的组合，其中所有三个本地日期-时间、区域偏移量和区域标识都作为参数传递。如果偏移量无效，将引发异常。
 **语法:**
 
-```
+```java
 public static ZonedDateTime ofStrict(LocalDateTime localDateTime,
                                      ZoneOffset offset,
                                      ZoneId zone)
@@ -18,7 +18,7 @@ public static ZonedDateTime ofStrict(LocalDateTime localDateTime,
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.ofStrict() method
 
@@ -57,7 +57,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ZonedDateTime is 2019-01-29T23:55:59+01:00[Europe/Paris]
 ```
 
@@ -65,7 +65,7 @@ ZonedDateTime is 2019-01-29T23:55:59+01:00[Europe/Paris]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // ZonedDateTime.ofStrict() method
 
@@ -103,7 +103,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 ZonedDateTime is 2019-01-29T23:55:59Z[UTC]
 ```
 

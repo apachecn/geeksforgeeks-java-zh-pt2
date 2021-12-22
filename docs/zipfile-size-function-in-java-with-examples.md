@@ -6,13 +6,13 @@
 
 **功能签名:**
 
-```
+```java
 public int size()
 ```
 
 **语法:**
 
-```
+```java
 zip_file.size();
 ```
 
@@ -23,7 +23,7 @@ zip_file.size();
 **下面的程序说明了使用 size()函数**
 **示例 1:** 创建一个名为 zip_file 的文件，并使用 size()函数获取条目数。“file.zip”是 f:目录中的一个 zip 文件。
 
-```
+```java
 // Java program to demonstrate the
 // use of size() function
 
@@ -53,14 +53,14 @@ public class solution {
 
 **输出:**
 
-```
+```java
 number of entries= 7
 
 ```
 
 **示例 2:** 创建一个名为 zip_file 的文件，使用 size()函数获取条目数。如果我们关闭文件，然后调用函数 size()，我们将尝试查看函数是否抛出异常。
 
-```
+```java
 // Java program to demonstrate the
 // use of size() function
 
@@ -94,7 +94,7 @@ public class solution {
 
 **输出:**
 
-```
+```java
 zip file closed
 
 ```

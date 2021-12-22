@@ -10,7 +10,7 @@ Java 中 [SortedSet 接口的 headSet()方法用于返回该集合中元素严�
 
 **语法** :
 
-```
+```java
 SortedSet headSet(E toElement)
 
 ```
@@ -31,7 +31,7 @@ SortedSet headSet(E toElement)
 
 **程序 1** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -60,14 +60,14 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Elements strictly less than 7 in set are : [1, 2, 3, 5]
 
 ```
 
 **程序二** :
 
-```
+```java
 // A Java program to demonstrate
 // working of SortedSet
 import java.util.SortedSet;
@@ -96,7 +96,7 @@ public class Main {
 
 **输出:**
 
-```
+```java
 Element strictly less than Z in set is : [Code, For, Geeks, It]
 
 ```

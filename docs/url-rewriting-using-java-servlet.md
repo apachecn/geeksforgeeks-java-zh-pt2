@@ -20,7 +20,7 @@ Url 重写是在加载页面时附加或修改任何 url 结构的过程。
     如果您的浏览器不支持 cookies，URL 重写将为您提供另一种会话跟踪替代方案。网址重写是一种修改请求的网址以包含会话标识的方法。有几种方法可以执行网址重写。
     这里我们讨论会话管理技术，其中我们将控制从一个 servlet 传递到另一个 servlet。将控制从一个 servlet 传递到另一个 servlet 的语法如下
 
-    ```
+    ```java
     // SecondServlet is the name of the servlet where you want to pass control
     out.print("<a href='SecondServlet?uname=" + n + "'>visit</a>");
     ```
@@ -29,7 +29,7 @@ Url 重写是在加载页面时附加或修改任何 url 结构的过程。
 
     注释的语法是:
 
-    ```
+    ```java
     @WebServlet("/ServletName") // at the place of ServletName 
     we have to write the name of our servlet file and this annotation 
     should be written at the starting of class in servlet.
@@ -37,7 +37,7 @@ Url 重写是在加载页面时附加或修改任何 url 结构的过程。
 
     **使用注释的 URL 重写进行会话跟踪的示例**
 
-    ```
+    ```java
     <!-- Save this file as Index.html -->
     <!DOCTYPE html>
     <html>
@@ -56,7 +56,7 @@ Url 重写是在加载页面时附加或修改任何 url 结构的过程。
 
     ![](img/6d641c391f48bfdd52a6e50f8137f80e.png)
 
-    ```
+    ```java
     // Name this file as FirstServlet.java
     package GeeksforGeeks;
     import java.io.*;
@@ -107,7 +107,7 @@ Url 重写是在加载页面时附加或修改任何 url 结构的过程。
 
     ![](img/f0e3a785e728ccc14b3573c52bb8ac14.png)
 
-    ```
+    ```java
     // Name this file as SecondServlet.java
     package GeeksforGeeks;
 

@@ -15,14 +15,14 @@
 
 ### 类别声明
 
-```
+```java
 public final class Quintet<A, B, C, D, E> extends Tuple
 implements IValue0<A>, IValue1<B>, IValue2<C>, IValue3<D>, IValue4<E> 
 ```
 
 ### 类层次
 
-```
+```java
 Object
   ↳ org.javatuples.Tuple
       ↳ org.javatuples.Quintet<A, B, C, D, E>
@@ -33,7 +33,7 @@ Object
 *   **从构造器**:
     T3】语法 :
 
-```
+```java
 Quintet<A, B, C, D, E> quintet = 
     new Quintet<A, B, C, D, E>
         (value1, value2, value3, value4, value5);
@@ -43,7 +43,7 @@ Quintet<A, B, C, D, E> quintet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quintet tuple from Constructor
 
@@ -67,14 +67,14 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 20.18, true]
 ```
 
 *   **使用 with()方法**:with()方法是 JavaTuples 库提供的一个函数，用这样的值来实例化对象。
     **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     Quintet.with(value1, value2, value3, value4, value5);
 ```
@@ -83,7 +83,7 @@ Quintet<type1, type2, type3, type4, type5> quintet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quintet tuple from with() method
 
@@ -107,7 +107,7 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 20.18, true]
 
 ```
@@ -115,7 +115,7 @@ class GfG {
 *   **来自其他集合**:From collection()方法用于从集合创建 Tuple，fromArray()方法用于从数组创建。集合/数组的类型必须与元组的类型相同，并且集合/数组中的值的数量必须与元组类匹配。
     **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     Quintet.fromCollection(collectionWith_5_value);
 
@@ -127,7 +127,7 @@ Quintet<type1, type2, type3, type4, type5> quintet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to create
 // a Quintet tuple from Collection
 
@@ -162,7 +162,7 @@ class GfG {
 
 *   输出:
 
-```
+```java
 [1, 2, 3, 4, 5]
 [1, 2, 3, 4, 5]
 ```
@@ -171,7 +171,7 @@ class GfG {
 GetValueX()方法可用于获取索引 x 处元组中的值。元组中的索引从 0 开始。因此，索引 X 处的值代表位置 X+1 处的值。
 **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     new Quintet<type1, type2, type3, type4, type5>
                    (value1, value2, value3, value4, value5);
@@ -183,7 +183,7 @@ type1 val1 = quintet.getValue0();
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to get
 // a Quintet value
 
@@ -208,7 +208,7 @@ class GfG {
 
 输出:
 
-```
+```java
 1
 A computer portal
 ```
@@ -218,7 +218,7 @@ A computer portal
 由于元组是**不可变的**，这意味着修改索引处的值是不可能的。因此，JavaTuples 提供 **setAtX(value)** ，它在索引 X 处创建一个带有新值的元组副本，并返回该元组。
 **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     new Quintet<type1, type2, type3, type4, type5>
                   (value1, value2, value3, value4, value5);
@@ -231,7 +231,7 @@ Quintet<type1, type2, type3, type4, type5>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to set
 // a Quintet value
 
@@ -258,7 +258,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, 2.018, true]
 ```
 
@@ -266,7 +266,7 @@ class GfG {
 加值可以借助 addAtX()方法完成，其中 X 代表要加值的索引。这个方法返回一个比被调用的元组多一个元素的元组。
 **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     new Quintet<type1, type2, type3, type4, type5>
                    (value1, value2, value3, value4, value5);
@@ -279,7 +279,7 @@ Quintet<type 1, type 2, type 3, type 4, type 5> quintet =
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to add
 // a value
 
@@ -307,7 +307,7 @@ class GfG {
 
 输出:
 
-```
+```java
 [1, GeeksforGeeks, A computer portal, for geeks, 20.18, true, false]
 ```
 
@@ -316,7 +316,7 @@ class GfG {
 可以使用预定义的方法**在元组中搜索元素，该方法包含()**。无论该值是否存在，它都会返回一个布尔值。
 **语法** :
 
-```
+```java
 Quintet<type1, type2, type3, type4, type5> quintet = 
     new Quintet<type1, type2, type3, type4, type5>
                    (value1, value2, value3, value4, value5);
@@ -328,7 +328,7 @@ boolean res = quintet.contains(value2);
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Below is a Java program to search
 // a value in a Quintet
 

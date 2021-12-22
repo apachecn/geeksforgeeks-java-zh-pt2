@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public ValueRange range(TemporalField field)
 
 ```
@@ -23,7 +23,7 @@ public ValueRange range(TemporalField field)
 以下程序举例说明了 range()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime.range() method
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Range in CLOCK_HOUR_OF_AMPM: 1 - 12
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // OffsetDateTime.range() method
 
@@ -90,7 +90,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Range in SECOND_OF_DAY: 0 - 86399
 
 ```

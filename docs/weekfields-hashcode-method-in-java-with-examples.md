@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public int hashCode()
 
 ```
@@ -18,7 +18,7 @@ public int hashCode()
 下面的程序说明了 WeekFields.hashCode()方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.hashCode() method
 
@@ -45,14 +45,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash Code:1
 
 ```
 
 **程序 2:**
 
-```
+```java
 // Java program to demonstrate
 // WeekFields.hashCode() method
 
@@ -82,7 +82,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Hash Code:43
 
 ```

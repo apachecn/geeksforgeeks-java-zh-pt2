@@ -16,7 +16,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // that if superclass is 
 // serializable then subclass 
@@ -106,7 +106,7 @@ public class Test 
 
 **输出:**
 
-```
+```java
 i = 10
 j = 20
 Object has been serialized
@@ -129,7 +129,7 @@ j = 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // the case if superclass need
 // not to be serializable
@@ -225,7 +225,7 @@ public class Test {
 
 **输出:**
 
-```
+```java
 i = 10
 j = 20
 Object has been serialized
@@ -243,7 +243,7 @@ j = 20
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate 
 // how to prevent 
 // subclass from serialization 
@@ -351,7 +351,7 @@ public class Test 
 
 **输出:**
 
-```
+```java
 i = 10
 j = 20
 Exception in thread "main" java.io.NotSerializableException

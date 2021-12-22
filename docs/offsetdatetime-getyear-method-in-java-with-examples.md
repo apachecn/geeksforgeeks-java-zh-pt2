@@ -6,7 +6,7 @@ Java 中 OffsetDateTime 类的 **getYear()** 方法用于获取 Year 字段的�
 
 **语法:**
 
-```
+```java
 public int getYear()
 
 ```
@@ -19,7 +19,7 @@ public int getYear()
 
 **程序 1 :**
 
-```
+```java
 // Java program to demonstrate the getYear() method
 
 import java.time.OffsetDateTime;
@@ -39,14 +39,14 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2018
 
 ```
 
 **程序二** :
 
-```
+```java
 // Java program to demonstrate the getYear() method
 
 import java.time.OffsetDateTime;
@@ -66,7 +66,7 @@ public class GFG {
 
 **输出:**
 
-```
+```java
 Year: 2016
 
 ```

@@ -6,7 +6,7 @@ Java 中**时区类**的 **getOffset()** 方法是用来知道这个时区在某
 
 **语法:**
 
-```
+```java
 public int getOffset(long in_date)
 ```
 
@@ -17,7 +17,7 @@ public int getOffset(long in_date)
 下面的程序说明了时区的 getOffset()方法的工作:
 **例 1:**
 
-```
+```java
 // Java code to illustrate getOffset() method
 
 import java.util.*;
@@ -40,14 +40,14 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The Offset Value is:3600000
 
 ```
 
 **例 2:**
 
-```
+```java
 // Java code to illustrate getOffset() method
 
 import java.util.*;
@@ -70,7 +70,7 @@ public class TimeZoneDemo {
 
 **Output:**
 
-```
+```java
 The Offset Value is:-39600000
 
 ```

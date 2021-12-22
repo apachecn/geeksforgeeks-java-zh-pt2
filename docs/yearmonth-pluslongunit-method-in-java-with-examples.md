@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public YearMonth plus(long amountToadd, TemporalUnit unit)
 ```
 
@@ -29,7 +29,7 @@ public YearMonth plus(long amountToadd, TemporalUnit unit)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plus(long, unit) method
 
@@ -60,7 +60,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth :2017-08
 After addition YearMonth: 2032-08
 ```
@@ -69,7 +69,7 @@ After addition YearMonth: 2032-08
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.plus(long, unit) method
 
@@ -100,7 +100,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 YearMonth :2019-12
 After addition YearMonth: 2022-06
 ```

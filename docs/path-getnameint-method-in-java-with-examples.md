@@ -6,7 +6,7 @@ Java 7 中的 [Java NIO](https://www.geeksforgeeks.org/tag/java-nio-package/) �
 ****Java . nio . file . Path**的 getName(int index)** 方法，用于返回该路径的一个 Name 元素作为 Path 对象。我们将索引作为参数传递，索引表示要返回的 name 元素的索引。目录层次结构中最接近根的元素的索引为 0。离根最远的元素的索引计数为-1。
 **语法:**
 
-```
+```java
 Path getName(int index)
 ```
 
@@ -18,7 +18,7 @@ Path getName(int index)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getName(int index) method
 
@@ -50,7 +50,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Index 3: Problem sets
 ```
 
@@ -58,7 +58,7 @@ Index 3: Problem sets
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```java
 // Java program to demonstrate
 // java.nio.file.Path.getName(int index) method
 
@@ -89,7 +89,7 @@ public class GFG {
 
 **Output:** 
 
-```
+```java
 Index 2: org.eclipse.update
 ```
 

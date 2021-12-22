@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```java
 public <R> R query(TemporalQuery<R> query)
 
 ```
@@ -24,7 +24,7 @@ public <R> R query(TemporalQuery<R> query)
 下面的程序说明了查询()的方法:
 **程序 1:**
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.query() method
 
@@ -53,14 +53,14 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Precision value for YearMonth is Months
 
 ```
 
 **程序 2:** 显示如果查询没有找到所需的对象，则返回空值。
 
-```
+```java
 // Java program to demonstrate
 // YearMonth.query() method
 
@@ -85,7 +85,7 @@ public class GFG {
 
 **Output:**
 
-```
+```java
 Zone value for YearMonth is null
 
 ```

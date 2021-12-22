@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```java
 Input: array = { 3, 9, 2, 3, 1, 7, 2, 3, 5 }, key = 3
 Output: [9, 2, 1, 7, 2, 5]
 
@@ -17,7 +17,7 @@ Output: [20, 30, 50]
 
 1.  ### Use [array to copy](https://www.geeksforgeeks.org/arrays-copyof-in-java-with-examples/) :
 
-    ```
+    ```java
     // Java program remove all occurrences
     // of an element from Array using naive method
 
@@ -52,7 +52,7 @@ Output: [20, 30, 50]
 
     **Output:**
 
-    ```
+    ```java
     [9, 2, 1, 7, 2, 5]
 
     ```
@@ -65,7 +65,7 @@ Output: [20, 30, 50]
 
         下面是上述方法的实现:
 
-        ```
+        ```java
         // Java program remove all occurrences
         // of an element from Array
         // Using Java 8 Stream API
@@ -106,7 +106,7 @@ Output: [20, 30, 50]
 
         **Output:**
 
-        ```
+        ```java
         [9, 2, 1, 7, 2, 5]
 
         ```
@@ -122,7 +122,7 @@ Output: [20, 30, 50]
 
         **程序:**
 
-        ```
+        ```java
         // Java program remove all occurrences
         // of an element from Array
         // Using Java ArrayLists
@@ -174,7 +174,7 @@ Output: [20, 30, 50]
 
         **Output:**
 
-        ```
+        ```java
         [9, 2, 1, 7, 2, 5]
 
         ```
@@ -189,7 +189,7 @@ Output: [20, 30, 50]
 
             **程序:**
 
-            ```
+            ```java
             // Java program remove all occurrences
             // of an element from Array
             // Using Java List
@@ -246,7 +246,7 @@ Output: [20, 30, 50]
 
             **Output:**
 
-            ```
+            ```java
             [9, 2, 1, 7, 2, 5]
 
             ```
@@ -262,7 +262,7 @@ Output: [20, 30, 50]
 
             **程序:**
 
-            ```
+            ```java
             // Java program remove all occurrences
             // of an element from Array
 
@@ -313,7 +313,7 @@ Output: [20, 30, 50]
 
             **Output:**
 
-            ```
+            ```java
             [9, 2, 1, 7, 2, 5]
 
             ```
@@ -329,7 +329,7 @@ Output: [20, 30, 50]
 
             **程序:**
 
-            ```
+            ```java
             // Java program remove all occurrences
             // of an element from Array
 
@@ -378,7 +378,7 @@ Output: [20, 30, 50]
 
             **Output:**
 
-            ```
+            ```java
             [9, 2, 1, 7, 2, 5]
 
             ```
